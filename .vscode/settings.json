@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode/": true,
+    "node_modules/": true,
+    "public/": true,
+    "eslint.config.mjs": true,
+    "next-env.d.ts": true,
+    "next.config.ts": true,
+    "package-lock.json": true,
+    "README.md": true,
+    ".next/dev/": true,
+    "postcss.config.mjs": true,
+    "package.json": true
+  },
+  "hidefiles.configurationType": "global",
+  "hidefiles.selectedProfile": "Strict",
+  "css.lint.unknownAtRules": "ignore"
+}
