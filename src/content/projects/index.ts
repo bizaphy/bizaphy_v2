@@ -1,20 +1,27 @@
-// registry de proyectos
-import GlobalTimeReport from "./global-time-report";
-import HabitTracker from "./habit-tracker";
-import MarketDashboard from "./market-dashboard";
-import TranslationChecker from "./translation-checker";
-import TicTacToe from "./tic-tac-toe";
-import WeatherDashboard from "./weather-dashboard";
+import type { ComponentType } from "react";
 
-export const projectsMap = {
-  "global-time-report": GlobalTimeReport,
-  "habit-tracker": HabitTracker,
-  "market-dashboard": MarketDashboard,
-  "translation-checker": TranslationChecker,
-  "tic-tac-toe": TicTacToe,
-  "weather-dashboard": WeatherDashboard,
+import GlobalTimeReport, { meta as globalTimeReportMeta } from "./global-time-report";
+import HabitTracker, { meta as habitTrackerMeta } from "./habit-tracker";
+import MarketDashboard, { meta as marketDashboardMeta } from "./market-dashboard";
+import TicTacToe, { meta as ticTacToeMeta } from "./tic-tac-toe";
+import TranslationChecker, { meta as translationCheckerMeta } from "./translation-checker";
+import WeatherDashboard, { meta as weatherDashboardMeta } from "./weather-dashboard";
+
+type ProjectEntry = {
+  slug: string;
+  title: string;
+  description: string;
+  image?: string;
+  Component: ComponentType;
 };
 
-export type ProjectSlug = keyof typeof projectsMap;
+export const projectsRegistry: ProjectEntry[] = [
+  { ...habitTrackerMeta, Component: HabitTracker },
+  { ...marketDashboardMeta, Component: MarketDashboard },
+  { ...ticTacToeMeta, Component: TicTacToe },
+  { ...translationCheckerMeta, Component: TranslationChecker },
+  { ...weatherDashboardMeta, Component: WeatherDashboard },
+  { ...globalTimeReportMeta, Component: GlobalTimeReport },
+];
 
-// Las claves del objeto deben coincidir exactamente con los `slug` de `projects.ts`
+export type ProjectSlug = (typeof projectsRegistry)[number]["slug"];

@@ -39,7 +39,22 @@ body {
   .neon-link:hover {
     @apply text-white drop-shadow-[0_0_6px_rgba(255,255,255,0.9)];
   }
+
+  .neon-scroll::-webkit-scrollbar {
+    width: 3px;
+  }
+  .neon-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .neon-scroll::-webkit-scrollbar-thumb {
+    background: rgba(217, 70, 239, 0.35);
+    border-radius: 9999px;
+  }
+  .neon-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(217, 70, 239, 0.7);
+  }
 }
+
 /* animaciones CSS */
 @keyframes neon-border-pulse {
   0%,
