@@ -2,9 +2,7 @@ import AboutCard from "@/content/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
 
 const N = ({ children }: { children: React.ReactNode }) => (
-  <span className="font-bold text-fuchsia-400">
-    {children}
-  </span>
+  <span className="font-bold text-zinc-100">{children}</span>
 );
 
 const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.          ......... ..   ........... = .=:
@@ -69,8 +67,16 @@ export default function AboutPage() {
     <div className="mx-auto max-w-3xl px-6 py-16 flex flex-col gap-8">
       <AboutCard
         imageSrc="/images/profile/bizaphy.png"
-        summary={<><N>B</N>enjamin <N>I</N>gnacio <N>Z</N>uniga <N>A</N>vila.</>}
-        extra={<>Animal favorito: <N>Phy</N>seter Macrocephalus</>}
+        summary={
+          <>
+            <N>B</N>enjamin <N>I</N>gnacio <N>Z</N>uniga <N>A</N>vila.
+          </>
+        }
+        extra={
+          <>
+            Animal favorito: <N>Phy</N>seter Macrocephalus
+          </>
+        }
       />
       <AsciiArt art={ASCII} />
     </div>
