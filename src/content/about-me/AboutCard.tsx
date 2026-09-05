@@ -18,7 +18,7 @@ export default function AboutCard({
     <div className="flex flex-col items-center gap-6 rounded-xl border border-zinc-700 bg-zinc-900 px-8 py-6 sm:flex-row sm:items-center sm:gap-8">
       <div className="flex shrink-0 justify-center sm:w-1/3">
         <div className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-zinc-600">
-          <Image src={imageSrc} alt={imageAlt} fill className="object-cover" />
+          <Image src={imageSrc} alt={imageAlt} fill className="object-cover [filter:grayscale(75%)]" />
         </div>
       </div>
 
