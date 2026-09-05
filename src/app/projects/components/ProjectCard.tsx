@@ -9,11 +9,15 @@ type ProjectCardProps = {
   image?: string;
 };
 
-export default function ProjectCard({ slug, title, description, image }: ProjectCardProps) {
+export default function ProjectCard({
+  slug,
+  title,
+  description,
+  image,
+}: ProjectCardProps) {
   return (
     <Link href={`/projects/${slug}`} className="group block">
-      <article className="flex h-[360px] flex-col overflow-hidden rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 transition duration-300 group-hover:border-fuchsia-400 group-hover:shadow-[0_0_24px_rgba(217,70,239,0.45)]">
-
+      <article className="flex h-90 flex-col overflow-hidden rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 transition duration-300 group-hover:border-fuchsia-400 group-hover:shadow-[0_0_24px_rgba(217,70,239,0.45)]">
         {/* Imagen */}
         <div className="relative h-44 shrink-0 overflow-hidden bg-zinc-900">
           {image ? (
@@ -50,7 +54,7 @@ export default function ProjectCard({ slug, title, description, image }: Project
             </div>
           )}
           {/* Degradado inferior para separar imagen de la info */}
-          <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-zinc-950/80 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-8 bg-linear-to-t from-zinc-950/80 to-transparent" />
         </div>
 
         {/* Info */}
@@ -58,12 +62,13 @@ export default function ProjectCard({ slug, title, description, image }: Project
           <h2 className="text-base font-bold tracking-wide text-white transition duration-200 group-hover:text-fuchsia-300">
             <TextScramble text={title} />
           </h2>
-          <p className="neon-scroll flex-1 overflow-y-auto text-sm leading-relaxed text-zinc-400">{description}</p>
+          <p className="neon-scroll flex-1 overflow-y-auto text-sm leading-relaxed text-zinc-400">
+            {description}
+          </p>
           <span className="mt-3 shrink-0 font-mono text-xs tracking-widest text-fuchsia-500 transition duration-200 group-hover:text-fuchsia-300">
             [ ENTRAR ]
           </span>
         </div>
-
       </article>
     </Link>
   );
