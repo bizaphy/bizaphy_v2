@@ -1,3 +1,5 @@
+import InProgress from "@/components/ui/InProgress";
+
 export default function MarketDashboard() {
-  return null;
+  return <InProgress />;
 }
