@@ -1,5 +1,6 @@
 import AboutCard from "@/content/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
+import LanguageLevels from "@/content/about-me/LanguageLevels";
 
 const N = ({ children }: { children: React.ReactNode }) => (
   <span className="font-bold text-zinc-100">{children}</span>
@@ -79,6 +80,7 @@ export default function AboutPage() {
         }
       />
       <AsciiArt art={ASCII} />
+      <LanguageLevels />
     </div>
   );
 }
