@@ -15,6 +15,7 @@ import WeatherDashboard, {
   meta as weatherDashboardMeta,
 } from "./weather-dashboard";
 import Hangman, { meta as hangmanMeta } from "./hangman";
+import Pokedex, { meta as pokedexMeta } from "./pokedex";
 
 type ProjectEntry = {
   slug: string;
@@ -32,6 +33,7 @@ export const projectsRegistry: ProjectEntry[] = [
   { ...weatherDashboardMeta, Component: WeatherDashboard },
   { ...globalTimeReportMeta, Component: GlobalTimeReport },
   { ...hangmanMeta, Component: Hangman },
+  { ...pokedexMeta, Component: Pokedex },
 ];
 
 export type ProjectSlug = ProjectEntry["slug"];
