@@ -12,6 +12,7 @@ const PROJECTS = [
   { slug: "weather-dashboard", title: "Weather Dashboard" },
   { slug: "global-time-report", title: "Global Time Report" },
   { slug: "hangman", title: "Hangman" },
+  { slug: "pokedex", title: "Pokedex" },
 ];
 
 const OUTPUT_DIR = path.join(import.meta.dirname, "..", "public", "images", "projects");
