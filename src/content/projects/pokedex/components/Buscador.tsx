@@ -155,7 +155,7 @@ export function Buscador() {
           <img
             src={pokemon.sprites.front_default}
             alt={pokemon.name}
-            className="mx-auto h-[120px] w-[120px] [image-rendering:pixelated]"
+            className="mx-auto h-30 w-30 [image-rendering:pixelated]"
           />
           <p className="mt-2 text-sm text-zinc-400">
             Llevas {segundos}s viendo a {pokemon.name}
@@ -170,7 +170,10 @@ export function Buscador() {
       )}
 
       <Historial historial={historial} />
-      <Favoritos favoritos={favoritos} onQuitarFavorito={handleQuitarFavorito} />
+      <Favoritos
+        favoritos={favoritos}
+        onQuitarFavorito={handleQuitarFavorito}
+      />
     </div>
   );
 }
