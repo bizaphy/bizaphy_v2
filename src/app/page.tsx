@@ -2,6 +2,7 @@ import TextScramble from "@/components/effects/TextScramble";
 import StatsCard from "@/content/home/StatsCard";
 import Changelog from "@/content/home/Changelog";
 import APILights from "@/content/home/APILights";
+import FraseDelDia from "@/content/home/FraseDelDia";
 
 export default function Home() {
   return (
@@ -11,9 +12,20 @@ export default function Home() {
         {" "}
         <TextScramble text="stats" />
       </p>
-      <StatsCard />
-      <APILights />
-      <Changelog />
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="sm:col-span-1 flex">
+          <StatsCard className="flex-1" />
+        </div>
+        <div className="sm:col-span-2">
+          <APILights />
+        </div>
+        <div className="sm:col-span-3">
+          <FraseDelDia />
+        </div>
+        <div className="sm:col-span-3">
+          <Changelog />
+        </div>
+      </div>
     </div>
   );
 }

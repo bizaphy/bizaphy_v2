@@ -10,12 +10,18 @@ const PROJECTS = [
   { slug: "tic-tac-toe", title: "Tic Tac Toe" },
   { slug: "translation-checker", title: "Translation Checker" },
   { slug: "weather-dashboard", title: "Weather Dashboard" },
-  { slug: "global-time-report", title: "Global Time Report" },
+  { slug: "all-about-kanjis", title: "All About Kanjis" },
   { slug: "hangman", title: "Hangman" },
   { slug: "pokedex", title: "Pokedex" },
 ];
 
-const OUTPUT_DIR = path.join(import.meta.dirname, "..", "public", "images", "projects");
+const OUTPUT_DIR = path.join(
+  import.meta.dirname,
+  "..",
+  "public",
+  "images",
+  "projects",
+);
 
 async function takeScreenshots() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
