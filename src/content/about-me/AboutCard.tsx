@@ -22,6 +22,7 @@ export default function AboutCard({
             src={imageSrc}
             alt={imageAlt}
             fill
+            sizes="128px"
             className="object-cover filter-[grayscale(75%)]"
           />
         </div>
