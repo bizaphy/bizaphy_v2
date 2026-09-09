@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projectsRegistry } from "@/content/projects";
 
 type PageProps = {
@@ -10,9 +11,16 @@ export default async function ProjectSlugPage(props: PageProps) {
 
   if (!entry) {
     return (
-      <div>
-        <h1>Proyecto no encontrado</h1>
-        <p>No existe un proyecto con el slug &quot;{slug}&quot;.</p>
+      <div className="flex flex-col items-center gap-4 py-16">
+        <Image
+          src="/images/misc/dorothy-crying-gif.gif"
+          alt="Proyecto no encontrado"
+          width={200}
+          height={200}
+          unoptimized
+        />
+        <h1 className="text-xl font-bold text-zinc-100">Proyecto no encontrado</h1>
+        <p className="text-sm text-zinc-400">No existe un proyecto con el slug &quot;{slug}&quot;.</p>
       </div>
     );
   }

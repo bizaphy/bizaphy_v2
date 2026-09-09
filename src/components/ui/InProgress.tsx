@@ -20,7 +20,7 @@ export default function InProgress({
         "
       >
         <Image
-          src="/images/misc/pixel-dorothy.gif"
+          src="/images/misc/dorothy-pixel.gif"
           alt="Proyecto en progreso"
           fill
           className="object-cover"
