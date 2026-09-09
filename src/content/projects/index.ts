@@ -1,8 +1,6 @@
 import type { ComponentType } from "react";
 
-import GlobalTimeReport, {
-  meta as globalTimeReportMeta,
-} from "./global-time-report";
+import AllAboutKanjis, { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
 import HabitTracker, { meta as habitTrackerMeta } from "./habit-tracker";
 import MarketDashboard, {
   meta as marketDashboardMeta,
@@ -31,7 +29,7 @@ export const projectsRegistry: ProjectEntry[] = [
   { ...ticTacToeMeta, Component: TicTacToe },
   { ...translationCheckerMeta, Component: TranslationChecker },
   { ...weatherDashboardMeta, Component: WeatherDashboard },
-  { ...globalTimeReportMeta, Component: GlobalTimeReport },
+  { ...AllAboutKanjisMeta, Component: AllAboutKanjis },
   { ...hangmanMeta, Component: Hangman },
   { ...pokedexMeta, Component: Pokedex },
 ];

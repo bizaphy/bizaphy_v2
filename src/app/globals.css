@@ -66,6 +66,16 @@ body {
   }
 }
 
+@keyframes led-blink-neutral {
+  0%,
+  100% { opacity: 1; }
+  50%  { opacity: 0.3; }
+}
+
+.neon-led-neutral {
+  animation: led-blink-neutral 2s ease-in-out infinite;
+}
+
 @keyframes led-blink {
   0%,
   100% {
