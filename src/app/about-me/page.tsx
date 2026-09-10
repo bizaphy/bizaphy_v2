@@ -1,6 +1,6 @@
-import AboutCard from "@/content/about-me/AboutCard";
+import AboutCard from "@/components/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
-import LanguageLevels from "@/content/about-me/LanguageLevels";
+import LanguageLevels from "@/components/about-me/LanguageLevels";
 
 const N = ({ children }: { children: React.ReactNode }) => (
   <span className="font-bold text-zinc-100">{children}</span>
@@ -67,7 +67,7 @@ export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16 flex flex-col gap-8">
       <AboutCard
-        imageSrc="/images/profile/bizaphy.png"
+        imageSrc="/images/profile/bizaphy.webp"
         summary={
           <>
             <N>B</N>enjamin <N>I</N>gnacio <N>Z</N>uniga <N>A</N>vila.

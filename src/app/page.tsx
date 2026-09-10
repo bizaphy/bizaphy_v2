@@ -1,8 +1,8 @@
 import TextScramble from "@/components/effects/TextScramble";
-import StatsCard from "@/content/home/StatsCard";
-import Changelog from "@/content/home/Changelog";
-import APILights from "@/content/home/APILights";
-import FraseDelDia from "@/content/home/FraseDelDia";
+import StatsCard from "@/components/home/StatsCard";
+import Changelog from "@/components/home/Changelog";
+import APILights from "@/components/home/APILights";
+import FraseDelDia from "@/components/home/FraseDelDia";
 
 export default function Home() {
   return (

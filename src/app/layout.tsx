@@ -2,8 +2,8 @@
 import type { Metadata } from "next";
 import { Oxanium } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout-components/Navbar";
-import Footer from "@/components/layout-components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import DigitalRain from "@/components/effects/DigitalRain";
 
 const oxanium = Oxanium({
