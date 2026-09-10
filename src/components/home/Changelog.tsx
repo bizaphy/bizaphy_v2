@@ -4,6 +4,8 @@ type Entry = {
 };
 
 const entries: Entry[] = [
+  { date: "2026-09-10", description: "About me: nuevas secciones Stack (chips por nivel), Aprendiendo ahora (roadmap de 5 pasos con hover) y Setup" },
+  { date: "2026-09-10", description: "Hangman: pista opcional (cuenta como 2 errores) y ficha con imagen de Wikipedia al ganar" },
   { date: "2026-09-10", description: "Reorganización de estructura: guidelines a raíz, layout/ renombrado, content/home y content/about-me movidos a components/" },
   { date: "2026-09-09", description: "Corrección: prop sizes en imagen de perfil" },
   { date: "2026-09-07", description: "Pokedex: se agrega al registro de proyectos" },
@@ -18,7 +20,7 @@ const entries: Entry[] = [
 
 export default function Changelog() {
   return (
-    <div className="rounded-xl border border-zinc-700 bg-zinc-900 px-6 py-4 flex flex-col gap-3">
+    <div className="rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 px-6 py-4 flex flex-col gap-3">
       <h2 className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
         Changelog
       </h2>

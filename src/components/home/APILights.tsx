@@ -19,6 +19,11 @@ const APIS: APIEntry[] = [
     name: "PokéAPI",
     url: "https://pokeapi.co/api/v2/pokemon/1",
   },
+  {
+    //REST summary de Wikipedia en español (la usa Hangman al ganar para traer imagen + link)
+    name: "Wikipedia ES",
+    url: "https://es.wikipedia.org/api/rest_v1/page/summary/Santiago_de_Chile",
+  },
 ];
 //El type record (K,V) tiene su key en K y su valor en V. En este caso la key es el Status.
 const statusStyles: Record<Status, string> = {

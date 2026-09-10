@@ -1,9 +1,12 @@
 import AboutCard from "@/components/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
 import LanguageLevels from "@/components/about-me/LanguageLevels";
+import Skills from "@/components/about-me/Skills";
+import NowLearning from "@/components/about-me/NowLearning";
+import Setup from "@/components/about-me/Setup";
 
 const N = ({ children }: { children: React.ReactNode }) => (
-  <span className="font-bold text-zinc-100">{children}</span>
+  <span className="font-bold text-fuchsia-400">{children}</span>
 );
 
 const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.          ......... ..   ........... = .=:
@@ -81,6 +84,9 @@ export default function AboutPage() {
       />
       <AsciiArt art={ASCII} />
       <LanguageLevels />
+      <Skills />
+      <NowLearning />
+      <Setup />
     </div>
   );
 }

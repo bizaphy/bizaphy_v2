@@ -3,14 +3,15 @@ import StatsCard from "@/components/home/StatsCard";
 import Changelog from "@/components/home/Changelog";
 import APILights from "@/components/home/APILights";
 import FraseDelDia from "@/components/home/FraseDelDia";
+import Hero from "@/components/home/Hero";
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16 flex flex-col gap-8">
       <h1 className="text-3xl font-bold text-center">/bizaphy</h1>
-      <p className="text-zinc-400">
-        {" "}
-        <TextScramble text="stats" />
+      <Hero />
+      <p className="text-center text-zinc-400">
+        <TextScramble text="/stats" />
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="sm:col-span-1 flex">

@@ -7,7 +7,10 @@ type WikiInfo = {
   url: string;
 };
 
-async function fetchWikiInfo(title: string, signal: AbortSignal): Promise<WikiInfo> {
+async function fetchWikiInfo(
+  title: string,
+  signal: AbortSignal,
+): Promise<WikiInfo> {
   const encoded = encodeURIComponent(title.replace(/ /g, "_"));
   const fallbackUrl = `https://es.wikipedia.org/wiki/${encoded}`;
   const res = await fetch(
@@ -124,7 +127,10 @@ export default function Hangman() {
       {/* Slot principal: dibujo del ahorcado / imagen wikipedia al ganar */}
       {gameStatus === "won" ? (
         <a
-          href={wikiInfo?.url ?? `https://es.wikipedia.org/wiki/${encodeURIComponent(entry.wikipedia.replace(/ /g, "_"))}`}
+          href={
+            wikiInfo?.url ??
+            `https://es.wikipedia.org/wiki/${encodeURIComponent(entry.wikipedia.replace(/ /g, "_"))}`
+          }
           target="_blank"
           rel="noopener noreferrer"
           className="group flex flex-col items-center gap-2"
@@ -187,7 +193,7 @@ export default function Hangman() {
       </div>
 
       {/* PISTA */}
-      <div className="flex flex-col items-center gap-2 min-h-[3.5rem]">
+      <div className="flex flex-col items-center gap-2 min-h-14">
         {!hintRevealed ? (
           <button
             onClick={() => setHintRevealed(true)}

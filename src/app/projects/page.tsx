@@ -1,3 +1,4 @@
+import BannerInfo from "./components/BannerInfo";
 import ProjectList from "./components/ProjectList";
 import TextScramble from "@/components/effects/TextScramble";
 
@@ -9,11 +10,11 @@ export default function ProjectsPage() {
           <TextScramble text="Projects" />
         </h1>
 
-        {/* <p className="mt-2 text-sm opacity-80">
-          Placeholder, por si algun dia quiero poner algo aca xD
-        </p> */}
-
         <section className="mt-6">
+          <BannerInfo />
+        </section>
+
+        <section className="mt-12">
           <ProjectList />
         </section>
       </div>
