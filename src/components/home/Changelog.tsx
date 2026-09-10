@@ -4,6 +4,7 @@ type Entry = {
 };
 
 const entries: Entry[] = [
+  { date: "2026-09-10", description: "Reorganización de estructura: guidelines a raíz, layout/ renombrado, content/home y content/about-me movidos a components/" },
   { date: "2026-09-09", description: "Corrección: prop sizes en imagen de perfil" },
   { date: "2026-09-07", description: "Pokedex: se agrega al registro de proyectos" },
   { date: "2026-09-07", description: "Hangman: refactorización a lógica real" },
