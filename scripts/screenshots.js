@@ -7,11 +7,11 @@ const BASE_URL = process.argv[2] || "http://localhost:3000";
 
 const PROJECTS = [
   { slug: "habit-tracker", title: "Habit Tracker" },
-  { slug: "market-dashboard", title: "Market Dashboard" },
+  { slug: "apothecary", title: "Apothecary" },
   { slug: "tic-tac-toe", title: "Tic Tac Toe" },
   { slug: "translation-checker", title: "Translation Checker" },
   { slug: "weather-dashboard", title: "Weather Dashboard" },
-  { slug: "global-time-report", title: "Global Time Report" },
+  { slug: "all-about-kanjis", title: "All About Kanjis" },
   { slug: "hangman", title: "Hangman" },
 ];
 
@@ -36,7 +36,8 @@ async function takeScreenshots() {
       await page.screenshot({ path: outputPath, fullPage: false });
       console.log(`✓`);
     } catch (err) {
-      console.log(`✗ (${err.message})`);
+      const message = err instanceof Error ? err.message : String(err);
+      console.log(`✗ (${message})`);
     }
   }
 

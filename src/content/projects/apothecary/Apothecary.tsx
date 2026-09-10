@@ -1,5 +1,5 @@
 import InProgress from "@/components/ui/InProgress";
 
-export default function MarketDashboard() {
+export default function Apothecary() {
   return <InProgress />;
 }

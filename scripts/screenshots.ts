@@ -6,7 +6,7 @@ const BASE_URL = process.argv[2] ?? "http://localhost:3000";
 
 const PROJECTS = [
   { slug: "habit-tracker", title: "Habit Tracker" },
-  { slug: "market-dashboard", title: "Market Dashboard" },
+  { slug: "apothecary", title: "Apothecary" },
   { slug: "tic-tac-toe", title: "Tic Tac Toe" },
   { slug: "translation-checker", title: "Translation Checker" },
   { slug: "weather-dashboard", title: "Weather Dashboard" },

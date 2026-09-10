@@ -2,9 +2,7 @@ import type { ComponentType } from "react";
 
 import AllAboutKanjis, { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
 import HabitTracker, { meta as habitTrackerMeta } from "./habit-tracker";
-import MarketDashboard, {
-  meta as marketDashboardMeta,
-} from "./market-dashboard";
+import Apothecary, { meta as apothecaryMeta } from "./apothecary";
 import TicTacToe, { meta as ticTacToeMeta } from "./tic-tac-toe";
 import TranslationChecker, {
   meta as translationCheckerMeta,
@@ -25,7 +23,7 @@ type ProjectEntry = {
 
 export const projectsRegistry: ProjectEntry[] = [
   { ...habitTrackerMeta, Component: HabitTracker },
-  { ...marketDashboardMeta, Component: MarketDashboard },
+  { ...apothecaryMeta, Component: Apothecary },
   { ...ticTacToeMeta, Component: TicTacToe },
   { ...translationCheckerMeta, Component: TranslationChecker },
   { ...weatherDashboardMeta, Component: WeatherDashboard },
