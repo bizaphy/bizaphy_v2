@@ -61,9 +61,7 @@ export default function Setup() {
               {section.lines.map((line) => (
                 <li key={line.key} className="flex gap-2">
                   {/* min-w para que las keys queden alineadas entre si */}
-                  <span className="min-w-[54px] text-zinc-600">
-                    {line.key}:
-                  </span>
+                  <span className="min-w-13.5 text-zinc-600">{line.key}:</span>
                   <span className="text-zinc-300">{line.value}</span>
                 </li>
               ))}

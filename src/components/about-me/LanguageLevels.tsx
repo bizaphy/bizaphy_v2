@@ -95,8 +95,8 @@ export default function LanguageLevels() {
         {entries.map(([key, lang]) => (
           //fila por idioma: bandera, nombre, barra y label a la derecha
           <li key={key} className="flex items-center gap-4">
-            {/* bandera decorativa, sin interaccion */}
-            <div className="h-9 w-9 shrink-0 overflow-hidden rounded-full border border-zinc-700">
+            {/* bandera decorativa, sin interaccion. Rectangular para respetar la proporcion original de las banderas y alinearse con los cuadrados de la barra CEFR. */}
+            <div className="h-6 w-9 shrink-0 overflow-hidden rounded-sm border border-zinc-700">
               {lang.flag}
             </div>
             <span className="w-24 font-mono text-sm text-zinc-300">
