@@ -28,7 +28,7 @@ export default function FraseDelDia() {
 
       <div className="flex flex-col items-center gap-4 px-6 py-6 flex-1">
         <div className="group relative h-32 w-32 rounded-lg">
-          <div className="h-full w-full overflow-hidden rounded-lg">
+          <div className="relative h-full w-full overflow-hidden rounded-lg">
             <Image
               src={frase.imagen}
               alt="Frase del día"
