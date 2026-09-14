@@ -13,8 +13,7 @@
     "package-lock.json": true,
     "README.md": true,
     ".next/dev/": true,
-    "postcss.config.mjs": true,
-    "package.json": true
+    "postcss.config.mjs": true
   },
   "hidefiles.configurationType": "global",
   "hidefiles.selectedProfile": "Strict",
