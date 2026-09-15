@@ -42,7 +42,7 @@ export default function StatsCard({ className = "" }: { className?: string }) {
           {/* scanlines sutiles encima para amarrar la estetica CRT */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.18)_1px,transparent_1px)] bg-[length:100%_2px] mix-blend-overlay"
+            className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.18)_1px,transparent_1px)] bg-size-[100%_2px] mix-blend-overlay"
           />
         </div>
       </div>
