@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "screenshots": "tsx scripts/screenshots.ts",
-    "screenshots:prod": "tsx scripts/screenshots.ts https://tu-dominio.com"
+    "screenshots:prod": "tsx scripts/screenshots.ts https://tu-dominio.com",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -25,6 +29,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
