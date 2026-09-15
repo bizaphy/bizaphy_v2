@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Hobby = {
   name: string;
@@ -103,6 +103,22 @@ const HOBBIES: Hobby[] = [
 export default function Hobbies() {
   const [selected, setSelected] = useState<number | null>(null);
   const haySeleccion = selected !== null;
+  const hobbiesRowRef = useRef<HTMLDivElement>(null);
+
+  //cierra la seleccion al clickear fuera de la fila
+  useEffect(() => {
+    if (!haySeleccion) return;
+
+    const handlePointerDown = (event: PointerEvent) => {
+      const target = event.target as Node | null;
+      if (hobbiesRowRef.current && target && !hobbiesRowRef.current.contains(target)) {
+        setSelected(null);
+      }
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, [haySeleccion]);
 
   return (
     <div className="rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 p-5">
@@ -111,7 +127,7 @@ export default function Hobbies() {
       </h2>
 
       {/* Cuatro cards en fila. Al hacer clic en una, esa se ensancha (flex-[2]) y las demas se comprimen (flex-1). */}
-      <div className="flex items-stretch gap-2">
+      <div ref={hobbiesRowRef} className="flex items-stretch gap-2">
         {HOBBIES.map((hobby, i) => {
           const isSelected = selected === i;
           const isDimmed = haySeleccion && !isSelected;

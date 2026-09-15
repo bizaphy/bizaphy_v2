@@ -2,7 +2,7 @@ import Image from "next/image";
 
 //URLs de perfiles. Editar aqui cuando confirmes las direcciones reales.
 const GITHUB_URL = "https://github.com/bizaphy";
-const LINKEDIN_URL = "#"; //TODO: reemplazar con la URL real del perfil de LinkedIn
+const LINKEDIN_URL = "https://www.linkedin.com/in/bizaphy/";
 
 //iconos de marca oficiales (paths simplificados del brandbook de cada plataforma)
 const GitHubIcon = () => (
@@ -48,7 +48,7 @@ export default function SocialLinks() {
         </span>
       </a>
 
-      {/* Cuadrado 2: gif decorativo (Jill Stingray). Ocupa el cuadrado entero, sin padding, para no restar impacto visual. */}
+      {/* Cuadrado 2: gif decorativo (Jill Stingray). sin padding, cuadro entero. */}
       <div className="relative aspect-square overflow-hidden">
         <Image
           src="/images/misc/jill-stingray.gif"
