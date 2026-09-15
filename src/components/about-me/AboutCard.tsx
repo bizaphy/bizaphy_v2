@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import TextScramble from "@/components/effects/TextScramble";
 
 type AboutCardProps = {
   imageSrc: string;
@@ -29,7 +30,9 @@ export default function AboutCard({
       </div>
 
       <div className="flex w-full flex-col gap-3 text-center sm:w-2/3 sm:text-left">
-        <h2 className="text-xl font-bold text-zinc-100">@bout me</h2>
+        <h2 className="text-xl font-bold text-zinc-100">
+          <TextScramble text="@bout me" />
+        </h2>
         <p className="text-sm leading-relaxed text-zinc-400">{summary}</p>
         {extra && (
           <p className="text-xs leading-relaxed text-zinc-500">{extra}</p>

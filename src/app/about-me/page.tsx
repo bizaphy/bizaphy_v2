@@ -1,8 +1,13 @@
 import AboutCard from "@/components/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
+import BackToTopDots from "@/components/ui/BackToTopDots";
 import LanguageLevels from "@/components/about-me/LanguageLevels";
+import Education from "@/components/about-me/Education";
+import Certifications from "@/components/about-me/Certifications";
 import Skills from "@/components/about-me/Skills";
 import NowLearning from "@/components/about-me/NowLearning";
+import Hobbies from "@/components/about-me/Hobbies";
+import SocialLinks from "@/components/about-me/SocialLinks";
 import Setup from "@/components/about-me/Setup";
 
 const N = ({ children }: { children: React.ReactNode }) => (
@@ -84,9 +89,14 @@ export default function AboutPage() {
       />
       <AsciiArt art={ASCII} />
       <LanguageLevels />
+      <Education />
+      <Certifications />
       <Skills />
       <NowLearning />
+      <Hobbies />
       <Setup />
+      <SocialLinks />
+      <BackToTopDots />
     </div>
   );
 }

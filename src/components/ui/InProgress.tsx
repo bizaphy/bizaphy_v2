@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TextScramble from "@/components/effects/TextScramble";
 
 interface InProgressProps {
   message?: string;
@@ -30,7 +31,7 @@ export default function InProgress({
 
       <p className="font-mono text-center px-4 max-w-sm text-sm sm:text-base lg:text-lg text-zinc-400">
         <span className="text-fuchsia-500">// </span>
-        {message}
+        <TextScramble text={message} />
       </p>
     </div>
   );
