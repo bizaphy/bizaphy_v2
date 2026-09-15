@@ -30,7 +30,6 @@ const GROUPS: Group[] = [
     items: [
       { name: "VS Code", level: "solido" },
       { name: "Git", level: "competente" },
-      { name: "Playwright", level: "aprendiendo" },
     ],
   },
 ];

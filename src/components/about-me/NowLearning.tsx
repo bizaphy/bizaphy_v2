@@ -27,7 +27,7 @@ const TRACKS: Track[] = [
       "Migrations",
       "Patrones avanzados",
     ],
-    stepsCompleted: 1,
+    stepsCompleted: 2,
   },
 ];
 

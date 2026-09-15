@@ -9,6 +9,7 @@ interface LangData {
   filled: number; // segmentos CEFR completos (A1, A2, B1, B2, C1, C2 -> 6). NATIVO se refleja solo en el label.
   partial: boolean; //si el sgte segmento esta a medias (en proceso).
   flag: React.ReactNode;
+  labelUrl?: string; //si esta presente, el label se renderiza como enlace externo (referencia oficial del nivel).
 }
 
 //banderas inline como SVG para no depender de assets externos.
@@ -66,13 +67,15 @@ const LANGUAGES: Record<LangKey, LangData> = {
     filled: 4, // hasta B2 solido
     partial: true, // C1 en proceso
     flag: <EnglandFlag />,
+    labelUrl: "https://learnenglish.britishcouncil.org/level/understand-your-english-level",
   },
   jp: {
     name: "日本語",
-    label: "N4",
+    label: "JLPT N4",
     filled: 2, // N4 ≈ A2 solido
     partial: true, // N3 ≈ B1 en proceso
     flag: <JapanFlag />,
+    labelUrl: "https://www.jlpt.jp/sp/e/about/levelsummary.html",
   },
 };
 
@@ -111,10 +114,22 @@ export default function LanguageLevels() {
                 labels={CEFR_LABELS}
               />
             </div>
-            {/* label a la derecha: aca aparece NATIVO / B2/C1 / N4 */}
-            <span className="w-16 text-right font-mono text-xs font-bold uppercase tracking-wider text-fuchsia-400 drop-shadow-[0_0_6px_rgba(217,70,239,0.6)]">
-              {lang.label}
-            </span>
+            {/* label a la derecha: aca aparece NATIVO / B2/C1 / JLPT N4.
+                Si el idioma tiene labelUrl, se renderiza como enlace externo hacia la referencia oficial del nivel. */}
+            {lang.labelUrl ? (
+              <a
+                href={lang.labelUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-20 text-right font-mono text-xs font-bold uppercase tracking-wider text-fuchsia-400 drop-shadow-[0_0_6px_rgba(217,70,239,0.6)] transition hover:text-fuchsia-300 hover:underline"
+              >
+                {lang.label}
+              </a>
+            ) : (
+              <span className="w-20 text-right font-mono text-xs font-bold uppercase tracking-wider text-fuchsia-400 drop-shadow-[0_0_6px_rgba(217,70,239,0.6)]">
+                {lang.label}
+              </span>
+            )}
           </li>
         ))}
       </ul>

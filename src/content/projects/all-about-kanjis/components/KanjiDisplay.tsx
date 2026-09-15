@@ -3,6 +3,7 @@ type Props = {
   significado: string;
   onyomi: string | null;
   kunyomi: string | null;
+  numeroTrazos: number;
 };
 
 export default function KanjiDisplay({
@@ -10,6 +11,7 @@ export default function KanjiDisplay({
   significado,
   onyomi,
   kunyomi,
+  numeroTrazos,
 }: Props) {
   return (
     <section className="flex items-stretch gap-6 p-4">
@@ -43,6 +45,11 @@ export default function KanjiDisplay({
           <div className="font-mono text-lg text-fuchsia-200">
             {kunyomi ?? <span className="text-zinc-600">—</span>}
           </div>
+        </div>
+
+        <div className="font-mono text-xs text-zinc-400">
+          <span className="text-zinc-500">N° Trazos:</span>{" "}
+          <span className="text-fuchsia-200">{numeroTrazos}</span>
         </div>
       </div>
     </section>
