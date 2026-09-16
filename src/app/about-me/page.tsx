@@ -5,7 +5,6 @@ import LanguageLevels from "@/components/about-me/LanguageLevels";
 import Education from "@/components/about-me/Education";
 import Certifications from "@/components/about-me/Certifications";
 import Skills from "@/components/about-me/Skills";
-import NowLearning from "@/components/about-me/NowLearning";
 import Hobbies from "@/components/about-me/Hobbies";
 import SocialLinks from "@/components/about-me/SocialLinks";
 import Setup from "@/components/about-me/Setup";
@@ -92,7 +91,6 @@ export default function AboutPage() {
       <Education />
       <Certifications />
       <Skills />
-      <NowLearning />
       <Hobbies />
       <Setup />
       <SocialLinks />
