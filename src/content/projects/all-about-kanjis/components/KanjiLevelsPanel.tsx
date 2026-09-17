@@ -1,12 +1,10 @@
 "use client";
 
-import { useState } from "react";
-
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"] as const;
 type Level = (typeof LEVELS)[number];
 
-// N2 y N1 todavia no tienen contenido cargado, se muestran deshabilitados.
-const DISABLED_LEVELS: readonly Level[] = ["N2", "N1"];
+// N3, N2 y N1 todavia no tienen contenido cargado en la BDD, se muestran deshabilitados.
+const DISABLED_LEVELS: readonly Level[] = ["N3", "N2", "N1"];
 
 type LevelInfo = {
   kanjisAcumulados: string;
@@ -47,8 +45,15 @@ const LEVEL_INFO: Record<Level, LevelInfo> = {
   },
 };
 
-export default function KanjiLevel() {
-  const [selected, setSelected] = useState<Level>("N5");
+type Props<T extends Level = Level> = {
+  selected: T;
+  onSelect: (level: T) => void;
+};
+
+export default function KanjiLevelsPanel<T extends Level>({
+  selected,
+  onSelect,
+}: Props<T>) {
   const info = LEVEL_INFO[selected];
 
   return (
@@ -72,7 +77,7 @@ export default function KanjiLevel() {
               key={level}
               type="button"
               disabled={isDisabled}
-              onClick={() => setSelected(level)}
+              onClick={() => onSelect(level as T)}
               aria-pressed={isSelected}
               aria-label={`Nivel ${level}${isDisabled ? " (proximamente)" : ""}`}
               className={`flex h-10 w-10 items-center justify-center rounded-full font-mono text-sm font-semibold transition ${

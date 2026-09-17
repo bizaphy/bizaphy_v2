@@ -1,5 +1,3 @@
-export { default } from "./AllAboutKanjis";
-
 export const meta = {
   slug: "all-about-kanjis",
   title: "All About Kanjis",

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { projectsRegistry } from "@/content/projects";
+import { projectsMeta } from "@/content/projects";
 
 //plan = proximo paso planificado para el proyecto identificado por slug.
 type Plan = { slug: string; nextStep: string };
@@ -48,7 +48,7 @@ const PLANS: Plan[] = [
 
 //lookup slug -> titulo, usando el registry como fuente de verdad
 const TITLES: Record<string, string> = Object.fromEntries(
-  projectsRegistry.map((p) => [p.slug, p.title]),
+  projectsMeta.map((p) => [p.slug, p.title]),
 );
 
 export default function BannerInfo() {
@@ -66,7 +66,7 @@ export default function BannerInfo() {
           &gt; info
         </span>
         <span className="text-[10px] text-zinc-500">
-          {projectsRegistry.length} proyectos desplegados
+          {projectsMeta.length} proyectos desplegados
         </span>
       </div>
 

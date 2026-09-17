@@ -1,2 +1,2 @@
-export { projectsRegistry } from "./projects";
+export { projectsMeta } from "./projects";
 export type { ProjectSlug } from "./projects";

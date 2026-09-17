@@ -1,5 +1,3 @@
-export { default } from "./Pokedex";
-
 export const meta = {
   slug: "pokedex",
   title: "Pokedex",

@@ -1,5 +1,3 @@
-export { default } from "./TranslationChecker";
-
 export const meta = {
   slug: "translation-checker",
   title: "Translation-checker",

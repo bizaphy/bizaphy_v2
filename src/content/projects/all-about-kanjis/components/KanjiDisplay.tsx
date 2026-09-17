@@ -4,6 +4,7 @@ type Props = {
   onyomi: string | null;
   kunyomi: string | null;
   numeroTrazos: number;
+  anioEscolarJapon: number | null;
 };
 
 export default function KanjiDisplay({
@@ -12,6 +13,7 @@ export default function KanjiDisplay({
   onyomi,
   kunyomi,
   numeroTrazos,
+  anioEscolarJapon,
 }: Props) {
   return (
     <section className="flex items-stretch gap-6 p-4">
@@ -50,6 +52,13 @@ export default function KanjiDisplay({
         <div className="font-mono text-xs text-zinc-400">
           <span className="text-zinc-500">N° Trazos:</span>{" "}
           <span className="text-fuchsia-200">{numeroTrazos}</span>
+        </div>
+
+        <div className="font-mono text-xs text-zinc-400">
+          <span className="text-zinc-500">Año escolar (Japón):</span>{" "}
+          <span className="text-fuchsia-200">
+            {anioEscolarJapon ?? <span className="text-zinc-600">—</span>}
+          </span>
         </div>
       </div>
     </section>

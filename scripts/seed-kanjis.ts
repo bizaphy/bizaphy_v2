@@ -1,5 +1,5 @@
 //script que rellena la bdd con información inicial --> O de prueba.
-//para ejecutar, ejemplo: npm run db:seed-kanjis ./src/db/seeds/n3kanjis.json
+//para ejecutar, ejemplo: npm run seed-kanji
 
 import "dotenv/config";
 import { config } from "dotenv";
@@ -36,9 +36,10 @@ const jsonPath = path.join(__dirname, "seeds/n3.json");
 const dataset: SeedKanji[] = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 
 async function seed() {
-  console.log(`Iniciando inserción de ${dataset.length} kanjis...`);
+  console.log(`Iniciando upsert de ${dataset.length} kanjis...`);
 
-  // 1. Insertar todos los kanjis primero y guardar sus IDs por caracter.
+  // 1. Upsert de cada kanji: inserta o actualiza los campos mutables
+  //    cuando ya existe uno con el mismo caracter.
   const idsPorCaracter = new Map<string, number>();
 
   for (const k of dataset) {
@@ -54,49 +55,53 @@ async function seed() {
         fraseMnemotecnica: k.fraseMnemotecnica,
         urlImagenMnemotecnica: k.urlImagenMnemotecnica,
       })
-      .onConflictDoNothing({ target: kanji.caracter })
+      .onConflictDoUpdate({
+        target: kanji.caracter,
+        set: {
+          onyomi: k.onyomi,
+          kunyomi: k.kunyomi,
+          numeroTrazos: k.numeroTrazos,
+          nivel: k.nivel,
+          urlOrdenTrazos: k.urlOrdenTrazos,
+          fraseMnemotecnica: k.fraseMnemotecnica,
+          urlImagenMnemotecnica: k.urlImagenMnemotecnica,
+        },
+      })
       .returning({ id: kanji.id, caracter: kanji.caracter });
 
     if (row) {
       idsPorCaracter.set(row.caracter, row.id);
-    } else {
-      // Si ya existía en la BDD (ej: de N4/N5), obtenemos su ID existente
-      const [existente] = await db
-        .select({ id: kanji.id })
-        .from(kanji)
-        .where(eq(kanji.caracter, k.caracter));
-
-      if (existente) {
-        idsPorCaracter.set(k.caracter, existente.id);
-      }
     }
   }
 
-  console.log(`✓ IDs procesados: ${idsPorCaracter.size}`);
+  console.log(`✓ Kanjis upserteados: ${idsPorCaracter.size}`);
 
-  // 2. Insertar palabras y personas vinculadas
+  // 2. Palabras y personas: se borran las existentes de cada kanji y se
+  //    reinsertan las del JSON. Como no hay unique constraint natural,
+  //    esta es la forma más simple de mantener el seed idempotente.
   for (const k of dataset) {
     const kanjiId = idsPorCaracter.get(k.caracter);
     if (!kanjiId) continue;
 
+    await db.delete(palabrasFamosas).where(eq(palabrasFamosas.kanjiId, kanjiId));
     if (k.palabras && k.palabras.length > 0) {
       await db
         .insert(palabrasFamosas)
-        .values(k.palabras.map((p) => ({ kanjiId, ...p })))
-        .onConflictDoNothing();
+        .values(k.palabras.map((p) => ({ kanjiId, ...p })));
     }
 
+    await db.delete(personasFamosas).where(eq(personasFamosas.kanjiId, kanjiId));
     if (k.personas && k.personas.length > 0) {
       await db
         .insert(personasFamosas)
-        .values(k.personas.map((p) => ({ kanjiId, ...p })))
-        .onConflictDoNothing();
+        .values(k.personas.map((p) => ({ kanjiId, ...p })));
     }
   }
 
-  console.log("✓ Palabras y personas procesadas");
+  console.log("✓ Palabras y personas resincronizadas");
 
-  // 3. Insertar relaciones
+  // 3. Relaciones (ambas direcciones). La tabla tiene primary key compuesto
+  //    en (kanjiId, relacionadoId), asi que onConflictDoNothing es idempotente.
   const paresRelacion = new Set<string>();
 
   for (const k of dataset) {
@@ -106,8 +111,8 @@ async function seed() {
     for (const relCaracter of k.relacionadosCon || []) {
       const destinoId = idsPorCaracter.get(relCaracter);
 
-      // Si el kanji relacionado no está en este N3, intentamos buscarlo en la BDD
       if (!destinoId) {
+        // Si el relacionado no esta en el dataset actual, buscarlo en la BDD
         const [existenteBDD] = await db
           .select({ id: kanji.id })
           .from(kanji)

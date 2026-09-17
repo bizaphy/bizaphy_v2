@@ -1,5 +1,3 @@
-export { default } from "./WeatherDashboard";
-
 export const meta = {
   slug: "weather-dashboard",
   title: "Clima mundial",

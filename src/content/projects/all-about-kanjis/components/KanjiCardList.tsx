@@ -1,28 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import KanjiCard from "./KanjiCard";
-
-// Mock temporal: 108 kanjis para probar paginacion (100 en pagina 1, 8 en pagina 2).
-// Se reemplaza en Fase 5 por la lectura real desde la BDD.
-const KANJIS_MOCK = [
-  ..."一二三四五六七八九十百千円日月火水木金土",
-  ..."天気空雨花山川人男女子口目耳手足上下右左",
-  ..."中学校大小白入出見立休名本車年先生古新友",
-  ..."父母今分半午前後万毎週間時何語会社道電言",
-  ..."行買食読話聞書国少多東西南北高魚外長店安",
-  ..."駅飲未好楽音犬猫",
-];
+import type { KanjiEnListado } from "../db/queries";
 
 const PAGE_SIZE = 100;
 
-export default function KanjiCardList() {
+type Props = {
+  kanjis: KanjiEnListado[];
+  selectedId: number | null;
+  onSelect: (kanji: KanjiEnListado) => void;
+};
+
+export default function KanjiCardList({
+  kanjis,
+  selectedId,
+  onSelect,
+}: Props) {
   const [page, setPage] = useState(0);
 
-  const total = KANJIS_MOCK.length;
+  // Al cambiar la lista (por cambio de nivel), volver a la primera pagina.
+  useEffect(() => {
+    setPage(0);
+  }, [kanjis]);
+
+  const total = kanjis.length;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   const start = page * PAGE_SIZE;
-  const visibles = KANJIS_MOCK.slice(start, start + PAGE_SIZE);
+  const visibles = kanjis.slice(start, start + PAGE_SIZE);
+  const rangoDesde = total === 0 ? 0 : start + 1;
+  const rangoHasta = start + visibles.length;
 
   const hayAnterior = page > 0;
   const haySiguiente = page < totalPages - 1;
@@ -32,10 +39,12 @@ export default function KanjiCardList() {
       {/* barra superior: contador + controles de pagina */}
       <div className="flex items-center justify-between font-mono text-xs">
         <span className="text-zinc-400">
-          <span className="text-fuchsia-300">{visibles.length}</span>
-          <span className="mx-0.5 text-zinc-600">/</span>
+          <span className="text-fuchsia-300">{rangoDesde}</span>
+          <span className="mx-0.5 text-zinc-600">–</span>
+          <span className="text-fuchsia-300">{rangoHasta}</span>
+          <span className="mx-1 text-zinc-500">de</span>
           <span className="text-zinc-300">{total}</span>
-          <span className="ml-2 text-zinc-500">kanjis en pantalla</span>
+          <span className="ml-2 text-zinc-500">kanjis</span>
         </span>
 
         <div className="flex items-center gap-3">
@@ -65,11 +74,20 @@ export default function KanjiCardList() {
         </div>
       </div>
 
-      {/* grid tipo tabla periodica: 10 columnas fijas, scroll horizontal si no cabe */}
-      <div className="overflow-x-auto">
+      {/* grid tipo tabla periodica: 10 columnas fijas.
+          En mobile hay scroll horizontal cuando el min-w no cabe. En desktop
+          se permite overflow visible para que el tooltip del hover pueda
+          salirse de la caja hacia arriba sin ser recortado. */}
+      <div className="overflow-x-auto md:overflow-visible">
         <div className="grid min-w-[520px] grid-cols-10 gap-1.5">
           {visibles.map((k) => (
-            <KanjiCard key={k} caracter={k} />
+            <KanjiCard
+              key={k.id}
+              caracter={k.caracter}
+              significado={k.significado}
+              isSelected={k.id === selectedId}
+              onClick={() => onSelect(k)}
+            />
           ))}
         </div>
       </div>

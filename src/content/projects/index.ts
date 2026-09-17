@@ -1,35 +1,31 @@
-import type { ComponentType } from "react";
+import { meta as habitTrackerMeta } from "./habit-tracker";
+import { meta as apothecaryMeta } from "./apothecary";
+import { meta as ticTacToeMeta } from "./tic-tac-toe";
+import { meta as translationCheckerMeta } from "./translation-checker";
+import { meta as weatherDashboardMeta } from "./weather-dashboard";
+import { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
+import { meta as hangmanMeta } from "./hangman";
+import { meta as pokedexMeta } from "./pokedex";
 
-import AllAboutKanjis, { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
-import HabitTracker, { meta as habitTrackerMeta } from "./habit-tracker";
-import Apothecary, { meta as apothecaryMeta } from "./apothecary";
-import TicTacToe, { meta as ticTacToeMeta } from "./tic-tac-toe";
-import TranslationChecker, {
-  meta as translationCheckerMeta,
-} from "./translation-checker";
-import WeatherDashboard, {
-  meta as weatherDashboardMeta,
-} from "./weather-dashboard";
-import Hangman, { meta as hangmanMeta } from "./hangman";
-import Pokedex, { meta as pokedexMeta } from "./pokedex";
-
-type ProjectEntry = {
+export type ProjectMeta = {
   slug: string;
   title: string;
   description: string;
   image?: string;
-  Component: ComponentType;
 };
 
-export const projectsRegistry: ProjectEntry[] = [
-  { ...habitTrackerMeta, Component: HabitTracker },
-  { ...apothecaryMeta, Component: Apothecary },
-  { ...ticTacToeMeta, Component: TicTacToe },
-  { ...translationCheckerMeta, Component: TranslationChecker },
-  { ...weatherDashboardMeta, Component: WeatherDashboard },
-  { ...AllAboutKanjisMeta, Component: AllAboutKanjis },
-  { ...hangmanMeta, Component: Hangman },
-  { ...pokedexMeta, Component: Pokedex },
-];
+// Solo metadatos: seguro de importar desde Client Components.
+// La resolucion de componentes vive en app/projects/[slug]/page.tsx
+// para que el bundle del cliente nunca alcance codigo server-only.
+export const projectsMeta = [
+  habitTrackerMeta,
+  apothecaryMeta,
+  ticTacToeMeta,
+  translationCheckerMeta,
+  weatherDashboardMeta,
+  AllAboutKanjisMeta,
+  hangmanMeta,
+  pokedexMeta,
+] as const satisfies readonly ProjectMeta[];
 
-export type ProjectSlug = ProjectEntry["slug"];
+export type ProjectSlug = (typeof projectsMeta)[number]["slug"];

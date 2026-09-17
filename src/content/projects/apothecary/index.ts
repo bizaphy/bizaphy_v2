@@ -1,5 +1,3 @@
-export { default } from "./Apothecary";
-
 export const meta = {
   slug: "apothecary",
   title: "Boticaria CL",

@@ -1,5 +1,3 @@
-export { default } from "./TicTacToe";
-
 export const meta = {
   slug: "tic-tac-toe",
   title: "Tic Tac Toe",

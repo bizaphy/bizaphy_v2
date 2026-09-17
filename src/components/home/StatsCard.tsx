@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Share_Tech_Mono } from "next/font/google";
-import { projectsRegistry } from "@/content/projects";
+import { projectsMeta } from "@/content/projects";
 
 //tipografia estilo readout digital — se carga solo para este componente
 const clockFont = Share_Tech_Mono({
@@ -9,7 +9,7 @@ const clockFont = Share_Tech_Mono({
 });
 
 export default function StatsCard({ className = "" }: { className?: string }) {
-  const count = projectsRegistry.length;
+  const count = projectsMeta.length;
   //dos digitos minimo. Si algun dia hay >99 se puede subir a 3.
   const digits = String(count).padStart(2, "0");
   //ghost: mismo largo que los digitos, todo 8s para simular segmentos apagados
