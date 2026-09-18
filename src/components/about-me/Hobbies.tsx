@@ -118,7 +118,11 @@ export default function Hobbies() {
 
     const handlePointerDown = (event: PointerEvent) => {
       const target = event.target as Node | null;
-      if (hobbiesRowRef.current && target && !hobbiesRowRef.current.contains(target)) {
+      if (
+        hobbiesRowRef.current &&
+        target &&
+        !hobbiesRowRef.current.contains(target)
+      ) {
         setSelected(null);
       }
     };
@@ -148,7 +152,9 @@ export default function Hobbies() {
                   unoptimized
                 />
               ) : (
-                <span className="scale-[4] text-fuchsia-400">{selectedHobby.icon}</span>
+                <span className="scale-[4] text-fuchsia-400">
+                  {selectedHobby.icon}
+                </span>
               )}
             </div>
             <div className="flex flex-1 flex-col items-center justify-center gap-0.5 px-3 py-2">
