@@ -11,7 +11,10 @@ import KanjiDisplayImgs from "./KanjiDisplayImgs";
 import KanjiExtras from "./KanjiExtras";
 import KanjiHelpReferences from "./KanjiHelpReferences";
 import KanjiLevelsPanel from "./KanjiLevelsPanel";
-import KanjiSearch from "./KanjiSearch";
+import KanjiSearch, {
+  type AnioFiltro,
+  type TrazosFiltro,
+} from "./KanjiSearch";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
 
@@ -24,6 +27,9 @@ type Props = {
 export default function KanjisExplorador({ kanjisPorNivel }: Props) {
   const [nivel, setNivel] = useState<NivelDisponible>("N5");
   const [busqueda, setBusqueda] = useState("");
+  const [soloDestacados, setSoloDestacados] = useState(false);
+  const [anio, setAnio] = useState<AnioFiltro>("todos");
+  const [trazos, setTrazos] = useState<TrazosFiltro>("todos");
 
   // Overrides locales para "destacado": id -> nuevo valor confirmado por el
   // server action. Evita mutar la prop y sobrevive a cambios de nivel.
@@ -42,15 +48,37 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
     );
   }, [kanjisPorNivel, nivel, destacadoOverrides]);
 
-  // Filtrado por significado, case-insensitive y tolerante a espacios.
-  // Si la busqueda esta vacia se devuelve la lista completa sin recorrerla.
+  // Filtrado combinado: significado + destacados + anio escolar + rango de trazos.
+  // Se recorre una sola vez la lista aplicando todas las condiciones activas.
   const kanjisFiltrados = useMemo(() => {
     const q = busqueda.trim().toLowerCase();
-    if (!q) return kanjis;
-    return kanjis.filter((k) =>
-      (k.significado ?? "").toLowerCase().includes(q),
-    );
-  }, [kanjis, busqueda]);
+
+    return kanjis.filter((k) => {
+      if (q && !(k.significado ?? "").toLowerCase().includes(q)) return false;
+
+      if (soloDestacados && !k.destacado) return false;
+
+      if (anio !== "todos") {
+        if (anio === "sin-dato") {
+          if (k.anioEscolarJapon !== null) return false;
+        } else if (k.anioEscolarJapon !== Number(anio)) {
+          return false;
+        }
+      }
+
+      if (trazos !== "todos") {
+        const t = k.numeroTrazos;
+        const enRango =
+          (trazos === "1-5" && t >= 1 && t <= 5) ||
+          (trazos === "6-10" && t >= 6 && t <= 10) ||
+          (trazos === "11-15" && t >= 11 && t <= 15) ||
+          (trazos === "16+" && t >= 16);
+        if (!enRango) return false;
+      }
+
+      return true;
+    });
+  }, [kanjis, busqueda, soloDestacados, anio, trazos]);
 
   // Kanji actualmente destacado en los paneles de detalle. Arranca en el
   // primero del nivel; al cambiar de nivel se reinicia al primero del nuevo.
@@ -79,7 +107,16 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
   return (
     <>
       <KanjiLevelsPanel selected={nivel} onSelect={setNivel} />
-      <KanjiSearch value={busqueda} onChange={setBusqueda} />
+      <KanjiSearch
+        value={busqueda}
+        onChange={setBusqueda}
+        soloDestacados={soloDestacados}
+        onSoloDestacadosChange={setSoloDestacados}
+        anio={anio}
+        onAnioChange={setAnio}
+        trazos={trazos}
+        onTrazosChange={setTrazos}
+      />
       <KanjiCardList
         kanjis={kanjisFiltrados}
         selectedId={seleccionadoId}
