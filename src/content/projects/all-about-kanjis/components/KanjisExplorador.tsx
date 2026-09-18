@@ -4,7 +4,7 @@
 // de detalle (KanjiDisplay + KanjiDisplayImgs). Mantiene el nivel seleccionado
 // y el kanji actualmente enfocado, ambos entre los precargados del servidor.
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import KanjiCardList from "./KanjiCardList";
 import KanjiDisplay from "./KanjiDisplay";
 import KanjiDisplayImgs from "./KanjiDisplayImgs";
@@ -12,6 +12,7 @@ import KanjiExtras from "./KanjiExtras";
 import KanjiHelpReferences from "./KanjiHelpReferences";
 import KanjiLevelsPanel from "./KanjiLevelsPanel";
 import KanjiSearch from "./KanjiSearch";
+import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
 
 export type NivelDisponible = "N5" | "N4";
@@ -23,7 +24,23 @@ type Props = {
 export default function KanjisExplorador({ kanjisPorNivel }: Props) {
   const [nivel, setNivel] = useState<NivelDisponible>("N5");
   const [busqueda, setBusqueda] = useState("");
-  const kanjis = kanjisPorNivel[nivel];
+
+  // Overrides locales para "destacado": id -> nuevo valor confirmado por el
+  // server action. Evita mutar la prop y sobrevive a cambios de nivel.
+  const [destacadoOverrides, setDestacadoOverrides] = useState<
+    Record<number, boolean>
+  >({});
+  const [togglePendiente, iniciarToggle] = useTransition();
+
+  const kanjis = useMemo(() => {
+    const base = kanjisPorNivel[nivel];
+    if (Object.keys(destacadoOverrides).length === 0) return base;
+    return base.map((k) =>
+      k.id in destacadoOverrides
+        ? { ...k, destacado: destacadoOverrides[k.id] }
+        : k,
+    );
+  }, [kanjisPorNivel, nivel, destacadoOverrides]);
 
   // Filtrado por significado, case-insensitive y tolerante a espacios.
   // Si la busqueda esta vacia se devuelve la lista completa sin recorrerla.
@@ -37,13 +54,27 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
 
   // Kanji actualmente destacado en los paneles de detalle. Arranca en el
   // primero del nivel; al cambiar de nivel se reinicia al primero del nuevo.
-  const [seleccionado, setSeleccionado] = useState<KanjiEnListado | null>(
-    kanjis[0] ?? null,
+  const [seleccionadoId, setSeleccionadoId] = useState<number | null>(
+    kanjis[0]?.id ?? null,
   );
 
   useEffect(() => {
-    setSeleccionado(kanjis[0] ?? null);
-  }, [kanjis]);
+    setSeleccionadoId(kanjisPorNivel[nivel][0]?.id ?? null);
+  }, [nivel, kanjisPorNivel]);
+
+  const seleccionado = useMemo(
+    () => kanjis.find((k) => k.id === seleccionadoId) ?? null,
+    [kanjis, seleccionadoId],
+  );
+
+  const manejarToggleDestacado = () => {
+    if (!seleccionado) return;
+    const id = seleccionado.id;
+    iniciarToggle(async () => {
+      const nuevoValor = await alternarDestacado(id);
+      setDestacadoOverrides((prev) => ({ ...prev, [id]: nuevoValor }));
+    });
+  };
 
   return (
     <>
@@ -51,8 +82,8 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
       <KanjiSearch value={busqueda} onChange={setBusqueda} />
       <KanjiCardList
         kanjis={kanjisFiltrados}
-        selectedId={seleccionado?.id ?? null}
-        onSelect={setSeleccionado}
+        selectedId={seleccionadoId}
+        onSelect={(k) => setSeleccionadoId(k.id)}
       />
       {seleccionado && (
         <div className="flex flex-col gap-2">
@@ -63,6 +94,9 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
             kunyomi={seleccionado.kunyomi}
             numeroTrazos={seleccionado.numeroTrazos}
             anioEscolarJapon={seleccionado.anioEscolarJapon}
+            destacado={seleccionado.destacado}
+            onToggleDestacado={manejarToggleDestacado}
+            toggleDeshabilitado={togglePendiente}
           />
           <div className="flex flex-wrap items-start gap-2">
             <KanjiDisplayImgs urlOrdenTrazos={seleccionado.urlOrdenTrazos} />

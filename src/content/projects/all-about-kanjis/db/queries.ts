@@ -58,6 +58,7 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       urlOrdenTrazos: kanji.urlOrdenTrazos,
       urlImagenMnemotecnica: kanji.urlImagenMnemotecnica,
       fraseMnemotecnica: kanji.fraseMnemotecnica,
+      destacado: kanji.destacado,
     })
     .from(kanji)
     .where(eq(kanji.nivel, nivel))

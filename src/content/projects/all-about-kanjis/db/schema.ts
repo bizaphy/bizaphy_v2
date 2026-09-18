@@ -5,6 +5,7 @@ import {
   varchar,
   text,
   integer,
+  boolean,
   primaryKey,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
@@ -25,6 +26,7 @@ export const kanji = pgTable("kanji", {
   fraseMnemotecnica: text("frase_mnemotecnica"),
   urlImagenMnemotecnica: text("url_imagen_mnemotecnica"),
   nivel: nivelJlpt("nivel").notNull(),
+  destacado: boolean("destacado").notNull().default(false),
 });
 
 // ── PALABRAS FAMOSAS: uno a muchos con kanji ──
