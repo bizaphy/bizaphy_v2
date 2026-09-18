@@ -81,28 +81,28 @@ const ControllerIcon = () => (
 
 const HOBBIES: Hobby[] = [
   {
-    name: "Hardware y PCs",
+    name: "Hardware & PCs",
     icon: <PcIcon />,
-    image: "/hobbies/henry-cavill.gif",
+    image: "/images/misc/henry-cavill-pc.gif",
     note: "PCs armados hasta la fecha: aprox 20",
   },
   {
     name: "Dibujo",
     icon: <PencilIcon />,
     image: "/hobbies/dibujo.gif",
-    note: "próximamente: enlace a Instagram",
+    note: "próximamente: enlace a portal de dibujos",
   },
   {
-    name: "Manga y anime",
+    name: "Manga & anime",
     icon: <BookIcon />,
-    image: "/hobbies/manga.gif",
+    image: "/images/misc/maomao.gif",
     note: "próximamente: enlace a MAL",
   },
   {
-    name: "Juegos de Steam",
+    name: "Gaming (PC & Nintendo)",
     icon: <ControllerIcon />,
-    image: "/hobbies/steam.gif",
-    note: "próximamente: enlace a Steam",
+    image: "/images/misc/teddie-p4a.gif",
+    note: "Juego favorito: Pokemon Soulsilver",
   },
 ];
 
@@ -142,15 +142,17 @@ export default function Hobbies() {
         {/* Preview arriba: aparece solo cuando hay un hobby seleccionado. Imagen (80% del alto) + info (20%) */}
         {haySeleccion && selectedHobby && (
           <div className="flex h-64 flex-col overflow-hidden rounded-lg border border-fuchsia-500/60 bg-zinc-900/60 shadow-[0_0_12px_rgba(217,70,239,0.25)]">
-            <div className="relative flex flex-[4] w-full items-center justify-center overflow-hidden bg-zinc-900/60">
+            <div className="flex flex-4 w-full items-center justify-center overflow-hidden bg-zinc-900/60 p-2">
               {selectedHobby.image ? (
-                <Image
-                  src={selectedHobby.image}
-                  alt={selectedHobby.name}
-                  fill
-                  className="object-cover"
-                  unoptimized
-                />
+                <div className="relative aspect-square h-full">
+                  <Image
+                    src={selectedHobby.image}
+                    alt={selectedHobby.name}
+                    fill
+                    className="object-contain"
+                    unoptimized
+                  />
+                </div>
               ) : (
                 <span className="scale-[4] text-fuchsia-400">
                   {selectedHobby.icon}
@@ -183,7 +185,7 @@ export default function Hobbies() {
                 aria-label={hobby.name}
                 className={`flex cursor-pointer flex-col items-center justify-center gap-2 overflow-hidden rounded-lg border p-3 text-center transition-all duration-300 ${
                   isSelected
-                    ? "flex-[2] border-fuchsia-500 bg-fuchsia-500/10 shadow-[0_0_12px_rgba(217,70,239,0.4)]"
+                    ? "flex-2 border-fuchsia-500 bg-fuchsia-500/10 shadow-[0_0_12px_rgba(217,70,239,0.4)]"
                     : isDimmed
                       ? "flex-1 border-zinc-800 bg-zinc-900/50 opacity-60"
                       : "flex-1 border-fuchsia-500/30 bg-zinc-900 hover:border-fuchsia-500/60 hover:bg-fuchsia-500/5"

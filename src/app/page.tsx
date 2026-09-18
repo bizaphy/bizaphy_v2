@@ -3,6 +3,7 @@ import Changelog from "@/components/home/Changelog";
 import APILights from "@/components/home/APILights";
 import FraseDelDia from "@/components/home/FraseDelDia";
 import Hero from "@/components/home/Hero";
+import AboutThisPage from "@/components/home/AboutThisPage";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         </div>
         <div className="sm:col-span-3">
           <FraseDelDia />
+        </div>
+        <div className="sm:col-span-3">
+          <AboutThisPage />
         </div>
         <div className="sm:col-span-3">
           <Changelog />
