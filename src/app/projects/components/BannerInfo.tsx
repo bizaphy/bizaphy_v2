@@ -5,7 +5,6 @@ import { projectsMeta } from "@/content/projects";
 //plan = proximo paso planificado para el proyecto identificado por slug.
 type Plan = { slug: string; nextStep: string };
 
-//ordenado igual que el registry para que se sienta consistente al ir cliqueando.
 const PLANS: Plan[] = [
   {
     slug: "habit-tracker",
