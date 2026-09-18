@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 type Hobby = {
   name: string;
   icon: React.ReactNode;
-  note: string; //texto que se muestra abajo cuando el hobby esta seleccionado
+  image?: string; //imagen/gif que se despliega al seleccionar (opcional mientras no haya asset)
+  note: string; //texto chico abajo cuando el hobby esta seleccionado
 };
 
 //iconos inline (stroke-only, hereda color) para no depender de assets externos
@@ -81,21 +83,25 @@ const HOBBIES: Hobby[] = [
   {
     name: "Hardware y PCs",
     icon: <PcIcon />,
-    note: "próximamente: contador de PCs armados",
+    image: "/hobbies/henry-cavill.gif",
+    note: "PCs armados hasta la fecha: aprox 20",
   },
   {
     name: "Dibujo",
     icon: <PencilIcon />,
+    image: "/hobbies/dibujo.gif",
     note: "próximamente: enlace a Instagram",
   },
   {
     name: "Manga y anime",
     icon: <BookIcon />,
+    image: "/hobbies/manga.gif",
     note: "próximamente: enlace a MAL",
   },
   {
     name: "Juegos de Steam",
     icon: <ControllerIcon />,
+    image: "/hobbies/steam.gif",
     note: "próximamente: enlace a Steam",
   },
 ];
@@ -103,6 +109,7 @@ const HOBBIES: Hobby[] = [
 export default function Hobbies() {
   const [selected, setSelected] = useState<number | null>(null);
   const haySeleccion = selected !== null;
+  const selectedHobby = selected !== null ? HOBBIES[selected] : null;
   const hobbiesRowRef = useRef<HTMLDivElement>(null);
 
   //cierra la seleccion al clickear fuera de la fila
@@ -126,55 +133,85 @@ export default function Hobbies() {
         &gt; hobbies
       </h2>
 
-      {/* Cuatro cards en fila. Al hacer clic en una, esa se ensancha (flex-[2]) y las demas se comprimen (flex-1). */}
-      <div ref={hobbiesRowRef} className="flex items-stretch gap-2">
-        {HOBBIES.map((hobby, i) => {
-          const isSelected = selected === i;
-          const isDimmed = haySeleccion && !isSelected;
-
-          return (
-            <button
-              key={hobby.name}
-              type="button"
-              onClick={() => setSelected(isSelected ? null : i)}
-              aria-pressed={isSelected}
-              aria-label={hobby.name}
-              className={`flex cursor-pointer flex-col items-center justify-center gap-2 overflow-hidden rounded-lg border p-3 text-center transition-all duration-300 ${
-                isSelected
-                  ? "flex-[2] border-fuchsia-500 bg-fuchsia-500/10 shadow-[0_0_12px_rgba(217,70,239,0.4)]"
-                  : isDimmed
-                    ? "flex-1 border-zinc-800 bg-zinc-900/50 opacity-60"
-                    : "flex-1 border-fuchsia-500/30 bg-zinc-900 hover:border-fuchsia-500/60 hover:bg-fuchsia-500/5"
-              }`}
-            >
-              <span
-                className={`text-fuchsia-400 transition-transform duration-300 ${isSelected ? "scale-150" : ""}`}
-              >
-                {hobby.icon}
+      {/* Contenedor de preview + fila. El ref envuelve a ambos para que un clic dentro del preview no cierre la seleccion */}
+      <div ref={hobbiesRowRef} className="flex flex-col gap-3">
+        {/* Preview arriba: aparece solo cuando hay un hobby seleccionado. Imagen (80% del alto) + info (20%) */}
+        {haySeleccion && selectedHobby && (
+          <div className="flex h-64 flex-col overflow-hidden rounded-lg border border-fuchsia-500/60 bg-zinc-900/60 shadow-[0_0_12px_rgba(217,70,239,0.25)]">
+            <div className="relative flex flex-[4] w-full items-center justify-center overflow-hidden bg-zinc-900/60">
+              {selectedHobby.image ? (
+                <Image
+                  src={selectedHobby.image}
+                  alt={selectedHobby.name}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
+              ) : (
+                <span className="scale-[4] text-fuchsia-400">{selectedHobby.icon}</span>
+              )}
+            </div>
+            <div className="flex flex-1 flex-col items-center justify-center gap-0.5 px-3 py-2">
+              <span className="font-mono text-sm text-fuchsia-200">
+                {selectedHobby.name}
               </span>
+              <span className="font-mono text-[10px] leading-snug text-zinc-500 italic">
+                — {selectedHobby.note}
+              </span>
+            </div>
+          </div>
+        )}
 
-              {/* Nombre: crece cuando esta seleccionado; se oculta suave cuando esta atenuado (para que el card comprimido no se llene) */}
-              <span
-                className={`font-mono leading-tight transition-all duration-300 ${
+        {/* Cuatro cards en fila. Al hacer clic en una, esa se ensancha (flex-[2]) y las demas se comprimen (flex-1). */}
+        <div className="flex items-stretch gap-2">
+          {HOBBIES.map((hobby, i) => {
+            const isSelected = selected === i;
+            const isDimmed = haySeleccion && !isSelected;
+
+            return (
+              <button
+                key={hobby.name}
+                type="button"
+                onClick={() => setSelected(isSelected ? null : i)}
+                aria-pressed={isSelected}
+                aria-label={hobby.name}
+                className={`flex cursor-pointer flex-col items-center justify-center gap-2 overflow-hidden rounded-lg border p-3 text-center transition-all duration-300 ${
                   isSelected
-                    ? "mt-1 text-sm text-fuchsia-200"
+                    ? "flex-[2] border-fuchsia-500 bg-fuchsia-500/10 shadow-[0_0_12px_rgba(217,70,239,0.4)]"
                     : isDimmed
-                      ? "h-0 opacity-0"
-                      : "text-[10px] text-zinc-300"
+                      ? "flex-1 border-zinc-800 bg-zinc-900/50 opacity-60"
+                      : "flex-1 border-fuchsia-500/30 bg-zinc-900 hover:border-fuchsia-500/60 hover:bg-fuchsia-500/5"
                 }`}
               >
-                {hobby.name}
-              </span>
-
-              {/* Nota (planeado): solo cuando el card esta seleccionado */}
-              {isSelected && (
-                <span className="font-mono text-[10px] leading-snug text-zinc-500 italic">
-                  — {hobby.note}
+                <span
+                  className={`text-fuchsia-400 transition-transform duration-300 ${isSelected ? "scale-150" : ""}`}
+                >
+                  {hobby.icon}
                 </span>
-              )}
-            </button>
-          );
-        })}
+
+                {/* Nombre: crece cuando esta seleccionado; se oculta suave cuando esta atenuado (para que el card comprimido no se llene) */}
+                <span
+                  className={`font-mono leading-tight transition-all duration-300 ${
+                    isSelected
+                      ? "mt-1 text-sm text-fuchsia-200"
+                      : isDimmed
+                        ? "h-0 opacity-0"
+                        : "text-[10px] text-zinc-300"
+                  }`}
+                >
+                  {hobby.name}
+                </span>
+
+                {/* Nota (planeado): solo cuando el card esta seleccionado */}
+                {isSelected && (
+                  <span className="font-mono text-[10px] leading-snug text-zinc-500 italic">
+                    — {hobby.note}
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

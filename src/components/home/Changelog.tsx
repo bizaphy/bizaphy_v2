@@ -4,6 +4,7 @@ type Entry = {
 };
 
 const entries: Entry[] = [
+  { date: "2026-09-18", description: "Kanjis: implementación del flujo de migración con Drizzle (db:push) para modificar el schema de la base de datos" },
   { date: "2026-09-10", description: "About me: nuevas secciones Stack (chips por nivel), Aprendiendo ahora (roadmap de 5 pasos con hover) y Setup" },
   { date: "2026-09-10", description: "Hangman: pista opcional (cuenta como 2 errores) y ficha con imagen de Wikipedia al ganar" },
   { date: "2026-09-10", description: "Reorganización de estructura: guidelines a raíz, layout/ renombrado, content/home y content/about-me movidos a components/" },

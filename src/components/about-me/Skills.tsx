@@ -16,13 +16,14 @@ const GROUPS: Group[] = [
     ],
   },
   {
-    title: "Frameworks",
+    title: "Frameworks · Librerías",
     items: [
       { name: "React", level: "solido" },
       { name: "Tailwind", level: "solido" },
       { name: "Next.js", level: "competente" },
       { name: "Node.js", level: "competente" },
       { name: "FastAPI", level: "competente" },
+      { name: "Drizzle", level: "competente" },
     ],
   },
   {
