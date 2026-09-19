@@ -25,6 +25,10 @@ export const kanji = pgTable("kanji", {
   urlOrdenTrazos: text("url_orden_trazos"),
   fraseMnemotecnica: text("frase_mnemotecnica"),
   urlImagenMnemotecnica: text("url_imagen_mnemotecnica"),
+  // Radicales identificados dentro del kanji. Se guardan como texto plano
+  // separado por "、" (misma convencion que onyomi/kunyomi). Nullable: si
+  // esta vacio la UI muestra N/A.
+  radicales: text("radicales"),
   nivel: nivelJlpt("nivel").notNull(),
   destacado: boolean("destacado").notNull().default(false),
 });

@@ -136,7 +136,10 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
             toggleDeshabilitado={togglePendiente}
           />
           <div className="flex flex-wrap items-start gap-2">
-            <KanjiDisplayImgs urlOrdenTrazos={seleccionado.urlOrdenTrazos} />
+            <KanjiDisplayImgs
+              urlOrdenTrazos={seleccionado.urlOrdenTrazos}
+              radicales={seleccionado.radicales}
+            />
             <KanjiHelpReferences
               urlImagenMnemotecnica={seleccionado.urlImagenMnemotecnica}
               fraseMnemotecnica={seleccionado.fraseMnemotecnica}
