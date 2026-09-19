@@ -151,8 +151,8 @@ function buildApiUrl(city: CityConfig): string {
 }
 
 async function fetchCities(cities: CityConfig[]): Promise<WeatherData[]> {
-  //arr. de objetos (results)
-  const results = await Promise.all(
+  // allSettled: si una ciudad falla, seguimos mostrando las que sí llegaron
+  const settled = await Promise.allSettled(
     cities.map(async (city) => {
       const res = await fetch(buildApiUrl(city));
       if (!res.ok) throw new Error(`Error al obtener info de ${city.name}`);
@@ -171,6 +171,18 @@ async function fetchCities(cities: CityConfig[]): Promise<WeatherData[]> {
       };
     }),
   );
+
+  const results = settled
+    .filter(
+      (r): r is PromiseFulfilledResult<WeatherData> => r.status === "fulfilled",
+    )
+    .map((r) => r.value);
+
+  // Solo tratamos como error si NINGUNA ciudad pudo obtenerse
+  if (results.length === 0) {
+    throw new Error("No se pudo obtener información de ninguna ciudad");
+  }
+
   return results;
 }
 
