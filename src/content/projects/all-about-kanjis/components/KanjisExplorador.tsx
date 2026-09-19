@@ -17,6 +17,7 @@ import KanjiSearch, {
 } from "./KanjiSearch";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
+import SeparatorLine from "@/components/ui/SeparatorLine";
 
 export type NivelDisponible = "N5" | "N4";
 
@@ -122,6 +123,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
         selectedId={seleccionadoId}
         onSelect={(k) => setSeleccionadoId(k.id)}
       />
+      <SeparatorLine className="my-4" />
       {seleccionado && (
         <div className="flex flex-col gap-2">
           <KanjiDisplay
