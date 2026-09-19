@@ -1,5 +1,5 @@
 import { memo } from "react";
-import Image from "next/image";
+import KanjiImageZoom from "./KanjiImageZoom";
 
 type Props = {
   urlOrdenTrazos?: string | null;
@@ -21,20 +21,18 @@ function KanjiDisplayImgs({ urlOrdenTrazos }: Props) {
           </span>
         </div>
         <div className="p-3">
-          <div className="flex size-48 items-center justify-center overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40">
+          <div className="flex items-center justify-center overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40">
             {urlOrdenTrazos ? (
-              <Image
+              <KanjiImageZoom
                 src={urlOrdenTrazos}
                 alt="Orden de trazos del kanji"
-                width={192}
-                height={192}
-                className="h-full w-full object-contain"
-                unoptimized
               />
             ) : (
-              <span className="font-mono text-[10px] tracking-wider text-zinc-600">
-                sin imagen
-              </span>
+              <div className="flex size-72 items-center justify-center">
+                <span className="font-mono text-[10px] tracking-wider text-zinc-600">
+                  sin imagen
+                </span>
+              </div>
             )}
           </div>
         </div>
