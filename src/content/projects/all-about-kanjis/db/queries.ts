@@ -7,7 +7,7 @@ import { eq, asc } from "drizzle-orm";
 
 /**
  * Trae un kanji por su carácter con todas sus relaciones resueltas:
- * palabras famosas, personas famosas y kanjis relacionados (con el
+ * palabras famosas, personas famosas y kanji trap (con el
  * kanji destino ya anidado, no solo el id).
  *
  * Devuelve undefined si no existe.
@@ -22,7 +22,7 @@ export async function obtenerKanjiPorCaracter(caracter: string) {
       personas: {
         orderBy: (p, { asc }) => [asc(p.nombre)],
       },
-      relacionadosDesde: {
+      kanjiTrapsDesde: {
         with: {
           destino: true,
         },

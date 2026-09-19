@@ -12,7 +12,7 @@ type Palabra = {
   traduccion: string;
 };
 
-type KanjiRelacionado = {
+type KanjiTrap = {
   caracter: string;
   significado?: string | null;
 };
@@ -20,13 +20,13 @@ type KanjiRelacionado = {
 type Props = {
   personas?: Persona[];
   palabras?: Palabra[];
-  relacionados?: KanjiRelacionado[];
+  kanjiTraps?: KanjiTrap[];
 };
 
 export default function KanjiExtras({
   personas,
   palabras,
-  relacionados,
+  kanjiTraps,
 }: Props) {
   return (
     <section className="grid grid-cols-1 gap-3 p-4 md:grid-cols-3">
@@ -102,14 +102,14 @@ export default function KanjiExtras({
         </div>
       </div>
 
-      {/* Kanjis relacionados */}
+      {/* Kanji trap */}
       <div className="flex flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
         <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
-          KANJIS RELACIONADOS
+          KANJI TRAP
         </div>
         <div className="flex flex-wrap gap-2 p-3">
-          {relacionados && relacionados.length > 0 ? (
-            relacionados.map((k) => (
+          {kanjiTraps && kanjiTraps.length > 0 ? (
+            kanjiTraps.map((k) => (
               <div
                 key={k.caracter}
                 className="flex flex-col items-center gap-1 rounded border border-zinc-700 bg-black/40 px-2 py-1.5"

@@ -50,19 +50,19 @@ export const personasFamosas = pgTable("personas_famosas", {
   descripcion: text("descripcion"),
 });
 
-// ── KANJI RELACIONADOS: auto-relación muchos a muchos, direccional ──
-// una sola tabla con columna "nivel" permite relacionar kanji de niveles
-export const kanjiRelacionados = pgTable(
-  "kanji_relacionados",
+// ── KANJI TRAP: auto-relación muchos a muchos, direccional ──
+// vincula un kanji con otros que suelen confundirse visualmente (trampas de lectura)
+export const kanjiTrap = pgTable(
+  "kanji_trap",
   {
     kanjiId: integer("kanji_id")
       .notNull()
       .references(() => kanji.id),
-    relacionadoId: integer("relacionado_id")
+    kanjiTrapId: integer("kanji_trap_id")
       .notNull()
       .references(() => kanji.id),
   },
-  (table) => [primaryKey({ columns: [table.kanjiId, table.relacionadoId] })],
+  (table) => [primaryKey({ columns: [table.kanjiId, table.kanjiTrapId] })],
 );
 
 ////////////////////////////////////////////////////////////////
@@ -70,13 +70,13 @@ export const kanjiRelacionados = pgTable(
 // No crean nada en la BD; solo enseñan a Drizzle cómo navegar los FK ya definidos
 ////////////////////////////////////////////////////////////////
 
-// Desde un kanji puedo saltar a: sus palabras, personas y kanjis relacionados
-// Los relationName distinguen los dos lados de la auto-relación con kanjiRelacionados
+// Desde un kanji puedo saltar a: sus palabras, personas y trampas (kanjis parecidos)
+// Los relationName distinguen los dos lados de la auto-relación con kanjiTrap
 export const kanjiRelations = relations(kanji, ({ many }) => ({
   palabras: many(palabrasFamosas),
   personas: many(personasFamosas),
-  relacionadosDesde: many(kanjiRelacionados, { relationName: "origen" }),
-  relacionadosHacia: many(kanjiRelacionados, { relationName: "destino" }),
+  kanjiTrapsDesde: many(kanjiTrap, { relationName: "origen" }),
+  kanjiTrapsHacia: many(kanjiTrap, { relationName: "destino" }),
 }));
 
 // Cada palabra pertenece a un solo kanji (lado "muchos → 1")
@@ -103,18 +103,15 @@ export const personasFamosasRelations = relations(
 
 // Cada fila conecta dos kanjis: uno "origen" y otro "destino"
 // Los relationName hacen match con los declarados arriba en kanjiRelations
-export const kanjiRelacionadosRelations = relations(
-  kanjiRelacionados,
-  ({ one }) => ({
-    origen: one(kanji, {
-      fields: [kanjiRelacionados.kanjiId],
-      references: [kanji.id],
-      relationName: "origen",
-    }),
-    destino: one(kanji, {
-      fields: [kanjiRelacionados.relacionadoId],
-      references: [kanji.id],
-      relationName: "destino",
-    }),
+export const kanjiTrapRelations = relations(kanjiTrap, ({ one }) => ({
+  origen: one(kanji, {
+    fields: [kanjiTrap.kanjiId],
+    references: [kanji.id],
+    relationName: "origen",
   }),
-);
+  destino: one(kanji, {
+    fields: [kanjiTrap.kanjiTrapId],
+    references: [kanji.id],
+    relationName: "destino",
+  }),
+}));
