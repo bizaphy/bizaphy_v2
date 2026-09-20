@@ -82,16 +82,17 @@ export default function KanjiExtras({
         <div className="flex flex-col divide-y divide-zinc-800">
           {palabras && palabras.length > 0 ? (
             palabras.map((w) => (
-              <div key={w.palabra} className="flex flex-col gap-0.5 px-3 py-2">
-                <div className="flex items-baseline gap-2 font-mono">
-                  <span className="text-base text-fuchsia-200">
-                    {w.palabra}
-                  </span>
-                  <span className="text-[10px] text-zinc-500">
-                    {w.furigana}
-                  </span>
-                </div>
-                <span className="text-xs text-zinc-400">{w.traduccion}</span>
+              <div key={w.palabra} className="flex flex-col gap-1 px-3 py-3">
+                <span className="font-mono text-lg leading-none text-fuchsia-100">
+                  {w.palabra}
+                </span>
+                <span className="font-mono text-xs text-fuchsia-300/80">
+                  {w.furigana}
+                </span>
+                <span className="text-xs text-zinc-400">
+                  <span className="mr-1 text-fuchsia-500/70">›</span>
+                  {w.traduccion}
+                </span>
               </div>
             ))
           ) : (

@@ -147,7 +147,14 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
               fraseMnemotecnica={seleccionado.fraseMnemotecnica}
             />
           </div>
-          <KanjiExtras />
+          <KanjiExtras
+            palabras={seleccionado.palabras}
+            personas={seleccionado.personas}
+            kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({
+              caracter: t.destino.caracter,
+              significado: t.destino.significado,
+            }))}
+          />
         </div>
       )}
     </>

@@ -1,7 +1,6 @@
 // src/content/projects/all-about-kanjis/db/queries.ts
 import { db } from "@/db";
 import { kanji, nivelJlpt } from "./schema";
-import { eq, asc } from "drizzle-orm";
 
 // ── DETALLE ────────────────────────────────────────────────────────
 
@@ -43,27 +42,46 @@ type Nivel = (typeof nivelJlpt.enumValues)[number];
 /**
  * Lista todos los kanjis de un nivel, ordenados por número de trazos
  * ascendente (los más simples primero). Trae los campos necesarios para
- * renderizar el listado y el panel de detalle sin volver a consultar.
+ * renderizar el listado y el panel de detalle sin volver a consultar,
+ * incluyendo palabras famosas, personas famosas y kanji traps asociados.
  */
 export async function listarKanjisPorNivel(nivel: Nivel) {
-  return db
-    .select({
-      id: kanji.id,
-      caracter: kanji.caracter,
-      significado: kanji.significado,
-      onyomi: kanji.onyomi,
-      kunyomi: kanji.kunyomi,
-      numeroTrazos: kanji.numeroTrazos,
-      anioEscolarJapon: kanji.anioEscolarJapon,
-      urlOrdenTrazos: kanji.urlOrdenTrazos,
-      urlImagenMnemotecnica: kanji.urlImagenMnemotecnica,
-      fraseMnemotecnica: kanji.fraseMnemotecnica,
-      radicales: kanji.radicales,
-      destacado: kanji.destacado,
-    })
-    .from(kanji)
-    .where(eq(kanji.nivel, nivel))
-    .orderBy(asc(kanji.numeroTrazos), asc(kanji.caracter));
+  return db.query.kanji.findMany({
+    columns: {
+      id: true,
+      caracter: true,
+      significado: true,
+      onyomi: true,
+      kunyomi: true,
+      numeroTrazos: true,
+      anioEscolarJapon: true,
+      urlOrdenTrazos: true,
+      urlImagenMnemotecnica: true,
+      fraseMnemotecnica: true,
+      radicales: true,
+      destacado: true,
+    },
+    where: (k, { eq }) => eq(k.nivel, nivel),
+    orderBy: (k, { asc }) => [asc(k.numeroTrazos), asc(k.caracter)],
+    with: {
+      palabras: {
+        columns: { palabra: true, furigana: true, traduccion: true },
+        orderBy: (p, { asc }) => [asc(p.palabra)],
+      },
+      personas: {
+        columns: { nombre: true, descripcion: true },
+        orderBy: (p, { asc }) => [asc(p.nombre)],
+      },
+      kanjiTrapsDesde: {
+        columns: {},
+        with: {
+          destino: {
+            columns: { caracter: true, significado: true },
+          },
+        },
+      },
+    },
+  });
 }
 
 export type KanjiEnListado = Awaited<
