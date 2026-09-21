@@ -4,7 +4,7 @@ import TextScramble from "@/components/effects/TextScramble";
 
 export default function ProjectsPage() {
   return (
-    <main className="relative mx-auto max-w-3xl p-6">
+    <main className="relative mx-auto max-w-6xl p-6">
       <div className="relative z-10">
         <h1 className="text-3xl font-bold">
           <TextScramble text="Projects" />

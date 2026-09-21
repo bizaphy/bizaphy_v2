@@ -72,7 +72,7 @@ const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.       
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16 flex flex-col gap-8">
+    <div className="mx-auto max-w-6xl px-6 py-16 flex flex-col gap-8">
       <AboutCard
         imageSrc="/images/profile/bizaphy.webp"
         summary={
