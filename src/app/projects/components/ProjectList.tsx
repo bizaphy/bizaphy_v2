@@ -11,6 +11,7 @@ export default function ProjectList() {
           title={p.title}
           description={p.description}
           image={p.image}
+          variant={p.variant}
         />
       ))}
     </div>

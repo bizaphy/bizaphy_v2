@@ -3,4 +3,5 @@ export const meta = {
   title: "All About Kanjis",
   description: "Info para estudiar cada kanji del JLPT.",
   image: "/images/projects/all-about-kanjis.png",
+  variant: "destacado",
 } as const;

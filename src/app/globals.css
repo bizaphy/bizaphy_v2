@@ -154,6 +154,43 @@ body {
 }
 
 /* ##############################  */
+/* `card-glitch-loop` — glitch cromático breve que se dispara cada
+   ~7s en la variante destacado. Se aplica al Link (padre) para no
+   competir con card-breath que vive en el article. */
+
+.card-glitch-loop {
+  animation: card-glitch-loop 10.5s ease-in-out infinite;
+}
+
+@keyframes card-glitch-loop {
+  0% {
+    transform: translate(0);
+    filter: none;
+  }
+  0.6% {
+    transform: translate(3px, -1px);
+    filter: hue-rotate(-60deg) saturate(1.5);
+  }
+  1.1% {
+    transform: translate(-2px, 2px);
+    filter: hue-rotate(90deg) saturate(1.3);
+  }
+  1.7% {
+    transform: translate(2px, -2px);
+    filter: hue-rotate(-30deg);
+  }
+  2.3% {
+    transform: translate(-1px, 1px);
+    filter: hue-rotate(45deg);
+  }
+  2.9%,
+  100% {
+    transform: translate(0);
+    filter: none;
+  }
+}
+
+/* ##############################  */
 /* ### `page-glitch` — distorsión cromática al entrar */
 
 .page-glitch {

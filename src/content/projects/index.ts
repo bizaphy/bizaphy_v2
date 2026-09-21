@@ -12,6 +12,7 @@ export type ProjectMeta = {
   title: string;
   description: string;
   image?: string;
+  variant?: "default" | "destacado";
 };
 
 // Solo metadatos: seguro de importar desde Client Components.

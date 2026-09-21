@@ -7,6 +7,7 @@ type ProjectCardProps = {
   title: string;
   description: string;
   image?: string;
+  variant?: "default" | "destacado";
 };
 
 export default function ProjectCard({
@@ -14,10 +15,32 @@ export default function ProjectCard({
   title,
   description,
   image,
+  variant = "default",
 }: ProjectCardProps) {
+  const isDestacado = variant === "destacado";
+
+  const articleClasses = isDestacado
+    ? "border-white/70 group-hover:border-white group-hover:shadow-[0_0_28px_rgba(255,255,255,0.35)]"
+    : "border-fuchsia-500/50 group-hover:border-fuchsia-400 group-hover:shadow-[0_0_24px_rgba(217,70,239,0.45)]";
+
+  const titleClasses = isDestacado
+    ? "text-pink-200 group-hover:text-pink-100"
+    : "text-white group-hover:text-fuchsia-300";
+
+  const descClasses = isDestacado ? "text-zinc-100" : "text-zinc-400";
+
+  const ctaClasses = isDestacado
+    ? "text-pink-300 group-hover:text-pink-200"
+    : "text-fuchsia-500 group-hover:text-fuchsia-300";
+
   return (
-    <Link href={`/projects/${slug}`} className="group block">
-      <article className="flex h-90 flex-col overflow-hidden rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 transition duration-300 group-hover:border-fuchsia-400 group-hover:shadow-[0_0_24px_rgba(217,70,239,0.45)]">
+    <Link
+      href={`/projects/${slug}`}
+      className={`group block ${isDestacado ? "card-glitch-loop" : ""}`}
+    >
+      <article
+        className={`flex h-90 flex-col overflow-hidden rounded-xl border bg-zinc-950/60 transition duration-300 ${articleClasses}`}
+      >
         {/* Imagen */}
         <div className="relative h-44 shrink-0 overflow-hidden bg-zinc-900">
           {image ? (
@@ -59,13 +82,19 @@ export default function ProjectCard({
 
         {/* Info */}
         <div className="flex flex-1 flex-col gap-2 p-4">
-          <h2 className="text-base font-bold tracking-wide text-white transition duration-200 group-hover:text-fuchsia-300">
+          <h2
+            className={`text-base font-bold tracking-wide transition duration-200 ${titleClasses}`}
+          >
             <TextScramble text={title} />
           </h2>
-          <p className="neon-scroll flex-1 overflow-y-auto text-sm leading-relaxed text-zinc-400">
+          <p
+            className={`neon-scroll flex-1 overflow-y-auto text-sm leading-relaxed ${descClasses}`}
+          >
             {description}
           </p>
-          <span className="mt-3 shrink-0 font-mono text-xs tracking-widest text-fuchsia-500 transition duration-200 group-hover:text-fuchsia-300">
+          <span
+            className={`mt-3 shrink-0 font-mono text-xs tracking-widest transition duration-200 ${ctaClasses}`}
+          >
             [ ENTRAR ]
           </span>
         </div>
