@@ -109,7 +109,7 @@ export default function AboutThisPage() {
                 <div key={i} className="h-px w-full bg-zinc-700/50" />
               ))}
             </div>
-            <div className="relative flex h-24 items-stretch justify-between gap-1">
+            <div className="relative flex h-28 items-stretch justify-between gap-1 sm:h-36 md:h-40">
               {PALETTE.map((c) => (
                 <div
                   key={c.label}
