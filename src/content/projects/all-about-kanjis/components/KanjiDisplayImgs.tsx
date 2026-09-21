@@ -37,7 +37,7 @@ function KanjiDisplayImgs({ urlOrdenTrazos, radicales }: Props) {
                 alt="Orden de trazos del kanji"
               />
             ) : (
-              <div className="flex size-72 items-center justify-center">
+              <div className="flex size-72 items-center justify-center lg:size-80">
                 <span className="font-mono text-[10px] tracking-wider text-zinc-600">
                   sin imagen
                 </span>
@@ -56,12 +56,12 @@ function KanjiDisplayImgs({ urlOrdenTrazos, radicales }: Props) {
           </span>
         </div>
         <div className="p-3">
-          <div className="flex size-72 flex-wrap items-center justify-center gap-3 overflow-hidden rounded bg-zinc-900/40 p-4">
+          <div className="flex size-72 flex-wrap items-center justify-center gap-3 overflow-hidden rounded bg-zinc-900/40 p-4 lg:size-80">
             {listaRadicales.length > 0 ? (
               listaRadicales.map((r) => (
                 <span
                   key={r}
-                  className="rounded border border-zinc-700 bg-zinc-950 px-4 py-3 font-mono text-3xl text-zinc-200"
+                  className="rounded border border-zinc-700 bg-zinc-950 px-4 py-3 font-mono text-3xl text-zinc-200 lg:text-4xl"
                 >
                   {r}
                 </span>

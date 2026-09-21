@@ -27,7 +27,7 @@ function KanjiHelpReferences({
                 alt="Imagen mnemotecnica del kanji"
               />
             ) : (
-              <div className="flex size-72 items-center justify-center">
+              <div className="flex size-72 items-center justify-center lg:size-80">
                 <span className="font-mono text-[10px] tracking-wider text-zinc-600">
                   sin imagen
                 </span>
@@ -38,7 +38,7 @@ function KanjiHelpReferences({
 
         <div className="flex flex-1 items-center border-l border-zinc-700 p-4">
           {fraseMnemotecnica ? (
-            <p className="text-sm italic leading-relaxed text-zinc-300">
+            <p className="text-sm italic leading-relaxed text-zinc-300 lg:text-base">
               &ldquo;{fraseMnemotecnica}&rdquo;
             </p>
           ) : (

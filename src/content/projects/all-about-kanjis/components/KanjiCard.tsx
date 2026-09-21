@@ -12,7 +12,7 @@ export default function KanjiCard({
   onClick,
 }: Props) {
   const base =
-    "group relative flex aspect-square items-center justify-center rounded-md border font-mono text-[1.8rem] shadow-[0_0_6px_rgba(217,70,239,0.25)] transition-colors duration-150 ease-out select-none hover:z-10";
+    "group relative flex aspect-square items-center justify-center rounded-md border font-mono text-[1.8rem] lg:text-[2.4rem] shadow-[0_0_6px_rgba(217,70,239,0.25)] transition-colors duration-150 ease-out select-none hover:z-10";
   const idle =
     "border-fuchsia-500/40 bg-zinc-900/60 text-fuchsia-100 hover:border-fuchsia-400 hover:text-white hover:shadow-[0_0_12px_rgba(217,70,239,0.6)]";
   const selected =

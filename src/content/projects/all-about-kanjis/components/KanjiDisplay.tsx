@@ -24,7 +24,7 @@ export default function KanjiDisplay({
   return (
     <section className="flex items-stretch gap-6 p-4">
       {/* Contenedor izquierdo: ancho fijo (w-40) con dos zonas apiladas.*/}
-      <div className="relative flex w-40 shrink-0 flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
+      <div className="relative flex w-40 shrink-0 flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)] lg:w-52">
         {/* Estrella toggle: marca el kanji como "destacado" (dificil).
             Se posiciona absoluta arriba a la derecha del carrilito del kanji. */}
         <button
@@ -46,7 +46,7 @@ export default function KanjiDisplay({
         </button>
 
         <div className="flex aspect-square items-center justify-center">
-          <span className="font-mono text-6xl leading-none text-fuchsia-100">
+          <span className="font-mono text-6xl leading-none text-fuchsia-100 lg:text-7xl">
             {caracter}
           </span>
         </div>
@@ -61,7 +61,7 @@ export default function KanjiDisplay({
           <div className="font-mono text-[11px] tracking-wide text-zinc-500">
             音読み <span className="text-zinc-600">(onyomi)</span>
           </div>
-          <div className="font-mono text-lg text-fuchsia-200">
+          <div className="font-mono text-lg text-fuchsia-200 lg:text-xl">
             {onyomi ?? <span className="text-zinc-600">—</span>}
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function KanjiDisplay({
           <div className="font-mono text-[11px] tracking-wide text-zinc-500">
             訓読み <span className="text-zinc-600">(kunyomi)</span>
           </div>
-          <div className="font-mono text-lg text-fuchsia-200">
+          <div className="font-mono text-lg text-fuchsia-200 lg:text-xl">
             {kunyomi ?? <span className="text-zinc-600">—</span>}
           </div>
         </div>

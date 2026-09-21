@@ -39,7 +39,7 @@ export default function KanjiExtras({
           {personas && personas.length > 0 ? (
             personas.map((p) => (
               <div key={p.nombre} className="flex gap-3">
-                <div className="relative size-16 shrink-0 overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40">
+                <div className="relative size-16 shrink-0 overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40 lg:size-20">
                   {p.urlImagen ? (
                     <Image
                       src={p.urlImagen}
@@ -55,7 +55,7 @@ export default function KanjiExtras({
                   )}
                 </div>
                 <div className="flex min-w-0 flex-col gap-1">
-                  <span className="font-mono text-sm text-fuchsia-200">
+                  <span className="font-mono text-sm text-fuchsia-200 lg:text-base">
                     {p.nombre}
                   </span>
                   {p.descripcion && (
@@ -83,7 +83,7 @@ export default function KanjiExtras({
           {palabras && palabras.length > 0 ? (
             palabras.map((w) => (
               <div key={w.palabra} className="flex flex-col gap-1 px-3 py-3">
-                <span className="font-mono text-lg leading-none text-fuchsia-100">
+                <span className="font-mono text-lg leading-none text-fuchsia-100 lg:text-xl">
                   {w.palabra}
                 </span>
                 <span className="font-mono text-xs text-fuchsia-300/80">
@@ -115,7 +115,7 @@ export default function KanjiExtras({
                 key={k.caracter}
                 className="flex flex-col items-center gap-1 rounded border border-zinc-700 bg-black/40 px-2 py-1.5"
               >
-                <span className="font-mono text-2xl leading-none text-fuchsia-100">
+                <span className="font-mono text-2xl leading-none text-fuchsia-100 lg:text-3xl">
                   {k.caracter}
                 </span>
                 {k.significado && (
