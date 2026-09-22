@@ -3,8 +3,8 @@
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"] as const;
 type Level = (typeof LEVELS)[number];
 
-// N3, N2 y N1 todavia no tienen contenido cargado en la BDD, se muestran deshabilitados.
-const DISABLED_LEVELS: readonly Level[] = ["N3", "N2", "N1"];
+// N2 y N1 todavia no tienen contenido cargado en la BDD, se muestran deshabilitados.
+const DISABLED_LEVELS: readonly Level[] = ["N2", "N1"];
 
 type LevelInfo = {
   kanjisAcumulados: string;
