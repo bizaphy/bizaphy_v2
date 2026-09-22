@@ -14,7 +14,7 @@ import {
   kanji,
   palabrasFamosas,
   personasFamosas,
-  kanjiRelacionados,
+  kanjiTrap,
 } from "../src/db/schema";
 
 type SeedKanji = {
@@ -136,14 +136,11 @@ async function seed() {
 
   const rowsRelaciones = Array.from(paresRelacion).map((par) => {
     const [a, b] = par.split("→").map(Number);
-    return { kanjiId: a, relacionadoId: b };
+    return { kanjiId: a, kanjiTrapId: b };
   });
 
   if (rowsRelaciones.length > 0) {
-    await db
-      .insert(kanjiRelacionados)
-      .values(rowsRelaciones)
-      .onConflictDoNothing();
+    await db.insert(kanjiTrap).values(rowsRelaciones).onConflictDoNothing();
   }
 
   console.log(`✓ ${rowsRelaciones.length} relaciones creadas.`);

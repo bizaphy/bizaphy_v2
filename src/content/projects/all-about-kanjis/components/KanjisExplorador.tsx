@@ -15,6 +15,7 @@ import KanjiSearch, {
   type AnioFiltro,
   type TrazosFiltro,
 } from "./KanjiSearch";
+import KanjiTrap from "./KanjiTrap";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
 import SeparatorLine from "@/components/ui/SeparatorLine";
@@ -147,14 +148,18 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
               fraseMnemotecnica={seleccionado.fraseMnemotecnica}
             />
           </div>
-          <KanjiExtras
-            palabras={seleccionado.palabras}
-            personas={seleccionado.personas}
-            kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({
-              caracter: t.destino.caracter,
-              significado: t.destino.significado,
-            }))}
-          />
+          <section className="grid grid-cols-1 gap-3 p-4 md:grid-cols-3">
+            <KanjiExtras
+              palabras={seleccionado.palabras}
+              personas={seleccionado.personas}
+            />
+            <KanjiTrap
+              kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({
+                caracter: t.destino.caracter,
+                significado: t.destino.significado,
+              }))}
+            />
+          </section>
         </div>
       )}
     </>

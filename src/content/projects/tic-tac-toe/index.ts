@@ -3,4 +3,5 @@ export const meta = {
   title: "Tic Tac Toe",
   description: "Juego clasico de Tic Tac Toe.",
   image: "/images/projects/tic-tac-toe.png",
+  variant: "default",
 } as const;

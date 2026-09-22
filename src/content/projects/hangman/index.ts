@@ -4,4 +4,5 @@ export const meta = {
   description:
     "Adivina la capital del pais antes de que el ahorcado se complete.",
   image: "/images/projects/hangman.png",
+  variant: "default",
 } as const;

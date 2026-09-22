@@ -3,4 +3,5 @@ export const meta = {
   title: "Clima mundial",
   description: "Reloj mundial en tiempo real con algunas ciudades del mundo.",
   image: "/images/projects/weather-dashboard.png",
+  variant: "default",
 } as const;

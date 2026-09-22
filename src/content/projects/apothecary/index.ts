@@ -3,4 +3,5 @@ export const meta = {
   title: "Boticaria CL",
   description: "Info de plantas y fitofarmacos",
   image: "/images/projects/apothecary.png",
+  variant: "default",
 } as const;

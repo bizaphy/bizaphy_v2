@@ -3,4 +3,5 @@ export const meta = {
   title: "Sistema de habitos",
   description: "Webapp para practicar sistema de habitos, con puntajes.",
   image: "/images/projects/habit-tracker.png",
+  variant: "default",
 } as const;

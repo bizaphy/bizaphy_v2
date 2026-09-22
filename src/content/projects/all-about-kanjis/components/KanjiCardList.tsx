@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import KanjiCard from "./KanjiCard";
 import type { KanjiEnListado } from "../db/queries";
 
-const PAGE_SIZE = 100;
+const PAGE_SIZE = 80;
 
 type Props = {
   kanjis: KanjiEnListado[];
@@ -74,12 +74,12 @@ export default function KanjiCardList({
         </div>
       </div>
 
-      {/* grid tipo tabla periodica: 10 columnas fijas.
+      {/* grid tipo tabla periodica: 8 columnas fijas.
           En mobile hay scroll horizontal cuando el min-w no cabe. En desktop
           se permite overflow visible para que el tooltip del hover pueda
           salirse de la caja hacia arriba sin ser recortado. */}
       <div className="overflow-x-auto md:overflow-visible">
-        <div className="grid min-w-[520px] grid-cols-10 gap-1.5">
+        <div className="grid min-w-105 grid-cols-8 gap-1.5">
           {visibles.map((k) => (
             <KanjiCard
               key={k.id}

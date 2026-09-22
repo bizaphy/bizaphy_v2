@@ -46,11 +46,11 @@ export default function KanjiDisplay({
         </button>
 
         <div className="flex aspect-square items-center justify-center">
-          <span className="font-mono text-6xl leading-none text-fuchsia-100 lg:text-7xl">
+          <span className="font-mono text-[5.5rem] font-light leading-none text-fuchsia-100">
             {caracter}
           </span>
         </div>
-        <div className="flex min-h-14 items-center justify-center border-t border-zinc-700 px-2 py-2 text-center text-xs leading-tight text-zinc-300">
+        <div className="flex min-h-14 items-center justify-center border-t border-zinc-700 px-2 py-2 text-center text-base leading-tight text-zinc-300">
           <span className="line-clamp-2">{significado}</span>
         </div>
       </div>
@@ -58,29 +58,29 @@ export default function KanjiDisplay({
       {/* Lecturas: fuera del cuadrado -> sin borde. Etiquetas en japones + romaji. */}
       <div className="flex flex-1 flex-col justify-center gap-4">
         <div className="flex flex-col gap-1">
-          <div className="font-mono text-[11px] tracking-wide text-zinc-500">
+          <div className="font-mono text-[15px] tracking-wide text-zinc-500">
             音読み <span className="text-zinc-600">(onyomi)</span>
           </div>
-          <div className="font-mono text-lg text-fuchsia-200 lg:text-xl">
+          <div className="font-mono text-2xl text-fuchsia-200 lg:text-[1.65rem]">
             {onyomi ?? <span className="text-zinc-600">—</span>}
           </div>
         </div>
 
         <div className="flex flex-col gap-1">
-          <div className="font-mono text-[11px] tracking-wide text-zinc-500">
+          <div className="font-mono text-[15px] tracking-wide text-zinc-500">
             訓読み <span className="text-zinc-600">(kunyomi)</span>
           </div>
-          <div className="font-mono text-lg text-fuchsia-200 lg:text-xl">
+          <div className="font-mono text-2xl text-fuchsia-200 lg:text-[1.65rem]">
             {kunyomi ?? <span className="text-zinc-600">—</span>}
           </div>
         </div>
 
-        <div className="font-mono text-xs text-zinc-400">
+        <div className="font-mono text-base text-zinc-400">
           <span className="text-zinc-500">N° Trazos:</span>{" "}
           <span className="text-fuchsia-200">{numeroTrazos}</span>
         </div>
 
-        <div className="font-mono text-xs text-zinc-400">
+        <div className="font-mono text-base text-zinc-400">
           <span className="text-zinc-500">Año escolar (Japón):</span>{" "}
           <span className="text-fuchsia-200">
             {anioEscolarJapon ?? <span className="text-zinc-600">—</span>}
