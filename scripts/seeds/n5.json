@@ -34,6 +34,12 @@
         "furigana": "ひぐちいちよう",
         "descripcion": "escritora Meiji (1872-1896), autora de Takekurabe, rostro del billete de 5000 yenes (2004-2024)",
         "tipo": "persona"
+      },
+      {
+        "nombre": "一ノ瀬ことみ",
+        "furigana": "いちのせことみ",
+        "descripcion": "genio tímida que vive en la biblioteca en Clannad",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -280,6 +286,12 @@
         "furigana": "やしろあき",
         "descripcion": "cantante enka legendaria (1950-2023), éxito Ame no Bojō",
         "tipo": "persona"
+      },
+      {
+        "nombre": "八木俊典",
+        "furigana": "やぎとしのり",
+        "descripcion": "All Might, el símbolo de la paz en Boku no Hero Academia",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -363,6 +375,12 @@
         "nombre": "佐野万次郎",
         "furigana": "さのまんじろう",
         "descripcion": "\"Mikey\", líder invencible de la pandilla Tokyo Manji en Tokyo Revengers",
+        "tipo": "personaje"
+      },
+      {
+        "nombre": "阿万音鈴羽",
+        "furigana": "あまねすずは",
+        "descripcion": "viajera del tiempo que trabaja en la tienda bajo el laboratorio en Steins;Gate",
         "tipo": "personaje"
       }
     ],
@@ -449,6 +467,12 @@
         "furigana": "うえとあや",
         "descripcion": "actriz japonesa contemporánea (Attention Please, Hanzawa Naoki)",
         "tipo": "persona"
+      },
+      {
+        "nombre": "上条当麻",
+        "furigana": "かみじょうとうま",
+        "descripcion": "protagonista de To Aru Majutsu no Index, su mano derecha anula cualquier poder",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -537,6 +561,12 @@
         "furigana": "せんのりきゅう",
         "descripcion": "maestro del té wabi-cha al servicio de Toyotomi Hideyoshi (1522-1591)",
         "tipo": "persona"
+      },
+      {
+        "nombre": "吉田千鶴",
+        "furigana": "よしだちづる",
+        "descripcion": "amiga de Sawako en Kimi ni Todoke, directa y de gran corazón",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -662,6 +692,12 @@
         "furigana": "おおたにしょうへい",
         "descripcion": "beisbolista bidireccional de MLB (Angels, Dodgers), MVP múltiple",
         "tipo": "persona"
+      },
+      {
+        "nombre": "逢坂大河",
+        "furigana": "あいさかたいが",
+        "descripcion": "protagonista de Toradora!, la \"tigre de bolsillo\" de carácter explosivo",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -746,6 +782,24 @@
         "furigana": "かまどねずこ",
         "descripcion": "hermana de Tanjirō convertida en demonio, protagonista de Kimetsu no Yaiba",
         "tipo": "personaje"
+      },
+      {
+        "nombre": "黒沼爽子",
+        "furigana": "くろぬまさわこ",
+        "descripcion": "protagonista de Kimi ni Todoke, tímida chica a la que apodan Sadako",
+        "tipo": "personaje"
+      },
+      {
+        "nombre": "白井黒子",
+        "furigana": "しらいくろこ",
+        "descripcion": "teletransportadora de Judgment y devota \"onee-sama\" de Mikoto en Railgun",
+        "tipo": "personaje"
+      },
+      {
+        "nombre": "佐天涙子",
+        "furigana": "さてんるいこ",
+        "descripcion": "amiga de Mikoto en To Aru Kagaku no Railgun, alegre y sin poderes (Level 0)",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -788,6 +842,12 @@
         "furigana": "こいずみじゅんいちろう",
         "descripcion": "primer ministro (2001-2006), impulsor de la privatización del correo",
         "tipo": "persona"
+      },
+      {
+        "nombre": "小泉リサ",
+        "furigana": "こいずみリサ",
+        "descripcion": "protagonista de Lovely★Complex, la chica alta que forma dúo con Ōtani",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -870,6 +930,12 @@
         "furigana": "かわばたやすなり",
         "descripcion": "novelista (1899-1972), primer japonés en ganar el Nobel de Literatura (1968)",
         "tipo": "persona"
+      },
+      {
+        "nombre": "川嶋亜美",
+        "furigana": "かわしまあみ",
+        "descripcion": "modelo con doble personalidad en Toradora!",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -913,6 +979,12 @@
         "nombre": "中島敦",
         "furigana": "なかじまあつし",
         "descripcion": "protagonista de Bungō Stray Dogs, huérfano que puede transformarse en tigre",
+        "tipo": "personaje"
+      },
+      {
+        "nombre": "中務椿",
+        "furigana": "なかつかさつばき",
+        "descripcion": "arma demoníaca de Black☆Star en Soul Eater, heredera de una familia ninja",
         "tipo": "personaje"
       }
     ],
@@ -1261,6 +1333,12 @@
         "furigana": "てんげんとっぱグレンラガン",
         "descripcion": "anime mecha de Gainax (2007) protagonizado por Simon y Kamina",
         "tipo": "anime"
+      },
+      {
+        "nombre": "佐天涙子",
+        "furigana": "さてんるいこ",
+        "descripcion": "amiga de Mikoto en To Aru Kagaku no Railgun, alegre y sin poderes (Level 0)",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1387,6 +1465,12 @@
         "furigana": "ひだかのりこ",
         "descripcion": "seiyū de Ranma-chan (Ranma 1/2), Minami (Touch) y Nadia",
         "tipo": "persona"
+      },
+      {
+        "nombre": "麗日お茶子",
+        "furigana": "うららかおちゃこ",
+        "descripcion": "heroína de Boku no Hero Academia, puede anular la gravedad de lo que toca",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1469,6 +1553,12 @@
         "furigana": "すずきいちろう",
         "descripcion": "Ichirō, beisbolista MLB (Mariners, Yankees, Marlins), más de 3000 hits",
         "tipo": "persona"
+      },
+      {
+        "nombre": "高木",
+        "furigana": "たかぎ",
+        "descripcion": "protagonista de Karakai Jōzu no Takagi-san, experta en burlarse de Nishikata",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1638,6 +1728,12 @@
         "furigana": "でがわてつろう",
         "descripcion": "comediante icónico por programas de reacción y aventura como Yabai yo Yabai yo",
         "tipo": "persona"
+      },
+      {
+        "nombre": "緑谷出久",
+        "furigana": "みどりやいずく",
+        "descripcion": "protagonista de Boku no Hero Academia, heredero del poder One For All",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1682,6 +1778,12 @@
         "furigana": "きたのたけし",
         "descripcion": "director de cine (Hana-bi, Sonatine), comediante y actor, León de Oro en Venecia 1997",
         "tipo": "persona"
+      },
+      {
+        "nombre": "北村祐作",
+        "furigana": "きたむらゆうさく",
+        "descripcion": "vicepresidente del consejo estudiantil en Toradora!, amigo de Ryūji",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1771,6 +1873,12 @@
         "furigana": "ふるたちいちろう",
         "descripcion": "periodista y presentador, ex-conductor de News Station y comentarista de pro-wrestling",
         "tipo": "persona"
+      },
+      {
+        "nombre": "古河渚",
+        "furigana": "ふるかわなぎさ",
+        "descripcion": "heroína de Clannad, estudiante que quiere revivir el club de teatro",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2167,6 +2275,12 @@
         "furigana": "しらすじろう",
         "descripcion": "empresario y aristócrata (1902-1985), asistente del PM Yoshida en la posguerra",
         "tipo": "persona"
+      },
+      {
+        "nombre": "白井黒子",
+        "furigana": "しらいくろこ",
+        "descripcion": "teletransportadora de Judgment y devota \"onee-sama\" de Mikoto en Railgun",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2209,6 +2323,12 @@
         "furigana": "めぐろれん",
         "descripcion": "actor y miembro del grupo idol Snow Man",
         "tipo": "persona"
+      },
+      {
+        "nombre": "禁書目録",
+        "furigana": "インデックス",
+        "descripcion": "Index, monja que memorizó 103.000 grimorios en To Aru Majutsu no Index",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2428,6 +2548,12 @@
         "furigana": "めいたんていコナン",
         "descripcion": "manga y anime de Gōshō Aoyama (1994-), franquicia longeva de detectives",
         "tipo": "manga"
+      },
+      {
+        "nombre": "椎名まゆり",
+        "furigana": "しいなまゆり",
+        "descripcion": "amiga de la infancia de Okabe en Steins;Gate, famosa por su \"Tuturu~\"",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2819,6 +2945,12 @@
         "furigana": "にしだとしゆき",
         "descripcion": "actor icónico (Tsuribaka Nisshi, Amagi Goe), fallecido en 2024",
         "tipo": "persona"
+      },
+      {
+        "nombre": "西片",
+        "furigana": "にしかた",
+        "descripcion": "compañero de asiento de Takagi, siempre víctima de sus bromas",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2907,6 +3039,12 @@
         "furigana": "おとこはつらいよ",
         "descripcion": "saga de 50 películas de Yōji Yamada con Kiyoshi Atsumi como Tora-san (1969-2019)",
         "tipo": "pelicula"
+      },
+      {
+        "nombre": "剛田猛男",
+        "furigana": "ごうだたけお",
+        "descripcion": "protagonista de Ore Monogatari!!, gigantón noble y de buen corazón",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -3472,6 +3610,12 @@
         "furigana": "おだのぶなが",
         "descripcion": "unificador del Japón Sengoku (1534-1582), murió en el Incidente de Honnō-ji",
         "tipo": "persona"
+      },
+      {
+        "nombre": "長門有希",
+        "furigana": "ながとゆき",
+        "descripcion": "extraterrestre silenciosa del club SOS en Suzumiya Haruhi no Yūutsu",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -3866,6 +4010,12 @@
         "furigana": "たかくらけん",
         "descripcion": "actor icónico del cine japonés (Poppoya, Yellow Handkerchief), 1931-2014",
         "tipo": "persona"
+      },
+      {
+        "nombre": "高須竜児",
+        "furigana": "たかすりゅうじ",
+        "descripcion": "protagonista de Toradora!, chico de mirada temible y amante de la limpieza",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
