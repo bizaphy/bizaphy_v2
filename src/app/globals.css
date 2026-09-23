@@ -101,6 +101,29 @@ body {
 }
 
 /* ##############################  */
+/* `cursor-consola` — "_" que parpadea como cursor de terminal */
+
+.cursor-consola {
+  animation: cursor-consola 1s steps(1) infinite; /* steps(1): sin fundido */
+}
+
+@keyframes cursor-consola {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* con foco ya se ve el cursor real */
+input:focus ~ * .cursor-consola {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-consola {
+    animation: none;
+  }
+}
+
+/* ##############################  */
 /*  `page-scan` — línea neon que barre la pantalla */
 
 .page-scan {

@@ -98,7 +98,7 @@ export default function KanjiLevelsPanel<T extends Level>({
       {/* division derecha: informativo del nivel seleccionado */}
       <aside
         aria-live="polite"
-        className="relative min-w-[16rem] flex-1 rounded-md border border-fuchsia-500/40 bg-zinc-900/60 py-3 pr-10 pl-4 shadow-[0_0_10px_rgba(217,70,239,0.15)]"
+        className="relative min-w-[16rem] flex-1 rounded-md border border-zinc-700 bg-zinc-900/60 py-3 pr-10 pl-4"
       >
         <svg
           aria-hidden

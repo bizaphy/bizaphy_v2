@@ -22,7 +22,7 @@ type Props = {
 };
 
 const selectBase =
-  "cursor-pointer rounded border border-fuchsia-500/40 bg-zinc-900/80 px-2 py-1 font-mono text-xs text-zinc-200 shadow-[0_0_6px_rgba(217,70,239,0.2)] transition hover:border-fuchsia-400 focus:border-fuchsia-300 focus:outline-none focus:shadow-[0_0_10px_rgba(217,70,239,0.5)]";
+  "cursor-pointer rounded border border-violet-300/50 bg-zinc-900/80 px-2 py-1 font-mono text-xs text-zinc-200 shadow-[0_0_6px_rgba(196,181,253,0.2)] transition hover:border-violet-300 focus:border-violet-300 focus:outline-none focus:shadow-[0_0_10px_rgba(196,181,253,0.5)]";
 
 export default function KanjiSearch({
   value,
@@ -36,7 +36,8 @@ export default function KanjiSearch({
 }: Props) {
   return (
     <div className="px-4">
-      <div className="rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.15)] transition focus-within:border-fuchsia-400 focus-within:shadow-[0_0_14px_rgba(217,70,239,0.45)]">
+      {/* Borde violeta */}
+      <div className="rounded-md border border-violet-300/50 bg-zinc-900/60 shadow-[0_0_10px_rgba(196,181,253,0.15)] transition focus-within:border-violet-300 focus-within:shadow-[0_0_14px_rgba(196,181,253,0.4)]">
         {/* Fila 1: buscador por significado */}
         <div className="group flex items-center border-b border-zinc-800/80">
           <span
@@ -58,13 +59,30 @@ export default function KanjiSearch({
             </svg>
           </span>
 
-          <input
-            type="search"
-            value={value}
-            onChange={(e) => onChange(e.target.value)}
-            placeholder="Buscar por significado..."
-            className="w-full bg-transparent py-2 pr-3 font-mono text-sm text-zinc-200 placeholder:text-zinc-500 focus:outline-none"
-          />
+          <div className="relative w-full">
+            {/* Sin placeholder nativo: no se puede animar. El aria-label
+                cumple su rol para lectores de pantalla. */}
+            <input
+              type="search"
+              value={value}
+              onChange={(e) => onChange(e.target.value)}
+              aria-label="Buscar por significado"
+              className="w-full bg-transparent py-2 pr-3 font-mono text-sm text-zinc-200 focus:outline-none"
+            />
+            {/* Placeholder falso con "_" de consola: avisa que se puede
+                escribir. pointer-events-none deja pasar el clic al input.
+                El "_" se oculta con foco (regla en globals.css): ahi ya
+                parpadea el cursor real y serian dos. */}
+            {!value && (
+              <span
+                aria-hidden
+                className="pointer-events-none absolute inset-y-0 left-0 flex items-center font-mono text-sm text-zinc-500"
+              >
+                Buscar por significado
+                <span className="cursor-consola text-violet-300">_</span>
+              </span>
+            )}
+          </div>
 
           {value && (
             <button
