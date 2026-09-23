@@ -401,10 +401,10 @@
     ],
     "nombres": [
       {
-        "nombre": "引田天功",
-        "furigana": "ひきたてんこう",
-        "descripcion": "ilusionista japonesa conocida internacionalmente como Princess Tenko",
-        "tipo": "persona"
+        "nombre": "引田駅",
+        "furigana": "ひけたえき",
+        "descripcion": "estación de JR Shikoku en Higashikagawa (Kagawa); aquí 引田 se lee \"hiketa\"",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -774,9 +774,9 @@
     ],
     "nombres": [
       {
-        "nombre": "プロフェッショナル仕事の流儀",
-        "furigana": "プロフェッショナルしごとのりゅうぎ",
-        "descripcion": "programa NHK que retrata profesionales destacados desde 2006",
+        "nombre": "仕舞",
+        "furigana": "しまい",
+        "descripcion": "danza del teatro Noh ejecutada sin máscara ni vestuario, solo con kimono y hakama",
         "tipo": "otro"
       }
     ],
@@ -857,9 +857,9 @@
     ],
     "nombres": [
       {
-        "nombre": "岡田以蔵",
-        "furigana": "おかだいぞう",
-        "descripcion": "hitokiri del Bakumatsu (1838-1865), asesino al servicio de Tosa",
+        "nombre": "以仁王",
+        "furigana": "もちひとおう",
+        "descripcion": "príncipe imperial (1151-1180) cuyo llamado a los Minamoto inició la guerra Genpei",
         "tipo": "persona"
       }
     ],
@@ -1019,10 +1019,10 @@
     ],
     "nombres": [
       {
-        "nombre": "過去のない男",
-        "furigana": "かこのないおとこ",
-        "descripcion": "título japonés del film The Man Without a Past (2002) de Aki Kaurismäki",
-        "tipo": "pelicula"
+        "nombre": "去来抄",
+        "furigana": "きょらいしょう",
+        "descripcion": "tratado de haikai de Mukai Kyorai con las enseñanzas de su maestro Matsuo Bashō",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -1599,10 +1599,10 @@
     ],
     "nombres": [
       {
-        "nombre": "十文字弥彦",
-        "furigana": "じゅうもんじやひこ",
-        "descripcion": "antagonista del anime Rurouni Kenshin, líder de un grupo criminal",
-        "tipo": "personaje"
+        "nombre": "字幕",
+        "furigana": "じまく",
+        "descripcion": "subtítulos: el texto que acompaña a películas y anime",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -1974,9 +1974,9 @@
     ],
     "nombres": [
       {
-        "nombre": "最低賃金制度",
-        "furigana": "さいていちんぎんせいど",
-        "descripcion": "sistema legal japonés que fija salarios mínimos por prefectura",
+        "nombre": "低気圧",
+        "furigana": "ていきあつ",
+        "descripcion": "zona de baja presión atmosférica, protagonista de los partes del tiempo y los tifones",
         "tipo": "otro"
       }
     ],
@@ -2140,10 +2140,10 @@
     ],
     "nombres": [
       {
-        "nombre": "別役実",
-        "furigana": "べつやくみのる",
-        "descripcion": "dramaturgo japonés (1937-2020) del teatro del absurdo",
-        "tipo": "persona"
+        "nombre": "別府市",
+        "furigana": "べっぷし",
+        "descripcion": "ciudad de Ōita famosa por sus aguas termales y los \"infiernos\" de vapor",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -3831,10 +3831,10 @@
     ],
     "nombres": [
       {
-        "nombre": "待つわ",
-        "furigana": "まつわ",
-        "descripcion": "sencillo icónico de 1982 del dúo Amin",
-        "tipo": "musica"
+        "nombre": "待兼山",
+        "furigana": "まちかねやま",
+        "descripcion": "colina de Toyonaka (Osaka) donde está el campus de la Universidad de Osaka",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -4323,9 +4323,9 @@
     ],
     "nombres": [
       {
-        "nombre": "都道府県かるた",
-        "furigana": "とどうふけんかるた",
-        "descripcion": "karuta educativo japonés para memorizar las 47 prefecturas",
+        "nombre": "沖縄県",
+        "furigana": "おきなわけん",
+        "descripcion": "prefectura más al sur de Japón, antiguo Reino de Ryūkyū",
         "tipo": "otro"
       }
     ],
@@ -5094,9 +5094,9 @@
     ],
     "nombres": [
       {
-        "nombre": "特撮",
-        "furigana": "とくさつ",
-        "descripcion": "género japonés de efectos especiales prácticos (Godzilla, Ultraman, Kamen Rider)",
+        "nombre": "特牛駅",
+        "furigana": "こっといえき",
+        "descripcion": "estación de JR en Shimonoseki, famosa por su lectura imposible: \"kottoi\"",
         "tipo": "otro"
       }
     ],
@@ -6172,9 +6172,9 @@
     ],
     "nombres": [
       {
-        "nombre": "大寒",
-        "furigana": "だいかん",
-        "descripcion": "uno de los 24 términos solares (~20 enero), día más frío del año",
+        "nombre": "寒霞渓",
+        "furigana": "かんかけい",
+        "descripcion": "garganta de la isla Shōdoshima, uno de los paisajes otoñales más famosos de Japón",
         "tipo": "otro"
       }
     ],
@@ -6456,9 +6456,9 @@
     ],
     "nombres": [
       {
-        "nombre": "短歌",
-        "furigana": "たんか",
-        "descripcion": "forma poética tradicional japonesa de 5-7-5-7-7 sílabas",
+        "nombre": "短刀",
+        "furigana": "たんとう",
+        "descripcion": "daga japonesa de menos de un shaku (unos 30 cm)",
         "tipo": "otro"
       }
     ],
@@ -6497,10 +6497,10 @@
     ],
     "nombres": [
       {
-        "nombre": "答えのない歌",
-        "furigana": "こたえのないうた",
-        "descripcion": "canción de la banda japonesa BUMP OF CHICKEN",
-        "tipo": "musica"
+        "nombre": "答志島",
+        "furigana": "とうしじま",
+        "descripcion": "isla de la bahía de Toba (Mie), conocida por sus pescadoras ama",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6538,9 +6538,9 @@
     ],
     "nombres": [
       {
-        "nombre": "貸本漫画",
-        "furigana": "かしほんまんが",
-        "descripcion": "manga de alquiler popular en los 50s-60s, cuna de artistas como Mizuki Shigeru",
+        "nombre": "貸本屋",
+        "furigana": "かしほんや",
+        "descripcion": "tienda de alquiler de libros, cuna del manga de posguerra (Mizuki Shigeru, Shirato Sanpei)",
         "tipo": "otro"
       }
     ],
@@ -6990,9 +6990,9 @@
     ],
     "nombres": [
       {
-        "nombre": "日本漢字能力検定",
-        "furigana": "にほんかんじのうりょくけんてい",
-        "descripcion": "examen nacional de kanji con 12 niveles, del 10級 al 1級",
+        "nombre": "漢國神社",
+        "furigana": "かんごうじんじゃ",
+        "descripcion": "santuario de Nara donde se venera al dios de los manjū (dulces japoneses)",
         "tipo": "otro"
       }
     ],
@@ -7029,9 +7029,9 @@
     ],
     "nombres": [
       {
-        "nombre": "試験の花道",
-        "furigana": "しけんのはなみち",
-        "descripcion": "programa NHK educativo (2008-2016) con consejos de estudio para exámenes",
+        "nombre": "試し斬り",
+        "furigana": "ためしぎり",
+        "descripcion": "práctica de cortar blancos de paja enrollada para probar una katana",
         "tipo": "otro"
       }
     ],
@@ -7553,9 +7553,9 @@
     ],
     "nombres": [
       {
-        "nombre": "経験値",
-        "furigana": "けいけんち",
-        "descripcion": "puntos de experiencia en juegos de rol japoneses, clave en la mecánica JRPG",
+        "nombre": "修験道",
+        "furigana": "しゅげんどう",
+        "descripcion": "práctica ascética de las montañas que mezcla sintoísmo y budismo, la de los yamabushi",
         "tipo": "otro"
       }
     ],
