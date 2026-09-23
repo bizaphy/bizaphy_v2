@@ -566,10 +566,10 @@
     ],
     "nombres": [
       {
-        "nombre": "遣唐使の廃止",
-        "furigana": "けんとうしのはいし",
-        "descripcion": "fin de las misiones japonesas a la China Tang (894), propuesto por Sugawara no Michizane",
-        "tipo": "otro"
+        "nombre": "打ち止め",
+        "furigana": "ラストオーダー",
+        "descripcion": "Last Order, la clon más pequeña de Mikoto y compañera de Accelerator en To Aru Majutsu no Index",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
