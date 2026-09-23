@@ -1,0 +1,7376 @@
+[
+  {
+    "caracter": "力",
+    "nivel": "n4",
+    "significado": "fuerza",
+    "onyomi": "りょく、りき、りい",
+    "kunyomi": "ちから",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/power.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "力",
+        "furigana": "ちから",
+        "traduccion": "fuerza"
+      },
+      {
+        "palabra": "電力",
+        "furigana": "でんりょく",
+        "traduccion": "energía eléctrica"
+      },
+      {
+        "palabra": "協力",
+        "furigana": "きょうりょく",
+        "traduccion": "cooperación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "力道山",
+        "furigana": "りきどうざん",
+        "descripcion": "luchador profesional legendario de la posguerra japonesa (1924-1963)"
+      }
+    ],
+    "relacionadosCon": [
+      "九",
+      "刀"
+    ]
+  },
+  {
+    "caracter": "夕",
+    "nivel": "n4",
+    "significado": "atardecer",
+    "onyomi": "せき",
+    "kunyomi": "ゆう",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/evening.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "夕方",
+        "furigana": "ゆうがた",
+        "traduccion": "atardecer"
+      },
+      {
+        "palabra": "夕食",
+        "furigana": "ゆうしょく",
+        "traduccion": "cena"
+      },
+      {
+        "palabra": "夕日",
+        "furigana": "ゆうひ",
+        "traduccion": "sol del atardecer"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "夕立",
+        "furigana": "ゆうだち",
+        "descripcion": "destructor personificado como chica del juego Kantai Collection"
+      }
+    ],
+    "relacionadosCon": [
+      "多"
+    ]
+  },
+  {
+    "caracter": "工",
+    "nivel": "n4",
+    "significado": "trabajo / construcción",
+    "onyomi": "こう、く、ぐ",
+    "kunyomi": null,
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/craft,%20labour.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "工場",
+        "furigana": "こうじょう",
+        "traduccion": "fábrica"
+      },
+      {
+        "palabra": "工事",
+        "furigana": "こうじ",
+        "traduccion": "obras / construcción"
+      },
+      {
+        "palabra": "大工",
+        "furigana": "だいく",
+        "traduccion": "carpintero"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "工藤静香",
+        "furigana": "くどうしずか",
+        "descripcion": "cantante, ex integrante de Onyanko Club"
+      }
+    ],
+    "relacionadosCon": [
+      "土"
+    ]
+  },
+  {
+    "caracter": "不",
+    "nivel": "n4",
+    "significado": "no / negativo",
+    "onyomi": "ふ、ぶ",
+    "kunyomi": null,
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/not,%20non-.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "不便",
+        "furigana": "ふべん",
+        "traduccion": "inconveniente"
+      },
+      {
+        "palabra": "不安",
+        "furigana": "ふあん",
+        "traduccion": "inquietud / ansiedad"
+      },
+      {
+        "palabra": "不思議",
+        "furigana": "ふしぎ",
+        "traduccion": "misterioso / extraño"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "藤子・F・不二雄",
+        "furigana": "ふじこ・エフ・ふじお",
+        "descripcion": "mangaka (1933-1996) creador de Doraemon, Perman y Kiteretsu Daihyakka"
+      }
+    ],
+    "relacionadosCon": [
+      "下"
+    ]
+  },
+  {
+    "caracter": "元",
+    "nivel": "n4",
+    "significado": "origen",
+    "onyomi": "げん、がん",
+    "kunyomi": "もと",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/energetic.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "元気",
+        "furigana": "げんき",
+        "traduccion": "saludable / con energía"
+      },
+      {
+        "palabra": "元",
+        "furigana": "もと",
+        "traduccion": "origen / raíz"
+      },
+      {
+        "palabra": "地元",
+        "furigana": "じもと",
+        "traduccion": "lugar de origen / localidad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "中元すず香",
+        "furigana": "なかもとすずか",
+        "descripcion": "SU-METAL, vocalista de BABYMETAL"
+      }
+    ],
+    "relacionadosCon": [
+      "完"
+    ]
+  },
+  {
+    "caracter": "公",
+    "nivel": "n4",
+    "significado": "público",
+    "onyomi": "こう、く",
+    "kunyomi": "おおやけ",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/public.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "公園",
+        "furigana": "こうえん",
+        "traduccion": "parque"
+      },
+      {
+        "palabra": "公立",
+        "furigana": "こうりつ",
+        "traduccion": "público (institución)"
+      },
+      {
+        "palabra": "公務員",
+        "furigana": "こうむいん",
+        "traduccion": "funcionario público"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "公文公",
+        "furigana": "くもんとおる",
+        "descripcion": "fundador del método educativo Kumon (1914-1995)"
+      }
+    ],
+    "relacionadosCon": [
+      "分"
+    ]
+  },
+  {
+    "caracter": "切",
+    "nivel": "n4",
+    "significado": "cortar",
+    "onyomi": "せつ、さい",
+    "kunyomi": "き.る、-き.る、き.り、-き.り、-ぎ.り、き.れる、-き.れる、き.れ、-き.れ、-ぎ.れ",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20cut.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "切る",
+        "furigana": "きる",
+        "traduccion": "cortar"
+      },
+      {
+        "palabra": "大切",
+        "furigana": "たいせつ",
+        "traduccion": "importante"
+      },
+      {
+        "palabra": "切符",
+        "furigana": "きっぷ",
+        "traduccion": "billete / boleto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "切腹",
+        "furigana": "せっぷく",
+        "descripcion": "film clásico de Masaki Kobayashi (1962) sobre un samurái en un tribunal Edo"
+      }
+    ],
+    "relacionadosCon": [
+      "分"
+    ]
+  },
+  {
+    "caracter": "区",
+    "nivel": "n4",
+    "significado": "distrito / zona",
+    "onyomi": "く、おう、こう",
+    "kunyomi": null,
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "区",
+        "furigana": "く",
+        "traduccion": "distrito"
+      },
+      {
+        "palabra": "地区",
+        "furigana": "ちく",
+        "traduccion": "zona / área"
+      },
+      {
+        "palabra": "区別",
+        "furigana": "くべつ",
+        "traduccion": "distinción"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "東京23区",
+        "furigana": "とうきょうにじゅうさんく",
+        "descripcion": "los 23 distritos especiales del centro de Tokio"
+      }
+    ],
+    "relacionadosCon": [
+      "医"
+    ]
+  },
+  {
+    "caracter": "太",
+    "nivel": "n4",
+    "significado": "grueso / gordo",
+    "onyomi": "たい、た",
+    "kunyomi": "ふと.い、ふと.る",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/thick,%20wide.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "太い",
+        "furigana": "ふとい",
+        "traduccion": "grueso"
+      },
+      {
+        "palabra": "太陽",
+        "furigana": "たいよう",
+        "traduccion": "sol"
+      },
+      {
+        "palabra": "丸太",
+        "furigana": "まるた",
+        "traduccion": "tronco"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "太宰治",
+        "furigana": "だざいおさむ",
+        "descripcion": "novelista clásico (Ningen Shikkaku, Hashire Melos), suicida en 1948"
+      }
+    ],
+    "relacionadosCon": [
+      "大",
+      "犬"
+    ]
+  },
+  {
+    "caracter": "引",
+    "nivel": "n4",
+    "significado": "tirar / jalar",
+    "onyomi": "いん",
+    "kunyomi": "ひ.く、ひ.き、ひ.き-、-び.き、ひ.ける",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20draw,%20pull.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "引く",
+        "furigana": "ひく",
+        "traduccion": "tirar / jalar"
+      },
+      {
+        "palabra": "引退",
+        "furigana": "いんたい",
+        "traduccion": "retiro"
+      },
+      {
+        "palabra": "割引",
+        "furigana": "わりびき",
+        "traduccion": "descuento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "引田天功",
+        "furigana": "ひきたてんこう",
+        "descripcion": "ilusionista japonesa conocida internacionalmente como Princess Tenko"
+      }
+    ],
+    "relacionadosCon": [
+      "弓"
+    ]
+  },
+  {
+    "caracter": "心",
+    "nivel": "n4",
+    "significado": "corazón / mente",
+    "onyomi": "しん",
+    "kunyomi": "こころ、-ごころ",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/heart.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "心",
+        "furigana": "こころ",
+        "traduccion": "corazón / mente"
+      },
+      {
+        "palabra": "中心",
+        "furigana": "ちゅうしん",
+        "traduccion": "centro"
+      },
+      {
+        "palabra": "安心",
+        "furigana": "あんしん",
+        "traduccion": "tranquilidad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "緋村剣心",
+        "furigana": "ひむらけんしん",
+        "descripcion": "espadachín protagonista del manga/anime Rurouni Kenshin"
+      }
+    ],
+    "relacionadosCon": [
+      "必"
+    ]
+  },
+  {
+    "caracter": "文",
+    "nivel": "n4",
+    "significado": "texto / oración",
+    "onyomi": "ぶん、もん",
+    "kunyomi": "ふみ、あや",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/sentence.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "文",
+        "furigana": "ぶん",
+        "traduccion": "oración / frase"
+      },
+      {
+        "palabra": "文化",
+        "furigana": "ぶんか",
+        "traduccion": "cultura"
+      },
+      {
+        "palabra": "文法",
+        "furigana": "ぶんぽう",
+        "traduccion": "gramática"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "菅原文太",
+        "furigana": "すがわらぶんた",
+        "descripcion": "actor de Jingi naki tatakai y voz de Kamaji en El viaje de Chihiro (1933-2014)"
+      }
+    ],
+    "relacionadosCon": [
+      "交",
+      "父"
+    ]
+  },
+  {
+    "caracter": "方",
+    "nivel": "n4",
+    "significado": "dirección / persona (honorífico)",
+    "onyomi": "ほう",
+    "kunyomi": "かた、-かた、-がた",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/direction.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "方",
+        "furigana": "ほう",
+        "traduccion": "dirección / lado"
+      },
+      {
+        "palabra": "方法",
+        "furigana": "ほうほう",
+        "traduccion": "método"
+      },
+      {
+        "palabra": "両方",
+        "furigana": "りょうほう",
+        "traduccion": "ambos lados"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "北方謙三",
+        "furigana": "きたかたけんぞう",
+        "descripcion": "novelista de crímenes y sagas históricas contemporáneo"
+      }
+    ],
+    "relacionadosCon": [
+      "万"
+    ]
+  },
+  {
+    "caracter": "止",
+    "nivel": "n4",
+    "significado": "detener",
+    "onyomi": "し",
+    "kunyomi": "と.まる、-ど.まり、と.める、-と.める、-ど.め、とど.める、とど.め、とど.まる、や.める、や.む、-や.む、よ.す、-さ.す、-さ.し",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20stop.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "止まる",
+        "furigana": "とまる",
+        "traduccion": "detenerse"
+      },
+      {
+        "palabra": "中止",
+        "furigana": "ちゅうし",
+        "traduccion": "suspensión"
+      },
+      {
+        "palabra": "禁止",
+        "furigana": "きんし",
+        "traduccion": "prohibición"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "遣唐使の廃止",
+        "furigana": "けんとうしのはいし",
+        "descripcion": "fin de las misiones japonesas a la China Tang (894), propuesto por Sugawara no Michizane"
+      }
+    ],
+    "relacionadosCon": [
+      "上",
+      "正"
+    ]
+  },
+  {
+    "caracter": "牛",
+    "nivel": "n4",
+    "significado": "vaca / res",
+    "onyomi": "ぎゅう",
+    "kunyomi": "うし",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/cow.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "牛",
+        "furigana": "うし",
+        "traduccion": "vaca"
+      },
+      {
+        "palabra": "牛乳",
+        "furigana": "ぎゅうにゅう",
+        "traduccion": "leche"
+      },
+      {
+        "palabra": "水牛",
+        "furigana": "すいぎゅう",
+        "traduccion": "búfalo de agua"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "牛若丸",
+        "furigana": "うしわかまる",
+        "descripcion": "nombre de infancia de Minamoto no Yoshitsune, héroe del período Heian"
+      }
+    ],
+    "relacionadosCon": [
+      "午"
+    ]
+  },
+  {
+    "caracter": "犬",
+    "nivel": "n4",
+    "significado": "perro",
+    "onyomi": "けん",
+    "kunyomi": "いぬ、いぬ-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/dog.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "犬",
+        "furigana": "いぬ",
+        "traduccion": "perro"
+      },
+      {
+        "palabra": "子犬",
+        "furigana": "こいぬ",
+        "traduccion": "cachorro"
+      },
+      {
+        "palabra": "番犬",
+        "furigana": "ばんけん",
+        "traduccion": "perro guardián"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "犬養毅",
+        "furigana": "いぬかいつよし",
+        "descripcion": "primer ministro asesinado en el incidente del 15 de mayo de 1932"
+      }
+    ],
+    "relacionadosCon": [
+      "大",
+      "太"
+    ]
+  },
+  {
+    "caracter": "世",
+    "nivel": "n4",
+    "significado": "mundo / era",
+    "onyomi": "せい、せ、そう",
+    "kunyomi": "よ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "世界",
+        "furigana": "せかい",
+        "traduccion": "mundo"
+      },
+      {
+        "palabra": "世紀",
+        "furigana": "せいき",
+        "traduccion": "siglo"
+      },
+      {
+        "palabra": "世代",
+        "furigana": "せだい",
+        "traduccion": "generación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "世阿弥",
+        "furigana": "ぜあみ",
+        "descripcion": "dramaturgo Noh (~1363-1443), autor de Fūshi Kaden"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "主",
+    "nivel": "n4",
+    "significado": "principal / dueño",
+    "onyomi": "しゅ、す、しゅう",
+    "kunyomi": "ぬし、おも、あるじ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "主人",
+        "furigana": "しゅじん",
+        "traduccion": "marido / dueño"
+      },
+      {
+        "palabra": "主に",
+        "furigana": "おもに",
+        "traduccion": "principalmente"
+      },
+      {
+        "palabra": "主役",
+        "furigana": "しゅやく",
+        "traduccion": "protagonista"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "中村主水",
+        "furigana": "なかむらもんど",
+        "descripcion": "personaje icónico de la saga Hissatsu (1973-), samurái asesino a sueldo"
+      }
+    ],
+    "relacionadosCon": [
+      "注",
+      "玉",
+      "王",
+      "生"
+    ]
+  },
+  {
+    "caracter": "仕",
+    "nivel": "n4",
+    "significado": "servir (trabajo)",
+    "onyomi": "し、じ",
+    "kunyomi": "つか.える",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "仕事",
+        "furigana": "しごと",
+        "traduccion": "trabajo"
+      },
+      {
+        "palabra": "仕方",
+        "furigana": "しかた",
+        "traduccion": "manera / forma"
+      },
+      {
+        "palabra": "仕上げ",
+        "furigana": "しあげ",
+        "traduccion": "acabado / finalización"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "プロフェッショナル仕事の流儀",
+        "furigana": "プロフェッショナルしごとのりゅうぎ",
+        "descripcion": "programa NHK que retrata profesionales destacados desde 2006"
+      }
+    ],
+    "relacionadosCon": [
+      "士"
+    ]
+  },
+  {
+    "caracter": "代",
+    "nivel": "n4",
+    "significado": "generación / sustituir",
+    "onyomi": "だい、たい",
+    "kunyomi": "か.わる、かわ.る、かわ.り、か.わり、-がわ.り、-が.わり、か.える、よ、しろ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "時代",
+        "furigana": "じだい",
+        "traduccion": "era / época"
+      },
+      {
+        "palabra": "代わり",
+        "furigana": "かわり",
+        "traduccion": "reemplazo / sustituto"
+      },
+      {
+        "palabra": "現代",
+        "furigana": "げんだい",
+        "traduccion": "era moderna"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "松本伊代",
+        "furigana": "まつもといよ",
+        "descripcion": "cantante idol de los 80, debutó con Sentimental Journey (1981)"
+      }
+    ],
+    "relacionadosCon": [
+      "化",
+      "式"
+    ]
+  },
+  {
+    "caracter": "以",
+    "nivel": "n4",
+    "significado": "a partir de / mediante",
+    "onyomi": "い",
+    "kunyomi": "もっ.て",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "以上",
+        "furigana": "いじょう",
+        "traduccion": "más de / superior a"
+      },
+      {
+        "palabra": "以下",
+        "furigana": "いか",
+        "traduccion": "menos de / inferior a"
+      },
+      {
+        "palabra": "以前",
+        "furigana": "いぜん",
+        "traduccion": "antes / anteriormente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "岡田以蔵",
+        "furigana": "おかだいぞう",
+        "descripcion": "hitokiri del Bakumatsu (1838-1865), asesino al servicio de Tosa"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "兄",
+    "nivel": "n4",
+    "significado": "hermano mayor",
+    "onyomi": "けい、きょう",
+    "kunyomi": "あに",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/older%20brother.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "兄",
+        "furigana": "あに",
+        "traduccion": "hermano mayor (propio)"
+      },
+      {
+        "palabra": "お兄さん",
+        "furigana": "おにいさん",
+        "traduccion": "hermano mayor (ajeno)"
+      },
+      {
+        "palabra": "兄嫁",
+        "furigana": "あによめ",
+        "traduccion": "esposa del hermano mayor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "お兄ちゃんはおしまい！",
+        "furigana": "おにいちゃんはおしまい！",
+        "descripcion": "manga y anime de comedia sobre un hermano transformado en hermana menor"
+      }
+    ],
+    "relacionadosCon": [
+      "児",
+      "見"
+    ]
+  },
+  {
+    "caracter": "写",
+    "nivel": "n4",
+    "significado": "copiar / fotografiar",
+    "onyomi": "しゃ、じゃ",
+    "kunyomi": "うつ.す、うつ.る、うつ-、うつ.し",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "写真",
+        "furigana": "しゃしん",
+        "traduccion": "fotografía"
+      },
+      {
+        "palabra": "写す",
+        "furigana": "うつす",
+        "traduccion": "copiar / fotografiar"
+      },
+      {
+        "palabra": "描写",
+        "furigana": "びょうしゃ",
+        "traduccion": "descripción / representación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "東洲斎写楽",
+        "furigana": "とうしゅうさいしゃらく",
+        "descripcion": "enigmático artista ukiyo-e activo solo diez meses en 1794-1795"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "冬",
+    "nivel": "n4",
+    "significado": "invierno",
+    "onyomi": "とう",
+    "kunyomi": "ふゆ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/winter.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "冬",
+        "furigana": "ふゆ",
+        "traduccion": "invierno"
+      },
+      {
+        "palabra": "冬休み",
+        "furigana": "ふゆやすみ",
+        "traduccion": "vacaciones de invierno"
+      },
+      {
+        "palabra": "冬眠",
+        "furigana": "とうみん",
+        "traduccion": "hibernación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "坂本冬美",
+        "furigana": "さかもとふゆみ",
+        "descripcion": "cantante de enka, conocida por Abare Daiko"
+      }
+    ],
+    "relacionadosCon": [
+      "各",
+      "終"
+    ]
+  },
+  {
+    "caracter": "去",
+    "nivel": "n4",
+    "significado": "irse / pasado",
+    "onyomi": "きょ、こ",
+    "kunyomi": "さ.る、-さ.る",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "去る",
+        "furigana": "さる",
+        "traduccion": "irse / partir"
+      },
+      {
+        "palabra": "過去",
+        "furigana": "かこ",
+        "traduccion": "pasado"
+      },
+      {
+        "palabra": "去年",
+        "furigana": "きょねん",
+        "traduccion": "año pasado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "過去のない男",
+        "furigana": "かこのないおとこ",
+        "descripcion": "título japonés del film The Man Without a Past (2002) de Aki Kaurismäki"
+      }
+    ],
+    "relacionadosCon": [
+      "台",
+      "法"
+    ]
+  },
+  {
+    "caracter": "台",
+    "nivel": "n4",
+    "significado": "base / plataforma",
+    "onyomi": "だい、たい",
+    "kunyomi": "うてな、われ、つかさ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/stand,%20stage.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "台所",
+        "furigana": "だいどころ",
+        "traduccion": "cocina"
+      },
+      {
+        "palabra": "台風",
+        "furigana": "たいふう",
+        "traduccion": "tifón"
+      },
+      {
+        "palabra": "舞台",
+        "furigana": "ぶたい",
+        "traduccion": "escenario / obra teatral"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "仙台四郎",
+        "furigana": "せんだいしろう",
+        "descripcion": "personaje histórico de Sendai (Meiji), considerado talismán de suerte"
+      }
+    ],
+    "relacionadosCon": [
+      "去",
+      "始"
+    ]
+  },
+  {
+    "caracter": "市",
+    "nivel": "n4",
+    "significado": "ciudad / mercado",
+    "onyomi": "し",
+    "kunyomi": "いち",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/city,%20market.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "市",
+        "furigana": "し",
+        "traduccion": "ciudad"
+      },
+      {
+        "palabra": "市場",
+        "furigana": "いちば",
+        "traduccion": "mercado"
+      },
+      {
+        "palabra": "市民",
+        "furigana": "しみん",
+        "traduccion": "ciudadano"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "市原悦子",
+        "furigana": "いちはらえつこ",
+        "descripcion": "actriz de voz de Nihon Mukashibanashi, narró más de 1500 cuentos"
+      }
+    ],
+    "relacionadosCon": [
+      "姉"
+    ]
+  },
+  {
+    "caracter": "広",
+    "nivel": "n4",
+    "significado": "amplio",
+    "onyomi": "こう",
+    "kunyomi": "ひろ.い、ひろ.まる、ひろ.める、ひろ.がる、ひろ.げる",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/spacious,%20wide.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "広い",
+        "furigana": "ひろい",
+        "traduccion": "amplio / espacioso"
+      },
+      {
+        "palabra": "広告",
+        "furigana": "こうこく",
+        "traduccion": "anuncio"
+      },
+      {
+        "palabra": "広場",
+        "furigana": "ひろば",
+        "traduccion": "plaza / explanada"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "広瀬すず",
+        "furigana": "ひろせすず",
+        "descripcion": "actriz japonesa contemporánea"
+      }
+    ],
+    "relacionadosCon": [
+      "店"
+    ]
+  },
+  {
+    "caracter": "正",
+    "nivel": "n4",
+    "significado": "correcto / justo",
+    "onyomi": "せい、しょう",
+    "kunyomi": "ただ.しい、ただ.す、まさ、まさ.に",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/correct.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "正しい",
+        "furigana": "ただしい",
+        "traduccion": "correcto"
+      },
+      {
+        "palabra": "正解",
+        "furigana": "せいかい",
+        "traduccion": "respuesta correcta"
+      },
+      {
+        "palabra": "正月",
+        "furigana": "しょうがつ",
+        "traduccion": "año nuevo japonés"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "正岡子規",
+        "furigana": "まさおかしき",
+        "descripcion": "poeta de haiku de la era Meiji (1867-1902)"
+      }
+    ],
+    "relacionadosCon": [
+      "止"
+    ]
+  },
+  {
+    "caracter": "民",
+    "nivel": "n4",
+    "significado": "pueblo / ciudadano",
+    "onyomi": "みん",
+    "kunyomi": "たみ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "国民",
+        "furigana": "こくみん",
+        "traduccion": "ciudadano / pueblo"
+      },
+      {
+        "palabra": "民主",
+        "furigana": "みんしゅ",
+        "traduccion": "democracia"
+      },
+      {
+        "palabra": "農民",
+        "furigana": "のうみん",
+        "traduccion": "campesino"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "奥田民生",
+        "furigana": "おくだたみお",
+        "descripcion": "cantautor, vocalista de Unicorn y productor de PUFFY"
+      }
+    ],
+    "relacionadosCon": [
+      "氏"
+    ]
+  },
+  {
+    "caracter": "用",
+    "nivel": "n4",
+    "significado": "uso / usar",
+    "onyomi": "よう",
+    "kunyomi": "もち.いる",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "用事",
+        "furigana": "ようじ",
+        "traduccion": "asunto / diligencia"
+      },
+      {
+        "palabra": "使用",
+        "furigana": "しよう",
+        "traduccion": "uso"
+      },
+      {
+        "palabra": "用意",
+        "furigana": "ようい",
+        "traduccion": "preparación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "用心棒",
+        "furigana": "ようじんぼう",
+        "descripcion": "film samurái clásico de Akira Kurosawa (1961) con Toshirō Mifune"
+      }
+    ],
+    "relacionadosCon": [
+      "月",
+      "角"
+    ]
+  },
+  {
+    "caracter": "田",
+    "nivel": "n4",
+    "significado": "campo de arroz",
+    "onyomi": "でん",
+    "kunyomi": "た",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/rice%20paddy.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "田んぼ",
+        "furigana": "たんぼ",
+        "traduccion": "arrozal"
+      },
+      {
+        "palabra": "田舎",
+        "furigana": "いなか",
+        "traduccion": "campo / zona rural"
+      },
+      {
+        "palabra": "水田",
+        "furigana": "すいでん",
+        "traduccion": "arrozal inundado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "田中角栄",
+        "furigana": "たなかかくえい",
+        "descripcion": "primer ministro japonés (1972-1974), figura central del s.XX"
+      }
+    ],
+    "relacionadosCon": [
+      "由",
+      "申",
+      "男"
+    ]
+  },
+  {
+    "caracter": "光",
+    "nivel": "n4",
+    "significado": "luz",
+    "onyomi": "こう",
+    "kunyomi": "ひか.る、ひかり",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/light.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "光",
+        "furigana": "ひかり",
+        "traduccion": "luz"
+      },
+      {
+        "palabra": "日光",
+        "furigana": "にっこう",
+        "traduccion": "luz solar"
+      },
+      {
+        "palabra": "観光",
+        "furigana": "かんこう",
+        "traduccion": "turismo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "光源氏",
+        "furigana": "ひかるげんじ",
+        "descripcion": "protagonista de Genji Monogatari de Murasaki Shikibu"
+      }
+    ],
+    "relacionadosCon": [
+      "先"
+    ]
+  },
+  {
+    "caracter": "合",
+    "nivel": "n4",
+    "significado": "unir / coincidir",
+    "onyomi": "ごう、がっ、かっ",
+    "kunyomi": "あ.う、-あ.う、あ.い、あい-、-あ.い、-あい、あ.わす、あ.わせる、-あ.わせる",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20fit.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "合う",
+        "furigana": "あう",
+        "traduccion": "coincidir / quedar bien"
+      },
+      {
+        "palabra": "合図",
+        "furigana": "あいず",
+        "traduccion": "señal"
+      },
+      {
+        "palabra": "合格",
+        "furigana": "ごうかく",
+        "traduccion": "aprobar un examen"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "河合奈保子",
+        "furigana": "かわいなおこ",
+        "descripcion": "cantante idol de los años 80"
+      }
+    ],
+    "relacionadosCon": [
+      "会",
+      "答"
+    ]
+  },
+  {
+    "caracter": "同",
+    "nivel": "n4",
+    "significado": "igual / mismo",
+    "onyomi": "どう",
+    "kunyomi": "おな.じ",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/same.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "同じ",
+        "furigana": "おなじ",
+        "traduccion": "igual"
+      },
+      {
+        "palabra": "同時",
+        "furigana": "どうじ",
+        "traduccion": "al mismo tiempo"
+      },
+      {
+        "palabra": "同僚",
+        "furigana": "どうりょう",
+        "traduccion": "colega"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "同期のサクラ",
+        "furigana": "どうきのサクラ",
+        "descripcion": "dorama japonés (2019) sobre trabajadores de una constructora"
+      }
+    ],
+    "relacionadosCon": [
+      "司",
+      "向"
+    ]
+  },
+  {
+    "caracter": "回",
+    "nivel": "n4",
+    "significado": "vez / vuelta",
+    "onyomi": "かい、え",
+    "kunyomi": "まわ.る、-まわ.る、-まわ.り、まわ.す、-まわ.す、まわ.し-、-まわ.し、もとお.る、か.える",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/go%20around.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "一回",
+        "furigana": "いっかい",
+        "traduccion": "una vez"
+      },
+      {
+        "palabra": "回転",
+        "furigana": "かいてん",
+        "traduccion": "rotación"
+      },
+      {
+        "palabra": "今回",
+        "furigana": "こんかい",
+        "traduccion": "esta vez"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "回復術士のやり直し",
+        "furigana": "かいふくじゅつしのやりなおし",
+        "descripcion": "light novel y anime isekai controversial sobre venganza"
+      }
+    ],
+    "relacionadosCon": [
+      "口"
+    ]
+  },
+  {
+    "caracter": "地",
+    "nivel": "n4",
+    "significado": "tierra / suelo",
+    "onyomi": "ち、じ",
+    "kunyomi": null,
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/land,%20ground.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "地図",
+        "furigana": "ちず",
+        "traduccion": "mapa"
+      },
+      {
+        "palabra": "地下",
+        "furigana": "ちか",
+        "traduccion": "subterráneo"
+      },
+      {
+        "palabra": "地震",
+        "furigana": "じしん",
+        "traduccion": "terremoto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "菊地凛子",
+        "furigana": "きくちりんこ",
+        "descripcion": "actriz nominada al Óscar por Babel (2006)"
+      }
+    ],
+    "relacionadosCon": [
+      "他",
+      "池"
+    ]
+  },
+  {
+    "caracter": "好",
+    "nivel": "n4",
+    "significado": "gustar / bueno",
+    "onyomi": "こう",
+    "kunyomi": "この.む、す.く、よ.い、い.い",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20like.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "好き",
+        "furigana": "すき",
+        "traduccion": "gustar"
+      },
+      {
+        "palabra": "好物",
+        "furigana": "こうぶつ",
+        "traduccion": "comida favorita"
+      },
+      {
+        "palabra": "大好き",
+        "furigana": "だいすき",
+        "traduccion": "gustar mucho"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "好きっていいなよ。",
+        "furigana": "すきっていいなよ。",
+        "descripcion": "manga shōjo de Kanae Hazuki (2008-2017), romance escolar"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "字",
+    "nivel": "n4",
+    "significado": "letra / carácter",
+    "onyomi": "じ",
+    "kunyomi": "あざ、あざな、-な",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/letter,character.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "字",
+        "furigana": "じ",
+        "traduccion": "carácter / letra"
+      },
+      {
+        "palabra": "漢字",
+        "furigana": "かんじ",
+        "traduccion": "kanji"
+      },
+      {
+        "palabra": "数字",
+        "furigana": "すうじ",
+        "traduccion": "número"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "十文字弥彦",
+        "furigana": "じゅうもんじやひこ",
+        "descripcion": "antagonista del anime Rurouni Kenshin, líder de un grupo criminal"
+      }
+    ],
+    "relacionadosCon": [
+      "子",
+      "学",
+      "安"
+    ]
+  },
+  {
+    "caracter": "早",
+    "nivel": "n4",
+    "significado": "temprano",
+    "onyomi": "そう、さっ",
+    "kunyomi": "はや.い、はや、はや-、はや.まる、はや.める、さ-",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/early.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "早い",
+        "furigana": "はやい",
+        "traduccion": "temprano / rápido"
+      },
+      {
+        "palabra": "早朝",
+        "furigana": "そうちょう",
+        "traduccion": "temprano en la mañana"
+      },
+      {
+        "palabra": "早口",
+        "furigana": "はやくち",
+        "traduccion": "hablar rápido"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "早川雪洲",
+        "furigana": "はやかわせっしゅう",
+        "descripcion": "primer actor japonés estrella en Hollywood (1886-1973)"
+      }
+    ],
+    "relacionadosCon": [
+      "古"
+    ]
+  },
+  {
+    "caracter": "有",
+    "nivel": "n4",
+    "significado": "tener / existir",
+    "onyomi": "ゆう、う",
+    "kunyomi": "あ.る",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "有名",
+        "furigana": "ゆうめい",
+        "traduccion": "famoso"
+      },
+      {
+        "palabra": "有料",
+        "furigana": "ゆうりょう",
+        "traduccion": "de pago (no gratis)"
+      },
+      {
+        "palabra": "有効",
+        "furigana": "ゆうこう",
+        "traduccion": "válido"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "有村架純",
+        "furigana": "ありむらかすみ",
+        "descripcion": "actriz, protagonista de la asadora Hiyokko"
+      }
+    ],
+    "relacionadosCon": [
+      "友",
+      "右"
+    ]
+  },
+  {
+    "caracter": "死",
+    "nivel": "n4",
+    "significado": "muerte",
+    "onyomi": "し",
+    "kunyomi": "し.ぬ、し.に-",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "死ぬ",
+        "furigana": "しぬ",
+        "traduccion": "morir"
+      },
+      {
+        "palabra": "必死",
+        "furigana": "ひっし",
+        "traduccion": "desesperado / a muerte"
+      },
+      {
+        "palabra": "死亡",
+        "furigana": "しぼう",
+        "traduccion": "muerte / fallecimiento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "BLEACH",
+        "furigana": null,
+        "descripcion": "manga y anime de Tite Kubo sobre shinigami que protegen almas"
+      }
+    ],
+    "relacionadosCon": [
+      "列"
+    ]
+  },
+  {
+    "caracter": "池",
+    "nivel": "n4",
+    "significado": "estanque",
+    "onyomi": "ち",
+    "kunyomi": "いけ",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/pond.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "池",
+        "furigana": "いけ",
+        "traduccion": "estanque"
+      },
+      {
+        "palabra": "電池",
+        "furigana": "でんち",
+        "traduccion": "batería"
+      },
+      {
+        "palabra": "貯水池",
+        "furigana": "ちょすいち",
+        "traduccion": "embalse"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "池上彰",
+        "furigana": "いけがみあきら",
+        "descripcion": "periodista y presentador conocido por sus explicaciones de noticias"
+      }
+    ],
+    "relacionadosCon": [
+      "他",
+      "地"
+    ]
+  },
+  {
+    "caracter": "考",
+    "nivel": "n4",
+    "significado": "pensar",
+    "onyomi": "こう",
+    "kunyomi": "かんが.える、かんが.え",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "考える",
+        "furigana": "かんがえる",
+        "traduccion": "pensar / considerar"
+      },
+      {
+        "palabra": "参考",
+        "furigana": "さんこう",
+        "traduccion": "referencia"
+      },
+      {
+        "palabra": "思考",
+        "furigana": "しこう",
+        "traduccion": "pensamiento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "考える人",
+        "furigana": "かんがえるひと",
+        "descripcion": "escultura icónica de Auguste Rodin, muy popularizada en Japón"
+      }
+    ],
+    "relacionadosCon": [
+      "教",
+      "老",
+      "者"
+    ]
+  },
+  {
+    "caracter": "肉",
+    "nivel": "n4",
+    "significado": "carne",
+    "onyomi": "にく",
+    "kunyomi": "しし",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/meat.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "肉",
+        "furigana": "にく",
+        "traduccion": "carne"
+      },
+      {
+        "palabra": "牛肉",
+        "furigana": "ぎゅうにく",
+        "traduccion": "carne de res"
+      },
+      {
+        "palabra": "筋肉",
+        "furigana": "きんにく",
+        "traduccion": "músculo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "キン肉マン",
+        "furigana": "キンにくマン",
+        "descripcion": "superhéroe de la lucha libre en el manga clásico de Yudetamago"
+      }
+    ],
+    "relacionadosCon": [
+      "内"
+    ]
+  },
+  {
+    "caracter": "自",
+    "nivel": "n4",
+    "significado": "uno mismo",
+    "onyomi": "じ、し",
+    "kunyomi": "みずか.ら、おの.ずから、おの.ずと",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/self.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "自分",
+        "furigana": "じぶん",
+        "traduccion": "uno mismo"
+      },
+      {
+        "palabra": "自転車",
+        "furigana": "じてんしゃ",
+        "traduccion": "bicicleta"
+      },
+      {
+        "palabra": "自由",
+        "furigana": "じゆう",
+        "traduccion": "libertad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "自来也",
+        "furigana": "じらいや",
+        "descripcion": "sennin sabio de los sapos, maestro de Naruto Uzumaki"
+      }
+    ],
+    "relacionadosCon": [
+      "白",
+      "目",
+      "首"
+    ]
+  },
+  {
+    "caracter": "色",
+    "nivel": "n4",
+    "significado": "color",
+    "onyomi": "しょく、しき",
+    "kunyomi": "いろ",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/colour.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "色",
+        "furigana": "いろ",
+        "traduccion": "color"
+      },
+      {
+        "palabra": "景色",
+        "furigana": "けしき",
+        "traduccion": "paisaje"
+      },
+      {
+        "palabra": "色々",
+        "furigana": "いろいろ",
+        "traduccion": "varios / diversos"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "色川武大",
+        "furigana": "いろかわたけひろ",
+        "descripcion": "escritor japonés (1929-1989), autor de novelas sobre apuestas"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "低",
+    "nivel": "n4",
+    "significado": "bajo",
+    "onyomi": "てい",
+    "kunyomi": "ひく.い、ひく.める、ひく.まる",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "低い",
+        "furigana": "ひくい",
+        "traduccion": "bajo"
+      },
+      {
+        "palabra": "最低",
+        "furigana": "さいてい",
+        "traduccion": "mínimo / lo peor"
+      },
+      {
+        "palabra": "低温",
+        "furigana": "ていおん",
+        "traduccion": "baja temperatura"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "最低賃金制度",
+        "furigana": "さいていちんぎんせいど",
+        "descripcion": "sistema legal japonés que fija salarios mínimos por prefectura"
+      }
+    ],
+    "relacionadosCon": [
+      "底",
+      "紙"
+    ]
+  },
+  {
+    "caracter": "住",
+    "nivel": "n4",
+    "significado": "vivir / residir",
+    "onyomi": "じゅう、ぢゅう、ちゅう",
+    "kunyomi": "す.む、す.まう、-ず.まい",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "住む",
+        "furigana": "すむ",
+        "traduccion": "vivir / residir"
+      },
+      {
+        "palabra": "住所",
+        "furigana": "じゅうしょ",
+        "traduccion": "dirección postal"
+      },
+      {
+        "palabra": "住宅",
+        "furigana": "じゅうたく",
+        "traduccion": "vivienda / residencia"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "住友政友",
+        "furigana": "すみともまさとも",
+        "descripcion": "fundador del clan mercantil Sumitomo en el s.XVII"
+      }
+    ],
+    "relacionadosCon": [
+      "柱",
+      "注"
+    ]
+  },
+  {
+    "caracter": "体",
+    "nivel": "n4",
+    "significado": "cuerpo",
+    "onyomi": "たい、てい",
+    "kunyomi": "からだ、かたち",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/body.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "体",
+        "furigana": "からだ",
+        "traduccion": "cuerpo"
+      },
+      {
+        "palabra": "体育",
+        "furigana": "たいいく",
+        "traduccion": "educación física"
+      },
+      {
+        "palabra": "全体",
+        "furigana": "ぜんたい",
+        "traduccion": "totalidad / conjunto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "三体",
+        "furigana": "さんたい",
+        "descripcion": "novela de ciencia ficción de Liu Cixin, traducida al japonés y adaptada al anime"
+      }
+    ],
+    "relacionadosCon": [
+      "休"
+    ]
+  },
+  {
+    "caracter": "作",
+    "nivel": "n4",
+    "significado": "hacer / crear",
+    "onyomi": "さく、さ",
+    "kunyomi": "つく.る、つく.り、-づく.り",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20make.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "作る",
+        "furigana": "つくる",
+        "traduccion": "hacer / fabricar"
+      },
+      {
+        "palabra": "作品",
+        "furigana": "さくひん",
+        "traduccion": "obra"
+      },
+      {
+        "palabra": "作文",
+        "furigana": "さくぶん",
+        "traduccion": "composición / redacción"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "高杉晋作",
+        "furigana": "たかすぎしんさく",
+        "descripcion": "samurái de Chōshū, fundador del Kiheitai en el Bakumatsu (1839-1867)"
+      }
+    ],
+    "relacionadosCon": [
+      "昨"
+    ]
+  },
+  {
+    "caracter": "別",
+    "nivel": "n4",
+    "significado": "separado / diferente",
+    "onyomi": "べつ",
+    "kunyomi": "わか.れる、わ.ける",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "別",
+        "furigana": "べつ",
+        "traduccion": "diferente / aparte"
+      },
+      {
+        "palabra": "別れる",
+        "furigana": "わかれる",
+        "traduccion": "separarse"
+      },
+      {
+        "palabra": "別々",
+        "furigana": "べつべつ",
+        "traduccion": "por separado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "別役実",
+        "furigana": "べつやくみのる",
+        "descripcion": "dramaturgo japonés (1937-2020) del teatro del absurdo"
+      }
+    ],
+    "relacionadosCon": [
+      "列"
+    ]
+  },
+  {
+    "caracter": "医",
+    "nivel": "n4",
+    "significado": "medicina / médico",
+    "onyomi": "い",
+    "kunyomi": "い.やす、い.する、くすし",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "医者",
+        "furigana": "いしゃ",
+        "traduccion": "médico"
+      },
+      {
+        "palabra": "医学",
+        "furigana": "いがく",
+        "traduccion": "medicina (ciencia)"
+      },
+      {
+        "palabra": "医院",
+        "furigana": "いいん",
+        "traduccion": "clínica"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "医龍-Team Medical Dragon-",
+        "furigana": "いりゅう",
+        "descripcion": "manga y dorama médico sobre cirujanos elite en un hospital universitario"
+      }
+    ],
+    "relacionadosCon": [
+      "区"
+    ]
+  },
+  {
+    "caracter": "図",
+    "nivel": "n4",
+    "significado": "diagrama / dibujo",
+    "onyomi": "ず、と",
+    "kunyomi": "え、はか.る",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "地図",
+        "furigana": "ちず",
+        "traduccion": "mapa"
+      },
+      {
+        "palabra": "図書館",
+        "furigana": "としょかん",
+        "traduccion": "biblioteca"
+      },
+      {
+        "palabra": "図形",
+        "furigana": "ずけい",
+        "traduccion": "figura geométrica"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "伊能忠敬",
+        "furigana": "いのうただたか",
+        "descripcion": "cartógrafo Edo, autor del primer mapa científico de Japón (1821)"
+      }
+    ],
+    "relacionadosCon": [
+      "国"
+    ]
+  },
+  {
+    "caracter": "声",
+    "nivel": "n4",
+    "significado": "voz",
+    "onyomi": "せい、しょう",
+    "kunyomi": "こえ、こわ-",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "声",
+        "furigana": "こえ",
+        "traduccion": "voz"
+      },
+      {
+        "palabra": "大声",
+        "furigana": "おおごえ",
+        "traduccion": "voz alta / grito"
+      },
+      {
+        "palabra": "音声",
+        "furigana": "おんせい",
+        "traduccion": "audio / voz"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "声の形",
+        "furigana": "こえのかたち",
+        "descripcion": "film animado (2016) de Naoko Yamada sobre bullying y sordera"
+      }
+    ],
+    "relacionadosCon": [
+      "売"
+    ]
+  },
+  {
+    "caracter": "売",
+    "nivel": "n4",
+    "significado": "vender",
+    "onyomi": "ばい",
+    "kunyomi": "う.る、う.れる",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20sell.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "売る",
+        "furigana": "うる",
+        "traduccion": "vender"
+      },
+      {
+        "palabra": "売店",
+        "furigana": "ばいてん",
+        "traduccion": "quiosco"
+      },
+      {
+        "palabra": "販売",
+        "furigana": "はんばい",
+        "traduccion": "venta / comercialización"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "即売会",
+        "furigana": "そくばいかい",
+        "descripcion": "convenciones doujin donde artistas venden sus obras (ej. Comiket)"
+      }
+    ],
+    "relacionadosCon": [
+      "声",
+      "読",
+      "買"
+    ]
+  },
+  {
+    "caracter": "弟",
+    "nivel": "n4",
+    "significado": "hermano menor",
+    "onyomi": "てい、だい、で",
+    "kunyomi": "おとうと",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/younger%20brother.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "弟",
+        "furigana": "おとうと",
+        "traduccion": "hermano menor"
+      },
+      {
+        "palabra": "弟子",
+        "furigana": "でし",
+        "traduccion": "discípulo"
+      },
+      {
+        "palabra": "義弟",
+        "furigana": "ぎてい",
+        "traduccion": "cuñado menor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "弟の夫",
+        "furigana": "おとうとのおっと",
+        "descripcion": "manga LGBT+ de Tagame Gengoroh sobre un hombre y su cuñado gay canadiense"
+      }
+    ],
+    "relacionadosCon": [
+      "第"
+    ]
+  },
+  {
+    "caracter": "村",
+    "nivel": "n4",
+    "significado": "pueblo / aldea",
+    "onyomi": "そん",
+    "kunyomi": "むら",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/village.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "村",
+        "furigana": "むら",
+        "traduccion": "aldea"
+      },
+      {
+        "palabra": "村人",
+        "furigana": "むらびと",
+        "traduccion": "aldeano"
+      },
+      {
+        "palabra": "農村",
+        "furigana": "のうそん",
+        "traduccion": "pueblo agrícola"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "木村拓哉",
+        "furigana": "きむらたくや",
+        "descripcion": "actor y cantante, exlíder del grupo idol SMAP"
+      }
+    ],
+    "relacionadosCon": [
+      "対",
+      "材"
+    ]
+  },
+  {
+    "caracter": "町",
+    "nivel": "n4",
+    "significado": "pueblo / ciudad",
+    "onyomi": "ちょう",
+    "kunyomi": "まち",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/town.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "町",
+        "furigana": "まち",
+        "traduccion": "pueblo / ciudad"
+      },
+      {
+        "palabra": "下町",
+        "furigana": "したまち",
+        "traduccion": "zona antigua de la ciudad"
+      },
+      {
+        "palabra": "町内",
+        "furigana": "ちょうない",
+        "traduccion": "vecindario / barrio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "町田啓太",
+        "furigana": "まちだけいた",
+        "descripcion": "actor japonés contemporáneo, exmiembro de The Rampage"
+      }
+    ],
+    "relacionadosCon": [
+      "丁",
+      "打"
+    ]
+  },
+  {
+    "caracter": "私",
+    "nivel": "n4",
+    "significado": "yo / privado",
+    "onyomi": "し",
+    "kunyomi": "わたくし、わたし",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 6,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/i%20(watashi).webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "私",
+        "furigana": "わたし",
+        "traduccion": "yo"
+      },
+      {
+        "palabra": "私立",
+        "furigana": "しりつ",
+        "traduccion": "privado (institución)"
+      },
+      {
+        "palabra": "私鉄",
+        "furigana": "してつ",
+        "traduccion": "ferrocarril privado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "私の履歴書",
+        "furigana": "わたしのりれきしょ",
+        "descripcion": "columna del diario Nikkei donde figuras destacadas cuentan sus memorias"
+      }
+    ],
+    "relacionadosCon": [
+      "秋"
+    ]
+  },
+  {
+    "caracter": "究",
+    "nivel": "n4",
+    "significado": "investigar a fondo",
+    "onyomi": "きゅう、く",
+    "kunyomi": "きわ.める",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "研究",
+        "furigana": "けんきゅう",
+        "traduccion": "investigación"
+      },
+      {
+        "palabra": "究極",
+        "furigana": "きゅうきょく",
+        "traduccion": "último / extremo"
+      },
+      {
+        "palabra": "探究",
+        "furigana": "たんきゅう",
+        "traduccion": "búsqueda / investigación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "究極超人あ〜る",
+        "furigana": "きゅうきょくちょうじんあ〜る",
+        "descripcion": "manga cómico de culto de Yūichi Yūki (1985-1987)"
+      }
+    ],
+    "relacionadosCon": [
+      "空"
+    ]
+  },
+  {
+    "caracter": "赤",
+    "nivel": "n4",
+    "significado": "rojo",
+    "onyomi": "せき、しゃく",
+    "kunyomi": "あか、あか-、あか.い、あか.らむ、あか.らめる",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/red.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "赤い",
+        "furigana": "あかい",
+        "traduccion": "rojo"
+      },
+      {
+        "palabra": "赤ちゃん",
+        "furigana": "あかちゃん",
+        "traduccion": "bebé"
+      },
+      {
+        "palabra": "赤外線",
+        "furigana": "せきがいせん",
+        "traduccion": "rayos infrarrojos"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "赤坂アカ",
+        "furigana": "あかさかアカ",
+        "descripcion": "mangaka creador de Kaguya-sama: Love is War"
+      }
+    ],
+    "relacionadosCon": [
+      "変"
+    ]
+  },
+  {
+    "caracter": "走",
+    "nivel": "n4",
+    "significado": "correr",
+    "onyomi": "そう",
+    "kunyomi": "はし.る",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20run.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "走る",
+        "furigana": "はしる",
+        "traduccion": "correr"
+      },
+      {
+        "palabra": "競走",
+        "furigana": "きょうそう",
+        "traduccion": "carrera / competencia"
+      },
+      {
+        "palabra": "逃走",
+        "furigana": "とうそう",
+        "traduccion": "fuga / escape"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "走れメロス",
+        "furigana": "はしれメロス",
+        "descripcion": "cuento de Osamu Dazai de 1940, lectura obligatoria en escuelas japonesas"
+      }
+    ],
+    "relacionadosCon": [
+      "徒",
+      "足"
+    ]
+  },
+  {
+    "caracter": "近",
+    "nivel": "n4",
+    "significado": "cerca",
+    "onyomi": "きん、こん",
+    "kunyomi": "ちか.い",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/close,%20near.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "近い",
+        "furigana": "ちかい",
+        "traduccion": "cercano"
+      },
+      {
+        "palabra": "最近",
+        "furigana": "さいきん",
+        "traduccion": "recientemente"
+      },
+      {
+        "palabra": "近所",
+        "furigana": "きんじょ",
+        "traduccion": "vecindario"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "近藤麻理恵",
+        "furigana": "こんどうまりえ",
+        "descripcion": "consultora de organización mundialmente famosa por el método KonMari"
+      }
+    ],
+    "relacionadosCon": [
+      "所",
+      "返"
+    ]
+  },
+  {
+    "caracter": "事",
+    "nivel": "n4",
+    "significado": "asunto / cosa",
+    "onyomi": "じ、ず",
+    "kunyomi": "こと、つか.う、つか.える",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "事",
+        "furigana": "こと",
+        "traduccion": "cosa / asunto"
+      },
+      {
+        "palabra": "大事",
+        "furigana": "だいじ",
+        "traduccion": "importante"
+      },
+      {
+        "palabra": "火事",
+        "furigana": "かじ",
+        "traduccion": "incendio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "金田一少年の事件簿",
+        "furigana": "きんだいちしょうねんのじけんぼ",
+        "descripcion": "manga clásico de detectives (1992-) de Kanari y Satō"
+      }
+    ],
+    "relacionadosCon": [
+      "争"
+    ]
+  },
+  {
+    "caracter": "京",
+    "nivel": "n4",
+    "significado": "capital",
+    "onyomi": "きょう、けい、きん",
+    "kunyomi": "みやこ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/capital.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "東京",
+        "furigana": "とうきょう",
+        "traduccion": "Tokio"
+      },
+      {
+        "palabra": "京都",
+        "furigana": "きょうと",
+        "traduccion": "Kioto"
+      },
+      {
+        "palabra": "上京",
+        "furigana": "じょうきょう",
+        "traduccion": "ir a la capital (Tokio)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "京極夏彦",
+        "furigana": "きょうごくなつひこ",
+        "descripcion": "novelista de misterio y folclore japonés (Ubume no Natsu)"
+      }
+    ],
+    "relacionadosCon": [
+      "景",
+      "高"
+    ]
+  },
+  {
+    "caracter": "使",
+    "nivel": "n4",
+    "significado": "usar / enviar a alguien",
+    "onyomi": "し",
+    "kunyomi": "つか.う、つか.い、-つか.い、-づか.い",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "使う",
+        "furigana": "つかう",
+        "traduccion": "usar"
+      },
+      {
+        "palabra": "大使",
+        "furigana": "たいし",
+        "traduccion": "embajador"
+      },
+      {
+        "palabra": "天使",
+        "furigana": "てんし",
+        "traduccion": "ángel"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "使徒",
+        "furigana": "しと",
+        "descripcion": "seres misteriosos que atacan Tokio-3 en Neon Genesis Evangelion"
+      }
+    ],
+    "relacionadosCon": [
+      "便"
+    ]
+  },
+  {
+    "caracter": "味",
+    "nivel": "n4",
+    "significado": "sabor",
+    "onyomi": "み",
+    "kunyomi": "あじ、あじ.わう",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/taste.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "味",
+        "furigana": "あじ",
+        "traduccion": "sabor"
+      },
+      {
+        "palabra": "意味",
+        "furigana": "いみ",
+        "traduccion": "significado"
+      },
+      {
+        "palabra": "味方",
+        "furigana": "みかた",
+        "traduccion": "aliado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "味の素",
+        "furigana": "あじのもと",
+        "descripcion": "empresa japonesa fundada en 1909, creadora del monosodio glutamato"
+      }
+    ],
+    "relacionadosCon": [
+      "妹",
+      "未"
+    ]
+  },
+  {
+    "caracter": "夜",
+    "nivel": "n4",
+    "significado": "noche",
+    "onyomi": "や",
+    "kunyomi": "よ、よる",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/night.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "夜",
+        "furigana": "よる",
+        "traduccion": "noche"
+      },
+      {
+        "palabra": "今夜",
+        "furigana": "こんや",
+        "traduccion": "esta noche"
+      },
+      {
+        "palabra": "深夜",
+        "furigana": "しんや",
+        "traduccion": "medianoche"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "夜神月",
+        "furigana": "やがみライト",
+        "descripcion": "protagonista de Death Note, escribe nombres en el cuaderno mortal"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "妹",
+    "nivel": "n4",
+    "significado": "hermana menor",
+    "onyomi": "まい",
+    "kunyomi": "いもうと",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/younger%20sister.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "妹",
+        "furigana": "いもうと",
+        "traduccion": "hermana menor"
+      },
+      {
+        "palabra": "姉妹",
+        "furigana": "しまい",
+        "traduccion": "hermanas"
+      },
+      {
+        "palabra": "妹分",
+        "furigana": "いもうとぶん",
+        "traduccion": "como una hermana menor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "妹さえいればいい。",
+        "furigana": "いもうとさえいればいい。",
+        "descripcion": "light novel de Yomi Hirasaka sobre un escritor obsesionado con la imouto"
+      }
+    ],
+    "relacionadosCon": [
+      "味",
+      "姉"
+    ]
+  },
+  {
+    "caracter": "姉",
+    "nivel": "n4",
+    "significado": "hermana mayor",
+    "onyomi": "し",
+    "kunyomi": "あね、はは",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/older%20sister.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "姉",
+        "furigana": "あね",
+        "traduccion": "hermana mayor (propia)"
+      },
+      {
+        "palabra": "お姉さん",
+        "furigana": "おねえさん",
+        "traduccion": "hermana mayor (ajena)"
+      },
+      {
+        "palabra": "姉御",
+        "furigana": "あねご",
+        "traduccion": "hermana mayor (líder femenina)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "姉さん、事件です！",
+        "furigana": "ねえさん、じけんです！",
+        "descripcion": "dorama japonés de comedia sobre una asistenta y un profesor"
+      }
+    ],
+    "relacionadosCon": [
+      "妹",
+      "市"
+    ]
+  },
+  {
+    "caracter": "始",
+    "nivel": "n4",
+    "significado": "comenzar",
+    "onyomi": "し",
+    "kunyomi": "はじ.める、-はじ.める、はじ.まる",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20start.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "始まる",
+        "furigana": "はじまる",
+        "traduccion": "comenzar"
+      },
+      {
+        "palabra": "開始",
+        "furigana": "かいし",
+        "traduccion": "inicio"
+      },
+      {
+        "palabra": "始発",
+        "furigana": "しはつ",
+        "traduccion": "primer tren del día"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "秦の始皇帝",
+        "furigana": "しんのしこうてい",
+        "descripcion": "primer emperador de China (259-210 a.C.), ordenó construir la Gran Muralla"
+      }
+    ],
+    "relacionadosCon": [
+      "台",
+      "治"
+    ]
+  },
+  {
+    "caracter": "所",
+    "nivel": "n4",
+    "significado": "lugar",
+    "onyomi": "しょ",
+    "kunyomi": "ところ、-ところ、どころ、とこ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "場所",
+        "furigana": "ばしょ",
+        "traduccion": "lugar"
+      },
+      {
+        "palabra": "台所",
+        "furigana": "だいどころ",
+        "traduccion": "cocina"
+      },
+      {
+        "palabra": "事務所",
+        "furigana": "じむしょ",
+        "traduccion": "oficina"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "所ジョージ",
+        "furigana": "ところジョージ",
+        "descripcion": "tarento, cantante y presentador de TV"
+      }
+    ],
+    "relacionadosCon": [
+      "戸",
+      "近"
+    ]
+  },
+  {
+    "caracter": "明",
+    "nivel": "n4",
+    "significado": "claro / brillante",
+    "onyomi": "めい、みょう、みん",
+    "kunyomi": "あ.かり、あか.るい、あか.るむ、あか.らむ、あき.らか、あ.ける、-あ.け、あ.く、あ.くる、あ.かす",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/bright.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "明るい",
+        "furigana": "あかるい",
+        "traduccion": "brillante / alegre"
+      },
+      {
+        "palabra": "説明",
+        "furigana": "せつめい",
+        "traduccion": "explicación"
+      },
+      {
+        "palabra": "明日",
+        "furigana": "あした",
+        "traduccion": "mañana (día siguiente)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "明石家さんま",
+        "furigana": "あかしやさんま",
+        "descripcion": "comediante icónico del お笑いBIG3"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "服",
+    "nivel": "n4",
+    "significado": "ropa",
+    "onyomi": "ふく",
+    "kunyomi": null,
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "服",
+        "furigana": "ふく",
+        "traduccion": "ropa"
+      },
+      {
+        "palabra": "洋服",
+        "furigana": "ようふく",
+        "traduccion": "ropa occidental"
+      },
+      {
+        "palabra": "制服",
+        "furigana": "せいふく",
+        "traduccion": "uniforme"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "セーラー服と機関銃",
+        "furigana": "セーラーふくときかんじゅう",
+        "descripcion": "novela y film de 1981 con Yakushimaru Hiroko, dirigida por Shinji Sōmai"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "林",
+    "nivel": "n4",
+    "significado": "bosque pequeño",
+    "onyomi": "りん",
+    "kunyomi": "はやし",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/bush.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "林",
+        "furigana": "はやし",
+        "traduccion": "arboleda / bosque pequeño"
+      },
+      {
+        "palabra": "山林",
+        "furigana": "さんりん",
+        "traduccion": "montañas y bosques"
+      },
+      {
+        "palabra": "林業",
+        "furigana": "りんぎょう",
+        "traduccion": "silvicultura"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "小林幸子",
+        "furigana": "こばやしさちこ",
+        "descripcion": "cantante enka famosa por sus vestuarios extravagantes en el Kōhaku"
+      }
+    ],
+    "relacionadosCon": [
+      "森"
+    ]
+  },
+  {
+    "caracter": "歩",
+    "nivel": "n4",
+    "significado": "caminar",
+    "onyomi": "ほ、ぶ、ふ",
+    "kunyomi": "ある.く、あゆ.む",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "歩く",
+        "furigana": "あるく",
+        "traduccion": "caminar"
+      },
+      {
+        "palabra": "散歩",
+        "furigana": "さんぽ",
+        "traduccion": "paseo"
+      },
+      {
+        "palabra": "歩道",
+        "furigana": "ほどう",
+        "traduccion": "acera / vereda"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "上原歩夢",
+        "furigana": "うえはらあゆむ",
+        "descripcion": "idol del anime Love Live! Nijigasaki High School Idol Club"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "注",
+    "nivel": "n4",
+    "significado": "verter / prestar atención",
+    "onyomi": "ちゅう",
+    "kunyomi": "そそ.ぐ、さ.す、つ.ぐ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "注ぐ",
+        "furigana": "そそぐ",
+        "traduccion": "verter"
+      },
+      {
+        "palabra": "注意",
+        "furigana": "ちゅうい",
+        "traduccion": "cuidado / atención"
+      },
+      {
+        "palabra": "注文",
+        "furigana": "ちゅうもん",
+        "traduccion": "pedido / orden"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "注文の多い料理店",
+        "furigana": "ちゅうもんのおおいりょうりてん",
+        "descripcion": "cuento clásico de Kenji Miyazawa (1924)"
+      }
+    ],
+    "relacionadosCon": [
+      "主",
+      "住",
+      "柱"
+    ]
+  },
+  {
+    "caracter": "物",
+    "nivel": "n4",
+    "significado": "objeto / cosa",
+    "onyomi": "ぶつ、もつ",
+    "kunyomi": "もの、もの-",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "物",
+        "furigana": "もの",
+        "traduccion": "cosa / objeto"
+      },
+      {
+        "palabra": "動物",
+        "furigana": "どうぶつ",
+        "traduccion": "animal"
+      },
+      {
+        "palabra": "荷物",
+        "furigana": "にもつ",
+        "traduccion": "equipaje / paquete"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "化物語",
+        "furigana": "ばけものがたり",
+        "descripcion": "serie de novelas ligeras de Nisio Isin adaptadas al anime por SHAFT"
+      }
+    ],
+    "relacionadosCon": [
+      "特"
+    ]
+  },
+  {
+    "caracter": "画",
+    "nivel": "n4",
+    "significado": "dibujo / pintura",
+    "onyomi": "が、かく、え、かい",
+    "kunyomi": "えが.く、かく.する、かぎ.る、はかりごと、はか.る",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "映画",
+        "furigana": "えいが",
+        "traduccion": "película"
+      },
+      {
+        "palabra": "画家",
+        "furigana": "がか",
+        "traduccion": "pintor"
+      },
+      {
+        "palabra": "漫画",
+        "furigana": "まんが",
+        "traduccion": "manga / historieta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "映画クレヨンしんちゃん",
+        "furigana": "えいがクレヨンしんちゃん",
+        "descripcion": "saga de películas anuales del anime Crayon Shin-chan desde 1993"
+      }
+    ],
+    "relacionadosCon": [
+      "面"
+    ]
+  },
+  {
+    "caracter": "知",
+    "nivel": "n4",
+    "significado": "saber / conocer",
+    "onyomi": "ち",
+    "kunyomi": "し.る、し.らせる",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "知る",
+        "furigana": "しる",
+        "traduccion": "saber / conocer"
+      },
+      {
+        "palabra": "知識",
+        "furigana": "ちしき",
+        "traduccion": "conocimiento"
+      },
+      {
+        "palabra": "知り合い",
+        "furigana": "しりあい",
+        "traduccion": "conocido"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "知念侑李",
+        "furigana": "ちねんゆうり",
+        "descripcion": "cantante y actor, miembro de Hey! Say! JUMP"
+      }
+    ],
+    "relacionadosCon": [
+      "和",
+      "短"
+    ]
+  },
+  {
+    "caracter": "者",
+    "nivel": "n4",
+    "significado": "persona",
+    "onyomi": "しゃ",
+    "kunyomi": "もの",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/those%20who%20(mono).webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "医者",
+        "furigana": "いしゃ",
+        "traduccion": "médico"
+      },
+      {
+        "palabra": "学者",
+        "furigana": "がくしゃ",
+        "traduccion": "académico / erudito"
+      },
+      {
+        "palabra": "若者",
+        "furigana": "わかもの",
+        "traduccion": "joven / juventud"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "勇者ヨシヒコと魔王の城",
+        "furigana": "ゆうしゃヨシヒコとまおうのしろ",
+        "descripcion": "dorama japonés de parodia RPG (2011-2016) protagonizado por Takayuki Yamada"
+      }
+    ],
+    "relacionadosCon": [
+      "暑",
+      "老",
+      "考",
+      "都"
+    ]
+  },
+  {
+    "caracter": "英",
+    "nivel": "n4",
+    "significado": "inglés / Inglaterra",
+    "onyomi": "えい",
+    "kunyomi": "はなぶさ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "英語",
+        "furigana": "えいご",
+        "traduccion": "idioma inglés"
+      },
+      {
+        "palabra": "英国",
+        "furigana": "えいこく",
+        "traduccion": "Reino Unido"
+      },
+      {
+        "palabra": "英雄",
+        "furigana": "えいゆう",
+        "traduccion": "héroe"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "英一蝶",
+        "furigana": "はなぶさいっちょう",
+        "descripcion": "pintor Edo (1652-1724) del estilo Kanō, célebre por escenas costumbristas"
+      }
+    ],
+    "relacionadosCon": [
+      "央",
+      "映"
+    ]
+  },
+  {
+    "caracter": "門",
+    "nivel": "n4",
+    "significado": "puerta",
+    "onyomi": "もん",
+    "kunyomi": "かど、と",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/gate.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "門",
+        "furigana": "もん",
+        "traduccion": "portón / puerta"
+      },
+      {
+        "palabra": "入門",
+        "furigana": "にゅうもん",
+        "traduccion": "introducción / iniciación"
+      },
+      {
+        "palabra": "専門",
+        "furigana": "せんもん",
+        "traduccion": "especialidad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "近松門左衛門",
+        "furigana": "ちかまつもんざえもん",
+        "descripcion": "dramaturgo Edo del bunraku y kabuki (1653-1725)"
+      }
+    ],
+    "relacionadosCon": [
+      "間"
+    ]
+  },
+  {
+    "caracter": "青",
+    "nivel": "n4",
+    "significado": "azul",
+    "onyomi": "せい、しょう",
+    "kunyomi": "あお、あお-、あお.い",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/blue.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "青い",
+        "furigana": "あおい",
+        "traduccion": "azul"
+      },
+      {
+        "palabra": "青年",
+        "furigana": "せいねん",
+        "traduccion": "joven / juventud"
+      },
+      {
+        "palabra": "青空",
+        "furigana": "あおぞら",
+        "traduccion": "cielo azul"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "青山剛昌",
+        "furigana": "あおやまごうしょう",
+        "descripcion": "mangaka creador de Detective Conan (Meitantei Conan)"
+      }
+    ],
+    "relacionadosCon": [
+      "晴",
+      "清"
+    ]
+  },
+  {
+    "caracter": "乗",
+    "nivel": "n4",
+    "significado": "subir / montar",
+    "onyomi": "じょう、しょう",
+    "kunyomi": "の.る、-の.り、の.せる",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "乗る",
+        "furigana": "のる",
+        "traduccion": "subirse / montar"
+      },
+      {
+        "palabra": "乗客",
+        "furigana": "じょうきゃく",
+        "traduccion": "pasajero"
+      },
+      {
+        "palabra": "乗車",
+        "furigana": "じょうしゃ",
+        "traduccion": "abordar un vehículo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "乗鞍岳",
+        "furigana": "のりくらだけ",
+        "descripcion": "montaña volcánica de 3026m en los Alpes japoneses, popular para senderismo"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "便",
+    "nivel": "n4",
+    "significado": "conveniente / correo",
+    "onyomi": "べん、びん",
+    "kunyomi": "たよ.り",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "便利",
+        "furigana": "べんり",
+        "traduccion": "conveniente"
+      },
+      {
+        "palabra": "郵便",
+        "furigana": "ゆうびん",
+        "traduccion": "correo postal"
+      },
+      {
+        "palabra": "便所",
+        "furigana": "べんじょ",
+        "traduccion": "baño / lavabo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "魔女の宅急便",
+        "furigana": "まじょのたっきゅうびん",
+        "descripcion": "film Ghibli (1989) de Hayao Miyazaki basado en la novela de Eiko Kadono"
+      }
+    ],
+    "relacionadosCon": [
+      "使"
+    ]
+  },
+  {
+    "caracter": "品",
+    "nivel": "n4",
+    "significado": "producto / artículo",
+    "onyomi": "ひん、ほん",
+    "kunyomi": "しな",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/goods,%20products.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "商品",
+        "furigana": "しょうひん",
+        "traduccion": "producto"
+      },
+      {
+        "palabra": "品物",
+        "furigana": "しなもの",
+        "traduccion": "artículo / mercancía"
+      },
+      {
+        "palabra": "上品",
+        "furigana": "じょうひん",
+        "traduccion": "elegante / refinado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "品川ヒロシ",
+        "furigana": "しながわヒロシ",
+        "descripcion": "comediante del dúo Shinagawa Shōji, también director de cine"
+      }
+    ],
+    "relacionadosCon": [
+      "器"
+    ]
+  },
+  {
+    "caracter": "室",
+    "nivel": "n4",
+    "significado": "habitación",
+    "onyomi": "しつ",
+    "kunyomi": "むろ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/room.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "教室",
+        "furigana": "きょうしつ",
+        "traduccion": "aula"
+      },
+      {
+        "palabra": "寝室",
+        "furigana": "しんしつ",
+        "traduccion": "dormitorio"
+      },
+      {
+        "palabra": "浴室",
+        "furigana": "よくしつ",
+        "traduccion": "cuarto de baño"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "室井滋",
+        "furigana": "むろいしげる",
+        "descripcion": "actriz y ensayista japonesa contemporánea"
+      }
+    ],
+    "relacionadosCon": [
+      "屋"
+    ]
+  },
+  {
+    "caracter": "屋",
+    "nivel": "n4",
+    "significado": "tienda / techo",
+    "onyomi": "おく",
+    "kunyomi": "や",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "部屋",
+        "furigana": "へや",
+        "traduccion": "habitación"
+      },
+      {
+        "palabra": "本屋",
+        "furigana": "ほんや",
+        "traduccion": "librería"
+      },
+      {
+        "palabra": "屋根",
+        "furigana": "やね",
+        "traduccion": "techo / tejado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "土屋太鳳",
+        "furigana": "つちやたお",
+        "descripcion": "actriz japonesa contemporánea"
+      }
+    ],
+    "relacionadosCon": [
+      "室"
+    ]
+  },
+  {
+    "caracter": "度",
+    "nivel": "n4",
+    "significado": "grado / vez / medida",
+    "onyomi": "ど、と、たく",
+    "kunyomi": "たび、-た.い",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "一度",
+        "furigana": "いちど",
+        "traduccion": "una vez"
+      },
+      {
+        "palabra": "温度",
+        "furigana": "おんど",
+        "traduccion": "temperatura"
+      },
+      {
+        "palabra": "態度",
+        "furigana": "たいど",
+        "traduccion": "actitud"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "度会家行",
+        "furigana": "わたらいいえゆき",
+        "descripcion": "teólogo Shintō de Ise (1256-1362), fundador del Ise Shintō"
+      }
+    ],
+    "relacionadosCon": [
+      "席"
+    ]
+  },
+  {
+    "caracter": "建",
+    "nivel": "n4",
+    "significado": "construir",
+    "onyomi": "けん、こん",
+    "kunyomi": "た.てる、た.て、-だ.て、た.つ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "建てる",
+        "furigana": "たてる",
+        "traduccion": "construir"
+      },
+      {
+        "palabra": "建物",
+        "furigana": "たてもの",
+        "traduccion": "edificio"
+      },
+      {
+        "palabra": "建築",
+        "furigana": "けんちく",
+        "traduccion": "arquitectura"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "建仁寺",
+        "furigana": "けんにんじ",
+        "descripcion": "templo Rinzai zen de Kioto (1202), el más antiguo de la escuela"
+      }
+    ],
+    "relacionadosCon": [
+      "健"
+    ]
+  },
+  {
+    "caracter": "待",
+    "nivel": "n4",
+    "significado": "esperar",
+    "onyomi": "たい",
+    "kunyomi": "ま.つ、-ま.ち",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20wait.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "待つ",
+        "furigana": "まつ",
+        "traduccion": "esperar"
+      },
+      {
+        "palabra": "期待",
+        "furigana": "きたい",
+        "traduccion": "expectativa"
+      },
+      {
+        "palabra": "招待",
+        "furigana": "しょうたい",
+        "traduccion": "invitación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "待つわ",
+        "furigana": "まつわ",
+        "descripcion": "sencillo icónico de 1982 del dúo Amin"
+      }
+    ],
+    "relacionadosCon": [
+      "得",
+      "持",
+      "等"
+    ]
+  },
+  {
+    "caracter": "思",
+    "nivel": "n4",
+    "significado": "pensar",
+    "onyomi": "し",
+    "kunyomi": "おも.う、おもえら.く、おぼ.す",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "思う",
+        "furigana": "おもう",
+        "traduccion": "pensar"
+      },
+      {
+        "palabra": "思い出",
+        "furigana": "おもいで",
+        "traduccion": "recuerdo"
+      },
+      {
+        "palabra": "意思",
+        "furigana": "いし",
+        "traduccion": "voluntad / intención"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "思い出のマーニー",
+        "furigana": "おもいでのマーニー",
+        "descripcion": "película de Ghibli (2014) dirigida por Hiromasa Yonebayashi"
+      }
+    ],
+    "relacionadosCon": [
+      "息"
+    ]
+  },
+  {
+    "caracter": "急",
+    "nivel": "n4",
+    "significado": "urgente / rápido",
+    "onyomi": "きゅう",
+    "kunyomi": "いそ.ぐ、いそ.ぎ、せ.く",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "急ぐ",
+        "furigana": "いそぐ",
+        "traduccion": "apurarse"
+      },
+      {
+        "palabra": "急行",
+        "furigana": "きゅうこう",
+        "traduccion": "tren expreso"
+      },
+      {
+        "palabra": "急に",
+        "furigana": "きゅうに",
+        "traduccion": "repentinamente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "阪急電鉄",
+        "furigana": "はんきゅうでんてつ",
+        "descripcion": "compañía ferroviaria de Osaka fundada en 1907"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "持",
+    "nivel": "n4",
+    "significado": "sostener / tener",
+    "onyomi": "じ",
+    "kunyomi": "も.つ、-も.ち、も.てる",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20have,%20hold.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "持つ",
+        "furigana": "もつ",
+        "traduccion": "tener / sostener"
+      },
+      {
+        "palabra": "気持ち",
+        "furigana": "きもち",
+        "traduccion": "sentimiento"
+      },
+      {
+        "palabra": "持参",
+        "furigana": "じさん",
+        "traduccion": "llevar consigo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "持田香織",
+        "furigana": "もちだかおり",
+        "descripcion": "vocalista del grupo J-pop Every Little Thing"
+      }
+    ],
+    "relacionadosCon": [
+      "待",
+      "時",
+      "特"
+    ]
+  },
+  {
+    "caracter": "映",
+    "nivel": "n4",
+    "significado": "reflejar / proyectar",
+    "onyomi": "えい",
+    "kunyomi": "うつ.る、うつ.す、は.える、-ば.え",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 6,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "映画",
+        "furigana": "えいが",
+        "traduccion": "película"
+      },
+      {
+        "palabra": "反映",
+        "furigana": "はんえい",
+        "traduccion": "reflejo"
+      },
+      {
+        "palabra": "上映",
+        "furigana": "じょうえい",
+        "traduccion": "proyección de película"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "東映アニメーション",
+        "furigana": "とうえいアニメーション",
+        "descripcion": "estudio de animación fundado en 1948, productor de Dragon Ball y One Piece"
+      }
+    ],
+    "relacionadosCon": [
+      "英"
+    ]
+  },
+  {
+    "caracter": "春",
+    "nivel": "n4",
+    "significado": "primavera",
+    "onyomi": "しゅん",
+    "kunyomi": "はる",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/spring.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "春",
+        "furigana": "はる",
+        "traduccion": "primavera"
+      },
+      {
+        "palabra": "春休み",
+        "furigana": "はるやすみ",
+        "traduccion": "vacaciones de primavera"
+      },
+      {
+        "palabra": "春分",
+        "furigana": "しゅんぶん",
+        "traduccion": "equinoccio de primavera"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "村上春樹",
+        "furigana": "むらかみはるき",
+        "descripcion": "novelista, autor de Tokio Blues y Kafka en la orilla"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "昼",
+    "nivel": "n4",
+    "significado": "mediodía",
+    "onyomi": "ちゅう",
+    "kunyomi": "ひる",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/daytime.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "昼",
+        "furigana": "ひる",
+        "traduccion": "mediodía"
+      },
+      {
+        "palabra": "昼食",
+        "furigana": "ちゅうしょく",
+        "traduccion": "almuerzo"
+      },
+      {
+        "palabra": "昼寝",
+        "furigana": "ひるね",
+        "traduccion": "siesta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "昼顔",
+        "furigana": "ひるがお",
+        "descripcion": "dorama japonés de 2014 sobre infidelidad conyugal"
+      }
+    ],
+    "relacionadosCon": [
+      "書"
+    ]
+  },
+  {
+    "caracter": "洋",
+    "nivel": "n4",
+    "significado": "océano / occidental",
+    "onyomi": "よう",
+    "kunyomi": null,
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "洋服",
+        "furigana": "ようふく",
+        "traduccion": "ropa occidental"
+      },
+      {
+        "palabra": "太平洋",
+        "furigana": "たいへいよう",
+        "traduccion": "océano Pacífico"
+      },
+      {
+        "palabra": "東洋",
+        "furigana": "とうよう",
+        "traduccion": "Oriente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "島田洋七",
+        "furigana": "しまだようしち",
+        "descripcion": "comediante del dúo Shimada Yōshichi & Yōhachi, autor de Saga no Gabai Bāchan"
+      }
+    ],
+    "relacionadosCon": [
+      "洗",
+      "羊"
+    ]
+  },
+  {
+    "caracter": "洗",
+    "nivel": "n4",
+    "significado": "lavar",
+    "onyomi": "せん",
+    "kunyomi": "あら.う",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 6,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20wash.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "洗う",
+        "furigana": "あらう",
+        "traduccion": "lavar"
+      },
+      {
+        "palabra": "洗濯",
+        "furigana": "せんたく",
+        "traduccion": "lavado de ropa"
+      },
+      {
+        "palabra": "洗面所",
+        "furigana": "せんめんじょ",
+        "traduccion": "lavabo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "洗馬宿",
+        "furigana": "せばじゅく",
+        "descripcion": "antigua estación del Nakasendō en Shiojiri (Nagano), la N°31 de 69"
+      }
+    ],
+    "relacionadosCon": [
+      "洋"
+    ]
+  },
+  {
+    "caracter": "海",
+    "nivel": "n4",
+    "significado": "mar",
+    "onyomi": "かい",
+    "kunyomi": "うみ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/ocean.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "海",
+        "furigana": "うみ",
+        "traduccion": "mar"
+      },
+      {
+        "palabra": "海外",
+        "furigana": "かいがい",
+        "traduccion": "extranjero"
+      },
+      {
+        "palabra": "海岸",
+        "furigana": "かいがん",
+        "traduccion": "costa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "海堂尊",
+        "furigana": "かいどうたける",
+        "descripcion": "novelista médico contemporáneo, autor de la saga Chirurgien Team Batista"
+      }
+    ],
+    "relacionadosCon": [
+      "梅",
+      "毎"
+    ]
+  },
+  {
+    "caracter": "界",
+    "nivel": "n4",
+    "significado": "límite / mundo",
+    "onyomi": "かい",
+    "kunyomi": null,
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "世界",
+        "furigana": "せかい",
+        "traduccion": "mundo"
+      },
+      {
+        "palabra": "業界",
+        "furigana": "ぎょうかい",
+        "traduccion": "industria / sector"
+      },
+      {
+        "palabra": "限界",
+        "furigana": "げんかい",
+        "traduccion": "límite"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "境界のRINNE",
+        "furigana": "きょうかいのりんね",
+        "descripcion": "manga de Rumiko Takahashi (2009-2017) sobre un shinigami adolescente"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "発",
+    "nivel": "n4",
+    "significado": "salir / emitir",
+    "onyomi": "はつ、ほつ",
+    "kunyomi": "た.つ、あば.く、おこ.る、つか.わす、はな.つ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": true,
+    "palabras": [
+      {
+        "palabra": "出発",
+        "furigana": "しゅっぱつ",
+        "traduccion": "salida / partida"
+      },
+      {
+        "palabra": "発見",
+        "furigana": "はっけん",
+        "traduccion": "descubrimiento"
+      },
+      {
+        "palabra": "発表",
+        "furigana": "はっぴょう",
+        "traduccion": "anuncio / presentación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "発明王エジソン",
+        "furigana": "はつめいおうエジソン",
+        "descripcion": "apodo japonés de Thomas Edison, símbolo de la invención"
+      }
+    ],
+    "relacionadosCon": [
+      "登"
+    ]
+  },
+  {
+    "caracter": "県",
+    "nivel": "n4",
+    "significado": "prefectura",
+    "onyomi": "けん",
+    "kunyomi": "か.ける",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "県",
+        "furigana": "けん",
+        "traduccion": "prefectura"
+      },
+      {
+        "palabra": "県立",
+        "furigana": "けんりつ",
+        "traduccion": "prefectural"
+      },
+      {
+        "palabra": "県庁",
+        "furigana": "けんちょう",
+        "traduccion": "gobierno prefectural"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "都道府県かるた",
+        "furigana": "とどうふけんかるた",
+        "descripcion": "karuta educativo japonés para memorizar las 47 prefecturas"
+      }
+    ],
+    "relacionadosCon": [
+      "具"
+    ]
+  },
+  {
+    "caracter": "研",
+    "nivel": "n4",
+    "significado": "pulir / investigar (研究 = investigación)",
+    "onyomi": "けん",
+    "kunyomi": "と.ぐ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "研究",
+        "furigana": "けんきゅう",
+        "traduccion": "investigación"
+      },
+      {
+        "palabra": "研修",
+        "furigana": "けんしゅう",
+        "traduccion": "entrenamiento / capacitación"
+      },
+      {
+        "palabra": "研究所",
+        "furigana": "けんきゅうじょ",
+        "traduccion": "instituto de investigación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "羽賀研二",
+        "furigana": "はがけんじ",
+        "descripcion": "actor y tarento japonés, famoso en los años 80"
+      }
+    ],
+    "relacionadosCon": [
+      "形"
+    ]
+  },
+  {
+    "caracter": "秋",
+    "nivel": "n4",
+    "significado": "otoño",
+    "onyomi": "しゅう",
+    "kunyomi": "あき、とき",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/autumn.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "秋",
+        "furigana": "あき",
+        "traduccion": "otoño"
+      },
+      {
+        "palabra": "秋分",
+        "furigana": "しゅうぶん",
+        "traduccion": "equinoccio de otoño"
+      },
+      {
+        "palabra": "秋風",
+        "furigana": "あきかぜ",
+        "traduccion": "viento de otoño"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "秋元康",
+        "furigana": "あきもとやすし",
+        "descripcion": "productor y letrista, creador de AKB48 y sus grupos hermanos"
+      }
+    ],
+    "relacionadosCon": [
+      "私"
+    ]
+  },
+  {
+    "caracter": "茶",
+    "nivel": "n4",
+    "significado": "té",
+    "onyomi": "ちゃ、さ",
+    "kunyomi": null,
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/tea.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "お茶",
+        "furigana": "おちゃ",
+        "traduccion": "té"
+      },
+      {
+        "palabra": "茶色",
+        "furigana": "ちゃいろ",
+        "traduccion": "color marrón"
+      },
+      {
+        "palabra": "紅茶",
+        "furigana": "こうちゃ",
+        "traduccion": "té negro"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "茶々",
+        "furigana": "ちゃちゃ",
+        "descripcion": "concubina de Toyotomi Hideyoshi, madre de Hideyori, también llamada Yodo-dono"
+      }
+    ],
+    "relacionadosCon": [
+      "菜"
+    ]
+  },
+  {
+    "caracter": "計",
+    "nivel": "n4",
+    "significado": "medir / plan",
+    "onyomi": "けい",
+    "kunyomi": "はか.る、はか.らう",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "時計",
+        "furigana": "とけい",
+        "traduccion": "reloj"
+      },
+      {
+        "palabra": "計画",
+        "furigana": "けいかく",
+        "traduccion": "plan"
+      },
+      {
+        "palabra": "会計",
+        "furigana": "かいけい",
+        "traduccion": "contabilidad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "時計仕掛けの林檎",
+        "furigana": "とけいじかけのりんご",
+        "descripcion": "manga corto de Osamu Tezuka influenciado por A Clockwork Orange"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "送",
+    "nivel": "n4",
+    "significado": "enviar",
+    "onyomi": "そう",
+    "kunyomi": "おく.る",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "送る",
+        "furigana": "おくる",
+        "traduccion": "enviar"
+      },
+      {
+        "palabra": "送料",
+        "furigana": "そうりょう",
+        "traduccion": "costo de envío"
+      },
+      {
+        "palabra": "放送",
+        "furigana": "ほうそう",
+        "traduccion": "transmisión"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "日本放送協会",
+        "furigana": "にっぽんほうそうきょうかい",
+        "descripcion": "cadena pública de radio y TV de Japón (NHK), fundada en 1926"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "重",
+    "nivel": "n4",
+    "significado": "pesado / importante",
+    "onyomi": "じゅう、ちょう",
+    "kunyomi": "え、おも.い、おも.り、おも.なう、かさ.ねる、かさ.なる、おも",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/heavy.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "重い",
+        "furigana": "おもい",
+        "traduccion": "pesado"
+      },
+      {
+        "palabra": "重要",
+        "furigana": "じゅうよう",
+        "traduccion": "importante"
+      },
+      {
+        "palabra": "体重",
+        "furigana": "たいじゅう",
+        "traduccion": "peso corporal"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "田中久重",
+        "furigana": "たなかひさしげ",
+        "descripcion": "inventor Edo/Meiji, fundador de la empresa que se convirtió en Toshiba"
+      }
+    ],
+    "relacionadosCon": [
+      "動",
+      "量"
+    ]
+  },
+  {
+    "caracter": "音",
+    "nivel": "n4",
+    "significado": "sonido",
+    "onyomi": "おん、いん、-のん",
+    "kunyomi": "おと、ね",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/sound.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "音",
+        "furigana": "おと",
+        "traduccion": "sonido"
+      },
+      {
+        "palabra": "音楽",
+        "furigana": "おんがく",
+        "traduccion": "música"
+      },
+      {
+        "palabra": "発音",
+        "furigana": "はつおん",
+        "traduccion": "pronunciación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "上白石萌音",
+        "furigana": "かみしらいしもね",
+        "descripcion": "actriz y cantante, voz de Mitsuha en Kimi no Na wa"
+      }
+    ],
+    "relacionadosCon": [
+      "意",
+      "暗",
+      "言"
+    ]
+  },
+  {
+    "caracter": "風",
+    "nivel": "n4",
+    "significado": "viento",
+    "onyomi": "ふう、ふ",
+    "kunyomi": "かぜ、かざ-、-かぜ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "風",
+        "furigana": "かぜ",
+        "traduccion": "viento"
+      },
+      {
+        "palabra": "台風",
+        "furigana": "たいふう",
+        "traduccion": "tifón"
+      },
+      {
+        "palabra": "風邪",
+        "furigana": "かぜ",
+        "traduccion": "resfriado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "藤井風",
+        "furigana": "ふじいかぜ",
+        "descripcion": "cantautor, éxito mundial con Shinunoga E-Wa"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "首",
+    "nivel": "n4",
+    "significado": "cuello",
+    "onyomi": "しゅ",
+    "kunyomi": "くび",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/neck.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "首",
+        "furigana": "くび",
+        "traduccion": "cuello"
+      },
+      {
+        "palabra": "首都",
+        "furigana": "しゅと",
+        "traduccion": "capital"
+      },
+      {
+        "palabra": "手首",
+        "furigana": "てくび",
+        "traduccion": "muñeca"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "首藤剛志",
+        "furigana": "しゅどうたけし",
+        "descripcion": "guionista de anime, escribió los primeros episodios de Pokémon"
+      }
+    ],
+    "relacionadosCon": [
+      "自",
+      "道"
+    ]
+  },
+  {
+    "caracter": "借",
+    "nivel": "n4",
+    "significado": "pedir prestado",
+    "onyomi": "しゃく",
+    "kunyomi": "か.りる",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "借りる",
+        "furigana": "かりる",
+        "traduccion": "pedir prestado"
+      },
+      {
+        "palabra": "借金",
+        "furigana": "しゃっきん",
+        "traduccion": "deuda"
+      },
+      {
+        "palabra": "借用",
+        "furigana": "しゃくよう",
+        "traduccion": "préstamo formal"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "借りぐらしのアリエッティ",
+        "furigana": "かりぐらしのアリエッティ",
+        "descripcion": "film Ghibli (2010) dirigido por Hiromasa Yonebayashi"
+      }
+    ],
+    "relacionadosCon": [
+      "昔"
+    ]
+  },
+  {
+    "caracter": "勉",
+    "nivel": "n4",
+    "significado": "esforzarse (勉強 = estudiar)",
+    "onyomi": "べん",
+    "kunyomi": "つと.める",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "勉強",
+        "furigana": "べんきょう",
+        "traduccion": "estudio"
+      },
+      {
+        "palabra": "勤勉",
+        "furigana": "きんべん",
+        "traduccion": "diligente"
+      },
+      {
+        "palabra": "勉学",
+        "furigana": "べんがく",
+        "traduccion": "estudios"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "僕たちは勉強ができない",
+        "furigana": "ぼくたちはべんきょうができない",
+        "descripcion": "manga y anime de Taishi Tsutsui, comedia romántica de tutorías"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "員",
+    "nivel": "n4",
+    "significado": "miembro",
+    "onyomi": "いん",
+    "kunyomi": null,
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "会社員",
+        "furigana": "かいしゃいん",
+        "traduccion": "empleado de empresa"
+      },
+      {
+        "palabra": "店員",
+        "furigana": "てんいん",
+        "traduccion": "dependiente"
+      },
+      {
+        "palabra": "会員",
+        "furigana": "かいいん",
+        "traduccion": "miembro / socio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "駅員",
+        "furigana": "えきいん",
+        "descripcion": "personal ferroviario, símbolo de la cultura laboral japonesa por su cortesía"
+      }
+    ],
+    "relacionadosCon": [
+      "負"
+    ]
+  },
+  {
+    "caracter": "夏",
+    "nivel": "n4",
+    "significado": "verano",
+    "onyomi": "か、が、げ",
+    "kunyomi": "なつ",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/summer.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "夏",
+        "furigana": "なつ",
+        "traduccion": "verano"
+      },
+      {
+        "palabra": "夏休み",
+        "furigana": "なつやすみ",
+        "traduccion": "vacaciones de verano"
+      },
+      {
+        "palabra": "真夏",
+        "furigana": "まなつ",
+        "traduccion": "pleno verano"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "夏目漱石",
+        "furigana": "なつめそうせき",
+        "descripcion": "novelista Meiji autor de Kokoro y Wagahai wa Neko de Aru"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "家",
+    "nivel": "n4",
+    "significado": "casa",
+    "onyomi": "か、け",
+    "kunyomi": "いえ、や、うち",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/house.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "家",
+        "furigana": "いえ",
+        "traduccion": "casa"
+      },
+      {
+        "palabra": "家族",
+        "furigana": "かぞく",
+        "traduccion": "familia"
+      },
+      {
+        "palabra": "作家",
+        "furigana": "さっか",
+        "traduccion": "autor / escritor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "徳川家康",
+        "furigana": "とくがわいえやす",
+        "descripcion": "primer shōgun del shogunato Tokugawa (1543-1616)"
+      }
+    ],
+    "relacionadosCon": [
+      "象"
+    ]
+  },
+  {
+    "caracter": "帰",
+    "nivel": "n4",
+    "significado": "regresar",
+    "onyomi": "き",
+    "kunyomi": "かえ.る、かえ.す、おく.る、とつ.ぐ",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "帰る",
+        "furigana": "かえる",
+        "traduccion": "regresar / volver"
+      },
+      {
+        "palabra": "帰国",
+        "furigana": "きこく",
+        "traduccion": "regreso al país"
+      },
+      {
+        "palabra": "帰宅",
+        "furigana": "きたく",
+        "traduccion": "volver a casa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "帰りたくなったよ",
+        "furigana": "かえりたくなったよ",
+        "descripcion": "sencillo de 2009 del grupo pop Ikimonogakari"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "弱",
+    "nivel": "n4",
+    "significado": "débil",
+    "onyomi": "じゃく",
+    "kunyomi": "よわ.い、よわ.る、よわ.まる、よわ.める",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/yowai.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "弱い",
+        "furigana": "よわい",
+        "traduccion": "débil"
+      },
+      {
+        "palabra": "弱点",
+        "furigana": "じゃくてん",
+        "traduccion": "punto débil"
+      },
+      {
+        "palabra": "弱虫",
+        "furigana": "よわむし",
+        "traduccion": "cobarde / miedoso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "弱虫ペダル",
+        "furigana": "よわむしペダル",
+        "descripcion": "manga y anime sobre ciclismo en preparatoria de Wataru Watanabe"
+      }
+    ],
+    "relacionadosCon": [
+      "強"
+    ]
+  },
+  {
+    "caracter": "料",
+    "nivel": "n4",
+    "significado": "tarifa / material",
+    "onyomi": "りょう",
+    "kunyomi": null,
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "料理",
+        "furigana": "りょうり",
+        "traduccion": "cocina / plato"
+      },
+      {
+        "palabra": "材料",
+        "furigana": "ざいりょう",
+        "traduccion": "material / ingrediente"
+      },
+      {
+        "palabra": "給料",
+        "furigana": "きゅうりょう",
+        "traduccion": "salario"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "料理の鉄人",
+        "furigana": "りょうりのてつじん",
+        "descripcion": "programa culinario de Fuji TV (1993-1999), pionero del reality gastronómico"
+      }
+    ],
+    "relacionadosCon": [
+      "科"
+    ]
+  },
+  {
+    "caracter": "旅",
+    "nivel": "n4",
+    "significado": "viaje",
+    "onyomi": "りょ",
+    "kunyomi": "たび",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "旅行",
+        "furigana": "りょこう",
+        "traduccion": "viaje"
+      },
+      {
+        "palabra": "旅館",
+        "furigana": "りょかん",
+        "traduccion": "posada tradicional"
+      },
+      {
+        "palabra": "旅人",
+        "furigana": "たびびと",
+        "traduccion": "viajero"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "キノの旅",
+        "furigana": "キノのたび",
+        "descripcion": "light novel de Keiichi Sigsawa sobre una viajera pensativa en países distópicos"
+      }
+    ],
+    "relacionadosCon": [
+      "族"
+    ]
+  },
+  {
+    "caracter": "特",
+    "nivel": "n4",
+    "significado": "especial",
+    "onyomi": "とく",
+    "kunyomi": null,
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "特別",
+        "furigana": "とくべつ",
+        "traduccion": "especial"
+      },
+      {
+        "palabra": "特に",
+        "furigana": "とくに",
+        "traduccion": "especialmente"
+      },
+      {
+        "palabra": "特急",
+        "furigana": "とっきゅう",
+        "traduccion": "tren superexpreso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "特撮",
+        "furigana": "とくさつ",
+        "descripcion": "género japonés de efectos especiales prácticos (Godzilla, Ultraman, Kamen Rider)"
+      }
+    ],
+    "relacionadosCon": [
+      "持",
+      "物"
+    ]
+  },
+  {
+    "caracter": "病",
+    "nivel": "n4",
+    "significado": "enfermedad",
+    "onyomi": "びょう、へい",
+    "kunyomi": "や.む、-や.み、やまい",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "病気",
+        "furigana": "びょうき",
+        "traduccion": "enfermedad"
+      },
+      {
+        "palabra": "病院",
+        "furigana": "びょういん",
+        "traduccion": "hospital"
+      },
+      {
+        "palabra": "病人",
+        "furigana": "びょうにん",
+        "traduccion": "paciente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "病院坂の首縊りの家",
+        "furigana": "びょういんざかのくびくくりのいえ",
+        "descripcion": "novela detectivesca de Seishi Yokomizo (1975-1978), última obra de Kindaichi"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "真",
+    "nivel": "n4",
+    "significado": "verdad / real",
+    "onyomi": "しん",
+    "kunyomi": "ま、ま-、まこと",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "写真",
+        "furigana": "しゃしん",
+        "traduccion": "fotografía"
+      },
+      {
+        "palabra": "真実",
+        "furigana": "しんじつ",
+        "traduccion": "verdad"
+      },
+      {
+        "palabra": "真面目",
+        "furigana": "まじめ",
+        "traduccion": "serio / responsable"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "真田幸村",
+        "furigana": "さなだゆきむら",
+        "descripcion": "samurái legendario del Sengoku, murió en el Sitio de Osaka (1615)"
+      }
+    ],
+    "relacionadosCon": [
+      "具",
+      "直"
+    ]
+  },
+  {
+    "caracter": "紙",
+    "nivel": "n4",
+    "significado": "papel",
+    "onyomi": "し",
+    "kunyomi": "かみ",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "紙",
+        "furigana": "かみ",
+        "traduccion": "papel"
+      },
+      {
+        "palabra": "手紙",
+        "furigana": "てがみ",
+        "traduccion": "carta"
+      },
+      {
+        "palabra": "表紙",
+        "furigana": "ひょうし",
+        "traduccion": "portada"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "折り紙",
+        "furigana": "おりがみ",
+        "descripcion": "arte japonés de plegado de papel, con figuras clásicas como la grulla"
+      }
+    ],
+    "relacionadosCon": [
+      "低"
+    ]
+  },
+  {
+    "caracter": "起",
+    "nivel": "n4",
+    "significado": "levantarse / ocurrir",
+    "onyomi": "き",
+    "kunyomi": "お.きる、お.こる、お.こす、おこ.す、た.つ",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "起きる",
+        "furigana": "おきる",
+        "traduccion": "levantarse"
+      },
+      {
+        "palabra": "起こる",
+        "furigana": "おこる",
+        "traduccion": "ocurrir"
+      },
+      {
+        "palabra": "起源",
+        "furigana": "きげん",
+        "traduccion": "origen"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "起き上がり小法師",
+        "furigana": "おきあがりこぼし",
+        "descripcion": "muñeco tradicional (daruma) de Fukushima que se levanta solo"
+      }
+    ],
+    "relacionadosCon": [
+      "記"
+    ]
+  },
+  {
+    "caracter": "通",
+    "nivel": "n4",
+    "significado": "pasar / comunicar",
+    "onyomi": "つう、つ",
+    "kunyomi": "とお.る、とお.り、-とお.り、-どお.り、とお.す、とお.し、-どお.し、かよ.う",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "通る",
+        "furigana": "とおる",
+        "traduccion": "pasar"
+      },
+      {
+        "palabra": "交通",
+        "furigana": "こうつう",
+        "traduccion": "tráfico / transporte"
+      },
+      {
+        "palabra": "通学",
+        "furigana": "つうがく",
+        "traduccion": "ir a la escuela"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "通天閣",
+        "furigana": "つうてんかく",
+        "descripcion": "torre emblemática de Osaka construida en 1912, símbolo de Shinsekai"
+      }
+    ],
+    "relacionadosCon": [
+      "週"
+    ]
+  },
+  {
+    "caracter": "院",
+    "nivel": "n4",
+    "significado": "institución",
+    "onyomi": "いん",
+    "kunyomi": null,
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "病院",
+        "furigana": "びょういん",
+        "traduccion": "hospital"
+      },
+      {
+        "palabra": "大学院",
+        "furigana": "だいがくいん",
+        "traduccion": "escuela de posgrado"
+      },
+      {
+        "palabra": "入院",
+        "furigana": "にゅういん",
+        "traduccion": "hospitalización"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "後鳥羽院",
+        "furigana": "ごとばいん",
+        "descripcion": "emperador y poeta waka del período Kamakura (1180-1239)"
+      }
+    ],
+    "relacionadosCon": [
+      "完"
+    ]
+  },
+  {
+    "caracter": "動",
+    "nivel": "n4",
+    "significado": "moverse",
+    "onyomi": "どう",
+    "kunyomi": "うご.く、うご.かす",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20move.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "動く",
+        "furigana": "うごく",
+        "traduccion": "moverse"
+      },
+      {
+        "palabra": "運動",
+        "furigana": "うんどう",
+        "traduccion": "ejercicio"
+      },
+      {
+        "palabra": "動物園",
+        "furigana": "どうぶつえん",
+        "traduccion": "zoológico"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "機動戦士ガンダム",
+        "furigana": "きどうせんしガンダム",
+        "descripcion": "saga de mecha creada por Yoshiyuki Tomino en 1979, seminal del género"
+      }
+    ],
+    "relacionadosCon": [
+      "働",
+      "重"
+    ]
+  },
+  {
+    "caracter": "問",
+    "nivel": "n4",
+    "significado": "pregunta",
+    "onyomi": "もん",
+    "kunyomi": "と.う、と.い、とん",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/question.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "問題",
+        "furigana": "もんだい",
+        "traduccion": "problema"
+      },
+      {
+        "palabra": "質問",
+        "furigana": "しつもん",
+        "traduccion": "pregunta"
+      },
+      {
+        "palabra": "疑問",
+        "furigana": "ぎもん",
+        "traduccion": "duda"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "問題児たちが異世界から来るそうですよ？",
+        "furigana": "もんだいじたちがいせかいからくるそうですよ？",
+        "descripcion": "light novel y anime isekai sobre niños problemáticos con poderes"
+      }
+    ],
+    "relacionadosCon": [
+      "聞",
+      "間"
+    ]
+  },
+  {
+    "caracter": "堂",
+    "nivel": "n4",
+    "significado": "salón / templo",
+    "onyomi": "どう",
+    "kunyomi": null,
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 5,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "食堂",
+        "furigana": "しょくどう",
+        "traduccion": "comedor"
+      },
+      {
+        "palabra": "講堂",
+        "furigana": "こうどう",
+        "traduccion": "auditorio"
+      },
+      {
+        "palabra": "本堂",
+        "furigana": "ほんどう",
+        "traduccion": "salón principal de un templo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "堂本剛",
+        "furigana": "どうもとつよし",
+        "descripcion": "cantante y actor, miembro de KinKi Kids"
+      }
+    ],
+    "relacionadosCon": [
+      "賞"
+    ]
+  },
+  {
+    "caracter": "強",
+    "nivel": "n4",
+    "significado": "fuerte",
+    "onyomi": "きょう、ごう",
+    "kunyomi": "つよ.い、つよ.まる、つよ.める、し.いる、こわ.い",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/tsuyoi.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "強い",
+        "furigana": "つよい",
+        "traduccion": "fuerte"
+      },
+      {
+        "palabra": "勉強",
+        "furigana": "べんきょう",
+        "traduccion": "estudio"
+      },
+      {
+        "palabra": "強化",
+        "furigana": "きょうか",
+        "traduccion": "fortalecimiento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "強力伝",
+        "furigana": "ごうりきでん",
+        "descripcion": "novela de Nitta Jirō (1955) sobre porteadores de montaña, premio Naoki"
+      }
+    ],
+    "relacionadosCon": [
+      "弱"
+    ]
+  },
+  {
+    "caracter": "悪",
+    "nivel": "n4",
+    "significado": "malo",
+    "onyomi": "あく、お",
+    "kunyomi": "わる.い、わる-、あ.し、にく.い、-にく.い、ああ、いずくに、いずくんぞ、にく.む",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "悪い",
+        "furigana": "わるい",
+        "traduccion": "malo"
+      },
+      {
+        "palabra": "悪口",
+        "furigana": "わるぐち",
+        "traduccion": "insulto / mala palabra"
+      },
+      {
+        "palabra": "悪化",
+        "furigana": "あっか",
+        "traduccion": "empeoramiento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "悪魔のリドル",
+        "furigana": "あくまのリドル",
+        "descripcion": "manga y anime sobre asesinas en un aula de niñas"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "教",
+    "nivel": "n4",
+    "significado": "enseñar",
+    "onyomi": "きょう",
+    "kunyomi": "おし.える、おそ.わる",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "教える",
+        "furigana": "おしえる",
+        "traduccion": "enseñar"
+      },
+      {
+        "palabra": "教室",
+        "furigana": "きょうしつ",
+        "traduccion": "aula"
+      },
+      {
+        "palabra": "教科書",
+        "furigana": "きょうかしょ",
+        "traduccion": "libro de texto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "暗殺教室",
+        "furigana": "あんさつきょうしつ",
+        "descripcion": "manga y anime de Yūsei Matsui sobre estudiantes que deben asesinar a su profesor pulpo"
+      }
+    ],
+    "relacionadosCon": [
+      "考"
+    ]
+  },
+  {
+    "caracter": "族",
+    "nivel": "n4",
+    "significado": "familia / clan",
+    "onyomi": "ぞく",
+    "kunyomi": null,
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "家族",
+        "furigana": "かぞく",
+        "traduccion": "familia"
+      },
+      {
+        "palabra": "民族",
+        "furigana": "みんぞく",
+        "traduccion": "etnia / pueblo"
+      },
+      {
+        "palabra": "貴族",
+        "furigana": "きぞく",
+        "traduccion": "nobleza"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "暴走族",
+        "furigana": "ぼうそうぞく",
+        "descripcion": "subcultura japonesa de motociclistas rebeldes, popular en los años 70-80"
+      }
+    ],
+    "relacionadosCon": [
+      "旅",
+      "旗"
+    ]
+  },
+  {
+    "caracter": "理",
+    "nivel": "n4",
+    "significado": "razón / lógica",
+    "onyomi": "り",
+    "kunyomi": "ことわり",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "理由",
+        "furigana": "りゆう",
+        "traduccion": "razón / motivo"
+      },
+      {
+        "palabra": "料理",
+        "furigana": "りょうり",
+        "traduccion": "cocina / plato"
+      },
+      {
+        "palabra": "心理",
+        "furigana": "しんり",
+        "traduccion": "psicología"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "釘宮理恵",
+        "furigana": "くぎみやりえ",
+        "descripcion": "seiyū de Taiga Aisaka (Toradora!), Alphonse Elric (Fullmetal Alchemist) y Shana (Shakugan no Shana)"
+      }
+    ],
+    "relacionadosCon": [
+      "里",
+      "野"
+    ]
+  },
+  {
+    "caracter": "産",
+    "nivel": "n4",
+    "significado": "producir / dar a luz",
+    "onyomi": "さん",
+    "kunyomi": "う.む、う.まれる、うぶ-、む.す",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "産業",
+        "furigana": "さんぎょう",
+        "traduccion": "industria"
+      },
+      {
+        "palabra": "出産",
+        "furigana": "しゅっさん",
+        "traduccion": "parto / nacimiento"
+      },
+      {
+        "palabra": "生産",
+        "furigana": "せいさん",
+        "traduccion": "producción"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "日産自動車",
+        "furigana": "にっさんじどうしゃ",
+        "descripcion": "fabricante japonés de automóviles fundado en 1933"
+      }
+    ],
+    "relacionadosCon": [
+      "顔"
+    ]
+  },
+  {
+    "caracter": "終",
+    "nivel": "n4",
+    "significado": "terminar",
+    "onyomi": "しゅう",
+    "kunyomi": "お.わる、-お.わる、おわ.る、お.える、つい、つい.に",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "終わる",
+        "furigana": "おわる",
+        "traduccion": "terminar"
+      },
+      {
+        "palabra": "終電",
+        "furigana": "しゅうでん",
+        "traduccion": "último tren"
+      },
+      {
+        "palabra": "終点",
+        "furigana": "しゅうてん",
+        "traduccion": "última parada"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "終末のワルキューレ",
+        "furigana": "しゅうまつのワルキューレ",
+        "descripcion": "manga (2017-) de dioses contra humanos en un torneo apocalíptico"
+      }
+    ],
+    "relacionadosCon": [
+      "冬"
+    ]
+  },
+  {
+    "caracter": "習",
+    "nivel": "n4",
+    "significado": "aprender / practicar",
+    "onyomi": "しゅう、じゅ",
+    "kunyomi": "なら.う、なら.い",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "習う",
+        "furigana": "ならう",
+        "traduccion": "aprender"
+      },
+      {
+        "palabra": "練習",
+        "furigana": "れんしゅう",
+        "traduccion": "práctica"
+      },
+      {
+        "palabra": "学習",
+        "furigana": "がくしゅう",
+        "traduccion": "aprendizaje"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "学習塾",
+        "furigana": "がくしゅうじゅく",
+        "descripcion": "institución privada de refuerzo escolar, presente en todo Japón"
+      }
+    ],
+    "relacionadosCon": [
+      "羽"
+    ]
+  },
+  {
+    "caracter": "菜",
+    "nivel": "n4",
+    "significado": "verdura",
+    "onyomi": "さい",
+    "kunyomi": "な",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "野菜",
+        "furigana": "やさい",
+        "traduccion": "verdura"
+      },
+      {
+        "palabra": "白菜",
+        "furigana": "はくさい",
+        "traduccion": "repollo chino"
+      },
+      {
+        "palabra": "菜食",
+        "furigana": "さいしょく",
+        "traduccion": "dieta vegetariana"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "菜々緒",
+        "furigana": "ななお",
+        "descripcion": "modelo y actriz japonesa contemporánea"
+      }
+    ],
+    "relacionadosCon": [
+      "茶"
+    ]
+  },
+  {
+    "caracter": "転",
+    "nivel": "n4",
+    "significado": "girar / rodar",
+    "onyomi": "てん",
+    "kunyomi": "ころ.がる、ころ.げる、ころ.がす、ころ.ぶ、まろ.ぶ、うたた、うつ.る、くる.めく",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20fall%20over.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "転ぶ",
+        "furigana": "ころぶ",
+        "traduccion": "caerse"
+      },
+      {
+        "palabra": "自転車",
+        "furigana": "じてんしゃ",
+        "traduccion": "bicicleta"
+      },
+      {
+        "palabra": "転校",
+        "furigana": "てんこう",
+        "traduccion": "cambio de escuela"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "転生したらスライムだった件",
+        "furigana": "てんせいしたらスライムだったけん",
+        "descripcion": "light novel/anime isekai de Fuse sobre un hombre reencarnado como slime"
+      }
+    ],
+    "relacionadosCon": [
+      "伝",
+      "軽"
+    ]
+  },
+  {
+    "caracter": "進",
+    "nivel": "n4",
+    "significado": "avanzar",
+    "onyomi": "しん",
+    "kunyomi": "すす.む、すす.める",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "進む",
+        "furigana": "すすむ",
+        "traduccion": "avanzar"
+      },
+      {
+        "palabra": "進行",
+        "furigana": "しんこう",
+        "traduccion": "avance / progreso"
+      },
+      {
+        "palabra": "進化",
+        "furigana": "しんか",
+        "traduccion": "evolución"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "進撃の巨人",
+        "furigana": "しんげきのきょじん",
+        "descripcion": "manga de Hajime Isayama (2009-2021), obra icónica de la era"
+      }
+    ],
+    "relacionadosCon": [
+      "集"
+    ]
+  },
+  {
+    "caracter": "都",
+    "nivel": "n4",
+    "significado": "capital / metrópoli",
+    "onyomi": "と、つ",
+    "kunyomi": "みやこ",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "京都",
+        "furigana": "きょうと",
+        "traduccion": "Kioto"
+      },
+      {
+        "palabra": "都市",
+        "furigana": "とし",
+        "traduccion": "ciudad"
+      },
+      {
+        "palabra": "都会",
+        "furigana": "とかい",
+        "traduccion": "metrópolis"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "都はるみ",
+        "furigana": "みやこはるみ",
+        "descripcion": "cantante de enka, éxito Anko Tsubaki wa Koi no Hana"
+      }
+    ],
+    "relacionadosCon": [
+      "者"
+    ]
+  },
+  {
+    "caracter": "野",
+    "nivel": "n4",
+    "significado": "campo / llanura",
+    "onyomi": "や、しょ",
+    "kunyomi": "の、の-",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "野菜",
+        "furigana": "やさい",
+        "traduccion": "verdura"
+      },
+      {
+        "palabra": "野球",
+        "furigana": "やきゅう",
+        "traduccion": "béisbol"
+      },
+      {
+        "palabra": "野原",
+        "furigana": "のはら",
+        "traduccion": "campo / pradera"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "野茂英雄",
+        "furigana": "のもひでお",
+        "descripcion": "primer beisbolista japonés estrella en la MLB (Dodgers, Mets)"
+      }
+    ],
+    "relacionadosCon": [
+      "予",
+      "理"
+    ]
+  },
+  {
+    "caracter": "鳥",
+    "nivel": "n4",
+    "significado": "pájaro",
+    "onyomi": "ちょう",
+    "kunyomi": "とり",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/bird.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "鳥",
+        "furigana": "とり",
+        "traduccion": "pájaro"
+      },
+      {
+        "palabra": "小鳥",
+        "furigana": "ことり",
+        "traduccion": "pajarito"
+      },
+      {
+        "palabra": "白鳥",
+        "furigana": "はくちょう",
+        "traduccion": "cisne"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "鳥山明",
+        "furigana": "とりやまあきら",
+        "descripcion": "mangaka creador de Dragon Ball y Dr. Slump (1955-2024)"
+      }
+    ],
+    "relacionadosCon": [
+      "島",
+      "馬",
+      "魚"
+    ]
+  },
+  {
+    "caracter": "黒",
+    "nivel": "n4",
+    "significado": "negro",
+    "onyomi": "こく",
+    "kunyomi": "くろ、くろ.ずむ、くろ.い",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/black.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "黒い",
+        "furigana": "くろい",
+        "traduccion": "negro"
+      },
+      {
+        "palabra": "黒板",
+        "furigana": "こくばん",
+        "traduccion": "pizarra"
+      },
+      {
+        "palabra": "黒字",
+        "furigana": "くろじ",
+        "traduccion": "superávit / números negros"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "黒澤明",
+        "furigana": "くろさわあきら",
+        "descripcion": "director de cine legendario (Los siete samurái, Rashōmon)"
+      }
+    ],
+    "relacionadosCon": [
+      "魚"
+    ]
+  },
+  {
+    "caracter": "場",
+    "nivel": "n4",
+    "significado": "lugar",
+    "onyomi": "じょう、ちょう",
+    "kunyomi": "ば",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "場所",
+        "furigana": "ばしょ",
+        "traduccion": "lugar"
+      },
+      {
+        "palabra": "会場",
+        "furigana": "かいじょう",
+        "traduccion": "lugar del evento"
+      },
+      {
+        "palabra": "職場",
+        "furigana": "しょくば",
+        "traduccion": "lugar de trabajo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "馬場信春",
+        "furigana": "ばばのぶはる",
+        "descripcion": "general samurai al servicio de Takeda Shingen (1515-1575)"
+      }
+    ],
+    "relacionadosCon": [
+      "湯"
+    ]
+  },
+  {
+    "caracter": "寒",
+    "nivel": "n4",
+    "significado": "frío",
+    "onyomi": "かん",
+    "kunyomi": "さむ.い",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/cold%20weather%20(samui).webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "寒い",
+        "furigana": "さむい",
+        "traduccion": "frío"
+      },
+      {
+        "palabra": "寒気",
+        "furigana": "さむけ",
+        "traduccion": "escalofrío"
+      },
+      {
+        "palabra": "寒波",
+        "furigana": "かんぱ",
+        "traduccion": "ola de frío"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "大寒",
+        "furigana": "だいかん",
+        "descripcion": "uno de los 24 términos solares (~20 enero), día más frío del año"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "晴",
+    "nivel": "n4",
+    "significado": "despejado (clima)",
+    "onyomi": "せい",
+    "kunyomi": "は.れる、は.れ、は.れ-、-ば.れ、は.らす",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/sunny.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "晴れ",
+        "furigana": "はれ",
+        "traduccion": "despejado (clima)"
+      },
+      {
+        "palabra": "晴天",
+        "furigana": "せいてん",
+        "traduccion": "día despejado"
+      },
+      {
+        "palabra": "快晴",
+        "furigana": "かいせい",
+        "traduccion": "claro y despejado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "安倍晴明",
+        "furigana": "あべのせいめい",
+        "descripcion": "onmyōji legendario del período Heian, maestro de adivinación"
+      }
+    ],
+    "relacionadosCon": [
+      "清",
+      "青"
+    ]
+  },
+  {
+    "caracter": "暑",
+    "nivel": "n4",
+    "significado": "caluroso",
+    "onyomi": "しょ",
+    "kunyomi": "あつ.い",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/hot%20weather%20(atsui).webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "暑い",
+        "furigana": "あつい",
+        "traduccion": "caluroso"
+      },
+      {
+        "palabra": "暑さ",
+        "furigana": "あつさ",
+        "traduccion": "calor"
+      },
+      {
+        "palabra": "蒸し暑い",
+        "furigana": "むしあつい",
+        "traduccion": "bochornoso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "暑中見舞い",
+        "furigana": "しょちゅうみまい",
+        "descripcion": "postal tradicional japonesa de saludo veraniego enviada durante 大暑"
+      }
+    ],
+    "relacionadosCon": [
+      "者"
+    ]
+  },
+  {
+    "caracter": "朝",
+    "nivel": "n4",
+    "significado": "mañana",
+    "onyomi": "ちょう",
+    "kunyomi": "あさ",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/morning.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "朝",
+        "furigana": "あさ",
+        "traduccion": "mañana"
+      },
+      {
+        "palabra": "朝食",
+        "furigana": "ちょうしょく",
+        "traduccion": "desayuno"
+      },
+      {
+        "palabra": "朝日",
+        "furigana": "あさひ",
+        "traduccion": "sol de la mañana"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "朝倉未来",
+        "furigana": "あさくらみくる",
+        "descripcion": "luchador de artes marciales mixtas y youtuber japonés"
+      }
+    ],
+    "relacionadosCon": [
+      "期"
+    ]
+  },
+  {
+    "caracter": "森",
+    "nivel": "n4",
+    "significado": "bosque",
+    "onyomi": "しん",
+    "kunyomi": "もり",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/forest.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "森",
+        "furigana": "もり",
+        "traduccion": "bosque"
+      },
+      {
+        "palabra": "森林",
+        "furigana": "しんりん",
+        "traduccion": "bosque / floresta"
+      },
+      {
+        "palabra": "密林",
+        "furigana": "みつりん",
+        "traduccion": "jungla / selva"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "森鴎外",
+        "furigana": "もりおうがい",
+        "descripcion": "novelista y médico militar de la era Meiji, autor de Maihime (1862-1922)"
+      }
+    ],
+    "relacionadosCon": [
+      "林"
+    ]
+  },
+  {
+    "caracter": "無",
+    "nivel": "n4",
+    "significado": "nada / sin",
+    "onyomi": "む、ぶ",
+    "kunyomi": "な.い",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "無理",
+        "furigana": "むり",
+        "traduccion": "imposible"
+      },
+      {
+        "palabra": "無料",
+        "furigana": "むりょう",
+        "traduccion": "gratis"
+      },
+      {
+        "palabra": "無視",
+        "furigana": "むし",
+        "traduccion": "ignorar"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "鬼滅の刃 無限列車編",
+        "furigana": "きめつのやいば むげんれっしゃへん",
+        "descripcion": "arco y film de Demon Slayer, taquillazo mundial de 2020"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "着",
+    "nivel": "n4",
+    "significado": "llegar / ponerse (ropa)",
+    "onyomi": "ちゃく、じゃく",
+    "kunyomi": "き.る、-ぎ、き.せる、-き.せ、つ.く、つ.ける",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "着る",
+        "furigana": "きる",
+        "traduccion": "vestirse"
+      },
+      {
+        "palabra": "到着",
+        "furigana": "とうちゃく",
+        "traduccion": "llegada"
+      },
+      {
+        "palabra": "着物",
+        "furigana": "きもの",
+        "traduccion": "kimono"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "その着せ替え人形は恋をする",
+        "furigana": "そのビスクドールはこいをする",
+        "descripcion": "manga y anime de Shinichi Fukuda sobre cosplay y romance"
+      }
+    ],
+    "relacionadosCon": [
+      "差"
+    ]
+  },
+  {
+    "caracter": "短",
+    "nivel": "n4",
+    "significado": "corto",
+    "onyomi": "たん",
+    "kunyomi": "みじか.い",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "短い",
+        "furigana": "みじかい",
+        "traduccion": "corto"
+      },
+      {
+        "palabra": "短所",
+        "furigana": "たんしょ",
+        "traduccion": "defecto / punto débil"
+      },
+      {
+        "palabra": "最短",
+        "furigana": "さいたん",
+        "traduccion": "más corto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "短歌",
+        "furigana": "たんか",
+        "descripcion": "forma poética tradicional japonesa de 5-7-5-7-7 sílabas"
+      }
+    ],
+    "relacionadosCon": [
+      "知"
+    ]
+  },
+  {
+    "caracter": "答",
+    "nivel": "n4",
+    "significado": "responder",
+    "onyomi": "とう",
+    "kunyomi": "こた.える、こた.え",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "答える",
+        "furigana": "こたえる",
+        "traduccion": "responder"
+      },
+      {
+        "palabra": "答え",
+        "furigana": "こたえ",
+        "traduccion": "respuesta"
+      },
+      {
+        "palabra": "回答",
+        "furigana": "かいとう",
+        "traduccion": "respuesta / réplica"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "答えのない歌",
+        "furigana": "こたえのないうた",
+        "descripcion": "canción de la banda japonesa BUMP OF CHICKEN"
+      }
+    ],
+    "relacionadosCon": [
+      "合"
+    ]
+  },
+  {
+    "caracter": "貸",
+    "nivel": "n4",
+    "significado": "prestar",
+    "onyomi": "たい",
+    "kunyomi": "か.す、か.し-、かし-",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 5,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "貸す",
+        "furigana": "かす",
+        "traduccion": "prestar"
+      },
+      {
+        "palabra": "貸し",
+        "furigana": "かし",
+        "traduccion": "préstamo"
+      },
+      {
+        "palabra": "貸家",
+        "furigana": "かしや",
+        "traduccion": "casa en alquiler"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "貸本漫画",
+        "furigana": "かしほんまんが",
+        "descripcion": "manga de alquiler popular en los 50s-60s, cuna de artistas como Mizuki Shigeru"
+      }
+    ],
+    "relacionadosCon": [
+      "貨"
+    ]
+  },
+  {
+    "caracter": "軽",
+    "nivel": "n4",
+    "significado": "ligero",
+    "onyomi": "けい、きょう、きん",
+    "kunyomi": "かる.い、かろ.やか、かろ.んじる",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "軽い",
+        "furigana": "かるい",
+        "traduccion": "ligero"
+      },
+      {
+        "palabra": "軽食",
+        "furigana": "けいしょく",
+        "traduccion": "refrigerio"
+      },
+      {
+        "palabra": "手軽",
+        "furigana": "てがる",
+        "traduccion": "fácil / práctico"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "軽井沢",
+        "furigana": "かるいざわ",
+        "descripcion": "pueblo de veraneo en Nagano, popular entre aristocracia y celebridades"
+      }
+    ],
+    "relacionadosCon": [
+      "径",
+      "転"
+    ]
+  },
+  {
+    "caracter": "運",
+    "nivel": "n4",
+    "significado": "transportar / suerte",
+    "onyomi": "うん",
+    "kunyomi": "はこ.ぶ",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20carry.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "運ぶ",
+        "furigana": "はこぶ",
+        "traduccion": "transportar"
+      },
+      {
+        "palabra": "運転",
+        "furigana": "うんてん",
+        "traduccion": "conducir"
+      },
+      {
+        "palabra": "運命",
+        "furigana": "うんめい",
+        "traduccion": "destino"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "運慶",
+        "furigana": "うんけい",
+        "descripcion": "escultor budista del período Kamakura, autor de las estatuas del Nandaimon de Tōdai-ji"
+      }
+    ],
+    "relacionadosCon": [
+      "連"
+    ]
+  },
+  {
+    "caracter": "開",
+    "nivel": "n4",
+    "significado": "abrir",
+    "onyomi": "かい",
+    "kunyomi": "ひら.く、ひら.き、-びら.き、ひら.ける、あ.く、あ.ける",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20open.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "開ける",
+        "furigana": "あける",
+        "traduccion": "abrir"
+      },
+      {
+        "palabra": "開く",
+        "furigana": "ひらく",
+        "traduccion": "abrir(se)"
+      },
+      {
+        "palabra": "公開",
+        "furigana": "こうかい",
+        "traduccion": "apertura pública / estreno"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "開高健",
+        "furigana": "かいこうたけし",
+        "descripcion": "novelista y reportero de guerra japonés en Vietnam (1930-1989)"
+      }
+    ],
+    "relacionadosCon": [
+      "間",
+      "関"
+    ]
+  },
+  {
+    "caracter": "集",
+    "nivel": "n4",
+    "significado": "reunir / colección",
+    "onyomi": "しゅう",
+    "kunyomi": "あつ.まる、あつ.める、つど.う",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "集める",
+        "furigana": "あつめる",
+        "traduccion": "juntar / coleccionar"
+      },
+      {
+        "palabra": "集合",
+        "furigana": "しゅうごう",
+        "traduccion": "reunión / concentración"
+      },
+      {
+        "palabra": "集中",
+        "furigana": "しゅうちゅう",
+        "traduccion": "concentración"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "万葉集",
+        "furigana": "まんようしゅう",
+        "descripcion": "antología poética más antigua de Japón (s.VIII), unos 4500 waka"
+      }
+    ],
+    "relacionadosCon": [
+      "進"
+    ]
+  },
+  {
+    "caracter": "飯",
+    "nivel": "n4",
+    "significado": "arroz cocido / comida",
+    "onyomi": "はん",
+    "kunyomi": "めし",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "ご飯",
+        "furigana": "ごはん",
+        "traduccion": "arroz / comida"
+      },
+      {
+        "palabra": "朝ご飯",
+        "furigana": "あさごはん",
+        "traduccion": "desayuno"
+      },
+      {
+        "palabra": "夕飯",
+        "furigana": "ゆうはん",
+        "traduccion": "cena"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "花のずぼら飯",
+        "furigana": "はなのずぼらめし",
+        "descripcion": "manga cómico sobre una esposa perezosa que cocina rápido"
+      }
+    ],
+    "relacionadosCon": [
+      "飲"
+    ]
+  },
+  {
+    "caracter": "働",
+    "nivel": "n4",
+    "significado": "trabajar",
+    "onyomi": "どう",
+    "kunyomi": "はたら.く",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/to%20work.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "働く",
+        "furigana": "はたらく",
+        "traduccion": "trabajar"
+      },
+      {
+        "palabra": "労働",
+        "furigana": "ろうどう",
+        "traduccion": "trabajo / labor"
+      },
+      {
+        "palabra": "労働者",
+        "furigana": "ろうどうしゃ",
+        "traduccion": "trabajador"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "働きマン",
+        "furigana": "はたらきマン",
+        "descripcion": "manga de Moyoco Anno sobre una editora de revista adicta al trabajo"
+      }
+    ],
+    "relacionadosCon": [
+      "動"
+    ]
+  },
+  {
+    "caracter": "意",
+    "nivel": "n4",
+    "significado": "intención / significado",
+    "onyomi": "い",
+    "kunyomi": null,
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "意味",
+        "furigana": "いみ",
+        "traduccion": "significado"
+      },
+      {
+        "palabra": "注意",
+        "furigana": "ちゅうい",
+        "traduccion": "cuidado / atención"
+      },
+      {
+        "palabra": "意見",
+        "furigana": "いけん",
+        "traduccion": "opinión"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "意地悪ばあさん",
+        "furigana": "いじわるばあさん",
+        "descripcion": "manga de Machiko Hasegawa (autora de Sazae-san) sobre una anciana traviesa"
+      }
+    ],
+    "relacionadosCon": [
+      "億",
+      "音"
+    ]
+  },
+  {
+    "caracter": "暗",
+    "nivel": "n4",
+    "significado": "oscuro",
+    "onyomi": "あん",
+    "kunyomi": "くら.い、くら.む、くれ.る",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "暗い",
+        "furigana": "くらい",
+        "traduccion": "oscuro"
+      },
+      {
+        "palabra": "暗記",
+        "furigana": "あんき",
+        "traduccion": "memorización"
+      },
+      {
+        "palabra": "暗号",
+        "furigana": "あんごう",
+        "traduccion": "código / cifrado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "暗黒神話",
+        "furigana": "あんこくしんわ",
+        "descripcion": "manga de horror mitológico de Daijirō Morohoshi (1976)"
+      }
+    ],
+    "relacionadosCon": [
+      "音"
+    ]
+  },
+  {
+    "caracter": "業",
+    "nivel": "n4",
+    "significado": "negocio / ocupación",
+    "onyomi": "ぎょう、ごう",
+    "kunyomi": "わざ",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "授業",
+        "furigana": "じゅぎょう",
+        "traduccion": "clase"
+      },
+      {
+        "palabra": "工業",
+        "furigana": "こうぎょう",
+        "traduccion": "industria"
+      },
+      {
+        "palabra": "卒業",
+        "furigana": "そつぎょう",
+        "traduccion": "graduación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "業田良家",
+        "furigana": "ごうだよしいえ",
+        "descripcion": "mangaka japonés, autor de Jigyaku no Uta y Kikai Jikake no Ai"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "楽",
+    "nivel": "n4",
+    "significado": "fácil / música / disfrutar",
+    "onyomi": "がく、らく、ごう",
+    "kunyomi": "たの.しい、たの.しむ、この.む",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/fun.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "楽しい",
+        "furigana": "たのしい",
+        "traduccion": "divertido"
+      },
+      {
+        "palabra": "音楽",
+        "furigana": "おんがく",
+        "traduccion": "música"
+      },
+      {
+        "palabra": "気楽",
+        "furigana": "きらく",
+        "traduccion": "relajado / sin preocupaciones"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "一条楽",
+        "furigana": "いちじょうらく",
+        "descripcion": "protagonista del manga romántico Nisekoi de Naoshi Komi"
+      }
+    ],
+    "relacionadosCon": [
+      "薬"
+    ]
+  },
+  {
+    "caracter": "漢",
+    "nivel": "n4",
+    "significado": "kanji / chino (Han)",
+    "onyomi": "かん",
+    "kunyomi": null,
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "漢字",
+        "furigana": "かんじ",
+        "traduccion": "kanji"
+      },
+      {
+        "palabra": "漢方",
+        "furigana": "かんぽう",
+        "traduccion": "medicina china tradicional"
+      },
+      {
+        "palabra": "漢文",
+        "furigana": "かんぶん",
+        "traduccion": "chino clásico"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "日本漢字能力検定",
+        "furigana": "にほんかんじのうりょくけんてい",
+        "descripcion": "examen nacional de kanji con 12 niveles, del 10級 al 1級"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "試",
+    "nivel": "n4",
+    "significado": "probar / examen",
+    "onyomi": "し",
+    "kunyomi": "こころ.みる、ため.す",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "試験",
+        "furigana": "しけん",
+        "traduccion": "examen"
+      },
+      {
+        "palabra": "試合",
+        "furigana": "しあい",
+        "traduccion": "partido / competencia"
+      },
+      {
+        "palabra": "試着",
+        "furigana": "しちゃく",
+        "traduccion": "probarse ropa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "試験の花道",
+        "furigana": "しけんのはなみち",
+        "descripcion": "programa NHK educativo (2008-2016) con consejos de estudio para exámenes"
+      }
+    ],
+    "relacionadosCon": [
+      "式"
+    ]
+  },
+  {
+    "caracter": "遠",
+    "nivel": "n4",
+    "significado": "lejos",
+    "onyomi": "えん、おん",
+    "kunyomi": "とお.い",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/far.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "遠い",
+        "furigana": "とおい",
+        "traduccion": "lejano"
+      },
+      {
+        "palabra": "遠足",
+        "furigana": "えんそく",
+        "traduccion": "excursión"
+      },
+      {
+        "palabra": "望遠鏡",
+        "furigana": "ぼうえんきょう",
+        "traduccion": "telescopio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "遠藤周作",
+        "furigana": "えんどうしゅうさく",
+        "descripcion": "novelista de Silencio (Chinmoku), obra sobre cristianos ocultos en Japón"
+      }
+    ],
+    "relacionadosCon": [
+      "園"
+    ]
+  },
+  {
+    "caracter": "歌",
+    "nivel": "n4",
+    "significado": "canción / cantar",
+    "onyomi": "か",
+    "kunyomi": "うた、うた.う",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "歌",
+        "furigana": "うた",
+        "traduccion": "canción"
+      },
+      {
+        "palabra": "歌手",
+        "furigana": "かしゅ",
+        "traduccion": "cantante"
+      },
+      {
+        "palabra": "国歌",
+        "furigana": "こっか",
+        "traduccion": "himno nacional"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "歌川広重",
+        "furigana": "うたがわひろしげ",
+        "descripcion": "pintor ukiyo-e del período Edo, autor de las 53 estaciones del Tōkaidō"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "説",
+    "nivel": "n4",
+    "significado": "explicar / teoría",
+    "onyomi": "せつ、ぜい",
+    "kunyomi": "と.く",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "説明",
+        "furigana": "せつめい",
+        "traduccion": "explicación"
+      },
+      {
+        "palabra": "小説",
+        "furigana": "しょうせつ",
+        "traduccion": "novela"
+      },
+      {
+        "palabra": "演説",
+        "furigana": "えんぜつ",
+        "traduccion": "discurso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "小説家になろう",
+        "furigana": "しょうせつかになろう",
+        "descripcion": "plataforma web (2004) donde debutan la mayoría de light novels e isekai"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "銀",
+    "nivel": "n4",
+    "significado": "plata",
+    "onyomi": "ぎん",
+    "kunyomi": "しろがね",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "銀",
+        "furigana": "ぎん",
+        "traduccion": "plata"
+      },
+      {
+        "palabra": "銀行",
+        "furigana": "ぎんこう",
+        "traduccion": "banco"
+      },
+      {
+        "palabra": "銀色",
+        "furigana": "ぎんいろ",
+        "traduccion": "color plateado"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "銀魂",
+        "furigana": "ぎんたま",
+        "descripcion": "manga y anime de comedia de Hideaki Sorachi sobre samuráis en un Edo alterno"
+      }
+    ],
+    "relacionadosCon": [
+      "根"
+    ]
+  },
+  {
+    "caracter": "質",
+    "nivel": "n4",
+    "significado": "calidad / naturaleza",
+    "onyomi": "しつ、しち、ち",
+    "kunyomi": "たち、ただ.す、もと、わりふ",
+    "numeroTrazos": 15,
+    "anioEscolarJapon": 5,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "質問",
+        "furigana": "しつもん",
+        "traduccion": "pregunta"
+      },
+      {
+        "palabra": "品質",
+        "furigana": "ひんしつ",
+        "traduccion": "calidad"
+      },
+      {
+        "palabra": "性質",
+        "furigana": "せいしつ",
+        "traduccion": "naturaleza / carácter"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "質屋",
+        "furigana": "しちや",
+        "descripcion": "casas de empeño tradicionales japonesas, existían desde el período Edo"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "薬",
+    "nivel": "n4",
+    "significado": "medicina",
+    "onyomi": "やく",
+    "kunyomi": "くすり",
+    "numeroTrazos": 16,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/medicine.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "薬",
+        "furigana": "くすり",
+        "traduccion": "medicina"
+      },
+      {
+        "palabra": "薬局",
+        "furigana": "やっきょく",
+        "traduccion": "farmacia"
+      },
+      {
+        "palabra": "薬草",
+        "furigana": "やくそう",
+        "traduccion": "hierba medicinal"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "薬師丸ひろ子",
+        "furigana": "やくしまるひろこ",
+        "descripcion": "actriz y cantante de los 80, conocida por Sailor Suit and Machine Gun"
+      }
+    ],
+    "relacionadosCon": [
+      "楽"
+    ]
+  },
+  {
+    "caracter": "親",
+    "nivel": "n4",
+    "significado": "padre o madre / cercano",
+    "onyomi": "しん",
+    "kunyomi": "おや、おや-、した.しい、した.しむ",
+    "numeroTrazos": 16,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n4/parent.webp",
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "親",
+        "furigana": "おや",
+        "traduccion": "padre o madre"
+      },
+      {
+        "palabra": "両親",
+        "furigana": "りょうしん",
+        "traduccion": "padres (ambos)"
+      },
+      {
+        "palabra": "親切",
+        "furigana": "しんせつ",
+        "traduccion": "amable / bondadoso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "親鸞",
+        "furigana": "しんらん",
+        "descripcion": "monje budista (1173-1263), fundador de la escuela Jōdo Shinshū"
+      }
+    ],
+    "relacionadosCon": [
+      "新"
+    ]
+  },
+  {
+    "caracter": "頭",
+    "nivel": "n4",
+    "significado": "cabeza",
+    "onyomi": "とう、ず、と",
+    "kunyomi": "あたま、かしら、-がしら、かぶり",
+    "numeroTrazos": 16,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "頭",
+        "furigana": "あたま",
+        "traduccion": "cabeza"
+      },
+      {
+        "palabra": "先頭",
+        "furigana": "せんとう",
+        "traduccion": "cabeza / delante"
+      },
+      {
+        "palabra": "頭痛",
+        "furigana": "ずつう",
+        "traduccion": "dolor de cabeza"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "頭文字D",
+        "furigana": "イニシャルディー",
+        "descripcion": "manga y anime de Shūichi Shigeno sobre carreras callejeras en Gunma"
+      }
+    ],
+    "relacionadosCon": [
+      "顔"
+    ]
+  },
+  {
+    "caracter": "館",
+    "nivel": "n4",
+    "significado": "edificio / salón",
+    "onyomi": "かん",
+    "kunyomi": "やかた、たて",
+    "numeroTrazos": 16,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "図書館",
+        "furigana": "としょかん",
+        "traduccion": "biblioteca"
+      },
+      {
+        "palabra": "大使館",
+        "furigana": "たいしかん",
+        "traduccion": "embajada"
+      },
+      {
+        "palabra": "映画館",
+        "furigana": "えいがかん",
+        "traduccion": "cine (sala)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "小学館",
+        "furigana": "しょうがくかん",
+        "descripcion": "editorial de manga fundada en 1922 (Doraemon, Detective Conan)"
+      }
+    ],
+    "relacionadosCon": [
+      "管"
+    ]
+  },
+  {
+    "caracter": "曜",
+    "nivel": "n4",
+    "significado": "día de la semana",
+    "onyomi": "よう",
+    "kunyomi": null,
+    "numeroTrazos": 18,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "月曜日",
+        "furigana": "げつようび",
+        "traduccion": "lunes"
+      },
+      {
+        "palabra": "曜日",
+        "furigana": "ようび",
+        "traduccion": "día de la semana"
+      },
+      {
+        "palabra": "日曜日",
+        "furigana": "にちようび",
+        "traduccion": "domingo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "土曜ワイド劇場",
+        "furigana": "どようワイドげきじょう",
+        "descripcion": "bloque de películas de misterio de TV Asahi (1977-2017)"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "題",
+    "nivel": "n4",
+    "significado": "tema / título",
+    "onyomi": "だい",
+    "kunyomi": null,
+    "numeroTrazos": 18,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "問題",
+        "furigana": "もんだい",
+        "traduccion": "problema"
+      },
+      {
+        "palabra": "題名",
+        "furigana": "だいめい",
+        "traduccion": "título"
+      },
+      {
+        "palabra": "話題",
+        "furigana": "わだい",
+        "traduccion": "tema de conversación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "題名のない音楽会",
+        "furigana": "だいめいのないおんがくかい",
+        "descripcion": "programa musical de TV Asahi (1964-), el más longevo del género en Japón"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "顔",
+    "nivel": "n4",
+    "significado": "cara",
+    "onyomi": "がん",
+    "kunyomi": "かお",
+    "numeroTrazos": 18,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "顔",
+        "furigana": "かお",
+        "traduccion": "cara"
+      },
+      {
+        "palabra": "顔色",
+        "furigana": "かおいろ",
+        "traduccion": "aspecto / color de cara"
+      },
+      {
+        "palabra": "笑顔",
+        "furigana": "えがお",
+        "traduccion": "sonrisa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "顔",
+        "furigana": "かお",
+        "descripcion": "film noir japonés de 1957 dirigido por Hideo Ōba"
+      }
+    ],
+    "relacionadosCon": [
+      "産",
+      "頭"
+    ]
+  },
+  {
+    "caracter": "験",
+    "nivel": "n4",
+    "significado": "experimentar / examen",
+    "onyomi": "けん、げん",
+    "kunyomi": "あかし、しるし、ため.す、ためし",
+    "numeroTrazos": 18,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "試験",
+        "furigana": "しけん",
+        "traduccion": "examen"
+      },
+      {
+        "palabra": "経験",
+        "furigana": "けいけん",
+        "traduccion": "experiencia"
+      },
+      {
+        "palabra": "実験",
+        "furigana": "じっけん",
+        "traduccion": "experimento"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "経験値",
+        "furigana": "けいけんち",
+        "descripcion": "puntos de experiencia en juegos de rol japoneses, clave en la mecánica JRPG"
+      }
+    ],
+    "relacionadosCon": [
+      "駅"
+    ]
+  }
+]

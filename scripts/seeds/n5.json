@@ -1,0 +1,4167 @@
+[
+  {
+    "caracter": "一",
+    "nivel": "n5",
+    "significado": "uno",
+    "onyomi": "いち、いつ",
+    "kunyomi": "ひと-、ひと.つ",
+    "numeroTrazos": 1,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "一",
+        "furigana": "いち",
+        "traduccion": "uno"
+      },
+      {
+        "palabra": "一月",
+        "furigana": "いちがつ",
+        "traduccion": "enero"
+      },
+      {
+        "palabra": "一緒",
+        "furigana": "いっしょ",
+        "traduccion": "juntos"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "樋口一葉",
+        "furigana": "ひぐちいちよう",
+        "descripcion": "escritora Meiji (1872-1896), autora de Takekurabe, rostro del billete de 5000 yenes (2004-2024)"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "七",
+    "nivel": "n5",
+    "significado": "siete",
+    "onyomi": "しち",
+    "kunyomi": "なな、なな.つ、なの",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "七",
+        "furigana": "なな",
+        "traduccion": "siete"
+      },
+      {
+        "palabra": "七月",
+        "furigana": "しちがつ",
+        "traduccion": "julio"
+      },
+      {
+        "palabra": "七夕",
+        "furigana": "たなばた",
+        "traduccion": "Tanabata (festival de las estrellas)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "七人の侍",
+        "furigana": "しちにんのさむらい",
+        "descripcion": "film icónico de Akira Kurosawa (1954) con Toshirō Mifune"
+      }
+    ],
+    "relacionadosCon": [
+      "十"
+    ]
+  },
+  {
+    "caracter": "九",
+    "nivel": "n5",
+    "significado": "nueve",
+    "onyomi": "きゅう、く",
+    "kunyomi": "ここの、ここの.つ",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "九",
+        "furigana": "きゅう",
+        "traduccion": "nueve"
+      },
+      {
+        "palabra": "九月",
+        "furigana": "くがつ",
+        "traduccion": "septiembre"
+      },
+      {
+        "palabra": "九州",
+        "furigana": "きゅうしゅう",
+        "traduccion": "Kyūshū (isla del sur de Japón)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "坂本九",
+        "furigana": "さかもときゅう",
+        "descripcion": "cantante de Ue o Muite Arukō (Sukiyaki), fallecido en el vuelo JAL 123 (1985)"
+      }
+    ],
+    "relacionadosCon": [
+      "力"
+    ]
+  },
+  {
+    "caracter": "二",
+    "nivel": "n5",
+    "significado": "dos",
+    "onyomi": "に、じ",
+    "kunyomi": "ふた、ふた.つ、ふたたび",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "二",
+        "furigana": "に",
+        "traduccion": "dos"
+      },
+      {
+        "palabra": "二月",
+        "furigana": "にがつ",
+        "traduccion": "febrero"
+      },
+      {
+        "palabra": "二人",
+        "furigana": "ふたり",
+        "traduccion": "dos personas"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "二宮金次郎",
+        "furigana": "にのみやきんじろう",
+        "descripcion": "reformador agrario Edo tardío (1787-1856), estatua icónica del niño leyendo al cargar leña"
+      }
+    ],
+    "relacionadosCon": [
+      "三"
+    ]
+  },
+  {
+    "caracter": "人",
+    "nivel": "n5",
+    "significado": "persona",
+    "onyomi": "じん、にん",
+    "kunyomi": "ひと、-り、-と",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "人",
+        "furigana": "ひと",
+        "traduccion": "persona"
+      },
+      {
+        "palabra": "日本人",
+        "furigana": "にほんじん",
+        "traduccion": "japonés (nacionalidad)"
+      },
+      {
+        "palabra": "大人",
+        "furigana": "おとな",
+        "traduccion": "adulto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "松本人志",
+        "furigana": "まつもとひとし",
+        "descripcion": "comediante del dúo Downtown y director de cine (Dai-Nihonjin, Symbol)"
+      }
+    ],
+    "relacionadosCon": [
+      "入",
+      "八"
+    ]
+  },
+  {
+    "caracter": "入",
+    "nivel": "n5",
+    "significado": "entrar",
+    "onyomi": "にゅう、じゅ",
+    "kunyomi": "い.る、-い.る、-い.り、い.れる、-い.れ、はい.る",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "入る",
+        "furigana": "はいる",
+        "traduccion": "entrar"
+      },
+      {
+        "palabra": "入口",
+        "furigana": "いりぐち",
+        "traduccion": "entrada"
+      },
+      {
+        "palabra": "記入",
+        "furigana": "きにゅう",
+        "traduccion": "rellenar (un formulario)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "入江陵介",
+        "furigana": "いりえりょうすけ",
+        "descripcion": "nadador olímpico japonés especialista en espalda, medallista"
+      }
+    ],
+    "relacionadosCon": [
+      "人",
+      "八"
+    ]
+  },
+  {
+    "caracter": "八",
+    "nivel": "n5",
+    "significado": "ocho",
+    "onyomi": "はち",
+    "kunyomi": "や、や.つ、やっ.つ、よう",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "八",
+        "furigana": "はち",
+        "traduccion": "ocho"
+      },
+      {
+        "palabra": "八月",
+        "furigana": "はちがつ",
+        "traduccion": "agosto"
+      },
+      {
+        "palabra": "八百屋",
+        "furigana": "やおや",
+        "traduccion": "verdulería"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "八代亜紀",
+        "furigana": "やしろあき",
+        "descripcion": "cantante enka legendaria (1950-2023), éxito Ame no Bojō"
+      }
+    ],
+    "relacionadosCon": [
+      "人",
+      "入"
+    ]
+  },
+  {
+    "caracter": "十",
+    "nivel": "n5",
+    "significado": "diez",
+    "onyomi": "じゅう、じっ、じゅっ",
+    "kunyomi": "とお、と",
+    "numeroTrazos": 2,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "十",
+        "furigana": "じゅう",
+        "traduccion": "diez"
+      },
+      {
+        "palabra": "十月",
+        "furigana": "じゅうがつ",
+        "traduccion": "octubre"
+      },
+      {
+        "palabra": "十字路",
+        "furigana": "じゅうじろ",
+        "traduccion": "cruce / intersección"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "十返舎一九",
+        "furigana": "じっぺんしゃいっく",
+        "descripcion": "escritor Edo (1765-1831), autor del gesaku Tōkaidōchū Hizakurige"
+      }
+    ],
+    "relacionadosCon": [
+      "七",
+      "千"
+    ]
+  },
+  {
+    "caracter": "万",
+    "nivel": "n5",
+    "significado": "diez mil",
+    "onyomi": "まん、ばん",
+    "kunyomi": "よろず",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "一万",
+        "furigana": "いちまん",
+        "traduccion": "diez mil"
+      },
+      {
+        "palabra": "万年筆",
+        "furigana": "まんねんひつ",
+        "traduccion": "pluma estilográfica"
+      },
+      {
+        "palabra": "万一",
+        "furigana": "まんいち",
+        "traduccion": "por si acaso"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "万田久子",
+        "furigana": "まんだひさこ",
+        "descripcion": "actriz japonesa contemporánea, ex-Miss Universe Japan 1978"
+      }
+    ],
+    "relacionadosCon": [
+      "方"
+    ]
+  },
+  {
+    "caracter": "三",
+    "nivel": "n5",
+    "significado": "tres",
+    "onyomi": "さん、ぞう",
+    "kunyomi": "み、み.つ、みっ.つ",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "三",
+        "furigana": "さん",
+        "traduccion": "tres"
+      },
+      {
+        "palabra": "三月",
+        "furigana": "さんがつ",
+        "traduccion": "marzo"
+      },
+      {
+        "palabra": "三角",
+        "furigana": "さんかく",
+        "traduccion": "triángulo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "三島由紀夫",
+        "furigana": "みしまゆきお",
+        "descripcion": "novelista y dramaturgo (1925-1970), autor de Kinkaku-ji, famoso por su seppuku ritual"
+      }
+    ],
+    "relacionadosCon": [
+      "二",
+      "川"
+    ]
+  },
+  {
+    "caracter": "上",
+    "nivel": "n5",
+    "significado": "arriba",
+    "onyomi": "じょう、しょう、しゃん",
+    "kunyomi": "うえ、-うえ、うわ-、かみ、あ.げる、-あ.げる、あ.がる、-あ.がる、あ.がり、-あ.がり、のぼ.る、のぼ.り、のぼ.せる、のぼ.す、たてまつ.る",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "上",
+        "furigana": "うえ",
+        "traduccion": "arriba"
+      },
+      {
+        "palabra": "上手",
+        "furigana": "じょうず",
+        "traduccion": "hábil / bueno en algo"
+      },
+      {
+        "palabra": "屋上",
+        "furigana": "おくじょう",
+        "traduccion": "azotea"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "上戸彩",
+        "furigana": "うえとあや",
+        "descripcion": "actriz japonesa contemporánea (Attention Please, Hanzawa Naoki)"
+      }
+    ],
+    "relacionadosCon": [
+      "下",
+      "止"
+    ]
+  },
+  {
+    "caracter": "下",
+    "nivel": "n5",
+    "significado": "abajo",
+    "onyomi": "か、げ",
+    "kunyomi": "した、しも、もと、さ.げる、さ.がる、くだ.る、くだ.り、くだ.す、-くだ.す、くだ.さる、お.ろす、お.りる",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "下",
+        "furigana": "した",
+        "traduccion": "abajo"
+      },
+      {
+        "palabra": "下手",
+        "furigana": "へた",
+        "traduccion": "torpe / malo en algo"
+      },
+      {
+        "palabra": "地下",
+        "furigana": "ちか",
+        "traduccion": "subterráneo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "山下智久",
+        "furigana": "やましたともひさ",
+        "descripcion": "actor y cantante, ex-miembro del grupo idol NEWS"
+      }
+    ],
+    "relacionadosCon": [
+      "上",
+      "不"
+    ]
+  },
+  {
+    "caracter": "千",
+    "nivel": "n5",
+    "significado": "mil",
+    "onyomi": "せん",
+    "kunyomi": "ち",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "千",
+        "furigana": "せん",
+        "traduccion": "mil"
+      },
+      {
+        "palabra": "千円",
+        "furigana": "せんえん",
+        "traduccion": "mil yenes"
+      },
+      {
+        "palabra": "千葉",
+        "furigana": "ちば",
+        "traduccion": "prefectura de Chiba"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "千利休",
+        "furigana": "せんのりきゅう",
+        "descripcion": "maestro del té wabi-cha al servicio de Toyotomi Hideyoshi (1522-1591)"
+      }
+    ],
+    "relacionadosCon": [
+      "十",
+      "午"
+    ]
+  },
+  {
+    "caracter": "口",
+    "nivel": "n5",
+    "significado": "boca",
+    "onyomi": "こう、く",
+    "kunyomi": "くち",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "口",
+        "furigana": "くち",
+        "traduccion": "boca"
+      },
+      {
+        "palabra": "入口",
+        "furigana": "いりぐち",
+        "traduccion": "entrada"
+      },
+      {
+        "palabra": "人口",
+        "furigana": "じんこう",
+        "traduccion": "población"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "山口百恵",
+        "furigana": "やまぐちももえ",
+        "descripcion": "cantante y actriz idol icónica de los 70, retirada tras casarse en 1980"
+      }
+    ],
+    "relacionadosCon": [
+      "回"
+    ]
+  },
+  {
+    "caracter": "土",
+    "nivel": "n5",
+    "significado": "tierra",
+    "onyomi": "ど、と",
+    "kunyomi": "つち",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "土",
+        "furigana": "つち",
+        "traduccion": "tierra / suelo"
+      },
+      {
+        "palabra": "土曜日",
+        "furigana": "どようび",
+        "traduccion": "sábado"
+      },
+      {
+        "palabra": "土地",
+        "furigana": "とち",
+        "traduccion": "terreno"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "土方歳三",
+        "furigana": "ひじかたとしぞう",
+        "descripcion": "vicecomandante del Shinsengumi durante el Bakumatsu (1835-1869)"
+      }
+    ],
+    "relacionadosCon": [
+      "士",
+      "工"
+    ]
+  },
+  {
+    "caracter": "大",
+    "nivel": "n5",
+    "significado": "grande",
+    "onyomi": "だい、たい",
+    "kunyomi": "おお-、おお.きい、-おお.いに",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "大きい",
+        "furigana": "おおきい",
+        "traduccion": "grande"
+      },
+      {
+        "palabra": "大学",
+        "furigana": "だいがく",
+        "traduccion": "universidad"
+      },
+      {
+        "palabra": "大切",
+        "furigana": "たいせつ",
+        "traduccion": "importante"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "大谷翔平",
+        "furigana": "おおたにしょうへい",
+        "descripcion": "beisbolista bidireccional de MLB (Angels, Dodgers), MVP múltiple"
+      }
+    ],
+    "relacionadosCon": [
+      "天",
+      "太",
+      "犬"
+    ]
+  },
+  {
+    "caracter": "女",
+    "nivel": "n5",
+    "significado": "mujer",
+    "onyomi": "じょ、にょ、にょう",
+    "kunyomi": "おんな、め",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "女",
+        "furigana": "おんな",
+        "traduccion": "mujer"
+      },
+      {
+        "palabra": "女性",
+        "furigana": "じょせい",
+        "traduccion": "femenino / mujer"
+      },
+      {
+        "palabra": "少女",
+        "furigana": "しょうじょ",
+        "traduccion": "chica / muchacha"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "女神転生",
+        "furigana": "めがみてんせい",
+        "descripcion": "franquicia de RPG de Atlus desde 1987, madre de la saga Persona"
+      }
+    ],
+    "relacionadosCon": [
+      "母"
+    ]
+  },
+  {
+    "caracter": "子",
+    "nivel": "n5",
+    "significado": "niño/a",
+    "onyomi": "し、す、つ",
+    "kunyomi": "こ、-こ、ね",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "子供",
+        "furigana": "こども",
+        "traduccion": "niño"
+      },
+      {
+        "palabra": "女の子",
+        "furigana": "おんなのこ",
+        "traduccion": "niña"
+      },
+      {
+        "palabra": "男の子",
+        "furigana": "おとこのこ",
+        "traduccion": "niño (varón)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "松田聖子",
+        "furigana": "まつだせいこ",
+        "descripcion": "cantante idol icónica de los 80, referente del pop femenino japonés"
+      }
+    ],
+    "relacionadosCon": [
+      "予",
+      "字"
+    ]
+  },
+  {
+    "caracter": "小",
+    "nivel": "n5",
+    "significado": "pequeño",
+    "onyomi": "しょう",
+    "kunyomi": "ちい.さい、こ-、お-、さ-",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "小さい",
+        "furigana": "ちいさい",
+        "traduccion": "pequeño"
+      },
+      {
+        "palabra": "小学校",
+        "furigana": "しょうがっこう",
+        "traduccion": "escuela primaria"
+      },
+      {
+        "palabra": "小説",
+        "furigana": "しょうせつ",
+        "traduccion": "novela"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "小泉純一郎",
+        "furigana": "こいずみじゅんいちろう",
+        "descripcion": "primer ministro (2001-2006), impulsor de la privatización del correo"
+      }
+    ],
+    "relacionadosCon": [
+      "少"
+    ]
+  },
+  {
+    "caracter": "山",
+    "nivel": "n5",
+    "significado": "montaña",
+    "onyomi": "さん、せん",
+    "kunyomi": "やま",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "山",
+        "furigana": "やま",
+        "traduccion": "montaña"
+      },
+      {
+        "palabra": "富士山",
+        "furigana": "ふじさん",
+        "traduccion": "monte Fuji"
+      },
+      {
+        "palabra": "火山",
+        "furigana": "かざん",
+        "traduccion": "volcán"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "山田洋次",
+        "furigana": "やまだようじ",
+        "descripcion": "director de cine, saga Otoko wa Tsurai yo (Tora-san) y Tasogare Seibei"
+      }
+    ],
+    "relacionadosCon": [
+      "出"
+    ]
+  },
+  {
+    "caracter": "川",
+    "nivel": "n5",
+    "significado": "río",
+    "onyomi": "せん",
+    "kunyomi": "かわ",
+    "numeroTrazos": 3,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "川",
+        "furigana": "かわ",
+        "traduccion": "río"
+      },
+      {
+        "palabra": "小川",
+        "furigana": "おがわ",
+        "traduccion": "arroyo"
+      },
+      {
+        "palabra": "河川",
+        "furigana": "かせん",
+        "traduccion": "ríos (formal)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "川端康成",
+        "furigana": "かわばたやすなり",
+        "descripcion": "novelista (1899-1972), primer japonés en ganar el Nobel de Literatura (1968)"
+      }
+    ],
+    "relacionadosCon": [
+      "三",
+      "州"
+    ]
+  },
+  {
+    "caracter": "中",
+    "nivel": "n5",
+    "significado": "medio / dentro",
+    "onyomi": "ちゅう",
+    "kunyomi": "なか、うち、あた.る",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "中",
+        "furigana": "なか",
+        "traduccion": "dentro / medio"
+      },
+      {
+        "palabra": "中国",
+        "furigana": "ちゅうごく",
+        "traduccion": "China"
+      },
+      {
+        "palabra": "中学校",
+        "furigana": "ちゅうがっこう",
+        "traduccion": "escuela secundaria"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "中村勘三郎",
+        "furigana": "なかむらかんざぶろう",
+        "descripcion": "actor de kabuki, XVIII generación (1955-2012), renovador del género"
+      }
+    ],
+    "relacionadosCon": [
+      "虫"
+    ]
+  },
+  {
+    "caracter": "五",
+    "nivel": "n5",
+    "significado": "cinco",
+    "onyomi": "ご",
+    "kunyomi": "いつ、いつ.つ",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "五",
+        "furigana": "ご",
+        "traduccion": "cinco"
+      },
+      {
+        "palabra": "五月",
+        "furigana": "ごがつ",
+        "traduccion": "mayo"
+      },
+      {
+        "palabra": "五十音",
+        "furigana": "ごじゅうおん",
+        "traduccion": "silabario japonés (50 sonidos)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "五木ひろし",
+        "furigana": "いつきひろし",
+        "descripcion": "cantante enka veterano, más de cincuenta apariciones en el Kōhaku"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "今",
+    "nivel": "n5",
+    "significado": "ahora",
+    "onyomi": "こん、きん",
+    "kunyomi": "いま",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "今",
+        "furigana": "いま",
+        "traduccion": "ahora"
+      },
+      {
+        "palabra": "今日",
+        "furigana": "きょう",
+        "traduccion": "hoy"
+      },
+      {
+        "palabra": "今月",
+        "furigana": "こんげつ",
+        "traduccion": "este mes"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "今田耕司",
+        "furigana": "いまだこうじ",
+        "descripcion": "comediante y presentador de TV, referente del owarai en Kansai"
+      }
+    ],
+    "relacionadosCon": [
+      "令",
+      "会",
+      "念"
+    ]
+  },
+  {
+    "caracter": "六",
+    "nivel": "n5",
+    "significado": "seis",
+    "onyomi": "ろく、りく",
+    "kunyomi": "む、む.つ、むっ.つ、むい",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "六",
+        "furigana": "ろく",
+        "traduccion": "seis"
+      },
+      {
+        "palabra": "六月",
+        "furigana": "ろくがつ",
+        "traduccion": "junio"
+      },
+      {
+        "palabra": "六本木",
+        "furigana": "ろっぽんぎ",
+        "traduccion": "Roppongi (barrio de Tokio)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "六三四の剣",
+        "furigana": "むさしのけん",
+        "descripcion": "manga y anime clásico de kendō de Motoka Murakami (1981-1985)"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "円",
+    "nivel": "n5",
+    "significado": "yen / círculo",
+    "onyomi": "えん",
+    "kunyomi": "まる.い、まる、まど、まど.か、まろ.やか",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "円",
+        "furigana": "えん",
+        "traduccion": "yen / círculo"
+      },
+      {
+        "palabra": "千円",
+        "furigana": "せんえん",
+        "traduccion": "mil yenes"
+      },
+      {
+        "palabra": "円形",
+        "furigana": "えんけい",
+        "traduccion": "circular / forma redonda"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "円谷英二",
+        "furigana": "つぶらやえいじ",
+        "descripcion": "director de efectos especiales (1901-1970), creador de Godzilla y fundador de Tsuburaya (Ultraman)"
+      }
+    ],
+    "relacionadosCon": [
+      "内"
+    ]
+  },
+  {
+    "caracter": "分",
+    "nivel": "n5",
+    "significado": "minuto / dividir",
+    "onyomi": "ぶん、ふん、ぶ",
+    "kunyomi": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "分",
+        "furigana": "ふん",
+        "traduccion": "minuto"
+      },
+      {
+        "palabra": "自分",
+        "furigana": "じぶん",
+        "traduccion": "uno mismo"
+      },
+      {
+        "palabra": "半分",
+        "furigana": "はんぶん",
+        "traduccion": "mitad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "分福茶釜",
+        "furigana": "ぶんぶくちゃがま",
+        "descripcion": "cuento popular sobre un tanuki que se transforma en tetera para pagar un favor"
+      }
+    ],
+    "relacionadosCon": [
+      "公",
+      "切"
+    ]
+  },
+  {
+    "caracter": "午",
+    "nivel": "n5",
+    "significado": "mediodía",
+    "onyomi": "ご",
+    "kunyomi": "うま",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "午前",
+        "furigana": "ごぜん",
+        "traduccion": "mañana / AM"
+      },
+      {
+        "palabra": "午後",
+        "furigana": "ごご",
+        "traduccion": "tarde / PM"
+      },
+      {
+        "palabra": "正午",
+        "furigana": "しょうご",
+        "traduccion": "mediodía"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "午後の曳航",
+        "furigana": "ごごのえいこう",
+        "descripcion": "novela de Yukio Mishima (1963) sobre un marinero y un niño de Yokohama"
+      }
+    ],
+    "relacionadosCon": [
+      "千",
+      "年",
+      "牛"
+    ]
+  },
+  {
+    "caracter": "友",
+    "nivel": "n5",
+    "significado": "amigo",
+    "onyomi": "ゆう",
+    "kunyomi": "とも",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "友達",
+        "furigana": "ともだち",
+        "traduccion": "amigo"
+      },
+      {
+        "palabra": "親友",
+        "furigana": "しんゆう",
+        "traduccion": "mejor amigo"
+      },
+      {
+        "palabra": "友情",
+        "furigana": "ゆうじょう",
+        "traduccion": "amistad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "友近",
+        "furigana": "ともちか",
+        "descripcion": "comediante japonesa reconocida por sus imitaciones y personajes"
+      }
+    ],
+    "relacionadosCon": [
+      "反",
+      "右",
+      "有"
+    ]
+  },
+  {
+    "caracter": "天",
+    "nivel": "n5",
+    "significado": "cielo",
+    "onyomi": "てん",
+    "kunyomi": "あまつ、あめ、あま-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "天気",
+        "furigana": "てんき",
+        "traduccion": "clima / tiempo"
+      },
+      {
+        "palabra": "天国",
+        "furigana": "てんごく",
+        "traduccion": "paraíso"
+      },
+      {
+        "palabra": "天才",
+        "furigana": "てんさい",
+        "traduccion": "genio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "天海祐希",
+        "furigana": "あまみゆうき",
+        "descripcion": "actriz japonesa, ex-top male role de la Takarazuka Revue"
+      }
+    ],
+    "relacionadosCon": [
+      "大",
+      "夫"
+    ]
+  },
+  {
+    "caracter": "少",
+    "nivel": "n5",
+    "significado": "poco",
+    "onyomi": "しょう",
+    "kunyomi": "すく.ない、すこ.し",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "少ない",
+        "furigana": "すくない",
+        "traduccion": "poco / escaso"
+      },
+      {
+        "palabra": "少し",
+        "furigana": "すこし",
+        "traduccion": "un poco"
+      },
+      {
+        "palabra": "少年",
+        "furigana": "しょうねん",
+        "traduccion": "niño / muchacho"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "少年ジャンプ",
+        "furigana": "しょうねんジャンプ",
+        "descripcion": "revista semanal de manga de Shueisha (1968-), cuna de Dragon Ball, One Piece y Naruto"
+      }
+    ],
+    "relacionadosCon": [
+      "小"
+    ]
+  },
+  {
+    "caracter": "手",
+    "nivel": "n5",
+    "significado": "mano",
+    "onyomi": "しゅ、ず",
+    "kunyomi": "て、て-、-て、た-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "手",
+        "furigana": "て",
+        "traduccion": "mano"
+      },
+      {
+        "palabra": "上手",
+        "furigana": "じょうず",
+        "traduccion": "hábil / bueno en algo"
+      },
+      {
+        "palabra": "手紙",
+        "furigana": "てがみ",
+        "traduccion": "carta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "手塚治虫",
+        "furigana": "てづかおさむ",
+        "descripcion": "padre del manga moderno (1928-1989), creador de Astroboy, Kimba y Buda"
+      }
+    ],
+    "relacionadosCon": [
+      "毛"
+    ]
+  },
+  {
+    "caracter": "日",
+    "nivel": "n5",
+    "significado": "día / sol",
+    "onyomi": "にち、じつ",
+    "kunyomi": "ひ、-び、-か",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "日",
+        "furigana": "ひ",
+        "traduccion": "día / sol"
+      },
+      {
+        "palabra": "日本",
+        "furigana": "にほん",
+        "traduccion": "Japón"
+      },
+      {
+        "palabra": "毎日",
+        "furigana": "まいにち",
+        "traduccion": "todos los días"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "日高のり子",
+        "furigana": "ひだかのりこ",
+        "descripcion": "seiyū de Ranma-chan (Ranma 1/2), Minami (Touch) y Nadia"
+      }
+    ],
+    "relacionadosCon": [
+      "目"
+    ]
+  },
+  {
+    "caracter": "月",
+    "nivel": "n5",
+    "significado": "mes / luna",
+    "onyomi": "げつ、がつ",
+    "kunyomi": "つき",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "月",
+        "furigana": "つき",
+        "traduccion": "luna / mes"
+      },
+      {
+        "palabra": "月曜日",
+        "furigana": "げつようび",
+        "traduccion": "lunes"
+      },
+      {
+        "palabra": "一月",
+        "furigana": "いちがつ",
+        "traduccion": "enero"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "月岡芳年",
+        "furigana": "つきおかよしとし",
+        "descripcion": "último gran maestro del ukiyo-e (1839-1892), célebre por escenas violentas y sobrenaturales"
+      }
+    ],
+    "relacionadosCon": [
+      "用"
+    ]
+  },
+  {
+    "caracter": "木",
+    "nivel": "n5",
+    "significado": "árbol / madera",
+    "onyomi": "ぼく、もく",
+    "kunyomi": "き、こ-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "木",
+        "furigana": "き",
+        "traduccion": "árbol"
+      },
+      {
+        "palabra": "木曜日",
+        "furigana": "もくようび",
+        "traduccion": "jueves"
+      },
+      {
+        "palabra": "木材",
+        "furigana": "もくざい",
+        "traduccion": "madera (material)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "鈴木一朗",
+        "furigana": "すずきいちろう",
+        "descripcion": "Ichirō, beisbolista MLB (Mariners, Yankees, Marlins), más de 3000 hits"
+      }
+    ],
+    "relacionadosCon": [
+      "未",
+      "本"
+    ]
+  },
+  {
+    "caracter": "水",
+    "nivel": "n5",
+    "significado": "agua",
+    "onyomi": "すい",
+    "kunyomi": "みず、みず-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "水",
+        "furigana": "みず",
+        "traduccion": "agua"
+      },
+      {
+        "palabra": "水曜日",
+        "furigana": "すいようび",
+        "traduccion": "miércoles"
+      },
+      {
+        "palabra": "水泳",
+        "furigana": "すいえい",
+        "traduccion": "natación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "水木しげる",
+        "furigana": "みずきしげる",
+        "descripcion": "mangaka de GeGeGe no Kitarō (1922-2015), veterano de la Segunda Guerra Mundial"
+      }
+    ],
+    "relacionadosCon": [
+      "氷",
+      "求"
+    ]
+  },
+  {
+    "caracter": "火",
+    "nivel": "n5",
+    "significado": "fuego",
+    "onyomi": "か",
+    "kunyomi": "ひ、-び、ほ-",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "火",
+        "furigana": "ひ",
+        "traduccion": "fuego"
+      },
+      {
+        "palabra": "火曜日",
+        "furigana": "かようび",
+        "traduccion": "martes"
+      },
+      {
+        "palabra": "花火",
+        "furigana": "はなび",
+        "traduccion": "fuegos artificiales"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "火の鳥",
+        "furigana": "ひのとり",
+        "descripcion": "obra magna inconclusa de Osamu Tezuka sobre la inmortalidad y la reencarnación"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "父",
+    "nivel": "n5",
+    "significado": "padre",
+    "onyomi": "ふ",
+    "kunyomi": "ちち",
+    "numeroTrazos": 4,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "父",
+        "furigana": "ちち",
+        "traduccion": "padre (propio)"
+      },
+      {
+        "palabra": "お父さん",
+        "furigana": "おとうさん",
+        "traduccion": "padre (ajeno)"
+      },
+      {
+        "palabra": "父親",
+        "furigana": "ちちおや",
+        "traduccion": "padre (formal)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "父の暦",
+        "furigana": "ちちのこよみ",
+        "descripcion": "manga autobiográfico de Jirō Taniguchi (1994) sobre memoria familiar en Tottori"
+      }
+    ],
+    "relacionadosCon": [
+      "文"
+    ]
+  },
+  {
+    "caracter": "出",
+    "nivel": "n5",
+    "significado": "salir",
+    "onyomi": "しゅつ、すい",
+    "kunyomi": "で.る、-で、だ.す、-だ.す、い.でる、い.だす",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "出る",
+        "furigana": "でる",
+        "traduccion": "salir"
+      },
+      {
+        "palabra": "出口",
+        "furigana": "でぐち",
+        "traduccion": "salida"
+      },
+      {
+        "palabra": "出発",
+        "furigana": "しゅっぱつ",
+        "traduccion": "partida / salida"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "出川哲朗",
+        "furigana": "でがわてつろう",
+        "descripcion": "comediante icónico por programas de reacción y aventura como Yabai yo Yabai yo"
+      }
+    ],
+    "relacionadosCon": [
+      "山"
+    ]
+  },
+  {
+    "caracter": "北",
+    "nivel": "n5",
+    "significado": "norte",
+    "onyomi": "ほく",
+    "kunyomi": "きた",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "北",
+        "furigana": "きた",
+        "traduccion": "norte"
+      },
+      {
+        "palabra": "東北",
+        "furigana": "とうほく",
+        "traduccion": "región Tōhoku"
+      },
+      {
+        "palabra": "北海道",
+        "furigana": "ほっかいどう",
+        "traduccion": "Hokkaidō"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "北野武",
+        "furigana": "きたのたけし",
+        "descripcion": "director de cine (Hana-bi, Sonatine), comediante y actor, León de Oro en Venecia 1997"
+      }
+    ],
+    "relacionadosCon": [
+      "兆",
+      "化"
+    ]
+  },
+  {
+    "caracter": "半",
+    "nivel": "n5",
+    "significado": "mitad",
+    "onyomi": "はん",
+    "kunyomi": "なか.ば",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "半分",
+        "furigana": "はんぶん",
+        "traduccion": "mitad"
+      },
+      {
+        "palabra": "半年",
+        "furigana": "はんとし",
+        "traduccion": "medio año"
+      },
+      {
+        "palabra": "前半",
+        "furigana": "ぜんはん",
+        "traduccion": "primera mitad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "半沢直樹",
+        "furigana": "はんざわなおき",
+        "descripcion": "protagonista bancario de la dorama homónima (2013, 2020) basada en novelas de Jun Ikeido"
+      }
+    ],
+    "relacionadosCon": [
+      "平"
+    ]
+  },
+  {
+    "caracter": "古",
+    "nivel": "n5",
+    "significado": "viejo / antiguo",
+    "onyomi": "こ",
+    "kunyomi": "ふる.い、ふる-、-ふる.す",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "古い",
+        "furigana": "ふるい",
+        "traduccion": "viejo / antiguo"
+      },
+      {
+        "palabra": "中古",
+        "furigana": "ちゅうこ",
+        "traduccion": "usado / segunda mano"
+      },
+      {
+        "palabra": "古典",
+        "furigana": "こてん",
+        "traduccion": "clásico (literatura)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "古舘伊知郎",
+        "furigana": "ふるたちいちろう",
+        "descripcion": "periodista y presentador, ex-conductor de News Station y comentarista de pro-wrestling"
+      }
+    ],
+    "relacionadosCon": [
+      "右",
+      "固",
+      "早"
+    ]
+  },
+  {
+    "caracter": "右",
+    "nivel": "n5",
+    "significado": "derecha",
+    "onyomi": "う、ゆう",
+    "kunyomi": "みぎ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "右",
+        "furigana": "みぎ",
+        "traduccion": "derecha"
+      },
+      {
+        "palabra": "右手",
+        "furigana": "みぎて",
+        "traduccion": "mano derecha"
+      },
+      {
+        "palabra": "右側",
+        "furigana": "みぎがわ",
+        "traduccion": "lado derecho"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "杉下右京",
+        "furigana": "すぎしたうきょう",
+        "descripcion": "detective protagonista de la dorama Aibō (2000-), interpretado por Yutaka Mizutani"
+      }
+    ],
+    "relacionadosCon": [
+      "友",
+      "古",
+      "左",
+      "有",
+      "石"
+    ]
+  },
+  {
+    "caracter": "四",
+    "nivel": "n5",
+    "significado": "cuatro",
+    "onyomi": "し",
+    "kunyomi": "よ、よ.つ、よっ.つ、よん",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "四",
+        "furigana": "よん",
+        "traduccion": "cuatro"
+      },
+      {
+        "palabra": "四月",
+        "furigana": "しがつ",
+        "traduccion": "abril"
+      },
+      {
+        "palabra": "四季",
+        "furigana": "しき",
+        "traduccion": "las cuatro estaciones"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "四月は君の嘘",
+        "furigana": "しがつはきみのうそ",
+        "descripcion": "manga y anime musical de Naoshi Arakawa (2011-2015) sobre piano y violín"
+      }
+    ],
+    "relacionadosCon": [
+      "西"
+    ]
+  },
+  {
+    "caracter": "外",
+    "nivel": "n5",
+    "significado": "afuera",
+    "onyomi": "がい、げ",
+    "kunyomi": "そと、ほか、はず.す、はず.れる、と-",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "外",
+        "furigana": "そと",
+        "traduccion": "afuera"
+      },
+      {
+        "palabra": "外国",
+        "furigana": "がいこく",
+        "traduccion": "extranjero (país)"
+      },
+      {
+        "palabra": "外食",
+        "furigana": "がいしょく",
+        "traduccion": "comer fuera"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "外山滋比古",
+        "furigana": "とやましげひこ",
+        "descripcion": "erudito de literatura inglesa (1923-2020), autor del ensayo Shikō no Seirigaku"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "左",
+    "nivel": "n5",
+    "significado": "izquierda",
+    "onyomi": "さ、しゃ",
+    "kunyomi": "ひだり",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "左",
+        "furigana": "ひだり",
+        "traduccion": "izquierda"
+      },
+      {
+        "palabra": "左手",
+        "furigana": "ひだりて",
+        "traduccion": "mano izquierda"
+      },
+      {
+        "palabra": "左側",
+        "furigana": "ひだりがわ",
+        "traduccion": "lado izquierdo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "左とん平",
+        "furigana": "ひだりとんぺい",
+        "descripcion": "actor y comediante japonés (1937-2018) de doramas y películas"
+      }
+    ],
+    "relacionadosCon": [
+      "右"
+    ]
+  },
+  {
+    "caracter": "未",
+    "nivel": "n5",
+    "significado": "todavía no (未来 = futuro)",
+    "onyomi": "み、び",
+    "kunyomi": "いま.だ、ま.だ、ひつじ",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 4,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "未来",
+        "furigana": "みらい",
+        "traduccion": "futuro"
+      },
+      {
+        "palabra": "未定",
+        "furigana": "みてい",
+        "traduccion": "no decidido / por definir"
+      },
+      {
+        "palabra": "未成年",
+        "furigana": "みせいねん",
+        "traduccion": "menor de edad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "未来少年コナン",
+        "furigana": "みらいしょうねんコナン",
+        "descripcion": "anime dirigido por Hayao Miyazaki para NHK (1978), primer trabajo suyo como director"
+      }
+    ],
+    "relacionadosCon": [
+      "味",
+      "木",
+      "末",
+      "本"
+    ]
+  },
+  {
+    "caracter": "本",
+    "nivel": "n5",
+    "significado": "libro / origen",
+    "onyomi": "ほん",
+    "kunyomi": "もと",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "本",
+        "furigana": "ほん",
+        "traduccion": "libro"
+      },
+      {
+        "palabra": "日本",
+        "furigana": "にほん",
+        "traduccion": "Japón"
+      },
+      {
+        "palabra": "本当",
+        "furigana": "ほんとう",
+        "traduccion": "verdad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "本田翼",
+        "furigana": "ほんだつばさ",
+        "descripcion": "actriz, modelo y streamer de videojuegos japonesa contemporánea"
+      }
+    ],
+    "relacionadosCon": [
+      "木",
+      "未",
+      "末"
+    ]
+  },
+  {
+    "caracter": "母",
+    "nivel": "n5",
+    "significado": "madre",
+    "onyomi": "ぼ",
+    "kunyomi": "はは、も",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "母",
+        "furigana": "はは",
+        "traduccion": "madre (propia)"
+      },
+      {
+        "palabra": "お母さん",
+        "furigana": "おかあさん",
+        "traduccion": "madre (ajena)"
+      },
+      {
+        "palabra": "母国",
+        "furigana": "ぼこく",
+        "traduccion": "patria / país natal"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "母をたずねて三千里",
+        "furigana": "ははをたずねてさんぜんり",
+        "descripcion": "anime del World Masterpiece Theater (1976) dirigido por Isao Takahata"
+      }
+    ],
+    "relacionadosCon": [
+      "女",
+      "毎"
+    ]
+  },
+  {
+    "caracter": "生",
+    "nivel": "n5",
+    "significado": "vida / nacer",
+    "onyomi": "せい、しょう",
+    "kunyomi": "い.きる、い.かす、い.ける、う.まれる、うま.れる、う.まれ、うまれ、う.む、お.う、は.える、は.やす、き、なま、なま-、な.る、な.す、む.す、-う",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "生きる",
+        "furigana": "いきる",
+        "traduccion": "vivir"
+      },
+      {
+        "palabra": "学生",
+        "furigana": "がくせい",
+        "traduccion": "estudiante"
+      },
+      {
+        "palabra": "先生",
+        "furigana": "せんせい",
+        "traduccion": "profesor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "生駒里奈",
+        "furigana": "いこまりな",
+        "descripcion": "actriz y ex-idol, primera capitana de Nogizaka46"
+      }
+    ],
+    "relacionadosCon": [
+      "主",
+      "先"
+    ]
+  },
+  {
+    "caracter": "白",
+    "nivel": "n5",
+    "significado": "blanco",
+    "onyomi": "はく、びゃく",
+    "kunyomi": "しろ、しら-、しろ.い",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "白い",
+        "furigana": "しろい",
+        "traduccion": "blanco"
+      },
+      {
+        "palabra": "白鳥",
+        "furigana": "はくちょう",
+        "traduccion": "cisne"
+      },
+      {
+        "palabra": "面白い",
+        "furigana": "おもしろい",
+        "traduccion": "interesante / divertido"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "白洲次郎",
+        "furigana": "しらすじろう",
+        "descripcion": "empresario y aristócrata (1902-1985), asistente del PM Yoshida en la posguerra"
+      }
+    ],
+    "relacionadosCon": [
+      "百",
+      "自"
+    ]
+  },
+  {
+    "caracter": "目",
+    "nivel": "n5",
+    "significado": "ojo",
+    "onyomi": "もく、ぼく",
+    "kunyomi": "め、-め、ま-",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "目",
+        "furigana": "め",
+        "traduccion": "ojo"
+      },
+      {
+        "palabra": "目的",
+        "furigana": "もくてき",
+        "traduccion": "objetivo"
+      },
+      {
+        "palabra": "目薬",
+        "furigana": "めぐすり",
+        "traduccion": "colirio / gotas oculares"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "目黒蓮",
+        "furigana": "めぐろれん",
+        "descripcion": "actor y miembro del grupo idol Snow Man"
+      }
+    ],
+    "relacionadosCon": [
+      "日",
+      "耳",
+      "自"
+    ]
+  },
+  {
+    "caracter": "立",
+    "nivel": "n5",
+    "significado": "pararse / de pie",
+    "onyomi": "りつ、りゅう、りっとる",
+    "kunyomi": "た.つ、-た.つ、た.ち-、た.てる、-た.てる、た.て-、たて-、-た.て、-だ.て、-だ.てる",
+    "numeroTrazos": 5,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "立つ",
+        "furigana": "たつ",
+        "traduccion": "pararse / ponerse de pie"
+      },
+      {
+        "palabra": "国立",
+        "furigana": "こくりつ",
+        "traduccion": "nacional (institución pública)"
+      },
+      {
+        "palabra": "立派",
+        "furigana": "りっぱ",
+        "traduccion": "espléndido / imponente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "立川談志",
+        "furigana": "たてかわだんし",
+        "descripcion": "rakugoka legendario (1936-2011), séptima generación Tatekawa Danshi"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "休",
+    "nivel": "n5",
+    "significado": "descansar",
+    "onyomi": "きゅう",
+    "kunyomi": "やす.む、やす.まる、やす.める",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "休む",
+        "furigana": "やすむ",
+        "traduccion": "descansar"
+      },
+      {
+        "palabra": "休日",
+        "furigana": "きゅうじつ",
+        "traduccion": "día festivo / feriado"
+      },
+      {
+        "palabra": "夏休み",
+        "furigana": "なつやすみ",
+        "traduccion": "vacaciones de verano"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "一休さん",
+        "furigana": "いっきゅうさん",
+        "descripcion": "monje zen Ikkyū Sōjun (1394-1481) y serie anime clásica basada en su vida"
+      }
+    ],
+    "relacionadosCon": [
+      "体"
+    ]
+  },
+  {
+    "caracter": "会",
+    "nivel": "n5",
+    "significado": "reunión / asociación",
+    "onyomi": "かい、え",
+    "kunyomi": "あ.う、あ.わせる、あつ.まる",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "会う",
+        "furigana": "あう",
+        "traduccion": "encontrarse / reunirse"
+      },
+      {
+        "palabra": "会社",
+        "furigana": "かいしゃ",
+        "traduccion": "empresa"
+      },
+      {
+        "palabra": "会議",
+        "furigana": "かいぎ",
+        "traduccion": "reunión / junta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "会津八一",
+        "furigana": "あいづやいち",
+        "descripcion": "poeta waka y erudito budista de la Universidad de Waseda (1881-1956)"
+      }
+    ],
+    "relacionadosCon": [
+      "今",
+      "合"
+    ]
+  },
+  {
+    "caracter": "先",
+    "nivel": "n5",
+    "significado": "antes / previo",
+    "onyomi": "せん",
+    "kunyomi": "さき、ま.ず",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "先",
+        "furigana": "さき",
+        "traduccion": "antes / adelante"
+      },
+      {
+        "palabra": "先生",
+        "furigana": "せんせい",
+        "traduccion": "profesor"
+      },
+      {
+        "palabra": "先週",
+        "furigana": "せんしゅう",
+        "traduccion": "semana pasada"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "先崎学",
+        "furigana": "せんざきまなぶ",
+        "descripcion": "shogi profesional y ensayista, autor de Utsu-byō Kyūdan sobre su depresión"
+      }
+    ],
+    "relacionadosCon": [
+      "光",
+      "生"
+    ]
+  },
+  {
+    "caracter": "名",
+    "nivel": "n5",
+    "significado": "nombre",
+    "onyomi": "めい、みょう",
+    "kunyomi": "な、-な",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "名前",
+        "furigana": "なまえ",
+        "traduccion": "nombre"
+      },
+      {
+        "palabra": "有名",
+        "furigana": "ゆうめい",
+        "traduccion": "famoso"
+      },
+      {
+        "palabra": "名刺",
+        "furigana": "めいし",
+        "traduccion": "tarjeta de presentación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "名探偵コナン",
+        "furigana": "めいたんていコナン",
+        "descripcion": "manga y anime de Gōshō Aoyama (1994-), franquicia longeva de detectives"
+      }
+    ],
+    "relacionadosCon": [
+      "各"
+    ]
+  },
+  {
+    "caracter": "多",
+    "nivel": "n5",
+    "significado": "mucho",
+    "onyomi": "た",
+    "kunyomi": "おお.い、まさ.に、まさ.る",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "多い",
+        "furigana": "おおい",
+        "traduccion": "mucho / muchos"
+      },
+      {
+        "palabra": "多分",
+        "furigana": "たぶん",
+        "traduccion": "probablemente / quizás"
+      },
+      {
+        "palabra": "多数",
+        "furigana": "たすう",
+        "traduccion": "mayoría / gran número"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "多部未華子",
+        "furigana": "たべみかこ",
+        "descripcion": "actriz japonesa contemporánea (Nodame Cantabile, Watashi no Otokonoko)"
+      }
+    ],
+    "relacionadosCon": [
+      "夕"
+    ]
+  },
+  {
+    "caracter": "安",
+    "nivel": "n5",
+    "significado": "barato / seguridad",
+    "onyomi": "あん",
+    "kunyomi": "やす.い、やす.まる、やす、やす.らか",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "安い",
+        "furigana": "やすい",
+        "traduccion": "barato"
+      },
+      {
+        "palabra": "安全",
+        "furigana": "あんぜん",
+        "traduccion": "seguro / seguridad"
+      },
+      {
+        "palabra": "安心",
+        "furigana": "あんしん",
+        "traduccion": "tranquilidad / alivio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "安倍晋三",
+        "furigana": "あべしんぞう",
+        "descripcion": "primer ministro (2006-2007, 2012-2020), asesinado en Nara en 2022"
+      }
+    ],
+    "relacionadosCon": [
+      "字",
+      "案"
+    ]
+  },
+  {
+    "caracter": "年",
+    "nivel": "n5",
+    "significado": "año",
+    "onyomi": "ねん",
+    "kunyomi": "とし",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "年",
+        "furigana": "とし",
+        "traduccion": "año / edad"
+      },
+      {
+        "palabra": "今年",
+        "furigana": "ことし",
+        "traduccion": "este año"
+      },
+      {
+        "palabra": "来年",
+        "furigana": "らいねん",
+        "traduccion": "año próximo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "三年B組金八先生",
+        "furigana": "さんねんびーぐみきんぱちせんせい",
+        "descripcion": "dorama escolar de TBS (1979-2011) con Tetsuya Takeda como profesor"
+      }
+    ],
+    "relacionadosCon": [
+      "午"
+    ]
+  },
+  {
+    "caracter": "毎",
+    "nivel": "n5",
+    "significado": "cada",
+    "onyomi": "まい",
+    "kunyomi": "ごと、-ごと.に",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "毎日",
+        "furigana": "まいにち",
+        "traduccion": "todos los días"
+      },
+      {
+        "palabra": "毎週",
+        "furigana": "まいしゅう",
+        "traduccion": "todas las semanas"
+      },
+      {
+        "palabra": "毎年",
+        "furigana": "まいとし",
+        "traduccion": "todos los años"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "毎日かあさん",
+        "furigana": "まいにちかあさん",
+        "descripcion": "manga autobiográfico de Rieko Saibara (2002-2017) sobre crianza y familia"
+      }
+    ],
+    "relacionadosCon": [
+      "母",
+      "毒",
+      "海"
+    ]
+  },
+  {
+    "caracter": "気",
+    "nivel": "n5",
+    "significado": "energía / espíritu",
+    "onyomi": "き、け",
+    "kunyomi": "いき",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "元気",
+        "furigana": "げんき",
+        "traduccion": "saludable / con energía"
+      },
+      {
+        "palabra": "天気",
+        "furigana": "てんき",
+        "traduccion": "clima / tiempo"
+      },
+      {
+        "palabra": "気持ち",
+        "furigana": "きもち",
+        "traduccion": "sentimiento / sensación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "気まぐれオレンジ☆ロード",
+        "furigana": "きまぐれオレンジ☆ロード",
+        "descripcion": "manga romántico de Izumi Matsumoto (1984-1987) publicado en Shōnen Jump"
+      }
+    ],
+    "relacionadosCon": [
+      "汽"
+    ]
+  },
+  {
+    "caracter": "百",
+    "nivel": "n5",
+    "significado": "cien",
+    "onyomi": "ひゃく、びゃく",
+    "kunyomi": "もも",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "百",
+        "furigana": "ひゃく",
+        "traduccion": "cien"
+      },
+      {
+        "palabra": "百年",
+        "furigana": "ひゃくねん",
+        "traduccion": "cien años"
+      },
+      {
+        "palabra": "百科事典",
+        "furigana": "ひゃっかじてん",
+        "traduccion": "enciclopedia"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "百人一首",
+        "furigana": "ひゃくにんいっしゅ",
+        "descripcion": "antología clásica de 100 poemas de 100 poetas compilada por Fujiwara no Teika (~1235)"
+      }
+    ],
+    "relacionadosCon": [
+      "白"
+    ]
+  },
+  {
+    "caracter": "耳",
+    "nivel": "n5",
+    "significado": "oreja",
+    "onyomi": "じ",
+    "kunyomi": "みみ",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "耳",
+        "furigana": "みみ",
+        "traduccion": "oreja / oído"
+      },
+      {
+        "palabra": "耳鼻科",
+        "furigana": "じびか",
+        "traduccion": "otorrinolaringología"
+      },
+      {
+        "palabra": "空耳",
+        "furigana": "そらみみ",
+        "traduccion": "oír algo que no se dijo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "耳をすませば",
+        "furigana": "みみをすませば",
+        "descripcion": "film Ghibli (1995) dirigido por Yoshifumi Kondō, basado en el manga de Aoi Hiiragi"
+      }
+    ],
+    "relacionadosCon": [
+      "目"
+    ]
+  },
+  {
+    "caracter": "行",
+    "nivel": "n5",
+    "significado": "ir / línea",
+    "onyomi": "こう、ぎょう、あん",
+    "kunyomi": "い.く、ゆ.く、-ゆ.き、-ゆき、-い.き、-いき、おこな.う、おこ.なう",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "行く",
+        "furigana": "いく",
+        "traduccion": "ir"
+      },
+      {
+        "palabra": "銀行",
+        "furigana": "ぎんこう",
+        "traduccion": "banco"
+      },
+      {
+        "palabra": "旅行",
+        "furigana": "りょこう",
+        "traduccion": "viaje"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "行け！稲中卓球部",
+        "furigana": "いけ！いなちゅうたっきゅうぶ",
+        "descripcion": "manga cómico gross-out de Minoru Furuya (1993-1996) sobre un club escolar de ping-pong"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "西",
+    "nivel": "n5",
+    "significado": "oeste",
+    "onyomi": "せい、さい、す",
+    "kunyomi": "にし",
+    "numeroTrazos": 6,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "西",
+        "furigana": "にし",
+        "traduccion": "oeste"
+      },
+      {
+        "palabra": "西洋",
+        "furigana": "せいよう",
+        "traduccion": "Occidente"
+      },
+      {
+        "palabra": "関西",
+        "furigana": "かんさい",
+        "traduccion": "región Kansai"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "西田敏行",
+        "furigana": "にしだとしゆき",
+        "descripcion": "actor icónico (Tsuribaka Nisshi, Amagi Goe), fallecido en 2024"
+      },
+      {
+        "nombre": "西野カナ",
+        "furigana": "にしのカナ",
+        "descripcion": "cantante J-pop, reina de las baladas de amor (Kimi tte, Darling, Torisetsu)"
+      }
+    ],
+    "relacionadosCon": [
+      "四"
+    ]
+  },
+  {
+    "caracter": "何",
+    "nivel": "n5",
+    "significado": "qué",
+    "onyomi": "か",
+    "kunyomi": "なに、なん、なに-、なん-",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "何",
+        "furigana": "なに",
+        "traduccion": "qué"
+      },
+      {
+        "palabra": "何時",
+        "furigana": "なんじ",
+        "traduccion": "qué hora"
+      },
+      {
+        "palabra": "何回",
+        "furigana": "なんかい",
+        "traduccion": "cuántas veces"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "何者",
+        "furigana": "なにもの",
+        "descripcion": "novela de Ryō Asai (2012), premio Naoki, adaptada al cine en 2016"
+      }
+    ],
+    "relacionadosCon": [
+      "荷"
+    ]
+  },
+  {
+    "caracter": "男",
+    "nivel": "n5",
+    "significado": "hombre",
+    "onyomi": "だん、なん",
+    "kunyomi": "おとこ、お",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "男",
+        "furigana": "おとこ",
+        "traduccion": "hombre"
+      },
+      {
+        "palabra": "男性",
+        "furigana": "だんせい",
+        "traduccion": "masculino / hombre"
+      },
+      {
+        "palabra": "長男",
+        "furigana": "ちょうなん",
+        "traduccion": "hijo mayor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "男はつらいよ",
+        "furigana": "おとこはつらいよ",
+        "descripcion": "saga de 50 películas de Yōji Yamada con Kiyoshi Atsumi como Tora-san (1969-2019)"
+      }
+    ],
+    "relacionadosCon": [
+      "田"
+    ]
+  },
+  {
+    "caracter": "社",
+    "nivel": "n5",
+    "significado": "compañía / santuario",
+    "onyomi": "しゃ",
+    "kunyomi": "やしろ",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "会社",
+        "furigana": "かいしゃ",
+        "traduccion": "empresa"
+      },
+      {
+        "palabra": "神社",
+        "furigana": "じんじゃ",
+        "traduccion": "santuario shintō"
+      },
+      {
+        "palabra": "社長",
+        "furigana": "しゃちょう",
+        "traduccion": "presidente de empresa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "社長 島耕作",
+        "furigana": "しゃちょうしまこうさく",
+        "descripcion": "entrega presidencial de la saga Shima Kōsaku de Kenshi Hirokane sobre un salaryman"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "花",
+    "nivel": "n5",
+    "significado": "flor",
+    "onyomi": "か、け",
+    "kunyomi": "はな",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "花",
+        "furigana": "はな",
+        "traduccion": "flor"
+      },
+      {
+        "palabra": "花見",
+        "furigana": "はなみ",
+        "traduccion": "contemplación de las flores"
+      },
+      {
+        "palabra": "花火",
+        "furigana": "はなび",
+        "traduccion": "fuegos artificiales"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "花より男子",
+        "furigana": "はなよりだんご",
+        "descripcion": "manga shōjo de Yōko Kamio (1992-2003), con múltiples adaptaciones en Asia"
+      }
+    ],
+    "relacionadosCon": [
+      "化"
+    ]
+  },
+  {
+    "caracter": "見",
+    "nivel": "n5",
+    "significado": "ver",
+    "onyomi": "けん",
+    "kunyomi": "み.る、み.える、み.せる",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "見る",
+        "furigana": "みる",
+        "traduccion": "ver / mirar"
+      },
+      {
+        "palabra": "花見",
+        "furigana": "はなみ",
+        "traduccion": "contemplación de las flores"
+      },
+      {
+        "palabra": "意見",
+        "furigana": "いけん",
+        "traduccion": "opinión"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "見取り図",
+        "furigana": "みとりず",
+        "descripcion": "dúo cómico de manzai formado por Morishige y Riri, de Yoshimoto Kōgyō"
+      }
+    ],
+    "relacionadosCon": [
+      "兄",
+      "貝"
+    ]
+  },
+  {
+    "caracter": "言",
+    "nivel": "n5",
+    "significado": "decir / palabra",
+    "onyomi": "げん、ごん",
+    "kunyomi": "い.う、こと",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "言う",
+        "furigana": "いう",
+        "traduccion": "decir"
+      },
+      {
+        "palabra": "言葉",
+        "furigana": "ことば",
+        "traduccion": "palabra / idioma"
+      },
+      {
+        "palabra": "方言",
+        "furigana": "ほうげん",
+        "traduccion": "dialecto"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "言の葉の庭",
+        "furigana": "ことのはのにわ",
+        "descripcion": "film corto de Makoto Shinkai (2013) ambientado en el jardín Shinjuku Gyoen"
+      }
+    ],
+    "relacionadosCon": [
+      "音"
+    ]
+  },
+  {
+    "caracter": "足",
+    "nivel": "n5",
+    "significado": "pie / pierna",
+    "onyomi": "そく",
+    "kunyomi": "あし、た.りる、た.る、た.す",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "足",
+        "furigana": "あし",
+        "traduccion": "pie / pierna"
+      },
+      {
+        "palabra": "足りる",
+        "furigana": "たりる",
+        "traduccion": "ser suficiente"
+      },
+      {
+        "palabra": "遠足",
+        "furigana": "えんそく",
+        "traduccion": "excursión"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "足利尊氏",
+        "furigana": "あしかがたかうじ",
+        "descripcion": "primer shōgun del shogunato Ashikaga (1305-1358)"
+      }
+    ],
+    "relacionadosCon": [
+      "走"
+    ]
+  },
+  {
+    "caracter": "車",
+    "nivel": "n5",
+    "significado": "auto / vehículo",
+    "onyomi": "しゃ",
+    "kunyomi": "くるま",
+    "numeroTrazos": 7,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "車",
+        "furigana": "くるま",
+        "traduccion": "auto / vehículo"
+      },
+      {
+        "palabra": "電車",
+        "furigana": "でんしゃ",
+        "traduccion": "tren"
+      },
+      {
+        "palabra": "自転車",
+        "furigana": "じてんしゃ",
+        "traduccion": "bicicleta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "車田正美",
+        "furigana": "くるまだまさみ",
+        "descripcion": "mangaka creador de Saint Seiya (Los Caballeros del Zodiaco) y Ring ni Kakero"
+      }
+    ],
+    "relacionadosCon": [
+      "東",
+      "軍"
+    ]
+  },
+  {
+    "caracter": "国",
+    "nivel": "n5",
+    "significado": "país",
+    "onyomi": "こく",
+    "kunyomi": "くに",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "国",
+        "furigana": "くに",
+        "traduccion": "país"
+      },
+      {
+        "palabra": "外国",
+        "furigana": "がいこく",
+        "traduccion": "extranjero (país)"
+      },
+      {
+        "palabra": "中国",
+        "furigana": "ちゅうごく",
+        "traduccion": "China"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "国木田独歩",
+        "furigana": "くにきだどっぽ",
+        "descripcion": "novelista naturalista Meiji (1871-1908), autor de Musashino"
+      }
+    ],
+    "relacionadosCon": [
+      "囲",
+      "図"
+    ]
+  },
+  {
+    "caracter": "学",
+    "nivel": "n5",
+    "significado": "estudiar / aprendizaje",
+    "onyomi": "がく",
+    "kunyomi": "まな.ぶ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "学ぶ",
+        "furigana": "まなぶ",
+        "traduccion": "aprender"
+      },
+      {
+        "palabra": "学校",
+        "furigana": "がっこう",
+        "traduccion": "escuela"
+      },
+      {
+        "palabra": "大学",
+        "furigana": "だいがく",
+        "traduccion": "universidad"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "学校の怪談",
+        "furigana": "がっこうのかいだん",
+        "descripcion": "serie de películas y anime de terror escolar de los 90 basada en libros de Tōru Tsunemitsu"
+      }
+    ],
+    "relacionadosCon": [
+      "字",
+      "挙",
+      "覚"
+    ]
+  },
+  {
+    "caracter": "店",
+    "nivel": "n5",
+    "significado": "tienda",
+    "onyomi": "てん",
+    "kunyomi": "みせ、たな",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "店",
+        "furigana": "みせ",
+        "traduccion": "tienda"
+      },
+      {
+        "palabra": "店員",
+        "furigana": "てんいん",
+        "traduccion": "dependiente / empleado"
+      },
+      {
+        "palabra": "書店",
+        "furigana": "しょてん",
+        "traduccion": "librería"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "三越百貨店",
+        "furigana": "みつこしひゃっかてん",
+        "descripcion": "grandes almacenes fundados en 1673 como Echigoya, primer department store de Japón"
+      }
+    ],
+    "relacionadosCon": [
+      "広",
+      "点"
+    ]
+  },
+  {
+    "caracter": "東",
+    "nivel": "n5",
+    "significado": "este",
+    "onyomi": "とう",
+    "kunyomi": "ひがし",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "東",
+        "furigana": "ひがし",
+        "traduccion": "este (punto cardinal)"
+      },
+      {
+        "palabra": "東京",
+        "furigana": "とうきょう",
+        "traduccion": "Tokio"
+      },
+      {
+        "palabra": "東洋",
+        "furigana": "とうよう",
+        "traduccion": "Oriente"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "東京物語",
+        "furigana": "とうきょうものがたり",
+        "descripcion": "film de Yasujirō Ozu (1953), considerado uno de los mejores de la historia del cine"
+      }
+    ],
+    "relacionadosCon": [
+      "束",
+      "車"
+    ]
+  },
+  {
+    "caracter": "空",
+    "nivel": "n5",
+    "significado": "cielo / vacío",
+    "onyomi": "くう",
+    "kunyomi": "そら、あ.く、あ.き、あ.ける、から、す.く、す.かす、むな.しい",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "空",
+        "furigana": "そら",
+        "traduccion": "cielo"
+      },
+      {
+        "palabra": "空港",
+        "furigana": "くうこう",
+        "traduccion": "aeropuerto"
+      },
+      {
+        "palabra": "青空",
+        "furigana": "あおぞら",
+        "traduccion": "cielo azul"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "空の境界",
+        "furigana": "からのきょうかい",
+        "descripcion": "light novel de Kinoko Nasu (1998), primer trabajo del universo Type-Moon"
+      }
+    ],
+    "relacionadosCon": [
+      "究"
+    ]
+  },
+  {
+    "caracter": "金",
+    "nivel": "n5",
+    "significado": "oro / dinero",
+    "onyomi": "きん、こん、ごん",
+    "kunyomi": "かね、かな-、-がね",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "お金",
+        "furigana": "おかね",
+        "traduccion": "dinero"
+      },
+      {
+        "palabra": "金曜日",
+        "furigana": "きんようび",
+        "traduccion": "viernes"
+      },
+      {
+        "palabra": "現金",
+        "furigana": "げんきん",
+        "traduccion": "dinero en efectivo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "金城武",
+        "furigana": "かねしろたけし",
+        "descripcion": "actor y modelo taiwanés-japonés (Chungking Express, House of Flying Daggers)"
+      }
+    ],
+    "relacionadosCon": [
+      "全"
+    ]
+  },
+  {
+    "caracter": "長",
+    "nivel": "n5",
+    "significado": "largo / jefe",
+    "onyomi": "ちょう",
+    "kunyomi": "なが.い、おさ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "長い",
+        "furigana": "ながい",
+        "traduccion": "largo"
+      },
+      {
+        "palabra": "社長",
+        "furigana": "しゃちょう",
+        "traduccion": "presidente de empresa"
+      },
+      {
+        "palabra": "校長",
+        "furigana": "こうちょう",
+        "traduccion": "director de escuela"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "織田信長",
+        "furigana": "おだのぶなが",
+        "descripcion": "unificador del Japón Sengoku (1534-1582), murió en el Incidente de Honnō-ji"
+      }
+    ],
+    "relacionadosCon": [
+      "帳"
+    ]
+  },
+  {
+    "caracter": "雨",
+    "nivel": "n5",
+    "significado": "lluvia",
+    "onyomi": "う",
+    "kunyomi": "あめ、あま-、-さめ",
+    "numeroTrazos": 8,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "雨",
+        "furigana": "あめ",
+        "traduccion": "lluvia"
+      },
+      {
+        "palabra": "大雨",
+        "furigana": "おおあめ",
+        "traduccion": "lluvia fuerte"
+      },
+      {
+        "palabra": "梅雨",
+        "furigana": "つゆ",
+        "traduccion": "temporada de lluvias"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "雨月物語",
+        "furigana": "うげつものがたり",
+        "descripcion": "colección de cuentos sobrenaturales de Ueda Akinari (1776), llevada al cine por Mizoguchi en 1953"
+      }
+    ],
+    "relacionadosCon": [
+      "電"
+    ]
+  },
+  {
+    "caracter": "前",
+    "nivel": "n5",
+    "significado": "antes / adelante",
+    "onyomi": "ぜん",
+    "kunyomi": "まえ、-まえ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "前",
+        "furigana": "まえ",
+        "traduccion": "antes / delante"
+      },
+      {
+        "palabra": "名前",
+        "furigana": "なまえ",
+        "traduccion": "nombre"
+      },
+      {
+        "palabra": "午前",
+        "furigana": "ごぜん",
+        "traduccion": "mañana / AM"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "前田敦子",
+        "furigana": "まえだあつこ",
+        "descripcion": "ex-integrante y capitana de AKB48, ganadora de la primera sōsenkyo (2009)"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "南",
+    "nivel": "n5",
+    "significado": "sur",
+    "onyomi": "なん、な",
+    "kunyomi": "みなみ",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "南",
+        "furigana": "みなみ",
+        "traduccion": "sur"
+      },
+      {
+        "palabra": "南極",
+        "furigana": "なんきょく",
+        "traduccion": "Antártida"
+      },
+      {
+        "palabra": "南米",
+        "furigana": "なんべい",
+        "traduccion": "Sudamérica"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "南沙織",
+        "furigana": "みなみさおり",
+        "descripcion": "cantante icónica de los 70, primera aidoru moderna, esposa del fotógrafo Kishin Shinoyama"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "後",
+    "nivel": "n5",
+    "significado": "después / atrás",
+    "onyomi": "ご、こう",
+    "kunyomi": "のち、うし.ろ、うしろ、あと、おく.れる",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "後ろ",
+        "furigana": "うしろ",
+        "traduccion": "atrás"
+      },
+      {
+        "palabra": "午後",
+        "furigana": "ごご",
+        "traduccion": "tarde / PM"
+      },
+      {
+        "palabra": "最後",
+        "furigana": "さいご",
+        "traduccion": "el último / final"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "後藤新平",
+        "furigana": "ごとうしんぺい",
+        "descripcion": "médico y político Meiji-Taishō (1857-1929), alcalde reconstructor de Tokio tras el terremoto de 1923"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "食",
+    "nivel": "n5",
+    "significado": "comer / comida",
+    "onyomi": "しょく、じき",
+    "kunyomi": "く.う、く.らう、た.べる、は.む",
+    "numeroTrazos": 9,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "食べる",
+        "furigana": "たべる",
+        "traduccion": "comer"
+      },
+      {
+        "palabra": "食事",
+        "furigana": "しょくじ",
+        "traduccion": "comida"
+      },
+      {
+        "palabra": "朝食",
+        "furigana": "ちょうしょく",
+        "traduccion": "desayuno"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "深夜食堂",
+        "furigana": "しんやしょくどう",
+        "descripcion": "manga de Yarō Abe (2006-) y dorama sobre una taberna de Shinjuku abierta de noche"
+      }
+    ],
+    "relacionadosCon": [
+      "良"
+    ]
+  },
+  {
+    "caracter": "時",
+    "nivel": "n5",
+    "significado": "hora / tiempo",
+    "onyomi": "じ",
+    "kunyomi": "とき、-どき",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "時間",
+        "furigana": "じかん",
+        "traduccion": "tiempo / hora"
+      },
+      {
+        "palabra": "時計",
+        "furigana": "とけい",
+        "traduccion": "reloj"
+      },
+      {
+        "palabra": "何時",
+        "furigana": "なんじ",
+        "traduccion": "qué hora"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "時任三郎",
+        "furigana": "ときとうさぶろう",
+        "descripcion": "actor japonés veterano, protagonista de doramas policiacos y familiares"
+      }
+    ],
+    "relacionadosCon": [
+      "持",
+      "詩"
+    ]
+  },
+  {
+    "caracter": "書",
+    "nivel": "n5",
+    "significado": "escribir / libro",
+    "onyomi": "しょ",
+    "kunyomi": "か.く、-が.き、-がき",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "書く",
+        "furigana": "かく",
+        "traduccion": "escribir"
+      },
+      {
+        "palabra": "図書館",
+        "furigana": "としょかん",
+        "traduccion": "biblioteca"
+      },
+      {
+        "palabra": "辞書",
+        "furigana": "じしょ",
+        "traduccion": "diccionario"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "書道ガールズ",
+        "furigana": "しょどうガールズ",
+        "descripcion": "film japonés (2010) sobre el concurso de performance de caligrafía escolar en Shikoku"
+      }
+    ],
+    "relacionadosCon": [
+      "昼",
+      "筆"
+    ]
+  },
+  {
+    "caracter": "校",
+    "nivel": "n5",
+    "significado": "escuela",
+    "onyomi": "こう、きょう",
+    "kunyomi": null,
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 1,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "学校",
+        "furigana": "がっこう",
+        "traduccion": "escuela"
+      },
+      {
+        "palabra": "校長",
+        "furigana": "こうちょう",
+        "traduccion": "director de escuela"
+      },
+      {
+        "palabra": "高校",
+        "furigana": "こうこう",
+        "traduccion": "secundaria alta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "桜蘭高校ホスト部",
+        "furigana": "おうらんこうこうホストぶ",
+        "descripcion": "manga shōjo y anime de Bisco Hatori (2002-2010), rom-com en un club de anfitriones"
+      }
+    ],
+    "relacionadosCon": []
+  },
+  {
+    "caracter": "高",
+    "nivel": "n5",
+    "significado": "alto / caro",
+    "onyomi": "こう",
+    "kunyomi": "たか.い、たか、-だか、たか.まる、たか.める",
+    "numeroTrazos": 10,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "高い",
+        "furigana": "たかい",
+        "traduccion": "alto / caro"
+      },
+      {
+        "palabra": "高校",
+        "furigana": "こうこう",
+        "traduccion": "secundaria alta"
+      },
+      {
+        "palabra": "最高",
+        "furigana": "さいこう",
+        "traduccion": "el mejor / máximo"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "高倉健",
+        "furigana": "たかくらけん",
+        "descripcion": "actor icónico del cine japonés (Poppoya, Yellow Handkerchief), 1931-2014"
+      }
+    ],
+    "relacionadosCon": [
+      "京"
+    ]
+  },
+  {
+    "caracter": "週",
+    "nivel": "n5",
+    "significado": "semana",
+    "onyomi": "しゅう",
+    "kunyomi": null,
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "週",
+        "furigana": "しゅう",
+        "traduccion": "semana"
+      },
+      {
+        "palabra": "今週",
+        "furigana": "こんしゅう",
+        "traduccion": "esta semana"
+      },
+      {
+        "palabra": "週末",
+        "furigana": "しゅうまつ",
+        "traduccion": "fin de semana"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "週刊文春",
+        "furigana": "しゅうかんぶんしゅん",
+        "descripcion": "semanario de Bungeishunjū conocido por sus exclusivas de escándalos (bunshun-hō)"
+      }
+    ],
+    "relacionadosCon": [
+      "周",
+      "通"
+    ]
+  },
+  {
+    "caracter": "魚",
+    "nivel": "n5",
+    "significado": "pez",
+    "onyomi": "ぎょ",
+    "kunyomi": "うお、さかな、-ざかな",
+    "numeroTrazos": 11,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "魚",
+        "furigana": "さかな",
+        "traduccion": "pescado / pez"
+      },
+      {
+        "palabra": "金魚",
+        "furigana": "きんぎょ",
+        "traduccion": "pez dorado / carassius"
+      },
+      {
+        "palabra": "人魚",
+        "furigana": "にんぎょ",
+        "traduccion": "sirena"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "金魚屋古書店",
+        "furigana": "きんぎょやこしょてん",
+        "descripcion": "manga de Seimu Yoshizaki sobre una librería de segunda mano especializada en manga"
+      }
+    ],
+    "relacionadosCon": [
+      "漁",
+      "鳥",
+      "黒"
+    ]
+  },
+  {
+    "caracter": "買",
+    "nivel": "n5",
+    "significado": "comprar",
+    "onyomi": "ばい",
+    "kunyomi": "か.う",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "買う",
+        "furigana": "かう",
+        "traduccion": "comprar"
+      },
+      {
+        "palabra": "買い物",
+        "furigana": "かいもの",
+        "traduccion": "compras"
+      },
+      {
+        "palabra": "売買",
+        "furigana": "ばいばい",
+        "traduccion": "compraventa"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "買物ブギ",
+        "furigana": "かいものブギ",
+        "descripcion": "canción cómica de 1950 de Shizuko Kasagi, gran éxito de la posguerra japonesa"
+      }
+    ],
+    "relacionadosCon": [
+      "売"
+    ]
+  },
+  {
+    "caracter": "道",
+    "nivel": "n5",
+    "significado": "camino",
+    "onyomi": "どう、とう",
+    "kunyomi": "みち、いう",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "道",
+        "furigana": "みち",
+        "traduccion": "camino"
+      },
+      {
+        "palabra": "道路",
+        "furigana": "どうろ",
+        "traduccion": "carretera / vía"
+      },
+      {
+        "palabra": "北海道",
+        "furigana": "ほっかいどう",
+        "traduccion": "Hokkaidō"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "道元",
+        "furigana": "どうげん",
+        "descripcion": "monje zen (1200-1253), fundador de la escuela Sōtō en Japón, autor del Shōbōgenzō"
+      }
+    ],
+    "relacionadosCon": [
+      "首"
+    ]
+  },
+  {
+    "caracter": "間",
+    "nivel": "n5",
+    "significado": "intervalo / entre",
+    "onyomi": "かん、けん",
+    "kunyomi": "あいだ、ま、あい",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "間",
+        "furigana": "あいだ",
+        "traduccion": "entre / intervalo"
+      },
+      {
+        "palabra": "時間",
+        "furigana": "じかん",
+        "traduccion": "tiempo / hora"
+      },
+      {
+        "palabra": "人間",
+        "furigana": "にんげん",
+        "traduccion": "ser humano"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "間宮林蔵",
+        "furigana": "まみやりんぞう",
+        "descripcion": "explorador del Edo tardío (1780-1844), demostró que Sajalín es una isla"
+      }
+    ],
+    "relacionadosCon": [
+      "問",
+      "聞",
+      "門",
+      "開"
+    ]
+  },
+  {
+    "caracter": "飲",
+    "nivel": "n5",
+    "significado": "beber",
+    "onyomi": "いん、おん",
+    "kunyomi": "の.む、-の.み",
+    "numeroTrazos": 12,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "飲む",
+        "furigana": "のむ",
+        "traduccion": "beber"
+      },
+      {
+        "palabra": "飲み物",
+        "furigana": "のみもの",
+        "traduccion": "bebida"
+      },
+      {
+        "palabra": "飲料",
+        "furigana": "いんりょう",
+        "traduccion": "bebida (formal)"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "飲茶",
+        "furigana": "やむちゃ",
+        "descripcion": "Yamcha, bandido del desierto y luego aliado de Goku en Dragon Ball"
+      }
+    ],
+    "relacionadosCon": [
+      "飯"
+    ]
+  },
+  {
+    "caracter": "新",
+    "nivel": "n5",
+    "significado": "nuevo",
+    "onyomi": "しん",
+    "kunyomi": "あたら.しい、あら.た、あら-、にい-",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "新しい",
+        "furigana": "あたらしい",
+        "traduccion": "nuevo"
+      },
+      {
+        "palabra": "新聞",
+        "furigana": "しんぶん",
+        "traduccion": "periódico"
+      },
+      {
+        "palabra": "新幹線",
+        "furigana": "しんかんせん",
+        "traduccion": "tren bala"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "新世紀エヴァンゲリオン",
+        "furigana": "しんせいきエヴァンゲリオン",
+        "descripcion": "anime de Hideaki Anno (1995-1996), obra icónica del estudio Gainax"
+      }
+    ],
+    "relacionadosCon": [
+      "親"
+    ]
+  },
+  {
+    "caracter": "話",
+    "nivel": "n5",
+    "significado": "hablar / historia",
+    "onyomi": "わ",
+    "kunyomi": "はな.す、はなし",
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "話す",
+        "furigana": "はなす",
+        "traduccion": "hablar"
+      },
+      {
+        "palabra": "電話",
+        "furigana": "でんわ",
+        "traduccion": "teléfono"
+      },
+      {
+        "palabra": "会話",
+        "furigana": "かいわ",
+        "traduccion": "conversación"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "まんが日本昔話",
+        "furigana": "まんがにっぽんむかしばなし",
+        "descripcion": "serie anime de cuentos folclóricos (1975-1994) narrada por Ichirō Nagai y Etsuko Ichihara"
+      }
+    ],
+    "relacionadosCon": [
+      "活",
+      "語"
+    ]
+  },
+  {
+    "caracter": "電",
+    "nivel": "n5",
+    "significado": "electricidad",
+    "onyomi": "でん",
+    "kunyomi": null,
+    "numeroTrazos": 13,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "電気",
+        "furigana": "でんき",
+        "traduccion": "electricidad / luz"
+      },
+      {
+        "palabra": "電車",
+        "furigana": "でんしゃ",
+        "traduccion": "tren"
+      },
+      {
+        "palabra": "電話",
+        "furigana": "でんわ",
+        "traduccion": "teléfono"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "電車男",
+        "furigana": "でんしゃおとこ",
+        "descripcion": "novela basada en un hilo de 2ch (2004) sobre un otaku y una oficinista, múltiples adaptaciones"
+      }
+    ],
+    "relacionadosCon": [
+      "雨",
+      "雪"
+    ]
+  },
+  {
+    "caracter": "聞",
+    "nivel": "n5",
+    "significado": "escuchar / preguntar",
+    "onyomi": "ぶん、もん",
+    "kunyomi": "き.く、き.こえる",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "聞く",
+        "furigana": "きく",
+        "traduccion": "escuchar / preguntar"
+      },
+      {
+        "palabra": "新聞",
+        "furigana": "しんぶん",
+        "traduccion": "periódico"
+      },
+      {
+        "palabra": "聞き手",
+        "furigana": "ききて",
+        "traduccion": "oyente / interlocutor"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "新聞記者",
+        "furigana": "しんぶんきしゃ",
+        "descripcion": "film de Michihito Fujii (2019) sobre corrupción política, ganador del Japan Academy Prize"
+      }
+    ],
+    "relacionadosCon": [
+      "問",
+      "間"
+    ]
+  },
+  {
+    "caracter": "語",
+    "nivel": "n5",
+    "significado": "idioma / palabra",
+    "onyomi": "ご",
+    "kunyomi": "かた.る、かた.らう",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "日本語",
+        "furigana": "にほんご",
+        "traduccion": "idioma japonés"
+      },
+      {
+        "palabra": "英語",
+        "furigana": "えいご",
+        "traduccion": "idioma inglés"
+      },
+      {
+        "palabra": "単語",
+        "furigana": "たんご",
+        "traduccion": "vocablo / palabra suelta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "源氏物語",
+        "furigana": "げんじものがたり",
+        "descripcion": "novela de Murasaki Shikibu (~1010), considerada la primera novela psicológica del mundo"
+      }
+    ],
+    "relacionadosCon": [
+      "話"
+    ]
+  },
+  {
+    "caracter": "読",
+    "nivel": "n5",
+    "significado": "leer",
+    "onyomi": "どく、とく、とう",
+    "kunyomi": "よ.む、-よ.み",
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 2,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "読む",
+        "furigana": "よむ",
+        "traduccion": "leer"
+      },
+      {
+        "palabra": "読書",
+        "furigana": "どくしょ",
+        "traduccion": "lectura"
+      },
+      {
+        "palabra": "音読",
+        "furigana": "おんどく",
+        "traduccion": "lectura en voz alta"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "読売新聞",
+        "furigana": "よみうりしんぶん",
+        "descripcion": "periódico Yomiuri, el diario de mayor tirada del mundo"
+      }
+    ],
+    "relacionadosCon": [
+      "売",
+      "続"
+    ]
+  },
+  {
+    "caracter": "駅",
+    "nivel": "n5",
+    "significado": "estación",
+    "onyomi": "えき",
+    "kunyomi": null,
+    "numeroTrazos": 14,
+    "anioEscolarJapon": 3,
+    "radicales": null,
+    "fraseMnemotecnica": null,
+    "urlImagenMnemotecnica": null,
+    "destacado": false,
+    "palabras": [
+      {
+        "palabra": "駅",
+        "furigana": "えき",
+        "traduccion": "estación"
+      },
+      {
+        "palabra": "駅員",
+        "furigana": "えきいん",
+        "traduccion": "personal de estación"
+      },
+      {
+        "palabra": "東京駅",
+        "furigana": "とうきょうえき",
+        "traduccion": "estación de Tokio"
+      }
+    ],
+    "personas": [
+      {
+        "nombre": "駅前シリーズ",
+        "furigana": "えきまえシリーズ",
+        "descripcion": "saga de comedias Ekimae (1958-1969) con Hisaya Morishige, Frankie Sakai y Keiju Kobayashi"
+      }
+    ],
+    "relacionadosCon": [
+      "験"
+    ]
+  }
+]
