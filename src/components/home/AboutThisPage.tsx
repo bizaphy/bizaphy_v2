@@ -6,7 +6,7 @@
 import { useState } from "react";
 
 type Tech = { name: string; channel: string };
-type Swatch = { label: string; value: string; level: number }; //level 0-100 para el "medidor" de la paleta
+type Swatch = { label: string; value: string; level: number; borde?: boolean }; //level 0-100 para el "medidor" de la paleta; borde: para colores iguales al fondo
 
 const TECHS: Tech[] = [
   { name: "Next.js", channel: "CH-01" },
@@ -16,11 +16,12 @@ const TECHS: Tech[] = [
   { name: "Drizzle ORM", channel: "CH-05" },
 ];
 
-//paleta expresada como niveles para dibujar barras estilo ecualizador
+//paleta expresada como niveles para dibujar barras estilo ecualizador, de mayor a menor
 const PALETTE: Swatch[] = [
   { label: "fuchsia-500", value: "#d946ef", level: 92 },
+  { label: "zinc-950", value: "#09090b", level: 88, borde: true }, //mismo color que el fondo del panel
   { label: "fuchsia-400", value: "#e879f9", level: 78 },
-  { label: "zinc-950", value: "#09090b", level: 88 },
+  { label: "violet-300", value: "#c4b5fd", level: 65 },
   { label: "zinc-500", value: "#71717a", level: 55 },
   { label: "zinc-300", value: "#d4d4d8", level: 40 },
   { label: "green-400", value: "#4ade80", level: 30 },
@@ -117,7 +118,7 @@ export default function AboutThisPage() {
                   className="flex flex-1 flex-col justify-end"
                 >
                   <div
-                    className="w-full rounded-sm"
+                    className={`w-full rounded-sm ${c.borde ? "border border-zinc-700" : ""}`}
                     style={{
                       height: `${c.level}%`,
                       backgroundColor: c.value,
