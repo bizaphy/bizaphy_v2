@@ -30,7 +30,7 @@ export default function KanjiPersonaFamosa({ personas = [] }: Props) {
   return (
     <div className="flex flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
       <div className="flex items-center justify-between border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
-        PERSONA FAMOSA
+        CELEBRIDAD / SERIE
         {conFlechas && (
           <span className="text-zinc-500">
             {indice + 1}/{total}
@@ -48,7 +48,7 @@ export default function KanjiPersonaFamosa({ personas = [] }: Props) {
                 label="Persona anterior"
               />
             )}
-            <div className="relative size-24 shrink-0 overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40 lg:size-28">
+            <div className="relative size-36 shrink-0 overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40 lg:size-44">
               {persona.urlImagen ? (
                 <Image
                   src={persona.urlImagen}
@@ -78,17 +78,17 @@ export default function KanjiPersonaFamosa({ personas = [] }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               title={`Buscar ${persona.nombre} en Google`}
-              className="w-fit font-mono text-sm text-fuchsia-200 underline decoration-fuchsia-500/40 underline-offset-4 transition hover:text-white hover:decoration-fuchsia-300 lg:text-base"
+              className="w-fit font-mono text-base text-fuchsia-200 underline decoration-fuchsia-500/40 underline-offset-4 transition hover:text-white hover:decoration-fuchsia-300 lg:text-lg"
             >
               {persona.nombre}
             </a>
             {persona.furigana && (
-              <span className="font-mono text-xs text-fuchsia-300/80">
+              <span className="font-mono text-sm text-fuchsia-300/80">
                 {persona.furigana}
               </span>
             )}
             {persona.descripcion && (
-              <span className="line-clamp-3 text-xs leading-snug text-zinc-400">
+              <span className="line-clamp-3 text-sm leading-snug text-zinc-400">
                 {persona.descripcion}
               </span>
             )}
@@ -117,15 +117,17 @@ function BotonFlecha({
       type="button"
       onClick={onClick}
       aria-label={label}
-      className="flex size-8 items-center justify-center rounded-full border border-fuchsia-500/40 text-fuchsia-300 transition hover:bg-fuchsia-500 hover:text-black"
+      // sin borde ni fondo: solo la flecha. p-1 mantiene un area de click
+      // comoda aunque no se vea el boton.
+      className="p-1 text-fuchsia-300 transition hover:scale-110 hover:text-fuchsia-100"
     >
       <svg
-        width="16"
-        height="16"
+        width="24"
+        height="24"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        strokeWidth="2"
+        strokeWidth="2.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       >
