@@ -144,7 +144,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           />
           <div className="flex flex-wrap items-start gap-2">
             <KanjiDisplayImgs
-              urlOrdenTrazos={seleccionado.urlOrdenTrazos}
+              caracter={seleccionado.caracter}
               radicales={seleccionado.radicales}
             />
             <KanjiHelpReferences

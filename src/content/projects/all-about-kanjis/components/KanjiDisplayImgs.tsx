@@ -1,15 +1,15 @@
 import { memo } from "react";
-import KanjiImageZoom from "./KanjiImageZoom";
+import KanjiStrokeOrder from "./KanjiStrokeOrder";
 
 type Props = {
-  urlOrdenTrazos?: string | null;
+  caracter: string;
   radicales?: string | null;
 };
 
-// memo evita re-render cuando las URLs no cambian (caso comun: kanjis sin
-// imagenes cargadas en la BDD). Sin re-render el navegador no repinta el
-// bloque, y la etiqueta vertical "ORDEN DE TRAZOS" no parpadea.
-function KanjiDisplayImgs({ urlOrdenTrazos, radicales }: Props) {
+// memo evita re-render cuando las props no cambian. Sin re-render el
+// navegador no repinta el bloque, y la etiqueta vertical "ORDEN DE TRAZOS"
+// no parpadea.
+function KanjiDisplayImgs({ caracter, radicales }: Props) {
   // Radicales llegan como texto separado por "、" (misma convencion que
   // onyomi/kunyomi). Filtramos strings vacios por si acaso.
   const listaRadicales =
@@ -23,29 +23,7 @@ function KanjiDisplayImgs({ urlOrdenTrazos, radicales }: Props) {
     // se dispare aca queda contenido, y cualquier repaint de afuera (tooltip
     // de una card, cambio de seleccionado) tampoco alcanza al label vertical.
     <section className="flex flex-wrap items-stretch gap-4 p-4 [contain:paint]">
-      <div className="flex overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
-        <div className="flex items-center justify-center border-r border-zinc-700 px-2">
-          <span className="rotate-180 font-mono text-xs tracking-widest text-fuchsia-300 [writing-mode:vertical-rl]">
-            ORDEN DE TRAZOS
-          </span>
-        </div>
-        <div className="p-3">
-          <div className="flex items-center justify-center overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40">
-            {urlOrdenTrazos ? (
-              <KanjiImageZoom
-                src={urlOrdenTrazos}
-                alt="Orden de trazos del kanji"
-              />
-            ) : (
-              <div className="flex size-72 items-center justify-center lg:size-80">
-                <span className="font-mono text-[10px] tracking-wider text-zinc-600">
-                  sin imagen
-                </span>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
+      <KanjiStrokeOrder caracter={caracter} />
 
       {/* RADICALES: label arriba (no lateral) y sin borde/shadow fuchsia,
           solo fondo gris, para no sobresaturar el estilo del bloque vecino. */}

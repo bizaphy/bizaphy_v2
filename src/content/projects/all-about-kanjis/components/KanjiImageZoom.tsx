@@ -7,13 +7,28 @@ import Image from "next/image";
 type Props = {
   src: string;
   alt: string;
+  // clases extra para ambas imagenes (miniatura y ampliada), p. ej. "invert"
+  // para SVG con trazos negros sobre fondo transparente.
+  imgClassName?: string;
+  // se dispara si la miniatura no carga (p. ej. SVG inexistente)
+  onError?: () => void;
+  // true para SVG: su tamaño intrinseco es chico (KanjiVG = 109px), asi que
+  // en el lightbox se fuerza al maximo que entra en pantalla en vez de
+  // respetar el tamaño natural (que es lo correcto para fotos/raster).
+  vectorial?: boolean;
 };
 
 // Miniatura clickeable que abre un lightbox a pantalla completa con la
 // imagen ampliada. Usa portal a document.body para no verse afectado por
 // z-index / overflow del contenedor padre. Cierre por ESC, click en el
 // backdrop o boton X.
-export default function KanjiImageZoom({ src, alt }: Props) {
+export default function KanjiImageZoom({
+  src,
+  alt,
+  imgClassName = "",
+  onError,
+  vectorial = false,
+}: Props) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -48,7 +63,8 @@ export default function KanjiImageZoom({ src, alt }: Props) {
           width={0}
           height={0}
           sizes="288px"
-          className="block h-72 w-auto"
+          onError={onError}
+          className={`block h-72 w-auto ${imgClassName}`}
           unoptimized
         />
       </button>
@@ -91,7 +107,11 @@ export default function KanjiImageZoom({ src, alt }: Props) {
               height={0}
               sizes="90vw"
               onClick={(e) => e.stopPropagation()}
-              className="h-auto max-h-[90vh] w-auto max-w-[90vw] cursor-default object-contain"
+              className={`${
+                vectorial
+                  ? "size-[min(85vh,90vw)]"
+                  : "h-auto max-h-[90vh] w-auto max-w-[90vw]"
+              } cursor-default object-contain ${imgClassName}`}
               unoptimized
             />
           </div>,

@@ -55,7 +55,6 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       kunyomi: true,
       numeroTrazos: true,
       anioEscolarJapon: true,
-      urlOrdenTrazos: true,
       urlImagenMnemotecnica: true,
       fraseMnemotecnica: true,
       radicales: true,
