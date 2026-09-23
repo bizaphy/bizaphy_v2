@@ -75,7 +75,9 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["十"]
+    "relacionadosCon": [
+      "十"
+    ]
   },
   {
     "caracter": "九",
@@ -114,7 +116,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["力"]
+    "relacionadosCon": [
+      "力"
+    ]
   },
   {
     "caracter": "二",
@@ -153,7 +157,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["三"]
+    "relacionadosCon": [
+      "三"
+    ]
   },
   {
     "caracter": "人",
@@ -192,7 +198,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["入", "八"]
+    "relacionadosCon": [
+      "入",
+      "八"
+    ]
   },
   {
     "caracter": "入",
@@ -231,7 +240,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["人", "八"]
+    "relacionadosCon": [
+      "人",
+      "八"
+    ]
   },
   {
     "caracter": "八",
@@ -270,7 +282,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["人", "入"]
+    "relacionadosCon": [
+      "人",
+      "入"
+    ]
   },
   {
     "caracter": "十",
@@ -309,7 +324,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["七", "千"]
+    "relacionadosCon": [
+      "七",
+      "千"
+    ]
   },
   {
     "caracter": "万",
@@ -348,7 +366,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["方"]
+    "relacionadosCon": [
+      "方"
+    ]
   },
   {
     "caracter": "三",
@@ -387,7 +407,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["二", "川"]
+    "relacionadosCon": [
+      "二",
+      "川"
+    ]
   },
   {
     "caracter": "上",
@@ -426,7 +449,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["下", "止"]
+    "relacionadosCon": [
+      "下",
+      "止"
+    ]
   },
   {
     "caracter": "下",
@@ -465,7 +491,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["上", "不"]
+    "relacionadosCon": [
+      "上",
+      "不"
+    ]
   },
   {
     "caracter": "千",
@@ -504,7 +533,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["十", "午"]
+    "relacionadosCon": [
+      "十",
+      "午"
+    ]
   },
   {
     "caracter": "口",
@@ -543,7 +575,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["回"]
+    "relacionadosCon": [
+      "回"
+    ]
   },
   {
     "caracter": "土",
@@ -582,7 +616,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["士", "工"]
+    "relacionadosCon": [
+      "士",
+      "工"
+    ]
   },
   {
     "caracter": "大",
@@ -621,7 +658,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["天", "太", "犬"]
+    "relacionadosCon": [
+      "天",
+      "太",
+      "犬"
+    ]
   },
   {
     "caracter": "女",
@@ -660,7 +701,9 @@
         "tipo": "juego"
       }
     ],
-    "relacionadosCon": ["母"]
+    "relacionadosCon": [
+      "母"
+    ]
   },
   {
     "caracter": "子",
@@ -699,7 +742,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["予", "字"]
+    "relacionadosCon": [
+      "予",
+      "字"
+    ]
   },
   {
     "caracter": "小",
@@ -738,7 +784,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["少"]
+    "relacionadosCon": [
+      "少"
+    ]
   },
   {
     "caracter": "山",
@@ -777,7 +825,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["出"]
+    "relacionadosCon": [
+      "出"
+    ]
   },
   {
     "caracter": "川",
@@ -816,7 +866,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["三", "州"]
+    "relacionadosCon": [
+      "三",
+      "州"
+    ]
   },
   {
     "caracter": "中",
@@ -855,7 +908,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["虫"]
+    "relacionadosCon": [
+      "虫"
+    ]
   },
   {
     "caracter": "五",
@@ -933,7 +988,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["令", "会", "念"]
+    "relacionadosCon": [
+      "令",
+      "会",
+      "念"
+    ]
   },
   {
     "caracter": "六",
@@ -1011,7 +1070,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["内"]
+    "relacionadosCon": [
+      "内"
+    ]
   },
   {
     "caracter": "分",
@@ -1050,7 +1111,10 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["公", "切"]
+    "relacionadosCon": [
+      "公",
+      "切"
+    ]
   },
   {
     "caracter": "午",
@@ -1089,7 +1153,11 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["千", "年", "牛"]
+    "relacionadosCon": [
+      "千",
+      "年",
+      "牛"
+    ]
   },
   {
     "caracter": "友",
@@ -1128,7 +1196,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["反", "右", "有"]
+    "relacionadosCon": [
+      "反",
+      "右",
+      "有"
+    ]
   },
   {
     "caracter": "天",
@@ -1167,7 +1239,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["大", "夫"]
+    "relacionadosCon": [
+      "大",
+      "夫"
+    ]
   },
   {
     "caracter": "少",
@@ -1206,7 +1281,9 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": ["小"]
+    "relacionadosCon": [
+      "小"
+    ]
   },
   {
     "caracter": "手",
@@ -1245,7 +1322,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["毛"]
+    "relacionadosCon": [
+      "毛"
+    ]
   },
   {
     "caracter": "日",
@@ -1284,7 +1363,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["目"]
+    "relacionadosCon": [
+      "目"
+    ]
   },
   {
     "caracter": "月",
@@ -1323,7 +1404,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["用"]
+    "relacionadosCon": [
+      "用"
+    ]
   },
   {
     "caracter": "木",
@@ -1362,7 +1445,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["未", "本"]
+    "relacionadosCon": [
+      "未",
+      "本"
+    ]
   },
   {
     "caracter": "水",
@@ -1401,7 +1487,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["氷", "求"]
+    "relacionadosCon": [
+      "氷",
+      "求"
+    ]
   },
   {
     "caracter": "火",
@@ -1479,7 +1568,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["文"]
+    "relacionadosCon": [
+      "文"
+    ]
   },
   {
     "caracter": "出",
@@ -1518,7 +1609,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["山"]
+    "relacionadosCon": [
+      "山"
+    ]
   },
   {
     "caracter": "北",
@@ -1557,7 +1650,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["兆", "化"]
+    "relacionadosCon": [
+      "兆",
+      "化"
+    ]
   },
   {
     "caracter": "半",
@@ -1596,7 +1692,9 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": ["平"]
+    "relacionadosCon": [
+      "平"
+    ]
   },
   {
     "caracter": "古",
@@ -1635,7 +1733,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["右", "固", "早"]
+    "relacionadosCon": [
+      "右",
+      "固",
+      "早"
+    ]
   },
   {
     "caracter": "右",
@@ -1674,7 +1776,13 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": ["友", "古", "左", "有", "石"]
+    "relacionadosCon": [
+      "友",
+      "古",
+      "左",
+      "有",
+      "石"
+    ]
   },
   {
     "caracter": "四",
@@ -1713,7 +1821,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["西"]
+    "relacionadosCon": [
+      "西"
+    ]
   },
   {
     "caracter": "外",
@@ -1791,7 +1901,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["右"]
+    "relacionadosCon": [
+      "右"
+    ]
   },
   {
     "caracter": "未",
@@ -1830,7 +1942,12 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["味", "木", "末", "本"]
+    "relacionadosCon": [
+      "味",
+      "木",
+      "末",
+      "本"
+    ]
   },
   {
     "caracter": "本",
@@ -1869,7 +1986,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["木", "未", "末"]
+    "relacionadosCon": [
+      "木",
+      "未",
+      "末"
+    ]
   },
   {
     "caracter": "母",
@@ -1908,7 +2029,10 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["女", "毎"]
+    "relacionadosCon": [
+      "女",
+      "毎"
+    ]
   },
   {
     "caracter": "生",
@@ -1947,7 +2071,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["主", "先"]
+    "relacionadosCon": [
+      "主",
+      "先"
+    ]
   },
   {
     "caracter": "白",
@@ -1986,7 +2113,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["百", "自"]
+    "relacionadosCon": [
+      "百",
+      "自"
+    ]
   },
   {
     "caracter": "目",
@@ -2025,7 +2155,11 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["日", "耳", "自"]
+    "relacionadosCon": [
+      "日",
+      "耳",
+      "自"
+    ]
   },
   {
     "caracter": "立",
@@ -2103,7 +2237,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["体"]
+    "relacionadosCon": [
+      "体"
+    ]
   },
   {
     "caracter": "会",
@@ -2142,7 +2278,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["今", "合"]
+    "relacionadosCon": [
+      "今",
+      "合"
+    ]
   },
   {
     "caracter": "先",
@@ -2181,7 +2320,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["光", "生"]
+    "relacionadosCon": [
+      "光",
+      "生"
+    ]
   },
   {
     "caracter": "名",
@@ -2220,7 +2362,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["各"]
+    "relacionadosCon": [
+      "各"
+    ]
   },
   {
     "caracter": "多",
@@ -2259,7 +2403,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["夕"]
+    "relacionadosCon": [
+      "夕"
+    ]
   },
   {
     "caracter": "安",
@@ -2298,7 +2444,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["字", "案"]
+    "relacionadosCon": [
+      "字",
+      "案"
+    ]
   },
   {
     "caracter": "年",
@@ -2337,7 +2486,9 @@
         "tipo": "dorama"
       }
     ],
-    "relacionadosCon": ["午"]
+    "relacionadosCon": [
+      "午"
+    ]
   },
   {
     "caracter": "毎",
@@ -2376,7 +2527,11 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["母", "毒", "海"]
+    "relacionadosCon": [
+      "母",
+      "毒",
+      "海"
+    ]
   },
   {
     "caracter": "気",
@@ -2415,7 +2570,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["汽"]
+    "relacionadosCon": [
+      "汽"
+    ]
   },
   {
     "caracter": "百",
@@ -2454,7 +2611,9 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["白"]
+    "relacionadosCon": [
+      "白"
+    ]
   },
   {
     "caracter": "耳",
@@ -2493,7 +2652,9 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["目"]
+    "relacionadosCon": [
+      "目"
+    ]
   },
   {
     "caracter": "行",
@@ -2565,19 +2726,21 @@
     ],
     "nombres": [
       {
-        "nombre": "西田敏行",
-        "furigana": "にしだとしゆき",
-        "descripcion": "actor icónico (Tsuribaka Nisshi, Amagi Goe), fallecido en 2024",
-        "tipo": "persona"
-      },
-      {
         "nombre": "西宮硝子",
         "furigana": "にしみやしょうこ",
         "descripcion": "protagonista de Koe no Katachi (A Silent Voice)",
         "tipo": "personaje"
+      },
+      {
+        "nombre": "西田敏行",
+        "furigana": "にしだとしゆき",
+        "descripcion": "actor icónico (Tsuribaka Nisshi, Amagi Goe), fallecido en 2024",
+        "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["四"]
+    "relacionadosCon": [
+      "四"
+    ]
   },
   {
     "caracter": "何",
@@ -2616,7 +2779,9 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["荷"]
+    "relacionadosCon": [
+      "荷"
+    ]
   },
   {
     "caracter": "男",
@@ -2655,7 +2820,9 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["田"]
+    "relacionadosCon": [
+      "田"
+    ]
   },
   {
     "caracter": "社",
@@ -2733,7 +2900,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["化"]
+    "relacionadosCon": [
+      "化"
+    ]
   },
   {
     "caracter": "見",
@@ -2772,7 +2941,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["兄", "貝"]
+    "relacionadosCon": [
+      "兄",
+      "貝"
+    ]
   },
   {
     "caracter": "言",
@@ -2811,7 +2983,9 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["音"]
+    "relacionadosCon": [
+      "音"
+    ]
   },
   {
     "caracter": "足",
@@ -2850,7 +3024,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["走"]
+    "relacionadosCon": [
+      "走"
+    ]
   },
   {
     "caracter": "車",
@@ -2889,7 +3065,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["東", "軍"]
+    "relacionadosCon": [
+      "東",
+      "軍"
+    ]
   },
   {
     "caracter": "国",
@@ -2928,7 +3107,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["囲", "図"]
+    "relacionadosCon": [
+      "囲",
+      "図"
+    ]
   },
   {
     "caracter": "学",
@@ -2967,7 +3149,11 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["字", "挙", "覚"]
+    "relacionadosCon": [
+      "字",
+      "挙",
+      "覚"
+    ]
   },
   {
     "caracter": "店",
@@ -3006,7 +3192,10 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": ["広", "点"]
+    "relacionadosCon": [
+      "広",
+      "点"
+    ]
   },
   {
     "caracter": "東",
@@ -3045,7 +3234,10 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["束", "車"]
+    "relacionadosCon": [
+      "束",
+      "車"
+    ]
   },
   {
     "caracter": "空",
@@ -3084,7 +3276,9 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["究"]
+    "relacionadosCon": [
+      "究"
+    ]
   },
   {
     "caracter": "金",
@@ -3123,7 +3317,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["全"]
+    "relacionadosCon": [
+      "全"
+    ]
   },
   {
     "caracter": "長",
@@ -3162,7 +3358,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["帳"]
+    "relacionadosCon": [
+      "帳"
+    ]
   },
   {
     "caracter": "雨",
@@ -3201,7 +3399,9 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["電"]
+    "relacionadosCon": [
+      "電"
+    ]
   },
   {
     "caracter": "前",
@@ -3357,7 +3557,9 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["良"]
+    "relacionadosCon": [
+      "良"
+    ]
   },
   {
     "caracter": "時",
@@ -3396,7 +3598,10 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["持", "詩"]
+    "relacionadosCon": [
+      "持",
+      "詩"
+    ]
   },
   {
     "caracter": "書",
@@ -3435,7 +3640,10 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["昼", "筆"]
+    "relacionadosCon": [
+      "昼",
+      "筆"
+    ]
   },
   {
     "caracter": "校",
@@ -3513,7 +3721,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["京"]
+    "relacionadosCon": [
+      "京"
+    ]
   },
   {
     "caracter": "週",
@@ -3552,7 +3762,10 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": ["周", "通"]
+    "relacionadosCon": [
+      "周",
+      "通"
+    ]
   },
   {
     "caracter": "魚",
@@ -3591,7 +3804,11 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": ["漁", "鳥", "黒"]
+    "relacionadosCon": [
+      "漁",
+      "鳥",
+      "黒"
+    ]
   },
   {
     "caracter": "買",
@@ -3630,7 +3847,9 @@
         "tipo": "musica"
       }
     ],
-    "relacionadosCon": ["売"]
+    "relacionadosCon": [
+      "売"
+    ]
   },
   {
     "caracter": "道",
@@ -3669,7 +3888,9 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["首"]
+    "relacionadosCon": [
+      "首"
+    ]
   },
   {
     "caracter": "間",
@@ -3708,7 +3929,12 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": ["問", "聞", "門", "開"]
+    "relacionadosCon": [
+      "問",
+      "聞",
+      "門",
+      "開"
+    ]
   },
   {
     "caracter": "飲",
@@ -3747,7 +3973,9 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": ["飯"]
+    "relacionadosCon": [
+      "飯"
+    ]
   },
   {
     "caracter": "新",
@@ -3786,7 +4014,9 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["親"]
+    "relacionadosCon": [
+      "親"
+    ]
   },
   {
     "caracter": "話",
@@ -3825,7 +4055,10 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": ["活", "語"]
+    "relacionadosCon": [
+      "活",
+      "語"
+    ]
   },
   {
     "caracter": "電",
@@ -3864,7 +4097,10 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["雨", "雪"]
+    "relacionadosCon": [
+      "雨",
+      "雪"
+    ]
   },
   {
     "caracter": "聞",
@@ -3903,7 +4139,10 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["問", "間"]
+    "relacionadosCon": [
+      "問",
+      "間"
+    ]
   },
   {
     "caracter": "語",
@@ -3942,7 +4181,9 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": ["話"]
+    "relacionadosCon": [
+      "話"
+    ]
   },
   {
     "caracter": "読",
@@ -3981,7 +4222,10 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": ["売", "続"]
+    "relacionadosCon": [
+      "売",
+      "続"
+    ]
   },
   {
     "caracter": "駅",
@@ -4020,6 +4264,8 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": ["験"]
+    "relacionadosCon": [
+      "験"
+    ]
   }
 ]
