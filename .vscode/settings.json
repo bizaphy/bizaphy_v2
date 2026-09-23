@@ -17,5 +17,6 @@
   },
   "hidefiles.configurationType": "global",
   "hidefiles.selectedProfile": "Strict",
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "js/ts.tsdk.path": "node_modules\\typescript\\lib"
 }
