@@ -80,7 +80,9 @@ function leerJson(nivel: Nivel): SeedKanji[] {
       errores.push(`"${k.caracter}" no es un solo caracter`);
     }
     if (k.nivel !== nivel) {
-      errores.push(`${k.caracter} tiene nivel ${k.nivel} dentro de ${nivel}.json`);
+      errores.push(
+        `${k.caracter} tiene nivel ${k.nivel} dentro de ${nivel}.json`,
+      );
     }
     if (vistos.has(k.caracter)) errores.push(`${k.caracter} está repetido`);
 
@@ -131,24 +133,32 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
 
     if (!nuevo) {
       // Kanji del nivel que no esta en el JSON: el seed no lo toca.
-      avisos.push(`${actual.caracter} está en la BDD pero no en el JSON (no se modifica)`);
+      avisos.push(
+        `${actual.caracter} está en la BDD pero no en el JSON (no se modifica)`,
+      );
       continue;
     }
 
     if (actual.nivel !== nivel) {
-      perdidas.push(`${actual.caracter}: en la BDD es ${actual.nivel}, el JSON lo pasaría a ${nivel}`);
+      perdidas.push(
+        `${actual.caracter}: en la BDD es ${actual.nivel}, el JSON lo pasaría a ${nivel}`,
+      );
     }
 
     for (const { nombre } of COLUMNAS_PROTEGIDAS) {
       if (actual[nombre] !== null && nuevo[nombre] === null) {
-        perdidas.push(`${actual.caracter}: ${nombre} "${actual[nombre]}" quedaría vacío`);
+        perdidas.push(
+          `${actual.caracter}: ${nombre} "${actual[nombre]}" quedaría vacío`,
+        );
       }
     }
 
     const palabrasJson = new Set(nuevo.palabras.map((p) => p.palabra));
     for (const p of actual.palabras) {
       if (!palabrasJson.has(p.palabra)) {
-        perdidas.push(`${actual.caracter}: se borraría la palabra ${p.palabra}`);
+        perdidas.push(
+          `${actual.caracter}: se borraría la palabra ${p.palabra}`,
+        );
       }
     }
 
@@ -158,18 +168,28 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
       if (!enJson) {
         perdidas.push(`${actual.caracter}: se borraría el nombre ${p.nombre}`);
       } else if (p.furigana !== null && enJson.furigana === null) {
-        perdidas.push(`${actual.caracter}: se borraría el furigana de ${p.nombre} (${p.furigana})`);
+        perdidas.push(
+          `${actual.caracter}: se borraría el furigana de ${p.nombre} (${p.furigana})`,
+        );
       }
     }
   }
 
-  return { perdidas, avisos, existentes: new Set(enBdd.map((k) => k.caracter)) };
+  return {
+    perdidas,
+    avisos,
+    existentes: new Set(enBdd.map((k) => k.caracter)),
+  };
 }
 
 async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
   console.log(`\n── ${nivel} ──`);
   const dataset = leerJson(nivel);
-  const { perdidas, avisos, existentes } = await buscarPerdidas(db, nivel, dataset);
+  const { perdidas, avisos, existentes } = await buscarPerdidas(
+    db,
+    nivel,
+    dataset,
+  );
 
   avisos.forEach((a) => console.warn(`⚠ ${a}`));
   if (perdidas.length > 0) {
@@ -213,13 +233,17 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
 
     // 2. Palabras y nombres: no hay unique natural, asi que se reemplazan.
     //    buscarPerdidas ya garantizo que no se pierde nada.
-    await tx.delete(palabrasFamosas).where(inArray(palabrasFamosas.kanjiId, idsNivel));
+    await tx
+      .delete(palabrasFamosas)
+      .where(inArray(palabrasFamosas.kanjiId, idsNivel));
     const palabras = dataset.flatMap((k) =>
       k.palabras.map((p) => ({ kanjiId: ids.get(k.caracter)!, ...p })),
     );
     if (palabras.length > 0) await tx.insert(palabrasFamosas).values(palabras);
 
-    await tx.delete(nombresFamosos).where(inArray(nombresFamosos.kanjiId, idsNivel));
+    await tx
+      .delete(nombresFamosos)
+      .where(inArray(nombresFamosos.kanjiId, idsNivel));
     const nombres = dataset.flatMap((k) =>
       k.nombres.map((n) => ({ kanjiId: ids.get(k.caracter)!, ...n })),
     );
@@ -227,7 +251,9 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
 
     // 3. Kanji traps en ambas direcciones. PK compuesta + onConflictDoNothing
     //    lo hace idempotente. El destino puede ser de otro nivel.
-    const relacionados = [...new Set(dataset.flatMap((k) => k.relacionadosCon))];
+    const relacionados = [
+      ...new Set(dataset.flatMap((k) => k.relacionadosCon)),
+    ];
     const faltantes = relacionados.filter((c) => !ids.has(c));
     if (faltantes.length > 0) {
       const otros = await tx
@@ -243,18 +269,31 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
       for (const rel of k.relacionadosCon) {
         const destino = ids.get(rel);
         if (!destino) {
-          console.warn(`⚠ ${k.caracter} referencia a ${rel}, que no existe en la BDD`);
+          console.warn(
+            `⚠ ${k.caracter} referencia a ${rel}, que no existe en la BDD`,
+          );
           continue;
         }
-        pares.set(`${origen}→${destino}`, { kanjiId: origen, kanjiTrapId: destino });
-        pares.set(`${destino}→${origen}`, { kanjiId: destino, kanjiTrapId: origen });
+        pares.set(`${origen}→${destino}`, {
+          kanjiId: origen,
+          kanjiTrapId: destino,
+        });
+        pares.set(`${destino}→${origen}`, {
+          kanjiId: destino,
+          kanjiTrapId: origen,
+        });
       }
     }
     if (pares.size > 0) {
-      await tx.insert(kanjiTrap).values([...pares.values()]).onConflictDoNothing();
+      await tx
+        .insert(kanjiTrap)
+        .values([...pares.values()])
+        .onConflictDoNothing();
     }
 
-    console.log(`✓ ${nivel} aplicado (${pares.size} relaciones trap verificadas)`);
+    console.log(
+      `✓ ${nivel} aplicado (${pares.size} relaciones trap verificadas)`,
+    );
   });
 }
 
@@ -264,7 +303,9 @@ async function main() {
   const niveles = args.filter((a) => a !== "--dry-run");
 
   if (niveles.length === 0) {
-    throw new Error("Indica al menos un nivel, ej: npm run db:seed-kanjis -- n5");
+    throw new Error(
+      "Indica al menos un nivel, ej: npm run db:seed-kanjis -- n5",
+    );
   }
   const invalidos = niveles.filter((n) => !esNivel(n));
   if (invalidos.length > 0) {
