@@ -1,13 +1,13 @@
 "use client";
 
 // Cliente wrapper que enlaza KanjiLevelsPanel, KanjiCardList y los paneles
-// de detalle (KanjiDisplay + KanjiDisplayImgs). Mantiene el nivel seleccionado
+// de detalle (KanjiDisplay + KanjiStructure). Mantiene el nivel seleccionado
 // y el kanji actualmente enfocado, ambos entre los precargados del servidor.
 
 import { useMemo, useState, useTransition } from "react";
 import KanjiCardList from "./KanjiCardList";
 import KanjiDisplay from "./KanjiDisplay";
-import KanjiDisplayImgs from "./KanjiDisplayImgs";
+import KanjiStructure from "./KanjiStructure";
 import KanjiExtras from "./KanjiExtras";
 import KanjiHelpReferences from "./KanjiHelpReferences";
 import KanjiLevelsPanel from "./KanjiLevelsPanel";
@@ -146,7 +146,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
               los radicales. Con wrap, mientras cargaba su imagen cabia a la
               derecha y aparecia ahi unos ms antes de saltar abajo. */}
           <div className="flex flex-col items-start gap-2">
-            <KanjiDisplayImgs
+            <KanjiStructure
               caracter={seleccionado.caracter}
               radicales={seleccionado.kanjiRadicales}
             />
