@@ -1,5 +1,6 @@
 // Carga scripts/seeds/<nivel>.json en la BDD: kanjis (upsert), palabras,
-// nombres famosos y kanji traps.
+// nombres famosos, kanji traps y radicales (kanji_radical). Antes de los
+// niveles aplica el catalogo scripts/seeds/radicales.json (upsert).
 //
 //   npm run db:seed-kanjis -- n5            -> aplica n5.json
 //   npm run db:seed-kanjis -- n5 n4 n3      -> varios niveles
@@ -17,25 +18,36 @@
 //   - un kanji que en la BDD pertenece a otro nivel
 // Todo el nivel se escribe en una sola transaccion.
 //
-// Lo que el seed NO hace: borrar kanjis ni kanji traps (solo agrega), ni
-// pisar `destacado` de kanjis existentes (es estado de la UI).
+// Lo que el seed NO hace: borrar kanjis, kanji traps ni radicales del
+// catalogo (solo agrega), ni pisar `destacado` de kanjis existentes (es
+// estado de la UI).
 
 import fs from "fs";
-import { inArray, sql, type Column } from "drizzle-orm";
+import { getTableColumns, inArray, sql, type Column } from "drizzle-orm";
 import {
   columnasDelJson,
   COLUMNAS_SOLO_AL_CREAR,
   conectar,
   esNivel,
+  RUTA_RADICALES,
   rutaJson,
   schema,
+  separarRadicales,
   type ColumnasKanji,
   type Db,
   type Nivel,
   type SeedKanji,
+  type SeedRadical,
 } from "./kanji-seed-lib";
 
-const { kanji, palabrasFamosas, nombresFamosos, kanjiTrap } = schema;
+const {
+  kanji,
+  palabrasFamosas,
+  nombresFamosos,
+  kanjiTrap,
+  radical,
+  kanjiRadical,
+} = schema;
 
 // ── COLUMNAS: todas derivadas del schema, no hay listas a mano ──
 
@@ -53,6 +65,99 @@ const COLUMNAS_ACTUALIZABLES = columnasDelJson.filter(
 
 // En un upsert, "excluded" es la fila que se intento insertar.
 const excluido = (c: Column) => sql.raw(`excluded."${c.name}"`);
+
+// ── RADICALES: catalogo, se aplica una vez antes de los niveles ──
+
+// Todas las columnas del radical menos id; mismo criterio que en kanji.
+const COLUMNAS_RADICAL = Object.entries(getTableColumns(radical))
+  .filter(([nombre]) => nombre !== "id")
+  .map(([nombre, columna]) => ({
+    nombre: nombre as keyof SeedRadical,
+    columna,
+  }));
+
+function leerRadicales(): SeedRadical[] {
+  const dataset: SeedRadical[] = JSON.parse(
+    fs.readFileSync(RUTA_RADICALES, "utf-8"),
+  );
+  const errores: string[] = [];
+  const vistos = new Set<string>();
+
+  for (const r of dataset) {
+    if ([...r.caracter].length !== 1) {
+      errores.push(`"${r.caracter}" no es un solo caracter`);
+    }
+    if (vistos.has(r.caracter)) errores.push(`${r.caracter} está repetido`);
+    vistos.add(r.caracter);
+
+    const faltantes = COLUMNAS_RADICAL.filter(({ nombre }) => !(nombre in r));
+    if (faltantes.length > 0) {
+      errores.push(
+        `${r.caracter} no tiene: ${faltantes.map((c) => c.nombre).join(", ")}`,
+      );
+    }
+  }
+
+  if (errores.length > 0) {
+    throw new Error(`radicales.json inválido:\n  - ${errores.join("\n  - ")}`);
+  }
+  return dataset;
+}
+
+// Devuelve los caracteres del catalogo, para validar los radicales de cada nivel.
+async function sembrarRadicales(db: Db, dryRun: boolean) {
+  console.log("\n── radicales ──");
+  const dataset = leerRadicales();
+
+  // Misma proteccion que en kanji: el JSON no puede vaciar un dato de la BDD.
+  const enBdd = await db.select().from(radical);
+  const porCaracter = new Map(dataset.map((r) => [r.caracter, r]));
+  const perdidas: string[] = [];
+  for (const actual of enBdd) {
+    const nuevo = porCaracter.get(actual.caracter);
+    if (!nuevo) {
+      console.warn(
+        `⚠ ${actual.caracter} está en la BDD pero no en radicales.json (no se modifica)`,
+      );
+      continue;
+    }
+    for (const { nombre, columna } of COLUMNAS_RADICAL) {
+      if (!columna.notNull && actual[nombre] !== null && nuevo[nombre] === null) {
+        perdidas.push(
+          `${actual.caracter}: ${nombre} "${actual[nombre]}" quedaría vacío`,
+        );
+      }
+    }
+  }
+  if (perdidas.length > 0) {
+    throw new Error(
+      `Seed de radicales abortado, se perderían datos de la BDD:\n  - ${perdidas.join("\n  - ")}`,
+    );
+  }
+
+  const existentes = new Set(enBdd.map((r) => r.caracter));
+  const nuevos = dataset.filter((r) => !existentes.has(r.caracter)).length;
+  console.log(`${dataset.length} radicales (${nuevos} nuevos)`);
+
+  if (!dryRun) {
+    // Un solo INSERT ... ON CONFLICT: es atomico sin necesitar transaccion.
+    await db
+      .insert(radical)
+      .values(dataset)
+      .onConflictDoUpdate({
+        target: radical.caracter,
+        set: Object.fromEntries(
+          COLUMNAS_RADICAL.filter((c) => c.nombre !== "caracter").map((c) => [
+            c.nombre,
+            excluido(c.columna),
+          ]),
+        ),
+      });
+    console.log("✓ radicales aplicados");
+  }
+
+  return new Set(dataset.map((r) => r.caracter));
+}
 
 // Se queda solo con las columnas del kanji: saca palabras, nombres y
 // relacionadosCon, y descarta claves que no sean columnas (ej: un
@@ -182,9 +287,41 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
   };
 }
 
-async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
+// Cada radical del texto "⺅、木" tiene que existir en el catalogo y no repetirse
+// en el mismo kanji (la PK de kanji_radical es kanjiId + radicalId).
+function validarRadicales(
+  nivel: Nivel,
+  dataset: SeedKanji[],
+  catalogo: Set<string>,
+) {
+  const errores: string[] = [];
+  for (const k of dataset) {
+    const lista = separarRadicales(k.radicales);
+    for (const r of lista) {
+      if (!catalogo.has(r)) {
+        errores.push(`${k.caracter}: el radical ${r} no está en radicales.json`);
+      }
+    }
+    if (new Set(lista).size !== lista.length) {
+      errores.push(`${k.caracter} tiene radicales repetidos`);
+    }
+  }
+  if (errores.length > 0) {
+    throw new Error(
+      `${nivel}.json inválido:\n  - ${errores.join("\n  - ")}`,
+    );
+  }
+}
+
+async function sembrarNivel(
+  db: Db,
+  nivel: Nivel,
+  dryRun: boolean,
+  catalogo: Set<string>,
+) {
   console.log(`\n── ${nivel} ──`);
   const dataset = leerJson(nivel);
+  validarRadicales(nivel, dataset, catalogo);
   const { perdidas, avisos, existentes } = await buscarPerdidas(
     db,
     nivel,
@@ -203,8 +340,12 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
   const nuevos = dataset.filter((k) => !existentes.has(k.caracter)).length;
   const totalPalabras = dataset.reduce((n, k) => n + k.palabras.length, 0);
   const totalNombres = dataset.reduce((n, k) => n + k.nombres.length, 0);
+  const totalRadicales = dataset.reduce(
+    (n, k) => n + separarRadicales(k.radicales).length,
+    0,
+  );
   console.log(
-    `${dataset.length} kanjis (${nuevos} nuevos), ${totalPalabras} palabras, ${totalNombres} nombres`,
+    `${dataset.length} kanjis (${nuevos} nuevos), ${totalPalabras} palabras, ${totalNombres} nombres, ${totalRadicales} radicales`,
   );
 
   if (dryRun) {
@@ -291,6 +432,34 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
         .onConflictDoNothing();
     }
 
+    // 4. Radicales: kanji_radical se deriva de la columna `radicales`, que ya
+    //    esta protegida en buscarPerdidas; se reemplazan igual que las palabras.
+    //    orden = posicion en el texto, para mostrarlos en el mismo orden.
+    await tx
+      .delete(kanjiRadical)
+      .where(inArray(kanjiRadical.kanjiId, idsNivel));
+    const usados = [
+      ...new Set(dataset.flatMap((k) => separarRadicales(k.radicales))),
+    ];
+    if (usados.length > 0) {
+      const idsRadical = new Map(
+        (
+          await tx
+            .select({ id: radical.id, caracter: radical.caracter })
+            .from(radical)
+            .where(inArray(radical.caracter, usados))
+        ).map((r) => [r.caracter, r.id]),
+      );
+      const filasRadical = dataset.flatMap((k) =>
+        separarRadicales(k.radicales).map((r, orden) => ({
+          kanjiId: ids.get(k.caracter)!,
+          radicalId: idsRadical.get(r)!,
+          orden,
+        })),
+      );
+      await tx.insert(kanjiRadical).values(filasRadical);
+    }
+
     console.log(
       `✓ ${nivel} aplicado (${pares.size} relaciones trap verificadas)`,
     );
@@ -314,8 +483,10 @@ async function main() {
 
   const { db, pool } = conectar();
   try {
+    // El catalogo va primero: los niveles referencian sus radicales.
+    const catalogo = await sembrarRadicales(db, dryRun);
     for (const nivel of niveles as Nivel[]) {
-      await sembrarNivel(db, nivel, dryRun);
+      await sembrarNivel(db, nivel, dryRun, catalogo);
     }
     console.log("\nSeed completado.");
   } finally {

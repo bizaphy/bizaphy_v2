@@ -76,3 +76,21 @@ export function esNivel(v: string): v is Nivel {
 export function rutaJson(nivel: Nivel) {
   return path.join(SEEDS_DIR, `${nivel}.json`);
 }
+
+// ── CATALOGO DE RADICALES (scripts/seeds/radicales.json) ──
+
+export const RUTA_RADICALES = path.join(SEEDS_DIR, "radicales.json");
+
+export type SeedRadical = Omit<typeof schema.radical.$inferSelect, "id">;
+
+// En el JSON de cada nivel los radicales van como texto: "⺅、木".
+export const SEPARADOR_RADICALES = "、";
+
+export function separarRadicales(radicales: string | null): string[] {
+  return (
+    radicales
+      ?.split(SEPARADOR_RADICALES)
+      .map((r) => r.trim())
+      .filter(Boolean) ?? []
+  );
+}

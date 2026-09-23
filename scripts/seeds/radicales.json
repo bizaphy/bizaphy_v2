@@ -1,0 +1,1258 @@
+[
+  {
+    "caracter": "𠆢",
+    "numeroTrazos": 2,
+    "nombre": "hitoyane",
+    "furigana": "ひとやね",
+    "significado": "persona",
+    "kanjiOrigen": "人"
+  },
+  {
+    "caracter": "⺅",
+    "numeroTrazos": 2,
+    "nombre": "ninben",
+    "furigana": "にんべん",
+    "significado": "persona",
+    "kanjiOrigen": "人"
+  },
+  {
+    "caracter": "⺉",
+    "numeroTrazos": 2,
+    "nombre": "rittō / RI",
+    "furigana": "りっとう / リ",
+    "significado": "cuchillo / RI",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "八",
+    "numeroTrazos": 2,
+    "nombre": "hachigashira / HA",
+    "furigana": "はちがしら / ハ",
+    "significado": "ocho / HA",
+    "kanjiOrigen": "八"
+  },
+  {
+    "caracter": "十",
+    "numeroTrazos": 2,
+    "nombre": "jū",
+    "furigana": "じゅう",
+    "significado": "diez",
+    "kanjiOrigen": "十"
+  },
+  {
+    "caracter": "亠",
+    "numeroTrazos": 2,
+    "nombre": "nabebuta",
+    "furigana": "なべぶた",
+    "significado": "tapa",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "儿",
+    "numeroTrazos": 2,
+    "nombre": "hitoashi",
+    "furigana": "ひとあし",
+    "significado": "piernas",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "冖",
+    "numeroTrazos": 2,
+    "nombre": "wakanmuri / WA",
+    "furigana": "わかんむり / ワ",
+    "significado": "corona / WA",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "冫",
+    "numeroTrazos": 2,
+    "nombre": "nisui",
+    "furigana": "にすい",
+    "significado": "hielo / N",
+    "kanjiOrigen": "氷"
+  },
+  {
+    "caracter": "力",
+    "numeroTrazos": 2,
+    "nombre": "chikara",
+    "furigana": "ちから",
+    "significado": "fuerza",
+    "kanjiOrigen": "力"
+  },
+  {
+    "caracter": "冂",
+    "numeroTrazos": 2,
+    "nombre": "makigamae",
+    "furigana": "まきがまえ",
+    "significado": "cubierta",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "匚",
+    "numeroTrazos": 2,
+    "nombre": "hakogamae",
+    "furigana": "はこがまえ",
+    "significado": "caja",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "凵",
+    "numeroTrazos": 2,
+    "nombre": "ukebako",
+    "furigana": "うけばこ",
+    "significado": "contenedor",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "几",
+    "numeroTrazos": 2,
+    "nombre": "tsukue",
+    "furigana": "つくえ",
+    "significado": "mesa",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "卩",
+    "numeroTrazos": 2,
+    "nombre": "fushizukuri",
+    "furigana": "ふしづくり",
+    "significado": "sello",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "厂",
+    "numeroTrazos": 2,
+    "nombre": "gandare",
+    "furigana": "がんだれ",
+    "significado": "barranco",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "厶",
+    "numeroTrazos": 2,
+    "nombre": "mu",
+    "furigana": "ム",
+    "significado": "MU",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "ユ",
+    "numeroTrazos": 2,
+    "nombre": "yu",
+    "furigana": "ユ",
+    "significado": "YU",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "又",
+    "numeroTrazos": 2,
+    "nombre": "mata",
+    "furigana": "また",
+    "significado": "mano derecha",
+    "kanjiOrigen": "又"
+  },
+  {
+    "caracter": "𠂉",
+    "numeroTrazos": 2,
+    "nombre": "no-ichi",
+    "furigana": "ノいち",
+    "significado": "NO-ichi",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺈",
+    "numeroTrazos": 2,
+    "nombre": "ku",
+    "furigana": "ク",
+    "significado": "KU",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "勹",
+    "numeroTrazos": 2,
+    "nombre": "tsutsumu",
+    "furigana": "つつむ",
+    "significado": "envolver",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "匕",
+    "numeroTrazos": 2,
+    "nombre": "saji / hi",
+    "furigana": "さじ / ヒ",
+    "significado": "cuchara / HI",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "乂",
+    "numeroTrazos": 2,
+    "nombre": "me",
+    "furigana": "メ",
+    "significado": "tache / ME",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "丁",
+    "numeroTrazos": 2,
+    "nombre": "chō",
+    "furigana": "ちょう",
+    "significado": "clavo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "卜",
+    "numeroTrazos": 2,
+    "nombre": "uranai / TO",
+    "furigana": "うらない / ト",
+    "significado": "adivinación / TO",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "マ",
+    "numeroTrazos": 2,
+    "nombre": "MA",
+    "furigana": "マ",
+    "significado": "MA",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "丷",
+    "numeroTrazos": 2,
+    "nombre": "so",
+    "furigana": "ソ",
+    "significado": "SO",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺌",
+    "numeroTrazos": 3,
+    "nombre": "naogashira",
+    "furigana": "なおがしら",
+    "significado": "pequeño",
+    "kanjiOrigen": "小"
+  },
+  {
+    "caracter": "⺍",
+    "numeroTrazos": 3,
+    "nombre": "tsukanmuri",
+    "furigana": "つかんむり",
+    "significado": "TSU",
+    "kanjiOrigen": "小"
+  },
+  {
+    "caracter": "䒑",
+    "numeroTrazos": 3,
+    "nombre": "SO-ichi",
+    "furigana": "ソいち",
+    "significado": "SO-ichi",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺖",
+    "numeroTrazos": 3,
+    "nombre": "risshinben",
+    "furigana": "りっしんべん",
+    "significado": "corazón",
+    "kanjiOrigen": "心"
+  },
+  {
+    "caracter": "⺘",
+    "numeroTrazos": 3,
+    "nombre": "tehen",
+    "furigana": "てへん",
+    "significado": "mano",
+    "kanjiOrigen": "手"
+  },
+  {
+    "caracter": "⺡",
+    "numeroTrazos": 3,
+    "nombre": "sanzui",
+    "furigana": "さんずい",
+    "significado": "agua",
+    "kanjiOrigen": "水"
+  },
+  {
+    "caracter": "⺨",
+    "numeroTrazos": 3,
+    "nombre": "kemonohen",
+    "furigana": "けものへん",
+    "significado": "animal",
+    "kanjiOrigen": "犬"
+  },
+  {
+    "caracter": "⺾",
+    "numeroTrazos": 3,
+    "nombre": "kusakanmuri",
+    "furigana": "くさかんむり",
+    "significado": "pasto",
+    "kanjiOrigen": "艸"
+  },
+  {
+    "caracter": "⻌",
+    "numeroTrazos": 3,
+    "nombre": "shinnyō",
+    "furigana": "しんにょう",
+    "significado": "camino",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⻖",
+    "numeroTrazos": 3,
+    "nombre": "ōzato / kozato",
+    "furigana": "おおざと / こざと",
+    "significado": "villa",
+    "kanjiOrigen": "阜"
+  },
+  {
+    "caracter": "巾",
+    "numeroTrazos": 3,
+    "nombre": "haba",
+    "furigana": "はば",
+    "significado": "trapo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "女",
+    "numeroTrazos": 3,
+    "nombre": "onnahen",
+    "furigana": "おんなへん",
+    "significado": "mujer",
+    "kanjiOrigen": "女"
+  },
+  {
+    "caracter": "口",
+    "numeroTrazos": 3,
+    "nombre": "kuchihen",
+    "furigana": "くちへん",
+    "significado": "boca",
+    "kanjiOrigen": "口"
+  },
+  {
+    "caracter": "囗",
+    "numeroTrazos": 3,
+    "nombre": "kunigamae",
+    "furigana": "くにがまえ",
+    "significado": "frontera",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "土",
+    "numeroTrazos": 3,
+    "nombre": "tsuchihen",
+    "furigana": "つちへん",
+    "significado": "tierra",
+    "kanjiOrigen": "土"
+  },
+  {
+    "caracter": "工",
+    "numeroTrazos": 3,
+    "nombre": "takumi / E",
+    "furigana": "たくみ / エ",
+    "significado": "labor / E",
+    "kanjiOrigen": "工"
+  },
+  {
+    "caracter": "己",
+    "numeroTrazos": 3,
+    "nombre": "onore",
+    "furigana": "おのれ",
+    "significado": "uno mismo",
+    "kanjiOrigen": "己"
+  },
+  {
+    "caracter": "弓",
+    "numeroTrazos": 3,
+    "nombre": "yumihen",
+    "furigana": "ゆみへん",
+    "significado": "arco",
+    "kanjiOrigen": "弓"
+  },
+  {
+    "caracter": "子",
+    "numeroTrazos": 3,
+    "nombre": "ko",
+    "furigana": "こ",
+    "significado": "niño",
+    "kanjiOrigen": "子"
+  },
+  {
+    "caracter": "宀",
+    "numeroTrazos": 3,
+    "nombre": "ukanmuri / U",
+    "furigana": "うかんむり / ウ",
+    "significado": "techo / U",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "寸",
+    "numeroTrazos": 3,
+    "nombre": "sun",
+    "furigana": "すん",
+    "significado": "pulgada",
+    "kanjiOrigen": "寸"
+  },
+  {
+    "caracter": "尸",
+    "numeroTrazos": 3,
+    "nombre": "shikabane",
+    "furigana": "しかばね",
+    "significado": "cadáver",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "广",
+    "numeroTrazos": 3,
+    "nombre": "madare",
+    "furigana": "まだれ",
+    "significado": "barranco con punto",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "廴",
+    "numeroTrazos": 3,
+    "nombre": "ennyō",
+    "furigana": "えんにょう",
+    "significado": "mover",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "彐",
+    "numeroTrazos": 3,
+    "nombre": "yo / keigashira",
+    "furigana": "ヨ / けいがしら",
+    "significado": "YO / cabeza de puerco",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "彡",
+    "numeroTrazos": 3,
+    "nombre": "sanzukuri",
+    "furigana": "さんづくり",
+    "significado": "pelo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "彳",
+    "numeroTrazos": 3,
+    "nombre": "gyōninben",
+    "furigana": "ぎょうにんべん",
+    "significado": "ir",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "也",
+    "numeroTrazos": 3,
+    "nombre": "nari",
+    "furigana": "なり",
+    "significado": "ser",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "幺",
+    "numeroTrazos": 3,
+    "nombre": "itogashira",
+    "furigana": "いとがしら",
+    "significado": "hilo",
+    "kanjiOrigen": "糸"
+  },
+  {
+    "caracter": "弋",
+    "numeroTrazos": 3,
+    "nombre": "hoko",
+    "furigana": "ほこ",
+    "significado": "lanza",
+    "kanjiOrigen": "戈"
+  },
+  {
+    "caracter": "亡",
+    "numeroTrazos": 3,
+    "nombre": "bō",
+    "furigana": "ぼう",
+    "significado": "pérdida",
+    "kanjiOrigen": "亡"
+  },
+  {
+    "caracter": "大",
+    "numeroTrazos": 3,
+    "nombre": "ōkii",
+    "furigana": "おおきい",
+    "significado": "grande",
+    "kanjiOrigen": "大"
+  },
+  {
+    "caracter": "夕",
+    "numeroTrazos": 3,
+    "nombre": "yūbe",
+    "furigana": "ゆうべ",
+    "significado": "tarde / TA",
+    "kanjiOrigen": "夕"
+  },
+  {
+    "caracter": "丬",
+    "numeroTrazos": 3,
+    "nombre": "kigire",
+    "furigana": "きぎれ",
+    "significado": "tronco",
+    "kanjiOrigen": "爿"
+  },
+  {
+    "caracter": "オ",
+    "numeroTrazos": 3,
+    "nombre": "sai",
+    "furigana": "さい",
+    "significado": "O",
+    "kanjiOrigen": "才"
+  },
+  {
+    "caracter": "夂",
+    "numeroTrazos": 3,
+    "nombre": "fuyugashira",
+    "furigana": "ふゆがしら",
+    "significado": "invierno",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺙",
+    "numeroTrazos": 4,
+    "nombre": "bokuzukuri / nobun",
+    "furigana": "ぼくづくり / のぶん",
+    "significado": "silla",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "龶",
+    "numeroTrazos": 4,
+    "nombre": "aoi",
+    "furigana": "あおい",
+    "significado": "azul",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺣",
+    "numeroTrazos": 4,
+    "nombre": "rekka",
+    "furigana": "れっか",
+    "significado": "fuego",
+    "kanjiOrigen": "火"
+  },
+  {
+    "caracter": "⺭",
+    "numeroTrazos": 4,
+    "nombre": "shimesuhen",
+    "furigana": "しめすへん",
+    "significado": "altar / NE",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺹",
+    "numeroTrazos": 4,
+    "nombre": "oikanmuri",
+    "furigana": "おいかんむり",
+    "significado": "viejo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "日",
+    "numeroTrazos": 4,
+    "nombre": "hi",
+    "furigana": "ひ",
+    "significado": "sol",
+    "kanjiOrigen": "日"
+  },
+  {
+    "caracter": "月",
+    "numeroTrazos": 4,
+    "nombre": "tsuki / niku",
+    "furigana": "つき / にく",
+    "significado": "luna / carne (肉)",
+    "kanjiOrigen": "月"
+  },
+  {
+    "caracter": "方",
+    "numeroTrazos": 4,
+    "nombre": "hō",
+    "furigana": "ほう",
+    "significado": "dirección",
+    "kanjiOrigen": "方"
+  },
+  {
+    "caracter": "木",
+    "numeroTrazos": 4,
+    "nombre": "kihen",
+    "furigana": "きへん",
+    "significado": "árbol",
+    "kanjiOrigen": "木"
+  },
+  {
+    "caracter": "王",
+    "numeroTrazos": 4,
+    "nombre": "ō / tama",
+    "furigana": "おう / たま",
+    "significado": "rey / joya",
+    "kanjiOrigen": "王"
+  },
+  {
+    "caracter": "夫",
+    "numeroTrazos": 4,
+    "nombre": "otto",
+    "furigana": "おっと",
+    "significado": "marido",
+    "kanjiOrigen": "夫"
+  },
+  {
+    "caracter": "牛",
+    "numeroTrazos": 4,
+    "nombre": "ushihen",
+    "furigana": "うしへん",
+    "significado": "vaca",
+    "kanjiOrigen": "牛"
+  },
+  {
+    "caracter": "ヰ",
+    "numeroTrazos": 4,
+    "nombre": "WI",
+    "furigana": "ヰ",
+    "significado": "WI",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "止",
+    "numeroTrazos": 4,
+    "nombre": "tomeru",
+    "furigana": "とめる",
+    "significado": "detener",
+    "kanjiOrigen": "止"
+  },
+  {
+    "caracter": "龰",
+    "numeroTrazos": 4,
+    "nombre": "tomeru",
+    "furigana": "とめる",
+    "significado": "detener",
+    "kanjiOrigen": "止"
+  },
+  {
+    "caracter": "心",
+    "numeroTrazos": 4,
+    "nombre": "kokoro",
+    "furigana": "こころ",
+    "significado": "corazón",
+    "kanjiOrigen": "心"
+  },
+  {
+    "caracter": "戈",
+    "numeroTrazos": 4,
+    "nombre": "hoko",
+    "furigana": "ほこ",
+    "significado": "lanza",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "斤",
+    "numeroTrazos": 4,
+    "nombre": "onozukuri",
+    "furigana": "おのづくり",
+    "significado": "hacha",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "欠",
+    "numeroTrazos": 4,
+    "nombre": "akubi",
+    "furigana": "あくび",
+    "significado": "bostezo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "毋",
+    "numeroTrazos": 4,
+    "nombre": "nakare",
+    "furigana": "なかれ",
+    "significado": "madre",
+    "kanjiOrigen": "母"
+  },
+  {
+    "caracter": "火",
+    "numeroTrazos": 4,
+    "nombre": "hi",
+    "furigana": "ひ",
+    "significado": "fuego",
+    "kanjiOrigen": "火"
+  },
+  {
+    "caracter": "五",
+    "numeroTrazos": 4,
+    "nombre": "go",
+    "furigana": "ご",
+    "significado": "cinco",
+    "kanjiOrigen": "五"
+  },
+  {
+    "caracter": "⺤",
+    "numeroTrazos": 4,
+    "nombre": "tsume",
+    "furigana": "つめ",
+    "significado": "garra",
+    "kanjiOrigen": "爪"
+  },
+  {
+    "caracter": "勿",
+    "numeroTrazos": 4,
+    "nombre": "mochi",
+    "furigana": "もち",
+    "significado": "no",
+    "kanjiOrigen": "勿"
+  },
+  {
+    "caracter": "气",
+    "numeroTrazos": 4,
+    "nombre": "ki",
+    "furigana": "き",
+    "significado": "espíritu",
+    "kanjiOrigen": "气"
+  },
+  {
+    "caracter": "巴",
+    "numeroTrazos": 4,
+    "nombre": "tomoe",
+    "furigana": "ともえ",
+    "significado": "espiral",
+    "kanjiOrigen": "巴"
+  },
+  {
+    "caracter": "斗",
+    "numeroTrazos": 4,
+    "nombre": "tomasu",
+    "furigana": "とます",
+    "significado": "cucharón",
+    "kanjiOrigen": "斗"
+  },
+  {
+    "caracter": "开",
+    "numeroTrazos": 4,
+    "nombre": "katachi",
+    "furigana": "かたち",
+    "significado": "forma",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "ホ",
+    "numeroTrazos": 4,
+    "nombre": "HO",
+    "furigana": "ホ",
+    "significado": "HO",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "比",
+    "numeroTrazos": 4,
+    "nombre": "kuraberu",
+    "furigana": "くらべる",
+    "significado": "comparar",
+    "kanjiOrigen": "比"
+  },
+  {
+    "caracter": "氏",
+    "numeroTrazos": 4,
+    "nombre": "uji",
+    "furigana": "うじ",
+    "significado": "clan",
+    "kanjiOrigen": "氏"
+  },
+  {
+    "caracter": "予",
+    "numeroTrazos": 4,
+    "nombre": "yo",
+    "furigana": "よ",
+    "significado": "de antemano",
+    "kanjiOrigen": "予"
+  },
+  {
+    "caracter": "𧘇",
+    "numeroTrazos": 4,
+    "nombre": "koromo",
+    "furigana": "ころも",
+    "significado": "ropa",
+    "kanjiOrigen": "辰"
+  },
+  {
+    "caracter": "⺫",
+    "numeroTrazos": 5,
+    "nombre": "amigashira",
+    "furigana": "あみがしら",
+    "significado": "red",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⻂",
+    "numeroTrazos": 5,
+    "nombre": "koromohen",
+    "furigana": "ころもへん",
+    "significado": "ropa",
+    "kanjiOrigen": "衣"
+  },
+  {
+    "caracter": "穴",
+    "numeroTrazos": 5,
+    "nombre": "anakanmuri",
+    "furigana": "あなかんむり",
+    "significado": "hoyo",
+    "kanjiOrigen": "穴"
+  },
+  {
+    "caracter": "立",
+    "numeroTrazos": 5,
+    "nombre": "tatsu",
+    "furigana": "たつ",
+    "significado": "estar de pie",
+    "kanjiOrigen": "立"
+  },
+  {
+    "caracter": "石",
+    "numeroTrazos": 5,
+    "nombre": "ishihen",
+    "furigana": "いしへん",
+    "significado": "roca",
+    "kanjiOrigen": "石"
+  },
+  {
+    "caracter": "矢",
+    "numeroTrazos": 5,
+    "nombre": "yahen",
+    "furigana": "やへん",
+    "significado": "flecha",
+    "kanjiOrigen": "矢"
+  },
+  {
+    "caracter": "疒",
+    "numeroTrazos": 5,
+    "nombre": "yamaidare",
+    "furigana": "やまいだれ",
+    "significado": "enfermedad",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "癶",
+    "numeroTrazos": 5,
+    "nombre": "hatsugashira",
+    "furigana": "はつがしら",
+    "significado": "despegue",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "皿",
+    "numeroTrazos": 5,
+    "nombre": "sara",
+    "furigana": "さら",
+    "significado": "plato",
+    "kanjiOrigen": "皿"
+  },
+  {
+    "caracter": "目",
+    "numeroTrazos": 5,
+    "nombre": "me",
+    "furigana": "め",
+    "significado": "ojo",
+    "kanjiOrigen": "目"
+  },
+  {
+    "caracter": "禾",
+    "numeroTrazos": 5,
+    "nombre": "nogi",
+    "furigana": "のぎ",
+    "significado": "grano",
+    "kanjiOrigen": "禾"
+  },
+  {
+    "caracter": "生",
+    "numeroTrazos": 5,
+    "nombre": "umareru",
+    "furigana": "うまれる",
+    "significado": "vida",
+    "kanjiOrigen": "生"
+  },
+  {
+    "caracter": "田",
+    "numeroTrazos": 5,
+    "nombre": "ta",
+    "furigana": "た",
+    "significado": "arrozal",
+    "kanjiOrigen": "田"
+  },
+  {
+    "caracter": "乍",
+    "numeroTrazos": 5,
+    "nombre": "nagara",
+    "furigana": "ながら",
+    "significado": "mientras",
+    "kanjiOrigen": "乍"
+  },
+  {
+    "caracter": "冊",
+    "numeroTrazos": 5,
+    "nombre": "satsu",
+    "furigana": "さつ",
+    "significado": "encuadernado",
+    "kanjiOrigen": "冊"
+  },
+  {
+    "caracter": "央",
+    "numeroTrazos": 5,
+    "nombre": "nakaba",
+    "furigana": "なかば",
+    "significado": "centro",
+    "kanjiOrigen": "央"
+  },
+  {
+    "caracter": "用",
+    "numeroTrazos": 5,
+    "nombre": "mochiiru",
+    "furigana": "もちいる",
+    "significado": "utilizar",
+    "kanjiOrigen": "用"
+  },
+  {
+    "caracter": "电",
+    "numeroTrazos": 5,
+    "nombre": "inazuma",
+    "furigana": "いなずま",
+    "significado": "rayo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "皮",
+    "numeroTrazos": 5,
+    "nombre": "kawa",
+    "furigana": "かわ",
+    "significado": "cuero",
+    "kanjiOrigen": "皮"
+  },
+  {
+    "caracter": "可",
+    "numeroTrazos": 5,
+    "nombre": "bakari",
+    "furigana": "ばかり",
+    "significado": "posible",
+    "kanjiOrigen": "可"
+  },
+  {
+    "caracter": "𠙻",
+    "numeroTrazos": 5,
+    "nombre": "kan",
+    "furigana": "かん",
+    "significado": "vasija",
+    "kanjiOrigen": "缶"
+  },
+  {
+    "caracter": "㠯",
+    "numeroTrazos": 5,
+    "nombre": "i",
+    "furigana": "い",
+    "significado": "según",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "⺮",
+    "numeroTrazos": 6,
+    "nombre": "takekanmuri",
+    "furigana": "たけかんむり",
+    "significado": "bambú",
+    "kanjiOrigen": "竹"
+  },
+  {
+    "caracter": "舟",
+    "numeroTrazos": 6,
+    "nombre": "funehen",
+    "furigana": "ふねへん",
+    "significado": "barco",
+    "kanjiOrigen": "舟"
+  },
+  {
+    "caracter": "糸",
+    "numeroTrazos": 6,
+    "nombre": "itohen",
+    "furigana": "いとへん",
+    "significado": "hilo",
+    "kanjiOrigen": "糸"
+  },
+  {
+    "caracter": "米",
+    "numeroTrazos": 6,
+    "nombre": "komehen",
+    "furigana": "こめへん",
+    "significado": "arroz",
+    "kanjiOrigen": "米"
+  },
+  {
+    "caracter": "虫",
+    "numeroTrazos": 6,
+    "nombre": "mushihen",
+    "furigana": "むしへん",
+    "significado": "insecto",
+    "kanjiOrigen": "虫"
+  },
+  {
+    "caracter": "行",
+    "numeroTrazos": 6,
+    "nombre": "gyōgamae",
+    "furigana": "ぎょうがまえ",
+    "significado": "ir",
+    "kanjiOrigen": "行"
+  },
+  {
+    "caracter": "耳",
+    "numeroTrazos": 6,
+    "nombre": "mimi",
+    "furigana": "みみ",
+    "significado": "oreja",
+    "kanjiOrigen": "耳"
+  },
+  {
+    "caracter": "艮",
+    "numeroTrazos": 6,
+    "nombre": "gonbu",
+    "furigana": "ごんぶ",
+    "significado": "quieto",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "羊",
+    "numeroTrazos": 6,
+    "nombre": "hitsuji",
+    "furigana": "ひつじ",
+    "significado": "cabra",
+    "kanjiOrigen": "羊"
+  },
+  {
+    "caracter": "关",
+    "numeroTrazos": 6,
+    "nombre": "kakawaru",
+    "furigana": "かかわる",
+    "significado": "relación",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "免",
+    "numeroTrazos": 6,
+    "nombre": "men",
+    "furigana": "めん",
+    "significado": "licencia",
+    "kanjiOrigen": "免"
+  },
+  {
+    "caracter": "覀",
+    "numeroTrazos": 6,
+    "nombre": "nishi",
+    "furigana": "にし",
+    "significado": "Oeste",
+    "kanjiOrigen": "西"
+  },
+  {
+    "caracter": "羽",
+    "numeroTrazos": 6,
+    "nombre": "hane",
+    "furigana": "はね",
+    "significado": "alas",
+    "kanjiOrigen": "羽"
+  },
+  {
+    "caracter": "⻊",
+    "numeroTrazos": 7,
+    "nombre": "ashihen",
+    "furigana": "あしへん",
+    "significado": "pie",
+    "kanjiOrigen": "足"
+  },
+  {
+    "caracter": "訁",
+    "numeroTrazos": 7,
+    "nombre": "gonben",
+    "furigana": "ごんべん",
+    "significado": "decir",
+    "kanjiOrigen": "言"
+  },
+  {
+    "caracter": "車",
+    "numeroTrazos": 7,
+    "nombre": "kurumahen",
+    "furigana": "くるまへん",
+    "significado": "carro",
+    "kanjiOrigen": "車"
+  },
+  {
+    "caracter": "走",
+    "numeroTrazos": 7,
+    "nombre": "sōnyō / hashiru",
+    "furigana": "そうにょう / はしる",
+    "significado": "correr",
+    "kanjiOrigen": "走"
+  },
+  {
+    "caracter": "豕",
+    "numeroTrazos": 7,
+    "nombre": "inoko",
+    "furigana": "いのこ",
+    "significado": "cerdo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "貝",
+    "numeroTrazos": 7,
+    "nombre": "kogai",
+    "furigana": "こがい",
+    "significado": "concha",
+    "kanjiOrigen": "貝"
+  },
+  {
+    "caracter": "酉",
+    "numeroTrazos": 7,
+    "nombre": "torihen",
+    "furigana": "とりへん",
+    "significado": "pájaro",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "里",
+    "numeroTrazos": 7,
+    "nombre": "sato",
+    "furigana": "さと",
+    "significado": "villa",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "束",
+    "numeroTrazos": 7,
+    "nombre": "taba",
+    "furigana": "たば",
+    "significado": "ramo",
+    "kanjiOrigen": "束"
+  },
+  {
+    "caracter": "豆",
+    "numeroTrazos": 7,
+    "nombre": "mame",
+    "furigana": "まめ",
+    "significado": "semilla",
+    "kanjiOrigen": "豆"
+  },
+  {
+    "caracter": "身",
+    "numeroTrazos": 7,
+    "nombre": "mi",
+    "furigana": "み",
+    "significado": "cuerpo",
+    "kanjiOrigen": "身"
+  },
+  {
+    "caracter": "赤",
+    "numeroTrazos": 7,
+    "nombre": "aka",
+    "furigana": "あか",
+    "significado": "rojo",
+    "kanjiOrigen": "赤"
+  },
+  {
+    "caracter": "臣",
+    "numeroTrazos": 7,
+    "nombre": "shin",
+    "furigana": "しん",
+    "significado": "ministro",
+    "kanjiOrigen": "臣"
+  },
+  {
+    "caracter": "⻗",
+    "numeroTrazos": 8,
+    "nombre": "amekanmuri",
+    "furigana": "あめかんむり",
+    "significado": "lluvia",
+    "kanjiOrigen": "雨"
+  },
+  {
+    "caracter": "釒",
+    "numeroTrazos": 8,
+    "nombre": "kanehen",
+    "furigana": "かねへん",
+    "significado": "metal",
+    "kanjiOrigen": "金"
+  },
+  {
+    "caracter": "門",
+    "numeroTrazos": 8,
+    "nombre": "mongamae",
+    "furigana": "もんがまえ",
+    "significado": "portón",
+    "kanjiOrigen": "門"
+  },
+  {
+    "caracter": "隹",
+    "numeroTrazos": 8,
+    "nombre": "furutori",
+    "furigana": "ふるとり",
+    "significado": "pájaro viejo",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "長",
+    "numeroTrazos": 8,
+    "nombre": "nagai",
+    "furigana": "ながい",
+    "significado": "largo",
+    "kanjiOrigen": "長"
+  },
+  {
+    "caracter": "㑒",
+    "numeroTrazos": 8,
+    "nombre": "ken",
+    "furigana": "けん",
+    "significado": "unánime",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "非",
+    "numeroTrazos": 8,
+    "nombre": "arazu",
+    "furigana": "あらず",
+    "significado": "negación",
+    "kanjiOrigen": "非"
+  },
+  {
+    "caracter": "頁",
+    "numeroTrazos": 9,
+    "nombre": "ōgai",
+    "furigana": "おおがい",
+    "significado": "cabeza",
+    "kanjiOrigen": "頁"
+  },
+  {
+    "caracter": "飠",
+    "numeroTrazos": 9,
+    "nombre": "shoku",
+    "furigana": "しょく",
+    "significado": "comer",
+    "kanjiOrigen": "食"
+  },
+  {
+    "caracter": "馬",
+    "numeroTrazos": 10,
+    "nombre": "umahen",
+    "furigana": "うまへん",
+    "significado": "caballo",
+    "kanjiOrigen": "馬"
+  },
+  {
+    "caracter": "𦰩",
+    "numeroTrazos": 10,
+    "nombre": "sumire",
+    "furigana": "すみれ",
+    "significado": "arcilla",
+    "kanjiOrigen": null
+  },
+  {
+    "caracter": "魚",
+    "numeroTrazos": 11,
+    "nombre": "sakanahen",
+    "furigana": "さかなへん",
+    "significado": "pez",
+    "kanjiOrigen": "魚"
+  }
+]
