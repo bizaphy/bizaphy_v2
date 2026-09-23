@@ -6088,6 +6088,12 @@
         "furigana": "くろさわあきら",
         "descripcion": "director de cine legendario (Los siete samurái, Rashōmon)",
         "tipo": "persona"
+      },
+      {
+        "nombre": "白井黒子",
+        "furigana": "しらいくろこ",
+        "descripcion": "teletransportadora de Judgment y devota \"onee-sama\" de Mikoto en Railgun",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
