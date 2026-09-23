@@ -82,7 +82,7 @@ Si el seed aborta:
   "kunyomi": "か.ける",
   "numeroTrazos": 9,
   "anioEscolarJapon": 3,
-  "radicales": ["目", "小"],
+  "radicales": ["目"],
   "fraseMnemotecnica": null,
   "urlImagenMnemotecnica": null,
   "destacado": false,
