@@ -26,7 +26,7 @@ function KanjiStrokeOrder({ caracter }: Props) {
   const sinImagen = srcFallido === src;
 
   return (
-    <div className="flex overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
+    <div className="flex overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
       <div className="flex items-center justify-center border-r border-zinc-700 px-2">
         <span className="rotate-180 font-mono text-xs tracking-widest text-fuchsia-300 [writing-mode:vertical-rl]">
           ORDEN DE TRAZOS

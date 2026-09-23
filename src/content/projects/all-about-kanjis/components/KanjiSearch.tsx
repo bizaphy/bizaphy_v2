@@ -42,7 +42,7 @@ export default function KanjiSearch({
         <div className="group flex items-center border-b border-zinc-800/80">
           <span
             aria-hidden
-            className="pointer-events-none flex h-10 w-10 shrink-0 items-center justify-center text-fuchsia-400/80"
+            className="pointer-events-none flex h-10 w-10 shrink-0 items-center justify-center text-violet-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

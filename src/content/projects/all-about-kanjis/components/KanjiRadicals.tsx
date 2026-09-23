@@ -13,8 +13,7 @@ type Props = {
 // las props no cambian.
 function KanjiRadicals({ radicales }: Props) {
   return (
-    // RADICALES: label arriba (no lateral) y sin borde/shadow fuchsia,
-    // solo fondo gris, para no sobresaturar el estilo del bloque vecino.
+    // RADICALES: label arriba (no lateral), sin borde, solo fondo gris.
     <div className="flex flex-col overflow-hidden rounded-md bg-zinc-900/60">
       <div className="flex items-center justify-center border-b border-zinc-700 py-2">
         <span className="font-mono text-xs tracking-widest text-zinc-400">
