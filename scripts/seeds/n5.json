@@ -360,10 +360,10 @@
     ],
     "nombres": [
       {
-        "nombre": "万田久子",
-        "furigana": "まんだひさこ",
-        "descripcion": "actriz japonesa contemporánea, ex-Miss Universe Japan 1978",
-        "tipo": "persona"
+        "nombre": "佐野万次郎",
+        "furigana": "さのまんじろう",
+        "descripcion": "\"Mikey\", líder invencible de la pandilla Tokyo Manji en Tokyo Revengers",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -701,10 +701,10 @@
     ],
     "nombres": [
       {
-        "nombre": "女神転生",
-        "furigana": "めがみてんせい",
-        "descripcion": "franquicia de RPG de Atlus desde 1987, madre de la saga Persona",
-        "tipo": "juego"
+        "nombre": "ああっ女神さまっ",
+        "furigana": "ああっめがみさまっ",
+        "descripcion": "manga y anime de Kōsuke Fujishima sobre un estudiante que convive con la diosa Belldandy",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -742,10 +742,10 @@
     ],
     "nombres": [
       {
-        "nombre": "松田聖子",
-        "furigana": "まつだせいこ",
-        "descripcion": "cantante idol icónica de los 80, referente del pop femenino japonés",
-        "tipo": "persona"
+        "nombre": "竈門禰豆子",
+        "furigana": "かまどねずこ",
+        "descripcion": "hermana de Tanjirō convertida en demonio, protagonista de Kimetsu no Yaiba",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -910,10 +910,10 @@
     ],
     "nombres": [
       {
-        "nombre": "中村勘三郎",
-        "furigana": "なかむらかんざぶろう",
-        "descripcion": "actor de kabuki, XVIII generación (1955-2012), renovador del género",
-        "tipo": "persona"
+        "nombre": "中島敦",
+        "furigana": "なかじまあつし",
+        "descripcion": "protagonista de Bungō Stray Dogs, huérfano que puede transformarse en tigre",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -992,10 +992,10 @@
     ],
     "nombres": [
       {
-        "nombre": "今田耕司",
-        "furigana": "いまだこうじ",
-        "descripcion": "comediante y presentador de TV, referente del owarai en Kansai",
-        "tipo": "persona"
+        "nombre": "今日から俺は!!",
+        "furigana": "きょうからおれは!!",
+        "descripcion": "manga de Hiroyuki Nishimori (1988-1997) sobre dos delincuentes escolares, con anime OVA y dorama",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1167,10 +1167,10 @@
     ],
     "nombres": [
       {
-        "nombre": "午後の曳航",
-        "furigana": "ごごのえいこう",
-        "descripcion": "novela de Yukio Mishima (1963) sobre un marinero y un niño de Yokohama",
-        "tipo": "libro"
+        "nombre": "勇午 〜交渉人〜",
+        "furigana": "ゆうご〜こうしょうにん〜",
+        "descripcion": "anime (2002) sobre Yūgo Beppu, negociador profesional en secuestros y conflictos internacionales",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1212,10 +1212,10 @@
     ],
     "nombres": [
       {
-        "nombre": "友近",
-        "furigana": "ともちか",
-        "descripcion": "comediante japonesa reconocida por sus imitaciones y personajes",
-        "tipo": "persona"
+        "nombre": "夏目友人帳",
+        "furigana": "なつめゆうじんちょう",
+        "descripcion": "anime sobre Takashi Natsume, un chico que ve yōkai y les devuelve sus nombres",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1257,10 +1257,10 @@
     ],
     "nombres": [
       {
-        "nombre": "天海祐希",
-        "furigana": "あまみゆうき",
-        "descripcion": "actriz japonesa, ex-top male role de la Takarazuka Revue",
-        "tipo": "persona"
+        "nombre": "天元突破グレンラガン",
+        "furigana": "てんげんとっぱグレンラガン",
+        "descripcion": "anime mecha de Gainax (2007) protagonizado por Simon y Kamina",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1723,9 +1723,9 @@
     ],
     "nombres": [
       {
-        "nombre": "半沢直樹",
-        "furigana": "はんざわなおき",
-        "descripcion": "protagonista bancario de la dorama homónima (2013, 2020) basada en novelas de Jun Ikeido",
+        "nombre": "半田清舟",
+        "furigana": "はんだせいしゅう",
+        "descripcion": "calígrafo protagonista de Barakamon, enviado a vivir a una isla de Gotō",
         "tipo": "personaje"
       }
     ],
@@ -1812,9 +1812,9 @@
     ],
     "nombres": [
       {
-        "nombre": "杉下右京",
-        "furigana": "すぎしたうきょう",
-        "descripcion": "detective protagonista de la dorama Aibō (2000-), interpretado por Yutaka Mizutani",
+        "nombre": "右代宮戦人",
+        "furigana": "うしろみやばとら",
+        "descripcion": "protagonista de Umineko no Naku Koro ni, que desafía a la bruja Beatrice",
         "tipo": "personaje"
       }
     ],
@@ -1904,10 +1904,10 @@
     ],
     "nombres": [
       {
-        "nombre": "外山滋比古",
-        "furigana": "とやましげひこ",
-        "descripcion": "erudito de literatura inglesa (1923-2020), autor del ensayo Shikō no Seirigaku",
-        "tipo": "persona"
+        "nombre": "銀河英雄伝説外伝",
+        "furigana": "ぎんがえいゆうでんせつがいでん",
+        "descripcion": "precuelas de Legend of the Galactic Heroes sobre la juventud de Reinhard y Yang",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -2293,7 +2293,7 @@
         "nombre": "一休さん",
         "furigana": "いっきゅうさん",
         "descripcion": "monje zen Ikkyū Sōjun (1394-1481) y serie anime clásica basada en su vida",
-        "tipo": "persona"
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2379,10 +2379,10 @@
     ],
     "nombres": [
       {
-        "nombre": "先崎学",
-        "furigana": "せんざきまなぶ",
-        "descripcion": "shogi profesional y ensayista, autor de Utsu-byō Kyūdan sobre su depresión",
-        "tipo": "persona"
+        "nombre": "先輩がうざい後輩の話",
+        "furigana": "せんぱいがうざいこうはいのはなし",
+        "descripcion": "comedia romántica de oficina (anime 2021) entre Futaba Igarashi y su senpai Takeda",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2467,10 +2467,10 @@
     ],
     "nombres": [
       {
-        "nombre": "多部未華子",
-        "furigana": "たべみかこ",
-        "descripcion": "actriz japonesa contemporánea (Nodame Cantabile, Watashi no Otokonoko)",
-        "tipo": "persona"
+        "nombre": "喜多郁代",
+        "furigana": "きたいくよ",
+        "descripcion": "guitarrista y vocalista de Kessoku Band en Bocchi the Rock!",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2555,10 +2555,10 @@
     ],
     "nombres": [
       {
-        "nombre": "三年B組金八先生",
-        "furigana": "さんねんびーぐみきんぱちせんせい",
-        "descripcion": "dorama escolar de TBS (1979-2011) con Tetsuya Takeda como profesor",
-        "tipo": "dorama"
+        "nombre": "千年女優",
+        "furigana": "せんねんじょゆう",
+        "descripcion": "película de Satoshi Kon (2001) sobre una actriz retirada que recorre su vida y la historia de Japón",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2645,10 +2645,10 @@
     ],
     "nombres": [
       {
-        "nombre": "気まぐれオレンジ☆ロード",
-        "furigana": "きまぐれオレンジ☆ロード",
-        "descripcion": "manga romántico de Izumi Matsumoto (1984-1987) publicado en Shōnen Jump",
-        "tipo": "manga"
+        "nombre": "天気の子",
+        "furigana": "てんきのこ",
+        "descripcion": "película de Makoto Shinkai (2019) sobre una chica que puede despejar la lluvia",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3034,10 +3034,10 @@
     ],
     "nombres": [
       {
-        "nombre": "見取り図",
-        "furigana": "みとりず",
-        "descripcion": "dúo cómico de manzai formado por Morishige y Riri, de Yoshimoto Kōgyō",
-        "tipo": "persona"
+        "nombre": "見える子ちゃん",
+        "furigana": "みえるこちゃん",
+        "descripcion": "anime (2021) sobre Miko, una estudiante que ve espíritus y finge no verlos",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3158,10 +3158,10 @@
     ],
     "nombres": [
       {
-        "nombre": "車田正美",
-        "furigana": "くるまだまさみ",
-        "descripcion": "mangaka creador de Saint Seiya (Los Caballeros del Zodiaco) y Ring ni Kakero",
-        "tipo": "persona"
+        "nombre": "日車寛見",
+        "furigana": "ひぐるまひろみ",
+        "descripcion": "abogado convertido en hechicero en Jujutsu Kaisen, juez del Culling Game",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -3252,7 +3252,7 @@
         "nombre": "学校の怪談",
         "furigana": "がっこうのかいだん",
         "descripcion": "serie de películas y anime de terror escolar de los 90 basada en libros de Tōru Tsunemitsu",
-        "tipo": "pelicula"
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3388,8 +3388,8 @@
       {
         "nombre": "空の境界",
         "furigana": "からのきょうかい",
-        "descripcion": "light novel de Kinoko Nasu (1998), primer trabajo del universo Type-Moon",
-        "tipo": "libro"
+        "descripcion": "light novel de Kinoko Nasu (1998), primer trabajo de Type-Moon, adaptada en películas por ufotable",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3597,10 +3597,10 @@
     ],
     "nombres": [
       {
-        "nombre": "南沙織",
-        "furigana": "みなみさおり",
-        "descripcion": "cantante icónica de los 70, primera aidoru moderna, esposa del fotógrafo Kishin Shinoyama",
-        "tipo": "persona"
+        "nombre": "浅倉南",
+        "furigana": "あさくらみなみ",
+        "descripcion": "heroína de Touch de Mitsuru Adachi, mánager del equipo de béisbol",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -3727,10 +3727,10 @@
     ],
     "nombres": [
       {
-        "nombre": "時任三郎",
-        "furigana": "ときとうさぶろう",
-        "descripcion": "actor japonés veterano, protagonista de doramas policiacos y familiares",
-        "tipo": "persona"
+        "nombre": "時をかける少女",
+        "furigana": "ときをかけるしょうじょ",
+        "descripcion": "película de Mamoru Hosoda (2006) sobre una chica que puede saltar en el tiempo",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3772,10 +3772,10 @@
     ],
     "nombres": [
       {
-        "nombre": "書道ガールズ",
-        "furigana": "しょどうガールズ",
-        "descripcion": "film japonés (2010) sobre el concurso de performance de caligrafía escolar en Shikoku",
-        "tipo": "pelicula"
+        "nombre": "幽☆遊☆白書",
+        "furigana": "ゆうゆうはくしょ",
+        "descripcion": "manga de Yoshihiro Togashi (1990-1994) sobre Yūsuke Urameshi, detective del mundo espiritual",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -3996,10 +3996,10 @@
     ],
     "nombres": [
       {
-        "nombre": "買物ブギ",
-        "furigana": "かいものブギ",
-        "descripcion": "canción cómica de 1950 de Shizuko Kasagi, gran éxito de la posguerra japonesa",
-        "tipo": "musica"
+        "nombre": "ヨコハマ買い出し紀行",
+        "furigana": "ヨコハマかいだしきこう",
+        "descripcion": "manga de Hitoshi Ashinano (1994-2006) sobre la androide Alpha en un Japón apacible y en declive",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4267,10 +4267,10 @@
     ],
     "nombres": [
       {
-        "nombre": "電車男",
-        "furigana": "でんしゃおとこ",
-        "descripcion": "novela basada en un hilo de 2ch (2004) sobre un otaku y una oficinista, múltiples adaptaciones",
-        "tipo": "libro"
+        "nombre": "とある科学の超電磁砲",
+        "furigana": "とあるかがくのレールガン",
+        "descripcion": "anime (2009) protagonizado por Mikoto Misaka, la Railgun de Ciudad Académica",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4312,10 +4312,10 @@
     ],
     "nombres": [
       {
-        "nombre": "新聞記者",
-        "furigana": "しんぶんきしゃ",
-        "descripcion": "film de Michihito Fujii (2019) sobre corrupción política, ganador del Japan Academy Prize",
-        "tipo": "pelicula"
+        "nombre": "恐怖新聞",
+        "furigana": "きょうふしんぶん",
+        "descripcion": "manga de terror de Jirō Tsunoda (1973) sobre un periódico que anuncia desgracias; anime OVA en 1991",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4448,10 +4448,10 @@
     ],
     "nombres": [
       {
-        "nombre": "駅前シリーズ",
-        "furigana": "えきまえシリーズ",
-        "descripcion": "saga de comedias Ekimae (1958-1969) con Hisaya Morishige, Frankie Sakai y Keiju Kobayashi",
-        "tipo": "pelicula"
+        "nombre": "MINKY MOMO in 旅立ちの駅",
+        "furigana": "MINKY MOMO in たびだちのえき",
+        "descripcion": "película (1985) que cierra la serie original de Magical Princess Minky Momo",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
