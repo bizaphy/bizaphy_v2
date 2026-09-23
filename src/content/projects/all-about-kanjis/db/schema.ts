@@ -51,6 +51,8 @@ export const personasFamosas = pgTable("personas_famosas", {
     .notNull()
     .references(() => kanji.id),
   nombre: text("nombre").notNull(),
+  // Nullable: si la lectura del nombre no es segura, la UI muestra solo el nombre.
+  furigana: text("furigana"),
   descripcion: text("descripcion"),
 });
 

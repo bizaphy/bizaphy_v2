@@ -4,7 +4,7 @@
 // de detalle (KanjiDisplay + KanjiDisplayImgs). Mantiene el nivel seleccionado
 // y el kanji actualmente enfocado, ambos entre los precargados del servidor.
 
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useMemo, useState, useTransition } from "react";
 import KanjiCardList from "./KanjiCardList";
 import KanjiDisplay from "./KanjiDisplay";
 import KanjiDisplayImgs from "./KanjiDisplayImgs";
@@ -88,9 +88,10 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
     kanjis[0]?.id ?? null,
   );
 
-  useEffect(() => {
-    setSeleccionadoId(kanjisPorNivel[nivel][0]?.id ?? null);
-  }, [nivel, kanjisPorNivel]);
+  const cambiarNivel = (nuevo: NivelDisponible) => {
+    setNivel(nuevo);
+    setSeleccionadoId(kanjisPorNivel[nuevo][0]?.id ?? null);
+  };
 
   const seleccionado = useMemo(
     () => kanjis.find((k) => k.id === seleccionadoId) ?? null,
@@ -108,7 +109,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
 
   return (
     <>
-      <KanjiLevelsPanel selected={nivel} onSelect={setNivel} />
+      <KanjiLevelsPanel selected={nivel} onSelect={cambiarNivel} />
       <KanjiSearch
         value={busqueda}
         onChange={setBusqueda}
@@ -119,7 +120,10 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
         trazos={trazos}
         onTrazosChange={setTrazos}
       />
+      {/* La key reinicia la paginacion al cambiar nivel o filtros, pero no al
+          marcar un kanji como destacado. */}
       <KanjiCardList
+        key={`${nivel}|${busqueda}|${soloDestacados}|${anio}|${trazos}`}
         kanjis={kanjisFiltrados}
         selectedId={seleccionadoId}
         onSelect={(k) => setSeleccionadoId(k.id)}

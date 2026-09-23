@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import KanjiCard from "./KanjiCard";
 import type { KanjiEnListado } from "../db/queries";
 
@@ -17,15 +17,15 @@ export default function KanjiCardList({
   selectedId,
   onSelect,
 }: Props) {
-  const [page, setPage] = useState(0);
-
-  // Al cambiar la lista (por cambio de nivel), volver a la primera pagina.
-  useEffect(() => {
-    setPage(0);
-  }, [kanjis]);
+  // El padre remonta este componente (via key) al cambiar nivel o filtros,
+  // asi que la pagina vuelve a 0 sin necesidad de un efecto.
+  const [pageState, setPage] = useState(0);
 
   const total = kanjis.length;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  // Si la lista se achica (p. ej. quitar un destacado con el filtro activo),
+  // la pagina guardada puede quedar fuera de rango.
+  const page = Math.min(pageState, totalPages - 1);
   const start = page * PAGE_SIZE;
   const visibles = kanjis.slice(start, start + PAGE_SIZE);
   const rangoDesde = total === 0 ? 0 : start + 1;
@@ -50,7 +50,7 @@ export default function KanjiCardList({
         <div className="flex items-center gap-3">
           <button
             type="button"
-            onClick={() => setPage((p) => Math.max(0, p - 1))}
+            onClick={() => setPage(Math.max(0, page - 1))}
             disabled={!hayAnterior}
             aria-label="Pagina anterior"
             className="flex h-7 w-7 items-center justify-center rounded border border-fuchsia-500/50 bg-zinc-900 text-fuchsia-300 shadow-[0_0_6px_rgba(217,70,239,0.35)] transition hover:border-fuchsia-400 hover:text-white hover:shadow-[0_0_10px_rgba(217,70,239,0.6)] disabled:cursor-not-allowed disabled:border-zinc-700 disabled:bg-zinc-800 disabled:text-zinc-600 disabled:shadow-none"
@@ -64,7 +64,7 @@ export default function KanjiCardList({
           </span>
           <button
             type="button"
-            onClick={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
+            onClick={() => setPage(Math.min(totalPages - 1, page + 1))}
             disabled={!haySiguiente}
             aria-label="Pagina siguiente"
             className="flex h-7 w-7 items-center justify-center rounded border border-fuchsia-500/50 bg-zinc-900 text-fuchsia-300 shadow-[0_0_6px_rgba(217,70,239,0.35)] transition hover:border-fuchsia-400 hover:text-white hover:shadow-[0_0_10px_rgba(217,70,239,0.6)] disabled:cursor-not-allowed disabled:border-zinc-700 disabled:bg-zinc-800 disabled:text-zinc-600 disabled:shadow-none"

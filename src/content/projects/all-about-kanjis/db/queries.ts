@@ -69,7 +69,7 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
         orderBy: (p, { asc }) => [asc(p.palabra)],
       },
       personas: {
-        columns: { nombre: true, descripcion: true },
+        columns: { nombre: true, furigana: true, descripcion: true },
         orderBy: (p, { asc }) => [asc(p.nombre)],
       },
       kanjiTrapsDesde: {

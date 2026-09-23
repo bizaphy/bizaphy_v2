@@ -2,6 +2,7 @@ import Image from "next/image";
 
 type Persona = {
   nombre: string;
+  furigana?: string | null;
   descripcion?: string | null;
   urlImagen?: string | null;
 };
@@ -45,9 +46,20 @@ export default function KanjiExtras({ personas, palabras }: Props) {
                   )}
                 </div>
                 <div className="flex min-w-0 flex-col gap-1">
-                  <span className="font-mono text-sm text-fuchsia-200 lg:text-base">
+                  <a
+                    href={`https://www.google.com/search?q=${encodeURIComponent(p.nombre)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={`Buscar ${p.nombre} en Google`}
+                    className="w-fit font-mono text-sm text-fuchsia-200 underline decoration-fuchsia-500/40 underline-offset-4 transition hover:text-white hover:decoration-fuchsia-300 lg:text-base"
+                  >
                     {p.nombre}
-                  </span>
+                  </a>
+                  {p.furigana && (
+                    <span className="font-mono text-xs text-fuchsia-300/80">
+                      {p.furigana}
+                    </span>
+                  )}
                   {p.descripcion && (
                     <span className="line-clamp-3 text-xs leading-snug text-zinc-400">
                       {p.descripcion}
