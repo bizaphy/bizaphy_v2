@@ -73,8 +73,8 @@
       {
         "nombre": "刀剣乱舞",
         "furigana": "とうけんらんぶ",
-        "descripcion": "juego en el que espadas históricas japonesas toman forma humana",
-        "tipo": "juego"
+        "descripcion": "franquicia (2015) de espadas históricas personificadas, con varias series de anime",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -151,10 +151,10 @@
     ],
     "nombres": [
       {
-        "nombre": "士郎正宗",
-        "furigana": "しろうまさむね",
-        "descripcion": "mangaka creador de Ghost in the Shell y Appleseed",
-        "tipo": "persona"
+        "nombre": "大谷敦士",
+        "furigana": "おおたにあつし",
+        "descripcion": "protagonista de Lovely★Complex, el chico bajito que forma dúo cómico con Risa",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -361,8 +361,8 @@
       {
         "nombre": "化物語",
         "furigana": "ばけものがたり",
-        "descripcion": "novela ligera de Nisio Isin, inicio de la serie Monogatari",
-        "tipo": "libro"
+        "descripcion": "novela ligera de Nisio Isin (2006), adaptada al anime por Shaft en 2009",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -443,10 +443,10 @@
     ],
     "nombres": [
       {
-        "nombre": "赤塚不二夫",
-        "furigana": "あかつかふじお",
-        "descripcion": "mangaka, el rey del manga de gag, creador de Osomatsu-kun",
-        "tipo": "persona"
+        "nombre": "尾白猿夫",
+        "furigana": "おじろましらお",
+        "descripcion": "estudiante de la clase 1-A en Boku no Hero Academia, experto en artes marciales con cola",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -973,9 +973,9 @@
     ],
     "nombres": [
       {
-        "nombre": "エヴァンゲリオン初号機",
-        "furigana": "エヴァンゲリオンしょごうき",
-        "descripcion": "robot que pilota Shinji Ikari en Neon Genesis Evangelion",
+        "nombre": "ミサカ10032号",
+        "furigana": "ミサカ10032ごう",
+        "descripcion": "clon de Mikoto Misaka en To Aru Majutsu no Index, conocida como Misaka Imōto",
         "tipo": "personaje"
       }
     ],
@@ -1096,8 +1096,8 @@
       {
         "nombre": "人間失格",
         "furigana": "にんげんしっかく",
-        "descripcion": "novela de Osamu Dazai",
-        "tipo": "libro"
+        "descripcion": "novela de Osamu Dazai (1948), adaptada al anime en Aoi Bungaku y en la película Human Lost",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1220,8 +1220,8 @@
       {
         "nombre": "打ち上げ花火、下から見るか？横から見るか？",
         "furigana": "うちあげはなび、したからみるか？よこからみるか？",
-        "descripcion": "drama de Shunji Iwai (1993), adaptado a anime en 2017",
-        "tipo": "dorama"
+        "descripcion": "película de anime de Shaft (2017), basada en el telefilme de Shunji Iwai (1993)",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1343,10 +1343,10 @@
     ],
     "nombres": [
       {
-        "nombre": "氷川きよし",
-        "furigana": "ひかわきよし",
-        "descripcion": "cantante de enka, debutó en 2000 con Hakone Hachiri no Hanjirō",
-        "tipo": "persona"
+        "nombre": "風斬氷華",
+        "furigana": "かざきりひょうか",
+        "descripcion": "chica misteriosa de To Aru Majutsu no Index, amiga de Index",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1593,10 +1593,10 @@
     ],
     "nombres": [
       {
-        "nombre": "矢沢永吉",
-        "furigana": "やざわえいきち",
-        "descripcion": "ícono del rock japonés",
-        "tipo": "persona"
+        "nombre": "矢野あやね",
+        "furigana": "やのあやね",
+        "descripcion": "amiga de Sawako en Kimi ni Todoke, franca y experta en romance",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2205,10 +2205,10 @@
     ],
     "nombres": [
       {
-        "nombre": "向井理",
-        "furigana": "むかいおさむ",
-        "descripcion": "actor japonés",
-        "tipo": "persona"
+        "nombre": "日向翔陽",
+        "furigana": "ひなたしょうよう",
+        "descripcion": "protagonista de Haikyū!!, rematador bajito del equipo de Karasuno",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2935,10 +2935,10 @@
     ],
     "nombres": [
       {
-        "nombre": "堀江由衣",
-        "furigana": "ほりえゆい",
-        "descripcion": "seiyū y cantante, voz de Tsubasa Hanekawa (Monogatari), Tohru Honda (Fruits Basket 2001) y Naru Narusegawa (Love Hina)",
-        "tipo": "persona"
+        "nombre": "春原芽衣",
+        "furigana": "すのはらめい",
+        "descripcion": "hermana menor de Yōhei en Clannad, mucho más madura que él",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -3378,10 +3378,10 @@
     ],
     "nombres": [
       {
-        "nombre": "告白",
-        "furigana": "こくはく",
-        "descripcion": "novela de Kanae Minato (película en 2010)",
-        "tipo": "libro"
+        "nombre": "かぐや様は告らせたい",
+        "furigana": "かぐやさまはこくらせたい",
+        "descripcion": "anime (2019) donde dos genios del consejo estudiantil quieren que el otro se declare",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -4470,9 +4470,9 @@
     ],
     "nombres": [
       {
-        "nombre": "麦わらの一味",
-        "furigana": "むぎわらのいちみ",
-        "descripcion": "la tripulación de Luffy en ONE PIECE",
+        "nombre": "麦野沈利",
+        "furigana": "むぎのしずり",
+        "descripcion": "líder de ITEM y Level 5 número cuatro en To Aru Kagaku no Railgun",
         "tipo": "personaje"
       }
     ],
@@ -4956,10 +4956,10 @@
     ],
     "nombres": [
       {
-        "nombre": "和田アキ子",
-        "furigana": "わだアキこ",
-        "descripcion": "cantante y presentadora de TV",
-        "tipo": "persona"
+        "nombre": "大和凜子",
+        "furigana": "やまとりんこ",
+        "descripcion": "heroína de Ore Monogatari!!, enamorada del gigantón Takeo",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4997,10 +4997,10 @@
     ],
     "nombres": [
       {
-        "nombre": "固技",
-        "furigana": "かためわざ",
-        "descripcion": "técnicas de inmovilización en el suelo del judo (katame-waza)",
-        "tipo": "otro"
+        "nombre": "固法美偉",
+        "furigana": "このりみい",
+        "descripcion": "senpai de Kuroko en Judgment, en To Aru Kagaku no Railgun",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -5281,10 +5281,10 @@
     ],
     "nombres": [
       {
-        "nombre": "岸本斉史",
-        "furigana": "きしもとまさし",
-        "descripcion": "mangaka creador de Naruto",
-        "tipo": "persona"
+        "nombre": "岸辺露伴",
+        "furigana": "きしべろはん",
+        "descripcion": "mangaka con el Stand Heaven's Door en JoJo no Kimyō na Bōken",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -5527,10 +5527,10 @@
     ],
     "nombres": [
       {
-        "nombre": "放課後ティータイム",
-        "furigana": "ほうかごティータイム",
-        "descripcion": "banda ficticia del anime K-On!",
-        "tipo": "personaje"
+        "nombre": "放浪息子",
+        "furigana": "ほうろうむすこ",
+        "descripcion": "anime (2011) sobre dos niños que exploran su identidad de género",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -6775,10 +6775,10 @@
     ],
     "nombres": [
       {
-        "nombre": "柱 (Kimetsu no Yaiba)",
-        "furigana": "はしら",
-        "descripcion": "los Pilares, cazadores de demonios de élite de Kimetsu no Yaiba",
-        "tipo": "personaje"
+        "nombre": "鬼滅の刃 柱稽古編",
+        "furigana": "きめつのやいばはしらげいこへん",
+        "descripcion": "temporada de Kimetsu no Yaiba (2024) donde los Pilares entrenan a los cazadores",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -7061,10 +7061,10 @@
     ],
     "nombres": [
       {
-        "nombre": "相葉雅紀",
-        "furigana": "あいばまさき",
-        "descripcion": "cantante y actor, miembro del grupo Arashi",
-        "tipo": "persona"
+        "nombre": "相澤消太",
+        "furigana": "あいざわしょうた",
+        "descripcion": "Eraser Head, profesor de la clase 1-A en Boku no Hero Academia",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -7263,8 +7263,8 @@
     ],
     "nombres": [
       {
-        "nombre": "秒速5センチメートル",
-        "furigana": "びょうそくごセンチメートル",
+        "nombre": "秒速５センチメートル",
+        "furigana": "びょうそく５センチメートル",
         "descripcion": "película de Makoto Shinkai (2007)",
         "tipo": "anime"
       }
@@ -7583,10 +7583,10 @@
     ],
     "nombres": [
       {
-        "nombre": "負けないで",
-        "furigana": "まけないで",
-        "descripcion": "canción de ZARD (1993)",
-        "tipo": "musica"
+        "nombre": "負けヒロインが多すぎる！",
+        "furigana": "まけヒロインがおおすぎる！",
+        "descripcion": "anime (2024) sobre un chico rodeado de chicas que perdieron en el amor",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -9800,10 +9800,10 @@
     ],
     "nombres": [
       {
-        "nombre": "望月の歌",
-        "furigana": "もちづきのうた",
-        "descripcion": "poema de Fujiwara no Michinaga (1018) que compara su poder con la luna llena",
-        "tipo": "libro"
+        "nombre": "さよなら絶望先生",
+        "furigana": "さよならぜつぼうせんせい",
+        "descripcion": "anime de Shaft (2007) sobre un profesor que se desespera por todo",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -10164,10 +10164,10 @@
     ],
     "nombres": [
       {
-        "nombre": "第九",
-        "furigana": "だいく",
-        "descripcion": "la Novena de Beethoven, tradición de diciembre en Japón",
-        "tipo": "musica"
+        "nombre": "転生したら第七王子だったので、気ままに魔術を極めます",
+        "furigana": "てんせいしたらだいななおうじだったので、きままにまじゅつをきわめます",
+        "descripcion": "anime isekai (2024) sobre Lloyd, un príncipe obsesionado con la magia",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -10488,10 +10488,10 @@
     ],
     "nombres": [
       {
-        "nombre": "水戸黄門",
-        "furigana": "みとこうもん",
-        "descripcion": "Tokugawa Mitsukuni y la serie de TV sobre él",
-        "tipo": "persona"
+        "nombre": "黄泉川愛穂",
+        "furigana": "よみかわあいほ",
+        "descripcion": "profesora y miembro de Anti-Skill en To Aru Majutsu no Index",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -10691,9 +10691,9 @@
     ],
     "nombres": [
       {
-        "nombre": "花散里",
-        "furigana": "はなちるさと",
-        "descripcion": "personaje de La historia de Genji",
+        "nombre": "散華礼弥",
+        "furigana": "さんかれあ",
+        "descripcion": "heroína de Sankarea, chica de familia estricta que se vuelve zombi",
         "tipo": "personaje"
       }
     ],
@@ -11971,10 +11971,10 @@
     ],
     "nombres": [
       {
-        "nombre": "井上陽水",
-        "furigana": "いのうえようすい",
-        "descripcion": "cantautor japonés",
-        "tipo": "persona"
+        "nombre": "春原陽平",
+        "furigana": "すのはらようへい",
+        "descripcion": "amigo inseparable y bromista de Tomoya en Clannad",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -12255,10 +12255,10 @@
     ],
     "nombres": [
       {
-        "nombre": "空想科学読本",
-        "furigana": "くうそうかがくどくほん",
-        "descripcion": "libros que analizan con ciencia real el anime y el tokusatsu",
-        "tipo": "libro"
+        "nombre": "妄想代理人",
+        "furigana": "もうそうだいりにん",
+        "descripcion": "serie de Satoshi Kon (2004) sobre un misterioso agresor con un bate",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -12376,10 +12376,10 @@
     ],
     "nombres": [
       {
-        "nombre": "戦国時代",
-        "furigana": "せんごくじだい",
-        "descripcion": "período de guerras civiles de Japón (siglos XV-XVI)",
-        "tipo": "otro"
+        "nombre": "戦国BASARA",
+        "furigana": "せんごくバサラ",
+        "descripcion": "anime de acción (2009) con los señores de la guerra del período Sengoku",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -12575,10 +12575,10 @@
     ],
     "nombres": [
       {
-        "nombre": "連続テレビ小説",
-        "furigana": "れんぞくテレビしょうせつ",
-        "descripcion": "las asadora, telenovelas matutinas de NHK",
-        "tipo": "dorama"
+        "nombre": "続 夏目友人帳",
+        "furigana": "ぞくなつめゆうじんちょう",
+        "descripcion": "segunda temporada (2009) de Natsume Yūjinchō",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -12698,10 +12698,10 @@
     ],
     "nombres": [
       {
-        "nombre": "詩吟",
-        "furigana": "しぎん",
-        "descripcion": "recitación cantada de poesía china",
-        "tipo": "otro"
+        "nombre": "霞ヶ丘詩羽",
+        "furigana": "かすみがおかうたは",
+        "descripcion": "escritora de novelas ligeras en Saenai Heroine no Sodatekata",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [

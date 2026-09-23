@@ -43,3 +43,6 @@ next-env.d.ts
 
 # guidelines                                                                                                                   
 **/guidelines/  
+
+# referencias locales (listas de consulta, no se suben)
+scripts/referencias/
