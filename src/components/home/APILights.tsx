@@ -8,6 +8,7 @@ type Status = "loading" | "ok" | "down";
 type APIEntry = {
   name: string;
   url: string;
+  init?: RequestInit; // opcional: para APIs que no se consultan con un GET simple (ej: GraphQL)
 };
 
 const APIS: APIEntry[] = [
@@ -23,6 +24,22 @@ const APIS: APIEntry[] = [
     //REST summary de Wikipedia en español (la usa Hangman al ganar para traer imagen + link)
     name: "Wikipedia ES",
     url: "https://es.wikipedia.org/api/rest_v1/page/summary/Santiago_de_Chile",
+  },
+  {
+    //REST summary de Wikipedia en japonés (la usa All About Kanjis para las imágenes de nombres famosos)
+    name: "Wikipedia JP",
+    url: "https://ja.wikipedia.org/api/rest_v1/page/summary/%E6%9D%B1%E4%BA%AC", // 東京
+  },
+  {
+    //GraphQL de AniList (All About Kanjis: portadas de anime/manga e imágenes de personajes).
+    //Solo acepta POST, por eso lleva init; la query pide lo mínimo posible.
+    name: "AniList",
+    url: "https://graphql.anilist.co",
+    init: {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ query: "{ Media(id: 1) { id } }" }),
+    },
   },
 ];
 //El type record (K,V) tiene su key en K y su valor en V. En este caso la key es el Status.
@@ -49,7 +66,10 @@ export default function APILights() {
     APIS.forEach(async (api) => {
       try {
         // timeout de 5s para no quedarse colgado si la API tarda o no responde
-        const res = await fetch(api.url, { signal: AbortSignal.timeout(5000) });
+        const res = await fetch(api.url, {
+          ...api.init,
+          signal: AbortSignal.timeout(5000),
+        });
         // forma funcional para no pisar el estado de las otras APIs que ya resolvieron
         setStatuses((prev) => ({
           ...prev,
