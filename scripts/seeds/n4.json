@@ -28,11 +28,12 @@
         "traduccion": "cooperación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "力道山",
         "furigana": "りきどうざん",
-        "descripcion": "luchador profesional legendario de la posguerra japonesa (1924-1963)"
+        "descripcion": "luchador profesional legendario de la posguerra japonesa (1924-1963)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -69,11 +70,12 @@
         "traduccion": "sol del atardecer"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "夕立",
         "furigana": "ゆうだち",
-        "descripcion": "destructor personificado como chica del juego Kantai Collection"
+        "descripcion": "destructor personificado como chica del juego Kantai Collection",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -109,11 +111,12 @@
         "traduccion": "carpintero"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "工藤静香",
         "furigana": "くどうしずか",
-        "descripcion": "cantante, ex integrante de Onyanko Club"
+        "descripcion": "cantante, ex integrante de Onyanko Club",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -149,11 +152,12 @@
         "traduccion": "misterioso / extraño"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "藤子・F・不二雄",
         "furigana": "ふじこ・エフ・ふじお",
-        "descripcion": "mangaka (1933-1996) creador de Doraemon, Perman y Kiteretsu Daihyakka"
+        "descripcion": "mangaka (1933-1996) creador de Doraemon, Perman y Kiteretsu Daihyakka",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -189,11 +193,12 @@
         "traduccion": "lugar de origen / localidad"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "中元すず香",
         "furigana": "なかもとすずか",
-        "descripcion": "SU-METAL, vocalista de BABYMETAL"
+        "descripcion": "SU-METAL, vocalista de BABYMETAL",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -229,11 +234,12 @@
         "traduccion": "funcionario público"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "公文公",
         "furigana": "くもんとおる",
-        "descripcion": "fundador del método educativo Kumon (1914-1995)"
+        "descripcion": "fundador del método educativo Kumon (1914-1995)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -269,11 +275,12 @@
         "traduccion": "billete / boleto"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "切腹",
         "furigana": "せっぷく",
-        "descripcion": "film clásico de Masaki Kobayashi (1962) sobre un samurái en un tribunal Edo"
+        "descripcion": "film clásico de Masaki Kobayashi (1962) sobre un samurái en un tribunal Edo",
+        "tipo": "pelicula"
       }
     ],
     "relacionadosCon": [
@@ -309,11 +316,12 @@
         "traduccion": "distinción"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "東京23区",
         "furigana": "とうきょうにじゅうさんく",
-        "descripcion": "los 23 distritos especiales del centro de Tokio"
+        "descripcion": "los 23 distritos especiales del centro de Tokio",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -349,11 +357,12 @@
         "traduccion": "tronco"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "太宰治",
         "furigana": "だざいおさむ",
-        "descripcion": "novelista clásico (Ningen Shikkaku, Hashire Melos), suicida en 1948"
+        "descripcion": "novelista clásico (Ningen Shikkaku, Hashire Melos), suicida en 1948",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -390,11 +399,12 @@
         "traduccion": "descuento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "引田天功",
         "furigana": "ひきたてんこう",
-        "descripcion": "ilusionista japonesa conocida internacionalmente como Princess Tenko"
+        "descripcion": "ilusionista japonesa conocida internacionalmente como Princess Tenko",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -430,11 +440,12 @@
         "traduccion": "tranquilidad"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "緋村剣心",
         "furigana": "ひむらけんしん",
-        "descripcion": "espadachín protagonista del manga/anime Rurouni Kenshin"
+        "descripcion": "espadachín protagonista del manga/anime Rurouni Kenshin",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -470,11 +481,12 @@
         "traduccion": "gramática"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "菅原文太",
         "furigana": "すがわらぶんた",
-        "descripcion": "actor de Jingi naki tatakai y voz de Kamaji en El viaje de Chihiro (1933-2014)"
+        "descripcion": "actor de Jingi naki tatakai y voz de Kamaji en El viaje de Chihiro (1933-2014)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -511,11 +523,12 @@
         "traduccion": "ambos lados"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "北方謙三",
         "furigana": "きたかたけんぞう",
-        "descripcion": "novelista de crímenes y sagas históricas contemporáneo"
+        "descripcion": "novelista de crímenes y sagas históricas contemporáneo",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -551,11 +564,12 @@
         "traduccion": "prohibición"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "遣唐使の廃止",
         "furigana": "けんとうしのはいし",
-        "descripcion": "fin de las misiones japonesas a la China Tang (894), propuesto por Sugawara no Michizane"
+        "descripcion": "fin de las misiones japonesas a la China Tang (894), propuesto por Sugawara no Michizane",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -592,11 +606,12 @@
         "traduccion": "búfalo de agua"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "牛若丸",
         "furigana": "うしわかまる",
-        "descripcion": "nombre de infancia de Minamoto no Yoshitsune, héroe del período Heian"
+        "descripcion": "nombre de infancia de Minamoto no Yoshitsune, héroe del período Heian",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -632,11 +647,12 @@
         "traduccion": "perro guardián"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "犬養毅",
         "furigana": "いぬかいつよし",
-        "descripcion": "primer ministro asesinado en el incidente del 15 de mayo de 1932"
+        "descripcion": "primer ministro asesinado en el incidente del 15 de mayo de 1932",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -673,11 +689,12 @@
         "traduccion": "generación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "世阿弥",
         "furigana": "ぜあみ",
-        "descripcion": "dramaturgo Noh (~1363-1443), autor de Fūshi Kaden"
+        "descripcion": "dramaturgo Noh (~1363-1443), autor de Fūshi Kaden",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -711,11 +728,12 @@
         "traduccion": "protagonista"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "中村主水",
         "furigana": "なかむらもんど",
-        "descripcion": "personaje icónico de la saga Hissatsu (1973-), samurái asesino a sueldo"
+        "descripcion": "personaje icónico de la saga Hissatsu (1973-), samurái asesino a sueldo",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -754,11 +772,12 @@
         "traduccion": "acabado / finalización"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "プロフェッショナル仕事の流儀",
         "furigana": "プロフェッショナルしごとのりゅうぎ",
-        "descripcion": "programa NHK que retrata profesionales destacados desde 2006"
+        "descripcion": "programa NHK que retrata profesionales destacados desde 2006",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -794,11 +813,12 @@
         "traduccion": "era moderna"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "松本伊代",
         "furigana": "まつもといよ",
-        "descripcion": "cantante idol de los 80, debutó con Sentimental Journey (1981)"
+        "descripcion": "cantante idol de los 80, debutó con Sentimental Journey (1981)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -835,11 +855,12 @@
         "traduccion": "antes / anteriormente"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "岡田以蔵",
         "furigana": "おかだいぞう",
-        "descripcion": "hitokiri del Bakumatsu (1838-1865), asesino al servicio de Tosa"
+        "descripcion": "hitokiri del Bakumatsu (1838-1865), asesino al servicio de Tosa",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -873,11 +894,12 @@
         "traduccion": "esposa del hermano mayor"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "お兄ちゃんはおしまい！",
         "furigana": "おにいちゃんはおしまい！",
-        "descripcion": "manga y anime de comedia sobre un hermano transformado en hermana menor"
+        "descripcion": "manga y anime de comedia sobre un hermano transformado en hermana menor",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -914,11 +936,12 @@
         "traduccion": "descripción / representación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "東洲斎写楽",
         "furigana": "とうしゅうさいしゃらく",
-        "descripcion": "enigmático artista ukiyo-e activo solo diez meses en 1794-1795"
+        "descripcion": "enigmático artista ukiyo-e activo solo diez meses en 1794-1795",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -952,11 +975,12 @@
         "traduccion": "hibernación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "坂本冬美",
         "furigana": "さかもとふゆみ",
-        "descripcion": "cantante de enka, conocida por Abare Daiko"
+        "descripcion": "cantante de enka, conocida por Abare Daiko",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -993,11 +1017,12 @@
         "traduccion": "año pasado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "過去のない男",
         "furigana": "かこのないおとこ",
-        "descripcion": "título japonés del film The Man Without a Past (2002) de Aki Kaurismäki"
+        "descripcion": "título japonés del film The Man Without a Past (2002) de Aki Kaurismäki",
+        "tipo": "pelicula"
       }
     ],
     "relacionadosCon": [
@@ -1034,11 +1059,12 @@
         "traduccion": "escenario / obra teatral"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "仙台四郎",
         "furigana": "せんだいしろう",
-        "descripcion": "personaje histórico de Sendai (Meiji), considerado talismán de suerte"
+        "descripcion": "personaje histórico de Sendai (Meiji), considerado talismán de suerte",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1075,11 +1101,12 @@
         "traduccion": "ciudadano"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "市原悦子",
         "furigana": "いちはらえつこ",
-        "descripcion": "actriz de voz de Nihon Mukashibanashi, narró más de 1500 cuentos"
+        "descripcion": "actriz de voz de Nihon Mukashibanashi, narró más de 1500 cuentos",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1115,11 +1142,12 @@
         "traduccion": "plaza / explanada"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "広瀬すず",
         "furigana": "ひろせすず",
-        "descripcion": "actriz japonesa contemporánea"
+        "descripcion": "actriz japonesa contemporánea",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1155,11 +1183,12 @@
         "traduccion": "año nuevo japonés"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "正岡子規",
         "furigana": "まさおかしき",
-        "descripcion": "poeta de haiku de la era Meiji (1867-1902)"
+        "descripcion": "poeta de haiku de la era Meiji (1867-1902)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1195,11 +1224,12 @@
         "traduccion": "campesino"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "奥田民生",
         "furigana": "おくだたみお",
-        "descripcion": "cantautor, vocalista de Unicorn y productor de PUFFY"
+        "descripcion": "cantautor, vocalista de Unicorn y productor de PUFFY",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1235,11 +1265,12 @@
         "traduccion": "preparación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "用心棒",
         "furigana": "ようじんぼう",
-        "descripcion": "film samurái clásico de Akira Kurosawa (1961) con Toshirō Mifune"
+        "descripcion": "film samurái clásico de Akira Kurosawa (1961) con Toshirō Mifune",
+        "tipo": "pelicula"
       }
     ],
     "relacionadosCon": [
@@ -1276,11 +1307,12 @@
         "traduccion": "arrozal inundado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "田中角栄",
         "furigana": "たなかかくえい",
-        "descripcion": "primer ministro japonés (1972-1974), figura central del s.XX"
+        "descripcion": "primer ministro japonés (1972-1974), figura central del s.XX",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1318,11 +1350,12 @@
         "traduccion": "turismo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "光源氏",
         "furigana": "ひかるげんじ",
-        "descripcion": "protagonista de Genji Monogatari de Murasaki Shikibu"
+        "descripcion": "protagonista de Genji Monogatari de Murasaki Shikibu",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1358,11 +1391,12 @@
         "traduccion": "aprobar un examen"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "河合奈保子",
         "furigana": "かわいなおこ",
-        "descripcion": "cantante idol de los años 80"
+        "descripcion": "cantante idol de los años 80",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1399,11 +1433,12 @@
         "traduccion": "colega"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "同期のサクラ",
         "furigana": "どうきのサクラ",
-        "descripcion": "dorama japonés (2019) sobre trabajadores de una constructora"
+        "descripcion": "dorama japonés (2019) sobre trabajadores de una constructora",
+        "tipo": "dorama"
       }
     ],
     "relacionadosCon": [
@@ -1440,11 +1475,12 @@
         "traduccion": "esta vez"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "回復術士のやり直し",
         "furigana": "かいふくじゅつしのやりなおし",
-        "descripcion": "light novel y anime isekai controversial sobre venganza"
+        "descripcion": "light novel y anime isekai controversial sobre venganza",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1480,11 +1516,12 @@
         "traduccion": "terremoto"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "菊地凛子",
         "furigana": "きくちりんこ",
-        "descripcion": "actriz nominada al Óscar por Babel (2006)"
+        "descripcion": "actriz nominada al Óscar por Babel (2006)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1521,11 +1558,12 @@
         "traduccion": "gustar mucho"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "好きっていいなよ。",
         "furigana": "すきっていいなよ。",
-        "descripcion": "manga shōjo de Kanae Hazuki (2008-2017), romance escolar"
+        "descripcion": "manga shōjo de Kanae Hazuki (2008-2017), romance escolar",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": []
@@ -1559,11 +1597,12 @@
         "traduccion": "número"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "十文字弥彦",
         "furigana": "じゅうもんじやひこ",
-        "descripcion": "antagonista del anime Rurouni Kenshin, líder de un grupo criminal"
+        "descripcion": "antagonista del anime Rurouni Kenshin, líder de un grupo criminal",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1601,11 +1640,12 @@
         "traduccion": "hablar rápido"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "早川雪洲",
         "furigana": "はやかわせっしゅう",
-        "descripcion": "primer actor japonés estrella en Hollywood (1886-1973)"
+        "descripcion": "primer actor japonés estrella en Hollywood (1886-1973)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1641,11 +1681,12 @@
         "traduccion": "válido"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "有村架純",
         "furigana": "ありむらかすみ",
-        "descripcion": "actriz, protagonista de la asadora Hiyokko"
+        "descripcion": "actriz, protagonista de la asadora Hiyokko",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1682,11 +1723,12 @@
         "traduccion": "muerte / fallecimiento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "BLEACH",
         "furigana": null,
-        "descripcion": "manga y anime de Tite Kubo sobre shinigami que protegen almas"
+        "descripcion": "manga y anime de Tite Kubo sobre shinigami que protegen almas",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -1722,11 +1764,12 @@
         "traduccion": "embalse"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "池上彰",
         "furigana": "いけがみあきら",
-        "descripcion": "periodista y presentador conocido por sus explicaciones de noticias"
+        "descripcion": "periodista y presentador conocido por sus explicaciones de noticias",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -1763,11 +1806,12 @@
         "traduccion": "pensamiento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "考える人",
         "furigana": "かんがえるひと",
-        "descripcion": "escultura icónica de Auguste Rodin, muy popularizada en Japón"
+        "descripcion": "escultura icónica de Auguste Rodin, muy popularizada en Japón",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -1805,11 +1849,12 @@
         "traduccion": "músculo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "キン肉マン",
         "furigana": "キンにくマン",
-        "descripcion": "superhéroe de la lucha libre en el manga clásico de Yudetamago"
+        "descripcion": "superhéroe de la lucha libre en el manga clásico de Yudetamago",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -1845,11 +1890,12 @@
         "traduccion": "libertad"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "自来也",
         "furigana": "じらいや",
-        "descripcion": "sennin sabio de los sapos, maestro de Naruto Uzumaki"
+        "descripcion": "sennin sabio de los sapos, maestro de Naruto Uzumaki",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1887,11 +1933,12 @@
         "traduccion": "varios / diversos"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "色川武大",
         "furigana": "いろかわたけひろ",
-        "descripcion": "escritor japonés (1929-1989), autor de novelas sobre apuestas"
+        "descripcion": "escritor japonés (1929-1989), autor de novelas sobre apuestas",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -1925,11 +1972,12 @@
         "traduccion": "baja temperatura"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "最低賃金制度",
         "furigana": "さいていちんぎんせいど",
-        "descripcion": "sistema legal japonés que fija salarios mínimos por prefectura"
+        "descripcion": "sistema legal japonés que fija salarios mínimos por prefectura",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -1966,11 +2014,12 @@
         "traduccion": "vivienda / residencia"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "住友政友",
         "furigana": "すみともまさとも",
-        "descripcion": "fundador del clan mercantil Sumitomo en el s.XVII"
+        "descripcion": "fundador del clan mercantil Sumitomo en el s.XVII",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2007,11 +2056,12 @@
         "traduccion": "totalidad / conjunto"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "三体",
         "furigana": "さんたい",
-        "descripcion": "novela de ciencia ficción de Liu Cixin, traducida al japonés y adaptada al anime"
+        "descripcion": "novela de ciencia ficción de Liu Cixin, traducida al japonés y adaptada al anime",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -2047,11 +2097,12 @@
         "traduccion": "composición / redacción"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "高杉晋作",
         "furigana": "たかすぎしんさく",
-        "descripcion": "samurái de Chōshū, fundador del Kiheitai en el Bakumatsu (1839-1867)"
+        "descripcion": "samurái de Chōshū, fundador del Kiheitai en el Bakumatsu (1839-1867)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2087,11 +2138,12 @@
         "traduccion": "por separado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "別役実",
         "furigana": "べつやくみのる",
-        "descripcion": "dramaturgo japonés (1937-2020) del teatro del absurdo"
+        "descripcion": "dramaturgo japonés (1937-2020) del teatro del absurdo",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2127,11 +2179,12 @@
         "traduccion": "clínica"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "医龍-Team Medical Dragon-",
         "furigana": "いりゅう",
-        "descripcion": "manga y dorama médico sobre cirujanos elite en un hospital universitario"
+        "descripcion": "manga y dorama médico sobre cirujanos elite en un hospital universitario",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -2167,11 +2220,12 @@
         "traduccion": "figura geométrica"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "伊能忠敬",
         "furigana": "いのうただたか",
-        "descripcion": "cartógrafo Edo, autor del primer mapa científico de Japón (1821)"
+        "descripcion": "cartógrafo Edo, autor del primer mapa científico de Japón (1821)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2207,11 +2261,12 @@
         "traduccion": "audio / voz"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "声の形",
         "furigana": "こえのかたち",
-        "descripcion": "film animado (2016) de Naoko Yamada sobre bullying y sordera"
+        "descripcion": "film animado (2016) de Naoko Yamada sobre bullying y sordera",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2247,11 +2302,12 @@
         "traduccion": "venta / comercialización"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "即売会",
         "furigana": "そくばいかい",
-        "descripcion": "convenciones doujin donde artistas venden sus obras (ej. Comiket)"
+        "descripcion": "convenciones doujin donde artistas venden sus obras (ej. Comiket)",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -2289,11 +2345,12 @@
         "traduccion": "cuñado menor"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "弟の夫",
         "furigana": "おとうとのおっと",
-        "descripcion": "manga LGBT+ de Tagame Gengoroh sobre un hombre y su cuñado gay canadiense"
+        "descripcion": "manga LGBT+ de Tagame Gengoroh sobre un hombre y su cuñado gay canadiense",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -2329,11 +2386,12 @@
         "traduccion": "pueblo agrícola"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "木村拓哉",
         "furigana": "きむらたくや",
-        "descripcion": "actor y cantante, exlíder del grupo idol SMAP"
+        "descripcion": "actor y cantante, exlíder del grupo idol SMAP",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2370,11 +2428,12 @@
         "traduccion": "vecindario / barrio"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "町田啓太",
         "furigana": "まちだけいた",
-        "descripcion": "actor japonés contemporáneo, exmiembro de The Rampage"
+        "descripcion": "actor japonés contemporáneo, exmiembro de The Rampage",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2411,11 +2470,12 @@
         "traduccion": "ferrocarril privado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "私の履歴書",
         "furigana": "わたしのりれきしょ",
-        "descripcion": "columna del diario Nikkei donde figuras destacadas cuentan sus memorias"
+        "descripcion": "columna del diario Nikkei donde figuras destacadas cuentan sus memorias",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -2451,11 +2511,12 @@
         "traduccion": "búsqueda / investigación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "究極超人あ〜る",
         "furigana": "きゅうきょくちょうじんあ〜る",
-        "descripcion": "manga cómico de culto de Yūichi Yūki (1985-1987)"
+        "descripcion": "manga cómico de culto de Yūichi Yūki (1985-1987)",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -2491,11 +2552,12 @@
         "traduccion": "rayos infrarrojos"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "赤坂アカ",
         "furigana": "あかさかアカ",
-        "descripcion": "mangaka creador de Kaguya-sama: Love is War"
+        "descripcion": "mangaka creador de Kaguya-sama: Love is War",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2531,11 +2593,12 @@
         "traduccion": "fuga / escape"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "走れメロス",
         "furigana": "はしれメロス",
-        "descripcion": "cuento de Osamu Dazai de 1940, lectura obligatoria en escuelas japonesas"
+        "descripcion": "cuento de Osamu Dazai de 1940, lectura obligatoria en escuelas japonesas",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -2572,11 +2635,12 @@
         "traduccion": "vecindario"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "近藤麻理恵",
         "furigana": "こんどうまりえ",
-        "descripcion": "consultora de organización mundialmente famosa por el método KonMari"
+        "descripcion": "consultora de organización mundialmente famosa por el método KonMari",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2613,11 +2677,12 @@
         "traduccion": "incendio"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "金田一少年の事件簿",
         "furigana": "きんだいちしょうねんのじけんぼ",
-        "descripcion": "manga clásico de detectives (1992-) de Kanari y Satō"
+        "descripcion": "manga clásico de detectives (1992-) de Kanari y Satō",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -2653,11 +2718,12 @@
         "traduccion": "ir a la capital (Tokio)"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "京極夏彦",
         "furigana": "きょうごくなつひこ",
-        "descripcion": "novelista de misterio y folclore japonés (Ubume no Natsu)"
+        "descripcion": "novelista de misterio y folclore japonés (Ubume no Natsu)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2694,11 +2760,12 @@
         "traduccion": "ángel"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "使徒",
         "furigana": "しと",
-        "descripcion": "seres misteriosos que atacan Tokio-3 en Neon Genesis Evangelion"
+        "descripcion": "seres misteriosos que atacan Tokio-3 en Neon Genesis Evangelion",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2734,11 +2801,12 @@
         "traduccion": "aliado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "味の素",
         "furigana": "あじのもと",
-        "descripcion": "empresa japonesa fundada en 1909, creadora del monosodio glutamato"
+        "descripcion": "empresa japonesa fundada en 1909, creadora del monosodio glutamato",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -2775,11 +2843,12 @@
         "traduccion": "medianoche"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "夜神月",
         "furigana": "やがみライト",
-        "descripcion": "protagonista de Death Note, escribe nombres en el cuaderno mortal"
+        "descripcion": "protagonista de Death Note, escribe nombres en el cuaderno mortal",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -2813,11 +2882,12 @@
         "traduccion": "como una hermana menor"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "妹さえいればいい。",
         "furigana": "いもうとさえいればいい。",
-        "descripcion": "light novel de Yomi Hirasaka sobre un escritor obsesionado con la imouto"
+        "descripcion": "light novel de Yomi Hirasaka sobre un escritor obsesionado con la imouto",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -2854,11 +2924,12 @@
         "traduccion": "hermana mayor (líder femenina)"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "姉さん、事件です！",
         "furigana": "ねえさん、じけんです！",
-        "descripcion": "dorama japonés de comedia sobre una asistenta y un profesor"
+        "descripcion": "dorama japonés de comedia sobre una asistenta y un profesor",
+        "tipo": "dorama"
       }
     ],
     "relacionadosCon": [
@@ -2895,11 +2966,12 @@
         "traduccion": "primer tren del día"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "秦の始皇帝",
         "furigana": "しんのしこうてい",
-        "descripcion": "primer emperador de China (259-210 a.C.), ordenó construir la Gran Muralla"
+        "descripcion": "primer emperador de China (259-210 a.C.), ordenó construir la Gran Muralla",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2936,11 +3008,12 @@
         "traduccion": "oficina"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "所ジョージ",
         "furigana": "ところジョージ",
-        "descripcion": "tarento, cantante y presentador de TV"
+        "descripcion": "tarento, cantante y presentador de TV",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -2977,11 +3050,12 @@
         "traduccion": "mañana (día siguiente)"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "明石家さんま",
         "furigana": "あかしやさんま",
-        "descripcion": "comediante icónico del お笑いBIG3"
+        "descripcion": "comediante icónico del お笑いBIG3",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -3015,11 +3089,12 @@
         "traduccion": "uniforme"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "セーラー服と機関銃",
         "furigana": "セーラーふくときかんじゅう",
-        "descripcion": "novela y film de 1981 con Yakushimaru Hiroko, dirigida por Shinji Sōmai"
+        "descripcion": "novela y film de 1981 con Yakushimaru Hiroko, dirigida por Shinji Sōmai",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": []
@@ -3053,11 +3128,12 @@
         "traduccion": "silvicultura"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "小林幸子",
         "furigana": "こばやしさちこ",
-        "descripcion": "cantante enka famosa por sus vestuarios extravagantes en el Kōhaku"
+        "descripcion": "cantante enka famosa por sus vestuarios extravagantes en el Kōhaku",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3093,11 +3169,12 @@
         "traduccion": "acera / vereda"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "上原歩夢",
         "furigana": "うえはらあゆむ",
-        "descripcion": "idol del anime Love Live! Nijigasaki High School Idol Club"
+        "descripcion": "idol del anime Love Live! Nijigasaki High School Idol Club",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -3131,11 +3208,12 @@
         "traduccion": "pedido / orden"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "注文の多い料理店",
         "furigana": "ちゅうもんのおおいりょうりてん",
-        "descripcion": "cuento clásico de Kenji Miyazawa (1924)"
+        "descripcion": "cuento clásico de Kenji Miyazawa (1924)",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -3173,11 +3251,12 @@
         "traduccion": "equipaje / paquete"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "化物語",
         "furigana": "ばけものがたり",
-        "descripcion": "serie de novelas ligeras de Nisio Isin adaptadas al anime por SHAFT"
+        "descripcion": "serie de novelas ligeras de Nisio Isin adaptadas al anime por SHAFT",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3213,11 +3292,12 @@
         "traduccion": "manga / historieta"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "映画クレヨンしんちゃん",
         "furigana": "えいがクレヨンしんちゃん",
-        "descripcion": "saga de películas anuales del anime Crayon Shin-chan desde 1993"
+        "descripcion": "saga de películas anuales del anime Crayon Shin-chan desde 1993",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3253,11 +3333,12 @@
         "traduccion": "conocido"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "知念侑李",
         "furigana": "ちねんゆうり",
-        "descripcion": "cantante y actor, miembro de Hey! Say! JUMP"
+        "descripcion": "cantante y actor, miembro de Hey! Say! JUMP",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3294,11 +3375,12 @@
         "traduccion": "joven / juventud"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "勇者ヨシヒコと魔王の城",
         "furigana": "ゆうしゃヨシヒコとまおうのしろ",
-        "descripcion": "dorama japonés de parodia RPG (2011-2016) protagonizado por Takayuki Yamada"
+        "descripcion": "dorama japonés de parodia RPG (2011-2016) protagonizado por Takayuki Yamada",
+        "tipo": "dorama"
       }
     ],
     "relacionadosCon": [
@@ -3337,11 +3419,12 @@
         "traduccion": "héroe"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "英一蝶",
         "furigana": "はなぶさいっちょう",
-        "descripcion": "pintor Edo (1652-1724) del estilo Kanō, célebre por escenas costumbristas"
+        "descripcion": "pintor Edo (1652-1724) del estilo Kanō, célebre por escenas costumbristas",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3378,11 +3461,12 @@
         "traduccion": "especialidad"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "近松門左衛門",
         "furigana": "ちかまつもんざえもん",
-        "descripcion": "dramaturgo Edo del bunraku y kabuki (1653-1725)"
+        "descripcion": "dramaturgo Edo del bunraku y kabuki (1653-1725)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3418,11 +3502,12 @@
         "traduccion": "cielo azul"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "青山剛昌",
         "furigana": "あおやまごうしょう",
-        "descripcion": "mangaka creador de Detective Conan (Meitantei Conan)"
+        "descripcion": "mangaka creador de Detective Conan (Meitantei Conan)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3459,11 +3544,12 @@
         "traduccion": "abordar un vehículo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "乗鞍岳",
         "furigana": "のりくらだけ",
-        "descripcion": "montaña volcánica de 3026m en los Alpes japoneses, popular para senderismo"
+        "descripcion": "montaña volcánica de 3026m en los Alpes japoneses, popular para senderismo",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -3497,11 +3583,12 @@
         "traduccion": "baño / lavabo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "魔女の宅急便",
         "furigana": "まじょのたっきゅうびん",
-        "descripcion": "film Ghibli (1989) de Hayao Miyazaki basado en la novela de Eiko Kadono"
+        "descripcion": "film Ghibli (1989) de Hayao Miyazaki basado en la novela de Eiko Kadono",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3537,11 +3624,12 @@
         "traduccion": "elegante / refinado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "品川ヒロシ",
         "furigana": "しながわヒロシ",
-        "descripcion": "comediante del dúo Shinagawa Shōji, también director de cine"
+        "descripcion": "comediante del dúo Shinagawa Shōji, también director de cine",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3577,11 +3665,12 @@
         "traduccion": "cuarto de baño"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "室井滋",
         "furigana": "むろいしげる",
-        "descripcion": "actriz y ensayista japonesa contemporánea"
+        "descripcion": "actriz y ensayista japonesa contemporánea",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3617,11 +3706,12 @@
         "traduccion": "techo / tejado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "土屋太鳳",
         "furigana": "つちやたお",
-        "descripcion": "actriz japonesa contemporánea"
+        "descripcion": "actriz japonesa contemporánea",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3657,11 +3747,12 @@
         "traduccion": "actitud"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "度会家行",
         "furigana": "わたらいいえゆき",
-        "descripcion": "teólogo Shintō de Ise (1256-1362), fundador del Ise Shintō"
+        "descripcion": "teólogo Shintō de Ise (1256-1362), fundador del Ise Shintō",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3697,11 +3788,12 @@
         "traduccion": "arquitectura"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "建仁寺",
         "furigana": "けんにんじ",
-        "descripcion": "templo Rinzai zen de Kioto (1202), el más antiguo de la escuela"
+        "descripcion": "templo Rinzai zen de Kioto (1202), el más antiguo de la escuela",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -3737,11 +3829,12 @@
         "traduccion": "invitación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "待つわ",
         "furigana": "まつわ",
-        "descripcion": "sencillo icónico de 1982 del dúo Amin"
+        "descripcion": "sencillo icónico de 1982 del dúo Amin",
+        "tipo": "musica"
       }
     ],
     "relacionadosCon": [
@@ -3779,11 +3872,12 @@
         "traduccion": "voluntad / intención"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "思い出のマーニー",
         "furigana": "おもいでのマーニー",
-        "descripcion": "película de Ghibli (2014) dirigida por Hiromasa Yonebayashi"
+        "descripcion": "película de Ghibli (2014) dirigida por Hiromasa Yonebayashi",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3819,11 +3913,12 @@
         "traduccion": "repentinamente"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "阪急電鉄",
         "furigana": "はんきゅうでんてつ",
-        "descripcion": "compañía ferroviaria de Osaka fundada en 1907"
+        "descripcion": "compañía ferroviaria de Osaka fundada en 1907",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -3857,11 +3952,12 @@
         "traduccion": "llevar consigo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "持田香織",
         "furigana": "もちだかおり",
-        "descripcion": "vocalista del grupo J-pop Every Little Thing"
+        "descripcion": "vocalista del grupo J-pop Every Little Thing",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -3899,11 +3995,12 @@
         "traduccion": "proyección de película"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "東映アニメーション",
         "furigana": "とうえいアニメーション",
-        "descripcion": "estudio de animación fundado en 1948, productor de Dragon Ball y One Piece"
+        "descripcion": "estudio de animación fundado en 1948, productor de Dragon Ball y One Piece",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -3939,11 +4036,12 @@
         "traduccion": "equinoccio de primavera"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "村上春樹",
         "furigana": "むらかみはるき",
-        "descripcion": "novelista, autor de Tokio Blues y Kafka en la orilla"
+        "descripcion": "novelista, autor de Tokio Blues y Kafka en la orilla",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -3977,11 +4075,12 @@
         "traduccion": "siesta"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "昼顔",
         "furigana": "ひるがお",
-        "descripcion": "dorama japonés de 2014 sobre infidelidad conyugal"
+        "descripcion": "dorama japonés de 2014 sobre infidelidad conyugal",
+        "tipo": "dorama"
       }
     ],
     "relacionadosCon": [
@@ -4017,11 +4116,12 @@
         "traduccion": "Oriente"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "島田洋七",
         "furigana": "しまだようしち",
-        "descripcion": "comediante del dúo Shimada Yōshichi & Yōhachi, autor de Saga no Gabai Bāchan"
+        "descripcion": "comediante del dúo Shimada Yōshichi & Yōhachi, autor de Saga no Gabai Bāchan",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4058,11 +4158,12 @@
         "traduccion": "lavabo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "洗馬宿",
         "furigana": "せばじゅく",
-        "descripcion": "antigua estación del Nakasendō en Shiojiri (Nagano), la N°31 de 69"
+        "descripcion": "antigua estación del Nakasendō en Shiojiri (Nagano), la N°31 de 69",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -4098,11 +4199,12 @@
         "traduccion": "costa"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "海堂尊",
         "furigana": "かいどうたける",
-        "descripcion": "novelista médico contemporáneo, autor de la saga Chirurgien Team Batista"
+        "descripcion": "novelista médico contemporáneo, autor de la saga Chirurgien Team Batista",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4139,11 +4241,12 @@
         "traduccion": "límite"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "境界のRINNE",
         "furigana": "きょうかいのりんね",
-        "descripcion": "manga de Rumiko Takahashi (2009-2017) sobre un shinigami adolescente"
+        "descripcion": "manga de Rumiko Takahashi (2009-2017) sobre un shinigami adolescente",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": []
@@ -4177,11 +4280,12 @@
         "traduccion": "anuncio / presentación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "発明王エジソン",
         "furigana": "はつめいおうエジソン",
-        "descripcion": "apodo japonés de Thomas Edison, símbolo de la invención"
+        "descripcion": "apodo japonés de Thomas Edison, símbolo de la invención",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4217,11 +4321,12 @@
         "traduccion": "gobierno prefectural"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "都道府県かるた",
         "furigana": "とどうふけんかるた",
-        "descripcion": "karuta educativo japonés para memorizar las 47 prefecturas"
+        "descripcion": "karuta educativo japonés para memorizar las 47 prefecturas",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -4257,11 +4362,12 @@
         "traduccion": "instituto de investigación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "羽賀研二",
         "furigana": "はがけんじ",
-        "descripcion": "actor y tarento japonés, famoso en los años 80"
+        "descripcion": "actor y tarento japonés, famoso en los años 80",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4297,11 +4403,12 @@
         "traduccion": "viento de otoño"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "秋元康",
         "furigana": "あきもとやすし",
-        "descripcion": "productor y letrista, creador de AKB48 y sus grupos hermanos"
+        "descripcion": "productor y letrista, creador de AKB48 y sus grupos hermanos",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4337,11 +4444,12 @@
         "traduccion": "té negro"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "茶々",
         "furigana": "ちゃちゃ",
-        "descripcion": "concubina de Toyotomi Hideyoshi, madre de Hideyori, también llamada Yodo-dono"
+        "descripcion": "concubina de Toyotomi Hideyoshi, madre de Hideyori, también llamada Yodo-dono",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4377,11 +4485,12 @@
         "traduccion": "contabilidad"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "時計仕掛けの林檎",
         "furigana": "とけいじかけのりんご",
-        "descripcion": "manga corto de Osamu Tezuka influenciado por A Clockwork Orange"
+        "descripcion": "manga corto de Osamu Tezuka influenciado por A Clockwork Orange",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": []
@@ -4415,11 +4524,12 @@
         "traduccion": "transmisión"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "日本放送協会",
         "furigana": "にっぽんほうそうきょうかい",
-        "descripcion": "cadena pública de radio y TV de Japón (NHK), fundada en 1926"
+        "descripcion": "cadena pública de radio y TV de Japón (NHK), fundada en 1926",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -4453,11 +4563,12 @@
         "traduccion": "peso corporal"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "田中久重",
         "furigana": "たなかひさしげ",
-        "descripcion": "inventor Edo/Meiji, fundador de la empresa que se convirtió en Toshiba"
+        "descripcion": "inventor Edo/Meiji, fundador de la empresa que se convirtió en Toshiba",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4494,11 +4605,12 @@
         "traduccion": "pronunciación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "上白石萌音",
         "furigana": "かみしらいしもね",
-        "descripcion": "actriz y cantante, voz de Mitsuha en Kimi no Na wa"
+        "descripcion": "actriz y cantante, voz de Mitsuha en Kimi no Na wa",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4536,11 +4648,12 @@
         "traduccion": "resfriado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "藤井風",
         "furigana": "ふじいかぜ",
-        "descripcion": "cantautor, éxito mundial con Shinunoga E-Wa"
+        "descripcion": "cantautor, éxito mundial con Shinunoga E-Wa",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -4574,11 +4687,12 @@
         "traduccion": "muñeca"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "首藤剛志",
         "furigana": "しゅどうたけし",
-        "descripcion": "guionista de anime, escribió los primeros episodios de Pokémon"
+        "descripcion": "guionista de anime, escribió los primeros episodios de Pokémon",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4615,11 +4729,12 @@
         "traduccion": "préstamo formal"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "借りぐらしのアリエッティ",
         "furigana": "かりぐらしのアリエッティ",
-        "descripcion": "film Ghibli (2010) dirigido por Hiromasa Yonebayashi"
+        "descripcion": "film Ghibli (2010) dirigido por Hiromasa Yonebayashi",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4655,11 +4770,12 @@
         "traduccion": "estudios"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "僕たちは勉強ができない",
         "furigana": "ぼくたちはべんきょうができない",
-        "descripcion": "manga y anime de Taishi Tsutsui, comedia romántica de tutorías"
+        "descripcion": "manga y anime de Taishi Tsutsui, comedia romántica de tutorías",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": []
@@ -4693,11 +4809,12 @@
         "traduccion": "miembro / socio"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "駅員",
         "furigana": "えきいん",
-        "descripcion": "personal ferroviario, símbolo de la cultura laboral japonesa por su cortesía"
+        "descripcion": "personal ferroviario, símbolo de la cultura laboral japonesa por su cortesía",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -4733,11 +4850,12 @@
         "traduccion": "pleno verano"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "夏目漱石",
         "furigana": "なつめそうせき",
-        "descripcion": "novelista Meiji autor de Kokoro y Wagahai wa Neko de Aru"
+        "descripcion": "novelista Meiji autor de Kokoro y Wagahai wa Neko de Aru",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -4771,11 +4889,12 @@
         "traduccion": "autor / escritor"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "徳川家康",
         "furigana": "とくがわいえやす",
-        "descripcion": "primer shōgun del shogunato Tokugawa (1543-1616)"
+        "descripcion": "primer shōgun del shogunato Tokugawa (1543-1616)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -4811,11 +4930,12 @@
         "traduccion": "volver a casa"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "帰りたくなったよ",
         "furigana": "かえりたくなったよ",
-        "descripcion": "sencillo de 2009 del grupo pop Ikimonogakari"
+        "descripcion": "sencillo de 2009 del grupo pop Ikimonogakari",
+        "tipo": "musica"
       }
     ],
     "relacionadosCon": []
@@ -4849,11 +4969,12 @@
         "traduccion": "cobarde / miedoso"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "弱虫ペダル",
         "furigana": "よわむしペダル",
-        "descripcion": "manga y anime sobre ciclismo en preparatoria de Wataru Watanabe"
+        "descripcion": "manga y anime sobre ciclismo en preparatoria de Wataru Watanabe",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -4889,11 +5010,12 @@
         "traduccion": "salario"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "料理の鉄人",
         "furigana": "りょうりのてつじん",
-        "descripcion": "programa culinario de Fuji TV (1993-1999), pionero del reality gastronómico"
+        "descripcion": "programa culinario de Fuji TV (1993-1999), pionero del reality gastronómico",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -4929,11 +5051,12 @@
         "traduccion": "viajero"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "キノの旅",
         "furigana": "キノのたび",
-        "descripcion": "light novel de Keiichi Sigsawa sobre una viajera pensativa en países distópicos"
+        "descripcion": "light novel de Keiichi Sigsawa sobre una viajera pensativa en países distópicos",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -4969,11 +5092,12 @@
         "traduccion": "tren superexpreso"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "特撮",
         "furigana": "とくさつ",
-        "descripcion": "género japonés de efectos especiales prácticos (Godzilla, Ultraman, Kamen Rider)"
+        "descripcion": "género japonés de efectos especiales prácticos (Godzilla, Ultraman, Kamen Rider)",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5010,11 +5134,12 @@
         "traduccion": "paciente"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "病院坂の首縊りの家",
         "furigana": "びょういんざかのくびくくりのいえ",
-        "descripcion": "novela detectivesca de Seishi Yokomizo (1975-1978), última obra de Kindaichi"
+        "descripcion": "novela detectivesca de Seishi Yokomizo (1975-1978), última obra de Kindaichi",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": []
@@ -5048,11 +5173,12 @@
         "traduccion": "serio / responsable"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "真田幸村",
         "furigana": "さなだゆきむら",
-        "descripcion": "samurái legendario del Sengoku, murió en el Sitio de Osaka (1615)"
+        "descripcion": "samurái legendario del Sengoku, murió en el Sitio de Osaka (1615)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5089,11 +5215,12 @@
         "traduccion": "portada"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "折り紙",
         "furigana": "おりがみ",
-        "descripcion": "arte japonés de plegado de papel, con figuras clásicas como la grulla"
+        "descripcion": "arte japonés de plegado de papel, con figuras clásicas como la grulla",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5129,11 +5256,12 @@
         "traduccion": "origen"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "起き上がり小法師",
         "furigana": "おきあがりこぼし",
-        "descripcion": "muñeco tradicional (daruma) de Fukushima que se levanta solo"
+        "descripcion": "muñeco tradicional (daruma) de Fukushima que se levanta solo",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5169,11 +5297,12 @@
         "traduccion": "ir a la escuela"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "通天閣",
         "furigana": "つうてんかく",
-        "descripcion": "torre emblemática de Osaka construida en 1912, símbolo de Shinsekai"
+        "descripcion": "torre emblemática de Osaka construida en 1912, símbolo de Shinsekai",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5209,11 +5338,12 @@
         "traduccion": "hospitalización"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "後鳥羽院",
         "furigana": "ごとばいん",
-        "descripcion": "emperador y poeta waka del período Kamakura (1180-1239)"
+        "descripcion": "emperador y poeta waka del período Kamakura (1180-1239)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5249,11 +5379,12 @@
         "traduccion": "zoológico"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "機動戦士ガンダム",
         "furigana": "きどうせんしガンダム",
-        "descripcion": "saga de mecha creada por Yoshiyuki Tomino en 1979, seminal del género"
+        "descripcion": "saga de mecha creada por Yoshiyuki Tomino en 1979, seminal del género",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -5290,11 +5421,12 @@
         "traduccion": "duda"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "問題児たちが異世界から来るそうですよ？",
         "furigana": "もんだいじたちがいせかいからくるそうですよ？",
-        "descripcion": "light novel y anime isekai sobre niños problemáticos con poderes"
+        "descripcion": "light novel y anime isekai sobre niños problemáticos con poderes",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -5331,11 +5463,12 @@
         "traduccion": "salón principal de un templo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "堂本剛",
         "furigana": "どうもとつよし",
-        "descripcion": "cantante y actor, miembro de KinKi Kids"
+        "descripcion": "cantante y actor, miembro de KinKi Kids",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5371,11 +5504,12 @@
         "traduccion": "fortalecimiento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "強力伝",
         "furigana": "ごうりきでん",
-        "descripcion": "novela de Nitta Jirō (1955) sobre porteadores de montaña, premio Naoki"
+        "descripcion": "novela de Nitta Jirō (1955) sobre porteadores de montaña, premio Naoki",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -5411,11 +5545,12 @@
         "traduccion": "empeoramiento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "悪魔のリドル",
         "furigana": "あくまのリドル",
-        "descripcion": "manga y anime sobre asesinas en un aula de niñas"
+        "descripcion": "manga y anime sobre asesinas en un aula de niñas",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": []
@@ -5449,11 +5584,12 @@
         "traduccion": "libro de texto"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "暗殺教室",
         "furigana": "あんさつきょうしつ",
-        "descripcion": "manga y anime de Yūsei Matsui sobre estudiantes que deben asesinar a su profesor pulpo"
+        "descripcion": "manga y anime de Yūsei Matsui sobre estudiantes que deben asesinar a su profesor pulpo",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -5489,11 +5625,12 @@
         "traduccion": "nobleza"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "暴走族",
         "furigana": "ぼうそうぞく",
-        "descripcion": "subcultura japonesa de motociclistas rebeldes, popular en los años 70-80"
+        "descripcion": "subcultura japonesa de motociclistas rebeldes, popular en los años 70-80",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5530,11 +5667,12 @@
         "traduccion": "psicología"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "釘宮理恵",
         "furigana": "くぎみやりえ",
-        "descripcion": "seiyū de Taiga Aisaka (Toradora!), Alphonse Elric (Fullmetal Alchemist) y Shana (Shakugan no Shana)"
+        "descripcion": "seiyū de Taiga Aisaka (Toradora!), Alphonse Elric (Fullmetal Alchemist) y Shana (Shakugan no Shana)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5571,11 +5709,12 @@
         "traduccion": "producción"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "日産自動車",
         "furigana": "にっさんじどうしゃ",
-        "descripcion": "fabricante japonés de automóviles fundado en 1933"
+        "descripcion": "fabricante japonés de automóviles fundado en 1933",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5611,11 +5750,12 @@
         "traduccion": "última parada"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "終末のワルキューレ",
         "furigana": "しゅうまつのワルキューレ",
-        "descripcion": "manga (2017-) de dioses contra humanos en un torneo apocalíptico"
+        "descripcion": "manga (2017-) de dioses contra humanos en un torneo apocalíptico",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -5651,11 +5791,12 @@
         "traduccion": "aprendizaje"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "学習塾",
         "furigana": "がくしゅうじゅく",
-        "descripcion": "institución privada de refuerzo escolar, presente en todo Japón"
+        "descripcion": "institución privada de refuerzo escolar, presente en todo Japón",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -5691,11 +5832,12 @@
         "traduccion": "dieta vegetariana"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "菜々緒",
         "furigana": "ななお",
-        "descripcion": "modelo y actriz japonesa contemporánea"
+        "descripcion": "modelo y actriz japonesa contemporánea",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5731,11 +5873,12 @@
         "traduccion": "cambio de escuela"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "転生したらスライムだった件",
         "furigana": "てんせいしたらスライムだったけん",
-        "descripcion": "light novel/anime isekai de Fuse sobre un hombre reencarnado como slime"
+        "descripcion": "light novel/anime isekai de Fuse sobre un hombre reencarnado como slime",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -5772,11 +5915,12 @@
         "traduccion": "evolución"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "進撃の巨人",
         "furigana": "しんげきのきょじん",
-        "descripcion": "manga de Hajime Isayama (2009-2021), obra icónica de la era"
+        "descripcion": "manga de Hajime Isayama (2009-2021), obra icónica de la era",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -5812,11 +5956,12 @@
         "traduccion": "metrópolis"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "都はるみ",
         "furigana": "みやこはるみ",
-        "descripcion": "cantante de enka, éxito Anko Tsubaki wa Koi no Hana"
+        "descripcion": "cantante de enka, éxito Anko Tsubaki wa Koi no Hana",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5852,11 +5997,12 @@
         "traduccion": "campo / pradera"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "野茂英雄",
         "furigana": "のもひでお",
-        "descripcion": "primer beisbolista japonés estrella en la MLB (Dodgers, Mets)"
+        "descripcion": "primer beisbolista japonés estrella en la MLB (Dodgers, Mets)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5893,11 +6039,12 @@
         "traduccion": "cisne"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "鳥山明",
         "furigana": "とりやまあきら",
-        "descripcion": "mangaka creador de Dragon Ball y Dr. Slump (1955-2024)"
+        "descripcion": "mangaka creador de Dragon Ball y Dr. Slump (1955-2024)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5935,11 +6082,12 @@
         "traduccion": "superávit / números negros"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "黒澤明",
         "furigana": "くろさわあきら",
-        "descripcion": "director de cine legendario (Los siete samurái, Rashōmon)"
+        "descripcion": "director de cine legendario (Los siete samurái, Rashōmon)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -5975,11 +6123,12 @@
         "traduccion": "lugar de trabajo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "馬場信春",
         "furigana": "ばばのぶはる",
-        "descripcion": "general samurai al servicio de Takeda Shingen (1515-1575)"
+        "descripcion": "general samurai al servicio de Takeda Shingen (1515-1575)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6015,11 +6164,12 @@
         "traduccion": "ola de frío"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "大寒",
         "furigana": "だいかん",
-        "descripcion": "uno de los 24 términos solares (~20 enero), día más frío del año"
+        "descripcion": "uno de los 24 términos solares (~20 enero), día más frío del año",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -6053,11 +6203,12 @@
         "traduccion": "claro y despejado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "安倍晴明",
         "furigana": "あべのせいめい",
-        "descripcion": "onmyōji legendario del período Heian, maestro de adivinación"
+        "descripcion": "onmyōji legendario del período Heian, maestro de adivinación",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6094,11 +6245,12 @@
         "traduccion": "bochornoso"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "暑中見舞い",
         "furigana": "しょちゅうみまい",
-        "descripcion": "postal tradicional japonesa de saludo veraniego enviada durante 大暑"
+        "descripcion": "postal tradicional japonesa de saludo veraniego enviada durante 大暑",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6134,11 +6286,12 @@
         "traduccion": "sol de la mañana"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "朝倉未来",
         "furigana": "あさくらみくる",
-        "descripcion": "luchador de artes marciales mixtas y youtuber japonés"
+        "descripcion": "luchador de artes marciales mixtas y youtuber japonés",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6174,11 +6327,12 @@
         "traduccion": "jungla / selva"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "森鴎外",
         "furigana": "もりおうがい",
-        "descripcion": "novelista y médico militar de la era Meiji, autor de Maihime (1862-1922)"
+        "descripcion": "novelista y médico militar de la era Meiji, autor de Maihime (1862-1922)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6214,11 +6368,12 @@
         "traduccion": "ignorar"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "鬼滅の刃 無限列車編",
         "furigana": "きめつのやいば むげんれっしゃへん",
-        "descripcion": "arco y film de Demon Slayer, taquillazo mundial de 2020"
+        "descripcion": "arco y film de Demon Slayer, taquillazo mundial de 2020",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -6252,11 +6407,12 @@
         "traduccion": "kimono"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "その着せ替え人形は恋をする",
         "furigana": "そのビスクドールはこいをする",
-        "descripcion": "manga y anime de Shinichi Fukuda sobre cosplay y romance"
+        "descripcion": "manga y anime de Shinichi Fukuda sobre cosplay y romance",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -6292,11 +6448,12 @@
         "traduccion": "más corto"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "短歌",
         "furigana": "たんか",
-        "descripcion": "forma poética tradicional japonesa de 5-7-5-7-7 sílabas"
+        "descripcion": "forma poética tradicional japonesa de 5-7-5-7-7 sílabas",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6332,11 +6489,12 @@
         "traduccion": "respuesta / réplica"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "答えのない歌",
         "furigana": "こたえのないうた",
-        "descripcion": "canción de la banda japonesa BUMP OF CHICKEN"
+        "descripcion": "canción de la banda japonesa BUMP OF CHICKEN",
+        "tipo": "musica"
       }
     ],
     "relacionadosCon": [
@@ -6372,11 +6530,12 @@
         "traduccion": "casa en alquiler"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "貸本漫画",
         "furigana": "かしほんまんが",
-        "descripcion": "manga de alquiler popular en los 50s-60s, cuna de artistas como Mizuki Shigeru"
+        "descripcion": "manga de alquiler popular en los 50s-60s, cuna de artistas como Mizuki Shigeru",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6412,11 +6571,12 @@
         "traduccion": "fácil / práctico"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "軽井沢",
         "furigana": "かるいざわ",
-        "descripcion": "pueblo de veraneo en Nagano, popular entre aristocracia y celebridades"
+        "descripcion": "pueblo de veraneo en Nagano, popular entre aristocracia y celebridades",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6453,11 +6613,12 @@
         "traduccion": "destino"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "運慶",
         "furigana": "うんけい",
-        "descripcion": "escultor budista del período Kamakura, autor de las estatuas del Nandaimon de Tōdai-ji"
+        "descripcion": "escultor budista del período Kamakura, autor de las estatuas del Nandaimon de Tōdai-ji",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6493,11 +6654,12 @@
         "traduccion": "apertura pública / estreno"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "開高健",
         "furigana": "かいこうたけし",
-        "descripcion": "novelista y reportero de guerra japonés en Vietnam (1930-1989)"
+        "descripcion": "novelista y reportero de guerra japonés en Vietnam (1930-1989)",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6534,11 +6696,12 @@
         "traduccion": "concentración"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "万葉集",
         "furigana": "まんようしゅう",
-        "descripcion": "antología poética más antigua de Japón (s.VIII), unos 4500 waka"
+        "descripcion": "antología poética más antigua de Japón (s.VIII), unos 4500 waka",
+        "tipo": "libro"
       }
     ],
     "relacionadosCon": [
@@ -6574,11 +6737,12 @@
         "traduccion": "cena"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "花のずぼら飯",
         "furigana": "はなのずぼらめし",
-        "descripcion": "manga cómico sobre una esposa perezosa que cocina rápido"
+        "descripcion": "manga cómico sobre una esposa perezosa que cocina rápido",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -6614,11 +6778,12 @@
         "traduccion": "trabajador"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "働きマン",
         "furigana": "はたらきマン",
-        "descripcion": "manga de Moyoco Anno sobre una editora de revista adicta al trabajo"
+        "descripcion": "manga de Moyoco Anno sobre una editora de revista adicta al trabajo",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -6654,11 +6819,12 @@
         "traduccion": "opinión"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "意地悪ばあさん",
         "furigana": "いじわるばあさん",
-        "descripcion": "manga de Machiko Hasegawa (autora de Sazae-san) sobre una anciana traviesa"
+        "descripcion": "manga de Machiko Hasegawa (autora de Sazae-san) sobre una anciana traviesa",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -6695,11 +6861,12 @@
         "traduccion": "código / cifrado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "暗黒神話",
         "furigana": "あんこくしんわ",
-        "descripcion": "manga de horror mitológico de Daijirō Morohoshi (1976)"
+        "descripcion": "manga de horror mitológico de Daijirō Morohoshi (1976)",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -6735,11 +6902,12 @@
         "traduccion": "graduación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "業田良家",
         "furigana": "ごうだよしいえ",
-        "descripcion": "mangaka japonés, autor de Jigyaku no Uta y Kikai Jikake no Ai"
+        "descripcion": "mangaka japonés, autor de Jigyaku no Uta y Kikai Jikake no Ai",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -6773,11 +6941,12 @@
         "traduccion": "relajado / sin preocupaciones"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "一条楽",
         "furigana": "いちじょうらく",
-        "descripcion": "protagonista del manga romántico Nisekoi de Naoshi Komi"
+        "descripcion": "protagonista del manga romántico Nisekoi de Naoshi Komi",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -6813,11 +6982,12 @@
         "traduccion": "chino clásico"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "日本漢字能力検定",
         "furigana": "にほんかんじのうりょくけんてい",
-        "descripcion": "examen nacional de kanji con 12 niveles, del 10級 al 1級"
+        "descripcion": "examen nacional de kanji con 12 niveles, del 10級 al 1級",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -6851,11 +7021,12 @@
         "traduccion": "probarse ropa"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "試験の花道",
         "furigana": "しけんのはなみち",
-        "descripcion": "programa NHK educativo (2008-2016) con consejos de estudio para exámenes"
+        "descripcion": "programa NHK educativo (2008-2016) con consejos de estudio para exámenes",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -6891,11 +7062,12 @@
         "traduccion": "telescopio"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "遠藤周作",
         "furigana": "えんどうしゅうさく",
-        "descripcion": "novelista de Silencio (Chinmoku), obra sobre cristianos ocultos en Japón"
+        "descripcion": "novelista de Silencio (Chinmoku), obra sobre cristianos ocultos en Japón",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -6931,11 +7103,12 @@
         "traduccion": "himno nacional"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "歌川広重",
         "furigana": "うたがわひろしげ",
-        "descripcion": "pintor ukiyo-e del período Edo, autor de las 53 estaciones del Tōkaidō"
+        "descripcion": "pintor ukiyo-e del período Edo, autor de las 53 estaciones del Tōkaidō",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": []
@@ -6969,11 +7142,12 @@
         "traduccion": "discurso"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "小説家になろう",
         "furigana": "しょうせつかになろう",
-        "descripcion": "plataforma web (2004) donde debutan la mayoría de light novels e isekai"
+        "descripcion": "plataforma web (2004) donde debutan la mayoría de light novels e isekai",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -7007,11 +7181,12 @@
         "traduccion": "color plateado"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "銀魂",
         "furigana": "ぎんたま",
-        "descripcion": "manga y anime de comedia de Hideaki Sorachi sobre samuráis en un Edo alterno"
+        "descripcion": "manga y anime de comedia de Hideaki Sorachi sobre samuráis en un Edo alterno",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -7047,11 +7222,12 @@
         "traduccion": "naturaleza / carácter"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "質屋",
         "furigana": "しちや",
-        "descripcion": "casas de empeño tradicionales japonesas, existían desde el período Edo"
+        "descripcion": "casas de empeño tradicionales japonesas, existían desde el período Edo",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -7085,11 +7261,12 @@
         "traduccion": "hierba medicinal"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "薬師丸ひろ子",
         "furigana": "やくしまるひろこ",
-        "descripcion": "actriz y cantante de los 80, conocida por Sailor Suit and Machine Gun"
+        "descripcion": "actriz y cantante de los 80, conocida por Sailor Suit and Machine Gun",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -7125,11 +7302,12 @@
         "traduccion": "amable / bondadoso"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "親鸞",
         "furigana": "しんらん",
-        "descripcion": "monje budista (1173-1263), fundador de la escuela Jōdo Shinshū"
+        "descripcion": "monje budista (1173-1263), fundador de la escuela Jōdo Shinshū",
+        "tipo": "persona"
       }
     ],
     "relacionadosCon": [
@@ -7165,11 +7343,12 @@
         "traduccion": "dolor de cabeza"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "頭文字D",
         "furigana": "イニシャルディー",
-        "descripcion": "manga y anime de Shūichi Shigeno sobre carreras callejeras en Gunma"
+        "descripcion": "manga y anime de Shūichi Shigeno sobre carreras callejeras en Gunma",
+        "tipo": "manga"
       }
     ],
     "relacionadosCon": [
@@ -7205,11 +7384,12 @@
         "traduccion": "cine (sala)"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "小学館",
         "furigana": "しょうがくかん",
-        "descripcion": "editorial de manga fundada en 1922 (Doraemon, Detective Conan)"
+        "descripcion": "editorial de manga fundada en 1922 (Doraemon, Detective Conan)",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [
@@ -7245,11 +7425,12 @@
         "traduccion": "domingo"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "土曜ワイド劇場",
         "furigana": "どようワイドげきじょう",
-        "descripcion": "bloque de películas de misterio de TV Asahi (1977-2017)"
+        "descripcion": "bloque de películas de misterio de TV Asahi (1977-2017)",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -7283,11 +7464,12 @@
         "traduccion": "tema de conversación"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "題名のない音楽会",
         "furigana": "だいめいのないおんがくかい",
-        "descripcion": "programa musical de TV Asahi (1964-), el más longevo del género en Japón"
+        "descripcion": "programa musical de TV Asahi (1964-), el más longevo del género en Japón",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": []
@@ -7321,11 +7503,12 @@
         "traduccion": "sonrisa"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "顔",
         "furigana": "かお",
-        "descripcion": "film noir japonés de 1957 dirigido por Hideo Ōba"
+        "descripcion": "film noir japonés de 1957 dirigido por Hideo Ōba",
+        "tipo": "pelicula"
       }
     ],
     "relacionadosCon": [
@@ -7362,11 +7545,12 @@
         "traduccion": "experimento"
       }
     ],
-    "personas": [
+    "nombres": [
       {
         "nombre": "経験値",
         "furigana": "けいけんち",
-        "descripcion": "puntos de experiencia en juegos de rol japoneses, clave en la mecánica JRPG"
+        "descripcion": "puntos de experiencia en juegos de rol japoneses, clave en la mecánica JRPG",
+        "tipo": "otro"
       }
     ],
     "relacionadosCon": [

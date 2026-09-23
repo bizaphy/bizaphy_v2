@@ -1,4 +1,4 @@
-import KanjiPersonaFamosa, { type Persona } from "./KanjiPersonaFamosa";
+import KanjiNombreFamoso, { type NombreFamoso } from "./KanjiNombreFamoso";
 
 type Palabra = {
   palabra: string;
@@ -7,17 +7,17 @@ type Palabra = {
 };
 
 type Props = {
-  personas?: Persona[];
+  nombres?: NombreFamoso[];
   palabras?: Palabra[];
 };
 
-export default function KanjiExtras({ personas, palabras }: Props) {
+export default function KanjiExtras({ nombres, palabras }: Props) {
   return (
     <>
       {/* key: resetea el indice del carrusel al cambiar de kanji */}
-      <KanjiPersonaFamosa
-        key={personas?.map((p) => p.nombre).join("|")}
-        personas={personas}
+      <KanjiNombreFamoso
+        key={nombres?.map((n) => n.nombre).join("|")}
+        nombres={nombres}
       />
 
       {/* Palabras famosas */}

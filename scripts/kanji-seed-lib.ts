@@ -42,15 +42,14 @@ export type ColumnasKanji = Omit<
   (typeof COLUMNAS_FUERA_DEL_JSON)[number]
 >;
 
+// Palabras y nombres: todas sus columnas menos id y kanjiId (en el JSON ya
+// van anidadas dentro de su kanji). Tambien derivadas: una columna nueva
+// en esas tablas aparece aca y TypeScript marca export-kanjis.ts.
+type SinIds<T> = Omit<T, "id" | "kanjiId">;
+
 export type SeedKanji = ColumnasKanji & {
-  palabras: Pick<
-    typeof schema.palabrasFamosas.$inferSelect,
-    "palabra" | "furigana" | "traduccion"
-  >[];
-  personas: Pick<
-    typeof schema.personasFamosas.$inferSelect,
-    "nombre" | "furigana" | "descripcion"
-  >[];
+  palabras: SinIds<typeof schema.palabrasFamosas.$inferSelect>[];
+  nombres: SinIds<typeof schema.nombresFamosos.$inferSelect>[];
   // Kanjis con los que se confunde. Se guardan en ambas direcciones.
   relacionadosCon: string[];
 };

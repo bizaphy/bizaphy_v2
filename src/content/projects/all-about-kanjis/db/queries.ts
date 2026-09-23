@@ -6,7 +6,7 @@ import { kanji, nivelJlpt } from "./schema";
 
 /**
  * Trae un kanji por su carácter con todas sus relaciones resueltas:
- * palabras famosas, personas famosas y kanji trap (con el
+ * palabras famosas, nombres famosos y kanji trap (con el
  * kanji destino ya anidado, no solo el id).
  *
  * Devuelve undefined si no existe.
@@ -18,7 +18,7 @@ export async function obtenerKanjiPorCaracter(caracter: string) {
       palabras: {
         orderBy: (p, { asc }) => [asc(p.palabra)],
       },
-      personas: {
+      nombres: {
         orderBy: (p, { asc }) => [asc(p.nombre)],
       },
       kanjiTrapsDesde: {
@@ -43,7 +43,7 @@ type Nivel = (typeof nivelJlpt.enumValues)[number];
  * Lista todos los kanjis de un nivel, ordenados por número de trazos
  * ascendente (los más simples primero). Trae los campos necesarios para
  * renderizar el listado y el panel de detalle sin volver a consultar,
- * incluyendo palabras famosas, personas famosas y kanji traps asociados.
+ * incluyendo palabras famosas, nombres famosos y kanji traps asociados.
  */
 export async function listarKanjisPorNivel(nivel: Nivel) {
   return db.query.kanji.findMany({
@@ -67,8 +67,8 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
         columns: { palabra: true, furigana: true, traduccion: true },
         orderBy: (p, { asc }) => [asc(p.palabra)],
       },
-      personas: {
-        columns: { nombre: true, furigana: true, descripcion: true },
+      nombres: {
+        columns: { nombre: true, furigana: true, descripcion: true, tipo: true },
         orderBy: (p, { asc }) => [asc(p.nombre)],
       },
       kanjiTrapsDesde: {

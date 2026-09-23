@@ -34,7 +34,26 @@ export default async function AllAboutKanjis() {
         >
           CC BY-SA 3.0
         </a>
-        . Se muestran con los colores invertidos.
+        . Se muestran con los colores invertidos. Las imágenes de
+        celebridades provienen de{" "}
+        <a
+          href="https://ja.wikipedia.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={infoLinkClass}
+        >
+          Wikipedia en japonés
+        </a>{" "}
+        (licencias libres), y las de anime, manga y personajes de{" "}
+        <a
+          href="https://anilist.co"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={infoLinkClass}
+        >
+          AniList
+        </a>
+        ; haz clic en cada imagen para ver su fuente.
       </Info>
     </div>
   );

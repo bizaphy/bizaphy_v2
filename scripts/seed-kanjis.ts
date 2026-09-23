@@ -1,17 +1,17 @@
 // Carga scripts/seeds/<nivel>.json en la BDD: kanjis (upsert), palabras,
-// personas y kanji traps.
+// nombres famosos y kanji traps.
 //
 //   npm run db:seed-kanjis -- n5            -> aplica n5.json
 //   npm run db:seed-kanjis -- n5 n4 n3      -> varios niveles
 //   npm run db:seed-kanjis -- n5 --dry-run  -> valida sin escribir nada
 //
-// El JSON es la fuente de verdad: palabras y personas de cada kanji se
+// El JSON es la fuente de verdad: palabras y nombres de cada kanji se
 // borran y se reinsertan desde el archivo. Si editaste datos directo en la
 // BDD, primero corre `npm run db:export-kanjis` para traerlos al JSON.
 //
 // Protecciones: antes de escribir se compara el JSON con la BDD y el seed
 // aborta (sin tocar nada) si se perderia algo:
-//   - una palabra o persona que esta en la BDD y no en el JSON
+//   - una palabra o nombre que esta en la BDD y no en el JSON
 //   - un valor (significado, radicales, furigana, etc.) que en la BDD tiene
 //     dato y en el JSON viene null
 //   - un kanji que en la BDD pertenece a otro nivel
@@ -35,7 +35,7 @@ import {
   type SeedKanji,
 } from "./kanji-seed-lib";
 
-const { kanji, palabrasFamosas, personasFamosas, kanjiTrap } = schema;
+const { kanji, palabrasFamosas, nombresFamosos, kanjiTrap } = schema;
 
 // ── COLUMNAS: todas derivadas del schema, no hay listas a mano ──
 
@@ -54,7 +54,7 @@ const COLUMNAS_ACTUALIZABLES = columnasDelJson.filter(
 // En un upsert, "excluded" es la fila que se intento insertar.
 const excluido = (c: Column) => sql.raw(`excluded."${c.name}"`);
 
-// Se queda solo con las columnas del kanji: saca palabras, personas y
+// Se queda solo con las columnas del kanji: saca palabras, nombres y
 // relacionadosCon, y descarta claves que no sean columnas (ej: un
 // urlOrdenTrazos viejo en el JSON).
 function soloColumnas(k: SeedKanji): ColumnasKanji {
@@ -95,12 +95,12 @@ function leerJson(nivel: Nivel): SeedKanji[] {
     vistos.add(k.caracter);
 
     const palabras = k.palabras.map((p) => p.palabra);
-    const personas = k.personas.map((p) => p.nombre);
+    const nombres = k.nombres.map((n) => n.nombre);
     if (new Set(palabras).size !== palabras.length) {
       errores.push(`${k.caracter} tiene palabras repetidas`);
     }
-    if (new Set(personas).size !== personas.length) {
-      errores.push(`${k.caracter} tiene personas repetidas`);
+    if (new Set(nombres).size !== nombres.length) {
+      errores.push(`${k.caracter} tiene nombres repetidos`);
     }
   }
 
@@ -119,7 +119,7 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
   const enBdd = await db.query.kanji.findMany({
     where: (k, { eq, or, inArray }) =>
       or(eq(k.nivel, nivel), inArray(k.caracter, caracteres)),
-    with: { palabras: true, personas: true },
+    with: { palabras: true, nombres: true },
   });
 
   const porCaracter = new Map(dataset.map((k) => [k.caracter, k]));
@@ -152,11 +152,11 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
       }
     }
 
-    const personasJson = new Map(nuevo.personas.map((p) => [p.nombre, p]));
-    for (const p of actual.personas) {
-      const enJson = personasJson.get(p.nombre);
+    const nombresJson = new Map(nuevo.nombres.map((n) => [n.nombre, n]));
+    for (const p of actual.nombres) {
+      const enJson = nombresJson.get(p.nombre);
       if (!enJson) {
-        perdidas.push(`${actual.caracter}: se borraría la persona ${p.nombre}`);
+        perdidas.push(`${actual.caracter}: se borraría el nombre ${p.nombre}`);
       } else if (p.furigana !== null && enJson.furigana === null) {
         perdidas.push(`${actual.caracter}: se borraría el furigana de ${p.nombre} (${p.furigana})`);
       }
@@ -182,9 +182,9 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
 
   const nuevos = dataset.filter((k) => !existentes.has(k.caracter)).length;
   const totalPalabras = dataset.reduce((n, k) => n + k.palabras.length, 0);
-  const totalPersonas = dataset.reduce((n, k) => n + k.personas.length, 0);
+  const totalNombres = dataset.reduce((n, k) => n + k.nombres.length, 0);
   console.log(
-    `${dataset.length} kanjis (${nuevos} nuevos), ${totalPalabras} palabras, ${totalPersonas} personas`,
+    `${dataset.length} kanjis (${nuevos} nuevos), ${totalPalabras} palabras, ${totalNombres} nombres`,
   );
 
   if (dryRun) {
@@ -211,7 +211,7 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
     const ids = new Map(filas.map((f) => [f.caracter, f.id]));
     const idsNivel = [...ids.values()];
 
-    // 2. Palabras y personas: no hay unique natural, asi que se reemplazan.
+    // 2. Palabras y nombres: no hay unique natural, asi que se reemplazan.
     //    buscarPerdidas ya garantizo que no se pierde nada.
     await tx.delete(palabrasFamosas).where(inArray(palabrasFamosas.kanjiId, idsNivel));
     const palabras = dataset.flatMap((k) =>
@@ -219,11 +219,11 @@ async function sembrarNivel(db: Db, nivel: Nivel, dryRun: boolean) {
     );
     if (palabras.length > 0) await tx.insert(palabrasFamosas).values(palabras);
 
-    await tx.delete(personasFamosas).where(inArray(personasFamosas.kanjiId, idsNivel));
-    const personas = dataset.flatMap((k) =>
-      k.personas.map((p) => ({ kanjiId: ids.get(k.caracter)!, ...p })),
+    await tx.delete(nombresFamosos).where(inArray(nombresFamosos.kanjiId, idsNivel));
+    const nombres = dataset.flatMap((k) =>
+      k.nombres.map((n) => ({ kanjiId: ids.get(k.caracter)!, ...n })),
     );
-    if (personas.length > 0) await tx.insert(personasFamosas).values(personas);
+    if (nombres.length > 0) await tx.insert(nombresFamosos).values(nombres);
 
     // 3. Kanji traps en ambas direcciones. PK compuesta + onConflictDoNothing
     //    lo hace idempotente. El destino puede ser de otro nivel.

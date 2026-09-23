@@ -44,8 +44,26 @@ export const palabrasFamosas = pgTable("palabras_famosas", {
   traduccion: text("traduccion").notNull(),
 });
 
-// ── PERSONAS FAMOSAS: uno a muchos con kanji ──
-export const personasFamosas = pgTable("personas_famosas", {
+// ── TIPO DE NOMBRE: que es cada nombre famoso ──
+// Define de donde se trae la imagen (anime/manga/personaje -> AniList,
+// el resto -> Wikipedia) y evita buscar una persona como si fuera serie.
+export const tipoNombre = pgEnum("tipo_nombre", [
+  "persona", // persona real: actor, escritor, figura historica
+  "personaje", // ficticio: Yamcha, Sugishita Ukyo
+  "anime",
+  "manga",
+  "pelicula",
+  "dorama",
+  "libro", // novela, antologia, cuentos
+  "juego",
+  "otro", // periodico, tienda, lugar, concepto, etc.
+  "musica", // canciones y obras musicales (al final: Postgres agrega valores de enum al final)
+]);
+
+// ── NOMBRES FAMOSOS: uno a muchos con kanji ──
+// Nombres propios que contienen el kanji: personas, series, peliculas,
+// canciones, marcas, etc.
+export const nombresFamosos = pgTable("nombres_famosos", {
   id: serial("id").primaryKey(),
   kanjiId: integer("kanji_id")
     .notNull()
@@ -54,6 +72,8 @@ export const personasFamosas = pgTable("personas_famosas", {
   // Nullable: si la lectura del nombre no es segura, la UI muestra solo el nombre.
   furigana: text("furigana"),
   descripcion: text("descripcion"),
+  // default "otro": las filas existentes quedan validas al agregar la columna
+  tipo: tipoNombre("tipo").notNull().default("otro"),
 });
 
 // ── KANJI TRAP: auto-relación muchos a muchos, direccional ──
@@ -76,11 +96,11 @@ export const kanjiTrap = pgTable(
 // No crean nada en la BD; solo enseñan a Drizzle cómo navegar los FK ya definidos
 ////////////////////////////////////////////////////////////////
 
-// Desde un kanji puedo saltar a: sus palabras, personas y trampas (kanjis parecidos)
+// Desde un kanji puedo saltar a: sus palabras, nombres famosos y trampas (kanjis parecidos)
 // Los relationName distinguen los dos lados de la auto-relación con kanjiTrap
 export const kanjiRelations = relations(kanji, ({ many }) => ({
   palabras: many(palabrasFamosas),
-  personas: many(personasFamosas),
+  nombres: many(nombresFamosos),
   kanjiTrapsDesde: many(kanjiTrap, { relationName: "origen" }),
   kanjiTrapsHacia: many(kanjiTrap, { relationName: "destino" }),
 }));
@@ -96,12 +116,12 @@ export const palabrasFamosasRelations = relations(
   }),
 );
 
-// Cada persona famosa pertenece a un solo kanji (lado "muchos → 1")
-export const personasFamosasRelations = relations(
-  personasFamosas,
+// Cada nombre famoso pertenece a un solo kanji (lado "muchos → 1")
+export const nombresFamososRelations = relations(
+  nombresFamosos,
   ({ one }) => ({
     kanji: one(kanji, {
-      fields: [personasFamosas.kanjiId],
+      fields: [nombresFamosos.kanjiId],
       references: [kanji.id],
     }),
   }),

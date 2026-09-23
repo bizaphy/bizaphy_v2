@@ -1,5 +1,5 @@
 // Exporta los kanjis de la BDD a scripts/seeds/<nivel>.json, con todas sus
-// columnas, palabras, personas y kanji traps. Usalo despues de editar datos
+// columnas, palabras, nombres famosos y kanji traps. Usalo despues de editar datos
 // directo en la BDD, para que el JSON (fuente del seed) no quede atrasado.
 //
 //   npm run db:export-kanjis            -> todos los niveles con kanjis
@@ -26,14 +26,14 @@ async function exportar() {
   const { db, pool } = conectar();
 
   try {
-    // 1. Una sola query trae todo: kanji + sus palabras, personas y traps.
+    // 1. Una sola query trae todo: kanji + sus palabras, nombres famosos y traps.
     //    `with` funciona gracias a las relations del schema (Drizzle arma los JOIN).
     //    Se traen todos los niveles y se filtra despues: son ~650 kanjis, es barato.
     const kanjis = await db.query.kanji.findMany({
       orderBy: (k, { asc }) => [asc(k.numeroTrazos), asc(k.caracter)], // mismo orden que la UI
       with: {
         palabras: { orderBy: (p, { asc }) => [asc(p.id)] }, // orden de insercion
-        personas: { orderBy: (p, { asc }) => [asc(p.nombre)] }, // mismo orden que el carrusel
+        nombres: { orderBy: (p, { asc }) => [asc(p.nombre)] }, // mismo orden que el carrusel
         kanjiTrapsDesde: {
           columns: {}, // de kanji_trap no interesa ninguna columna (solo son ids)...
           with: { destino: { columns: { caracter: true } } }, // ...sino el caracter del otro kanji
@@ -69,10 +69,11 @@ async function exportar() {
           furigana,
           traduccion,
         })),
-        personas: k.personas.map(({ nombre, furigana, descripcion }) => ({
+        nombres: k.nombres.map(({ nombre, furigana, descripcion, tipo }) => ({
           nombre,
           furigana,
           descripcion,
+          tipo,
         })),
         // [{ destino: { caracter: "具" } }, ...] -> ["具", ...]
         relacionadosCon: k.kanjiTrapsDesde

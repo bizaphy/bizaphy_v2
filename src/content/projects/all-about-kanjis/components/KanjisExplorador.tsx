@@ -155,7 +155,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           <section className="grid grid-cols-1 gap-3 p-4 md:grid-cols-3">
             <KanjiExtras
               palabras={seleccionado.palabras}
-              personas={seleccionado.personas}
+              nombres={seleccionado.nombres}
             />
             <KanjiTrap
               kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({

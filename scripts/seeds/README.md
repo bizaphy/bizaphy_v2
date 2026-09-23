@@ -1,7 +1,7 @@
 # Seeds de kanjis
 
 Estos JSON (`n5.json`, `n4.json`, `n3.json`) son la **fuente de verdad** de
-los datos de All About Kanjis: kanjis, palabras famosas, personas famosas y
+los datos de All About Kanjis: kanjis, palabras famosas, nombres famosos y
 kanji traps. Un archivo por nivel JLPT, un objeto por kanji.
 
 Dos comandos los conectan con la base de datos:
@@ -46,10 +46,10 @@ seguir.
 Antes de escribir, el seed compara el JSON con la BDD. Si algo se
 perdería, **aborta sin tocar nada** y dice qué es:
 
-- una palabra o persona que está en la BDD y no en el JSON
+- una palabra o nombre famoso que está en la BDD y no en el JSON
   (`県: se borraría la palabra 県立`)
 - un valor que en la BDD tiene dato y en el JSON viene `null`
-  (significado, radicales, furigana de una persona, etc.)
+  (significado, radicales, furigana de un nombre, etc.)
 - un kanji que en la BDD pertenece a otro nivel
 
 Cada nivel se escribe en una sola transacción: se aplica completo o no se
@@ -87,7 +87,7 @@ Si el seed aborta:
   "urlImagenMnemotecnica": null,
   "destacado": false,
   "palabras": [{ "palabra": "県", "furigana": "けん", "traduccion": "prefectura" }],
-  "personas": [
+  "nombres": [
     {
       "nombre": "都道府県かるた",
       "furigana": "とどうふけんかるた",
@@ -98,11 +98,11 @@ Si el seed aborta:
 }
 ```
 
-- `furigana` de personas: hiragana sin espacios, la katakana del nombre se
+- `furigana` de nombres: hiragana sin espacios, la katakana del nombre se
   deja tal cual (`西野カナ` → `にしのカナ`). `null` si la lectura no es
   segura.
-- `personas` admite varias por kanji: la UI las muestra de a una con
-  flechas.
+- `nombres` admite varios por kanji (personas, series, canciones…): la UI
+  los muestra de a uno con flechas.
 - `relacionadosCon`: kanjis con los que se confunde. Se guardan en ambas
   direcciones y pueden ser de otro nivel.
 
