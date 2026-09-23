@@ -7,7 +7,7 @@
     "kunyomi": "ひと-、ひと.つ",
     "numeroTrazos": 1,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -46,7 +46,7 @@
     "kunyomi": "なな、なな.つ、なの",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -87,7 +87,7 @@
     "kunyomi": "ここの、ここの.つ",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -128,7 +128,7 @@
     "kunyomi": "ふた、ふた.つ、ふたたび",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -169,7 +169,7 @@
     "kunyomi": "ひと、-り、-と",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -211,7 +211,7 @@
     "kunyomi": "い.る、-い.る、-い.り、い.れる、-い.れ、はい.る",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -253,7 +253,7 @@
     "kunyomi": "や、や.つ、やっ.つ、よう",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -295,7 +295,7 @@
     "kunyomi": "とお、と",
     "numeroTrazos": 2,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -337,7 +337,7 @@
     "kunyomi": "よろず",
     "numeroTrazos": 3,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -378,7 +378,7 @@
     "kunyomi": "み、み.つ、みっ.つ",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -420,7 +420,9 @@
     "kunyomi": "うえ、-うえ、うわ-、かみ、あ.げる、-あ.げる、あ.がる、-あ.がる、あ.がり、-あ.がり、のぼ.る、のぼ.り、のぼ.せる、のぼ.す、たてまつ.る",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "卜"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -462,7 +464,9 @@
     "kunyomi": "した、しも、もと、さ.げる、さ.がる、くだ.る、くだ.り、くだ.す、-くだ.す、くだ.さる、お.ろす、お.りる",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "卜"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -504,7 +508,9 @@
     "kunyomi": "ち",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -546,7 +552,7 @@
     "kunyomi": "くち",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -587,7 +593,7 @@
     "kunyomi": "つち",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -629,7 +635,7 @@
     "kunyomi": "おお-、おお.きい、-おお.いに",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -672,7 +678,7 @@
     "kunyomi": "おんな、め",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -713,7 +719,7 @@
     "kunyomi": "こ、-こ、ね",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -755,7 +761,7 @@
     "kunyomi": "ちい.さい、こ-、お-、さ-",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -796,7 +802,7 @@
     "kunyomi": "やま",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -837,7 +843,7 @@
     "kunyomi": "かわ",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -879,7 +885,9 @@
     "kunyomi": "なか、うち、あた.る",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -920,7 +928,7 @@
     "kunyomi": "いつ、いつ.つ",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -959,7 +967,9 @@
     "kunyomi": "いま",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "𠆢"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1002,7 +1012,10 @@
     "kunyomi": "む、む.つ、むっ.つ、むい",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "亠",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1041,7 +1054,9 @@
     "kunyomi": "まる.い、まる、まど、まど.か、まろ.やか",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "冂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1082,7 +1097,9 @@
     "kunyomi": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1124,7 +1141,10 @@
     "kunyomi": "うま",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "𠂉",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1167,7 +1187,9 @@
     "kunyomi": "とも",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1210,7 +1232,9 @@
     "kunyomi": "あまつ、あめ、あま-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1252,7 +1276,9 @@
     "kunyomi": "すく.ない、すこ.し",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⺌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1293,7 +1319,7 @@
     "kunyomi": "て、て-、-て、た-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1334,7 +1360,7 @@
     "kunyomi": "ひ、-び、-か",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1375,7 +1401,7 @@
     "kunyomi": "つき",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1416,7 +1442,7 @@
     "kunyomi": "き、こ-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1458,7 +1484,7 @@
     "kunyomi": "みず、みず-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1500,7 +1526,7 @@
     "kunyomi": "ひ、-び、ほ-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1539,7 +1565,10 @@
     "kunyomi": "ちち",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "八",
+      "乂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1580,7 +1609,9 @@
     "kunyomi": "で.る、-で、だ.す、-だ.す、い.でる、い.だす",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "凵"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1621,7 +1652,10 @@
     "kunyomi": "きた",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "丬",
+      "匕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1663,7 +1697,10 @@
     "kunyomi": "なか.ば",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "丷",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1704,7 +1741,10 @@
     "kunyomi": "ふる.い、ふる-、-ふる.す",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "十",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1747,7 +1787,9 @@
     "kunyomi": "みぎ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1792,7 +1834,10 @@
     "kunyomi": "よ、よ.つ、よっ.つ、よん",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "囗",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1833,7 +1878,10 @@
     "kunyomi": "そと、ほか、はず.す、はず.れる、と-",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "夕",
+      "卜"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1872,7 +1920,9 @@
     "kunyomi": "ひだり",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "工"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1913,7 +1963,9 @@
     "kunyomi": "いま.だ、ま.だ、ひつじ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": null,
+    "radicales": [
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1957,7 +2009,9 @@
     "kunyomi": "もと",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2000,7 +2054,7 @@
     "kunyomi": "はは、も",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2042,7 +2096,7 @@
     "kunyomi": "い.きる、い.かす、い.ける、う.まれる、うま.れる、う.まれ、うまれ、う.む、お.う、は.える、は.やす、き、なま、なま-、な.る、な.す、む.す、-う",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2084,7 +2138,9 @@
     "kunyomi": "しろ、しら-、しろ.い",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2126,7 +2182,7 @@
     "kunyomi": "め、-め、ま-",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2169,7 +2225,7 @@
     "kunyomi": "た.つ、-た.つ、た.ち-、た.てる、-た.てる、た.て-、たて-、-た.て、-だ.て、-だ.てる",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2208,7 +2264,10 @@
     "kunyomi": "やす.む、やす.まる、やす.める",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "⺅",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2249,7 +2308,10 @@
     "kunyomi": "あ.う、あ.わせる、あつ.まる",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "𠆢",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2291,7 +2353,10 @@
     "kunyomi": "さき、ま.ず",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "土",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2333,7 +2398,10 @@
     "kunyomi": "な、-な",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "夕",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2374,7 +2442,9 @@
     "kunyomi": "おお.い、まさ.に、まさ.る",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "夕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2415,7 +2485,10 @@
     "kunyomi": "やす.い、やす.まる、やす、やす.らか",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": null,
+    "radicales": [
+      "宀",
+      "女"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2457,7 +2530,9 @@
     "kunyomi": "とし",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "𠂉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2498,7 +2573,10 @@
     "kunyomi": "ごと、-ごと.に",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "𠂉",
+      "毋"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2541,7 +2619,10 @@
     "kunyomi": "いき",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "气",
+      "乂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2582,7 +2663,9 @@
     "kunyomi": "もも",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2623,7 +2706,7 @@
     "kunyomi": "みみ",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2664,7 +2747,7 @@
     "kunyomi": "い.く、ゆ.く、-ゆ.き、-ゆき、-い.き、-いき、おこな.う、おこ.なう",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2703,7 +2786,7 @@
     "kunyomi": "にし",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2750,7 +2833,10 @@
     "kunyomi": "なに、なん、なに-、なん-",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⺅",
+      "可"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2791,7 +2877,10 @@
     "kunyomi": "おとこ、お",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "田",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2832,7 +2921,10 @@
     "kunyomi": "やしろ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⺭",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2871,7 +2963,11 @@
     "kunyomi": "はな",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "⺾",
+      "⺅",
+      "匕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2912,7 +3008,10 @@
     "kunyomi": "み.る、み.える、み.せる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "目",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2954,7 +3053,7 @@
     "kunyomi": "い.う、こと",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2995,7 +3094,7 @@
     "kunyomi": "あし、た.りる、た.る、た.す",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3036,7 +3135,7 @@
     "kunyomi": "くるま",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3078,7 +3177,10 @@
     "kunyomi": "くに",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "囗",
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3120,7 +3222,11 @@
     "kunyomi": "まな.ぶ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "⺍",
+      "冖",
+      "子"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3163,7 +3269,11 @@
     "kunyomi": "みせ、たな",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "广",
+      "卜",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3205,7 +3315,10 @@
     "kunyomi": "ひがし",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "木",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3247,7 +3360,10 @@
     "kunyomi": "そら、あ.く、あ.き、あ.ける、から、す.く、す.かす、むな.しい",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "穴",
+      "工"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3288,7 +3404,7 @@
     "kunyomi": "かね、かな-、-がね",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3329,7 +3445,7 @@
     "kunyomi": "なが.い、おさ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3370,7 +3486,7 @@
     "kunyomi": "あめ、あま-、-さめ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3411,7 +3527,11 @@
     "kunyomi": "まえ、-まえ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "䒑",
+      "月",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3450,7 +3570,11 @@
     "kunyomi": "みなみ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "十",
+      "冂",
+      "丷"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3489,7 +3613,11 @@
     "kunyomi": "のち、うし.ろ、うしろ、あと、おく.れる",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "彳",
+      "幺",
+      "夂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3528,7 +3656,10 @@
     "kunyomi": "く.う、く.らう、た.べる、は.む",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "𠆢",
+      "艮"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3569,7 +3700,11 @@
     "kunyomi": "とき、-どき",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "日",
+      "土",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3611,7 +3746,10 @@
     "kunyomi": "か.く、-が.き、-がき",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "彐",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3653,7 +3791,12 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 1,
-    "radicales": null,
+    "radicales": [
+      "木",
+      "亠",
+      "八",
+      "乂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3692,7 +3835,11 @@
     "kunyomi": "たか.い、たか、-だか、たか.まる、たか.める",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "亠",
+      "口",
+      "冂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3733,7 +3880,12 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⻌",
+      "冂",
+      "土",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3775,7 +3927,7 @@
     "kunyomi": "うお、さかな、-ざかな",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3818,7 +3970,10 @@
     "kunyomi": "か.う",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⺫",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3859,7 +4014,11 @@
     "kunyomi": "みち、いう",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⻌",
+      "䒑",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3900,7 +4059,10 @@
     "kunyomi": "あいだ、ま、あい",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "門",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3944,7 +4106,10 @@
     "kunyomi": "の.む、-の.み",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": null,
+    "radicales": [
+      "飠",
+      "欠"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3985,7 +4150,11 @@
     "kunyomi": "あたら.しい、あら.た、あら-、にい-",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "立",
+      "木",
+      "斤"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4026,7 +4195,11 @@
     "kunyomi": "はな.す、はなし",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "訁",
+      "十",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4068,7 +4241,10 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "⻗",
+      "电"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4110,7 +4286,10 @@
     "kunyomi": "き.く、き.こえる",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "門",
+      "耳"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4152,7 +4331,11 @@
     "kunyomi": "かた.る、かた.らう",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "訁",
+      "五",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4193,7 +4376,11 @@
     "kunyomi": "よ.む、-よ.み",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": null,
+    "radicales": [
+      "訁",
+      "冖",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4235,7 +4422,10 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": null,
+    "radicales": [
+      "馬",
+      "尸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,

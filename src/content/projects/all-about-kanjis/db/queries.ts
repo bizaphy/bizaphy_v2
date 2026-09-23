@@ -43,7 +43,7 @@ type Nivel = (typeof nivelJlpt.enumValues)[number];
  * Lista todos los kanjis de un nivel, ordenados por número de trazos
  * ascendente (los más simples primero). Trae los campos necesarios para
  * renderizar el listado y el panel de detalle sin volver a consultar,
- * incluyendo palabras famosas, nombres famosos y kanji traps asociados.
+ * incluyendo palabras famosas, nombres famosos, kanji traps y radicales.
  */
 export async function listarKanjisPorNivel(nivel: Nivel) {
   return db.query.kanji.findMany({
@@ -57,7 +57,6 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       anioEscolarJapon: true,
       urlImagenMnemotecnica: true,
       fraseMnemotecnica: true,
-      radicales: true,
       destacado: true,
     },
     where: (k, { eq }) => eq(k.nivel, nivel),
@@ -76,6 +75,21 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
         with: {
           destino: {
             columns: { caracter: true, significado: true },
+          },
+        },
+      },
+      // Radicales desde el catalogo (tabla radical), en el orden del JSON
+      kanjiRadicales: {
+        columns: {},
+        orderBy: (kr, { asc }) => [asc(kr.orden)],
+        with: {
+          radical: {
+            columns: {
+              caracter: true,
+              significado: true,
+              furigana: true,
+              numeroTrazos: true,
+            },
           },
         },
       },

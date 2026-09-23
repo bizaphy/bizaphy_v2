@@ -46,10 +46,10 @@ seguir.
 Antes de escribir, el seed compara el JSON con la BDD. Si algo se
 perdería, **aborta sin tocar nada** y dice qué es:
 
-- una palabra o nombre famoso que está en la BDD y no en el JSON
+- una palabra, nombre famoso o radical que está en la BDD y no en el JSON
   (`県: se borraría la palabra 県立`)
 - un valor que en la BDD tiene dato y en el JSON viene `null`
-  (significado, radicales, furigana de un nombre, etc.)
+  (significado, furigana de un nombre, etc.)
 - un kanji que en la BDD pertenece a otro nivel
 
 Cada nivel se escribe en una sola transacción: se aplica completo o no se
@@ -82,7 +82,7 @@ Si el seed aborta:
   "kunyomi": "か.ける",
   "numeroTrazos": 9,
   "anioEscolarJapon": 3,
-  "radicales": null,
+  "radicales": ["目", "小"],
   "fraseMnemotecnica": null,
   "urlImagenMnemotecnica": null,
   "destacado": false,
@@ -105,6 +105,21 @@ Si el seed aborta:
   los muestra de a uno con flechas.
 - `relacionadosCon`: kanjis con los que se confunde. Se guardan en ambas
   direcciones y pueden ser de otro nivel.
+- `radicales`: grafemas del kanji, en el orden en que se muestran. Cada uno
+  tiene que existir en `radicales.json` (el catálogo, con trazos, nombre,
+  furigana y significado); si no, el seed aborta. `[]` si no tiene.
+
+## Catálogo de radicales (`radicales.json`)
+
+Un objeto por grafema, sacado de `public/radicales.pdf`:
+
+```json
+{ "caracter": "⺅", "numeroTrazos": 2, "nombre": "ninben", "furigana": "にんべん", "significado": "persona", "kanjiOrigen": "人" }
+```
+
+Se aplica automáticamente al inicio de cada `db:seed-kanjis`, antes de los
+niveles. Para corregir un significado, se edita aquí y se vuelve a correr el
+seed: el cambio se ve en todos los kanjis que usan ese radical.
 
 ## Base de datos de destino
 

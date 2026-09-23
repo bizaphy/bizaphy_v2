@@ -1,5 +1,5 @@
 // Exporta los kanjis de la BDD a scripts/seeds/<nivel>.json, con todas sus
-// columnas, palabras, nombres famosos y kanji traps. Usalo despues de editar datos
+// columnas, palabras, nombres famosos, kanji traps y radicales. Usalo despues de editar datos
 // directo en la BDD, para que el JSON (fuente del seed) no quede atrasado.
 //
 //   npm run db:export-kanjis            -> todos los niveles con kanjis
@@ -38,6 +38,11 @@ async function exportar() {
           columns: {}, // de kanji_trap no interesa ninguna columna (solo son ids)...
           with: { destino: { columns: { caracter: true } } }, // ...sino el caracter del otro kanji
         },
+        kanjiRadicales: {
+          columns: {},
+          orderBy: (kr, { asc }) => [asc(kr.orden)], // el orden es parte del dato
+          with: { radical: { columns: { caracter: true } } },
+        },
       },
     });
 
@@ -59,7 +64,8 @@ async function exportar() {
         kunyomi: k.kunyomi,
         numeroTrazos: k.numeroTrazos,
         anioEscolarJapon: k.anioEscolarJapon,
-        radicales: k.radicales,
+        // [{ radical: { caracter: "⺅" } }, ...] -> ["⺅", ...], sin sort: respeta `orden`
+        radicales: k.kanjiRadicales.map((kr) => kr.radical.caracter),
         fraseMnemotecnica: k.fraseMnemotecnica,
         urlImagenMnemotecnica: k.urlImagenMnemotecnica,
         destacado: k.destacado,

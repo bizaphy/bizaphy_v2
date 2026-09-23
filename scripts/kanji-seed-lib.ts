@@ -39,6 +39,9 @@ export type SeedKanji = ColumnasKanji & {
   nombres: SinIds<typeof schema.nombresFamosos.$inferSelect>[];
   // Kanjis con los que se confunde (en ambas direcciones).
   relacionadosCon: string[];
+  // Caracteres de radicales.json, en el orden en que se muestran: ["⺅", "木"].
+  // Se guardan en kanji_radical; [] si el kanji no tiene.
+  radicales: string[];
 };
 
 // Columnas del JSON en tiempo de ejecucion, con su Column de Drizzle.
@@ -82,15 +85,3 @@ export function rutaJson(nivel: Nivel) {
 export const RUTA_RADICALES = path.join(SEEDS_DIR, "radicales.json");
 
 export type SeedRadical = Omit<typeof schema.radical.$inferSelect, "id">;
-
-// En el JSON de cada nivel los radicales van como texto: "⺅、木".
-export const SEPARADOR_RADICALES = "、";
-
-export function separarRadicales(radicales: string | null): string[] {
-  return (
-    radicales
-      ?.split(SEPARADOR_RADICALES)
-      .map((r) => r.trim())
-      .filter(Boolean) ?? []
-  );
-}

@@ -25,10 +25,7 @@ export const kanji = pgTable("kanji", {
   urlOrdenTrazos: text("url_orden_trazos"),
   fraseMnemotecnica: text("frase_mnemotecnica"),
   urlImagenMnemotecnica: text("url_imagen_mnemotecnica"),
-  // Radicales identificados dentro del kanji. Se guardan como texto plano
-  // separado por "、" (misma convencion que onyomi/kunyomi). Nullable: si
-  // esta vacio la UI muestra N/A.
-  radicales: text("radicales"),
+  // Los radicales no son columna: van en kanji_radical (ver mas abajo)
   nivel: nivelJlpt("nivel").notNull(),
   destacado: boolean("destacado").notNull().default(false),
 });
@@ -91,18 +88,65 @@ export const kanjiTrap = pgTable(
   (table) => [primaryKey({ columns: [table.kanjiId, table.kanjiTrapId] })],
 );
 
+// ── RADICAL: catalogo de grafemas (fuente: public/radicales.pdf) ──
+// Un radical se guarda una sola vez; los kanjis lo referencian via kanjiRadical.
+export const radical = pgTable("radical", {
+  id: serial("id").primaryKey(),
+  // varchar cuenta caracteres, no bytes: 𠆢 (fuera del BMP) cabe en length 1
+  caracter: varchar("caracter", { length: 1 }).notNull().unique(),
+  numeroTrazos: integer("numero_trazos").notNull(),
+  nombre: text("nombre"), // nombre japones en romaji: "ninben"
+  furigana: text("furigana"), // mismo nombre en kana: "にんべん"
+  significado: text("significado"),
+  kanjiOrigen: varchar("kanji_origen", { length: 1 }), // forma completa: ⺅ -> 人
+});
+
+// ── KANJI RADICAL: muchos a muchos entre kanji y radical ──
+// orden: las filas no tienen orden garantizado; asi 校 se muestra 木、亠、八、乂
+export const kanjiRadical = pgTable(
+  "kanji_radical",
+  {
+    kanjiId: integer("kanji_id")
+      .notNull()
+      .references(() => kanji.id),
+    radicalId: integer("radical_id")
+      .notNull()
+      .references(() => radical.id),
+    orden: integer("orden").notNull(),
+  },
+  (table) => [primaryKey({ columns: [table.kanjiId, table.radicalId] })],
+);
+
 ////////////////////////////////////////////////////////////////
 // ── RELACIONES: mapa para queries anidadas con `.with`
 // No crean nada en la BD; solo enseñan a Drizzle cómo navegar los FK ya definidos
 ////////////////////////////////////////////////////////////////
 
-// Desde un kanji puedo saltar a: sus palabras, nombres famosos y trampas (kanjis parecidos)
+// Desde un kanji puedo saltar a: sus palabras, nombres famosos, trampas (kanjis parecidos) y radicales
 // Los relationName distinguen los dos lados de la auto-relación con kanjiTrap
 export const kanjiRelations = relations(kanji, ({ many }) => ({
   palabras: many(palabrasFamosas),
   nombres: many(nombresFamosos),
   kanjiTrapsDesde: many(kanjiTrap, { relationName: "origen" }),
   kanjiTrapsHacia: many(kanjiTrap, { relationName: "destino" }),
+  kanjiRadicales: many(kanjiRadical),
+}));
+
+// Desde un radical puedo saltar a todos los kanjis que lo contienen
+export const radicalRelations = relations(radical, ({ many }) => ({
+  kanjis: many(kanjiRadical),
+}));
+
+// Cada fila conecta un kanji con uno de sus radicales
+export const kanjiRadicalRelations = relations(kanjiRadical, ({ one }) => ({
+  kanji: one(kanji, {
+    fields: [kanjiRadical.kanjiId],
+    references: [kanji.id],
+  }),
+  radical: one(radical, {
+    fields: [kanjiRadical.radicalId],
+    references: [radical.id],
+  }),
 }));
 
 // Cada palabra pertenece a un solo kanji (lado "muchos → 1")

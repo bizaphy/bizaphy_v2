@@ -6,15 +6,16 @@
 //   npm run db:seed-kanjis -- n5 n4 n3      -> varios niveles
 //   npm run db:seed-kanjis -- n5 --dry-run  -> valida sin escribir nada
 //
-// El JSON es la fuente de verdad: palabras y nombres de cada kanji se
-// borran y se reinsertan desde el archivo. Si editaste datos directo en la
-// BDD, primero corre `npm run db:export-kanjis` para traerlos al JSON.
+// El JSON es la fuente de verdad: palabras, nombres y radicales de cada
+// kanji se borran y se reinsertan desde el archivo. Si editaste datos
+// directo en la BDD, primero corre `npm run db:export-kanjis` para traerlos
+// al JSON.
 //
 // Protecciones: antes de escribir se compara el JSON con la BDD y el seed
 // aborta (sin tocar nada) si se perderia algo:
-//   - una palabra o nombre que esta en la BDD y no en el JSON
-//   - un valor (significado, radicales, furigana, etc.) que en la BDD tiene
-//     dato y en el JSON viene null
+//   - una palabra, nombre o radical que esta en la BDD y no en el JSON
+//   - un valor (significado, furigana, etc.) que en la BDD tiene dato y en
+//     el JSON viene null
 //   - un kanji que en la BDD pertenece a otro nivel
 // Todo el nivel se escribe en una sola transaccion.
 //
@@ -32,7 +33,6 @@ import {
   RUTA_RADICALES,
   rutaJson,
   schema,
-  separarRadicales,
   type ColumnasKanji,
   type Db,
   type Nivel,
@@ -226,7 +226,14 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
   const enBdd = await db.query.kanji.findMany({
     where: (k, { eq, or, inArray }) =>
       or(eq(k.nivel, nivel), inArray(k.caracter, caracteres)),
-    with: { palabras: true, nombres: true },
+    with: {
+      palabras: true,
+      nombres: true,
+      kanjiRadicales: {
+        columns: {},
+        with: { radical: { columns: { caracter: true } } },
+      },
+    },
   });
 
   const porCaracter = new Map(dataset.map((k) => [k.caracter, k]));
@@ -278,6 +285,13 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
         );
       }
     }
+
+    const radicalesJson = new Set(nuevo.radicales);
+    for (const { radical: r } of actual.kanjiRadicales) {
+      if (!radicalesJson.has(r.caracter)) {
+        perdidas.push(`${actual.caracter}: se borraría el radical ${r.caracter}`);
+      }
+    }
   }
 
   return {
@@ -287,8 +301,8 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
   };
 }
 
-// Cada radical del texto "⺅、木" tiene que existir en el catalogo y no repetirse
-// en el mismo kanji (la PK de kanji_radical es kanjiId + radicalId).
+// Cada radical de la lista ["⺅", "木"] tiene que existir en el catalogo y no
+// repetirse en el mismo kanji (la PK de kanji_radical es kanjiId + radicalId).
 function validarRadicales(
   nivel: Nivel,
   dataset: SeedKanji[],
@@ -296,7 +310,14 @@ function validarRadicales(
 ) {
   const errores: string[] = [];
   for (const k of dataset) {
-    const lista = separarRadicales(k.radicales);
+    // Formato viejo ("⺅、木" o null): mejor avisar que fallar mas adelante
+    if (!Array.isArray(k.radicales)) {
+      errores.push(
+        `${k.caracter}: radicales tiene que ser una lista, ej: ["⺅", "木"]`,
+      );
+      continue;
+    }
+    const lista = k.radicales;
     for (const r of lista) {
       if (!catalogo.has(r)) {
         errores.push(`${k.caracter}: el radical ${r} no está en radicales.json`);
@@ -341,7 +362,7 @@ async function sembrarNivel(
   const totalPalabras = dataset.reduce((n, k) => n + k.palabras.length, 0);
   const totalNombres = dataset.reduce((n, k) => n + k.nombres.length, 0);
   const totalRadicales = dataset.reduce(
-    (n, k) => n + separarRadicales(k.radicales).length,
+    (n, k) => n + k.radicales.length,
     0,
   );
   console.log(
@@ -432,15 +453,13 @@ async function sembrarNivel(
         .onConflictDoNothing();
     }
 
-    // 4. Radicales: kanji_radical se deriva de la columna `radicales`, que ya
-    //    esta protegida en buscarPerdidas; se reemplazan igual que las palabras.
-    //    orden = posicion en el texto, para mostrarlos en el mismo orden.
+    // 4. Radicales: se reemplazan igual que las palabras (buscarPerdidas ya
+    //    garantizo que no se pierde ninguno).
+    //    orden = posicion en la lista, para mostrarlos en el mismo orden.
     await tx
       .delete(kanjiRadical)
       .where(inArray(kanjiRadical.kanjiId, idsNivel));
-    const usados = [
-      ...new Set(dataset.flatMap((k) => separarRadicales(k.radicales))),
-    ];
+    const usados = [...new Set(dataset.flatMap((k) => k.radicales))];
     if (usados.length > 0) {
       const idsRadical = new Map(
         (
@@ -451,7 +470,7 @@ async function sembrarNivel(
         ).map((r) => [r.caracter, r.id]),
       );
       const filasRadical = dataset.flatMap((k) =>
-        separarRadicales(k.radicales).map((r, orden) => ({
+        k.radicales.map((r, orden) => ({
           kanjiId: ids.get(k.caracter)!,
           radicalId: idsRadical.get(r)!,
           orden,
