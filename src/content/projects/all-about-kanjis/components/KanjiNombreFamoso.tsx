@@ -150,7 +150,8 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
   const imagen = entrada?.urlImagen ?? imagenActual?.image;
 
   return (
-    <div className="flex flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)]">
+    // borde zinc sin glow: el fucsia queda solo en titulo, nombre y flechas
+    <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
       <div className="flex items-center justify-between border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
         CELEBRIDAD / SERIE
         {conFlechas && (

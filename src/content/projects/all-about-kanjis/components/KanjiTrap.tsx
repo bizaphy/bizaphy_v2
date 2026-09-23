@@ -28,8 +28,27 @@ export default function KanjiTrap({ kanjiTraps }: Props) {
   }, [zoom]);
 
   return (
-    <div className="flex flex-col overflow-hidden rounded-md border-2 border-yellow-400/80 bg-zinc-900/60 shadow-[0_0_10px_rgba(250,204,21,0.3)]">
-      <div className="border-b-2 border-yellow-400/60 px-3 py-2 font-mono text-xs tracking-widest text-zinc-300">
+    // sin marco amarillo ni glow: mismo borde zinc que las tarjetas vecinas;
+    // el amarillo queda en el titulo, los significados y el modal
+    <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
+      <div className="flex items-center gap-1.5 border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-yellow-300">
+        {/* triangulo de advertencia con "!": el kanji se confunde facil */}
+        <svg
+          aria-hidden="true"
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="shrink-0"
+        >
+          <path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z" />
+          <path d="M12 9v4" />
+          <path d="M12 17h.01" />
+        </svg>
         KANJI TRAP
       </div>
 
@@ -47,7 +66,7 @@ export default function KanjiTrap({ kanjiTraps }: Props) {
                   type="button"
                   onClick={() => setZoom(trap)}
                   aria-label={`Ampliar ${trap.caracter}${trap.significado ? `: ${trap.significado}` : ""}`}
-                  className={`group flex aspect-square min-w-0 cursor-zoom-in flex-col items-center justify-center gap-1 border-yellow-400/50 px-1 transition hover:bg-yellow-400/10 ${bordes}`}
+                  className={`group flex aspect-square min-w-0 cursor-zoom-in flex-col items-center justify-center gap-1 border-zinc-700 px-1 transition hover:bg-yellow-400/10 ${bordes}`}
                 >
                   <span className="font-mono text-[2rem] leading-none text-zinc-100 transition group-hover:scale-110 lg:text-[2.5rem]">
                     {trap.caracter}
@@ -62,7 +81,7 @@ export default function KanjiTrap({ kanjiTraps }: Props) {
                 <div
                   key={`vacia-${i}`}
                   aria-hidden
-                  className={`aspect-square border-yellow-400/50 ${bordes}`}
+                  className={`aspect-square border-zinc-700 ${bordes}`}
                 />
               );
             })}
