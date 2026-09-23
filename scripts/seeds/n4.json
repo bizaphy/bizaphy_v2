@@ -113,10 +113,10 @@
     ],
     "nombres": [
       {
-        "nombre": "工藤静香",
-        "furigana": "くどうしずか",
-        "descripcion": "cantante, ex integrante de Onyanko Club",
-        "tipo": "persona"
+        "nombre": "工藤新一",
+        "furigana": "くどうしんいち",
+        "descripcion": "detective de secundaria protagonista de Detective Conan, encogido a niño por un veneno",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -236,10 +236,10 @@
     ],
     "nombres": [
       {
-        "nombre": "公文公",
-        "furigana": "くもんとおる",
-        "descripcion": "fundador del método educativo Kumon (1914-1995)",
-        "tipo": "persona"
+        "nombre": "有馬公生",
+        "furigana": "ありまこうせい",
+        "descripcion": "pianista prodigio protagonista de Shigatsu wa Kimi no Uso (Your Lie in April)",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -483,10 +483,10 @@
     ],
     "nombres": [
       {
-        "nombre": "菅原文太",
-        "furigana": "すがわらぶんた",
-        "descripcion": "actor de Jingi naki tatakai y voz de Kamaji en El viaje de Chihiro (1933-2014)",
-        "tipo": "persona"
+        "nombre": "文豪ストレイドッグス",
+        "furigana": "ぶんごうストレイドッグス",
+        "descripcion": "anime (2016) donde escritores famosos pelean con poderes basados en sus obras",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -525,10 +525,10 @@
     ],
     "nombres": [
       {
-        "nombre": "北方謙三",
-        "furigana": "きたかたけんぞう",
-        "descripcion": "novelista de crímenes y sagas históricas contemporáneo",
-        "tipo": "persona"
+        "nombre": "土方十四郎",
+        "furigana": "ひじかたとうしろう",
+        "descripcion": "vicecomandante del Shinsengumi en Gintama, fanático de la mayonesa",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -691,10 +691,10 @@
     ],
     "nombres": [
       {
-        "nombre": "世阿弥",
-        "furigana": "ぜあみ",
-        "descripcion": "dramaturgo Noh (~1363-1443), autor de Fūshi Kaden",
-        "tipo": "persona"
+        "nombre": "Re:ゼロから始める異世界生活",
+        "furigana": "Re:ゼロからはじめるいせかいせいかつ",
+        "descripcion": "anime isekai (2016) donde Subaru revive cada vez que muere",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -730,10 +730,10 @@
     ],
     "nombres": [
       {
-        "nombre": "中村主水",
-        "furigana": "なかむらもんど",
-        "descripcion": "personaje icónico de la saga Hissatsu (1973-), samurái asesino a sueldo",
-        "tipo": "personaje"
+        "nombre": "ようこそ実力至上主義の教室へ",
+        "furigana": "ようこそじつりょくしじょうしゅぎのきょうしつへ",
+        "descripcion": "anime (2017) sobre Kiyotaka Ayanokōji en una escuela de élite que premia el mérito",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -815,10 +815,10 @@
     ],
     "nombres": [
       {
-        "nombre": "松本伊代",
-        "furigana": "まつもといよ",
-        "descripcion": "cantante idol de los 80, debutó con Sentimental Journey (1981)",
-        "tipo": "persona"
+        "nombre": "佐倉千代",
+        "furigana": "さくらちよ",
+        "descripcion": "protagonista de Gekkan Shōjo Nozaki-kun, enamorada de un mangaka despistado",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -1393,10 +1393,10 @@
     ],
     "nombres": [
       {
-        "nombre": "河合奈保子",
-        "furigana": "かわいなおこ",
-        "descripcion": "cantante idol de los años 80",
-        "tipo": "persona"
+        "nombre": "僕らはみんな河合荘",
+        "furigana": "ぼくらはみんなかわいそう",
+        "descripcion": "anime (2014) sobre un estudiante que vive en una pensión con inquilinos excéntricos",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1435,10 +1435,10 @@
     ],
     "nombres": [
       {
-        "nombre": "同期のサクラ",
-        "furigana": "どうきのサクラ",
-        "descripcion": "dorama japonés (2019) sobre trabajadores de una constructora",
-        "tipo": "dorama"
+        "nombre": "同級生",
+        "furigana": "どうきゅうせい",
+        "descripcion": "película de anime (2016) sobre el romance de dos compañeros de secundaria, basada en el manga de Asumiko Nakamura",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1725,10 +1725,10 @@
     ],
     "nombres": [
       {
-        "nombre": "BLEACH",
-        "furigana": null,
-        "descripcion": "manga y anime de Tite Kubo sobre shinigami que protegen almas",
-        "tipo": "manga"
+        "nombre": "死神坊ちゃんと黒メイド",
+        "furigana": "しにがみぼっちゃんとくろメイド",
+        "descripcion": "anime (2021) sobre un joven maldito que mata lo que toca y su pícara sirvienta",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -1808,10 +1808,10 @@
     ],
     "nombres": [
       {
-        "nombre": "考える人",
-        "furigana": "かんがえるひと",
-        "descripcion": "escultura icónica de Auguste Rodin, muy popularizada en Japón",
-        "tipo": "otro"
+        "nombre": "私がモテないのはどう考えてもお前らが悪い！",
+        "furigana": "わたしがモテないのはどうかんがえてもおまえらがわるい！",
+        "descripcion": "anime (2013) sobre Tomoko, estudiante antisocial que intenta ser popular",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2016,10 +2016,10 @@
     ],
     "nombres": [
       {
-        "nombre": "住友政友",
-        "furigana": "すみともまさとも",
-        "descripcion": "fundador del clan mercantil Sumitomo en el s.XVII",
-        "tipo": "persona"
+        "nombre": "無限の住人",
+        "furigana": "むげんのじゅうにん",
+        "descripcion": "anime sobre Manji, espadachín inmortal que busca matar a mil malvados",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2061,7 +2061,7 @@
         "nombre": "三体",
         "furigana": "さんたい",
         "descripcion": "novela de ciencia ficción de Liu Cixin, traducida al japonés y adaptada al anime",
-        "tipo": "libro"
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2222,10 +2222,10 @@
     ],
     "nombres": [
       {
-        "nombre": "伊能忠敬",
-        "furigana": "いのうただたか",
-        "descripcion": "cartógrafo Edo, autor del primer mapa científico de Japón (1821)",
-        "tipo": "persona"
+        "nombre": "図書館戦争",
+        "furigana": "としょかんせんそう",
+        "descripcion": "anime (2008) sobre bibliotecarios armados que defienden la libertad de lectura",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2304,10 +2304,10 @@
     ],
     "nombres": [
       {
-        "nombre": "即売会",
-        "furigana": "そくばいかい",
-        "descripcion": "convenciones doujin donde artistas venden sus obras (ej. Comiket)",
-        "tipo": "otro"
+        "nombre": "薬売り",
+        "furigana": "くすりうり",
+        "descripcion": "misterioso vendedor de medicinas protagonista de Mononoke, exorcista de espíritus",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -2472,10 +2472,10 @@
     ],
     "nombres": [
       {
-        "nombre": "私の履歴書",
-        "furigana": "わたしのりれきしょ",
-        "descripcion": "columna del diario Nikkei donde figuras destacadas cuentan sus memorias",
-        "tipo": "otro"
+        "nombre": "私に天使が舞い降りた！",
+        "furigana": "わたしにてんしがまいおりた！",
+        "descripcion": "anime (2019) sobre una universitaria tímida que se enamora de la amiga de su hermana",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2554,10 +2554,10 @@
     ],
     "nombres": [
       {
-        "nombre": "赤坂アカ",
-        "furigana": "あかさかアカ",
-        "descripcion": "mangaka creador de Kaguya-sama: Love is War",
-        "tipo": "persona"
+        "nombre": "赤髪の白雪姫",
+        "furigana": "あかがみのしらゆきひめ",
+        "descripcion": "anime (2015) sobre Shirayuki, herbolaria de cabello rojo que huye de un príncipe",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2597,8 +2597,8 @@
       {
         "nombre": "走れメロス",
         "furigana": "はしれメロス",
-        "descripcion": "cuento de Osamu Dazai de 1940, lectura obligatoria en escuelas japonesas",
-        "tipo": "libro"
+        "descripcion": "cuento de Osamu Dazai (1940), lectura obligatoria en escuelas japonesas, adaptado al anime en 1992",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2720,10 +2720,10 @@
     ],
     "nombres": [
       {
-        "nombre": "京極夏彦",
-        "furigana": "きょうごくなつひこ",
-        "descripcion": "novelista de misterio y folclore japonés (Ubume no Natsu)",
-        "tipo": "persona"
+        "nombre": "東京リベンジャーズ",
+        "furigana": "とうきょうリベンジャーズ",
+        "descripcion": "anime (2021) sobre Takemichi, que viaja al pasado para salvar a su exnovia de una pandilla",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2887,7 +2887,7 @@
         "nombre": "妹さえいればいい。",
         "furigana": "いもうとさえいればいい。",
         "descripcion": "light novel de Yomi Hirasaka sobre un escritor obsesionado con la imouto",
-        "tipo": "libro"
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -2926,10 +2926,10 @@
     ],
     "nombres": [
       {
-        "nombre": "姉さん、事件です！",
-        "furigana": "ねえさん、じけんです！",
-        "descripcion": "dorama japonés de comedia sobre una asistenta y un profesor",
-        "tipo": "dorama"
+        "nombre": "姉崎まもり",
+        "furigana": "あねざきまもり",
+        "descripcion": "mánager del equipo Devil Bats y heroína de Eyeshield 21",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -3010,10 +3010,10 @@
     ],
     "nombres": [
       {
-        "nombre": "所ジョージ",
-        "furigana": "ところジョージ",
-        "descripcion": "tarento, cantante y presentador de TV",
-        "tipo": "persona"
+        "nombre": "田所恵",
+        "furigana": "たどころめぐみ",
+        "descripcion": "compañera tímida de Sōma en Shokugeki no Sōma, especialista en cocina regional",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -3052,10 +3052,10 @@
     ],
     "nombres": [
       {
-        "nombre": "明石家さんま",
-        "furigana": "あかしやさんま",
-        "descripcion": "comediante icónico del お笑いBIG3",
-        "tipo": "persona"
+        "nombre": "パリピ孔明",
+        "furigana": "パリピこうめい",
+        "descripcion": "anime (2022) donde el estratega Zhuge Liang reencarna en Tokio y representa a una cantante",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -3091,10 +3091,10 @@
     ],
     "nombres": [
       {
-        "nombre": "セーラー服と機関銃",
-        "furigana": "セーラーふくときかんじゅう",
-        "descripcion": "novela y film de 1981 con Yakushimaru Hiroko, dirigida por Shinji Sōmai",
-        "tipo": "libro"
+        "nombre": "明日ちゃんのセーラー服",
+        "furigana": "あけびちゃんのセーラーふく",
+        "descripcion": "anime (2022) sobre Komichi Akebi, que empieza la secundaria con el uniforme que siempre soñó",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -3210,10 +3210,10 @@
     ],
     "nombres": [
       {
-        "nombre": "注文の多い料理店",
-        "furigana": "ちゅうもんのおおいりょうりてん",
-        "descripcion": "cuento clásico de Kenji Miyazawa (1924)",
-        "tipo": "libro"
+        "nombre": "ご注文はうさぎですか？",
+        "furigana": "ごちゅうもんはうさぎですか？",
+        "descripcion": "anime (2014) sobre Cocoa y sus amigas en la cafetería Rabbit House",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3377,10 +3377,10 @@
     ],
     "nombres": [
       {
-        "nombre": "勇者ヨシヒコと魔王の城",
-        "furigana": "ゆうしゃヨシヒコとまおうのしろ",
-        "descripcion": "dorama japonés de parodia RPG (2011-2016) protagonizado por Takayuki Yamada",
-        "tipo": "dorama"
+        "nombre": "盾の勇者の成り上がり",
+        "furigana": "たてのゆうしゃのなりあがり",
+        "descripcion": "anime isekai (2019) sobre Naofumi, héroe del escudo traicionado apenas llega",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3504,10 +3504,10 @@
     ],
     "nombres": [
       {
-        "nombre": "青山剛昌",
-        "furigana": "あおやまごうしょう",
-        "descripcion": "mangaka creador de Detective Conan (Meitantei Conan)",
-        "tipo": "persona"
+        "nombre": "青の祓魔師",
+        "furigana": "あおのエクソシスト",
+        "descripcion": "anime (2011) sobre Rin Okumura, hijo de Satán que estudia para ser exorcista",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -3667,10 +3667,10 @@
     ],
     "nombres": [
       {
-        "nombre": "室井滋",
-        "furigana": "むろいしげる",
-        "descripcion": "actriz y ensayista japonesa contemporánea",
-        "tipo": "persona"
+        "nombre": "スパイ教室",
+        "furigana": "スパイきょうしつ",
+        "descripcion": "anime (2023) sobre siete chicas entrenadas como espías por Klaus",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4077,10 +4077,10 @@
     ],
     "nombres": [
       {
-        "nombre": "昼顔",
-        "furigana": "ひるがお",
-        "descripcion": "dorama japonés de 2014 sobre infidelidad conyugal",
-        "tipo": "dorama"
+        "nombre": "椎名真昼",
+        "furigana": "しいなまひる",
+        "descripcion": "heroína de Otonari no Tenshi-sama, la 'ángel' de la escuela que cocina para su vecino",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4118,10 +4118,10 @@
     ],
     "nombres": [
       {
-        "nombre": "島田洋七",
-        "furigana": "しまだようしち",
-        "descripcion": "comediante del dúo Shimada Yōshichi & Yōhachi, autor de Saga no Gabai Bāchan",
-        "tipo": "persona"
+        "nombre": "西洋骨董洋菓子店",
+        "furigana": "せいようこっとうようがしてん",
+        "descripcion": "manga de Fumi Yoshinaga sobre una pastelería de Tokio, con anime (2008) y dorama",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4201,10 +4201,10 @@
     ],
     "nombres": [
       {
-        "nombre": "海堂尊",
-        "furigana": "かいどうたける",
-        "descripcion": "novelista médico contemporáneo, autor de la saga Chirurgien Team Batista",
-        "tipo": "persona"
+        "nombre": "海獣の子供",
+        "furigana": "かいじゅうのこども",
+        "descripcion": "película de Studio 4°C (2019) sobre una chica y dos niños criados por dugongos",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -4282,10 +4282,10 @@
     ],
     "nombres": [
       {
-        "nombre": "発明王エジソン",
-        "furigana": "はつめいおうエジソン",
-        "descripcion": "apodo japonés de Thomas Edison, símbolo de la invención",
-        "tipo": "persona"
+        "nombre": "発目明",
+        "furigana": "はつめめい",
+        "descripcion": "inventora excéntrica del curso de apoyo en Boku no Hero Academia",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4364,10 +4364,10 @@
     ],
     "nombres": [
       {
-        "nombre": "羽賀研二",
-        "furigana": "はがけんじ",
-        "descripcion": "actor y tarento japonés, famoso en los años 80",
-        "tipo": "persona"
+        "nombre": "金木研",
+        "furigana": "かねきけん",
+        "descripcion": "protagonista de Tokyo Ghoul, universitario convertido en medio ghoul",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4446,10 +4446,10 @@
     ],
     "nombres": [
       {
-        "nombre": "茶々",
-        "furigana": "ちゃちゃ",
-        "descripcion": "concubina de Toyotomi Hideyoshi, madre de Hideyori, también llamada Yodo-dono",
-        "tipo": "persona"
+        "nombre": "麗日お茶子",
+        "furigana": "うららかおちゃこ",
+        "descripcion": "heroína de Boku no Hero Academia, puede anular la gravedad de lo que toca",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4487,10 +4487,10 @@
     ],
     "nombres": [
       {
-        "nombre": "時計仕掛けの林檎",
-        "furigana": "とけいじかけのりんご",
-        "descripcion": "manga corto de Osamu Tezuka influenciado por A Clockwork Orange",
-        "tipo": "manga"
+        "nombre": "玄野計",
+        "furigana": "くろのけい",
+        "descripcion": "protagonista de GANTZ, estudiante obligado a cazar alienígenas tras morir",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
@@ -4607,10 +4607,10 @@
     ],
     "nombres": [
       {
-        "nombre": "上白石萌音",
-        "furigana": "かみしらいしもね",
-        "descripcion": "actriz y cantante, voz de Mitsuha en Kimi no Na wa",
-        "tipo": "persona"
+        "nombre": "岩倉玲音",
+        "furigana": "いわくられいん",
+        "descripcion": "protagonista de Serial Experiments Lain (1998), chica absorbida por la red Wired",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -4932,10 +4932,10 @@
     ],
     "nombres": [
       {
-        "nombre": "帰りたくなったよ",
-        "furigana": "かえりたくなったよ",
-        "descripcion": "sencillo de 2009 del grupo pop Ikimonogakari",
-        "tipo": "musica"
+        "nombre": "帰還者の魔法は特別です",
+        "furigana": "きかんしゃのまほうはとくべつです",
+        "descripcion": "anime (2023) sobre Desir, mago que vuelve al pasado para evitar el fin del mundo",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -5012,10 +5012,10 @@
     ],
     "nombres": [
       {
-        "nombre": "料理の鉄人",
-        "furigana": "りょうりのてつじん",
-        "descripcion": "programa culinario de Fuji TV (1993-1999), pionero del reality gastronómico",
-        "tipo": "otro"
+        "nombre": "狼と香辛料",
+        "furigana": "おおかみとこうしんりょう",
+        "descripcion": "anime (2008) sobre un mercader viajero y Holo, diosa loba de la cosecha",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -5056,7 +5056,7 @@
         "nombre": "キノの旅",
         "furigana": "キノのたび",
         "descripcion": "light novel de Keiichi Sigsawa sobre una viajera pensativa en países distópicos",
-        "tipo": "libro"
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -5136,10 +5136,10 @@
     ],
     "nombres": [
       {
-        "nombre": "病院坂の首縊りの家",
-        "furigana": "びょういんざかのくびくくりのいえ",
-        "descripcion": "novela detectivesca de Seishi Yokomizo (1975-1978), última obra de Kindaichi",
-        "tipo": "libro"
+        "nombre": "中二病でも恋がしたい！",
+        "furigana": "ちゅうにびょうでもこいがしたい！",
+        "descripcion": "anime de Kyoto Animation (2012) sobre un ex-chūnibyō y una chica que se cree hechicera",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -5465,10 +5465,10 @@
     ],
     "nombres": [
       {
-        "nombre": "堂本剛",
-        "furigana": "どうもとつよし",
-        "descripcion": "cantante y actor, miembro de KinKi Kids",
-        "tipo": "persona"
+        "nombre": "海堂薫",
+        "furigana": "かいどうかおる",
+        "descripcion": "jugador de Seigaku en Tennis no Ōjisama, conocido por su tiro 'serpiente'",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": [
@@ -5506,10 +5506,10 @@
     ],
     "nombres": [
       {
-        "nombre": "強力伝",
-        "furigana": "ごうりきでん",
-        "descripcion": "novela de Nitta Jirō (1955) sobre porteadores de montaña, premio Naoki",
-        "tipo": "libro"
+        "nombre": "史上最強の弟子ケンイチ",
+        "furigana": "しじょうさいきょうのでしケンイチ",
+        "descripcion": "anime (2006) sobre Kenichi, estudiante débil entrenado por maestros de artes marciales",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -6739,10 +6739,10 @@
     ],
     "nombres": [
       {
-        "nombre": "花のずぼら飯",
-        "furigana": "はなのずぼらめし",
-        "descripcion": "manga cómico sobre una esposa perezosa que cocina rápido",
-        "tipo": "manga"
+        "nombre": "ダンジョン飯",
+        "furigana": "ダンジョンめし",
+        "descripcion": "anime (2024) sobre aventureros que cocinan los monstruos de la mazmorra",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -6904,10 +6904,10 @@
     ],
     "nombres": [
       {
-        "nombre": "業田良家",
-        "furigana": "ごうだよしいえ",
-        "descripcion": "mangaka japonés, autor de Jigyaku no Uta y Kikai Jikake no Ai",
-        "tipo": "persona"
+        "nombre": "ありふれた職業で世界最強",
+        "furigana": "ありふれたしょくぎょうでせかいさいきょう",
+        "descripcion": "anime isekai (2019) sobre Hajime, un sinergista que se vuelve el más fuerte",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -7144,10 +7144,10 @@
     ],
     "nombres": [
       {
-        "nombre": "小説家になろう",
-        "furigana": "しょうせつかになろう",
-        "descripcion": "plataforma web (2004) donde debutan la mayoría de light novels e isekai",
-        "tipo": "otro"
+        "nombre": "伝説の勇者の伝説",
+        "furigana": "でんせつのゆうしゃのでんせつ",
+        "descripcion": "anime (2010) sobre Ryner Lute, mago perezoso con ojos malditos",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": []
@@ -7263,10 +7263,10 @@
     ],
     "nombres": [
       {
-        "nombre": "薬師丸ひろ子",
-        "furigana": "やくしまるひろこ",
-        "descripcion": "actriz y cantante de los 80, conocida por Sailor Suit and Machine Gun",
-        "tipo": "persona"
+        "nombre": "薬屋のひとりごと",
+        "furigana": "くすりやのひとりごと",
+        "descripcion": "anime (2023) sobre Maomao, boticaria que resuelve misterios en la corte imperial",
+        "tipo": "anime"
       }
     ],
     "relacionadosCon": [
@@ -7427,10 +7427,10 @@
     ],
     "nombres": [
       {
-        "nombre": "土曜ワイド劇場",
-        "furigana": "どようワイドげきじょう",
-        "descripcion": "bloque de películas de misterio de TV Asahi (1977-2017)",
-        "tipo": "otro"
+        "nombre": "渡辺曜",
+        "furigana": "わたなべよう",
+        "descripcion": "miembro de Aqours en Love Live! Sunshine!!, hija de un capitán de barco",
+        "tipo": "personaje"
       }
     ],
     "relacionadosCon": []
