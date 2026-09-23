@@ -142,7 +142,10 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
             onToggleDestacado={manejarToggleDestacado}
             toggleDeshabilitado={togglePendiente}
           />
-          <div className="flex flex-wrap items-start gap-2">
+          {/* flex-col y no flex-wrap: la ayuda memoria va siempre debajo de
+              los radicales. Con wrap, mientras cargaba su imagen cabia a la
+              derecha y aparecia ahi unos ms antes de saltar abajo. */}
+          <div className="flex flex-col items-start gap-2">
             <KanjiDisplayImgs
               caracter={seleccionado.caracter}
               radicales={seleccionado.kanjiRadicales}
