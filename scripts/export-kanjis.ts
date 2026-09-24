@@ -68,6 +68,8 @@ async function exportar() {
         radicales: k.kanjiRadicales.map((kr) => kr.radical.caracter),
         fraseMnemotecnica: k.fraseMnemotecnica,
         urlImagenMnemotecnica: k.urlImagenMnemotecnica,
+        oracionEjemplo: k.oracionEjemplo,
+        traduccionOracion: k.traduccionOracion,
         destacado: k.destacado,
         // map + destructuring: se queda solo con esos campos (descarta id y kanjiId)
         palabras: k.palabras.map(({ palabra, furigana, traduccion }) => ({

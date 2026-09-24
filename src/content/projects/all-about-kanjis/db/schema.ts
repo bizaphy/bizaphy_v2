@@ -25,6 +25,10 @@ export const kanji = pgTable("kanji", {
   urlOrdenTrazos: text("url_orden_trazos"),
   fraseMnemotecnica: text("frase_mnemotecnica"),
   urlImagenMnemotecnica: text("url_imagen_mnemotecnica"),
+  // Oracion con la lectura mas comun del kanji. Furigana en formato
+  // [漢字|かんじ]: lo que esta fuera de corchetes se muestra sin furigana.
+  oracionEjemplo: text("oracion_ejemplo"),
+  traduccionOracion: text("traduccion_oracion"),
   // Los radicales no son columna: van en kanji_radical (ver mas abajo)
   nivel: nivelJlpt("nivel").notNull(),
   destacado: boolean("destacado").notNull().default(false),

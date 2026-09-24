@@ -57,6 +57,8 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       anioEscolarJapon: true,
       urlImagenMnemotecnica: true,
       fraseMnemotecnica: true,
+      oracionEjemplo: true,
+      traduccionOracion: true,
       destacado: true,
     },
     where: (k, { eq }) => eq(k.nivel, nivel),
