@@ -224,6 +224,14 @@
     "kanjiOrigen": null
   },
   {
+    "caracter": "刀",
+    "numeroTrazos": 2,
+    "nombre": "katana",
+    "furigana": "かたな",
+    "significado": "espada",
+    "kanjiOrigen": "刀"
+  },
+  {
     "caracter": "⺌",
     "numeroTrazos": 3,
     "nombre": "naogashira",
@@ -512,6 +520,30 @@
     "kanjiOrigen": null
   },
   {
+    "caracter": "才",
+    "numeroTrazos": 3,
+    "nombre": "sai",
+    "furigana": "さい",
+    "significado": "talento",
+    "kanjiOrigen": "才"
+  },
+  {
+    "caracter": "山",
+    "numeroTrazos": 3,
+    "nombre": "yama",
+    "furigana": "やま",
+    "significado": "montaña",
+    "kanjiOrigen": "山"
+  },
+  {
+    "caracter": "川",
+    "numeroTrazos": 3,
+    "nombre": "kawa",
+    "furigana": "かわ",
+    "significado": "río",
+    "kanjiOrigen": "川"
+  },
+  {
     "caracter": "⺙",
     "numeroTrazos": 4,
     "nombre": "bokuzukuri / nobun",
@@ -776,6 +808,14 @@
     "kanjiOrigen": "辰"
   },
   {
+    "caracter": "殳",
+    "numeroTrazos": 4,
+    "nombre": "rumata",
+    "furigana": "るまた",
+    "significado": "lanza (golpear)",
+    "kanjiOrigen": null
+  },
+  {
     "caracter": "⺫",
     "numeroTrazos": 5,
     "nombre": "amigashira",
@@ -950,6 +990,22 @@
     "furigana": "い",
     "significado": "según",
     "kanjiOrigen": null
+  },
+  {
+    "caracter": "示",
+    "numeroTrazos": 5,
+    "nombre": "shimesu",
+    "furigana": "しめす",
+    "significado": "altar",
+    "kanjiOrigen": "示"
+  },
+  {
+    "caracter": "且",
+    "numeroTrazos": 5,
+    "nombre": "katsu",
+    "furigana": "かつ",
+    "significado": "además",
+    "kanjiOrigen": "且"
   },
   {
     "caracter": "⺮",

@@ -10,6 +10,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[丁|てい][寧|ねい]に[道|みち]を[教|おし]えてもらったので、[迷|まよ]わずに[着|つ]けた。",
+    "traduccionOracion": "Me explicaron el camino con tanto detalle que llegué sin perderme.",
     "destacado": false,
     "palabras": [
       {
@@ -51,6 +53,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[博|はく][物|ぶつ][館|かん]で、[江|え][戸|ど][時|じ][代|だい]の[日|に][本|ほん][刀|とう]を[見|み]た。",
+    "traduccionOracion": "Vi una katana del período Edo en el museo.",
     "destacado": false,
     "palabras": [
       {
@@ -92,6 +96,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[丸|まる]い[窓|まど]から[庭|にわ]が[見|み]える[茶|ちゃ][室|しつ]は、まるで[絵|え]のようだった。",
+    "traduccionOracion": "El salón de té, con su ventana redonda que da al jardín, parecía un cuadro.",
     "destacado": false,
     "palabras": [
       {
@@ -131,6 +137,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[武|ぶ][士|し]の[生|せい][活|かつ]について、[城|しろ]の[資|し][料|りょう][館|かん]で[学|まな]んだ。",
+    "traduccionOracion": "Aprendí sobre la vida de los samuráis en el museo del castillo.",
     "destacado": false,
     "palabras": [
       {
@@ -173,6 +181,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[京|きょう][都|と]で[弓|きゅう][道|どう]を[体|たい][験|けん]してみたが、[的|まと]に[当|あ]てるのは[思|おも]ったより[難|むずか]しかった。",
+    "traduccionOracion": "Probé el tiro con arco japonés en Kioto, pero darle al blanco fue más difícil de lo que pensaba.",
     "destacado": false,
     "palabras": [
       {
@@ -214,6 +224,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[三|さん][才|さい][以|い][下|か]の[子|こ][供|ども]は、[入|にゅう][場|じょう][料|りょう]がかからない。",
+    "traduccionOracion": "Los niños de tres años o menos no pagan entrada.",
     "destacado": false,
     "palabras": [
       {
@@ -255,6 +267,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[人|にん][気|き]の[店|みせ]なので、[予|よ][約|やく]しないと[入|はい]れないことが[多|おお]い。",
+    "traduccionOracion": "Como es un lugar popular, muchas veces no se puede entrar sin reserva.",
     "destacado": false,
     "palabras": [
       {
@@ -294,9 +308,13 @@
     "kunyomi": "うち",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "冂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[機|き][内|ない]では、[携|けい][帯|たい]の[電|でん][源|げん]を[切|き]ってください。",
+    "traduccionOracion": "Dentro del avión, apaga el celular, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -336,9 +354,14 @@
     "kunyomi": "ば.ける、ば.かす",
     "numeroTrazos": 4,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "匕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[文|ぶん][化|か]に[触|ふ]れたいなら、[茶|さ][道|どう]を[体|たい][験|けん]してみるといい。",
+    "traduccionOracion": "Si quieres acercarte a la cultura japonesa, es buena idea probar la ceremonia del té.",
     "destacado": false,
     "palabras": [
       {
@@ -379,9 +402,14 @@
     "kunyomi": "そ.る、そ.らす",
     "numeroTrazos": 4,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "厂",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[予|よ][想|そう]に[反|はん]して、[平|へい][日|じつ]でも[観|かん][光|こう][客|きゃく]が[多|おお]かった。",
+    "traduccionOracion": "Contrario a lo esperado, había muchos turistas incluso entre semana.",
     "destacado": false,
     "palabras": [
       {
@@ -423,6 +451,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夫|おっと]と[二|ふた]りで、[結|けっ][婚|こん][十|じゅっ][周|しゅう][年|ねん]の[記|き][念|ねん]に[京|きょう][都|と]を[旅|りょ][行|こう]した。",
+    "traduccionOracion": "Con mi esposo viajamos a Kioto para celebrar diez años de casados.",
     "destacado": false,
     "palabras": [
       {
@@ -465,6 +495,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[寒|さむ]いので、[戸|と]を[開|あ]けっぱなしにしないでください。",
+    "traduccionOracion": "Hace frío, así que no dejes la puerta abierta, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -506,6 +538,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[大|おお][雪|ゆき]のため、[今日|きょう]の[便|びん]はすべて[欠|けっ][航|こう]となった。",
+    "traduccionOracion": "Por la gran nevada, se cancelaron todos los vuelos de hoy.",
     "destacado": false,
     "palabras": [
       {
@@ -547,6 +581,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[部屋|へや]が[寒|さむ]かったので、フロントで[毛|もう][布|ふ]をもう[一|いち][枚|まい]もらった。",
+    "traduccionOracion": "La habitación estaba fría, así que pedí otra manta en la recepción.",
     "destacado": false,
     "palabras": [
       {
@@ -588,6 +624,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[申|もうし][込|こみ][書|しょ]に[氏|し][名|めい]と[住|じゅう][所|しょ]を[記|き][入|にゅう]してください。",
+    "traduccionOracion": "Escribe tu nombre completo y tu dirección en el formulario, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -629,6 +667,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[旅|りょ][館|かん]では、まるで[王|おう][様|さま]になったような[気|き][分|ぶん]が[味|あじ]わえる。",
+    "traduccionOracion": "En este ryokan puedes sentirte como un rey.",
     "destacado": false,
     "palabras": [
       {
@@ -668,9 +708,14 @@
     "kunyomi": "ほか",
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "也"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[他|ほか]に[何|なに]かご[注|ちゅう][文|もん]はございますか。",
+    "traduccionOracion": "¿Desea pedir algo más?",
     "destacado": false,
     "palabras": [
       {
@@ -710,9 +755,14 @@
     "kunyomi": "つ.ける、つ.く",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[受|うけ][付|つけ]で[名|な][前|まえ]を[言|い]えば、[係|かかり]の[人|ひと]が[案|あん][内|ない]してくれます。",
+    "traduccionOracion": "Si das tu nombre en la recepción, el encargado te acompañará.",
     "destacado": false,
     "palabras": [
       {
@@ -751,9 +801,14 @@
     "kunyomi": null,
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "𠆢",
+      "卩"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[令|れい][和|わ]になってから、[初|はじ]めて[日|に][本|ほん]に[来|き]た。",
+    "traduccionOracion": "Vine a Japón por primera vez desde que empezó la era Reiwa.",
     "destacado": false,
     "palabras": [
       {
@@ -794,9 +849,14 @@
     "kunyomi": null,
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "工",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]が[成|せい][功|こう]したのは、しっかり[計|けい][画|かく]を[立|た]てたおかげだ。",
+    "traduccionOracion": "El viaje salió bien gracias a que lo planeé con cuidado.",
     "destacado": false,
     "palabras": [
       {
@@ -833,9 +893,14 @@
     "kunyomi": "くわ.える、くわ.わる",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "力",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[追|つい][加|か][料|りょう][金|きん]を[払|はら]えば、[朝|ちょう][食|しょく]を[付|つ]けることができる。",
+    "traduccionOracion": "Pagando un cargo adicional, puedes agregar el desayuno.",
     "destacado": false,
     "palabras": [
       {
@@ -872,9 +937,14 @@
     "kunyomi": "つつ.む",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "勹",
+      "己"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[土産|みやげ]なので、[一|ひと]つずつ[包|つつ]んでいただけますか。",
+    "traduccionOracion": "Son regalos, ¿podría envolverlos uno por uno?",
     "destacado": false,
     "palabras": [
       {
@@ -911,9 +981,14 @@
     "kunyomi": null,
     "numeroTrazos": 5,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "口",
+      "乂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[京|きょう][都|と]は[歴|れき][史|し]のある[町|まち]なので、どこを[歩|ある]いても[楽|たの]しい。",
+    "traduccionOracion": "Kioto es una ciudad con historia, así que es entretenido caminar por cualquier parte.",
     "destacado": false,
     "palabras": [
       {
@@ -950,9 +1025,13 @@
     "kunyomi": null,
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[部屋|へや][番|ばん][号|ごう]を[忘|わす]れないように、スマホにメモしておいた。",
+    "traduccionOracion": "Anoté el número de habitación en el celular para no olvidarlo.",
     "destacado": false,
     "palabras": [
       {
@@ -989,9 +1068,13 @@
     "kunyomi": "つかさど.る",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[築|つき][地|じ]で[食|た]べたお[寿|す][司|し]は、[今|いま]まで[食|た]べた[中|なか]で[一|いち][番|ばん]おいしかった。",
+    "traduccionOracion": "El sushi que comí en Tsukiji fue el más rico que he probado.",
     "destacado": false,
     "palabras": [
       {
@@ -1033,6 +1116,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[中|ちゅう][央|おう][線|せん]に[乗|の]り[換|か]えれば、[新|しん][宿|じゅく]まで[一|いっ][本|ぽん]で[行|い]ける。",
+    "traduccionOracion": "Si cambias a la línea Chuo, llegas directo a Shinjuku.",
     "destacado": false,
     "palabras": [
       {
@@ -1071,9 +1156,14 @@
     "kunyomi": "うしな.う",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "𠂉",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[失|しつ][礼|れい]ですが、この[席|せき]は[空|あ]いていますか。",
+    "traduccionOracion": "Disculpe, ¿este asiento está libre?",
     "destacado": false,
     "palabras": [
       {
@@ -1113,9 +1203,14 @@
     "kunyomi": "たい.ら、ひら",
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "丷",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[平|へい][日|じつ]なら、[人|にん][気|き]の[観|かん][光|こう][地|ち]でもそれほど[混|こ]んでいない。",
+    "traduccionOracion": "Entre semana, incluso los lugares turísticos populares no están tan llenos.",
     "destacado": false,
     "palabras": [
       {
@@ -1154,9 +1249,13 @@
     "kunyomi": "かなら.ず",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[電|でん][車|しゃ]に[乗|の]る[前|まえ]に、[必|かなら]ず[行|い]き[先|さき]を[確|たし]かめてください。",
+    "traduccionOracion": "Antes de subir al tren, revisa siempre el destino.",
     "destacado": false,
     "palabras": [
       {
@@ -1195,9 +1294,14 @@
     "kunyomi": "う.つ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺘",
+      "丁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[明日|あした]の[打|う]ち[合|あ]わせは、ホテルのロビーで[行|おこな]うことになった。",
+    "traduccionOracion": "Se decidió que la reunión de mañana será en el lobby del hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -1237,9 +1341,13 @@
     "kunyomi": "すえ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[年|ねん][末|まつ]は[帰|き][省|せい][客|きゃく]で[新|しん][幹|かん][線|せん]が[混|こ]むので、[早|はや]めに[予|よ][約|やく]しておこう。",
+    "traduccionOracion": "A fin de año el shinkansen se llena de gente que vuelve a su pueblo, así que reservemos con tiempo.",
     "destacado": false,
     "palabras": [
       {
@@ -1279,9 +1387,13 @@
     "kunyomi": "ふだ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[改|かい][札|さつ]を[通|とお]る[前|まえ]に、ICカードの[残|ざん][高|だか]を[確|たし]かめておいたほうがいい。",
+    "traduccionOracion": "Antes de pasar los torniquetes, es mejor revisar el saldo de la tarjeta IC.",
     "destacado": false,
     "palabras": [
       {
@@ -1323,6 +1435,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[氷|こおり]を[少|すく]なめにしてもらえますか。",
+    "traduccionOracion": "¿Me lo puede servir con poco hielo?",
     "destacado": false,
     "palabras": [
       {
@@ -1361,9 +1475,13 @@
     "kunyomi": "たま",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [],
+    "radicales": [
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[玉|たま]ねぎが[苦|にが][手|て]なので、[抜|ぬ]いてもらえますか。",
+    "traduccionOracion": "No me gusta la cebolla, ¿me la puede quitar?",
     "destacado": false,
     "palabras": [
       {
@@ -1403,9 +1521,13 @@
     "kunyomi": "よし",
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ツアーの[途|と][中|ちゅう]で[自|じ][由|ゆう][時|じ][間|かん]があったので、お[土産|みやげ]を[買|か]いに[行|い]った。",
+    "traduccionOracion": "Hubo tiempo libre durante el tour, así que fui a comprar regalos.",
     "destacado": false,
     "palabras": [
       {
@@ -1445,9 +1567,13 @@
     "kunyomi": "もう.す",
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[申|もう]し[訳|わけ]ございませんが、[本|ほん][日|じつ]は[満|まん][室|しつ]となっております。",
+    "traduccionOracion": "Lo sentimos mucho, pero hoy estamos completos.",
     "destacado": false,
     "palabras": [
       {
@@ -1491,6 +1617,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[地|ち][方|ほう]のりんごは、[皮|かわ]ごと[食|た]べられるそうだ。",
+    "traduccionOracion": "Dicen que las manzanas de esta región se pueden comer con cáscara.",
     "destacado": false,
     "palabras": [
       {
@@ -1532,6 +1660,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[回|かい][転|てん][寿|ず][司|し]では、[食|た]べた[皿|さら]の[数|かず]で[値|ね][段|だん]が[決|き]まる。",
+    "traduccionOracion": "En el sushi de banda, el precio depende de cuántos platos comes.",
     "destacado": false,
     "palabras": [
       {
@@ -1573,6 +1703,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[矢|や][印|じるし]にしたがって[進|すす]めば、[乗|の]り[場|ば]に[着|つ]きます。",
+    "traduccionOracion": "Si sigues las flechas, llegas al andén.",
     "destacado": false,
     "palabras": [
       {
@@ -1614,6 +1746,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[京|きょう][都|と]の[石|いし][畳|だたみ]の[道|みち]は、[雨|あめ]の[日|ひ]は[滑|すべ]りやすい。",
+    "traduccionOracion": "Las calles empedradas de Kioto son resbalosas los días de lluvia.",
     "destacado": false,
     "palabras": [
       {
@@ -1652,9 +1786,13 @@
     "kunyomi": null,
     "numeroTrazos": 5,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺭"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[世|せ][話|わ]になったお[礼|れい]に、[国|くに]のお[菓|か][子|し]を[渡|わた]した。",
+    "traduccionOracion": "Como agradecimiento por su ayuda, le di dulces de mi país.",
     "destacado": false,
     "palabras": [
       {
@@ -1693,9 +1831,14 @@
     "kunyomi": "あた.り、べ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "刀",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[辺|あた]りに、[安|やす]くておいしい[店|みせ]はありませんか。",
+    "traduccionOracion": "¿Hay algún lugar barato y rico por aquí?",
     "destacado": false,
     "palabras": [
       {
@@ -1732,9 +1875,14 @@
     "kunyomi": "てる、ふたつ",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "冂",
+      "山"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[両|りょう][替|がえ]は、[空|くう][港|こう]より[町|まち]の[銀|ぎん][行|こう]のほうがレートがいい。",
+    "traduccionOracion": "Para cambiar dinero, los bancos de la ciudad tienen mejor tasa que el aeropuerto.",
     "destacado": false,
     "palabras": [
       {
@@ -1771,9 +1919,14 @@
     "kunyomi": "あらそ.う",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺈",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[広|ひろ][島|しま]の[平|へい][和|わ][記|き][念|ねん][資|し][料|りょう][館|かん]で、[戦|せん][争|そう]の[恐|おそ]ろしさを[改|あらた]めて[感|かん]じた。",
+    "traduccionOracion": "En el museo de la paz de Hiroshima volví a sentir lo terrible que es la guerra.",
     "destacado": false,
     "palabras": [
       {
@@ -1812,9 +1965,15 @@
     "kunyomi": "まじ.わる、まじ.える、ま.じる、ま.ざる、ま.ぜる、か.う、か.わす",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "八",
+      "乂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[交|こう][差|さ][点|てん]を[渡|わた]ったところに、[交|こう][番|ばん]があります。",
+    "traduccionOracion": "Justo después de cruzar la intersección hay una caseta de policía.",
     "destacado": false,
     "palabras": [
       {
@@ -1853,9 +2012,14 @@
     "kunyomi": "なか",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][中|ちゅう]に[仲|なか][良|よ]くなった[人|ひと]と、[今|いま]でも[連|れん][絡|らく]を[取|と]り[合|あ]っている。",
+    "traduccionOracion": "Todavía sigo en contacto con la gente de la que me hice amigo durante el viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -1892,9 +2056,14 @@
     "kunyomi": "つた.わる、つた.える、つた.う",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[少|すこ]し[遅|おく]れると、[店|みせ]の[人|ひと]に[伝|つた]えておいてもらえますか。",
+    "traduccionOracion": "¿Podrías avisarle a la gente del local que voy a llegar un poco tarde?",
     "destacado": false,
     "palabras": [
       {
@@ -1936,6 +2105,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[観|かん][光|こう][収|しゅう][入|にゅう]は、[年|ねん][間|かん][何|なん][兆|ちょう][円|えん]にもなるそうだ。",
+    "traduccionOracion": "Dicen que los ingresos por turismo de Japón llegan a varios billones de yenes al año.",
     "destacado": false,
     "palabras": [
       {
@@ -1974,9 +2145,14 @@
     "kunyomi": "まった.く、すべ.て",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "𠆢",
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[全|ぜん][部|ぶ][見|み]て[回|まわ]るには、[一|いち][日|にち]では[足|た]りない。",
+    "traduccionOracion": "Para verlo todo, un día no alcanza.",
     "destacado": false,
     "palabras": [
       {
@@ -2015,9 +2191,13 @@
     "kunyomi": "とも",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[家|か][族|ぞく]と[共|とも]に[過|す]ごした[京|きょう][都|と]の[夏|なつ]は、いい[思|おも]い[出|で]になった。",
+    "traduccionOracion": "El verano en Kioto que pasé junto con mi familia se volvió un buen recuerdo.",
     "destacado": false,
     "palabras": [
       {
@@ -2056,9 +2236,14 @@
     "kunyomi": null,
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "夕",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[列|れつ]に[並|なら]んでいる[間|あいだ]に、メニューを[決|き]めておこう。",
+    "traduccionOracion": "Decidamos el menú mientras estamos en la fila.",
     "destacado": false,
     "palabras": [
       {
@@ -2099,9 +2284,13 @@
     "kunyomi": "しるし",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "卩"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[大|おお]きな[看|かん][板|ばん]を[目|め][印|じるし]にすれば、[迷|まよ]うことはない。",
+    "traduccionOracion": "Si te guías por el letrero grande, no te vas a perder.",
     "destacado": false,
     "palabras": [
       {
@@ -2138,9 +2327,14 @@
     "kunyomi": "おのおの",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "夂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[各|かく][駅|えき][停|てい][車|しゃ]に[乗|の]ってしまったので、[思|おも]ったより[時|じ][間|かん]がかかった。",
+    "traduccionOracion": "Tomé el tren que para en todas las estaciones, así que tardé más de lo que pensaba.",
     "destacado": false,
     "palabras": [
       {
@@ -2182,9 +2376,14 @@
     "kunyomi": "む.く、む.ける、む.かう、む.こう",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "冂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[空|くう][港|こう]に[向|む]かう[途|と][中|ちゅう]で、パスポートを[忘|わす]れたことに[気|き]がついた。",
+    "traduccionOracion": "De camino al aeropuerto me di cuenta de que había olvidado el pasaporte.",
     "destacado": false,
     "palabras": [
       {
@@ -2223,9 +2422,14 @@
     "kunyomi": "まも.る、もり",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[神|じん][社|じゃ]で、[旅|りょ][行|こう][安|あん][全|ぜん]のお[守|まも]りを[買|か]った。",
+    "traduccionOracion": "Compré un amuleto para viajar seguro en el santuario.",
     "destacado": false,
     "palabras": [
       {
@@ -2264,9 +2468,14 @@
     "kunyomi": "てら",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[京|きょう][都|と]には[有|ゆう][名|めい]なお[寺|てら]が[多|おお]すぎて、どこに[行|い]けばいいか[迷|まよ]う。",
+    "traduccionOracion": "En Kioto hay tantos templos famosos que no sé a cuál ir.",
     "destacado": false,
     "palabras": [
       {
@@ -2308,6 +2517,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[本|ほん][州|しゅう]から[九|きゅう][州|しゅう]までは、[新|しん][幹|かん][線|せん]で[行|い]ける。",
+    "traduccionOracion": "Desde Honshu hasta Kyushu se puede ir en shinkansen.",
     "destacado": false,
     "palabras": [
       {
@@ -2346,9 +2557,14 @@
     "kunyomi": null,
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "弋",
+      "工"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[神|じん][社|じゃ]で、[日|に][本|ほん][式|しき]の[結|けっ][婚|こん][式|しき]を[見|み]かけた。",
+    "traduccionOracion": "Vi una boda de estilo japonés en un santuario.",
     "destacado": false,
     "palabras": [
       {
@@ -2388,9 +2604,14 @@
     "kunyomi": "あ.たる、あ.てる",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⺌",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[本|ほん][当|とう]にこの[電|でん][車|しゃ]で[合|あ]っているのか、[不|ふ][安|あん]になってきた。",
+    "traduccionOracion": "Empecé a dudar si de verdad este era el tren correcto.",
     "destacado": false,
     "palabras": [
       {
@@ -2427,9 +2648,13 @@
     "kunyomi": "な.る、な.す",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "やっと[旅|りょ][行|こう]の[計|けい][画|かく]が[完|かん][成|せい]した。",
+    "traduccionOracion": "Por fin terminé de armar el plan del viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -2469,6 +2694,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[角|かど]を[曲|ま]がったとたん、[目|め]の[前|まえ]に[海|うみ]が[広|ひろ]がった。",
+    "traduccionOracion": "Justo al doblar la esquina, el mar apareció frente a mis ojos.",
     "destacado": false,
     "palabras": [
       {
@@ -2507,9 +2734,14 @@
     "kunyomi": "つ.ぐ、つぎ",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "冫",
+      "欠"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[次|つぎ]の[駅|えき]で[降|お]りればいいんですか。",
+    "traduccionOracion": "¿Me tengo que bajar en la próxima estación?",
     "destacado": false,
     "palabras": [
       {
@@ -2548,9 +2780,14 @@
     "kunyomi": "ひ",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "火",
+      "丁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[岬|みさき]の[灯|とう][台|だい]から[見|み]た[夕|ゆう][日|ひ]は、[忘|わす]れがたい。",
+    "traduccionOracion": "El atardecer que vi desde el faro del cabo es difícil de olvidar.",
     "destacado": false,
     "palabras": [
       {
@@ -2592,6 +2829,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[嵐|あらし][山|やま]の[竹|ちく][林|りん]は、[朝|あさ][早|はや]く[行|い]かないと[人|ひと]だらけになる。",
+    "traduccionOracion": "Si no vas temprano, el bosque de bambú de Arashiyama se llena de gente.",
     "destacado": false,
     "palabras": [
       {
@@ -2631,6 +2870,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]のお[米|こめ]は、おかずがなくても[食|た]べられるほどおいしい。",
+    "traduccionOracion": "El arroz japonés es tan rico que se puede comer incluso sin acompañamiento.",
     "destacado": false,
     "palabras": [
       {
@@ -2670,6 +2911,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ボタンが[取|と]れそうだったので、ホテルで[針|はり]と[糸|いと]を[借|か]りた。",
+    "traduccionOracion": "Se me estaba por caer un botón, así que pedí aguja e hilo en el hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -2709,6 +2952,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[北|ほっ][海|かい][道|どう]の[牧|ぼく][場|じょう]で、[羊|ひつじ]にえさをあげた。",
+    "traduccionOracion": "Les di de comer a las ovejas en una granja de Hokkaido.",
     "destacado": false,
     "palabras": [
       {
@@ -2750,6 +2995,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[羽|はね][田|だ][空|くう][港|こう]から[都|と][心|しん]までは、[電|でん][車|しゃ]で[三|さん][十|じゅっ][分|ぷん]ほどだ。",
+    "traduccionOracion": "Del aeropuerto de Haneda al centro son unos treinta minutos en tren.",
     "destacado": false,
     "palabras": [
       {
@@ -2788,9 +3035,14 @@
     "kunyomi": "お.いる、ふ.ける",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺹",
+      "匕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[電|でん][車|しゃ]で[老|ろう][人|じん]に[席|せき]を[譲|ゆず]ったら、[笑|え][顔|がお]でお[礼|れい]を[言|い]われた。",
+    "traduccionOracion": "Cuando le cedí el asiento a una persona mayor en el tren, me dio las gracias con una sonrisa.",
     "destacado": false,
     "palabras": [
       {
@@ -2833,6 +3085,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夏|なつ]の[山|やま]は[虫|むし]が[多|おお]いので、[虫|むし]よけスプレーを[持|も]っていったほうがいい。",
+    "traduccionOracion": "En verano la montaña tiene muchos insectos, así que es mejor llevar repelente.",
     "destacado": false,
     "palabras": [
       {
@@ -2871,9 +3125,13 @@
     "kunyomi": "ち",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "皿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]の[上|うえ]で[気|き][分|ぶん]が[悪|わる]くなり、[血|けつ][圧|あつ]を[測|はか]ってもらった。",
+    "traduccionOracion": "Me sentí mal en lo alto de la montaña y me tomaron la presión.",
     "destacado": false,
     "palabras": [
       {
@@ -2912,9 +3170,14 @@
     "kunyomi": "ころも",
     "numeroTrazos": 6,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "𧘇"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[温|おん][泉|せん][街|がい]では、[浴衣|ゆかた]を[着|き]たまま[町|まち]を[歩|ある]いてもいい。",
+    "traduccionOracion": "En este pueblo de onsen puedes pasear por la calle vestido con yukata.",
     "destacado": false,
     "palabras": [
       {
@@ -2951,9 +3214,14 @@
     "kunyomi": "くらい",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "立"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "このラーメン[屋|や]は、ランキングで[一|いち][位|い]になったことがあるそうだ。",
+    "traduccionOracion": "Dicen que esta tienda de ramen alguna vez quedó en primer lugar en un ranking.",
     "destacado": false,
     "palabras": [
       {
@@ -2992,9 +3260,13 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[美|び][術|じゅつ][館|かん]は、[小|しょう][学|がく][生|せい]などの[児|じ][童|どう]は[無|む][料|りょう]になっている。",
+    "traduccionOracion": "En el museo, los niños de primaria entran gratis.",
     "destacado": false,
     "palabras": [
       {
@@ -3033,9 +3305,14 @@
     "kunyomi": "つわもの",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "斤",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[兵|ひょう][庫|ご][県|けん]の[姫|ひめ][路|じ][城|じょう]は、[世|せ][界|かい][遺|い][産|さん]に[登|とう][録|ろく]されている。",
+    "traduccionOracion": "El castillo de Himeji, en la prefectura de Hyogo, es Patrimonio de la Humanidad.",
     "destacado": false,
     "palabras": [
       {
@@ -3074,9 +3351,15 @@
     "kunyomi": "つめ.たい、ひ.える、ひ.や、ひ.やす、さ.める、さ.ます",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "冫",
+      "𠆢",
+      "卩"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[冷|つめ]たい[飲|の]み[物|もの]は、レジの[横|よこ]の[冷|れい][蔵|ぞう][庫|こ]にあります。",
+    "traduccionOracion": "Las bebidas frías están en el refrigerador junto a la caja.",
     "destacado": false,
     "palabras": [
       {
@@ -3115,9 +3398,14 @@
     "kunyomi": "はじ.め、はじ.めて、はつ、うい、そ.める",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⻂",
+      "刀"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[初|はじ]めて[新|しん][幹|かん][線|せん]に[乗|の]ったとき、その[速|はや]さに[驚|おどろ]いた。",
+    "traduccionOracion": "La primera vez que me subí al shinkansen, me sorprendió lo rápido que era.",
     "destacado": false,
     "palabras": [
       {
@@ -3154,9 +3442,14 @@
     "kunyomi": "き.く",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[一|いち][日|にち][乗|じょう][車|しゃ][券|けん]を[利|り][用|よう]すれば、バスに[何|なん][回|かい]でも[乗|の]れる。",
+    "traduccionOracion": "Si usas el pase de un día, puedes subir al autobús las veces que quieras.",
     "destacado": false,
     "palabras": [
       {
@@ -3193,9 +3486,14 @@
     "kunyomi": "たす.ける、たす.かる、すけ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "且",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[道|みち]に[迷|まよ]っていたところを、[親|しん][切|せつ]な[人|ひと]に[助|たす]けてもらった。",
+    "traduccionOracion": "Estaba perdido y una persona amable me ayudó.",
     "destacado": false,
     "palabras": [
       {
@@ -3234,9 +3532,15 @@
     "kunyomi": "つと.める",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "女",
+      "又",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん][語|ご]で[話|はな]そうと[努|ど][力|りょく]したら、[店|みせ]の[人|ひと]が[喜|よろこ]んでくれた。",
+    "traduccionOracion": "Cuando me esforcé por hablar en japonés, la gente del local se puso contenta.",
     "destacado": false,
     "palabras": [
       {
@@ -3273,9 +3577,15 @@
     "kunyomi": "いたわ.る、ねぎら.う",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "冖",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[重|おも]い[荷|に][物|もつ]を[持|も]って[坂|さか]を[上|のぼ]るのは、かなり[苦|く][労|ろう]した。",
+    "traduccionOracion": "Me costó mucho subir la cuesta con el equipaje pesado.",
     "destacado": false,
     "palabras": [
       {
@@ -3314,9 +3624,14 @@
     "kunyomi": "きみ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "彐",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[君|きみ]が[勧|すす]めてくれた[店|みせ]、[本|ほん][当|とう]においしかったよ。",
+    "traduccionOracion": "El lugar que me recomendaste estaba riquísimo.",
     "destacado": false,
     "palabras": [
       {
@@ -3355,9 +3670,14 @@
     "kunyomi": "つ.げる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "牛",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[落|お]とし[物|もの]をしたら、[駅|えき][員|いん]に[報|ほう][告|こく]すれば[探|さが]してもらえる。",
+    "traduccionOracion": "Si pierdes algo, avísale al personal de la estación y te lo buscarán.",
     "destacado": false,
     "palabras": [
       {
@@ -3394,9 +3714,14 @@
     "kunyomi": "かこ.む、かこ.う",
     "numeroTrazos": 7,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "囗",
+      "开"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[旅|りょ][館|かん]は[山|やま]に[囲|かこ]まれていて、とても[静|しず]かだ。",
+    "traduccionOracion": "Este ryokan está rodeado de montañas y es muy tranquilo.",
     "destacado": false,
     "palabras": [
       {
@@ -3435,9 +3760,15 @@
     "kunyomi": "さか",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "厂",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[坂|さか]を[上|のぼ]りきると、[町|まち][全|ぜん][体|たい]が[見|み][渡|わた]せる。",
+    "traduccionOracion": "Si subes hasta el final de esta cuesta, se ve todo el pueblo.",
     "destacado": false,
     "palabras": [
       {
@@ -3476,9 +3807,14 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[新|あたら]しい[駅|えき]ビルは、[来|らい][年|ねん][完|かん][成|せい]する[予|よ][定|てい]だ。",
+    "traduccionOracion": "El nuevo edificio de la estación estará terminado el próximo año.",
     "destacado": false,
     "palabras": [
       {
@@ -3518,9 +3854,15 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "乂",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]に[来|き]たら、[絶|ぜっ][対|たい]に[温|おん][泉|せん]に[入|はい]るべきだ。",
+    "traduccionOracion": "Si vienes a Japón, tienes que meterte a un onsen sin falta.",
     "destacado": false,
     "palabras": [
       {
@@ -3559,9 +3901,14 @@
     "kunyomi": "つぼね",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "尸",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[郵|ゆう][便|びん][局|きょく]で、お[土産|みやげ]を[国|くに]に[送|おく]った。",
+    "traduccionOracion": "Mandé los regalos a mi país desde la oficina de correos.",
     "destacado": false,
     "palabras": [
       {
@@ -3598,9 +3945,14 @@
     "kunyomi": "まれ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "乂",
+      "巾"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[窓|まど][側|がわ]の[席|せき]をご[希|き][望|ぼう]ですか。",
+    "traduccionOracion": "¿Desea un asiento junto a la ventana?",
     "destacado": false,
     "palabras": [
       {
@@ -3637,9 +3989,14 @@
     "kunyomi": "かた、かたち",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "开",
+      "彡"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[雲|くも]の[形|かたち]が[富|ふ][士|じ][山|さん]に[似|に]ていて、[思|おも]わず[写|しゃ][真|しん]を[撮|と]った。",
+    "traduccionOracion": "La forma de la nube se parecía al monte Fuji y, sin pensarlo, saqué una foto.",
     "destacado": false,
     "palabras": [
       {
@@ -3679,9 +4036,14 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "彳",
+      "殳"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[地|ち][図|ず]アプリが[役|やく]に[立|た]たなかったので、[人|ひと]に[道|みち]を[聞|き]くしかなかった。",
+    "traduccionOracion": "La aplicación de mapas no sirvió, así que no me quedó más que preguntar el camino.",
     "destacado": false,
     "palabras": [
       {
@@ -3720,9 +4082,14 @@
     "kunyomi": "な.げる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺘",
+      "殳"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[願|ねが]いを[込|こ]めて、[池|いけ]にコインを[投|な]げた。",
+    "traduccionOracion": "Tiré una moneda al estanque pidiendo un deseo.",
     "destacado": false,
     "palabras": [
       {
@@ -3761,9 +4128,14 @@
     "kunyomi": "お.る、お.り、お.れる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺘",
+      "斤"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[人|ひと]に[折|お]り[紙|がみ]を[教|おし]えてもらったが、[意|い][外|がい]と[難|むずか]しかった。",
+    "traduccionOracion": "La gente del ryokan me enseñó origami, pero fue más difícil de lo que esperaba.",
     "destacado": false,
     "palabras": [
       {
@@ -3800,9 +4172,14 @@
     "kunyomi": "あらた.める、あらた.まる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "己",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[改|かい][札|さつ][口|ぐち]で[待|ま]ち[合|あ]わせしよう。",
+    "traduccionOracion": "Quedemos en los torniquetes.",
     "destacado": false,
     "palabras": [
       {
@@ -3839,9 +4216,14 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "才"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[店|みせ]は、[地|じ][元|もと]の[材|ざい][料|りょう]だけを[使|つか]って[料|りょう][理|り]を[作|つく]っている。",
+    "traduccionOracion": "Este restaurante cocina solo con ingredientes locales.",
     "destacado": false,
     "palabras": [
       {
@@ -3884,6 +4266,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[約|やく][束|そく]の[時|じ][間|かん]に[間|ま]に[合|あ]うように、タクシーで[向|む]かった。",
+    "traduccionOracion": "Fui en taxi para llegar a tiempo a la hora acordada.",
     "destacado": false,
     "palabras": [
       {
@@ -3925,6 +4309,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま][道|みち]で[助|たす]けを[求|もと]めたら、すぐに[人|ひと]が[来|き]てくれた。",
+    "traduccionOracion": "Cuando pedí ayuda en el sendero, alguien vino enseguida.",
     "destacado": false,
     "palabras": [
       {
@@ -3964,9 +4350,15 @@
     "kunyomi": "き.める、き.まる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "ユ",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "どこに[行|い]くか[決|き]めずに、[気|き]ままに[旅|たび]をするのも[楽|たの]しい。",
+    "traduccionOracion": "También es divertido viajar a tu aire, sin decidir adónde ir.",
     "destacado": false,
     "palabras": [
       {
@@ -4003,9 +4395,14 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "气"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[昔|むかし]の[汽|き][車|しゃ]に[乗|の]れる[観|かん][光|こう][列|れっ][車|しゃ]があるそうだ。",
+    "traduccionOracion": "Dicen que hay un tren turístico donde puedes subirte a una antigua locomotora de vapor.",
     "destacado": false,
     "palabras": [
       {
@@ -4047,6 +4444,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[総|そう][理|り][大|だい][臣|じん]も[泊|と]まったことがあるという[旅|りょ][館|かん]に[泊|と]まった。",
+    "traduccionOracion": "Me alojé en un ryokan donde, según dicen, incluso se hospedó un primer ministro.",
     "destacado": false,
     "palabras": [
       {
@@ -4083,9 +4482,13 @@
     "kunyomi": "よ.い",
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "艮"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[天|てん][気|き]が[良|よ]ければ、[展|てん][望|ぼう][台|だい]から[富|ふ][士|じ][山|さん]が[見|み]える。",
+    "traduccionOracion": "Si el tiempo está bueno, se ve el monte Fuji desde el mirador.",
     "destacado": false,
     "palabras": [
       {
@@ -4124,9 +4527,14 @@
     "kunyomi": null,
     "numeroTrazos": 7,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[祇|ぎ][園|おん]で、[舞|まい][妓|こ]さんの[芸|げい]を[見|み]ることができた。",
+    "traduccionOracion": "En Gion pude ver el arte de una maiko.",
     "destacado": false,
     "palabras": [
       {
@@ -4163,9 +4571,14 @@
     "kunyomi": "かど、つの",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⺈",
+      "用"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[次|つぎ]の[角|かど]を[左|ひだり]に[曲|ま]がると、[右|みぎ][側|がわ]にコンビニがあります。",
+    "traduccionOracion": "Si doblas a la izquierda en la próxima esquina, hay un konbini a mano derecha.",
     "destacado": false,
     "palabras": [
       {
@@ -4204,9 +4617,15 @@
     "kunyomi": "たに",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "八",
+      "𠆢",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[谷|たに]に[架|か]かる[吊|つ]り[橋|ばし]は、[怖|こわ]くて[足|あし]が[震|ふる]えた。",
+    "traduccionOracion": "El puente colgante sobre el valle me dio tanto miedo que me temblaban las piernas.",
     "destacado": false,
     "palabras": [
       {
@@ -4249,6 +4668,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[地|じ][元|もと]のコーヒー[豆|まめ]を、お[土産|みやげ]に[買|か]って[帰|かえ]った。",
+    "traduccionOracion": "Compré granos de café locales para llevar de regalo.",
     "destacado": false,
     "palabras": [
       {
@@ -4288,6 +4709,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[海|かい][岸|がん]で[拾|ひろ]った[貝|かい]を、[記|き][念|ねん]に[持|も]って[帰|かえ]った。",
+    "traduccionOracion": "Me llevé de recuerdo las conchas que recogí en la playa.",
     "destacado": false,
     "palabras": [
       {
@@ -4329,6 +4752,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[出|しゅっ][身|しん]はどちらですか、と[店|みせ]の[人|ひと]に[聞|き]かれた。",
+    "traduccionOracion": "La gente del local me preguntó de dónde era.",
     "destacado": false,
     "palabras": [
       {
@@ -4365,9 +4790,15 @@
     "kunyomi": "かえ.す、かえ.る",
     "numeroTrazos": 7,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "厂",
+      "又",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "レンタカーは、ガソリンを[満|まん]タンにしてから[返|かえ]すことになっている。",
+    "traduccionOracion": "Está establecido que el auto de alquiler se devuelve con el tanque lleno.",
     "destacado": false,
     "palabras": [
       {
@@ -4409,6 +4840,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[盆|ぼん]には[多|おお]くの[人|ひと]が[里|さと][帰|がえ]りするので、[道|みち]が[混|こ]む。",
+    "traduccionOracion": "En Obon mucha gente vuelve a su pueblo natal, así que las carreteras se llenan.",
     "destacado": false,
     "palabras": [
       {
@@ -4447,9 +4880,14 @@
     "kunyomi": "むぎ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "龶",
+      "夂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夏|なつ]は、[冷|つめ]たい[麦|むぎ][茶|ちゃ]がよく[売|う]れる。",
+    "traduccionOracion": "En verano se vende mucho el té de cebada frío.",
     "destacado": false,
     "palabras": [
       {
@@ -4488,9 +4926,15 @@
     "kunyomi": "たと.える",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "夕",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[例|たと]えば[京|きょう][都|と]や[奈|な][良|ら]なら、[一|いち][日|にち]で[回|まわ]れますよ。",
+    "traduccionOracion": "Por ejemplo, Kioto o Nara se pueden recorrer en un día.",
     "destacado": false,
     "palabras": [
       {
@@ -4529,9 +4973,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "目",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[部屋|へや]には、[必|ひつ][要|よう]な[道|どう][具|ぐ]が[全|すべ]てそろっていた。",
+    "traduccionOracion": "La habitación del ryokan tenía todo lo necesario.",
     "destacado": false,
     "palabras": [
       {
@@ -4571,9 +5020,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "冊",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[電|でん][子|し][辞|じ][典|てん]があれば、メニューの[漢|かん][字|じ]も[調|しら]べられる。",
+    "traduccionOracion": "Con un diccionario electrónico puedes buscar incluso los kanji del menú.",
     "destacado": false,
     "palabras": [
       {
@@ -4612,9 +5066,15 @@
     "kunyomi": "す.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "尸",
+      "巾",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[予|よ][約|やく]の[確|かく][認|にん]メールは、[印|いん][刷|さつ]して[持|も]っていったほうが[安|あん][心|しん]だ。",
+    "traduccionOracion": "Es más seguro llevar impreso el correo de confirmación de la reserva.",
     "destacado": false,
     "palabras": [
       {
@@ -4651,9 +5111,15 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "𠆢",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[卒|そつ][業|ぎょう][旅|りょ][行|こう]で、[友|とも][達|だち]と[沖|おき][縄|なわ]に[行|い]った。",
+    "traduccionOracion": "Fui a Okinawa con mis amigos en el viaje de graduación.",
     "destacado": false,
     "palabras": [
       {
@@ -4690,9 +5156,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "十",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[皆|みな]さまのご[協|きょう][力|りょく]のおかげで、[無|ぶ][事|じ]に[出|しゅっ][発|ぱつ]できました。",
+    "traduccionOracion": "Gracias a la colaboración de todos, pudimos partir sin problemas.",
     "destacado": false,
     "palabras": [
       {
@@ -4729,9 +5200,15 @@
     "kunyomi": "まい.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "厶",
+      "大",
+      "彡"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[参|さん][加|か][者|しゃ]は、[朝|あさ][九|く][時|じ]にロビーに[集|あつ]まることになっている。",
+    "traduccionOracion": "Está establecido que los participantes se reúnen en el lobby a las nueve de la mañana.",
     "destacado": false,
     "palabras": [
       {
@@ -4768,9 +5245,14 @@
     "kunyomi": "と.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "耳",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[空|くう][港|こう]で[荷|に][物|もつ]を[受|う]け[取|と]るのに、[三|さん][十|じゅっ][分|ぷん]もかかった。",
+    "traduccionOracion": "En el aeropuerto me tomó nada menos que treinta minutos recoger el equipaje.",
     "destacado": false,
     "palabras": [
       {
@@ -4809,9 +5291,15 @@
     "kunyomi": "う.ける、う.かる",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺤",
+      "冖",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[手|て][荷|に][物|もつ][検|けん][査|さ]を[受|う]けるときは、[液|えき][体|たい]を[出|だ]さなければならない。",
+    "traduccionOracion": "Al pasar el control del equipaje de mano, hay que sacar los líquidos.",
     "destacado": false,
     "palabras": [
       {
@@ -4850,9 +5338,15 @@
     "kunyomi": "まわ.り",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "冂",
+      "土",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]の[手|て][線|せん]は[東|とう][京|きょう]を[一|いっ][周|しゅう]するので、[乗|の]り[過|す]ごしても[大|だい][丈|じょう][夫|ぶ]だ。",
+    "traduccionOracion": "La línea Yamanote da la vuelta a Tokio, así que no pasa nada si te pasas de estación.",
     "destacado": false,
     "palabras": [
       {
@@ -4892,9 +5386,15 @@
     "kunyomi": "いのち",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "𠆢",
+      "口",
+      "卩"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|たび][先|さき]で[出|で][会|あ]った[人|ひと]と[結|けっ][婚|こん]するなんて、[運|うん][命|めい]としか[言|い]いようがない。",
+    "traduccionOracion": "Casarse con alguien que conociste de viaje solo se puede llamar destino.",
     "destacado": false,
     "palabras": [
       {
@@ -4933,9 +5433,14 @@
     "kunyomi": "やわ.らぐ、やわ.らげる、なご.む、なご.やか",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[和|わ][食|しょく]と[洋|よう][食|しょく]、どちらの[朝|ちょう][食|しょく]になさいますか。",
+    "traduccionOracion": "¿Qué desayuno prefiere, japonés u occidental?",
     "destacado": false,
     "palabras": [
       {
@@ -4974,9 +5479,15 @@
     "kunyomi": "かた.い、かた.める、かた.まる",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "囗",
+      "十",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[布|ふ][団|とん]は、ベッドに[比|くら]べて[少|すこ]し[固|かた]く[感|かん]じた。",
+    "traduccionOracion": "El futón del ryokan se sintió un poco duro en comparación con una cama.",
     "destacado": false,
     "palabras": [
       {
@@ -5015,9 +5526,14 @@
     "kunyomi": "ゆだ.ねる",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "女"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[町|まち]のお[祭|まつ]りは、[地|ち][元|もと]の[委|い][員|いん][会|かい]が[準|じゅん][備|び]しているそうだ。",
+    "traduccionOracion": "Dicen que el festival del pueblo lo organiza un comité local.",
     "destacado": false,
     "palabras": [
       {
@@ -5056,9 +5572,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "子"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]は[四|し][季|き]がはっきりしていて、いつ[来|き]ても[楽|たの]しめる。",
+    "traduccionOracion": "Japón tiene cuatro estaciones muy marcadas, así que se disfruta en cualquier época.",
     "destacado": false,
     "palabras": [
       {
@@ -5097,9 +5618,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "㠯"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[警|けい][官|かん]に[道|みち]を[聞|き]いたら、[地|ち][図|ず]を[書|か]いて[説|せつ][明|めい]してくれた。",
+    "traduccionOracion": "Cuando le pregunté el camino a un policía, me dibujó un mapa para explicármelo.",
     "destacado": false,
     "palabras": [
       {
@@ -5139,9 +5665,14 @@
     "kunyomi": "さだ.める、さだ.まる",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "龰"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[定|てい][食|しょく][屋|や]なら、[安|やす]くてバランスのいい[料|りょう][理|り]が[食|た]べられる。",
+    "traduccionOracion": "En un teishokuya puedes comer platos baratos y balanceados.",
     "destacado": false,
     "palabras": [
       {
@@ -5178,9 +5709,14 @@
     "kunyomi": "み、みの.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "夫"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[実|じつ]は、[日|に][本|ほん]に[来|く]るのはこれが[初|はじ]めてなんです。",
+    "traduccionOracion": "La verdad es que esta es la primera vez que vengo a Japón.",
     "destacado": false,
     "palabras": [
       {
@@ -5217,9 +5753,14 @@
     "kunyomi": "いわ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "山",
+      "石"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[海|うみ]の[近|ちか]くの[岩|いわ]の[上|うえ]から、[夕|ゆう][日|ひ]を[眺|なが]めた。",
+    "traduccionOracion": "Contemplé el atardecer desde una roca junto al mar.",
     "destacado": false,
     "palabras": [
       {
@@ -5258,9 +5799,14 @@
     "kunyomi": "きし",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "山",
+      "厂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[海|かい][岸|がん]に[沿|そ]って[歩|ある]いていくと、[小|ちい]さな[漁|ぎょ][港|こう]に[出|で]た。",
+    "traduccionOracion": "Caminando a lo largo de la costa, llegué a un pequeño puerto pesquero.",
     "destacado": false,
     "palabras": [
       {
@@ -5300,9 +5846,15 @@
     "kunyomi": "さいわ.い、さち、しあわ.せ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "丷",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|たび][先|さき]で[親|しん][切|せつ]な[人|ひと]たちに[出|で][会|あ]えて、[幸|しあわ]せだった。",
+    "traduccionOracion": "Fui feliz de conocer a gente tan amable durante el viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -5339,9 +5891,14 @@
     "kunyomi": "そこ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "氏"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[靴|くつ]の[底|そこ]がはがれてしまったので、[靴|くつ][屋|や]を[探|さが]した。",
+    "traduccionOracion": "Se me despegó la suela del zapato, así que busqué una zapatería.",
     "destacado": false,
     "palabras": [
       {
@@ -5381,9 +5938,15 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "⺅",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[大|おお][阪|さか][府|ふ]と[京|きょう][都|と][府|ふ]は、[電|でん][車|しゃ]ですぐに[行|い]き[来|き]できる。",
+    "traduccionOracion": "Entre Osaka y Kioto se puede ir y venir en tren rápidamente.",
     "destacado": false,
     "palabras": [
       {
@@ -5422,9 +5985,15 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "彳",
+      "又",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ホテルから[半|はん][径|けい][一|いち]キロ[以|い][内|ない]に、コンビニが[五|いつ]つもある。",
+    "traduccionOracion": "En un radio de un kilómetro del hotel hay nada menos que cinco konbinis.",
     "destacado": false,
     "palabras": [
       {
@@ -5463,9 +6032,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "𠆢",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[念|ねん]のため、パスポートのコピーも[持|も]っていくことにした。",
+    "traduccionOracion": "Por si acaso, decidí llevar también una copia del pasaporte.",
     "destacado": false,
     "palabras": [
       {
@@ -5504,9 +6078,14 @@
     "kunyomi": "はな.す、はな.つ、はな.れる、ほう.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "方",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[館|かん][内|ない][放|ほう][送|そう]で、[迷|まい][子|ご]のお[知|し]らせが[流|なが]れた。",
+    "traduccionOracion": "Por los altavoces anunciaron que había un niño perdido.",
     "destacado": false,
     "palabras": [
       {
@@ -5543,9 +6122,13 @@
     "kunyomi": "むかし",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[町|まち]は[昔|むかし]のままの[姿|すがた]が[残|のこ]っていて、タイムスリップしたような[気|き]がする。",
+    "traduccionOracion": "Este pueblo conserva su aspecto de antes y se siente como viajar en el tiempo.",
     "destacado": false,
     "palabras": [
       {
@@ -5584,9 +6167,15 @@
     "kunyomi": "まつ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "八",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[正|しょう][月|がつ]には、[家|いえ]や[店|みせ]の[前|まえ]に[門|かど][松|まつ]が[飾|かざ]られる。",
+    "traduccionOracion": "En Año Nuevo se colocan adornos de pino frente a las casas y tiendas.",
     "destacado": false,
     "palabras": [
       {
@@ -5623,9 +6212,15 @@
     "kunyomi": "いた",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "厂",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[看|かん][板|ばん]が[日|に][本|ほん][語|ご]ばかりで、どの[店|みせ]に[入|はい]ればいいか[分|わ]からなかった。",
+    "traduccionOracion": "Los letreros estaban todos en japonés y no sabía a qué local entrar.",
     "destacado": false,
     "palabras": [
       {
@@ -5664,9 +6259,14 @@
     "kunyomi": "は.たす、は.てる、は.て",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "田",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "いろいろ[調|しら]べた[結|けっ][果|か]、[京|きょう][都|と]の[旅|りょ][館|かん]に[泊|と]まることにした。",
+    "traduccionOracion": "Después de investigar mucho, decidí alojarme en un ryokan de Kioto.",
     "destacado": false,
     "palabras": [
       {
@@ -5706,9 +6306,14 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "龶",
+      "毋"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[辺|あた]りには[毒|どく]のある[蛇|へび]もいるので、[山|やま][道|みち]では[気|き]をつけてください。",
+    "traduccionOracion": "Por aquí también hay serpientes venenosas, así que ten cuidado en los senderos.",
     "destacado": false,
     "palabras": [
       {
@@ -5747,9 +6352,14 @@
     "kunyomi": "あぶら",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[天|てん]ぷらは、[油|あぶら]の[温|おん][度|ど]が[大|たい][切|せつ]だそうだ。",
+    "traduccionOracion": "Dicen que en el tempura lo importante es la temperatura del aceite.",
     "destacado": false,
     "palabras": [
       {
@@ -5786,9 +6396,15 @@
     "kunyomi": "おさ.める、おさ.まる、なお.る、なお.す",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "厶",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[明|めい][治|じ][神|じん][宮|ぐう]は、[原|はら][宿|じゅく][駅|えき]のすぐそばにある。",
+    "traduccionOracion": "El santuario Meiji está justo al lado de la estación de Harajuku.",
     "destacado": false,
     "palabras": [
       {
@@ -5827,9 +6443,15 @@
     "kunyomi": null,
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "土",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[切|きっ][符|ぷ]の[買|か]い[方|かた]がわからなかったので、[駅|えき][員|いん]に[方|ほう][法|ほう]を[教|おし]えてもらった。",
+    "traduccionOracion": "No sabía cómo comprar el boleto, así que el empleado de la estación me explicó cómo hacerlo.",
     "destacado": false,
     "palabras": [
       {
@@ -5868,9 +6490,14 @@
     "kunyomi": "なみ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "皮"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[波|なみ]が[高|たか]いので、[今日|きょう]は[泳|およ]がないほうがいい。",
+    "traduccionOracion": "Las olas están altas, así que hoy es mejor no nadar.",
     "destacado": false,
     "palabras": [
       {
@@ -5909,9 +6536,14 @@
     "kunyomi": "な.く",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "立"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[別|わか]れのとき、[旅|りょ][館|かん]のおかみさんが[泣|な]きそうになっていた。",
+    "traduccionOracion": "Al despedirnos, la dueña del ryokan estaba a punto de llorar.",
     "destacado": false,
     "palabras": [
       {
@@ -5950,9 +6582,13 @@
     "kunyomi": "およ.ぐ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[沖|おき][縄|なわ]の[海|うみ]があまりにもきれいで、[泳|およ]がずにはいられなかった。",
+    "traduccionOracion": "El mar de Okinawa era tan hermoso que no pude evitar meterme a nadar.",
     "destacado": false,
     "palabras": [
       {
@@ -5989,9 +6625,14 @@
     "kunyomi": "まき",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "牛",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[牧|ぼく][場|じょう]で[飲|の]んだ[牛|ぎゅう][乳|にゅう]は、[今|いま]まで[飲|の]んだ[中|なか]で[一|いち][番|ばん]おいしかった。",
+    "traduccionOracion": "La leche que tomé en la granja fue la más rica que he probado.",
     "destacado": false,
     "palabras": [
       {
@@ -6028,9 +6669,14 @@
     "kunyomi": "まと",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "勹"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[目|もく][的|てき]は、[日|に][本|ほん]の[温|おん][泉|せん]を[回|まわ]ることだ。",
+    "traduccionOracion": "El objetivo del viaje es recorrer los onsen de Japón.",
     "destacado": false,
     "palabras": [
       {
@@ -6069,9 +6715,14 @@
     "kunyomi": "ただ.ちに、なお.す、なお.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "十",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[新|しん][宿|じゅく]までは、この[電|でん][車|しゃ]で[直|ちょく][接|せつ][行|い]けますか。",
+    "traduccionOracion": "¿Puedo ir directo a Shinjuku en este tren?",
     "destacado": false,
     "palabras": [
       {
@@ -6112,9 +6763,15 @@
     "kunyomi": "そだ.つ、そだ.てる、はぐく.む",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "厶",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[町|まち]で[生|う]まれ[育|そだ]った[人|ひと]に、[地|じ][元|もと]の[店|みせ]を[案|あん][内|ない]してもらった。",
+    "traduccionOracion": "Una persona nacida y criada en este pueblo me mostró los locales de la zona.",
     "destacado": false,
     "palabras": [
       {
@@ -6151,9 +6808,13 @@
     "kunyomi": "め",
     "numeroTrazos": 8,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺾"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[春|はる]になると、[木|き]の[芽|め]が[出|で]て[町|まち]が[緑|みどり]になる。",
+    "traduccionOracion": "Cuando llega la primavera, brotan los árboles y el pueblo se pone verde.",
     "destacado": false,
     "palabras": [
       {
@@ -6190,9 +6851,15 @@
     "kunyomi": "くる.しい、くる.しむ、くる.しめる、にが.い、にが.る",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "十",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[人|ひと][混|ご]みが[苦|にが][手|て]なので、[朝|あさ][早|はや]く[観|かん][光|こう]することにしている。",
+    "traduccionOracion": "No me gustan las multitudes, así que tengo la costumbre de pasear temprano.",
     "destacado": false,
     "palabras": [
       {
@@ -6229,9 +6896,14 @@
     "kunyomi": "おもて、あらわ.す、あらわ.れる",
     "numeroTrazos": 8,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "龶",
+      "𧘇"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[時|じ][刻|こく][表|ひょう]を[見|み]ると、[次|つぎ]の[電|でん][車|しゃ]まで[二|に][十|じゅっ][分|ぷん]もある。",
+    "traduccionOracion": "Según el horario, faltan nada menos que veinte minutos para el próximo tren.",
     "destacado": false,
     "palabras": [
       {
@@ -6270,9 +6942,14 @@
     "kunyomi": "かか.る、かかり",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "糸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[係|かかり]の[人|ひと]の[指|し][示|じ]があるまで、[席|せき]でお[待|ま]ちください。",
+    "traduccionOracion": "Espere en su asiento hasta que el personal le indique, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -6311,9 +6988,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "訁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[信|しん][号|ごう]が[青|あお]になるまで、[渡|わた]らずに[待|ま]ちましょう。",
+    "traduccionOracion": "Esperemos sin cruzar hasta que el semáforo se ponga en verde.",
     "destacado": false,
     "palabras": [
       {
@@ -6350,9 +7032,15 @@
     "kunyomi": "いさ.む",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "マ",
+      "田",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[勇|ゆう][気|き]を[出|だ]して[日|に][本|ほん][語|ご]で[注|ちゅう][文|もん]してみたら、ちゃんと[通|つう]じた。",
+    "traduccionOracion": "Me armé de valor, pedí en japonés y me entendieron.",
     "destacado": false,
     "palabras": [
       {
@@ -6389,9 +7077,15 @@
     "kunyomi": "ひとえ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "田",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[簡|かん][単|たん]な[日|に][本|ほん][語|ご]さえ[話|はな]せれば、[旅|りょ][行|こう]はずっと[楽|たの]しくなる。",
+    "traduccionOracion": "Con solo poder hablar un japonés sencillo, el viaje se vuelve mucho más divertido.",
     "destacado": false,
     "palabras": [
       {
@@ -6428,9 +7122,15 @@
     "kunyomi": "かた",
     "numeroTrazos": 9,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "开",
+      "⺉",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[大|おお][型|がた]の[荷|に][物|もつ]を[新|しん][幹|かん][線|せん]に[持|も]ち[込|こ]むには、[予|よ][約|やく]が[必|ひつ][要|よう]だ。",
+    "traduccionOracion": "Para subir equipaje grande al shinkansen se necesita reserva.",
     "destacado": false,
     "palabras": [
       {
@@ -6469,9 +7169,15 @@
     "kunyomi": "か.わる、か.える",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "八",
+      "夂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[急|きゅう]に[予|よ][定|てい]を[変|か]えることになり、ホテルをキャンセルした。",
+    "traduccionOracion": "De pronto tuve que cambiar los planes y cancelé el hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -6510,9 +7216,15 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "夂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[客|きゃく][様|さま]、お[忘|わす]れ[物|もの]はございませんか。",
+    "traduccionOracion": "Estimado cliente, ¿no ha olvidado nada?",
     "destacado": false,
     "palabras": [
       {
@@ -6551,9 +7263,15 @@
     "kunyomi": "ひろ.う",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺘",
+      "𠆢",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "タクシーを[拾|ひろ]うなら、[大|おお][通|どお]りに[出|で]たほうがいい。",
+    "traduccionOracion": "Si quieres tomar un taxi, es mejor salir a la avenida.",
     "destacado": false,
     "palabras": [
       {
@@ -6592,9 +7310,15 @@
     "kunyomi": "ゆび、さ.す",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺘",
+      "匕",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[指|し][定|てい][席|せき]を[予|よ][約|やく]しておいたので、[混|こ]んでいても[座|すわ]れた。",
+    "traduccionOracion": "Como había reservado asiento, pude sentarme aunque iba lleno.",
     "destacado": false,
     "palabras": [
       {
@@ -6631,9 +7355,14 @@
     "kunyomi": "ほし",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "生"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[田舎|いなか]の[旅|りょ][館|かん]に[泊|と]まったら、[空|そら]いっぱいに[星|ほし]が[見|み]えた。",
+    "traduccionOracion": "Cuando me alojé en un ryokan en el campo, el cielo estaba lleno de estrellas.",
     "destacado": false,
     "palabras": [
       {
@@ -6670,9 +7399,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "乍"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[昨|さく][年|ねん]に[比|くら]べて、[今年|ことし]はホテルの[値|ね][段|だん]が[上|あ]がった。",
+    "traduccionOracion": "En comparación con el año pasado, este año subieron los precios de los hoteles.",
     "destacado": false,
     "palabras": [
       {
@@ -6711,9 +7445,15 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "刀",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[昭|しょう][和|わ]の[雰|ふん][囲|い][気|き]が[残|のこ]る[商|しょう][店|てん][街|がい]を[歩|ある]いた。",
+    "traduccionOracion": "Caminé por una calle comercial que conserva el ambiente de la era Showa.",
     "destacado": false,
     "palabras": [
       {
@@ -6752,9 +7492,14 @@
     "kunyomi": "はしら",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[寺|てら]の[柱|はしら]は、[千|せん][年|ねん][以|い][上|じょう][前|まえ]の[木|き]で[作|つく]られているそうだ。",
+    "traduccionOracion": "Dicen que los pilares de este templo están hechos con madera de hace más de mil años.",
     "destacado": false,
     "palabras": [
       {
@@ -6794,9 +7539,15 @@
     "kunyomi": "さか.える、は.え、は.える",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "冖",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[栄|えい][養|よう]のバランスを[考|かんが]えて、コンビニでサラダも[買|か]った。",
+    "traduccionOracion": "Pensando en una alimentación balanceada, también compré una ensalada en el konbini.",
     "destacado": false,
     "palabras": [
       {
@@ -6835,9 +7586,15 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "十",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]での[生|せい][活|かつ]には、もう[慣|な]れましたか。",
+    "traduccionOracion": "¿Ya te acostumbraste a la vida en Japón?",
     "destacado": false,
     "palabras": [
       {
@@ -6876,9 +7633,14 @@
     "kunyomi": "あさ.い",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[浅|あさ][草|くさ]の[雷|かみなり][門|もん]は、[夜|よる]になるとライトアップされる。",
+    "traduccionOracion": "La puerta Kaminarimon de Asakusa se ilumina por la noche.",
     "destacado": false,
     "palabras": [
       {
@@ -6917,9 +7679,15 @@
     "kunyomi": "すみ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "山",
+      "厂",
+      "火"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[炭|たん][酸|さん]の[入|はい]っていない[水|みず]はどれですか。",
+    "traduccionOracion": "¿Cuál es el agua sin gas?",
     "destacado": false,
     "palabras": [
       {
@@ -6958,9 +7726,15 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "卜",
+      "口",
+      "⺣"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "わからない[点|てん]があれば、[何|なん]でも[聞|き]いてください。",
+    "traduccionOracion": "Si hay algún punto que no entiendas, pregunta lo que sea.",
     "destacado": false,
     "palabras": [
       {
@@ -6999,9 +7773,14 @@
     "kunyomi": "はた、はたけ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "火",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[畑|はたけ]でとれたばかりの[野|や][菜|さい]を、[朝|ちょう][食|しょく]に[出|だ]してもらった。",
+    "traduccionOracion": "En el desayuno me sirvieron verduras recién cosechadas del huerto.",
     "destacado": false,
     "palabras": [
       {
@@ -7038,9 +7817,14 @@
     "kunyomi": "あい",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[店|みせ]の[人|ひと]が[英|えい][語|ご]で[話|はな]しかけてきたので、[相|あい][手|て]に[合|あ]わせて[英|えい][語|ご]で[答|こた]えた。",
+    "traduccionOracion": "La persona del local me habló en inglés, así que le respondí en inglés para adaptarme.",
     "destacado": false,
     "palabras": [
       {
@@ -7080,9 +7864,14 @@
     "kunyomi": "かえり.みる、はぶ.く",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺌",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[手|て][続|つづ]きを[省|しょう][略|りゃく]するために、オンラインでチェックインしておいた。",
+    "traduccionOracion": "Para ahorrarme trámites, hice el check-in en línea antes.",
     "destacado": false,
     "palabras": [
       {
@@ -7119,9 +7908,15 @@
     "kunyomi": "いわ.う",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺭",
+      "口",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[祝|しゅく][日|じつ]は、どこも[観|かん][光|こう][客|きゃく]でいっぱいになりがちだ。",
+    "traduccionOracion": "En los feriados japoneses, todos los lugares suelen llenarse de turistas.",
     "destacado": false,
     "palabras": [
       {
@@ -7158,9 +7953,14 @@
     "kunyomi": "かみ、かん、こう",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺭",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[神|じん][社|じゃ]にお[参|まい]りする[前|まえ]に、[手|て]と[口|くち]を[清|きよ]めることになっている。",
+    "traduccionOracion": "Está establecido que antes de rezar en un santuario hay que purificarse las manos y la boca.",
     "destacado": false,
     "palabras": [
       {
@@ -7199,9 +7999,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "斗"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[歯|は]が[痛|いた]くなったので、[近|ちか]くの[歯|し][科|か]に[行|い]った。",
+    "traduccionOracion": "Me empezó a doler una muela, así que fui a un dentista cercano.",
     "destacado": false,
     "palabras": [
       {
@@ -7240,9 +8045,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "⺌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[交|こう][差|さ][点|てん]の[信|しん][号|ごう]は、[三|さん][十|じゅう][秒|びょう]ごとに[変|か]わる。",
+    "traduccionOracion": "El semáforo de esta intersección cambia cada treinta segundos.",
     "destacado": false,
     "palabras": [
       {
@@ -7279,9 +8089,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "己"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[寺|てら]は、[八|はっ][世|せい][紀|き]に[建|た]てられたと[言|い]われている。",
+    "traduccionOracion": "Se dice que este templo fue construido en el siglo VIII.",
     "destacado": false,
     "palabras": [
       {
@@ -7320,9 +8135,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "勹"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ホテルまでは、[駅|えき]から[歩|ある]いて[約|やく][十|じゅっ][分|ぷん]です。",
+    "traduccionOracion": "El hotel está a unos diez minutos a pie de la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -7361,9 +8181,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[一|いち][度|ど]でいいから、[高|こう][級|きゅう][旅|りょ][館|かん]に[泊|と]まってみたい。",
+    "traduccionOracion": "Aunque sea una vez, quiero alojarme en un ryokan de lujo.",
     "destacado": false,
     "palabras": [
       {
@@ -7400,9 +8225,14 @@
     "kunyomi": "うつく.しい",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "羊",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[美|び][術|じゅつ][館|かん]に[入|はい]るには、[予|よ][約|やく]が[必|ひつ][要|よう]だということだ。",
+    "traduccionOracion": "Dicen que para entrar a este museo se necesita reserva.",
     "destacado": false,
     "palabras": [
       {
@@ -7441,9 +8271,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 6,
-    "radicales": [],
+    "radicales": [
+      "田",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[食|た]べすぎて[胃|い]が[痛|いた]くなったので、[薬|やっ][局|きょく]で[胃|い][薬|ぐすり]を[買|か]った。",
+    "traduccionOracion": "Comí demasiado y me dolía el estómago, así que compré un medicamento en la farmacia.",
     "destacado": false,
     "palabras": [
       {
@@ -7480,9 +8315,15 @@
     "kunyomi": "くさ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 1,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "日",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[公|こう][園|えん]の[草|くさ]の[上|うえ]に[座|すわ]って、お[弁|べん][当|とう]を[食|た]べた。",
+    "traduccionOracion": "Me senté sobre el pasto del parque y comí un bento.",
     "destacado": false,
     "palabras": [
       {
@@ -7519,9 +8360,14 @@
     "kunyomi": "い.る",
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "覀",
+      "女"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[予|よ][約|やく]は[要|い]りませんので、[直|ちょく][接|せつ]お[越|こ]しください。",
+    "traduccionOracion": "No hace falta reserva, venga directamente, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -7560,9 +8406,14 @@
     "kunyomi": "ま.ける、ま.かす、お.う",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺈",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[試|し][合|あい]には[負|ま]けたが、スタジアムの[雰|ふん][囲|い][気|き]は[最|さい][高|こう]だった。",
+    "traduccionOracion": "Perdimos el partido, pero el ambiente del estadio fue increíble.",
     "destacado": false,
     "palabras": [
       {
@@ -7601,9 +8452,14 @@
     "kunyomi": null,
     "numeroTrazos": 9,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "冖",
+      "車"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[沖|おき][縄|なわ]には、[今|いま]でもアメリカ[軍|ぐん]の[基|き][地|ち]が[多|おお]く[残|のこ]っている。",
+    "traduccionOracion": "En Okinawa todavía quedan muchas bases militares estadounidenses.",
     "destacado": false,
     "palabras": [
       {
@@ -7642,9 +8498,14 @@
     "kunyomi": "お.う",
     "numeroTrazos": 9,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "㠯",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[追|つい][加|か]で[注|ちゅう][文|もん]してもいいですか。",
+    "traduccionOracion": "¿Puedo pedir algo más?",
     "destacado": false,
     "palabras": [
       {
@@ -7684,6 +8545,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[画|が][面|めん]の[表|ひょう][示|じ]にしたがって、[切|きっ][符|ぷ]を[買|か]ってください。",
+    "traduccionOracion": "Compra el boleto siguiendo las indicaciones de la pantalla.",
     "destacado": false,
     "palabras": [
       {
@@ -7725,6 +8588,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[飛|ひ][行|こう][機|き]が[遅|おく]れたせいで、[乗|の]り[継|つ]ぎに[間|ま]に[合|あ]わなかった。",
+    "traduccionOracion": "Por culpa del retraso del avión, no alcancé la conexión.",
     "destacado": false,
     "palabras": [
       {
@@ -7761,9 +8626,15 @@
     "kunyomi": "くら",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "𠆢",
+      "尸",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[鎌|かま][倉|くら]に[行|い]くなら、[大|だい][仏|ぶつ]は[見|み]ておくべきだ。",
+    "traduccionOracion": "Si vas a Kamakura, deberías ver el gran Buda.",
     "destacado": false,
     "palabras": [
       {
@@ -7800,9 +8671,15 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "立",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[週|しゅう][末|まつ]になると、ホテルの[料|りょう][金|きん]が[平|へい][日|じつ]の[二|に][倍|ばい]になることもある。",
+    "traduccionOracion": "Los fines de semana, el precio del hotel puede ser el doble que entre semana.",
     "destacado": false,
     "palabras": [
       {
@@ -7841,9 +8718,14 @@
     "kunyomi": "そうろう",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "矢"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]の[天|てん][候|こう]は[変|か]わりやすいので、[雨|あま][具|ぐ]を[持|も]っていったほうがいい。",
+    "traduccionOracion": "El clima de la montaña cambia fácilmente, así que es mejor llevar ropa para la lluvia.",
     "destacado": false,
     "palabras": [
       {
@@ -7880,9 +8762,14 @@
     "kunyomi": "はら",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "厂",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[電|でん][車|しゃ]が[遅|おく]れた[原|げん][因|いん]は、[大|おお][雪|ゆき]だったそうだ。",
+    "traduccionOracion": "Dicen que la causa del retraso del tren fue la gran nevada.",
     "destacado": false,
     "palabras": [
       {
@@ -7921,9 +8808,14 @@
     "kunyomi": "まご",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "子",
+      "糸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[孫|まご]たちへのお[土産|みやげ]を[選|えら]ぶのに、[一|いち][時|じ][間|かん]もかかった。",
+    "traduccionOracion": "Elegir los regalos para mis nietos me tomó una hora entera.",
     "destacado": false,
     "palabras": [
       {
@@ -7962,9 +8854,14 @@
     "kunyomi": "みや",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[宮|みや][島|じま]の[鳥|とり][居|い]は、[潮|しお]が[引|ひ]くと[歩|ある]いて[近|ちか]くまで[行|い]ける。",
+    "traduccionOracion": "Cuando baja la marea, se puede caminar hasta cerca del torii de Miyajima.",
     "destacado": false,
     "palabras": [
       {
@@ -8003,9 +8900,15 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "龶",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[台|たい][風|ふう]による[被|ひ][害|がい]で、[一|いち][部|ぶ]の[電|でん][車|しゃ]が[運|うん][休|きゅう]している。",
+    "traduccionOracion": "Por los daños del tifón, algunos trenes están suspendidos.",
     "destacado": false,
     "palabras": [
       {
@@ -8042,9 +8945,14 @@
     "kunyomi": "しま",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺣",
+      "山"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[島|しま]へ[渡|わた]るフェリーは、[一|いち][日|にち]に[三|さん][本|ぼん]しか[出|で]ていない。",
+    "traduccionOracion": "El ferry a la isla sale solo tres veces al día.",
     "destacado": false,
     "palabras": [
       {
@@ -8083,9 +8991,14 @@
     "kunyomi": "さ.す",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "羊",
+      "工"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[時|じ][差|さ]のせいで、[夜|よる]になっても[全|ぜん][然|ぜん][眠|ねむ]くならない。",
+    "traduccionOracion": "Por culpa de la diferencia horaria, no me da nada de sueño aunque sea de noche.",
     "destacado": false,
     "palabras": [
       {
@@ -8124,9 +9037,14 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "巾"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "すみません、[席|せき]を[替|か]わっていただけませんか。",
+    "traduccionOracion": "Disculpe, ¿podría cambiarme el asiento?",
     "destacado": false,
     "palabras": [
       {
@@ -8165,9 +9083,14 @@
     "kunyomi": "お.びる、おび",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "冖",
+      "巾"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[携|けい][帯|たい]の[充|じゅう][電|でん]が[切|き]れそうなので、コンビニでバッテリーを[買|か]った。",
+    "traduccionOracion": "Al celular se le estaba acabando la batería, así que compré un cargador portátil en el konbini.",
     "destacado": false,
     "palabras": [
       {
@@ -8204,9 +9127,14 @@
     "kunyomi": "くら",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "車"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[冷|れい][蔵|ぞう][庫|こ]の[中|なか]の[飲|の]み[物|もの]は、[有|ゆう][料|りょう]になっております。",
+    "traduccionOracion": "Las bebidas del refrigerador tienen costo.",
     "destacado": false,
     "palabras": [
       {
@@ -8243,9 +9171,15 @@
     "kunyomi": "にわ",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "廴",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[庭|にわ]を[眺|なが]めながら[飲|の]むお[茶|ちゃ]は、[格|かく][別|べつ]だった。",
+    "traduccionOracion": "El té que tomé mientras contemplaba el jardín fue especial.",
     "destacado": false,
     "palabras": [
       {
@@ -8284,9 +9218,14 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "彳",
+      "走"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[駅|えき]から[徒|と][歩|ほ][五|ご][分|ふん]のホテルを[予|よ][約|やく]した。",
+    "traduccionOracion": "Reservé un hotel a cinco minutos a pie de la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -8325,9 +9264,14 @@
     "kunyomi": "いき",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "目",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[階|かい][段|だん]が[多|おお]すぎて、[上|うえ]に[着|つ]いたときには[息|いき]が[切|き]れていた。",
+    "traduccionOracion": "Había tantas escaleras que llegué arriba sin aliento.",
     "destacado": false,
     "palabras": [
       {
@@ -8366,9 +9310,13 @@
     "kunyomi": "あ.げる、あ.がる",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[選|せん][挙|きょ]の[前|まえ]は、[駅|えき][前|まえ]で[演|えん][説|ぜつ]をしている[人|ひと]をよく[見|み]かける。",
+    "traduccionOracion": "Antes de las elecciones, se ve seguido gente dando discursos frente a las estaciones.",
     "destacado": false,
     "palabras": [
       {
@@ -8407,9 +9355,14 @@
     "kunyomi": "ね",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "艮"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[箱|はこ][根|ね]の[温|おん][泉|せん][旅|りょ][館|かん]に、[二|に][泊|はく]することにした。",
+    "traduccionOracion": "Decidí pasar dos noches en un ryokan con onsen en Hakone.",
     "destacado": false,
     "palabras": [
       {
@@ -8448,9 +9401,15 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "女",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[観|かん][光|こう][案|あん][内|ない][所|じょ]に[行|い]けば、[無|む][料|りょう]の[地|ち][図|ず]がもらえる。",
+    "traduccionOracion": "Si vas a la oficina de turismo, te dan un mapa gratis.",
     "destacado": false,
     "palabras": [
       {
@@ -8489,9 +9448,15 @@
     "kunyomi": "うめ",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "𠂉",
+      "毋"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[梅|うめ][干|ぼ]しは[酸|す]っぱすぎて、[一|ひと]つしか[食|た]べられなかった。",
+    "traduccionOracion": "El umeboshi era demasiado ácido y solo pude comer uno.",
     "destacado": false,
     "palabras": [
       {
@@ -8530,9 +9495,14 @@
     "kunyomi": "のこ.る、のこ.す",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "夕",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[残|のこ]った[料|りょう][理|り]を、[持|も]ち[帰|かえ]ってもいいですか。",
+    "traduccionOracion": "¿Puedo llevarme la comida que sobró?",
     "destacado": false,
     "palabras": [
       {
@@ -8571,9 +9541,15 @@
     "kunyomi": "ころ.す",
     "numeroTrazos": 10,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "乂",
+      "木",
+      "殳"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[映|えい][画|が]は、[京|きょう][都|と]で[起|お]きた[殺|さつ][人|じん][事|じ][件|けん]の[話|はなし]だ。",
+    "traduccionOracion": "Esta película trata sobre un asesinato que ocurrió en Kioto.",
     "destacado": false,
     "palabras": [
       {
@@ -8610,9 +9586,16 @@
     "kunyomi": "なが.れる、なが.す",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "亠",
+      "厶",
+      "川"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[川|かわ]の[流|なが]れを[見|み]ながら、[川|かわ][床|どこ]で[食|しょく][事|じ]をした。",
+    "traduccionOracion": "Comí en una terraza sobre el río mientras miraba la corriente.",
     "destacado": false,
     "palabras": [
       {
@@ -8649,9 +9632,16 @@
     "kunyomi": "あ.びる、あ.びせる",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "八",
+      "𠆢",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[大|だい][浴|よく][場|じょう]は、[夜|よる][十|じゅう][一|いち][時|じ]までご[利|り][用|よう]いただけます。",
+    "traduccionOracion": "El baño grande se puede usar hasta las once de la noche.",
     "destacado": false,
     "palabras": [
       {
@@ -8690,9 +9680,15 @@
     "kunyomi": "け.す、き.える",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "⺌",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[部屋|へや]を[出|で]るときは、[電|でん][気|き]を[消|け]すのを[忘|わす]れないでください。",
+    "traduccionOracion": "Al salir de la habitación, no olvides apagar la luz.",
     "destacado": false,
     "palabras": [
       {
@@ -8729,9 +9725,14 @@
     "kunyomi": "わら.う、え.む",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[店|みせ]の[人|ひと]がいつも[笑|え][顔|がお]で[迎|むか]えてくれるので、[毎|まい][日|にち][通|かよ]ってしまった。",
+    "traduccionOracion": "La gente del local siempre me recibía con una sonrisa, así que terminé yendo todos los días.",
     "destacado": false,
     "palabras": [
       {
@@ -8768,9 +9769,15 @@
     "kunyomi": "こ、こな",
     "numeroTrazos": 10,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "米",
+      "八",
+      "刀"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[春|はる]は[花|か][粉|ふん]が[多|おお]いので、マスクをしている[人|ひと]が[多|おお]い。",
+    "traduccionOracion": "En primavera hay mucho polen, así que mucha gente usa mascarilla.",
     "destacado": false,
     "palabras": [
       {
@@ -8807,9 +9814,13 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[電|でん][車|しゃ]の[窓|まど]から、[雪|ゆき]をかぶった[山|さん][脈|みゃく]が[見|み]えた。",
+    "traduccionOracion": "Desde la ventana del tren se veía una cordillera cubierta de nieve.",
     "destacado": false,
     "palabras": [
       {
@@ -8846,9 +9857,15 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "舟",
+      "亠",
+      "几"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[航|こう][空|くう][券|けん]は、[早|はや]く[買|か]えば[買|か]うほど[安|やす]くなる。",
+    "traduccionOracion": "Cuanto antes compras el pasaje de avión, más barato sale.",
     "destacado": false,
     "palabras": [
       {
@@ -8885,9 +9902,15 @@
     "kunyomi": "に",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "⺅",
+      "可"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[荷|に][物|もつ]をホテルに[預|あず]けたまま、[観|かん][光|こう]に[出|で]かけた。",
+    "traduccionOracion": "Salí a pasear dejando el equipaje guardado en el hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -8926,9 +9949,14 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "川"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[漢|かん][字|じ]の[訓|くん][読|よ]みがわかれば、[駅|えき]の[名|な][前|まえ]も[読|よ]めるようになる。",
+    "traduccionOracion": "Si sabes las lecturas kun de los kanji, también podrás leer los nombres de las estaciones.",
     "destacado": false,
     "palabras": [
       {
@@ -8967,9 +9995,14 @@
     "kunyomi": "しる.す",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "己"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][中|ちゅう]の[出|で][来|き][事|ごと]を、[毎|まい][晩|ばん][日|にっ][記|き]に[書|か]くことにしている。",
+    "traduccionOracion": "Tengo la costumbre de escribir en un diario cada noche lo que pasa durante el viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -9009,9 +10042,14 @@
     "kunyomi": "はや.い、はや.める、すみ.やか",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "束",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[高|こう][速|そく]バスは[新|しん][幹|かん][線|せん]より[安|やす]いが、[時|じ][間|かん]がかかる。",
+    "traduccionOracion": "El autobús de carretera es más barato que el shinkansen, pero tarda más.",
     "destacado": false,
     "palabras": [
       {
@@ -9050,9 +10088,14 @@
     "kunyomi": "つら.なる、つら.ねる、つ.れる",
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "車",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[連|れん][休|きゅう]は、どこへ[行|い]っても[人|ひと]だらけだ。",
+    "traduccionOracion": "En los fines de semana largos, adonde vayas está lleno de gente.",
     "destacado": false,
     "palabras": [
       {
@@ -9092,9 +10135,15 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "彐",
+      "口",
+      "⻖"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[村|むら]は[山|やま]の[奥|おく]にあって、[郡|ぐん]の[中|なか]でも[特|とく]に[人|ひと]が[少|すく]ない。",
+    "traduccionOracion": "Este pueblo está en lo profundo de las montañas y es de los menos poblados del distrito.",
     "destacado": false,
     "palabras": [
       {
@@ -9134,9 +10183,14 @@
     "kunyomi": "くば.る",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "酉",
+      "己"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[荷|に][物|もつ]の[配|はい][達|たつ]は、[明日|あした]の[午|ご][前|ぜん][中|ちゅう]になるそうだ。",
+    "traduccionOracion": "Dicen que la entrega del paquete será mañana en la mañana.",
     "destacado": false,
     "palabras": [
       {
@@ -9175,9 +10229,14 @@
     "kunyomi": "さけ、さか",
     "numeroTrazos": 10,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "酉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[居|い][酒|ざか][屋|や]で、[地|じ][元|もと]のお[酒|さけ]を[飲|の]み[比|くら]べた。",
+    "traduccionOracion": "En un izakaya probé y comparé varios sakes locales.",
     "destacado": false,
     "palabras": [
       {
@@ -9219,6 +10278,8 @@
     "radicales": [],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[牧|ぼく][場|じょう]で、[生|う]まれて[初|はじ]めて[馬|うま]に[乗|の]った。",
+    "traduccionOracion": "En la granja me subí a un caballo por primera vez en mi vida.",
     "destacado": false,
     "palabras": [
       {
@@ -9257,9 +10318,17 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "亠",
+      "口",
+      "冖",
+      "丁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "バス[停|てい]がどこにあるか、[地|ち][図|ず]を[見|み]てもわからなかった。",
+    "traduccionOracion": "Aunque miré el mapa, no supe dónde estaba la parada de autobús.",
     "destacado": false,
     "palabras": [
       {
@@ -9296,9 +10365,15 @@
     "kunyomi": "すこ.やか",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "彐",
+      "廴"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][中|ちゅう]も[健|けん][康|こう]に[気|き]をつけて、[野|や][菜|さい]を[食|た]べるようにしている。",
+    "traduccionOracion": "Incluso de viaje cuido mi salud y procuro comer verduras.",
     "destacado": false,
     "palabras": [
       {
@@ -9337,9 +10412,15 @@
     "kunyomi": "かわ、がわ、そば",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "貝",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[窓|まど][側|がわ]の[席|せき]に[座|すわ]れば、[富|ふ][士|じ][山|さん]が[見|み]えるかもしれない。",
+    "traduccionOracion": "Si te sientas junto a la ventana, quizás veas el monte Fuji.",
     "destacado": false,
     "palabras": [
       {
@@ -9376,9 +10457,15 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "口",
+      "田",
+      "⺉"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[船|ふな][酔|よ]いの[薬|くすり]を[飲|の]んだら、[副|ふく][作|さ][用|よう]で[眠|ねむ]くなった。",
+    "traduccionOracion": "Tomé un medicamento para el mareo y, como efecto secundario, me dio sueño.",
     "destacado": false,
     "palabras": [
       {
@@ -9417,9 +10504,14 @@
     "kunyomi": "とな.える",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "口",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[寺|てら]で、お[坊|ぼう]さんがお[経|きょう]を[唱|とな]える[声|こえ]が[聞|き]こえた。",
+    "traduccionOracion": "En el templo se escuchaba a un monje recitando sutras.",
     "destacado": false,
     "palabras": [
       {
@@ -9456,9 +10548,16 @@
     "kunyomi": "あきな.う",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "亠",
+      "丷",
+      "冂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[商|しょう][店|てん][街|がい]を[歩|ある]いていると、[地|じ][元|もと]の[人|ひと]の[生|せい][活|かつ]が[見|み]えてくる。",
+    "traduccionOracion": "Caminando por la calle comercial, empiezas a ver cómo vive la gente del lugar.",
     "destacado": false,
     "palabras": [
       {
@@ -9495,9 +10594,15 @@
     "kunyomi": "やど、やど.る",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "⺅",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[宿|やど]に[着|つ]いたら、まず[温|おん][泉|せん]に[入|はい]りたい。",
+    "traduccionOracion": "Cuando llegue al alojamiento, lo primero que quiero es meterme al onsen.",
     "destacado": false,
     "palabras": [
       {
@@ -9534,9 +10639,15 @@
     "kunyomi": "す",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "田",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[寺|てら]の[軒|のき][下|した]に、ツバメの[巣|す]があった。",
+    "traduccionOracion": "Bajo el alero del templo había un nido de golondrinas.",
     "destacado": false,
     "palabras": [
       {
@@ -9575,9 +10686,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "巾",
+      "長"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[予|よ][定|てい]は、スマホではなく[手|て][帳|ちょう]に[書|か]いておくことにしている。",
+    "traduccionOracion": "Tengo la costumbre de anotar los planes del viaje en una agenda y no en el celular.",
     "destacado": false,
     "palabras": [
       {
@@ -9616,9 +10732,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "广",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[温|おん][泉|せん]は[健|けん][康|こう]にいいと[言|い]われている。",
+    "traduccionOracion": "Se dice que los onsen son buenos para la salud.",
     "destacado": false,
     "palabras": [
       {
@@ -9655,9 +10776,15 @@
     "kunyomi": "え.る、う.る",
     "numeroTrazos": 11,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "彳",
+      "日",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[一|いち][日|にち][乗|じょう][車|しゃ][券|けん]を[買|か]ったほうが、[得|とく]になることが[多|おお]い。",
+    "traduccionOracion": "Muchas veces sale más a cuenta comprar el pase de un día.",
     "destacado": false,
     "palabras": [
       {
@@ -9696,9 +10823,13 @@
     "kunyomi": "すく.う",
     "numeroTrazos": 11,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]で[足|あし]をけがした[人|ひと]のために、[救|きゅう][急|きゅう][車|しゃ]を[呼|よ]んだ。",
+    "traduccionOracion": "Llamé una ambulancia para una persona que se lastimó el pie en la montaña.",
     "destacado": false,
     "palabras": [
       {
@@ -9738,9 +10869,14 @@
     "kunyomi": "やぶ.れる",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "貝",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[失|しっ][敗|ぱい]を[恐|おそ]れずに、どんどん[日|に][本|ほん][語|ご]で[話|はな]してみよう。",
+    "traduccionOracion": "Sin miedo a equivocarte, habla en japonés todo lo que puedas.",
     "destacado": false,
     "palabras": [
       {
@@ -9777,9 +10913,15 @@
     "kunyomi": "のぞ.む",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "亡",
+      "月",
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[展|てん][望|ぼう][台|だい]からの[眺|なが]めは、[期|き][待|たい]していた[以|い][上|じょう]だった。",
+    "traduccionOracion": "La vista desde el mirador superó lo que esperaba.",
     "destacado": false,
     "palabras": [
       {
@@ -9816,9 +10958,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[券|けん][売|ばい][機|き]の[機|き][械|かい]が[故|こ][障|しょう]していて、[切|きっ][符|ぷ]が[買|か]えなかった。",
+    "traduccionOracion": "La máquina expendedora de boletos estaba descompuesta y no pude comprar el boleto.",
     "destacado": false,
     "palabras": [
       {
@@ -9855,9 +11002,16 @@
     "kunyomi": "ふか.い、ふか.まる、ふか.める",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "冖",
+      "八",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夜|よる][遅|おそ]く[着|つ]いたので、[深|しん][夜|や][営|えい][業|ぎょう]のラーメン[屋|や]に[入|はい]った。",
+    "traduccionOracion": "Llegué tarde en la noche, así que entré a una tienda de ramen abierta de madrugada.",
     "destacado": false,
     "palabras": [
       {
@@ -9894,9 +11048,15 @@
     "kunyomi": "きよ.い、きよ.まる、きよ.める",
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "龶",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[清|きよ][水|みず][寺|でら]の[舞|ぶ][台|たい]から[見|み]た[京|きょう][都|と]の[町|まち]は、[本|ほん][当|とう]にきれいだった。",
+    "traduccionOracion": "La ciudad de Kioto vista desde la terraza del Kiyomizu-dera era realmente hermosa.",
     "destacado": false,
     "palabras": [
       {
@@ -9937,9 +11097,13 @@
     "kunyomi": "たま",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "王"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[甲|こう][子|し][園|えん]で、[高|こう][校|こう][野|や][球|きゅう]の[試|し][合|あい]を[見|み]た。",
+    "traduccionOracion": "Vi un partido de béisbol escolar en Koshien.",
     "destacado": false,
     "palabras": [
       {
@@ -9978,9 +11142,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "覀",
+      "示"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[会|かい][計|けい]のときは、この[伝|でん][票|ぴょう]をレジにお[持|も]ちください。",
+    "traduccionOracion": "Al pagar, lleve este comprobante a la caja, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -10020,9 +11189,15 @@
     "kunyomi": "まつ.る、まつ.り",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "夕",
+      "又",
+      "示"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夏|なつ][祭|まつ]りに[行|い]くなら、[浴衣|ゆかた]を[着|き]ていくといい。",
+    "traduccionOracion": "Si vas a un festival de verano, es buena idea ir con yukata.",
     "destacado": false,
     "palabras": [
       {
@@ -10061,9 +11236,15 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "立",
+      "日",
+      "十"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ガイドブックの[最|さい][初|しょ]の[章|しょう]に、[旅|りょ][行|こう]の[注|ちゅう][意|い][点|てん]がまとめてある。",
+    "traduccionOracion": "En el primer capítulo de la guía están resumidas las precauciones para el viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -10102,9 +11283,14 @@
     "kunyomi": "ふえ",
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[発|はっ][車|しゃ]の[笛|ふえ]が[鳴|な]ったとたん、[電|でん][車|しゃ]のドアが[閉|し]まった。",
+    "traduccionOracion": "Justo cuando sonó el silbato de salida, se cerraron las puertas del tren.",
     "destacado": false,
     "palabras": [
       {
@@ -10141,9 +11327,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "弓"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[第|だい][一|いち]ターミナルと[第|だい][二|に]ターミナルの[間|あいだ]は、[無|む][料|りょう]のバスで[移|い][動|どう]できる。",
+    "traduccionOracion": "Entre la terminal 1 y la terminal 2 puedes moverte en un autobús gratuito.",
     "destacado": false,
     "palabras": [
       {
@@ -10182,9 +11373,14 @@
     "kunyomi": "ほそ.い、ほそ.る、こま.か、こま.かい",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[細|ほそ]い[路|ろ][地|じ]に[入|はい]ると、[観|かん][光|こう][客|きゃく]の[知|し]らない[店|みせ]が[見|み]つかる。",
+    "traduccionOracion": "Si te metes por los callejones angostos, encuentras locales que los turistas no conocen.",
     "destacado": false,
     "palabras": [
       {
@@ -10221,9 +11417,14 @@
     "kunyomi": "く.む、くみ",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "且"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][中|ちゅう]、[日|に][本|ほん]のテレビ[番|ばん][組|ぐみ]を[見|み]て[日|に][本|ほん][語|ご]を[勉|べん][強|きょう]した。",
+    "traduccionOracion": "Durante el viaje estudié japonés viendo programas de televisión japoneses.",
     "destacado": false,
     "palabras": [
       {
@@ -10262,9 +11463,15 @@
     "kunyomi": "ふね、ふな",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "舟",
+      "八",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[船|ふね]に[乗|の]るのは[初|はじ]めてだったので、[酔|よ]わないかどうか[心|しん][配|ぱい]だった。",
+    "traduccionOracion": "Era la primera vez que subía a un barco, así que me preocupaba marearme.",
     "destacado": false,
     "palabras": [
       {
@@ -10301,9 +11508,15 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "匕",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[自|じ][動|どう][販|はん][売|ばい][機|き]は、[五|ご][百|ひゃく][円|えん][硬|こう][貨|か]も[使|つか]える。",
+    "traduccionOracion": "Esta máquina expendedora también acepta monedas de quinientos yenes.",
     "destacado": false,
     "palabras": [
       {
@@ -10342,9 +11555,15 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "立",
+      "口",
+      "⻖"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[全|ぜん][部|ぶ]でいくらになりますか。",
+    "traduccionOracion": "¿Cuánto es todo junto?",
     "destacado": false,
     "palabras": [
       {
@@ -10384,9 +11603,14 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⻖",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[飛|ひ][行|こう][機|き]が[着|ちゃく][陸|りく]するまで、シートベルトを[外|はず]さないでください。",
+    "traduccionOracion": "No se quite el cinturón hasta que el avión aterrice.",
     "destacado": false,
     "palabras": [
       {
@@ -10423,9 +11647,14 @@
     "kunyomi": "ゆき",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⻗",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[雪|ゆき]が[積|つ]もっているので、[滑|すべ]りにくい[靴|くつ]を[履|は]いたほうがいい。",
+    "traduccionOracion": "Hay nieve acumulada, así que es mejor usar zapatos antideslizantes.",
     "destacado": false,
     "palabras": [
       {
@@ -10465,9 +11694,14 @@
     "kunyomi": "き、こ",
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "田",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[秋|あき]になると、[通|とお]りのイチョウが[黄|き][色|いろ]く[色|いろ]づく。",
+    "traduccionOracion": "Cuando llega el otoño, los ginkgos de la avenida se ponen amarillos.",
     "destacado": false,
     "palabras": [
       {
@@ -10506,9 +11740,14 @@
     "kunyomi": "か.つ、まさ.る",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "月",
+      "力"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[地|じ][元|もと]のチームが[勝|か]ったので、[町|まち]じゅうがお[祭|まつ]り[騒|さわ]ぎだった。",
+    "traduccionOracion": "Ganó el equipo local, así que todo el pueblo estaba de fiesta.",
     "destacado": false,
     "palabras": [
       {
@@ -10545,9 +11784,14 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "十",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[博|はく][物|ぶつ][館|かん]は[月|げつ][曜|よう][日|び]が[休|やす]みなので、[火|か][曜|よう][日|び]に[行|い]くことにした。",
+    "traduccionOracion": "El museo cierra los lunes, así que decidí ir el martes.",
     "destacado": false,
     "palabras": [
       {
@@ -10584,9 +11828,15 @@
     "kunyomi": "よろこ.ぶ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "十",
+      "口",
+      "豆"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[手|て][作|づく]りのお[土産|みやげ]を[渡|わた]したら、とても[喜|よろこ]んでもらえた。",
+    "traduccionOracion": "Cuando le di un regalo hecho a mano, se puso muy contento.",
     "destacado": false,
     "palabras": [
       {
@@ -10629,9 +11879,14 @@
     "kunyomi": "かな.しい、かな.しむ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "非",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[楽|たの]しかった[旅|りょ][行|こう]も[今日|きょう]で[終|お]わりだと[思|おも]うと、[悲|かな]しくなる。",
+    "traduccionOracion": "Me pone triste pensar que este viaje tan divertido termina hoy.",
     "destacado": false,
     "palabras": [
       {
@@ -10668,9 +11923,14 @@
     "kunyomi": "ち.る、ち.らす、ち.らかす、ち.らかる",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "月",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[朝|あさ]ご[飯|はん]の[前|まえ]に、[旅|りょ][館|かん]の[周|まわ]りを[散|さん][歩|ぽ]した。",
+    "traduccionOracion": "Antes del desayuno di un paseo alrededor del ryokan.",
     "destacado": false,
     "palabras": [
       {
@@ -10707,9 +11967,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "亠",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[展|てん][望|ぼう][台|だい]から[見|み]た[夜|や][景|けい]は、[言|こと][葉|ば]にできないほどきれいだった。",
+    "traduccionOracion": "La vista nocturna desde el mirador era tan hermosa que no hay palabras para describirla.",
     "destacado": false,
     "palabras": [
       {
@@ -10748,9 +12014,15 @@
     "kunyomi": "もっと.も",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "耳",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[最|さい][後|ご]の[日|ひ]は、お[土産|みやげ]を[買|か]うことに[時|じ][間|かん]を[使|つか]った。",
+    "traduccionOracion": "El último día lo dediqué a comprar regalos.",
     "destacado": false,
     "palabras": [
       {
@@ -10789,9 +12061,14 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "八",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[滞|たい][在|ざい][期|き][間|かん]が[短|みじか]いので、[行|い]く[場|ば][所|しょ]を[絞|しぼ]るしかない。",
+    "traduccionOracion": "La estadía es corta, así que no queda más que reducir los lugares a visitar.",
     "destacado": false,
     "palabras": [
       {
@@ -10830,9 +12107,15 @@
     "kunyomi": "う.える、う.わる",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "十",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[植|しょく][物|ぶつ][園|えん]では、[季|き][節|せつ]ごとにいろいろな[花|はな]が[楽|たの]しめる。",
+    "traduccionOracion": "En el jardín botánico puedes disfrutar de distintas flores en cada estación.",
     "destacado": false,
     "palabras": [
       {
@@ -10871,9 +12154,15 @@
     "kunyomi": "きわ.める、きわ.まる、きわ.み",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "口",
+      "又"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[積|せっ][極|きょく][的|てき]に[日|に][本|ほん][語|ご]を[使|つか]ったおかげで、[旅|りょ][行|こう]がもっと[楽|たの]しくなった。",
+    "traduccionOracion": "Gracias a que usé el japonés activamente, el viaje fue mucho más divertido.",
     "destacado": false,
     "palabras": [
       {
@@ -10910,9 +12199,15 @@
     "kunyomi": "は",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "止",
+      "米",
+      "凵"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[歯|は]ブラシは[部屋|へや]にないので、フロントでもらってください。",
+    "traduccionOracion": "No hay cepillo de dientes en la habitación, así que pídelo en la recepción.",
     "destacado": false,
     "palabras": [
       {
@@ -10949,9 +12244,15 @@
     "kunyomi": "あたた.か、あたた.かい、あたた.まる、あたた.める",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "日",
+      "皿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[気|き][温|おん]が[急|きゅう]に[下|さ]がったので、コンビニで[手|て][袋|ぶくろ]を[買|か]った。",
+    "traduccionOracion": "La temperatura bajó de golpe, así que compré guantes en el konbini.",
     "destacado": false,
     "palabras": [
       {
@@ -10990,9 +12291,15 @@
     "kunyomi": "みなと",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "八",
+      "己"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[港|みなと]の[近|ちか]くの[市|いち][場|ば]で、[朝|あさ]ご[飯|はん]に[海|かい][鮮|せん][丼|どん]を[食|た]べた。",
+    "traduccionOracion": "En el mercado cerca del puerto desayuné un bol de mariscos.",
     "destacado": false,
     "palabras": [
       {
@@ -11029,9 +12336,16 @@
     "kunyomi": "みずうみ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "十",
+      "口",
+      "月"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[湖|みずうみ]に[映|うつ]る[富|ふ][士|じ][山|さん]を[撮|と]るために、[朝|あさ][五|ご][時|じ]に[起|お]きた。",
+    "traduccionOracion": "Me levanté a las cinco de la mañana para fotografiar el monte Fuji reflejado en el lago.",
     "destacado": false,
     "palabras": [
       {
@@ -11068,9 +12382,15 @@
     "kunyomi": "ゆ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "日",
+      "勿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]のお[湯|ゆ]は[少|すこ]しにごっていて、[肌|はだ]がすべすべになった。",
+    "traduccionOracion": "El agua del onsen del ryokan era un poco turbia y me dejó la piel suave.",
     "destacado": false,
     "palabras": [
       {
@@ -11110,9 +12430,14 @@
     "kunyomi": "み.ちる、み.たす",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "冂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[今夜|こんや]はどのホテルも[満|まん][室|しつ]で、[泊|と]まる[所|ところ]が[見|み]つからない。",
+    "traduccionOracion": "Esta noche todos los hoteles están llenos y no encuentro dónde alojarme.",
     "destacado": false,
     "palabras": [
       {
@@ -11149,9 +12474,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "月",
+      "大",
+      "⺣"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[自|し][然|ぜん]が[好|す]きなら、[北|ほっ][海|かい][道|どう]がおすすめだ。",
+    "traduccionOracion": "Si te gusta la naturaleza, te recomiendo Hokkaido.",
     "destacado": false,
     "palabras": [
       {
@@ -11188,9 +12519,14 @@
     "kunyomi": "や.く、や.ける",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "火",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[広|ひろ][島|しま]に[行|い]ったら、お[好|この]み[焼|や]きを[食|た]べないわけにはいかない。",
+    "traduccionOracion": "Si vas a Hiroshima, no puedes dejar de comer okonomiyaki.",
     "destacado": false,
     "palabras": [
       {
@@ -11227,9 +12563,14 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "米",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[番|ばん][号|ごう][札|ふだ]を[取|と]って、[呼|よ]ばれるまでお[待|ま]ちください。",
+    "traduccionOracion": "Tome un número y espere hasta que lo llamen, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -11266,9 +12607,14 @@
     "kunyomi": "のぼ.る",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "癶",
+      "豆"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[登|と][山|ざん][口|ぐち]まではバスで[行|い]けるが、そこから[先|さき]は[歩|ある]くしかない。",
+    "traduccionOracion": "Hasta el inicio del sendero se puede ir en autobús, pero de ahí en adelante no queda más que caminar.",
     "destacado": false,
     "palabras": [
       {
@@ -11307,9 +12653,14 @@
     "kunyomi": "わらべ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "立",
+      "里"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[村|むら]には、[有|ゆう][名|めい]な[童|どう][話|わ]のもとになった[場|ば][所|しょ]がある。",
+    "traduccionOracion": "En este pueblo está el lugar que inspiró un cuento infantil famoso.",
     "destacado": false,
     "palabras": [
       {
@@ -11348,9 +12699,14 @@
     "kunyomi": "ふで",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[人|ひと]が、[筆|ふで]で[私|わたし]の[名|な][前|まえ]を[書|か]いてくれた。",
+    "traduccionOracion": "La gente del ryokan escribió mi nombre con pincel.",
     "destacado": false,
     "palabras": [
       {
@@ -11389,9 +12745,15 @@
     "kunyomi": "ひと.しい",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "土",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[商|しょう][店|てん][街|がい]のくじ[引|び]きで、[一|いっ][等|とう]が[当|あ]たった。",
+    "traduccionOracion": "Me gané el primer premio en el sorteo de la calle comercial.",
     "destacado": false,
     "palabras": [
       {
@@ -11430,9 +12792,15 @@
     "kunyomi": "むす.ぶ、ゆ.う、ゆ.わえる",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "土",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[友|とも][達|だち]の[結|けっ][婚|こん][式|しき]に[出|で]るために、[久|ひさ]しぶりに[日|に][本|ほん]へ[行|い]った。",
+    "traduccionOracion": "Fui a Japón después de mucho tiempo para ir a la boda de un amigo.",
     "destacado": false,
     "palabras": [
       {
@@ -11471,9 +12839,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "𠆢",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[給|きゅう][料|りょう]を[少|すこ]しずつためて、やっと[日|に][本|ほん]に[来|く]ることができた。",
+    "traduccionOracion": "Ahorré el sueldo poco a poco y por fin pude venir a Japón.",
     "destacado": false,
     "palabras": [
       {
@@ -11513,9 +12887,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "𠆢",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[美|び][術|じゅつ][館|かん]で、[浮|うき][世|よ][絵|え]の[本|ほん][物|もの]を[初|はじ]めて[見|み]た。",
+    "traduccionOracion": "En el museo vi por primera vez un ukiyo-e original.",
     "destacado": false,
     "palabras": [
       {
@@ -11552,9 +12932,16 @@
     "kunyomi": "お.ちる、お.とす",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "⺡",
+      "夂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[落|お]とし[物|もの]をしたら、[駅|えき]の[窓|まど][口|ぐち]で[聞|き]いてみるといい。",
+    "traduccionOracion": "Si pierdes algo, es buena idea preguntar en la ventanilla de la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -11591,9 +12978,14 @@
     "kunyomi": "は",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺾",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[紅|こう][葉|よう]の[季|き][節|せつ]は、[京|きょう][都|と]のホテルがすぐに[満|まん][室|しつ]になる。",
+    "traduccionOracion": "En la temporada de hojas rojas, los hoteles de Kioto se llenan enseguida.",
     "destacado": false,
     "palabras": [
       {
@@ -11630,9 +13022,14 @@
     "kunyomi": "まち",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "行",
+      "土"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[夜|よる]の[街|まち]を[一|ひと]りで[歩|ある]いても、[日|に][本|ほん]は[比|ひ][較|かく][的|てき][安|あん][全|ぜん]だ。",
+    "traduccionOracion": "Japón es relativamente seguro, incluso para caminar solo por la ciudad de noche.",
     "destacado": false,
     "palabras": [
       {
@@ -11669,9 +13066,16 @@
     "kunyomi": "おぼ.える、さ.める、さ.ます",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "冖",
+      "目",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[駅|えき]の[名|な][前|まえ]が[覚|おぼ]えられなくて、[何|なん][度|ど]も[地|ち][図|ず]を[見|み][直|なお]した。",
+    "traduccionOracion": "No lograba recordar el nombre de la estación y revisé el mapa una y otra vez.",
     "destacado": false,
     "palabras": [
       {
@@ -11710,9 +13114,14 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "⺈",
+      "豕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[第|だい][一|いち][印|いん][象|しょう]は、[町|まち]がとてもきれいだということだった。",
+    "traduccionOracion": "Mi primera impresión de Japón fue que las ciudades son muy limpias.",
     "destacado": false,
     "palabras": [
       {
@@ -11751,9 +13160,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "貝",
+      "宀",
+      "丁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[旅|りょ][行|こう]のために、[一|いち][年|ねん][間|かん][貯|ちょ][金|きん]してきた。",
+    "traduccionOracion": "Estuve ahorrando un año entero para este viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -11790,9 +13205,14 @@
     "kunyomi": "つい.やす、つい.える",
     "numeroTrazos": 12,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "弓",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[交|こう][通|つう][費|ひ]を[節|せつ][約|やく]するために、[夜|や][行|こう]バスで[移|い][動|どう]した。",
+    "traduccionOracion": "Para ahorrar en transporte, me moví en autobús nocturno.",
     "destacado": false,
     "palabras": [
       {
@@ -11829,9 +13249,16 @@
     "kunyomi": "あそ.ぶ",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "方",
+      "𠂉",
+      "子",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[子|こ][供|ども]の[頃|ころ]、[家|か][族|ぞく]で[遊|ゆう][園|えん][地|ち]に[行|い]ったのを[思|おも]い[出|だ]した。",
+    "traduccionOracion": "Me acordé de cuando fui de niño a un parque de diversiones con mi familia.",
     "destacado": false,
     "palabras": [
       {
@@ -11868,9 +13295,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "羊",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[友|とも][達|だち]と[一|いっ][緒|しょ]なら、[知|し]らない[町|まち]も[怖|こわ]くない。",
+    "traduccionOracion": "Si estoy con amigos, una ciudad desconocida no me da miedo.",
     "destacado": false,
     "palabras": [
       {
@@ -11907,9 +13340,14 @@
     "kunyomi": "はか.る",
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "里"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[店|みせ]は[量|りょう]が[多|おお]いので、[二|ふた]りで[一|ひと]つ[頼|たの]めば[十|じゅう][分|ぶん]だ。",
+    "traduccionOracion": "En este local las porciones son grandes, así que basta con pedir uno para dos.",
     "destacado": false,
     "palabras": [
       {
@@ -11948,9 +13386,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⻖",
+      "日",
+      "勿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[太|たい][陽|よう]が[昇|のぼ]る[前|まえ]に[山|やま]の[上|うえ]に[着|つ]くように、[夜|よ][中|なか]に[登|のぼ]り[始|はじ]めた。",
+    "traduccionOracion": "Empezamos a subir de madrugada para llegar a la cima antes de que saliera el sol.",
     "destacado": false,
     "palabras": [
       {
@@ -11990,9 +13434,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⻖",
+      "丷",
+      "豕"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]で[道|みち]に[迷|まよ]った[人|ひと]を、[救|きゅう][助|じょ][隊|たい]が[見|み]つけてくれた。",
+    "traduccionOracion": "El equipo de rescate encontró a la persona que se había perdido en la montaña.",
     "destacado": false,
     "palabras": [
       {
@@ -12029,9 +13479,15 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⻖",
+      "比",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "エレベーターが[止|と]まっていたので、[八|はっ][階|かい]まで[階|かい][段|だん]で[上|のぼ]るしかなかった。",
+    "traduccionOracion": "El ascensor estaba detenido, así que no me quedó más que subir por la escalera hasta el octavo piso.",
     "destacado": false,
     "palabras": [
       {
@@ -12068,9 +13524,14 @@
     "kunyomi": "くも",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⻗",
+      "厶"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[雲|くも]ひとつない[空|そら]の[下|した]で、[富|ふ][士|じ][山|さん]がはっきり[見|み]えた。",
+    "traduccionOracion": "Bajo un cielo sin una sola nube, se veía clarísimo el monte Fuji.",
     "destacado": false,
     "palabras": [
       {
@@ -12109,9 +13570,14 @@
     "kunyomi": null,
     "numeroTrazos": 12,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "川",
+      "頁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[順|じゅん][番|ばん]に[並|なら]んでお[待|ま]ちください。",
+    "traduccionOracion": "Por favor, hagan fila y esperen su turno.",
     "destacado": false,
     "palabras": [
       {
@@ -12150,9 +13616,16 @@
     "kunyomi": "その",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "囗",
+      "土",
+      "口",
+      "𧘇"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[公|こう][園|えん]のベンチで、コンビニで[買|か]ったおにぎりを[食|た]べた。",
+    "traduccionOracion": "Me comí en una banca del parque los onigiri que compré en el konbini.",
     "destacado": false,
     "palabras": [
       {
@@ -12191,9 +13664,15 @@
     "kunyomi": "しお",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "口",
+      "皿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "ラーメンは[塩|しお][味|あじ]と[醤|しょう][油|ゆ][味|あじ]、どちらにしますか。",
+    "traduccionOracion": "¿El ramen lo quieres de sal o de soya?",
     "destacado": false,
     "palabras": [
       {
@@ -12232,9 +13711,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "目",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[電|でん][車|しゃ]は、[想|そう][像|ぞう]していた[以|い][上|じょう]に[混|こ]んでいた。",
+    "traduccionOracion": "Los trenes en Japón estaban más llenos de lo que imaginaba.",
     "destacado": false,
     "palabras": [
       {
@@ -12273,9 +13758,16 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺤",
+      "冖",
+      "心",
+      "夂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[店|みせ]は、[地|じ][元|もと]の[人|ひと]たちに[長|なが]く[愛|あい]されてきた。",
+    "traduccionOracion": "Este local ha sido querido por la gente del lugar durante mucho tiempo.",
     "destacado": false,
     "palabras": [
       {
@@ -12314,9 +13806,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "戈",
+      "口",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[日|に][本|ほん]の[人|ひと]の[親|しん][切|せつ]さに、[何|なん][度|ど]も[感|かん][動|どう]した。",
+    "traduccionOracion": "La amabilidad de la gente en Japón me conmovió muchas veces.",
     "destacado": false,
     "palabras": [
       {
@@ -12353,9 +13851,16 @@
     "kunyomi": "たたか.う、いくさ",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺍",
+      "田",
+      "十",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[城|しろ]の[中|なか]で、[戦|せん][国|ごく][時|じ][代|だい]の[歴|れき][史|し]について[学|まな]んだ。",
+    "traduccionOracion": "Dentro del castillo aprendí sobre la historia del período Sengoku.",
     "destacado": false,
     "palabras": [
       {
@@ -12392,9 +13897,15 @@
     "kunyomi": "かず、かぞ.える",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "米",
+      "女",
+      "⺙"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[釣|つ]りを[数|かぞ]えてみたら、[十|じゅう][円|えん][足|た]りなかった。",
+    "traduccionOracion": "Al contar el vuelto, me faltaban diez yenes.",
     "destacado": false,
     "palabras": [
       {
@@ -12431,9 +13942,16 @@
     "kunyomi": "て.る、て.らす、て.れる",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "日",
+      "刀",
+      "口",
+      "⺣"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[庭|にわ]は、[夜|よる]になるとライトで[照|て]らされる。",
+    "traduccionOracion": "El jardín del ryokan se ilumina con luces por la noche.",
     "destacado": false,
     "palabras": [
       {
@@ -12472,9 +13990,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺭",
+      "口",
+      "田"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[正|しょう][月|がつ]に[福|ふく][袋|ぶくろ]を[買|か]うために、[朝|あさ][早|はや]くから[並|なら]んだ。",
+    "traduccionOracion": "Hice fila desde temprano en Año Nuevo para comprar una bolsa sorpresa.",
     "destacado": false,
     "palabras": [
       {
@@ -12513,9 +14037,15 @@
     "kunyomi": "ふし",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "艮",
+      "卩"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[季|き][節|せつ]によって、[景|け][色|しき]がまったく[違|ちが]う。",
+    "traduccionOracion": "El paisaje cambia por completo según la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -12552,9 +14082,16 @@
     "kunyomi": "つづ.く、つづ.ける",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "土",
+      "冖",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[雨|あめ]が[三|みっ][日|か][間|かん]も[降|ふ]り[続|つづ]いて、どこにも[出|で]かけられなかった。",
+    "traduccionOracion": "Llovió tres días seguidos y no pude salir a ninguna parte.",
     "destacado": false,
     "palabras": [
       {
@@ -12593,9 +14130,15 @@
     "kunyomi": "お.く",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺫",
+      "十",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[荷|に][物|もつ]はここに[置|お]いておいてもいいですか。",
+    "traduccionOracion": "¿Puedo dejar el equipaje aquí?",
     "destacado": false,
     "palabras": [
       {
@@ -12634,9 +14177,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 6,
-    "radicales": [],
+    "radicales": [
+      "月",
+      "日",
+      "勿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[胃|い][腸|ちょう]の[調|ちょう][子|し]が[悪|わる]いので、[今夜|こんや]は[軽|かる]いものにしておこう。",
+    "traduccionOracion": "Tengo el estómago revuelto, así que esta noche comeré algo liviano.",
     "destacado": false,
     "palabras": [
       {
@@ -12675,9 +14224,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "土",
+      "寸"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[町|まち]は、[有|ゆう][名|めい]な[詩|し][人|じん]が[生|う]まれた[場|ば][所|しょ]として[知|し]られている。",
+    "traduccionOracion": "Este pueblo es conocido por ser el lugar donde nació un poeta famoso.",
     "destacado": false,
     "palabras": [
       {
@@ -12716,9 +14271,15 @@
     "kunyomi": "じ",
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⻊",
+      "夂",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[線|せん][路|ろ]に[物|もの]を[落|お]としたら、[自|じ][分|ぶん]で[拾|ひろ]わずに[駅|えき][員|いん]を[呼|よ]んでください。",
+    "traduccionOracion": "Si se te cae algo a las vías, no lo recojas tú mismo; llama al personal de la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -12755,9 +14316,15 @@
     "kunyomi": "や.める",
     "numeroTrazos": 13,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "十",
+      "口",
+      "立"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[辞|じ][書|しょ]アプリがあれば、[看|かん][板|ばん]の[漢|かん][字|じ]も[調|しら]べられる。",
+    "traduccionOracion": "Con una aplicación de diccionario puedes buscar incluso los kanji de los letreros.",
     "destacado": false,
     "palabras": [
       {
@@ -12794,9 +14361,13 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "厂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[農|のう][家|か]に[泊|と]まって、[田舎|いなか]の[生|せい][活|かつ]を[体|たい][験|けん]した。",
+    "traduccionOracion": "Me alojé en una casa de agricultores y viví la vida del campo.",
     "destacado": false,
     "palabras": [
       {
@@ -12833,9 +14404,15 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "釒",
+      "𠂉",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[地|ち][下|か][鉄|てつ]の[路|ろ][線|せん][図|ず]は[複|ふく][雑|ざつ]すぎて、[見|み]てもよくわからない。",
+    "traduccionOracion": "El mapa del metro es tan complicado que, aunque lo mire, no lo entiendo bien.",
     "destacado": false,
     "palabras": [
       {
@@ -12872,9 +14449,16 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "宀",
+      "夕",
+      "又",
+      "示"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[財|さい][布|ふ]を[盗|ぬす]まれたので、[警|けい][察|さつ]に[届|とど]けを[出|だ]した。",
+    "traduccionOracion": "Me robaron la billetera, así que hice la denuncia en la policía.",
     "destacado": false,
     "palabras": [
       {
@@ -12913,9 +14497,15 @@
     "kunyomi": "はた",
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "方",
+      "𠂉",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[空|くう][港|こう]には、[世|せ][界|かい][中|じゅう]の[国|こっ][旗|き]が[飾|かざ]ってあった。",
+    "traduccionOracion": "En el aeropuerto había banderas de países de todo el mundo.",
     "destacado": false,
     "palabras": [
       {
@@ -12954,9 +14544,14 @@
     "kunyomi": "さま",
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "羊"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[天|てん][気|き]の[様|よう][子|す]を[見|み]ながら、[明日|あした]の[予|よ][定|てい]を[決|き]めよう。",
+    "traduccionOracion": "Decidamos los planes de mañana según cómo esté el tiempo.",
     "destacado": false,
     "palabras": [
       {
@@ -12993,9 +14588,15 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "厂",
+      "木",
+      "止"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[城|しろ]には、[四|よん][百|ひゃく][年|ねん]の[歴|れき][史|し]があるそうだ。",
+    "traduccionOracion": "Dicen que este castillo tiene cuatrocientos años de historia.",
     "destacado": false,
     "palabras": [
       {
@@ -13032,9 +14633,14 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺡",
+      "魚"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[漁|ぎょ][港|こう]の[近|ちか]くの[食|しょく][堂|どう]では、その[朝|あさ]とれた[魚|さかな]が[食|た]べられる。",
+    "traduccionOracion": "En los comedores cerca del puerto pesquero puedes comer el pescado capturado esa misma mañana.",
     "destacado": false,
     "palabras": [
       {
@@ -13073,9 +14679,14 @@
     "kunyomi": "たね",
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "里"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "コンビニのおにぎりは[種|しゅ][類|るい]が[多|おお]すぎて、どれにするか[迷|まよ]う。",
+    "traduccionOracion": "Hay tantos tipos de onigiri en el konbini que no sé cuál elegir.",
     "destacado": false,
     "palabras": [
       {
@@ -13112,9 +14723,15 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "目",
+      "开"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[予|よ][算|さん]をオーバーしないように、[使|つか]ったお[金|かね]を[毎|まい][日|にち][記|き][録|ろく]している。",
+    "traduccionOracion": "Para no pasarme del presupuesto del viaje, anoto todos los días el dinero que gasto.",
     "destacado": false,
     "palabras": [
       {
@@ -13151,9 +14768,15 @@
     "kunyomi": "くだ",
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "宀",
+      "㠯"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[忘|わす]れ[物|もの]は、[駅|えき]で[一|いっ][週|しゅう][間|かん][保|ほ][管|かん]されるそうだ。",
+    "traduccionOracion": "Dicen que los objetos olvidados se guardan una semana en la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -13193,9 +14816,14 @@
     "kunyomi": "みどり",
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[窓|まど]の[外|そと]に[緑|みどり]が[広|ひろ]がっていて、[空|くう][気|き]がおいしかった。",
+    "traduccionOracion": "Afuera de la ventana se extendía el verde y el aire era muy puro.",
     "destacado": false,
     "palabras": [
       {
@@ -13234,9 +14862,15 @@
     "kunyomi": "ね.る",
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "木",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[前|まえ]に、よく[使|つか]うフレーズを[練|れん][習|しゅう]しておいた。",
+    "traduccionOracion": "Antes del viaje practiqué las frases más usadas.",
     "destacado": false,
     "palabras": [
       {
@@ -13273,9 +14907,14 @@
     "kunyomi": "せき、かか.わる",
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "門",
+      "关"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[玄|げん][関|かん]で[靴|くつ]を[脱|ぬ]いでから、[中|なか]に[入|はい]ってください。",
+    "traduccionOracion": "Quítate los zapatos en la entrada del ryokan antes de pasar, por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -13314,9 +14953,16 @@
     "kunyomi": "しず、しず.か、しず.まる、しず.める",
     "numeroTrazos": 14,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "龶",
+      "月",
+      "⺈",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[静|しず]かな[所|ところ]に[泊|と]まりたいなら、[駅|えき]から[少|すこ]し[離|はな]れたほうがいい。",
+    "traduccionOracion": "Si quieres alojarte en un lugar tranquilo, es mejor alejarse un poco de la estación.",
     "destacado": false,
     "palabras": [
       {
@@ -13355,9 +15001,14 @@
     "kunyomi": "な.く、な.る、な.らす",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "口",
+      "⺣"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[目|め][覚|ざ]まし[時計|どけい]が[鳴|な]らなくて、[朝|あさ]のバスに[乗|の]り[遅|おく]れた。",
+    "traduccionOracion": "No sonó el despertador y perdí el autobús de la mañana.",
     "destacado": false,
     "palabras": [
       {
@@ -13394,9 +15045,15 @@
     "kunyomi": "はな",
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "目",
+      "田",
+      "开"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[花|か][粉|ふん]のせいで、[鼻|はな]がつまってしかたがない。",
+    "traduccionOracion": "Por culpa del polen, tengo la nariz tapadísima.",
     "destacado": false,
     "palabras": [
       {
@@ -13433,9 +15090,16 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "⺅",
+      "立",
+      "日",
+      "心"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[宝|たから]くじで[一|いち][億|おく][円|えん][当|あ]たったら、[世|せ][界|かい][一|いっ][周|しゅう][旅|りょ][行|こう]がしたい。",
+    "traduccionOracion": "Si me ganara cien millones de yenes en la lotería, querría dar la vuelta al mundo.",
     "destacado": false,
     "palabras": [
       {
@@ -13474,9 +15138,14 @@
     "kunyomi": "うつわ",
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "口",
+      "大"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][館|かん]の[料|りょう][理|り]は、[味|あじ]だけでなく[器|うつわ]もきれいだった。",
+    "traduccionOracion": "La comida del ryokan no solo era rica: también la vajilla era hermosa.",
     "destacado": false,
     "palabras": [
       {
@@ -13515,9 +15184,15 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "覀",
+      "示"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[英|えい][語|ご]の[標|ひょう][識|しき]も[多|おお]いので、[道|みち]に[迷|まよ]うことはあまりない。",
+    "traduccionOracion": "Hay muchas señales en inglés, así que no es fácil perderse.",
     "destacado": false,
     "palabras": [
       {
@@ -13556,9 +15231,15 @@
     "kunyomi": "よこ",
     "numeroTrazos": 15,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "田",
+      "八"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "コンビニは、ホテルのすぐ[横|よこ]にあります。",
+    "traduccionOracion": "El konbini está justo al lado del hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -13597,9 +15278,15 @@
     "kunyomi": "あつ.い",
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "土",
+      "儿",
+      "⺣"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][中|ちゅう]に[熱|ねつ]が[出|で]て、[一|いち][日|にち][中|じゅう]ホテルで[寝|ね]ていた。",
+    "traduccionOracion": "Me dio fiebre durante el viaje y pasé todo el día acostado en el hotel.",
     "destacado": false,
     "palabras": [
       {
@@ -13636,9 +15323,15 @@
     "kunyomi": "はこ",
     "numeroTrazos": 15,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "⺮",
+      "木",
+      "目"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[割|わ]れやすいお[土産|みやげ]なので、[箱|はこ]に[入|い]れてもらえますか。",
+    "traduccionOracion": "Es un regalo frágil, ¿me lo podría poner en una caja?",
     "destacado": false,
     "palabras": [
       {
@@ -13677,9 +15370,14 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 2,
-    "radicales": [],
+    "radicales": [
+      "糸",
+      "日"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[山|やま]の[手|て][線|せん]に[乗|の]れば、[東|とう][京|きょう]の[主|おも]な[駅|えき]はだいたい[回|まわ]れる。",
+    "traduccionOracion": "Con la línea Yamanote puedes recorrer casi todas las estaciones principales de Tokio.",
     "destacado": false,
     "palabras": [
       {
@@ -13716,9 +15414,15 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "田",
+      "木"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[会|かい][社|しゃ]の[課|か][長|ちょう]へのお[土産|みやげ]も、[忘|わす]れずに[買|か]っておいた。",
+    "traduccionOracion": "No me olvidé de comprarle un regalo también a mi jefe de sección.",
     "destacado": false,
     "palabras": [
       {
@@ -13757,9 +15461,16 @@
     "kunyomi": "しら.べる、ととの.う、ととの.える",
     "numeroTrazos": 15,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "冂",
+      "土",
+      "口"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[行|い]き[方|かた]を[調|しら]べずに[出|で]かけたら、[道|みち]に[迷|まよ]ってしまった。",
+    "traduccionOracion": "Salí sin averiguar cómo llegar y me perdí.",
     "destacado": false,
     "palabras": [
       {
@@ -13798,9 +15509,14 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "火"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう][会|がい][社|しゃ]の[人|ひと]に[相|そう][談|だん]して、[行|い]き[先|さき]を[決|き]めた。",
+    "traduccionOracion": "Decidí el destino después de consultarlo con la agencia de viajes.",
     "destacado": false,
     "palabras": [
       {
@@ -13837,9 +15553,16 @@
     "kunyomi": null,
     "numeroTrazos": 15,
     "anioEscolarJapon": 5,
-    "radicales": [],
+    "radicales": [
+      "⺌",
+      "冖",
+      "口",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[旅|りょ][館|かん]は、[何|なん][度|ど]も[賞|しょう]を[受|う]けたことがあるそうだ。",
+    "traduccionOracion": "Dicen que este ryokan ha recibido premios varias veces.",
     "destacado": false,
     "palabras": [
       {
@@ -13878,9 +15601,15 @@
     "kunyomi": "わ",
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "車",
+      "𠆢",
+      "冊"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[指|ゆび][輪|わ]を[旅|りょ][館|かん]に[忘|わす]れてきたことに、[空|くう][港|こう]で[気|き]がついた。",
+    "traduccionOracion": "Me di cuenta en el aeropuerto de que había olvidado el anillo en el ryokan.",
     "destacado": false,
     "palabras": [
       {
@@ -13917,9 +15646,15 @@
     "kunyomi": "えら.ぶ",
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "己",
+      "八",
+      "⻌"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "お[土産|みやげ]が[多|おお]すぎて、どれを[選|えら]べばいいかわからない。",
+    "traduccionOracion": "Hay tantos regalos que no sé cuál elegir.",
     "destacado": false,
     "palabras": [
       {
@@ -13956,9 +15691,15 @@
     "kunyomi": "やしな.う",
     "numeroTrazos": 15,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "羊",
+      "𠆢",
+      "艮"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[最|さい][後|ご]の[日|ひ]は、[温|おん][泉|せん]でゆっくり[休|きゅう][養|よう]した。",
+    "traduccionOracion": "El último día del viaje descansé tranquilamente en un onsen.",
     "destacado": false,
     "palabras": [
       {
@@ -13997,9 +15738,15 @@
     "kunyomi": "ととの.える、ととの.う",
     "numeroTrazos": 16,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "束",
+      "⺙",
+      "止"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "チェックアウトの[前|まえ]に、[荷|に][物|もつ]を[整|せい][理|り]しておかないと。",
+    "traduccionOracion": "Tengo que ordenar el equipaje antes del check-out.",
     "destacado": false,
     "palabras": [
       {
@@ -14036,9 +15783,15 @@
     "kunyomi": "はし",
     "numeroTrazos": 16,
     "anioEscolarJapon": 3,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "口",
+      "冂"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[橋|はし]を[渡|わた]ったところに、[目|もく][的|てき]の[旅|りょ][館|かん]がある。",
+    "traduccionOracion": "Justo después de cruzar este puente está el ryokan al que vamos.",
     "destacado": false,
     "palabras": [
       {
@@ -14075,9 +15828,15 @@
     "kunyomi": "はた",
     "numeroTrazos": 16,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "木",
+      "幺",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[飛|ひ][行|こう][機|き]の[中|なか]で[映|えい][画|が]を[見|み]ているうちに、[眠|ねむ]ってしまった。",
+    "traduccionOracion": "Me quedé dormido mientras veía una película en el avión.",
     "destacado": false,
     "palabras": [
       {
@@ -14114,9 +15873,15 @@
     "kunyomi": "つ.む、つ.もる",
     "numeroTrazos": 16,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "禾",
+      "龶",
+      "貝"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[雪|ゆき]が[積|つ]もりすぎて、バスが[運|うん][休|きゅう]になった。",
+    "traduccionOracion": "Se acumuló tanta nieve que suspendieron el autobús.",
     "destacado": false,
     "palabras": [
       {
@@ -14153,9 +15918,14 @@
     "kunyomi": null,
     "numeroTrazos": 16,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "釒",
+      "彐"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[旅|りょ][行|こう]の[思|おも]い[出|で]を、[動|どう][画|が]で[記|き][録|ろく]しておいた。",
+    "traduccionOracion": "Grabé en video los recuerdos del viaje.",
     "destacado": false,
     "palabras": [
       {
@@ -14194,9 +15964,15 @@
     "kunyomi": null,
     "numeroTrazos": 18,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "隹",
+      "目",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[人|にん][気|き]の[観|かん][光|こう][地|ち]には、[週|しゅう][末|まつ]を[避|さ]けて[平|へい][日|じつ]に[行|い]くことにしている。",
+    "traduccionOracion": "Tengo la costumbre de ir a los lugares turísticos populares entre semana, evitando los fines de semana.",
     "destacado": false,
     "palabras": [
       {
@@ -14233,9 +16009,15 @@
     "kunyomi": "たぐ.い",
     "numeroTrazos": 18,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "米",
+      "大",
+      "頁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "この[店|みせ]は[日|に][本|ほん][酒|しゅ]の[種|しゅ][類|るい]が[多|おお]く、[飲|の]み[比|くら]べができる。",
+    "traduccionOracion": "Este local tiene muchos tipos de sake y puedes probar y comparar varios.",
     "destacado": false,
     "palabras": [
       {
@@ -14272,9 +16054,16 @@
     "kunyomi": "かがみ",
     "numeroTrazos": 19,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "釒",
+      "立",
+      "日",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[部屋|へや]の[鏡|かがみ]の[前|まえ]で、[浴衣|ゆかた]の[着|き][方|かた]を[確|たし]かめた。",
+    "traduccionOracion": "Revisé frente al espejo de la habitación cómo ponerme el yukata.",
     "destacado": false,
     "palabras": [
       {
@@ -14311,9 +16100,15 @@
     "kunyomi": "ねが.う",
     "numeroTrazos": 19,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "厂",
+      "日",
+      "頁"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "すみません、[写|しゃ][真|しん]を[撮|と]っていただけませんか。お[願|ねが]いします。",
+    "traduccionOracion": "Disculpe, ¿me podría sacar una foto? Por favor.",
     "destacado": false,
     "palabras": [
       {
@@ -14352,9 +16147,15 @@
     "kunyomi": "きそ.う、せ.る",
     "numeroTrazos": 20,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "立",
+      "口",
+      "儿"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[競|けい][馬|ば][場|じょう]に[行|い]ってみたら、[思|おも]ったより[盛|も]り[上|あ]がっていた。",
+    "traduccionOracion": "Fui al hipódromo y el ambiente estaba más animado de lo que pensaba.",
     "destacado": false,
     "palabras": [
       {
@@ -14391,9 +16192,15 @@
     "kunyomi": null,
     "numeroTrazos": 20,
     "anioEscolarJapon": 4,
-    "radicales": [],
+    "radicales": [
+      "訁",
+      "羊",
+      "戈"
+    ],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
+    "oracionEjemplo": "[会|かい][議|ぎ]が[長|なが][引|び]いて、[予|よ][約|やく]していた[新|しん][幹|かん][線|せん]に[乗|の]り[遅|おく]れた。",
+    "traduccionOracion": "La reunión se alargó y perdí el shinkansen que había reservado.",
     "destacado": false,
     "palabras": [
       {
