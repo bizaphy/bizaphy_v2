@@ -4,7 +4,7 @@
 // de detalle (KanjiDisplay + KanjiStructure). Mantiene el nivel seleccionado
 // y el kanji actualmente enfocado, ambos entre los precargados del servidor.
 
-import { useMemo, useState, useTransition } from "react";
+import { useMemo, useRef, useState, useTransition } from "react";
 import KanjiCardList from "./KanjiCardList";
 import KanjiDisplay from "./KanjiDisplay";
 import KanjiStructure from "./KanjiStructure";
@@ -88,6 +88,16 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
     kanjis[0]?.id ?? null,
   );
 
+  // Bloque de detalle: al elegir un kanji se hace scroll hasta aca, porque
+  // con 80 tarjetas por pagina el detalle queda muy abajo de la grilla y
+  // sin scroll no se ve que cambio.
+  const detalleRef = useRef<HTMLDivElement>(null);
+
+  const seleccionar = (id: number) => {
+    setSeleccionadoId(id);
+    detalleRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   const cambiarNivel = (nuevo: NivelDisponible) => {
     setNivel(nuevo);
     setSeleccionadoId(kanjisPorNivel[nuevo][0]?.id ?? null);
@@ -126,14 +136,14 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
         key={`${nivel}|${busqueda}|${soloDestacados}|${anio}|${trazos}`}
         kanjis={kanjisFiltrados}
         selectedId={seleccionadoId}
-        onSelect={(k) => setSeleccionadoId(k.id)}
+        onSelect={(k) => seleccionar(k.id)}
       />
       <SeparatorLine className="my-4" />
       {seleccionado && (
         // Tres grupos: que es (display), como se escribe y recuerda
         // (estructura + ayuda memoria) y como se usa (palabras, nombres,
         // trampas). gap-8 + el p-4 de cada seccion = 64px entre grupos.
-        <div className="flex flex-col gap-8">
+        <div ref={detalleRef} className="flex scroll-mt-4 flex-col gap-8">
           <KanjiDisplay
             caracter={seleccionado.caracter}
             significado={seleccionado.significado ?? "—"}

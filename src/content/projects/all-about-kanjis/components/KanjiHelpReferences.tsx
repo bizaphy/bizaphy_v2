@@ -22,7 +22,7 @@ function KanjiHelpReferences({
     // mitad (ambos flex-1). En pantallas angostas la oracion baja.
     <section className="flex flex-col items-stretch gap-4 p-4 contain-[paint] md:flex-row">
       <div className="flex flex-1 flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
-        <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
+        <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
           AYUDA MEMORIA
         </div>
 

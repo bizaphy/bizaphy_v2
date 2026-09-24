@@ -1,6 +1,7 @@
 import type { ComponentType } from "react";
 import Image from "next/image";
 import { projectsMeta, type ProjectSlug } from "@/content/projects";
+import ProjectTitle from "@/components/ui/ProjectTitle";
 
 // Mapa de loaders: cada componente se carga solo cuando se resuelve su slug.
 // Se encuentra aca (server component) para no arrastrar codigo server-only al cliente.
@@ -55,18 +56,11 @@ export default async function ProjectSlugPage(props: PageProps) {
 
   const { default: Component } = await loader();
 
-  // Algunos proyectos renderizan su propio encabezado dentro del componente
-  // esto oculta el encabezado generico para no duplicar titulo + descripcion.
-  const sinEncabezadoDefault = entry.slug === "all-about-kanjis";
-
+  // Titulo unico para todos los proyectos: los componentes no renderizan
+  // su propio <h1>. La descripcion queda solo para la tarjeta del listado.
   return (
     <div className="container mx-auto space-y-6 px-4 py-8">
-      {!sinEncabezadoDefault && (
-        <div className="space-y-2">
-          <h1 className="text-2xl font-bold">{entry.title}</h1>
-          <p className="text-zinc-600">{entry.description}</p>
-        </div>
-      )}
+      <ProjectTitle title={entry.title} />
       <Component />
     </div>
   );

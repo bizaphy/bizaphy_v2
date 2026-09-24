@@ -38,7 +38,8 @@ function resaltar(texto: string, caracter: string) {
 
 // Oracion de ejemplo con la lectura mas comun del kanji, con furigana
 // (<ruby>) y el kanji resaltado. Mismo formato de bloque que KanjiRadicals:
-// caja zinc y etiqueta violeta arriba a la izquierda.
+// caja zinc y etiqueta arriba a la izquierda, en fucsia claro como la ayuda
+// memoria (grupo "como se recuerda").
 export default function KanjiOracionEjemplo({
   caracter,
   oracion,
@@ -46,7 +47,7 @@ export default function KanjiOracionEjemplo({
 }: Props) {
   return (
     <div className="flex flex-1 flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
-      <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
+      <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
         ORACIÓN DE EJEMPLO
       </div>
       <div className="flex flex-1 flex-col justify-center gap-3 p-6">
