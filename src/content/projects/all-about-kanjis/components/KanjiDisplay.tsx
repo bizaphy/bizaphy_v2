@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 type Props = {
   caracter: string;
   significado: string;
@@ -75,15 +77,13 @@ export default function KanjiDisplay({
         />
       </div>
 
-      {/* Datos numericos como mini-tarjetas: llenan el lado derecho y se
-          leen de un vistazo. Apiladas en columna, mismo alto que el kanji;
-          en movil, fila de ancho completo debajo. */}
+      {/* Datos numericos como mini-tarjetas*/}
       <div className="flex w-full gap-3 md:w-32 md:shrink-0 md:flex-col lg:w-36">
         <Dato valor={numeroTrazos} etiqueta="TRAZOS" />
         <Dato
           valor={anioEscolarJapon !== null ? `${anioEscolarJapon}°` : null}
           etiqueta="AÑO ESCOLAR"
-          detalle="(Japón)"
+          detalle={<BanderaJapon />}
         />
       </div>
     </section>
@@ -155,7 +155,7 @@ function Dato({
 }: {
   valor: string | number | null;
   etiqueta: string;
-  detalle?: string;
+  detalle?: ReactNode;
 }) {
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-1 rounded-md border border-zinc-700 bg-zinc-900/60 px-2 py-3">
@@ -165,9 +165,26 @@ function Dato({
       <span className="text-center font-mono text-[10px] leading-tight tracking-widest text-zinc-500">
         {etiqueta}
         {detalle && (
-          <span className="block tracking-normal text-zinc-600">{detalle}</span>
+          <span className="mt-1.5 flex justify-center">{detalle}</span>
         )}
       </span>
     </div>
+  );
+}
+
+// Bandera de Japon en SVG
+function BanderaJapon() {
+  return (
+    <svg
+      role="img"
+      aria-label="Japón"
+      width="21"
+      height="14"
+      viewBox="0 0 3 2"
+      className="rounded-xs"
+    >
+      <rect width="3" height="2" fill="#f4f4f5" />
+      <circle cx="1.5" cy="1" r="0.6" fill="#bc002d" />
+    </svg>
   );
 }
