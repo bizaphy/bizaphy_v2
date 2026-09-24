@@ -20,8 +20,7 @@ function rutaSvgKanji(caracter: string) {
 function KanjiStrokeOrder({ caracter }: Props) {
   const src = rutaSvgKanji(caracter);
 
-  // Guardamos la ruta que fallo (no un boolean) para que el error se
-  // "resetee" solo al cambiar de kanji, sin necesidad de un useEffect.
+  // Guardamos la ruta que fallo (no un boolean) para que el error se "resetee" solo al cambiar de kanji
   const [srcFallido, setSrcFallido] = useState<string | null>(null);
   const sinImagen = srcFallido === src;
 

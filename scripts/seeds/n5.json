@@ -8,8 +8,8 @@
     "numeroTrazos": 1,
     "anioEscolarJapon": 1,
     "radicales": [],
-    "fraseMnemotecnica": null,
-    "urlImagenMnemotecnica": null,
+    "fraseMnemotecnica": "Hay un palo en el piso",
+    "urlImagenMnemotecnica": "/images/projects/all-about-kanjis/mnemotecnias/n5/one.svg",
     "destacado": false,
     "palabras": [
       {
@@ -81,9 +81,7 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": [
-      "十"
-    ]
+    "relacionadosCon": ["十"]
   },
   {
     "caracter": "九",
@@ -122,9 +120,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "力"
-    ]
+    "relacionadosCon": ["力"]
   },
   {
     "caracter": "二",
@@ -163,9 +159,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "三"
-    ]
+    "relacionadosCon": ["三"]
   },
   {
     "caracter": "人",
@@ -204,10 +198,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "入",
-      "八"
-    ]
+    "relacionadosCon": ["入", "八"]
   },
   {
     "caracter": "入",
@@ -246,10 +237,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "人",
-      "八"
-    ]
+    "relacionadosCon": ["人", "八"]
   },
   {
     "caracter": "八",
@@ -294,10 +282,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "人",
-      "入"
-    ]
+    "relacionadosCon": ["人", "入"]
   },
   {
     "caracter": "十",
@@ -336,10 +321,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "七",
-      "千"
-    ]
+    "relacionadosCon": ["七", "千"]
   },
   {
     "caracter": "万",
@@ -384,9 +366,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "方"
-    ]
+    "relacionadosCon": ["方"]
   },
   {
     "caracter": "三",
@@ -425,10 +405,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "二",
-      "川"
-    ]
+    "relacionadosCon": ["二", "川"]
   },
   {
     "caracter": "上",
@@ -438,9 +415,7 @@
     "kunyomi": "うえ、-うえ、うわ-、かみ、あ.げる、-あ.げる、あ.がる、-あ.がる、あ.がり、-あ.がり、のぼ.る、のぼ.り、のぼ.せる、のぼ.す、たてまつ.る",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "卜"
-    ],
+    "radicales": ["卜"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -475,10 +450,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "下",
-      "止"
-    ]
+    "relacionadosCon": ["下", "止"]
   },
   {
     "caracter": "下",
@@ -488,9 +460,7 @@
     "kunyomi": "した、しも、もと、さ.げる、さ.がる、くだ.る、くだ.り、くだ.す、-くだ.す、くだ.さる、お.ろす、お.りる",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "卜"
-    ],
+    "radicales": ["卜"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -519,10 +489,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "上",
-      "不"
-    ]
+    "relacionadosCon": ["上", "不"]
   },
   {
     "caracter": "千",
@@ -532,9 +499,7 @@
     "kunyomi": "ち",
     "numeroTrazos": 3,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "十"
-    ],
+    "radicales": ["十"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -569,10 +534,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "十",
-      "午"
-    ]
+    "relacionadosCon": ["十", "午"]
   },
   {
     "caracter": "口",
@@ -611,9 +573,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "回"
-    ]
+    "relacionadosCon": ["回"]
   },
   {
     "caracter": "土",
@@ -652,10 +612,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "士",
-      "工"
-    ]
+    "relacionadosCon": ["士", "工"]
   },
   {
     "caracter": "大",
@@ -700,11 +657,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "天",
-      "太",
-      "犬"
-    ]
+    "relacionadosCon": ["天", "太", "犬"]
   },
   {
     "caracter": "女",
@@ -743,9 +696,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "母"
-    ]
+    "relacionadosCon": ["母"]
   },
   {
     "caracter": "子",
@@ -802,10 +753,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "予",
-      "字"
-    ]
+    "relacionadosCon": ["予", "字"]
   },
   {
     "caracter": "小",
@@ -850,9 +798,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "少"
-    ]
+    "relacionadosCon": ["少"]
   },
   {
     "caracter": "山",
@@ -891,9 +837,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "出"
-    ]
+    "relacionadosCon": ["出"]
   },
   {
     "caracter": "川",
@@ -938,10 +882,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "三",
-      "州"
-    ]
+    "relacionadosCon": ["三", "州"]
   },
   {
     "caracter": "中",
@@ -951,9 +892,7 @@
     "kunyomi": "なか、うち、あた.る",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "口"
-    ],
+    "radicales": ["口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -988,9 +927,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "虫"
-    ]
+    "relacionadosCon": ["虫"]
   },
   {
     "caracter": "五",
@@ -1039,9 +976,7 @@
     "kunyomi": "いま",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "𠆢"
-    ],
+    "radicales": ["𠆢"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1070,11 +1005,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "令",
-      "会",
-      "念"
-    ]
+    "relacionadosCon": ["令", "会", "念"]
   },
   {
     "caracter": "六",
@@ -1084,10 +1015,7 @@
     "kunyomi": "む、む.つ、むっ.つ、むい",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "亠",
-      "八"
-    ],
+    "radicales": ["亠", "八"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1126,9 +1054,7 @@
     "kunyomi": "まる.い、まる、まど、まど.か、まろ.やか",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "冂"
-    ],
+    "radicales": ["冂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1157,9 +1083,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "内"
-    ]
+    "relacionadosCon": ["内"]
   },
   {
     "caracter": "分",
@@ -1169,9 +1093,7 @@
     "kunyomi": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "八"
-    ],
+    "radicales": ["八"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1200,10 +1122,7 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": [
-      "公",
-      "切"
-    ]
+    "relacionadosCon": ["公", "切"]
   },
   {
     "caracter": "午",
@@ -1213,10 +1132,7 @@
     "kunyomi": "うま",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "𠂉",
-      "十"
-    ],
+    "radicales": ["𠂉", "十"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1245,11 +1161,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "千",
-      "年",
-      "牛"
-    ]
+    "relacionadosCon": ["千", "年", "牛"]
   },
   {
     "caracter": "友",
@@ -1259,9 +1171,7 @@
     "kunyomi": "とも",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "又"
-    ],
+    "radicales": ["又"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1290,11 +1200,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "反",
-      "右",
-      "有"
-    ]
+    "relacionadosCon": ["反", "右", "有"]
   },
   {
     "caracter": "天",
@@ -1304,9 +1210,7 @@
     "kunyomi": "あまつ、あめ、あま-",
     "numeroTrazos": 4,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "大"
-    ],
+    "radicales": ["大"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1341,10 +1245,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "大",
-      "夫"
-    ]
+    "relacionadosCon": ["大", "夫"]
   },
   {
     "caracter": "少",
@@ -1354,9 +1255,7 @@
     "kunyomi": "すく.ない、すこ.し",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⺌"
-    ],
+    "radicales": ["⺌"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1385,9 +1284,7 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": [
-      "小"
-    ]
+    "relacionadosCon": ["小"]
   },
   {
     "caracter": "手",
@@ -1426,9 +1323,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "毛"
-    ]
+    "relacionadosCon": ["毛"]
   },
   {
     "caracter": "日",
@@ -1473,9 +1368,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "目"
-    ]
+    "relacionadosCon": ["目"]
   },
   {
     "caracter": "月",
@@ -1514,9 +1407,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "用"
-    ]
+    "relacionadosCon": ["用"]
   },
   {
     "caracter": "木",
@@ -1561,10 +1452,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "未",
-      "本"
-    ]
+    "relacionadosCon": ["未", "本"]
   },
   {
     "caracter": "水",
@@ -1603,10 +1491,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "氷",
-      "求"
-    ]
+    "relacionadosCon": ["氷", "求"]
   },
   {
     "caracter": "火",
@@ -1655,10 +1540,7 @@
     "kunyomi": "ちち",
     "numeroTrazos": 4,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "八",
-      "乂"
-    ],
+    "radicales": ["八", "乂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1687,9 +1569,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "文"
-    ]
+    "relacionadosCon": ["文"]
   },
   {
     "caracter": "出",
@@ -1699,9 +1579,7 @@
     "kunyomi": "で.る、-で、だ.す、-だ.す、い.でる、い.だす",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "凵"
-    ],
+    "radicales": ["凵"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1736,9 +1614,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "山"
-    ]
+    "relacionadosCon": ["山"]
   },
   {
     "caracter": "北",
@@ -1748,10 +1624,7 @@
     "kunyomi": "きた",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "丬",
-      "匕"
-    ],
+    "radicales": ["丬", "匕"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1786,10 +1659,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "兆",
-      "化"
-    ]
+    "relacionadosCon": ["兆", "化"]
   },
   {
     "caracter": "半",
@@ -1799,10 +1669,7 @@
     "kunyomi": "なか.ば",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "丷",
-      "十"
-    ],
+    "radicales": ["丷", "十"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1831,9 +1698,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "平"
-    ]
+    "relacionadosCon": ["平"]
   },
   {
     "caracter": "古",
@@ -1843,10 +1708,7 @@
     "kunyomi": "ふる.い、ふる-、-ふる.す",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "十",
-      "口"
-    ],
+    "radicales": ["十", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1881,11 +1743,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "右",
-      "固",
-      "早"
-    ]
+    "relacionadosCon": ["右", "固", "早"]
   },
   {
     "caracter": "右",
@@ -1895,9 +1753,7 @@
     "kunyomi": "みぎ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "口"
-    ],
+    "radicales": ["口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1926,13 +1782,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "友",
-      "古",
-      "左",
-      "有",
-      "石"
-    ]
+    "relacionadosCon": ["友", "古", "左", "有", "石"]
   },
   {
     "caracter": "四",
@@ -1942,10 +1792,7 @@
     "kunyomi": "よ、よ.つ、よっ.つ、よん",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "囗",
-      "儿"
-    ],
+    "radicales": ["囗", "儿"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -1974,9 +1821,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "西"
-    ]
+    "relacionadosCon": ["西"]
   },
   {
     "caracter": "外",
@@ -1986,10 +1831,7 @@
     "kunyomi": "そと、ほか、はず.す、はず.れる、と-",
     "numeroTrazos": 5,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "夕",
-      "卜"
-    ],
+    "radicales": ["夕", "卜"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2028,9 +1870,7 @@
     "kunyomi": "ひだり",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "工"
-    ],
+    "radicales": ["工"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2059,9 +1899,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "右"
-    ]
+    "relacionadosCon": ["右"]
   },
   {
     "caracter": "未",
@@ -2071,9 +1909,7 @@
     "kunyomi": "いま.だ、ま.だ、ひつじ",
     "numeroTrazos": 5,
     "anioEscolarJapon": 4,
-    "radicales": [
-      "木"
-    ],
+    "radicales": ["木"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2102,12 +1938,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "味",
-      "木",
-      "末",
-      "本"
-    ]
+    "relacionadosCon": ["味", "木", "末", "本"]
   },
   {
     "caracter": "本",
@@ -2117,9 +1948,7 @@
     "kunyomi": "もと",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "木"
-    ],
+    "radicales": ["木"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2148,11 +1977,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "木",
-      "未",
-      "末"
-    ]
+    "relacionadosCon": ["木", "未", "末"]
   },
   {
     "caracter": "母",
@@ -2191,10 +2016,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "女",
-      "毎"
-    ]
+    "relacionadosCon": ["女", "毎"]
   },
   {
     "caracter": "生",
@@ -2233,10 +2055,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "主",
-      "先"
-    ]
+    "relacionadosCon": ["主", "先"]
   },
   {
     "caracter": "白",
@@ -2246,9 +2065,7 @@
     "kunyomi": "しろ、しら-、しろ.い",
     "numeroTrazos": 5,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "日"
-    ],
+    "radicales": ["日"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2283,10 +2100,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "百",
-      "自"
-    ]
+    "relacionadosCon": ["百", "自"]
   },
   {
     "caracter": "目",
@@ -2331,11 +2145,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "日",
-      "耳",
-      "自"
-    ]
+    "relacionadosCon": ["日", "耳", "自"]
   },
   {
     "caracter": "立",
@@ -2384,10 +2194,7 @@
     "kunyomi": "やす.む、やす.まる、やす.める",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "⺅",
-      "木"
-    ],
+    "radicales": ["⺅", "木"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2416,9 +2223,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "体"
-    ]
+    "relacionadosCon": ["体"]
   },
   {
     "caracter": "会",
@@ -2428,10 +2233,7 @@
     "kunyomi": "あ.う、あ.わせる、あつ.まる",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "𠆢",
-      "厶"
-    ],
+    "radicales": ["𠆢", "厶"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2460,10 +2262,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "今",
-      "合"
-    ]
+    "relacionadosCon": ["今", "合"]
   },
   {
     "caracter": "先",
@@ -2473,10 +2272,7 @@
     "kunyomi": "さき、ま.ず",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "土",
-      "儿"
-    ],
+    "radicales": ["土", "儿"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2505,10 +2301,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "光",
-      "生"
-    ]
+    "relacionadosCon": ["光", "生"]
   },
   {
     "caracter": "名",
@@ -2518,10 +2311,7 @@
     "kunyomi": "な、-な",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "夕",
-      "口"
-    ],
+    "radicales": ["夕", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2556,9 +2346,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "各"
-    ]
+    "relacionadosCon": ["各"]
   },
   {
     "caracter": "多",
@@ -2568,9 +2356,7 @@
     "kunyomi": "おお.い、まさ.に、まさ.る",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "夕"
-    ],
+    "radicales": ["夕"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2599,9 +2385,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "夕"
-    ]
+    "relacionadosCon": ["夕"]
   },
   {
     "caracter": "安",
@@ -2611,10 +2395,7 @@
     "kunyomi": "やす.い、やす.まる、やす、やす.らか",
     "numeroTrazos": 6,
     "anioEscolarJapon": 3,
-    "radicales": [
-      "宀",
-      "女"
-    ],
+    "radicales": ["宀", "女"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2643,10 +2424,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "字",
-      "案"
-    ]
+    "relacionadosCon": ["字", "案"]
   },
   {
     "caracter": "年",
@@ -2656,9 +2434,7 @@
     "kunyomi": "とし",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "𠂉"
-    ],
+    "radicales": ["𠂉"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2687,9 +2463,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "午"
-    ]
+    "relacionadosCon": ["午"]
   },
   {
     "caracter": "毎",
@@ -2699,10 +2473,7 @@
     "kunyomi": "ごと、-ごと.に",
     "numeroTrazos": 6,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "𠂉",
-      "毋"
-    ],
+    "radicales": ["𠂉", "毋"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2731,11 +2502,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "母",
-      "毒",
-      "海"
-    ]
+    "relacionadosCon": ["母", "毒", "海"]
   },
   {
     "caracter": "気",
@@ -2745,10 +2512,7 @@
     "kunyomi": "いき",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "气",
-      "乂"
-    ],
+    "radicales": ["气", "乂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2777,9 +2541,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "汽"
-    ]
+    "relacionadosCon": ["汽"]
   },
   {
     "caracter": "百",
@@ -2789,9 +2551,7 @@
     "kunyomi": "もも",
     "numeroTrazos": 6,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "日"
-    ],
+    "radicales": ["日"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2820,9 +2580,7 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": [
-      "白"
-    ]
+    "relacionadosCon": ["白"]
   },
   {
     "caracter": "耳",
@@ -2861,9 +2619,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "目"
-    ]
+    "relacionadosCon": ["目"]
   },
   {
     "caracter": "行",
@@ -2953,9 +2709,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "四"
-    ]
+    "relacionadosCon": ["四"]
   },
   {
     "caracter": "何",
@@ -2965,10 +2719,7 @@
     "kunyomi": "なに、なん、なに-、なん-",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⺅",
-      "可"
-    ],
+    "radicales": ["⺅", "可"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -2997,9 +2748,7 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": [
-      "荷"
-    ]
+    "relacionadosCon": ["荷"]
   },
   {
     "caracter": "男",
@@ -3009,10 +2758,7 @@
     "kunyomi": "おとこ、お",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "田",
-      "力"
-    ],
+    "radicales": ["田", "力"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3047,9 +2793,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "田"
-    ]
+    "relacionadosCon": ["田"]
   },
   {
     "caracter": "社",
@@ -3059,10 +2803,7 @@
     "kunyomi": "やしろ",
     "numeroTrazos": 7,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⺭",
-      "土"
-    ],
+    "radicales": ["⺭", "土"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3101,11 +2842,7 @@
     "kunyomi": "はな",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "⺾",
-      "⺅",
-      "匕"
-    ],
+    "radicales": ["⺾", "⺅", "匕"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3134,9 +2871,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "化"
-    ]
+    "relacionadosCon": ["化"]
   },
   {
     "caracter": "見",
@@ -3146,10 +2881,7 @@
     "kunyomi": "み.る、み.える、み.せる",
     "numeroTrazos": 7,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "目",
-      "儿"
-    ],
+    "radicales": ["目", "儿"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3178,10 +2910,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "兄",
-      "貝"
-    ]
+    "relacionadosCon": ["兄", "貝"]
   },
   {
     "caracter": "言",
@@ -3220,9 +2949,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "音"
-    ]
+    "relacionadosCon": ["音"]
   },
   {
     "caracter": "足",
@@ -3261,9 +2988,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "走"
-    ]
+    "relacionadosCon": ["走"]
   },
   {
     "caracter": "車",
@@ -3302,10 +3027,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "東",
-      "軍"
-    ]
+    "relacionadosCon": ["東", "軍"]
   },
   {
     "caracter": "国",
@@ -3315,10 +3037,7 @@
     "kunyomi": "くに",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "囗",
-      "王"
-    ],
+    "radicales": ["囗", "王"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3347,10 +3066,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "囲",
-      "図"
-    ]
+    "relacionadosCon": ["囲", "図"]
   },
   {
     "caracter": "学",
@@ -3360,11 +3076,7 @@
     "kunyomi": "まな.ぶ",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "⺍",
-      "冖",
-      "子"
-    ],
+    "radicales": ["⺍", "冖", "子"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3393,11 +3105,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "字",
-      "挙",
-      "覚"
-    ]
+    "relacionadosCon": ["字", "挙", "覚"]
   },
   {
     "caracter": "店",
@@ -3407,11 +3115,7 @@
     "kunyomi": "みせ、たな",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "广",
-      "卜",
-      "口"
-    ],
+    "radicales": ["广", "卜", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3440,10 +3144,7 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": [
-      "広",
-      "点"
-    ]
+    "relacionadosCon": ["広", "点"]
   },
   {
     "caracter": "東",
@@ -3453,10 +3154,7 @@
     "kunyomi": "ひがし",
     "numeroTrazos": 8,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "木",
-      "日"
-    ],
+    "radicales": ["木", "日"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3485,10 +3183,7 @@
         "tipo": "pelicula"
       }
     ],
-    "relacionadosCon": [
-      "束",
-      "車"
-    ]
+    "relacionadosCon": ["束", "車"]
   },
   {
     "caracter": "空",
@@ -3498,10 +3193,7 @@
     "kunyomi": "そら、あ.く、あ.き、あ.ける、から、す.く、す.かす、むな.しい",
     "numeroTrazos": 8,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "穴",
-      "工"
-    ],
+    "radicales": ["穴", "工"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3530,9 +3222,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "究"
-    ]
+    "relacionadosCon": ["究"]
   },
   {
     "caracter": "金",
@@ -3571,9 +3261,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "全"
-    ]
+    "relacionadosCon": ["全"]
   },
   {
     "caracter": "長",
@@ -3618,9 +3306,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "帳"
-    ]
+    "relacionadosCon": ["帳"]
   },
   {
     "caracter": "雨",
@@ -3659,9 +3345,7 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": [
-      "電"
-    ]
+    "relacionadosCon": ["電"]
   },
   {
     "caracter": "前",
@@ -3671,11 +3355,7 @@
     "kunyomi": "まえ、-まえ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "䒑",
-      "月",
-      "⺉"
-    ],
+    "radicales": ["䒑", "月", "⺉"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3714,11 +3394,7 @@
     "kunyomi": "みなみ",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "十",
-      "冂",
-      "丷"
-    ],
+    "radicales": ["十", "冂", "丷"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3757,11 +3433,7 @@
     "kunyomi": "のち、うし.ろ、うしろ、あと、おく.れる",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "彳",
-      "幺",
-      "夂"
-    ],
+    "radicales": ["彳", "幺", "夂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3800,10 +3472,7 @@
     "kunyomi": "く.う、く.らう、た.べる、は.む",
     "numeroTrazos": 9,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "𠆢",
-      "艮"
-    ],
+    "radicales": ["𠆢", "艮"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3832,9 +3501,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "良"
-    ]
+    "relacionadosCon": ["良"]
   },
   {
     "caracter": "時",
@@ -3844,11 +3511,7 @@
     "kunyomi": "とき、-どき",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "日",
-      "土",
-      "寸"
-    ],
+    "radicales": ["日", "土", "寸"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3877,10 +3540,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "持",
-      "詩"
-    ]
+    "relacionadosCon": ["持", "詩"]
   },
   {
     "caracter": "書",
@@ -3890,10 +3550,7 @@
     "kunyomi": "か.く、-が.き、-がき",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "彐",
-      "日"
-    ],
+    "radicales": ["彐", "日"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3922,10 +3579,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "昼",
-      "筆"
-    ]
+    "relacionadosCon": ["昼", "筆"]
   },
   {
     "caracter": "校",
@@ -3935,12 +3589,7 @@
     "kunyomi": null,
     "numeroTrazos": 10,
     "anioEscolarJapon": 1,
-    "radicales": [
-      "木",
-      "亠",
-      "八",
-      "乂"
-    ],
+    "radicales": ["木", "亠", "八", "乂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -3979,11 +3628,7 @@
     "kunyomi": "たか.い、たか、-だか、たか.まる、たか.める",
     "numeroTrazos": 10,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "亠",
-      "口",
-      "冂"
-    ],
+    "radicales": ["亠", "口", "冂"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4018,9 +3663,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "京"
-    ]
+    "relacionadosCon": ["京"]
   },
   {
     "caracter": "週",
@@ -4030,12 +3673,7 @@
     "kunyomi": null,
     "numeroTrazos": 11,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⻌",
-      "冂",
-      "土",
-      "口"
-    ],
+    "radicales": ["⻌", "冂", "土", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4064,10 +3702,7 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": [
-      "周",
-      "通"
-    ]
+    "relacionadosCon": ["周", "通"]
   },
   {
     "caracter": "魚",
@@ -4106,11 +3741,7 @@
         "tipo": "manga"
       }
     ],
-    "relacionadosCon": [
-      "漁",
-      "鳥",
-      "黒"
-    ]
+    "relacionadosCon": ["漁", "鳥", "黒"]
   },
   {
     "caracter": "買",
@@ -4120,10 +3751,7 @@
     "kunyomi": "か.う",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⺫",
-      "貝"
-    ],
+    "radicales": ["⺫", "貝"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4152,9 +3780,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "売"
-    ]
+    "relacionadosCon": ["売"]
   },
   {
     "caracter": "道",
@@ -4164,11 +3790,7 @@
     "kunyomi": "みち、いう",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⻌",
-      "䒑",
-      "目"
-    ],
+    "radicales": ["⻌", "䒑", "目"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4197,9 +3819,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "首"
-    ]
+    "relacionadosCon": ["首"]
   },
   {
     "caracter": "間",
@@ -4209,10 +3829,7 @@
     "kunyomi": "あいだ、ま、あい",
     "numeroTrazos": 12,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "門",
-      "日"
-    ],
+    "radicales": ["門", "日"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4241,12 +3858,7 @@
         "tipo": "persona"
       }
     ],
-    "relacionadosCon": [
-      "問",
-      "聞",
-      "門",
-      "開"
-    ]
+    "relacionadosCon": ["問", "聞", "門", "開"]
   },
   {
     "caracter": "飲",
@@ -4256,10 +3868,7 @@
     "kunyomi": "の.む、-の.み",
     "numeroTrazos": 12,
     "anioEscolarJapon": 3,
-    "radicales": [
-      "飠",
-      "欠"
-    ],
+    "radicales": ["飠", "欠"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4288,9 +3897,7 @@
         "tipo": "personaje"
       }
     ],
-    "relacionadosCon": [
-      "飯"
-    ]
+    "relacionadosCon": ["飯"]
   },
   {
     "caracter": "新",
@@ -4300,11 +3907,7 @@
     "kunyomi": "あたら.しい、あら.た、あら-、にい-",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "立",
-      "木",
-      "斤"
-    ],
+    "radicales": ["立", "木", "斤"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4333,9 +3936,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "親"
-    ]
+    "relacionadosCon": ["親"]
   },
   {
     "caracter": "話",
@@ -4345,11 +3946,7 @@
     "kunyomi": "はな.す、はなし",
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "訁",
-      "十",
-      "口"
-    ],
+    "radicales": ["訁", "十", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4378,10 +3975,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "活",
-      "語"
-    ]
+    "relacionadosCon": ["活", "語"]
   },
   {
     "caracter": "電",
@@ -4391,10 +3985,7 @@
     "kunyomi": null,
     "numeroTrazos": 13,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "⻗",
-      "电"
-    ],
+    "radicales": ["⻗", "电"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4423,10 +4014,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "雨",
-      "雪"
-    ]
+    "relacionadosCon": ["雨", "雪"]
   },
   {
     "caracter": "聞",
@@ -4436,10 +4024,7 @@
     "kunyomi": "き.く、き.こえる",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "門",
-      "耳"
-    ],
+    "radicales": ["門", "耳"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4468,10 +4053,7 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "問",
-      "間"
-    ]
+    "relacionadosCon": ["問", "間"]
   },
   {
     "caracter": "語",
@@ -4481,11 +4063,7 @@
     "kunyomi": "かた.る、かた.らう",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "訁",
-      "五",
-      "口"
-    ],
+    "radicales": ["訁", "五", "口"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4514,9 +4092,7 @@
         "tipo": "libro"
       }
     ],
-    "relacionadosCon": [
-      "話"
-    ]
+    "relacionadosCon": ["話"]
   },
   {
     "caracter": "読",
@@ -4526,11 +4102,7 @@
     "kunyomi": "よ.む、-よ.み",
     "numeroTrazos": 14,
     "anioEscolarJapon": 2,
-    "radicales": [
-      "訁",
-      "冖",
-      "儿"
-    ],
+    "radicales": ["訁", "冖", "儿"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4559,10 +4131,7 @@
         "tipo": "otro"
       }
     ],
-    "relacionadosCon": [
-      "売",
-      "続"
-    ]
+    "relacionadosCon": ["売", "続"]
   },
   {
     "caracter": "駅",
@@ -4572,10 +4141,7 @@
     "kunyomi": null,
     "numeroTrazos": 14,
     "anioEscolarJapon": 3,
-    "radicales": [
-      "馬",
-      "尸"
-    ],
+    "radicales": ["馬", "尸"],
     "fraseMnemotecnica": null,
     "urlImagenMnemotecnica": null,
     "destacado": false,
@@ -4604,8 +4170,6 @@
         "tipo": "anime"
       }
     ],
-    "relacionadosCon": [
-      "験"
-    ]
+    "relacionadosCon": ["験"]
   }
 ]

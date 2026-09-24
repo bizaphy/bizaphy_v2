@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Placeholder mnemotecnia para 一 (uno): "Hay un palo en el piso" -->
+  <rect width="400" height="400" fill="#000000"/>
+
+  <!-- subido 18px para quedar centrado ahora que no hay frase debajo -->
+  <g transform="translate(0 -18)">
+
+  <!-- piso -->
+  <line x1="30" y1="232" x2="370" y2="232" stroke="#3f3f46" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- sombra del palo -->
+  <ellipse cx="200" cy="233" rx="150" ry="6" fill="#27272a"/>
+
+  <!-- palo -->
+  <rect x="55" y="206" width="290" height="24" rx="12" fill="#8b5a2b"/>
+  <!-- brillo superior -->
+  <rect x="68" y="210" width="264" height="5" rx="2.5" fill="#a9713c"/>
+  <!-- vetas -->
+  <path d="M90 222 H170 M200 219 H290 M120 226 H230" stroke="#6b4220" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- nudo -->
+  <ellipse cx="250" cy="218" rx="7" ry="4" fill="#6b4220"/>
+  <!-- extremos cortados -->
+  <ellipse cx="57" cy="218" rx="5" ry="11" fill="#c08a52"/>
+  <ellipse cx="343" cy="218" rx="5" ry="11" fill="#6b4220"/>
+  </g>
+</svg>
