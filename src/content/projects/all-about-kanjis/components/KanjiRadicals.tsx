@@ -14,7 +14,7 @@ type Props = {
 function KanjiRadicals({ radicales }: Props) {
   return (
     // RADICALES: label arriba (no lateral), sin borde, solo fondo gris.
-    <div className="flex flex-col overflow-hidden rounded-md bg-zinc-900/60">
+    <div className="flex flex-1 flex-col overflow-hidden rounded-md bg-zinc-900/60">
       <div className="flex items-center justify-center border-b border-zinc-700 py-2">
         <span className="font-mono text-xs tracking-widest text-zinc-400">
           RADICALES
@@ -44,17 +44,19 @@ function KanjiRadicals({ radicales }: Props) {
                     +
                   </span>
                 )}
-                {/* Radical arriba, significado abajo. Furigana y trazos en el
-                    title para no cargar la tarjeta. */}
-                <div
-                  title={`${r.furigana ?? ""} · ${r.numeroTrazos} trazos`}
-                  className="flex w-20 flex-col items-center gap-1 rounded border border-zinc-700 bg-zinc-950 px-2 py-3"
-                >
+                {/* Radical arriba, significado al medio, furigana y trazos
+                    abajo: el bloque ahora llena el ancho, asi que hay espacio
+                    para mostrarlos en vez de esconderlos en un title. */}
+                <div className="flex w-28 flex-col items-center gap-1 rounded border border-zinc-700 bg-zinc-950 px-2 py-3">
                   <span className="font-mono text-3xl text-zinc-200 lg:text-4xl">
                     {r.caracter}
                   </span>
                   <span className="text-center text-xs leading-tight text-zinc-400">
                     {r.significado ?? "—"}
+                  </span>
+                  <span className="text-center font-mono text-[11px] leading-tight text-zinc-500">
+                    {r.furigana && <>{r.furigana} · </>}
+                    {r.numeroTrazos} trazos
                   </span>
                 </div>
               </div>

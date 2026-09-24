@@ -145,14 +145,17 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           {/* flex-col y no flex-wrap: la ayuda memoria va siempre debajo de
               los radicales. Con wrap, mientras cargaba su imagen cabia a la
               derecha y aparecia ahi unos ms antes de saltar abajo. */}
-          <div className="flex flex-col items-start gap-2">
+          <div className="flex flex-col gap-2">
             <KanjiStructure
               caracter={seleccionado.caracter}
               radicales={seleccionado.kanjiRadicales}
             />
             <KanjiHelpReferences
+              caracter={seleccionado.caracter}
               urlImagenMnemotecnica={seleccionado.urlImagenMnemotecnica}
               fraseMnemotecnica={seleccionado.fraseMnemotecnica}
+              oracionEjemplo={seleccionado.oracionEjemplo}
+              traduccionOracion={seleccionado.traduccionOracion}
             />
           </div>
           <section className="grid grid-cols-1 gap-3 p-4 md:grid-cols-3">
