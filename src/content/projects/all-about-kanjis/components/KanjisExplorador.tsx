@@ -130,7 +130,10 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
       />
       <SeparatorLine className="my-4" />
       {seleccionado && (
-        <div className="flex flex-col gap-2">
+        // Tres grupos: que es (display), como se escribe y recuerda
+        // (estructura + ayuda memoria) y como se usa (palabras, nombres,
+        // trampas). gap-8 + el p-4 de cada seccion = 64px entre grupos.
+        <div className="flex flex-col gap-8">
           <KanjiDisplay
             caracter={seleccionado.caracter}
             significado={seleccionado.significado ?? "—"}
@@ -144,8 +147,9 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           />
           {/* flex-col y no flex-wrap: la ayuda memoria va siempre debajo de
               los radicales. Con wrap, mientras cargaba su imagen cabia a la
-              derecha y aparecia ahi unos ms antes de saltar abajo. */}
-          <div className="flex flex-col gap-2">
+              derecha y aparecia ahi unos ms antes de saltar abajo.
+              gap-0: dentro del grupo basta el p-4 de cada seccion (32px). */}
+          <div className="flex flex-col gap-0">
             <KanjiStructure
               caracter={seleccionado.caracter}
               radicales={seleccionado.kanjiRadicales}
