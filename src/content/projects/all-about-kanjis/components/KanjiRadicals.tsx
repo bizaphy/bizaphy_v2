@@ -64,9 +64,9 @@ function KanjiRadicals({ radicales }: Props) {
           ) : (
             // Mismo formato que el mensaje vacio de KanjiTrap. "No se
             // descompone" y no "no tiene": cubre tambien los kanji que son
-            // un radical en si mismos (日, 木). max-w-64: que el texto haga
-            // salto de linea en vez de ensanchar el bloque.
-            <p className="max-w-64 text-sm leading-snug text-zinc-400">
+            // un radical en si mismos (日, 木). Sin max-w: el bloque ya llena
+            // el ancho (flex-1), asi que el texto usa todo ese espacio.
+            <p className="text-sm leading-snug text-zinc-400">
               Este kanji es del grupo que no se descompone en{" "}
               <span className="text-zinc-200">radicales</span>
             </p>
