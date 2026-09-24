@@ -168,6 +168,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
               nombres={seleccionado.nombres}
             />
             <KanjiTrap
+              caracter={seleccionado.caracter}
               kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({
                 caracter: t.destino.caracter,
                 significado: t.destino.significado,

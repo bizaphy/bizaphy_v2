@@ -34,14 +34,21 @@ export default function KanjiCardList({
   const hayAnterior = page > 0;
   const haySiguiente = page < totalPages - 1;
 
+  // Flechas de pagina: solo el chevron en fucsia, sin borde ni fondo (mismo
+  // formato que las flechas de Celebridad / Serie). SVG y no el glifo ‹ ›:
+  // el glifo queda a la altura que le da la fuente y no se centra con los
+  // numeros. p-1 mantiene un area de click comoda aunque no se vea el boton.
+  const FLECHA =
+    "flex items-center p-1 text-fuchsia-400 transition hover:scale-110 hover:text-fuchsia-200 disabled:cursor-not-allowed disabled:text-zinc-700 disabled:hover:scale-100";
+
   return (
     <section className="flex flex-col gap-3 p-4">
       {/* barra superior: contador + controles de pagina */}
       <div className="flex items-center justify-between font-mono text-xs">
         <span className="text-zinc-400">
-          <span className="text-fuchsia-300">{rangoDesde}</span>
+          <span className="text-violet-300">{rangoDesde}</span>
           <span className="mx-0.5 text-zinc-600">–</span>
-          <span className="text-fuchsia-300">{rangoHasta}</span>
+          <span className="text-violet-300">{rangoHasta}</span>
           <span className="mx-1 text-zinc-500">de</span>
           <span className="text-zinc-300">{total}</span>
           <span className="ml-2 text-zinc-500">kanjis</span>
@@ -53,12 +60,12 @@ export default function KanjiCardList({
             onClick={() => setPage(Math.max(0, page - 1))}
             disabled={!hayAnterior}
             aria-label="Pagina anterior"
-            className="flex h-7 w-7 items-center justify-center rounded border border-fuchsia-500/50 bg-zinc-900 text-fuchsia-300 shadow-[0_0_6px_rgba(217,70,239,0.35)] transition hover:border-fuchsia-400 hover:text-white hover:shadow-[0_0_10px_rgba(217,70,239,0.6)] disabled:cursor-not-allowed disabled:border-zinc-700 disabled:bg-zinc-800 disabled:text-zinc-600 disabled:shadow-none"
+            className={FLECHA}
           >
-            ‹
+            <Chevron d="M15 18l-6-6 6-6" />
           </button>
           <span className="tabular-nums text-zinc-400">
-            <span className="text-fuchsia-200">{page + 1}</span>
+            <span className="text-violet-200">{page + 1}</span>
             <span className="mx-0.5 text-zinc-600">/</span>
             <span className="text-zinc-300">{totalPages}</span>
           </span>
@@ -67,9 +74,9 @@ export default function KanjiCardList({
             onClick={() => setPage(Math.min(totalPages - 1, page + 1))}
             disabled={!haySiguiente}
             aria-label="Pagina siguiente"
-            className="flex h-7 w-7 items-center justify-center rounded border border-fuchsia-500/50 bg-zinc-900 text-fuchsia-300 shadow-[0_0_6px_rgba(217,70,239,0.35)] transition hover:border-fuchsia-400 hover:text-white hover:shadow-[0_0_10px_rgba(217,70,239,0.6)] disabled:cursor-not-allowed disabled:border-zinc-700 disabled:bg-zinc-800 disabled:text-zinc-600 disabled:shadow-none"
+            className={FLECHA}
           >
-            ›
+            <Chevron d="M9 18l6-6-6-6" />
           </button>
         </div>
       </div>
@@ -92,5 +99,23 @@ export default function KanjiCardList({
         </div>
       </div>
     </section>
+  );
+}
+
+function Chevron({ d }: { d: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d={d} />
+    </svg>
   );
 }

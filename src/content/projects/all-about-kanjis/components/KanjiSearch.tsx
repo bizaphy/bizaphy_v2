@@ -89,7 +89,7 @@ export default function KanjiSearch({
               type="button"
               onClick={() => onChange("")}
               aria-label="Limpiar busqueda"
-              className="mr-2 shrink-0 rounded border border-zinc-700 bg-zinc-800/80 px-1.5 py-0.5 font-mono text-[10px] text-zinc-400 transition hover:border-fuchsia-400 hover:text-fuchsia-300"
+              className="mr-2 shrink-0 rounded border border-zinc-700 bg-zinc-800/80 px-1.5 py-0.5 font-mono text-[10px] text-zinc-400 transition hover:border-violet-300 hover:text-violet-300"
             >
               ✕
             </button>

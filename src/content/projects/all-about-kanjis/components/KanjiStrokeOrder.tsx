@@ -14,9 +14,8 @@ function rutaSvgKanji(caracter: string) {
   return `/svg/kanji/${codigo}.svg`;
 }
 
-// memo evita re-render cuando el caracter no cambia. Sin re-render el
-// navegador no repinta el bloque, y la etiqueta vertical "ORDEN DE TRAZOS"
-// no parpadea.
+// memo evita re-render cuando el caracter no cambia: sin re-render el
+// navegador no repinta el bloque.
 function KanjiStrokeOrder({ caracter }: Props) {
   const src = rutaSvgKanji(caracter);
 
@@ -25,14 +24,12 @@ function KanjiStrokeOrder({ caracter }: Props) {
   const sinImagen = srcFallido === src;
 
   return (
-    <div className="flex overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
-      <div className="flex items-center justify-center border-r border-zinc-700 px-2">
-        <span className="rotate-180 font-mono text-xs tracking-widest text-fuchsia-300 [writing-mode:vertical-rl]">
-          ORDEN DE TRAZOS
-        </span>
+    <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
+      <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
+        ORDEN DE TRAZOS
       </div>
       <div className="p-3">
-        <div className="flex items-center justify-center overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40">
+        <div className="flex items-center justify-center overflow-hidden rounded">
           {sinImagen ? (
             <div className="flex size-72 items-center justify-center lg:size-80">
               <span className="font-mono text-[10px] tracking-wider text-zinc-600">

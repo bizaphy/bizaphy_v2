@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import KanjiEstadoVacio from "./KanjiEstadoVacio";
 
 type KanjiTrapItem = {
   caracter: string;
@@ -8,13 +9,15 @@ type KanjiTrapItem = {
 };
 
 type Props = {
+  // Para el estado vacio: el kanji grande y tenue sobre el mensaje.
+  caracter: string;
   kanjiTraps?: KanjiTrapItem[];
 };
 
 // Tablero fijo de 3x3: ningun kanji tiene mas de 9 traps.
 const CELDAS = 9;
 
-export default function KanjiTrap({ kanjiTraps }: Props) {
+export default function KanjiTrap({ caracter, kanjiTraps }: Props) {
   const [zoom, setZoom] = useState<KanjiTrapItem | null>(null);
   const traps = (kanjiTraps ?? []).slice(0, CELDAS);
 
@@ -88,10 +91,14 @@ export default function KanjiTrap({ kanjiTraps }: Props) {
           </div>
         </div>
       ) : (
-        <p className="p-3 text-sm leading-snug text-zinc-400">
-          Este kanji es del grupo que no tiene un kanji{" "}
-          <span className="text-yellow-300">trampa</span>
-        </p>
+        // flex-1: ocupa el alto que le da la fila de la grilla (lo marca
+        // Celebridad / Serie), asi el estado vacio queda centrado.
+        <div className="flex-1 p-3">
+          <KanjiEstadoVacio caracter={caracter}>
+            Este kanji es del grupo que no tiene un kanji{" "}
+            <span className="text-yellow-300">trampa</span>
+          </KanjiEstadoVacio>
+        </div>
       )}
 
       {zoom && (

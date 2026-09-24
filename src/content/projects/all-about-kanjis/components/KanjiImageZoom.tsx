@@ -82,7 +82,7 @@ export default function KanjiImageZoom({
               type="button"
               aria-label="Cerrar"
               onClick={() => setOpen(false)}
-              className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full border border-fuchsia-500/60 bg-black/70 text-fuchsia-300 transition hover:bg-fuchsia-500 hover:text-black"
+              className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full border border-violet-500/60 bg-black/70 text-violet-300 transition hover:bg-violet-500 hover:text-black"
             >
               <svg
                 width="20"

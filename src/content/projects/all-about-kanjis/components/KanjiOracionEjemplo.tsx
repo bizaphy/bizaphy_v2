@@ -38,18 +38,16 @@ function resaltar(texto: string, caracter: string) {
 
 // Oracion de ejemplo con la lectura mas comun del kanji, con furigana
 // (<ruby>) y el kanji resaltado. Mismo formato de bloque que KanjiRadicals:
-// label arriba y fondo gris.
+// caja zinc y etiqueta violeta arriba a la izquierda.
 export default function KanjiOracionEjemplo({
   caracter,
   oracion,
   traduccion,
 }: Props) {
   return (
-    <div className="flex flex-1 flex-col overflow-hidden rounded-md bg-zinc-900/60">
-      <div className="flex items-center justify-center border-b border-zinc-700 py-2">
-        <span className="font-mono text-xs tracking-widest text-zinc-400">
-          ORACIÓN DE EJEMPLO
-        </span>
+    <div className="flex flex-1 flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
+      <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
+        ORACIÓN DE EJEMPLO
       </div>
       <div className="flex flex-1 flex-col justify-center gap-3 p-6">
         {oracion ? (
@@ -59,7 +57,9 @@ export default function KanjiOracionEjemplo({
             <p className="font-mono text-2xl leading-[2.2] text-zinc-200 lg:text-3xl">
               {parsearFurigana(oracion).map((s, i) => {
                 if (!s.lectura) {
-                  return <Fragment key={i}>{resaltar(s.texto, caracter)}</Fragment>;
+                  return (
+                    <Fragment key={i}>{resaltar(s.texto, caracter)}</Fragment>
+                  );
                 }
                 // La furigana tambien se resalta si su palabra contiene el kanji
                 const contieneKanji = s.texto.includes(caracter);
@@ -68,7 +68,9 @@ export default function KanjiOracionEjemplo({
                     {resaltar(s.texto, caracter)}
                     <rt
                       className={`text-xs ${
-                        contieneKanji ? "text-fuchsia-300" : "text-violet-300/80"
+                        contieneKanji
+                          ? "text-fuchsia-300"
+                          : "text-violet-300/80"
                       }`}
                     >
                       {s.lectura}

@@ -59,7 +59,7 @@ export default function KanjiLevelsPanel<T extends Level>({
   return (
     <div className="flex flex-wrap items-stretch gap-4 p-4">
       {/* division izquierda: cuadrado con el nivel actualmente seleccionado */}
-      <div className="flex w-24 shrink-0 items-center justify-center rounded-md bg-fuchsia-500 font-mono text-3xl font-bold text-white shadow-[0_0_12px_rgba(217,70,239,0.55)]">
+      <div className="flex w-24 shrink-0 items-center justify-center rounded-md border border-fuchsia-400/60 bg-fuchsia-500/15 font-mono text-3xl font-bold text-fuchsia-100 shadow-[0_0_12px_rgba(217,70,239,0.3)]">
         {selected}
       </div>
 
@@ -86,7 +86,7 @@ export default function KanjiLevelsPanel<T extends Level>({
                   ? "cursor-not-allowed border border-zinc-600 bg-zinc-800 text-zinc-500"
                   : isSelected
                     ? "border-2 border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-200 shadow-[0_0_12px_rgba(217,70,239,0.7)]"
-                    : "border border-fuchsia-500/70 bg-zinc-900 text-fuchsia-300 shadow-[0_0_6px_rgba(217,70,239,0.35)] hover:border-fuchsia-400 hover:shadow-[0_0_10px_rgba(217,70,239,0.6)]"
+                    : "border border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300 hover:shadow-[0_0_10px_rgba(196,181,253,0.4)]"
               }`}
             >
               {level}
@@ -116,11 +116,11 @@ export default function KanjiLevelsPanel<T extends Level>({
         <div className="flex flex-col gap-1 font-mono text-[13px] whitespace-nowrap">
           <div>
             <span className="text-zinc-500">Kanjis acumulados:</span>{" "}
-            <span className="text-fuchsia-200">{info.kanjisAcumulados}</span>
+            <span className="text-violet-200">{info.kanjisAcumulados}</span>
           </div>
           <div>
             <span className="text-zinc-500">Aparición en periódicos:</span>{" "}
-            <span className="text-fuchsia-200">{info.cobertura}</span>
+            <span className="text-violet-200">{info.cobertura}</span>
           </div>
         </div>
         <p className="mt-2 border-t border-zinc-800 pt-2 text-sm leading-snug text-zinc-300">

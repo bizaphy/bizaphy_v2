@@ -20,8 +20,8 @@ export default function KanjiExtras({ nombres, palabras }: Props) {
         nombres={nombres}
       />
 
-      {/* Palabras famosas: borde zinc sin glow y acento violeta, para
-          distinguirla de Celebridad / Serie (fucsia) sin sobresaturar */}
+      {/* Palabras famosas: borde zinc sin glow y acento violeta, igual
+          que Celebridad / Serie */}
       <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
         <div className="border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
           PALABRAS FAMOSAS

@@ -150,9 +150,9 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
   const imagen = entrada?.urlImagen ?? imagenActual?.image;
 
   return (
-    // borde zinc sin glow: el fucsia queda solo en titulo, nombre y flechas
+    // borde zinc sin glow: el violeta queda solo en titulo, nombre y flechas
     <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
-      <div className="flex items-center justify-between border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-fuchsia-300">
+      <div className="flex items-center justify-between border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
         CELEBRIDAD / SERIE
         {conFlechas && (
           <span className="text-zinc-500">
@@ -215,12 +215,12 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               title={`Buscar ${entrada.nombre} en Google`}
-              className="w-fit font-mono text-base text-fuchsia-200 underline decoration-fuchsia-500/40 underline-offset-4 transition hover:text-white hover:decoration-fuchsia-300 lg:text-lg"
+              className="w-fit font-mono text-base text-violet-200 underline decoration-violet-500/40 underline-offset-4 transition hover:text-white hover:decoration-violet-300 lg:text-lg"
             >
               {entrada.nombre}
             </a>
             {entrada.furigana && (
-              <span className="font-mono text-sm text-fuchsia-300/80">
+              <span className="font-mono text-sm text-violet-300/80">
                 {entrada.furigana}
               </span>
             )}
@@ -263,7 +263,7 @@ function Marcador({ nombre, tipo }: { nombre: string; tipo?: TipoNombre }) {
       aria-hidden="true"
       className="flex h-full flex-col items-center justify-center gap-2"
     >
-      <span className="font-mono text-6xl leading-none text-fuchsia-300/50 lg:text-7xl">
+      <span className="font-mono text-6xl leading-none text-violet-300/50 lg:text-7xl">
         {[...nombre][0]}
       </span>
       {etiqueta && (
@@ -291,7 +291,7 @@ function BotonFlecha({
       aria-label={label}
       // sin borde ni fondo: solo la flecha. p-1 mantiene un area de click
       // comoda aunque no se vea el boton.
-      className="p-1 text-fuchsia-300 transition hover:scale-110 hover:text-fuchsia-100"
+      className="p-1 text-violet-300 transition hover:scale-110 hover:text-violet-100"
     >
       <svg
         width="24"

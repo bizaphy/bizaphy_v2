@@ -22,7 +22,9 @@ export default function KanjiDisplay({
   toggleDeshabilitado,
 }: Props) {
   return (
-    <section className="flex items-stretch gap-6 p-4">
+    // flex-wrap solo en movil: los datos bajan a una fila debajo del kanji
+    // y las lecturas. Desde md van los tres en una fila.
+    <section className="flex flex-wrap items-stretch gap-6 p-4 md:flex-nowrap">
       {/* Contenedor izquierdo: ancho fijo (w-40) con dos zonas apiladas.*/}
       <div className="relative flex w-40 shrink-0 flex-col overflow-hidden rounded-md border border-fuchsia-500/40 bg-zinc-900/60 shadow-[0_0_10px_rgba(217,70,239,0.25)] lg:w-52">
         {/* Estrella toggle: marca el kanji como "destacado" (dificil).
@@ -55,38 +57,117 @@ export default function KanjiDisplay({
         </div>
       </div>
 
-      {/* Lecturas: fuera del cuadrado -> sin borde. Etiquetas en japones + romaji. */}
-      <div className="flex flex-1 flex-col justify-center gap-4">
-        <div className="flex flex-col gap-1">
-          <div className="font-mono text-[15px] tracking-wide text-zinc-500">
-            音読み <span className="text-zinc-600">(onyomi)</span>
-          </div>
-          <div className="font-mono text-2xl text-fuchsia-200 lg:text-[1.65rem]">
-            {onyomi ?? <span className="text-zinc-600">—</span>}
-          </div>
-        </div>
+      {/* Lecturas: fuera del cuadrado -> sin borde. Etiquetas en japones + romaji.
+          Con muchas lecturas (上 tiene 15 kunyomi) las pastillas hacen wrap;
+          min-w-40 evita que en movil queden de una letra por linea. */}
+      <div className="flex min-w-40 flex-1 flex-col justify-center gap-5">
+        <Lecturas
+          titulo="音読み"
+          romaji="onyomi"
+          lecturas={onyomi}
+          pastilla="border-violet-300/40 bg-violet-500/10 text-violet-100"
+        />
+        <Lecturas
+          titulo="訓読み"
+          romaji="kunyomi"
+          lecturas={kunyomi}
+          pastilla="border-zinc-600 bg-zinc-800/60 text-zinc-100"
+        />
+      </div>
 
-        <div className="flex flex-col gap-1">
-          <div className="font-mono text-[15px] tracking-wide text-zinc-500">
-            訓読み <span className="text-zinc-600">(kunyomi)</span>
-          </div>
-          <div className="font-mono text-2xl text-fuchsia-200 lg:text-[1.65rem]">
-            {kunyomi ?? <span className="text-zinc-600">—</span>}
-          </div>
-        </div>
-
-        <div className="font-mono text-base text-zinc-400">
-          <span className="text-zinc-500">N° Trazos:</span>{" "}
-          <span className="text-fuchsia-200">{numeroTrazos}</span>
-        </div>
-
-        <div className="font-mono text-base text-zinc-400">
-          <span className="text-zinc-500">Año escolar (Japón):</span>{" "}
-          <span className="text-fuchsia-200">
-            {anioEscolarJapon ?? <span className="text-zinc-600">—</span>}
-          </span>
-        </div>
+      {/* Datos numericos como mini-tarjetas: llenan el lado derecho y se
+          leen de un vistazo. Apiladas en columna, mismo alto que el kanji;
+          en movil, fila de ancho completo debajo. */}
+      <div className="flex w-full gap-3 md:w-32 md:shrink-0 md:flex-col lg:w-36">
+        <Dato valor={numeroTrazos} etiqueta="TRAZOS" />
+        <Dato
+          valor={anioEscolarJapon !== null ? `${anioEscolarJapon}°` : null}
+          etiqueta="AÑO ESCOLAR"
+          detalle="(Japón)"
+        />
       </div>
     </section>
+  );
+}
+
+// Una fila de lecturas (onyomi o kunyomi) como pastillas. El JSON las trae
+// separadas por "、": "いち、いつ" -> [いち] [いつ].
+function Lecturas({
+  titulo,
+  romaji,
+  lecturas,
+  pastilla,
+}: {
+  titulo: string;
+  romaji: string;
+  lecturas: string | null;
+  pastilla: string;
+}) {
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="font-mono text-[15px] tracking-wide text-zinc-500">
+        {titulo} <span className="text-zinc-600">({romaji})</span>
+      </div>
+      {lecturas ? (
+        <div className="flex flex-wrap gap-2">
+          {lecturas.split("、").map((l, i) => (
+            <span
+              key={`${i}-${l}`}
+              className={`rounded-md border px-2.5 py-0.5 whitespace-nowrap font-mono text-xl lg:text-2xl ${pastilla}`}
+            >
+              <Lectura texto={l} />
+            </span>
+          ))}
+        </div>
+      ) : (
+        <span className="font-mono text-2xl text-zinc-600">—</span>
+      )}
+    </div>
+  );
+}
+
+// Notacion de KANJIDIC: "-" marca prefijo/sufijo y lo que va despues del "."
+// es okurigana (た.べる). Ambos van tenues para que se lea primero la raiz.
+function Lectura({ texto }: { texto: string }) {
+  const [raiz, okurigana] = texto.split(".");
+  const tenue = (t: string) =>
+    t.split(/(-)/).map((parte, i) =>
+      parte === "-" ? (
+        <span key={i} className="text-zinc-500">
+          -
+        </span>
+      ) : (
+        parte
+      ),
+    );
+  return (
+    <>
+      {tenue(raiz)}
+      {okurigana && <span className="text-zinc-500">{okurigana}</span>}
+    </>
+  );
+}
+
+function Dato({
+  valor,
+  etiqueta,
+  detalle,
+}: {
+  valor: string | number | null;
+  etiqueta: string;
+  detalle?: string;
+}) {
+  return (
+    <div className="flex flex-1 flex-col items-center justify-center gap-1 rounded-md border border-zinc-700 bg-zinc-900/60 px-2 py-3">
+      <span className="font-mono text-3xl text-violet-200 lg:text-4xl">
+        {valor ?? <span className="text-zinc-600">—</span>}
+      </span>
+      <span className="text-center font-mono text-[10px] leading-tight tracking-widest text-zinc-500">
+        {etiqueta}
+        {detalle && (
+          <span className="block tracking-normal text-zinc-600">{detalle}</span>
+        )}
+      </span>
+    </div>
   );
 }
