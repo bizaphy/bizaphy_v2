@@ -8,13 +8,11 @@ type TipoNombre = (typeof tipoNombre.enumValues)[number];
 
 type ImagenInfo = {
   image?: string;
-  url: string; // pagina de origen: el click en la imagen lleva ahi
+  url: string; // pagina de origen (click en la imagen)
   fuente: "Wikipedia" | "AniList";
 };
 
-// Wikipedia en japones: los nombres ya estan en japones y ja.wikipedia no
-// admite imagenes "fair use", asi que todo lo que devuelve es libre.
-// Mismo patron que Hangman. Corre en el navegador del visitante.
+// ja.wikipedia: los nombres ya estan en japones y solo tiene imagenes libres
 async function fetchWikipedia(
   title: string,
   signal: AbortSignal,
@@ -25,19 +23,17 @@ async function fetchWikipedia(
     `https://ja.wikipedia.org/api/rest_v1/page/summary/${encoded}`,
     { signal },
   );
-  if (!res.ok) return { url: fallbackUrl, fuente: "Wikipedia" }; // sin articulo -> sin imagen
+  if (!res.ok) return { url: fallbackUrl, fuente: "Wikipedia" };
   const data = await res.json();
   return {
-    // desambiguacion: la imagen (si hay) puede no ser de este nombre
+    // en desambiguaciones la imagen puede no corresponder
     image: data.type === "disambiguation" ? undefined : data.thumbnail?.source,
     url: data.content_urls?.desktop?.page ?? fallbackUrl,
     fuente: "Wikipedia",
   };
 }
 
-// AniList (GraphQL, sin clave): busca tambien por titulo nativo, asi que
-// sirve con los nombres en japones. Series -> portada, personajes -> imagen.
-// Devuelve null si no encuentra nada (AniList responde 404).
+// AniList (GraphQL, sin clave): acepta titulos nativos en japones
 const QUERY_SERIE = `query ($s: String, $t: MediaType) {
   Media(search: $s, type: $t) { siteUrl coverImage { large } }
 }`;
@@ -70,15 +66,13 @@ async function fetchAniList(
   return { image, url: item.siteUrl, fuente: "AniList" };
 }
 
-// Elige la fuente segun el tipo. Si AniList no encuentra nada (ej: un
-// personaje de dorama), cae a Wikipedia.
+// Elige la fuente segun el tipo; si AniList falla, usa Wikipedia
 async function fetchImagen(
   nombre: string,
   tipo: TipoNombre | undefined,
   signal: AbortSignal,
 ): Promise<ImagenInfo> {
-  // musica: sin busqueda. Muchos titulos son palabras comunes (糸, 卒業,
-  // 運命) y Wikipedia devolveria la imagen del concepto, no de la cancion.
+  // musica: sin busqueda, los titulos suelen ser palabras comunes (糸, 卒業)
   if (tipo === "musica") {
     return {
       url: `https://ja.wikipedia.org/wiki/${encodeURIComponent(nombre)}`,
@@ -88,7 +82,7 @@ async function fetchImagen(
   if (tipo === "anime" || tipo === "manga" || tipo === "personaje") {
     const anilist = await fetchAniList(nombre, tipo, signal).catch((err) => {
       if (err instanceof DOMException && err.name === "AbortError") throw err;
-      return null; // AniList caido o limite: no bloquea, se prueba Wikipedia
+      return null;
     });
     if (anilist) return anilist;
   }
@@ -107,11 +101,8 @@ type Props = {
   nombres?: NombreFamoso[];
 };
 
-// Muestra un nombre famoso a la vez (persona, serie, etc.): imagen centrada
-// y la info debajo. Si el kanji tiene 2+ nombres aparecen flechas a los costados de la imagen
-// para alternar (circular: desde la ultima vuelve a la primera).
-// El consumidor debe pasar un `key` que cambie con el kanji para que el
-// indice vuelva a 0 al cambiar de seleccion.
+// Muestra un nombre famoso a la vez; con 2+ nombres aparecen flechas (circular).
+// El consumidor debe pasar un `key` por kanji para reiniciar el indice.
 export default function KanjiNombreFamoso({ nombres = [] }: Props) {
   const [indice, setIndice] = useState(0);
   const total = nombres.length;
@@ -120,8 +111,7 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
 
   const mover = (paso: number) => setIndice((i) => (i + paso + total) % total);
 
-  // Resultados por nombre: al volver con las flechas a uno ya
-  // vista no se repite el fetch. Se reinicia al cambiar de kanji (key).
+  // Cache por nombre para no repetir el fetch al volver con las flechas
   const [imagenes, setImagenes] = useState<Record<string, ImagenInfo>>({});
   const nombre = entrada?.nombre;
   const tipo = entrada?.tipo;
@@ -132,8 +122,8 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
     fetchImagen(nombre, tipo, controller.signal)
       .then((info) => setImagenes((m) => ({ ...m, [nombre]: info })))
       .catch((err) => {
-        if (err instanceof DOMException && err.name === "AbortError") return; // cambio de nombre/kanji
-        // red caida: se marca como resuelto sin imagen para no quedar en "…"
+        if (err instanceof DOMException && err.name === "AbortError") return;
+        // error de red: se marca sin imagen para no quedar en "…"
         setImagenes((m) => ({
           ...m,
           [nombre]: {
@@ -146,11 +136,10 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
   }, [nombre, tipo, imagenes]);
 
   const imagenActual = nombre ? imagenes[nombre] : undefined;
-  // urlImagen (si algun dia se guarda local) tiene prioridad sobre las APIs
+  // urlImagen local tiene prioridad sobre las APIs
   const imagen = entrada?.urlImagen ?? imagenActual?.image;
 
   return (
-    // borde zinc sin glow: el violeta queda solo en titulo, nombre y flechas
     <div className="flex flex-col overflow-hidden rounded-md border border-zinc-700 bg-zinc-900/60">
       <div className="flex items-center justify-between border-b border-zinc-700 px-3 py-2 font-mono text-xs tracking-widest text-violet-300">
         CELEBRIDAD / SERIE
@@ -173,7 +162,6 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
             )}
             <div className="relative size-36 shrink-0 overflow-hidden rounded border border-dashed border-zinc-700 bg-zinc-900/40 lg:size-44">
               {imagen ? (
-                // click en la imagen -> pagina de origen (Wikipedia o AniList)
                 <a
                   href={imagenActual?.url}
                   target="_blank"
@@ -185,19 +173,16 @@ export default function KanjiNombreFamoso({ nombres = [] }: Props) {
                     alt={entrada.nombre}
                     fill
                     sizes="176px"
-                    className="object-cover object-top" // object-top: en retratos prioriza la cara
+                    className="object-cover object-top" // prioriza la cara en retratos
                     unoptimized
                   />
                 </a>
+              ) : imagenActual || entrada.tipo === "musica" ? (
+                <Marcador nombre={entrada.nombre} tipo={entrada.tipo} />
               ) : (
-                // musica no busca imagen: se muestra el marcador directo
-                imagenActual || entrada.tipo === "musica" ? (
-                  <Marcador nombre={entrada.nombre} tipo={entrada.tipo} />
-                ) : (
-                  <span className="flex h-full items-center justify-center font-mono text-[9px] tracking-wider text-zinc-600">
-                    …
-                  </span>
-                )
+                <span className="flex h-full items-center justify-center font-mono text-[9px] tracking-wider text-zinc-600">
+                  …
+                </span>
               )}
             </div>
             {conFlechas && (
@@ -250,12 +235,11 @@ const ETIQUETA_TIPO: Record<TipoNombre, string> = {
   libro: "LIBRO",
   juego: "JUEGO",
   musica: "♪ MÚSICA",
-  otro: "", // sin etiqueta: "otro" no le dice nada al usuario
+  otro: "",
 };
 
-// Cuando no hay imagen (ej: celebridades actuales sin foto libre): primer
-// caracter del nombre en grande + tipo. [...nombre][0] y no nombre[0]
-// para no cortar caracteres fuera del BMP a la mitad.
+// Sin imagen: primer caracter del nombre + tipo.
+// [...nombre][0] evita cortar caracteres fuera del BMP.
 function Marcador({ nombre, tipo }: { nombre: string; tipo?: TipoNombre }) {
   const etiqueta = tipo ? ETIQUETA_TIPO[tipo] : "";
   return (
@@ -289,9 +273,7 @@ function BotonFlecha({
       type="button"
       onClick={onClick}
       aria-label={label}
-      // sin borde ni fondo: solo la flecha. p-1 mantiene un area de click
-      // comoda aunque no se vea el boton.
-      className="p-1 text-violet-300 transition hover:scale-110 hover:text-violet-100"
+      className="p-1 text-fuchsia-400 transition hover:scale-110 hover:text-fuchsia-200"
     >
       <svg
         width="24"

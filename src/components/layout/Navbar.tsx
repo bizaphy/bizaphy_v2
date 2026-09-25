@@ -26,10 +26,9 @@ export default function Navbar() {
           Projects
         </Link>
 
-        {/* Placeholder de cuenta al estilo buddy icon de MSN.
-            Sin ruta todavia; queda listo para conectar auth mas adelante. */}
-        <button
-          type="button"
+        {/* Cuenta al estilo buddy icon de MSN. Lleva a la futura pagina de auth. */}
+        <Link
+          href="/placeholder"
           aria-label="Cuenta"
           title="Cuenta"
           className="relative flex items-center text-fuchsia-300 transition hover:text-fuchsia-100 hover:drop-shadow-[0_0_6px_rgba(217,70,239,0.75)]"
@@ -48,7 +47,7 @@ export default function Navbar() {
             aria-hidden
             className="absolute -right-0.5 -bottom-0.5 h-2.5 w-2.5 rounded-full border border-zinc-900 bg-zinc-500"
           />
-        </button>
+        </Link>
       </div>
     </nav>
   );

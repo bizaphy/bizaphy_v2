@@ -11,10 +11,7 @@ import KanjiStructure from "./KanjiStructure";
 import KanjiExtras from "./KanjiExtras";
 import KanjiHelpReferences from "./KanjiHelpReferences";
 import KanjiLevelsPanel from "./KanjiLevelsPanel";
-import KanjiSearch, {
-  type AnioFiltro,
-  type TrazosFiltro,
-} from "./KanjiSearch";
+import KanjiSearch, { type AnioFiltro, type TrazosFiltro } from "./KanjiSearch";
 import KanjiTrap from "./KanjiTrap";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
@@ -156,9 +153,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
             toggleDeshabilitado={togglePendiente}
           />
           {/* flex-col y no flex-wrap: la ayuda memoria va siempre debajo de
-              los radicales. Con wrap, mientras cargaba su imagen cabia a la
-              derecha y aparecia ahi unos ms antes de saltar abajo.
-              gap-0: dentro del grupo basta el p-4 de cada seccion (32px). */}
+              los radicales. */}
           <div className="flex flex-col gap-0">
             <KanjiStructure
               caracter={seleccionado.caracter}
