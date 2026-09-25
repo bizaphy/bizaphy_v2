@@ -1,5 +1,5 @@
-import BannerInfo from "./components/BannerInfo";
-import ProjectList from "./components/ProjectList";
+import BannerInfo from "./_components/BannerInfo";
+import ProjectList from "./_components/ProjectList";
 import TextScramble from "@/components/effects/TextScramble";
 
 export default function ProjectsPage() {
