@@ -16,6 +16,7 @@ import KanjiTrap from "./KanjiTrap";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
 import SeparatorLine from "@/components/ui/SeparatorLine";
+import { toast } from "sonner";
 
 export type NivelDisponible = "N5" | "N4" | "N3";
 
@@ -109,8 +110,18 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
     if (!seleccionado) return;
     const id = seleccionado.id;
     iniciarToggle(async () => {
-      const nuevoValor = await alternarDestacado(id);
-      setDestacadoOverrides((prev) => ({ ...prev, [id]: nuevoValor }));
+      const resultado = await alternarDestacado(id);
+      // Rechazo esperado (sin sesión o sin rol admin): avisar y no tocar el estado.
+      if (!resultado.ok) {
+        toast.error(resultado.error);
+        return;
+      }
+      setDestacadoOverrides((prev) => ({ ...prev, [id]: resultado.destacado }));
+      toast.success(
+        resultado.destacado
+          ? "Marcado como destacado"
+          : "Quitado de destacados",
+      );
     });
   };
 
