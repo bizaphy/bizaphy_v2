@@ -6,12 +6,12 @@
       <stop offset="1" stop-color="#a855f7"/>
     </linearGradient>
     <clipPath id="circulo">
-      <circle cx="64" cy="64" r="58"/>
+      <circle cx="64" cy="64" r="60"/>
     </clipPath>
   </defs>
 
-  <!-- Fondo circular con borde neón -->
-  <circle cx="64" cy="64" r="60" fill="#09090b" stroke="#d946ef" stroke-width="4"/>
+  <!-- Fondo circular (sin borde: el halo lo pone el drop-shadow de la card) -->
+  <circle cx="64" cy="64" r="60" fill="#09090b"/>
 
   <g clip-path="url(#circulo)">
     <!-- Olas bajo el cachalote -->

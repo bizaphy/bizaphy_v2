@@ -1,4 +1,4 @@
-import AboutCard from "@/components/about-me/AboutCard";
+import AboutCard, { AboutCardReveal } from "@/components/about-me/AboutCard";
 import AsciiArt from "@/components/ui/AsciiArt";
 import BackToTopDots from "@/components/ui/BackToTopDots";
 import LanguageLevels from "@/components/about-me/LanguageLevels";
@@ -82,9 +82,17 @@ export default function AboutPage() {
         }
         extra={
           <>
-            Animal favorito: <N>Phy</N>seter Macrocephalus
+            Animal favorito:{" "}
+            <AboutCardReveal>
+              <N>Phy</N>seter Macrocephalus
+            </AboutCardReveal>
           </>
         }
+        revealImage={{
+          src: "/cachalote.svg",
+          alt: "Cachalote",
+          href: "https://es.wikipedia.org/wiki/Cachalote",
+        }}
       />
       <AsciiArt art={ASCII} />
       <LanguageLevels />
