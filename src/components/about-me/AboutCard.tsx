@@ -32,7 +32,7 @@ export function AboutCardReveal({ children }: { children: ReactNode }) {
       type="button"
       onClick={ctx.alternar}
       aria-pressed={ctx.revelado}
-      className="cursor-pointer underline decoration-fuchsia-500/50 decoration-dotted underline-offset-4 transition hover:text-zinc-300 hover:decoration-fuchsia-400"
+      className="group cursor-pointer transition hover:text-zinc-300"
     >
       {children}
     </button>
@@ -54,7 +54,7 @@ export default function AboutCard({
       alt={revealImage.alt}
       width={128}
       height={128}
-      className="h-32 w-32 drop-shadow-[0_0_10px_rgba(217,70,239,0.45)]"
+      className="h-32 w-32 drop-shadow-[0_0_6px_rgba(217,70,239,0.3)]"
     />
   );
 

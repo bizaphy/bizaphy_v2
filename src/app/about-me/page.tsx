@@ -10,7 +10,7 @@ import SocialLinks from "@/components/about-me/SocialLinks";
 import Setup from "@/components/about-me/Setup";
 
 const N = ({ children }: { children: React.ReactNode }) => (
-  <span className="font-bold text-fuchsia-400">{children}</span>
+  <span className="font-bold text-purple-400 transition group-hover:text-purple-300">{children}</span>
 );
 
 const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.          ......... ..   ........... = .=:
