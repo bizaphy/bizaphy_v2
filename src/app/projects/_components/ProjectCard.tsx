@@ -21,17 +21,17 @@ export default function ProjectCard({
 
   const articleClasses = isDestacado
     ? "border-white/70 group-hover:border-white group-hover:shadow-[0_0_28px_rgba(255,255,255,0.35)]"
-    : "border-fuchsia-500/50 group-hover:border-fuchsia-400 group-hover:shadow-[0_0_24px_rgba(217,70,239,0.45)]";
+    : "border-violet-300/40 group-hover:border-violet-300 group-hover:shadow-[0_0_24px_rgba(196,181,253,0.4)]";
 
   const titleClasses = isDestacado
     ? "text-pink-200 group-hover:text-pink-100"
-    : "text-white group-hover:text-fuchsia-300";
+    : "text-white group-hover:text-violet-200";
 
   const descClasses = isDestacado ? "text-zinc-100" : "text-zinc-400";
 
   const ctaClasses = isDestacado
     ? "text-pink-300 group-hover:text-pink-200"
-    : "text-fuchsia-500 group-hover:text-fuchsia-300";
+    : "text-violet-300 group-hover:text-violet-200";
 
   return (
     <Link
