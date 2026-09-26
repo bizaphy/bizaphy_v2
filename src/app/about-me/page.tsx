@@ -89,7 +89,7 @@ export default function AboutPage() {
           </>
         }
         revealImage={{
-          src: "/cachalote.svg",
+          src: "/cachalote-plano.svg",
           alt: "Cachalote",
           href: "https://es.wikipedia.org/wiki/Cachalote",
         }}
