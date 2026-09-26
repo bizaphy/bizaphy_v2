@@ -92,7 +92,9 @@ body {
 
 .neon-nav {
   position: relative;
-  z-index: 10;
+  /* Por encima del <main> (z-10): si no, el <main> tapa el menú de cuenta
+     y se lleva los clics. */
+  z-index: 20;
   background: var(--background);
   animation: neon-border-pulse 3s ease-in-out infinite;
 }
