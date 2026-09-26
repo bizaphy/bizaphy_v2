@@ -31,7 +31,7 @@ export default function ProjectCard({
 
   const ctaClasses = isDestacado
     ? "text-pink-300 group-hover:text-pink-200"
-    : "text-violet-300 group-hover:text-violet-200";
+    : "text-fuchsia-500 group-hover:text-fuchsia-300";
 
   return (
     <Link
