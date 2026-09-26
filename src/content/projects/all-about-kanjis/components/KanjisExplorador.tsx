@@ -168,6 +168,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           <div className="flex flex-col gap-0">
             <KanjiStructure
               caracter={seleccionado.caracter}
+              nivel={seleccionado.nivel}
               radicales={seleccionado.kanjiRadicales}
             />
             <KanjiHelpReferences

@@ -50,6 +50,7 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
     columns: {
       id: true,
       caracter: true,
+      nivel: true, // define la subcarpeta del SVG de orden de trazos
       significado: true,
       onyomi: true,
       kunyomi: true,

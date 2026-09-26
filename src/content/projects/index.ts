@@ -15,7 +15,7 @@ export type ProjectMeta = {
   variant?: "default" | "destacado";
 };
 
-// Solo metadatos: seguro de importar desde Client Components.
+// Solo metadatos, se puede importar en Client Components.
 // La resolucion de componentes vive en app/projects/[slug]/page.tsx
 // para que el bundle del cliente nunca alcance codigo server-only.
 export const projectsMeta = [

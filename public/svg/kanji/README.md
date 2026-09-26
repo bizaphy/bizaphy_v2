@@ -12,6 +12,10 @@ que el resto del código de este repositorio.
 
 - Cada archivo se nombra con el code point Unicode del caracter en
   hexadecimal, 5 dígitos y minúsculas (`一` → `04e00.svg`).
+- Los archivos se ordenan en subcarpetas según el nivel JLPT del kanji en
+  la base de datos: `n5/`, `n4/`, `n3/`. El resto de KanjiVG (kanjis que
+  aún no se usan, kana, símbolos) va en `others/`. La app arma la ruta como
+  `/svg/kanji/<nivel>/<codigo>.svg` (ver `KanjiStrokeOrder.tsx`).
 - Los archivos se distribuyen **sin modificaciones**. En la interfaz se
   muestran con los colores invertidos mediante CSS (`invert`), sin alterar
   los archivos.

@@ -2,22 +2,25 @@
 
 import { memo, useState } from "react";
 import KanjiImageZoom from "./KanjiImageZoom";
+import type { KanjiEnListado } from "../db/queries";
 
 type Props = {
   caracter: string;
+  nivel: KanjiEnListado["nivel"];
 };
 
-// Los SVG de KanjiVG viven en /public/svg/kanji y se nombran con el code
-// point del caracter en hex, 5 digitos y minusculas (一 -> 04e00.svg).
-function rutaSvgKanji(caracter: string) {
+// Los SVG de KanjiVG viven en /public/svg/kanji/<nivel> (n5, n4, n3; el
+// resto de KanjiVG en others/) y se nombran con el code point del caracter
+// en hex, 5 digitos y minusculas (一 -> n5/04e00.svg).
+function rutaSvgKanji(caracter: string, nivel: string) {
   const codigo = caracter.codePointAt(0)!.toString(16).padStart(5, "0");
-  return `/svg/kanji/${codigo}.svg`;
+  return `/svg/kanji/${nivel}/${codigo}.svg`;
 }
 
 // memo evita re-render cuando el caracter no cambia: sin re-render el
 // navegador no repinta el bloque.
-function KanjiStrokeOrder({ caracter }: Props) {
-  const src = rutaSvgKanji(caracter);
+function KanjiStrokeOrder({ caracter, nivel }: Props) {
+  const src = rutaSvgKanji(caracter, nivel);
 
   // Guardamos la ruta que fallo (no un boolean) para que el error se "resetee" solo al cambiar de kanji
   const [srcFallido, setSrcFallido] = useState<string | null>(null);
