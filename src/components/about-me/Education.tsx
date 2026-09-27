@@ -113,7 +113,7 @@ export default function Education() {
   const activo = EDUCATION[selected];
 
   return (
-    <div className="rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 p-5">
+    <div className="rounded-xl border border-violet-300/40 bg-zinc-950/60 p-5">
       <h2 className="mb-4 font-mono text-xs uppercase tracking-[0.3em] text-fuchsia-400">
         &gt; educación
       </h2>
