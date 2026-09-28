@@ -84,7 +84,7 @@ const entries = Object.entries(LANGUAGES) as [LangKey, LangData][];
 
 export default function LanguageLevels() {
   return (
-    <div className="rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 p-5">
+    <div className="rounded-xl border border-violet-300/40 bg-zinc-950/60 p-5">
       {/* header: titulo + leyenda de la escala CEFR */}
       <div className="mb-4 flex items-baseline justify-between font-mono text-xs">
         <span className="uppercase tracking-[0.3em] text-fuchsia-400">
