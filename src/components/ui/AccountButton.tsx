@@ -53,8 +53,14 @@ export default function AccountButton() {
       <button
         type="button"
         // Sin sesión: inicia sesión directo. Con sesión: abre/cierra el menú.
-        onClick={conectado ? () => setAbierto((v) => !v) : iniciarSesion}
-        disabled={isPending} // evita clics dobles mientras carga la sesión
+        onClick={() => {
+          if (isPending) return; // evita clics dobles mientras carga la sesión
+          if (conectado) setAbierto((v) => !v);
+          else iniciarSesion();
+        }}
+        // aria-disabled y no disabled: Firefox restaura `disabled` al recargar y
+        // eso provoca un hydration mismatch.
+        aria-disabled={isPending}
         aria-label={conectado ? "Menú de cuenta" : "Iniciar sesión con GitHub"}
         aria-haspopup={conectado ? "menu" : undefined}
         aria-expanded={conectado ? abierto : undefined}
