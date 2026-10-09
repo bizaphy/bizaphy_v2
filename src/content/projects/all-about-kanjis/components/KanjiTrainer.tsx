@@ -254,7 +254,7 @@ export default function KanjiTrainer() {
             role="switch"
             aria-checked={colores}
             onClick={() => setColores((c) => !c)}
-            className="flex items-center gap-2 font-mono text-[10px] tracking-widest text-zinc-400 uppercase hover:text-zinc-200"
+            className="flex items-center gap-2 font-mono text-xs tracking-widest text-zinc-400 uppercase hover:text-zinc-200"
           >
             Colores JLPT
             <span
@@ -272,7 +272,7 @@ export default function KanjiTrainer() {
             </span>
           </button>
           {colores && (
-            <span className="flex gap-3 font-mono text-[10px] uppercase">
+            <span className="flex gap-3 font-mono text-xs uppercase">
               {LEYENDA_NIVELES.map((n) => (
                 <span key={n} className={COLOR_NIVEL[n]}>
                   ● {n}
