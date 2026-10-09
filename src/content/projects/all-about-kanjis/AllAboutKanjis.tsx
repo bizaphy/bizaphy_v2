@@ -1,4 +1,4 @@
-import KanjisExplorador from "./components/KanjisExplorador";
+import KanjiExplorer from "./components/KanjiExplorer";
 import { listarKanjisPorNivel } from "./db/queries";
 import Info, { infoLinkClass } from "@/components/ui/Info";
 import BackToTopDots from "@/components/ui/BackToTopDots";
@@ -12,7 +12,7 @@ export default async function AllAboutKanjis() {
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-6 p-4">
-      <KanjisExplorador kanjisPorNivel={{ N5: n5, N4: n4, N3: n3 }} />
+      <KanjiExplorer kanjisPorNivel={{ N5: n5, N4: n4, N3: n3 }} />
       {/* Atribucion requerida por la licencia CC BY-SA 3.0 de KanjiVG,
           de donde vienen los SVG de orden de trazos (/public/svg/kanji). */}
       <Info>

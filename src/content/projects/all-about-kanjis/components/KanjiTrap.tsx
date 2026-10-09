@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import KanjiEstadoVacio from "./KanjiEstadoVacio";
+import EmptyBlockState from "./EmptyBlockState";
 
 type KanjiTrapItem = {
   caracter: string;
@@ -94,10 +94,10 @@ export default function KanjiTrap({ caracter, kanjiTraps }: Props) {
         // flex-1: ocupa el alto que le da la fila de la grilla (lo marca
         // Celebridad / Serie), asi el estado vacio queda centrado.
         <div className="flex-1 p-3">
-          <KanjiEstadoVacio caracter={caracter}>
+          <EmptyBlockState caracter={caracter}>
             Este kanji es del grupo que no tiene un kanji{" "}
             <span className="text-yellow-300">trampa</span>
-          </KanjiEstadoVacio>
+          </EmptyBlockState>
         </div>
       )}
 

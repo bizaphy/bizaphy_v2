@@ -37,10 +37,10 @@ function resaltar(texto: string, caracter: string) {
 }
 
 // Oracion de ejemplo con la lectura mas comun del kanji, con furigana
-// (<ruby>) y el kanji resaltado. Mismo formato de bloque que KanjiRadicals:
+// (<ruby>) y el kanji resaltado. Mismo formato de bloque que KanjiRadicalSum:
 // caja zinc y etiqueta arriba a la izquierda, en fucsia claro como la ayuda
 // memoria (grupo "como se recuerda").
-export default function KanjiOracionEjemplo({
+export default function KanjiExampleSentence({
   caracter,
   oracion,
   traduccion,

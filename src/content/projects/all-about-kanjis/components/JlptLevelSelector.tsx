@@ -50,7 +50,7 @@ type Props<T extends Level = Level> = {
   onSelect: (level: T) => void;
 };
 
-export default function KanjiLevelsPanel<T extends Level>({
+export default function JlptLevelSelector<T extends Level>({
   selected,
   onSelect,
 }: Props<T>) {

@@ -8,8 +8,8 @@ type Props = {
 // Estado vacio de un bloque (Radicales, Kanji Trap): el kanji grande y tenue
 // con el mensaje centrado debajo, para que la caja vacia se vea intencional
 // y no como un error de carga. Mismo recurso que el Marcador de
-// KanjiNombreFamoso cuando no hay imagen.
-export default function KanjiEstadoVacio({ caracter, children }: Props) {
+// FamousNameCarousel cuando no hay imagen.
+export default function EmptyBlockState({ caracter, children }: Props) {
   return (
     <div className="flex h-full w-full flex-col items-center justify-center gap-4 text-center">
       <span

@@ -22,7 +22,7 @@ type Props = {
 // imagen ampliada. Usa portal a document.body para no verse afectado por
 // z-index / overflow del contenedor padre. Cierre por ESC, click en el
 // backdrop o boton X.
-export default function KanjiImageZoom({
+export default function ImageLightbox({
   src,
   alt,
   imgClassName = "",

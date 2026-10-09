@@ -1,6 +1,6 @@
 import { memo } from "react";
-import KanjiImageZoom from "./KanjiImageZoom";
-import KanjiOracionEjemplo from "./KanjiOracionEjemplo";
+import ImageLightbox from "./ImageLightbox";
+import KanjiExampleSentence from "./KanjiExampleSentence";
 
 type Props = {
   caracter: string;
@@ -10,7 +10,7 @@ type Props = {
   traduccionOracion: string | null;
 };
 
-function KanjiHelpReferences({
+function KanjiMemoryAids({
   caracter,
   urlImagenMnemotecnica,
   fraseMnemotecnica,
@@ -31,7 +31,7 @@ function KanjiHelpReferences({
           <div className="p-3">
             <div className="flex items-center justify-center overflow-hidden rounded">
               {urlImagenMnemotecnica ? (
-                <KanjiImageZoom
+                <ImageLightbox
                   src={urlImagenMnemotecnica}
                   alt="Imagen mnemotecnica del kanji"
                 />
@@ -58,7 +58,7 @@ function KanjiHelpReferences({
           </div>
         </div>
       </div>
-      <KanjiOracionEjemplo
+      <KanjiExampleSentence
         caracter={caracter}
         oracion={oracionEjemplo}
         traduccion={traduccionOracion}
@@ -67,4 +67,4 @@ function KanjiHelpReferences({
   );
 }
 
-export default memo(KanjiHelpReferences);
+export default memo(KanjiMemoryAids);

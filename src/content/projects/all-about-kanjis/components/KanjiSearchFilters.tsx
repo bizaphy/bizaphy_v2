@@ -24,7 +24,7 @@ type Props = {
 const selectBase =
   "cursor-pointer rounded border border-violet-300/50 bg-zinc-900/80 px-2 py-1 font-mono text-xs text-zinc-200 shadow-[0_0_6px_rgba(196,181,253,0.2)] transition hover:border-violet-300 focus:border-violet-300 focus:outline-none focus:shadow-[0_0_10px_rgba(196,181,253,0.5)]";
 
-export default function KanjiSearch({
+export default function KanjiSearchFilters({
   value,
   onChange,
   soloDestacados,

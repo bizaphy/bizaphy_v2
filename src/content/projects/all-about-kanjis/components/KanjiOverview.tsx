@@ -12,7 +12,7 @@ type Props = {
   toggleDeshabilitado?: boolean;
 };
 
-export default function KanjiDisplay({
+export default function KanjiOverview({
   caracter,
   significado,
   onyomi,

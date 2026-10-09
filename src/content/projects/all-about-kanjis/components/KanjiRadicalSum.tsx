@@ -1,5 +1,5 @@
 import { memo } from "react";
-import KanjiEstadoVacio from "./KanjiEstadoVacio";
+import EmptyBlockState from "./EmptyBlockState";
 import type { KanjiEnListado } from "../db/queries";
 
 type Props = {
@@ -14,7 +14,7 @@ type Props = {
 // Radicales del kanji como una "suma" de tarjetas: ⺅ + 木.
 // memo: mismo motivo que KanjiStrokeOrder, evita repintar el bloque cuando
 // las props no cambian.
-function KanjiRadicals({ caracter, radicales }: Props) {
+function KanjiRadicalSum({ caracter, radicales }: Props) {
   return (
     // Mismo formato que el resto de los bloques: caja zinc y etiqueta violeta
     // arriba a la izquierda.
@@ -71,10 +71,10 @@ function KanjiRadicals({ caracter, radicales }: Props) {
             // Mismo estado vacio que KanjiTrap. "No se descompone" y no
             // "no tiene": cubre tambien los kanji que son un radical en si
             // mismos (日, 木).
-            <KanjiEstadoVacio caracter={caracter}>
+            <EmptyBlockState caracter={caracter}>
               Este kanji es del grupo que no se descompone en{" "}
               <span className="text-zinc-200">radicales</span>
-            </KanjiEstadoVacio>
+            </EmptyBlockState>
           )}
         </div>
       </div>
@@ -82,4 +82,4 @@ function KanjiRadicals({ caracter, radicales }: Props) {
   );
 }
 
-export default memo(KanjiRadicals);
+export default memo(KanjiRadicalSum);

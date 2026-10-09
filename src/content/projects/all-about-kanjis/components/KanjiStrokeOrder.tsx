@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useState } from "react";
-import KanjiImageZoom from "./KanjiImageZoom";
+import ImageLightbox from "./ImageLightbox";
 import type { KanjiEnListado } from "../db/queries";
 
 type Props = {
@@ -42,7 +42,7 @@ function KanjiStrokeOrder({ caracter, nivel }: Props) {
           ) : (
             // invert: los trazos de KanjiVG son negros sobre transparente,
             // invisibles sobre el fondo oscuro.
-            <KanjiImageZoom
+            <ImageLightbox
               src={src}
               alt={`Orden de trazos de ${caracter}`}
               imgClassName="invert"

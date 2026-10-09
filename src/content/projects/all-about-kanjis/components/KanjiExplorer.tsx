@@ -1,17 +1,17 @@
 "use client";
 
-// Cliente wrapper que enlaza KanjiLevelsPanel, KanjiCardList y los paneles
-// de detalle (KanjiDisplay + KanjiStructure). Mantiene el nivel seleccionado
+// Cliente wrapper que enlaza JlptLevelSelector, KanjiCardList y los paneles
+// de detalle (KanjiOverview + KanjiAnatomy). Mantiene el nivel seleccionado
 // y el kanji actualmente enfocado, ambos entre los precargados del servidor.
 
 import { useMemo, useRef, useState, useTransition } from "react";
 import KanjiCardList from "./KanjiCardList";
-import KanjiDisplay from "./KanjiDisplay";
-import KanjiStructure from "./KanjiStructure";
-import KanjiExtras from "./KanjiExtras";
-import KanjiHelpReferences from "./KanjiHelpReferences";
-import KanjiLevelsPanel from "./KanjiLevelsPanel";
-import KanjiSearch, { type AnioFiltro, type TrazosFiltro } from "./KanjiSearch";
+import KanjiOverview from "./KanjiOverview";
+import KanjiAnatomy from "./KanjiAnatomy";
+import KanjiFamousUsage from "./KanjiFamousUsage";
+import KanjiMemoryAids from "./KanjiMemoryAids";
+import JlptLevelSelector from "./JlptLevelSelector";
+import KanjiSearchFilters, { type AnioFiltro, type TrazosFiltro } from "./KanjiSearchFilters";
 import KanjiTrap from "./KanjiTrap";
 import { alternarDestacado } from "../db/actions";
 import type { KanjiEnListado } from "../db/queries";
@@ -24,7 +24,7 @@ type Props = {
   kanjisPorNivel: Record<NivelDisponible, KanjiEnListado[]>;
 };
 
-export default function KanjisExplorador({ kanjisPorNivel }: Props) {
+export default function KanjiExplorer({ kanjisPorNivel }: Props) {
   const [nivel, setNivel] = useState<NivelDisponible>("N5");
   const [busqueda, setBusqueda] = useState("");
   const [soloDestacados, setSoloDestacados] = useState(false);
@@ -127,8 +127,8 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
 
   return (
     <>
-      <KanjiLevelsPanel selected={nivel} onSelect={cambiarNivel} />
-      <KanjiSearch
+      <JlptLevelSelector selected={nivel} onSelect={cambiarNivel} />
+      <KanjiSearchFilters
         value={busqueda}
         onChange={setBusqueda}
         soloDestacados={soloDestacados}
@@ -152,7 +152,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
         // (estructura + ayuda memoria) y como se usa (palabras, nombres,
         // trampas). gap-8 + el p-4 de cada seccion = 64px entre grupos.
         <div ref={detalleRef} className="flex scroll-mt-4 flex-col gap-8">
-          <KanjiDisplay
+          <KanjiOverview
             caracter={seleccionado.caracter}
             significado={seleccionado.significado ?? "—"}
             onyomi={seleccionado.onyomi}
@@ -166,12 +166,12 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
           {/* flex-col y no flex-wrap: la ayuda memoria va siempre debajo de
               los radicales. */}
           <div className="flex flex-col gap-0">
-            <KanjiStructure
+            <KanjiAnatomy
               caracter={seleccionado.caracter}
               nivel={seleccionado.nivel}
               radicales={seleccionado.kanjiRadicales}
             />
-            <KanjiHelpReferences
+            <KanjiMemoryAids
               caracter={seleccionado.caracter}
               urlImagenMnemotecnica={seleccionado.urlImagenMnemotecnica}
               fraseMnemotecnica={seleccionado.fraseMnemotecnica}
@@ -180,7 +180,7 @@ export default function KanjisExplorador({ kanjisPorNivel }: Props) {
             />
           </div>
           <section className="grid grid-cols-1 gap-3 p-4 md:grid-cols-3">
-            <KanjiExtras
+            <KanjiFamousUsage
               palabras={seleccionado.palabras}
               nombres={seleccionado.nombres}
             />

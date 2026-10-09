@@ -103,7 +103,7 @@ type Props = {
 
 // Muestra un nombre famoso a la vez; con 2+ nombres aparecen flechas (circular).
 // El consumidor debe pasar un `key` por kanji para reiniciar el indice.
-export default function KanjiNombreFamoso({ nombres = [] }: Props) {
+export default function FamousNameCarousel({ nombres = [] }: Props) {
   const [indice, setIndice] = useState(0);
   const total = nombres.length;
   const entrada = nombres[indice];
