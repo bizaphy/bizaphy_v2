@@ -15,8 +15,6 @@ Portafolio personal hecho con Next.js (App Router). Reúne una sección **About 
 |---|---|---|
 | `habit-tracker` | Sistema de hábitos | Webapp para practicar un sistema de hábitos, con puntajes. |
 | `apothecary` | Boticaria CL | Información de plantas y fitofármacos. |
-| `tic-tac-toe` | Tic Tac Toe | Juego clásico de Tic Tac Toe. |
-| `translation-checker` | Translation-checker | Práctica de traducción ES/EN a japonés con validación exacta. |
 | `weather-dashboard` | Clima mundial | Reloj mundial en tiempo real con algunas ciudades del mundo. |
 | `all-about-kanjis` | All About Kanjis | Información para estudiar cada kanji del JLPT (usa la base de datos). |
 | `hangman` | Hangman (Capitales) | Adivina la capital del país antes de que el ahorcado se complete. |

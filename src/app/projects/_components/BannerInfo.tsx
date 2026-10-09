@@ -17,14 +17,6 @@ const PLANS: Plan[] = [
       "Cargar las plantas medicinales endemicas de Chile. Ubicacion con mapa interactivo, usos y precauciones.",
   },
   {
-    slug: "tic-tac-toe",
-    nextStep: "Sin ideas aun.",
-  },
-  {
-    slug: "translation-checker",
-    nextStep: "Cambiar a sistema de gramatica, son seleccion mediante quizzes",
-  },
-  {
     slug: "weather-dashboard",
     nextStep:
       "Herramienta para saber en cuanto tiempo te daria hipotermia o te deshidratarias si estuvieras sin ropa en ese lugar. Agregar lugares bizarros. Agregar el estado de la materia de algunos materiales",

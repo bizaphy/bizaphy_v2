@@ -12,9 +12,6 @@ const componentLoaders: Record<
   "habit-tracker": () =>
     import("@/content/projects/habit-tracker/HabitTracker"),
   apothecary: () => import("@/content/projects/apothecary/Apothecary"),
-  "tic-tac-toe": () => import("@/content/projects/tic-tac-toe/TicTacToe"),
-  "translation-checker": () =>
-    import("@/content/projects/translation-checker/TranslationChecker"),
   "weather-dashboard": () =>
     import("@/content/projects/weather-dashboard/WeatherDashboard"),
   "all-about-kanjis": () =>

@@ -1,7 +1,5 @@
 import { meta as habitTrackerMeta } from "./habit-tracker";
 import { meta as apothecaryMeta } from "./apothecary";
-import { meta as ticTacToeMeta } from "./tic-tac-toe";
-import { meta as translationCheckerMeta } from "./translation-checker";
 import { meta as weatherDashboardMeta } from "./weather-dashboard";
 import { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
 import { meta as hangmanMeta } from "./hangman";
@@ -21,8 +19,6 @@ export type ProjectMeta = {
 export const projectsMeta = [
   habitTrackerMeta,
   apothecaryMeta,
-  ticTacToeMeta,
-  translationCheckerMeta,
   weatherDashboardMeta,
   AllAboutKanjisMeta,
   hangmanMeta,
