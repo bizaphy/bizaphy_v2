@@ -21,8 +21,10 @@ export default async function AllAboutKanjis() {
         trainer={<KanjiTrainer />}
       />
       {/* Atribucion requerida por la licencia CC BY-SA 3.0 de KanjiVG,
-          de donde vienen los SVG de orden de trazos (/public/svg/kanji). */}
-      <Info>
+          de donde vienen los SVG de orden de trazos (/public/svg/kanji).
+          mt-42 va aqui y no en cada pestana: asi la separacion es la misma
+          en Explorador y KanjiTrainer. */}
+      <Info className="mt-42">
         Los diagramas de orden de trazos provienen de{" "}
         <a
           href="https://kanjivg.tagaini.net"
