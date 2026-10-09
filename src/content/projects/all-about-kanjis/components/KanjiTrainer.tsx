@@ -41,13 +41,32 @@ const FILTROS: { id: Filtro; label: string }[] = [
   { id: "n3", label: "N3" },
 ];
 
+type FiltroKanjis = "todas" | "uno" | "varios";
+
+const FILTROS_KANJIS: { id: FiltroKanjis; label: string }[] = [
+  { id: "todas", label: "Todas" },
+  { id: "uno", label: "1 kanji" },
+  { id: "varios", label: "2+ kanjis" },
+];
+
 type Vista = { significado: boolean; romaji: boolean; resuelto: boolean };
 const OCULTO: Vista = { significado: false, romaji: false, resuelto: false };
 
+// Se cuentan los kanjis escritos en la palabra, no los unicos de `kanjis`:
+// asi 時々 o 日曜日 cuentan como palabras de varios kanjis.
+const contarKanjis = (p: Palabra) =>
+  p.palabra.match(/\p{Script=Han}/gu)?.length ?? 0;
+
+const cumpleKanjis = (p: Palabra, k: FiltroKanjis) =>
+  k === "todas" || (k === "uno" ? contarKanjis(p) === 1 : contarKanjis(p) > 1);
+
 // Solo palabras cuyos kanjis son todos de N5-N3: el trainer es para esos.
-const filtrar = (v: Vocabulario, f: Filtro) =>
+const filtrar = (v: Vocabulario, f: Filtro, k: FiltroKanjis) =>
   v.palabras.filter(
-    (p) => p.soloKanjisN5aN3 && (f === "todos" || p.nivel === f),
+    (p) =>
+      p.soloKanjisN5aN3 &&
+      (f === "todos" || p.nivel === f) &&
+      cumpleKanjis(p, k),
   );
 
 // Fisher-Yates sobre una copia: la cola se recorre en orden y no repite
@@ -66,10 +85,18 @@ const botonBase =
 const botonSecundario = `${botonBase} border-violet-300/50 bg-zinc-900/80 text-violet-200 hover:border-violet-300 hover:shadow-[0_0_10px_rgba(196,181,253,0.4)]`;
 const botonActivo = `${botonBase} border-violet-300 bg-violet-500/20 text-violet-100 shadow-[0_0_10px_rgba(196,181,253,0.4)]`;
 
+const chipFiltro = (activo: boolean) =>
+  `rounded-full border px-3 py-1 font-mono text-xs transition ${
+    activo
+      ? "border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-100 shadow-[0_0_10px_rgba(217,70,239,0.6)]"
+      : "border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300"
+  }`;
+
 export default function KanjiTrainer() {
   const [vocab, setVocab] = useState<Vocabulario | null>(null);
   const [error, setError] = useState(false);
   const [filtro, setFiltro] = useState<Filtro>("todos");
+  const [filtroKanjis, setFiltroKanjis] = useState<FiltroKanjis>("todas");
   const [cola, setCola] = useState<Palabra[]>([]);
   const [pos, setPos] = useState(0);
   const [vista, setVista] = useState<Vista>(OCULTO);
@@ -83,7 +110,7 @@ export default function KanjiTrainer() {
         if (!vivo) return;
         const v = m.default as Vocabulario;
         setVocab(v);
-        setCola(barajar(filtrar(v, "todos")));
+        setCola(barajar(filtrar(v, "todos", "todas")));
       })
       .catch(() => vivo && setError(true));
     return () => {
@@ -91,19 +118,37 @@ export default function KanjiTrainer() {
     };
   }, []);
 
+  // Cada grupo de botones muestra cuantas palabras quedarian combinandolo
+  // con el filtro activo del otro grupo.
   const conteos = useMemo(() => {
     if (!vocab) return null;
     return Object.fromEntries(
-      FILTROS.map((f) => [f.id, filtrar(vocab, f.id).length]),
+      FILTROS.map((f) => [f.id, filtrar(vocab, f.id, filtroKanjis).length]),
     ) as Record<Filtro, number>;
-  }, [vocab]);
+  }, [vocab, filtroKanjis]);
 
-  const cambiarFiltro = (f: Filtro) => {
-    if (!vocab || f === filtro) return;
+  const conteosKanjis = useMemo(() => {
+    if (!vocab) return null;
+    return Object.fromEntries(
+      FILTROS_KANJIS.map((k) => [k.id, filtrar(vocab, filtro, k.id).length]),
+    ) as Record<FiltroKanjis, number>;
+  }, [vocab, filtro]);
+
+  const aplicarFiltros = (f: Filtro, k: FiltroKanjis) => {
+    if (!vocab) return;
     setFiltro(f);
-    setCola(barajar(filtrar(vocab, f)));
+    setFiltroKanjis(k);
+    setCola(barajar(filtrar(vocab, f, k)));
     setPos(0);
     setVista(OCULTO);
+  };
+
+  const cambiarFiltro = (f: Filtro) => {
+    if (f !== filtro) aplicarFiltros(f, filtroKanjis);
+  };
+
+  const cambiarFiltroKanjis = (k: FiltroKanjis) => {
+    if (k !== filtroKanjis) aplicarFiltros(filtro, k);
   };
 
   const siguiente = () => {
@@ -126,7 +171,7 @@ export default function KanjiTrainer() {
   }
 
   const actual = cola[pos];
-  if (!vocab || !conteos) {
+  if (!vocab || !conteos || !conteosKanjis) {
     return (
       <p className="animate-pulse p-4 font-mono text-sm tracking-widest text-fuchsia-300 uppercase">
         cargando vocabulario
@@ -139,27 +184,46 @@ export default function KanjiTrainer() {
 
   return (
     <section className="flex flex-col gap-6 p-4">
-      {/* Filtro por nivel de la palabra (lista JLPT de donde viene) */}
-      <div className="flex flex-wrap items-center gap-3">
-        <span className="font-mono text-xs tracking-widest text-zinc-500 uppercase">
-          Nivel
-        </span>
-        {FILTROS.map((f) => (
-          <button
-            key={f.id}
-            type="button"
-            aria-pressed={filtro === f.id}
-            onClick={() => cambiarFiltro(f.id)}
-            className={`rounded-full border px-3 py-1 font-mono text-xs transition ${
-              filtro === f.id
-                ? "border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-100 shadow-[0_0_10px_rgba(217,70,239,0.6)]"
-                : "border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300"
-            }`}
-          >
-            {f.label}
-            <span className="ml-1.5 text-zinc-500">{conteos[f.id]}</span>
-          </button>
-        ))}
+      <div className="flex flex-col gap-3">
+        {/* Filtro por nivel de la palabra (lista JLPT de donde viene) */}
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="w-16 font-mono text-xs tracking-widest text-zinc-500 uppercase">
+            Nivel
+          </span>
+          {FILTROS.map((f) => (
+            <button
+              key={f.id}
+              type="button"
+              aria-pressed={filtro === f.id}
+              onClick={() => cambiarFiltro(f.id)}
+              className={chipFiltro(filtro === f.id)}
+            >
+              {f.label}
+              <span className="ml-1.5 text-zinc-500">{conteos[f.id]}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* Filtro por cantidad de kanjis escritos en la palabra */}
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="w-16 font-mono text-xs tracking-widest text-zinc-500 uppercase">
+            Kanjis
+          </span>
+          {FILTROS_KANJIS.map((k) => (
+            <button
+              key={k.id}
+              type="button"
+              aria-pressed={filtroKanjis === k.id}
+              onClick={() => cambiarFiltroKanjis(k.id)}
+              className={chipFiltro(filtroKanjis === k.id)}
+            >
+              {k.label}
+              <span className="ml-1.5 text-zinc-500">
+                {conteosKanjis[k.id]}
+              </span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {actual && (
