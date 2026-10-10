@@ -14,6 +14,7 @@ const TECHS: Tech[] = [
   { name: "PostgreSQL", channel: "CH-03" },
   { name: "Neon", channel: "CH-04" },
   { name: "Drizzle ORM", channel: "CH-05" },
+  { name: "Better Auth", channel: "CH-06" },
 ];
 
 //paleta expresada como niveles para dibujar barras estilo ecualizador, de mayor a menor
