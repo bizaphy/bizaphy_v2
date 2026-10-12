@@ -1,5 +1,5 @@
 import StatsCard from "@/components/home/StatsCard";
-import Changelog from "@/components/home/Changelog";
+import ActivityHeatmap from "@/components/home/ActivityHeatmap";
 import APILights from "@/components/home/APILights";
 import FraseDelDia from "@/components/home/FraseDelDia";
 import Hero from "@/components/home/Hero";
@@ -29,7 +29,7 @@ export default function Home() {
           <AboutThisPage />
         </div>
         <div className="sm:col-span-3">
-          <Changelog />
+          <ActivityHeatmap />
         </div>
       </div>
     </div>
