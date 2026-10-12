@@ -105,6 +105,43 @@ const chipFiltro = (activo: boolean) =>
       : "border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300"
   }`;
 
+// Interruptor de config de vista (no filtro), usado en "Colores JLPT" y
+// "Furigana".
+function Interruptor({
+  label,
+  activo,
+  onToggle,
+}: {
+  label: string;
+  activo: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={activo}
+      onClick={onToggle}
+      className="flex items-center gap-2 font-mono text-xs tracking-widest text-zinc-400 uppercase hover:text-zinc-200"
+    >
+      {label}
+      <span
+        className={`relative h-4 w-7 rounded-full border transition ${
+          activo
+            ? "border-violet-300 bg-violet-500/40"
+            : "border-zinc-600 bg-zinc-800"
+        }`}
+      >
+        <span
+          className={`absolute top-0.5 left-0.5 h-2.5 w-2.5 rounded-full transition ${
+            activo ? "translate-x-3 bg-violet-100" : "bg-zinc-500"
+          }`}
+        />
+      </span>
+    </button>
+  );
+}
+
 export default function KanjiTrainer() {
   const [vocab, setVocab] = useState<Vocabulario | null>(null);
   const [error, setError] = useState(false);
@@ -114,6 +151,7 @@ export default function KanjiTrainer() {
   const [pos, setPos] = useState(0);
   const [vista, setVista] = useState<Vista>(OCULTO);
   const [colores, setColores] = useState(false);
+  const [furigana, setFurigana] = useState(false);
 
   // El JSON (~850 KB) va en un chunk aparte: se pide al montar el trainer,
   // no al cargar la pagina.
@@ -200,6 +238,7 @@ export default function KanjiTrainer() {
 
   const verSignificado = vista.significado || vista.resuelto;
   const verRomaji = vista.romaji || vista.resuelto;
+  const verFurigana = furigana || vista.resuelto;
 
   return (
     <section className="flex flex-col gap-6 p-4">
@@ -246,31 +285,20 @@ export default function KanjiTrainer() {
           </div>
         </div>
 
-        {/* Config de vista, no filtro: pinta cada kanji con el color de su
-            nivel JLPT. Va aparte, a la derecha, con forma de interruptor. */}
+        {/* Config de vista, no filtro. Va aparte, a la derecha, con forma de
+            interruptor. "Colores JLPT" pinta cada kanji con el color de su
+            nivel; "Furigana" muestra la lectura sin tener que resolver. */}
         <div className="ml-auto flex flex-col items-end gap-2 rounded-md border border-dashed border-zinc-700 px-3 py-2">
-          <button
-            type="button"
-            role="switch"
-            aria-checked={colores}
-            onClick={() => setColores((c) => !c)}
-            className="flex items-center gap-2 font-mono text-xs tracking-widest text-zinc-400 uppercase hover:text-zinc-200"
-          >
-            Colores JLPT
-            <span
-              className={`relative h-4 w-7 rounded-full border transition ${
-                colores
-                  ? "border-violet-300 bg-violet-500/40"
-                  : "border-zinc-600 bg-zinc-800"
-              }`}
-            >
-              <span
-                className={`absolute top-0.5 left-0.5 h-2.5 w-2.5 rounded-full transition ${
-                  colores ? "translate-x-3 bg-violet-100" : "bg-zinc-500"
-                }`}
-              />
-            </span>
-          </button>
+          <Interruptor
+            label="Furigana"
+            activo={furigana}
+            onToggle={() => setFurigana((f) => !f)}
+          />
+          <Interruptor
+            label="Colores JLPT"
+            activo={colores}
+            onToggle={() => setColores((c) => !c)}
+          />
           {colores && (
             <span className="flex gap-3 font-mono text-xs uppercase">
               {LEYENDA_NIVELES.map((n) => (
@@ -296,7 +324,7 @@ export default function KanjiTrainer() {
             </span>
 
             <span
-              className={`font-mono text-lg text-fuchsia-300 ${vista.resuelto ? "" : "invisible"}`}
+              className={`font-mono text-lg text-fuchsia-300 ${verFurigana ? "" : "invisible"}`}
             >
               {actual.furigana}
             </span>
