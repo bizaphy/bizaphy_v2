@@ -249,3 +249,40 @@ input:focus ~ * .cursor-consola {
     filter: none;
   }
 }
+
+/* ##############################  */
+/* `tv-static` — estática de tele al cambiar de canal (ProjectTV).
+   El ruido es un SVG feTurbulence; se mueve a saltos para que parpadee. */
+
+.tv-static {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: tv-static 0.25s steps(4) infinite;
+}
+
+@keyframes tv-static {
+  0% { background-position: 0 0; }
+  25% { background-position: -40px 30px; }
+  50% { background-position: 50px -20px; }
+  75% { background-position: -20px -50px; }
+  100% { background-position: 0 0; }
+}
+
+/* ##############################  */
+/* `post-line` — cada linea del panel BIOS aparece de golpe, en orden,
+   como en el POST de un PC viejo. El retraso va inline por linea. */
+
+.post-line {
+  animation: post-line 0.01s steps(1) both;
+}
+
+@keyframes post-line {
+  from { visibility: hidden; }
+  to { visibility: visible; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tv-static,
+  .post-line {
+    animation: none;
+  }
+}

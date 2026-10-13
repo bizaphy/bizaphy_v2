@@ -1,6 +1,8 @@
 import StatsCard from "@/components/home/StatsCard";
 import ActivityHeatmap from "@/components/home/ActivityHeatmap";
 import APILights from "@/components/home/APILights";
+import ProjectTV from "@/components/home/ProjectTV";
+import SystemPanel from "@/components/home/SystemPanel";
 import FraseDelDia from "@/components/home/FraseDelDia";
 import Hero from "@/components/home/Hero";
 import AboutThisPage from "@/components/home/AboutThisPage";
@@ -24,6 +26,12 @@ export default function Home() {
         </div>
         <div className="sm:col-span-3">
           <FraseDelDia />
+        </div>
+        <div className="sm:col-span-1">
+          <ProjectTV />
+        </div>
+        <div className="sm:col-span-2">
+          <SystemPanel />
         </div>
         <div className="sm:col-span-3">
           <AboutThisPage />
