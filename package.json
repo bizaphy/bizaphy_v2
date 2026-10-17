@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "screenshots": "tsx scripts/screenshots.ts",
-    "screenshots:prod": "tsx scripts/screenshots.ts https://tu-dominio.com",
+    "screenshots:prod": "tsx scripts/screenshots.ts  https://bizaphy.dev",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
