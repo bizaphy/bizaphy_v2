@@ -95,7 +95,7 @@ export default function AboutThisPage() {
         </section>
 
         {/* ---------- PALETA: barras tipo ecualizador ---------- */}
-        <section className="rounded border border-zinc-800 bg-zinc-950 p-3">
+        <section className="flex flex-col rounded border border-zinc-800 bg-zinc-950 p-3">
           <div className="mb-3 flex items-baseline justify-between">
             <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-zinc-500">
               palette · eq
@@ -105,21 +105,23 @@ export default function AboutThisPage() {
             </span>
           </div>
           {/* riel del medidor: lineas horizontales de referencia */}
-          <div className="relative">
+          {/* ocupa toda la altura libre de la seccion; min-h evita que se aplaste en movil */}
+          <div className="relative min-h-28 flex-1 sm:min-h-36 md:min-h-40">
             <div className="pointer-events-none absolute inset-0 flex flex-col justify-between opacity-40">
               {[0, 1, 2, 3].map((i) => (
                 <div key={i} className="h-px w-full bg-zinc-700/50" />
               ))}
             </div>
-            <div className="relative flex h-28 items-stretch justify-between gap-1 sm:h-36 md:h-40">
+            <div className="absolute inset-0 flex justify-between gap-1">
               {PALETTE.map((c) => (
                 <div
                   key={c.label}
                   title={`${c.label} · ${c.value}`}
-                  className="flex flex-1 flex-col justify-end"
+                  className="relative flex-1"
                 >
+                  {/* anclada abajo: el % se calcula sobre la altura real de la columna */}
                   <div
-                    className={`w-full rounded-sm ${c.borde ? "border border-zinc-700" : ""}`}
+                    className={`absolute inset-x-0 bottom-0 rounded-sm ${c.borde ? "border border-zinc-700" : ""}`}
                     style={{
                       height: `${c.level}%`,
                       backgroundColor: c.value,
