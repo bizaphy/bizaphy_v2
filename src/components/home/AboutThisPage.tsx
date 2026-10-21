@@ -6,7 +6,7 @@
 import { useState } from "react";
 
 type Tech = { name: string; channel: string };
-type Swatch = { label: string; value: string; level: number; borde?: boolean }; //level 0-100 para el "medidor" de la paleta; borde: para colores iguales al fondo
+type Swatch = { label: string; value: string; level: number }; //level 0-100 para el "medidor" de la paleta
 
 const TECHS: Tech[] = [
   { name: "Next.js", channel: "CH-01" },
@@ -17,10 +17,10 @@ const TECHS: Tech[] = [
   { name: "Better Auth", channel: "CH-06" },
 ];
 
-//paleta expresada como niveles para dibujar barras estilo ecualizador, de mayor a menor
+//paleta expresada como niveles para dibujar barras estilo ecualizador
 const PALETTE: Swatch[] = [
+  { label: "zinc-950", value: "#09090b", level: 88 },
   { label: "fuchsia-500", value: "#d946ef", level: 92 },
-  { label: "zinc-950", value: "#09090b", level: 88, borde: true }, //mismo color que el fondo del panel
   { label: "fuchsia-400", value: "#e879f9", level: 78 },
   { label: "violet-300", value: "#c4b5fd", level: 65 },
   { label: "zinc-500", value: "#71717a", level: 55 },
@@ -121,7 +121,7 @@ export default function AboutThisPage() {
                 >
                   {/* anclada abajo: el % se calcula sobre la altura real de la columna */}
                   <div
-                    className={`absolute inset-x-0 bottom-0 rounded-sm ${c.borde ? "border border-zinc-700" : ""}`}
+                    className="absolute inset-x-0 bottom-0 rounded-sm"
                     style={{
                       height: `${c.level}%`,
                       backgroundColor: c.value,
