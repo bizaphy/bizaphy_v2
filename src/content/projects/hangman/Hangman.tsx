@@ -1,6 +1,6 @@
 "use client";
 import { useState, useCallback, useEffect } from "react";
-import { WORDS, type WordEntry } from "./words";
+import { WORDS, CONTINENTS, type Continent, type WordEntry } from "./words";
 
 type WikiInfo = {
   image?: string;
@@ -37,13 +37,22 @@ const HINT_PENALTY = 2;
 
 //funciones helpers.
 
-function pickEntry(): WordEntry {
-  return WORDS[Math.floor(Math.random() * WORDS.length)];
+//"todos" o un continente puntual
+type Filter = Continent | "todos";
+
+//elige una capital al azar del filtro, evitando repetir la actual si hay otra opcion.
+function pickEntry(filter: Filter, current?: WordEntry): WordEntry {
+  const pool = WORDS.filter(
+    (w) => filter === "todos" || w.continent === filter,
+  );
+  const options = pool.length > 1 ? pool.filter((w) => w !== current) : pool;
+  return options[Math.floor(Math.random() * options.length)];
 }
 
 //main
 export default function Hangman() {
-  const [entry, setEntry] = useState(() => pickEntry()); //lazy inic. obtiene word + hint.
+  const [filter, setFilter] = useState<Filter>("todos");
+  const [entry, setEntry] = useState(() => pickEntry("todos")); //lazy inic. obtiene word + hint.
   const secretWord = entry.word;
   const [guessedLetters, setGuessedLetters] = useState<Set<string>>(new Set()); //set inicial vacio.
   const [hintRevealed, setHintRevealed] = useState(false);
@@ -76,13 +85,43 @@ export default function Hangman() {
     [guessedLetters, isWon, isLost],
   );
 
-  //resetea. nueva palabra y vacia el set.
-  const handleRestart = useCallback(() => {
-    setEntry(pickEntry());
-    setGuessedLetters(new Set());
-    setHintRevealed(false);
-    setWikiInfo(null);
-  }, []);
+  //resetea. nueva palabra del filtro elegido y vacia el set.
+  const startRound = useCallback(
+    (nextFilter: Filter) => {
+      setEntry(pickEntry(nextFilter, entry));
+      setGuessedLetters(new Set());
+      setHintRevealed(false);
+      setWikiInfo(null);
+    },
+    [entry],
+  );
+
+  const handleRestart = useCallback(
+    () => startRound(filter),
+    [startRound, filter],
+  );
+
+  //cambiar de continente arranca una ronda nueva con ese filtro.
+  function handleFilter(nextFilter: Filter) {
+    setFilter(nextFilter);
+    startRound(nextFilter);
+  }
+
+  //teclado fisico: letras para adivinar, Enter para jugar otra al terminar.
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.ctrlKey || e.metaKey || e.altKey) return; //no pisar atajos del navegador
+      const key = e.key.toLowerCase();
+      if (ALPHABET.includes(key)) {
+        handleGuess(key);
+      } else if (key === "enter" && (isWon || isLost)) {
+        e.preventDefault(); //evita que Enter "clickee" el boton enfocado
+        handleRestart();
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [handleGuess, handleRestart, isWon, isLost]);
 
   //al ganar, consulta la api de wikipedia para traer miniatura y url canonica.
   useEffect(() => {
@@ -111,6 +150,26 @@ export default function Hangman() {
 
   return (
     <section className="flex flex-col items-center gap-8 py-10">
+      {/* FILTRO POR CONTINENTE */}
+      <div className="flex flex-wrap justify-center gap-2">
+        {[{ value: "todos" as const, label: "Todos" }, ...CONTINENTS].map(
+          (c) => (
+            <button
+              key={c.value}
+              onClick={() => handleFilter(c.value)}
+              aria-pressed={filter === c.value}
+              className={`rounded border px-3 py-1 text-xs tracking-wider uppercase transition ${
+                filter === c.value
+                  ? "border-fuchsia-500 bg-fuchsia-900/60 text-fuchsia-300"
+                  : "border-zinc-700 bg-zinc-900 text-zinc-400 hover:border-fuchsia-500 hover:text-fuchsia-300"
+              }`}
+            >
+              {c.label}
+            </button>
+          ),
+        )}
+      </div>
+
       {/* STATUS TEXT*/}
       <p
         className={`text-lg font-semibold transition ${
@@ -122,6 +181,11 @@ export default function Hangman() {
         }`}
       >
         {statusText}
+      </p>
+      <p className="-mt-6 text-xs text-zinc-600">
+        {gameStatus === "playing"
+          ? "Puedes usar tu teclado"
+          : "Presiona Enter para otra capital"}
       </p>
 
       {/* Slot principal: dibujo del ahorcado / imagen wikipedia al ganar */}
