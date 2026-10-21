@@ -5,9 +5,18 @@ type Certification = {
 };
 
 //lista de certificaciones. Se edita a mano al ir sumando cursos.
-//Fuentes previstas: Coursera y bootcamp Full Stack React de Desafio Latam.
+//Todas enlazan a la seccion de certificaciones del perfil de LinkedIn.
+const LINKEDIN_CERTS_URL =
+  "https://www.linkedin.com/in/bizaphy/details/certifications/";
+
 const CERTIFICATIONS: Certification[] = [
-  // { name: "Full Stack JavaScript React", issuer: "Desafio Latam", url: "..." },
+  { name: "Crash Course on Python", issuer: "Google", url: LINKEDIN_CERTS_URL },
+  { name: "Google AI Essentials", issuer: "Google", url: LINKEDIN_CERTS_URL },
+  {
+    name: "Desarrollador Full Stack JavaScript",
+    issuer: "Desafío Latam",
+    url: LINKEDIN_CERTS_URL,
+  },
 ];
 
 export default function Certifications() {
