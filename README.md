@@ -13,12 +13,10 @@ Portafolio personal hecho con Next.js (App Router). Reúne una sección **About 
 
 | Slug | Título | Descripción |
 |---|---|---|
-| `habit-tracker` | Sistema de hábitos | Webapp para practicar un sistema de hábitos, con puntajes. |
 | `apothecary` | Boticaria CL | Información de plantas y fitofármacos. |
 | `weather-dashboard` | Clima mundial | Reloj mundial en tiempo real con algunas ciudades del mundo. |
 | `all-about-kanjis` | All About Kanjis | Información para estudiar cada kanji del JLPT (usa la base de datos). |
 | `hangman` | Hangman (Capitales) | Adivina la capital del país antes de que el ahorcado se complete. |
-| `pokedex` | Pokedex | Busca pokémon por nombre, guarda favoritos y revisa tu historial. |
 
 Cada proyecto se ve en `/projects/<slug>`.
 

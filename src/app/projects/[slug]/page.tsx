@@ -9,15 +9,12 @@ const componentLoaders: Record<
   ProjectSlug,
   () => Promise<{ default: ComponentType }>
 > = {
-  "habit-tracker": () =>
-    import("@/content/projects/habit-tracker/HabitTracker"),
   apothecary: () => import("@/content/projects/apothecary/Apothecary"),
   "weather-dashboard": () =>
     import("@/content/projects/weather-dashboard/WeatherDashboard"),
   "all-about-kanjis": () =>
     import("@/content/projects/all-about-kanjis/AllAboutKanjis"),
   hangman: () => import("@/content/projects/hangman/Hangman"),
-  pokedex: () => import("@/content/projects/pokedex/Pokedex"),
 };
 
 type PageProps = {

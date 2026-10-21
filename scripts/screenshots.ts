@@ -5,12 +5,10 @@ import fs from "fs";
 const BASE_URL = process.argv[2] ?? "http://localhost:3000";
 
 const PROJECTS = [
-  { slug: "habit-tracker", title: "Habit Tracker" },
   { slug: "apothecary", title: "Apothecary" },
   { slug: "weather-dashboard", title: "Weather Dashboard" },
   { slug: "all-about-kanjis", title: "All About Kanjis" },
   { slug: "hangman", title: "Hangman" },
-  { slug: "pokedex", title: "Pokedex" },
 ];
 
 const OUTPUT_DIR = path.join(
