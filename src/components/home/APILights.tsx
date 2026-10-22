@@ -13,12 +13,9 @@ type APIEntry = {
 
 const APIS: APIEntry[] = [
   {
+    //la usa Weather Dashboard
     name: "Open-Meteo",
     url: "https://api.open-meteo.com/v1/forecast?latitude=0&longitude=0&current=temperature_2m",
-  },
-  {
-    name: "PokéAPI",
-    url: "https://pokeapi.co/api/v2/pokemon/1",
   },
   {
     //REST summary de Wikipedia en español (la usa Hangman al ganar para traer imagen + link)
@@ -56,7 +53,7 @@ const statusLabel: Record<Status, string> = {
 };
 
 export default function APILights() {
-  //la string corresponde a la API (open meteo, pokeapi, etc)
+  //la string corresponde a la API (open meteo, wikipedia, etc)
   const [statuses, setStatuses] = useState<Record<string, Status>>(
     Object.fromEntries(APIS.map((api) => [api.name, "loading"])),
   );

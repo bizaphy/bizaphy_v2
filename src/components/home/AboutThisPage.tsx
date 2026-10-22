@@ -225,7 +225,7 @@ export default function AboutThisPage() {
       <div className="flex items-center justify-between border-t border-zinc-700 bg-zinc-900 px-4 py-1.5">
         <Screw />
         <span className="font-mono text-[8px] uppercase tracking-[0.4em] text-zinc-700">
-          neon · drizzle · next 15
+          neon · drizzle · next 16
         </span>
         <Screw />
       </div>
