@@ -1,5 +1,6 @@
 import type { ComponentType } from "react";
 import Image from "next/image";
+import { redirect } from "next/navigation";
 import { projectsMeta, type ProjectSlug } from "@/content/projects";
 import ProjectTitle from "@/components/ui/ProjectTitle";
 
@@ -24,6 +25,10 @@ type PageProps = {
 export default async function ProjectSlugPage(props: PageProps) {
   const { slug } = await props.params;
   const entry = projectsMeta.find((p) => p.slug === slug);
+
+  //un proyecto externo no se renderiza aca: se manda directo al repositorio
+  if (entry?.variant === "externo") redirect(entry.url);
+
   const loader = entry
     ? componentLoaders[entry.slug as ProjectSlug]
     : undefined;

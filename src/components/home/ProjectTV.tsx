@@ -6,7 +6,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { projectsMeta } from "@/content/projects";
+import { internalProjects } from "@/content/projects";
 
 //cuanto dura la estatica entre canales
 const STATIC_MS = 350;
@@ -20,8 +20,9 @@ export default function ProjectTV() {
 
   useEffect(() => () => clearTimeout(timer.current), []);
 
-  const total = projectsMeta.length;
-  const proyecto = projectsMeta[canal];
+  //solo los proyectos del sitio: los externos no tienen captura ni pagina propia
+  const total = internalProjects.length;
+  const proyecto = internalProjects[canal];
 
   const cambiar = (paso: 1 | -1) => {
     //el canal cambia de inmediato, pero queda tapado por la estatica
