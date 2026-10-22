@@ -7,7 +7,7 @@ type Hobby = {
   name: string;
   icon: React.ReactNode;
   image?: string; //imagen/gif que se despliega al seleccionar (opcional mientras no haya asset)
-  note: string; //texto chico abajo cuando el hobby esta seleccionado
+  note: string; //texto chico bajo la imagen del preview cuando el hobby esta seleccionado
 };
 
 //iconos inline (stroke-only, hereda color) para no depender de assets externos
@@ -163,7 +163,7 @@ export default function Hobbies() {
               <span className="font-mono text-sm text-fuchsia-200">
                 {selectedHobby.name}
               </span>
-              <span className="font-mono text-[10px] leading-snug text-zinc-500 italic">
+              <span className="font-mono text-[10px] leading-snug text-white italic">
                 — {selectedHobby.note}
               </span>
             </div>
@@ -209,13 +209,6 @@ export default function Hobbies() {
                 >
                   {hobby.name}
                 </span>
-
-                {/* Nota (planeado): solo cuando el card esta seleccionado */}
-                {isSelected && (
-                  <span className="font-mono text-[10px] leading-snug text-zinc-500 italic">
-                    — {hobby.note}
-                  </span>
-                )}
               </button>
             );
           })}
