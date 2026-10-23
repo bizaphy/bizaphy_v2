@@ -1,85 +1,180 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Interruptor from "./Interruptor";
-import gramaticaJson from "../data/gramatica.json";
-import ejerciciosJson from "../data/ejercicios-gramatica.json";
+import { FiltroNivel, TarjetaEstructura, TarjetaTexto } from "./GramaticaUI";
+import {
+  FILTROS,
+  barajar,
+  botonBase,
+  cargarEstructuras,
+  estiloOpcion,
+  type Estructura,
+  type Filtro,
+  type Nivel,
+} from "./gramatica";
 
-type Estructura = {
-  patron: string;
-  forma: string;
-  nivel: string;
-  significado: string;
-  conexion: string[];
+type Opcion = {
+  texto: string;
+  // Estructura del catalogo a la que corresponde la opcion, si la hay.
+  estructura?: string;
+  nota?: string;
 };
-
-// Un segmento es texto (con lectura opcional para furigana) o el hueco
-// donde va la estructura a elegir.
-type Segmento = { t?: string; r?: string; hueco?: boolean };
 
 type Ejercicio = {
   id: string;
-  nivel: string;
-  oracion: Segmento[];
+  estructura: string;
+  nivel: Nivel;
+  antes: string;
+  hueco: string;
+  despues: string;
+  // Lectura cortada en el hueco; falta cuando el corte seria ambiguo.
+  lecturaAntes?: string;
+  lecturaDespues?: string;
+  lectura: string;
   traduccion: string;
-  opciones: string[];
-  correcta: string;
-  explicaciones: Record<string, string>;
+  // Ejemplo de la estructura del que salio la oracion.
+  ejemplo?: number;
+  // Explicacion propia de la respuesta correcta (ejercicios hechos a mano).
+  nota?: string;
+  opciones: Opcion[];
 };
 
-// TS infiere un tipo distinto por cada objeto del JSON (con claves que
-// faltan en unos y sobran en otros), asi que se pasa por `unknown`.
-const gramatica = gramaticaJson as Record<string, Estructura>;
-const ejercicios = ejerciciosJson as unknown as Ejercicio[];
+// Una pregunta de la cola: el ejercicio con sus opciones ya barajadas, para
+// que no cambien de orden en cada render.
+type Pregunta = {
+  ejercicio: Ejercicio;
+  opciones: (Opcion & { correcta: boolean })[];
+};
 
-const botonBase =
-  "rounded-md border px-4 py-2 font-mono text-xs tracking-widest uppercase transition";
-
-const estiloOpcion = (estado: "normal" | "fallada" | "correcta") =>
-  ({
-    normal:
-      "border-violet-300/50 bg-zinc-900/80 text-zinc-100 hover:border-violet-300 hover:shadow-[0_0_10px_rgba(196,181,253,0.4)]",
-    fallada: "border-rose-500/60 bg-rose-500/10 text-rose-300 line-through",
-    correcta:
-      "border-emerald-400 bg-emerald-500/15 text-emerald-200 shadow-[0_0_10px_rgba(52,211,153,0.4)]",
-  })[estado];
+const armarCola = (ejercicios: Ejercicio[], filtro: Filtro): Pregunta[] =>
+  barajar(
+    ejercicios.filter((e) => filtro === "todos" || e.nivel === filtro),
+  ).map((ejercicio) => ({
+    ejercicio,
+    opciones: barajar([
+      {
+        texto: ejercicio.hueco,
+        estructura: ejercicio.estructura,
+        nota: ejercicio.nota,
+        correcta: true,
+      },
+      ...ejercicio.opciones.map((o) => ({ ...o, correcta: false })),
+    ]),
+  }));
 
 export default function GrammarBeta() {
+  const [estructuras, setEstructuras] = useState<Map<
+    string,
+    Estructura
+  > | null>(null);
+  const [ejercicios, setEjercicios] = useState<Ejercicio[] | null>(null);
+  const [error, setError] = useState(false);
+  const [filtro, setFiltro] = useState<Filtro>("todos");
+  const [cola, setCola] = useState<Pregunta[]>([]);
   const [pos, setPos] = useState(0);
-  // Opciones ya intentadas: las incorrectas quedan marcadas y bloqueadas.
-  const [intentadas, setIntentadas] = useState<string[]>([]);
+  // Indices de las opciones ya intentadas: las incorrectas quedan bloqueadas.
+  const [intentadas, setIntentadas] = useState<number[]>([]);
   const [furigana, setFurigana] = useState(false);
 
-  const ejercicio = ejercicios[pos];
-  const resuelto = intentadas.includes(ejercicio.correcta);
-  const verFurigana = furigana || resuelto;
+  useEffect(() => {
+    let vivo = true;
+    Promise.all([
+      cargarEstructuras(),
+      import("../data/ejercicios-gramatica.json"),
+    ])
+      .then(([est, m]) => {
+        if (!vivo) return;
+        const ej = m.default as unknown as Ejercicio[];
+        setEstructuras(est);
+        setEjercicios(ej);
+        setCola(armarCola(ej, "todos"));
+      })
+      .catch(() => vivo && setError(true));
+    return () => {
+      vivo = false;
+    };
+  }, []);
 
-  const elegir = (id: string) => {
-    if (resuelto || intentadas.includes(id)) return;
-    setIntentadas([...intentadas, id]);
-  };
+  const conteos = useMemo(() => {
+    if (!ejercicios) return null;
+    return Object.fromEntries(
+      FILTROS.map((f) => [
+        f.id,
+        ejercicios.filter((e) => f.id === "todos" || e.nivel === f.id).length,
+      ]),
+    ) as Record<Filtro, number>;
+  }, [ejercicios]);
 
-  const siguiente = () => {
-    setPos((pos + 1) % ejercicios.length);
+  if (error) {
+    return (
+      <p className="p-4 font-mono text-sm text-zinc-400">
+        No se pudieron cargar los ejercicios.
+      </p>
+    );
+  }
+  if (!estructuras || !ejercicios || !conteos) {
+    return (
+      <p className="animate-pulse p-4 font-mono text-sm tracking-widest text-fuchsia-300 uppercase">
+        cargando ejercicios
+      </p>
+    );
+  }
+
+  const pregunta = cola[pos];
+  if (!pregunta) return null;
+  const { ejercicio, opciones } = pregunta;
+  const indiceCorrecta = opciones.findIndex((o) => o.correcta);
+  const resuelto = intentadas.includes(indiceCorrecta);
+  const tieneCorte = ejercicio.lecturaAntes !== undefined;
+
+  const cambiarFiltro = (f: Filtro) => {
+    if (f === filtro) return;
+    setFiltro(f);
+    setCola(armarCola(ejercicios, f));
+    setPos(0);
     setIntentadas([]);
   };
 
-  // La correcta va primero en la explicacion; el resto en el orden del
-  // ejercicio.
+  const elegir = (i: number) => {
+    if (resuelto || intentadas.includes(i)) return;
+    setIntentadas([...intentadas, i]);
+  };
+
+  const siguiente = () => {
+    if (pos + 1 < cola.length) {
+      setPos(pos + 1);
+    } else {
+      // Cola agotada: se vuelve a barajar y arranca otra vuelta.
+      setCola(armarCola(ejercicios, filtro));
+      setPos(0);
+    }
+    setIntentadas([]);
+  };
+
+  // La correcta va primero en la explicacion; el resto en el orden en que
+  // aparecieron.
   const ordenExplicacion = [
-    ejercicio.correcta,
-    ...ejercicio.opciones.filter((o) => o !== ejercicio.correcta),
+    opciones[indiceCorrecta],
+    ...opciones.filter((o) => !o.correcta),
   ];
+  const estructuraCorrecta = estructuras.get(ejercicio.estructura);
 
   return (
     <section className="flex flex-col gap-6 p-4">
-      {/* Config de vista, a la derecha como en el trainer */}
-      <div className="ml-auto rounded-md border border-dashed border-zinc-700 px-3 py-2">
-        <Interruptor
-          label="Furigana"
-          activo={furigana}
-          onToggle={() => setFurigana((f) => !f)}
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <FiltroNivel
+          activo={filtro}
+          conteos={conteos}
+          onCambiar={cambiarFiltro}
         />
+        <div className="ml-auto rounded-md border border-dashed border-zinc-700 px-3 py-2">
+          <Interruptor
+            label="Furigana"
+            activo={furigana}
+            onToggle={() => setFurigana((f) => !f)}
+          />
+        </div>
       </div>
 
       <div className="relative flex flex-col items-center gap-4 rounded-md border border-fuchsia-400/50 bg-zinc-900/60 px-4 py-10 shadow-[0_0_14px_rgba(217,70,239,0.2)]">
@@ -87,34 +182,37 @@ export default function GrammarBeta() {
           {ejercicio.nivel}
         </span>
         <span className="absolute top-3 right-3 font-mono text-[10px] tracking-widest text-zinc-500">
-          {pos + 1} / {ejercicios.length}
+          {pos + 1} / {cola.length}
         </span>
 
         <p className="font-mono text-xs tracking-widest text-zinc-500 uppercase">
           つぎの文の（　）に入れるのに最もよいものを選びなさい
         </p>
 
-        {/* El furigana reserva su alto aunque este oculto: se muestra con el
-            interruptor o al resolver, igual que en el trainer. */}
-        <p className="text-center text-2xl leading-loose text-zinc-50 sm:text-3xl">
-          {ejercicio.oracion.map((s, i) =>
-            s.hueco ? (
-              <span key={i} className="mx-1 text-pink-400">
-                {resuelto ? gramatica[ejercicio.correcta].forma : "＿＿＿＿"}
-              </span>
-            ) : s.r ? (
-              <ruby key={i}>
-                {s.t}
-                <rt
-                  className={`text-xs text-fuchsia-300 ${verFurigana ? "" : "invisible"}`}
-                >
-                  {s.r}
-                </rt>
-              </ruby>
-            ) : (
-              <span key={i}>{s.t}</span>
-            ),
+        {/* La lectura reserva su alto aunque este oculta. Antes de resolver
+            solo se puede mostrar si se pudo cortar en el hueco. */}
+        <p
+          className={`text-center font-mono text-sm text-fuchsia-300 ${
+            resuelto || (furigana && tieneCorte) ? "" : "invisible"
+          }`}
+        >
+          {resuelto ? (
+            ejercicio.lectura
+          ) : (
+            <>
+              {ejercicio.lecturaAntes}
+              <span className="text-pink-400">＿＿</span>
+              {ejercicio.lecturaDespues}
+            </>
           )}
+        </p>
+
+        <p className="text-center text-2xl leading-loose text-zinc-50 sm:text-3xl">
+          {ejercicio.antes}
+          <span className="mx-1 text-pink-400">
+            {resuelto ? ejercicio.hueco : "＿＿＿＿"}
+          </span>
+          {ejercicio.despues}
         </p>
 
         <p
@@ -126,23 +224,23 @@ export default function GrammarBeta() {
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {ejercicio.opciones.map((id, i) => {
+        {opciones.map((o, i) => {
           const estado =
-            resuelto && id === ejercicio.correcta
+            resuelto && o.correcta
               ? "correcta"
-              : intentadas.includes(id)
+              : intentadas.includes(i)
                 ? "fallada"
                 : "normal";
           return (
             <button
-              key={id}
+              key={o.texto}
               type="button"
-              disabled={resuelto || intentadas.includes(id)}
-              onClick={() => elegir(id)}
+              disabled={resuelto || intentadas.includes(i)}
+              onClick={() => elegir(i)}
               className={`flex items-center gap-3 rounded-md border px-4 py-3 text-left text-lg transition disabled:cursor-default ${estiloOpcion(estado)}`}
             >
               <span className="font-mono text-xs text-zinc-500">{i + 1}</span>
-              {gramatica[id].forma}
+              {o.texto}
             </button>
           );
         })}
@@ -156,47 +254,27 @@ export default function GrammarBeta() {
 
       {resuelto && (
         <div className="flex flex-col gap-3">
-          {ordenExplicacion.map((id) => {
-            const e = gramatica[id];
-            const esCorrecta = id === ejercicio.correcta;
-            return (
-              <div
-                key={id}
-                className={`flex flex-col gap-2 rounded-md border bg-zinc-900/60 p-4 ${
-                  esCorrecta ? "border-emerald-400/60" : "border-zinc-700"
-                }`}
-              >
-                <div className="flex items-baseline gap-3">
-                  <span
-                    className={`text-xl ${esCorrecta ? "text-emerald-300" : "text-zinc-100"}`}
-                  >
-                    {e.patron}
-                  </span>
-                  <span
-                    className={`font-mono text-[10px] tracking-widest uppercase ${
-                      esCorrecta ? "text-emerald-400" : "text-zinc-500"
-                    }`}
-                  >
-                    {esCorrecta ? "Correcta" : "Incorrecta"}
-                  </span>
-                </div>
-                <p className="text-sm text-zinc-400">{e.significado}</p>
-                <p className="text-sm text-zinc-200">
-                  {ejercicio.explicaciones[id]}
-                </p>
-                <div className="flex flex-col gap-1">
-                  <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
-                    Estructura base
-                  </span>
-                  <ul className="flex flex-col gap-0.5 font-mono text-xs text-violet-200">
-                    {e.conexion.map((c) => (
-                      <li key={c}>{c}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+          {ordenExplicacion.map((o) => {
+            const est = o.estructura
+              ? estructuras.get(o.estructura)
+              : undefined;
+            return est ? (
+              <TarjetaEstructura
+                key={o.texto}
+                estructura={est}
+                correcta={o.correcta}
+                nota={o.nota}
+                conEjemplos={o.correcta}
+              />
+            ) : (
+              <TarjetaTexto key={o.texto} texto={o.texto} nota={o.nota} />
             );
           })}
+          {!estructuraCorrecta && (
+            <p className="font-mono text-xs text-zinc-500">
+              No se encontró la estructura {ejercicio.estructura}.
+            </p>
+          )}
         </div>
       )}
 
