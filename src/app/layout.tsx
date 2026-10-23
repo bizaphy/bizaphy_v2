@@ -21,7 +21,19 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
+    // data-theme: oscuro por defecto. suppressHydrationWarning porque el
+    // script del <head> puede cambiarlo a "light" antes de que React hidrate.
+    <html lang="es" data-theme="dark" suppressHydrationWarning>
+      <head>
+        {/* Aplica el tema guardado mientras se lee el HTML, antes del primer
+            pintado: asi no se ve un destello oscuro al cargar en modo claro.
+            La clave "tema" es la misma que usa ThemeToggle. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{if(localStorage.getItem("tema")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}})()`,
+          }}
+        />
+      </head>
       <body
         className={`${oxanium.className} antialiased min-h-screen flex flex-col`}
       >

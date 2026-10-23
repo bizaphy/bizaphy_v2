@@ -6,7 +6,7 @@ const TIPOS = [
     nombre: "Destacado",
     detalle: "Proyectos principales, con la paleta de All About Kanjis.",
     muestra:
-      "border-white/70 bg-pink-300/20 shadow-[0_0_12px_rgba(255,255,255,0.35)]",
+      "border-white/70 bg-pink-300/20 shadow-[0_0_12px_rgba(255,255,255,0.35)] claro:border-pink-400/70 claro:bg-pink-950",
     texto: "text-pink-200",
   },
   {

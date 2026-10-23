@@ -3,10 +3,12 @@
 //panel con estetica de stereo analogico: placa metalica + LEDs + medidor tipo VU + dial
 //muestra el stack, la paleta de colores y la tipografia de la pagina
 
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 
 type Tech = { name: string; channel: string };
-type Swatch = { label: string; value: string; level: number }; //level 0-100 para el "medidor" de la paleta
+//level 0-100 para el "medidor" de la paleta. `claro` es el mismo papel en
+//el tema claro "Pastel Chic" (ver app/tema-claro.css).
+type Swatch = { label: string; value: string; claro: string; level: number };
 
 const TECHS: Tech[] = [
   { name: "Next.js", channel: "CH-01" },
@@ -19,15 +21,15 @@ const TECHS: Tech[] = [
 
 //paleta expresada como niveles para dibujar barras estilo ecualizador
 const PALETTE: Swatch[] = [
-  { label: "zinc-950", value: "#09090b", level: 88 },
-  { label: "fuchsia-500", value: "#d946ef", level: 92 },
-  { label: "fuchsia-400", value: "#e879f9", level: 78 },
-  { label: "violet-300", value: "#c4b5fd", level: 65 },
-  { label: "zinc-500", value: "#71717a", level: 55 },
-  { label: "zinc-300", value: "#d4d4d8", level: 40 },
-  { label: "green-400", value: "#4ade80", level: 30 },
-  { label: "yellow-400", value: "#facc15", level: 22 },
-  { label: "red-500", value: "#ef4444", level: 18 },
+  { label: "zinc-950", value: "#09090b", claro: "#f7f7f9", level: 88 }, // fondo / hueso
+  { label: "fuchsia-500", value: "#d946ef", claro: "#d27fc0", level: 92 }, // fucsia pastel
+  { label: "fuchsia-400", value: "#e879f9", claro: "#f3cdea", level: 78 }, // rosa empolvado
+  { label: "violet-300", value: "#c4b5fd", claro: "#a394cf", level: 65 }, // lavanda
+  { label: "zinc-500", value: "#71717a", claro: "#18181b", level: 55 }, // texto / carbon
+  { label: "zinc-300", value: "#d4d4d8", claro: "#d6d6de", level: 40 }, // bordes
+  { label: "green-400", value: "#4ade80", claro: "#9fd8b8", level: 30 }, // menta
+  { label: "yellow-400", value: "#facc15", claro: "#f2dc8c", level: 22 }, // mantequilla
+  { label: "red-500", value: "#ef4444", claro: "#f2a3a3", level: 18 }, // coral
 ];
 
 //tornillo estilizado para los angulos de la placa
@@ -116,16 +118,23 @@ export default function AboutThisPage() {
               {PALETTE.map((c) => (
                 <div
                   key={c.label}
-                  title={`${c.label} · ${c.value}`}
+                  title={`${c.label} · ${c.value} / ${c.claro}`}
                   className="relative flex-1"
                 >
                   {/* anclada abajo: el % se calcula sobre la altura real de la columna */}
+                  {/* El color se elige con CSS (claro:) y no con JS: asi
+                      no se ven las barras neon un instante al cargar en
+                      modo claro. El borde solo hace falta en claro, donde
+                      la barra del fondo es del mismo color que la seccion. */}
                   <div
-                    className="absolute inset-x-0 bottom-0 rounded-sm"
-                    style={{
-                      height: `${c.level}%`,
-                      backgroundColor: c.value,
-                    }}
+                    className="absolute inset-x-0 bottom-0 rounded-sm bg-(--oscuro) transition-colors duration-300 claro:bg-(--claro) claro:ring-1 claro:ring-zinc-700 claro:ring-inset"
+                    style={
+                      {
+                        height: `${c.level}%`,
+                        "--oscuro": c.value,
+                        "--claro": c.claro,
+                      } as CSSProperties
+                    }
                   />
                 </div>
               ))}
@@ -138,7 +147,12 @@ export default function AboutThisPage() {
                 key={c.label}
                 className="flex-1 text-center font-mono text-[7px] tracking-wider text-zinc-600"
               >
-                {c.value.replace("#", "").slice(0, 3)}
+                <span className="claro:hidden">
+                  {c.value.replace("#", "").slice(0, 3)}
+                </span>
+                <span className="hidden claro:inline">
+                  {c.claro.replace("#", "").slice(0, 3)}
+                </span>
               </span>
             ))}
           </div>
@@ -168,7 +182,9 @@ export default function AboutThisPage() {
                 <span
                   key={deg}
                   className="absolute top-1/2 left-1/2 h-full w-0.5 -translate-x-1/2 -translate-y-1/2"
-                  style={{ transform: `translate(-50%,-50%) rotate(${deg}deg)` }}
+                  style={{
+                    transform: `translate(-50%,-50%) rotate(${deg}deg)`,
+                  }}
                 >
                   <span className="mx-auto block h-1.5 w-0.5 bg-fuchsia-400/70" />
                 </span>

@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "./tema-claro.css";
+
+/* Variante para ajustes puntuales del tema claro: claro:border-pink-400 */
+@custom-variant claro (&:where([data-theme="light"], [data-theme="light"] *));
 
 :root {
   --background: #000000;

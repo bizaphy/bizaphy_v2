@@ -108,6 +108,15 @@ export default function DigitalRain({ opacity = 0.1 }: DigitalRainProps) {
      * @param now - Timestamp del requestAnimationFrame.
      */
     const draw = (now: number) => {
+      // En modo claro no hay fondo animado: las letras sobre blanco se veian
+      // como manchas. Se revisa en cada frame para seguir al interruptor; el
+      // canvas queda vacio y la animacion vuelve sola al pasar a oscuro.
+      if (document.documentElement.dataset.theme === "light") {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        animationId = requestAnimationFrame(draw);
+        return;
+      }
+
       ctx.fillStyle = "rgba(0, 0, 0, 0.12)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 

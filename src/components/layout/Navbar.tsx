@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AccountButton from "../ui/AccountButton";
+import ThemeToggle from "../ui/ThemeToggle";
 
 export default function Navbar() {
   return (
@@ -11,7 +12,7 @@ export default function Navbar() {
         <span className="neon-led inline-block h-2 w-2 rounded-full bg-fuchsia-500" />
         bizaphy
       </Link>
-      <div className="ml-auto flex gap-5">
+      <div className="ml-auto flex items-center gap-5">
         <Link href="/about-me" className="neon-link">
           <span className="text-fuchsia-500">&gt;</span>
           About me
@@ -26,6 +27,9 @@ export default function Navbar() {
           <span className="text-fuchsia-500">&gt;</span>
           Projects
         </Link>
+
+        {/* Modo oscuro neon / modo claro pastel */}
+        <ThemeToggle />
 
         {/* Cuenta al estilo buddy icon de MSN. Lleva a la futura pagina de auth. */}
         <AccountButton />

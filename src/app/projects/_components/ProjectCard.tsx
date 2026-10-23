@@ -24,7 +24,7 @@ export default function ProjectCard({
   const isExterno = variant === "externo";
 
   const articleClasses = isDestacado
-    ? "border-white/70 group-hover:border-white group-hover:shadow-[0_0_28px_rgba(255,255,255,0.35)]"
+    ? "border-white/70 group-hover:border-white group-hover:shadow-[0_0_28px_rgba(255,255,255,0.35)] claro:border-pink-400/70 claro:group-hover:border-pink-400"
     : isExterno
       ? "border-cyan-300/60 group-hover:border-cyan-300 group-hover:shadow-[0_0_24px_rgba(34,211,238,0.5)]"
       : "border-violet-300/40 group-hover:border-violet-300 group-hover:shadow-[0_0_24px_rgba(196,181,253,0.4)]";
