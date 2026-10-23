@@ -2,31 +2,28 @@
 
 import { useState, type ReactNode } from "react";
 
-type Tab = "explorador" | "trainer" | "grammar";
+type Tab = "explorador" | "trainer" | "grammar" | "grammarV2";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "explorador", label: "Explorador" },
   { id: "trainer", label: "KanjiTrainer" },
-  { id: "grammar", label: "Grammar Beta" },
+  { id: "grammar", label: "Grammar" },
+  { id: "grammarV2", label: "Grammar V2" },
 ];
 
-type Props = {
-  explorador: ReactNode;
-  trainer: ReactNode;
-  grammar: ReactNode;
-};
+type Props = Record<Tab, ReactNode>;
 
-// Pestanas de la pagina. Ambos paneles quedan montados (ocultos con `hidden`)
-// para no perder el kanji elegido ni la palabra actual al cambiar de pestana.
-// El trainer se monta recien la primera vez que se abre: asi el JSON de
-// vocabulario solo se descarga si alguien lo usa.
-export default function KanjiTabs({ explorador, trainer, grammar }: Props) {
+// Pestanas de la pagina. Los paneles quedan montados (ocultos con `hidden`)
+// para no perder el estado al cambiar de pestana. Todos menos el explorador
+// se montan recien la primera vez que se abren: asi sus JSON (vocabulario,
+// ejercicios, ejemplos de gramatica) solo se descargan si alguien los usa.
+export default function KanjiTabs(props: Props) {
   const [activa, setActiva] = useState<Tab>("explorador");
-  const [trainerMontado, setTrainerMontado] = useState(false);
+  const [montadas, setMontadas] = useState<Tab[]>(["explorador"]);
 
   const abrir = (tab: Tab) => {
     setActiva(tab);
-    if (tab === "trainer") setTrainerMontado(true);
+    if (!montadas.includes(tab)) setMontadas([...montadas, tab]);
   };
 
   return (
@@ -34,7 +31,7 @@ export default function KanjiTabs({ explorador, trainer, grammar }: Props) {
       <div
         role="tablist"
         aria-label="Secciones de All About Kanjis"
-        className="flex gap-2 border-b border-zinc-800 px-4"
+        className="flex flex-wrap gap-2 border-b border-zinc-800 px-4"
       >
         {TABS.map((t) => {
           const seleccionada = activa === t.id;
@@ -59,31 +56,18 @@ export default function KanjiTabs({ explorador, trainer, grammar }: Props) {
         })}
       </div>
 
-      <div
-        role="tabpanel"
-        id="panel-explorador"
-        aria-labelledby="tab-explorador"
-        hidden={activa !== "explorador"}
-        className="flex flex-col gap-6"
-      >
-        {explorador}
-      </div>
-      <div
-        role="tabpanel"
-        id="panel-trainer"
-        aria-labelledby="tab-trainer"
-        hidden={activa !== "trainer"}
-      >
-        {trainerMontado && trainer}
-      </div>
-      <div
-        role="tabpanel"
-        id="panel-grammar"
-        aria-labelledby="tab-grammar"
-        hidden={activa !== "grammar"}
-      >
-        {grammar}
-      </div>
+      {TABS.map((t) => (
+        <div
+          key={t.id}
+          role="tabpanel"
+          id={`panel-${t.id}`}
+          aria-labelledby={`tab-${t.id}`}
+          hidden={activa !== t.id}
+          className={t.id === "explorador" ? "flex flex-col gap-6" : undefined}
+        >
+          {montadas.includes(t.id) && props[t.id]}
+        </div>
+      ))}
     </div>
   );
 }

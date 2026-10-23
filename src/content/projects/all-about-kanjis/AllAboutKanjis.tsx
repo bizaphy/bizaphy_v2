@@ -2,6 +2,7 @@ import KanjiExplorer from "./components/KanjiExplorer";
 import KanjiTabs from "./components/KanjiTabs";
 import KanjiTrainer from "./components/KanjiTrainer";
 import GrammarBeta from "./components/GrammarBeta";
+import GrammarV2 from "./components/GrammarV2";
 import { listarKanjisPorNivel } from "./db/queries";
 import Info, { infoLinkClass } from "@/components/ui/Info";
 import BackToTopDots from "@/components/ui/BackToTopDots";
@@ -21,6 +22,7 @@ export default async function AllAboutKanjis() {
         }
         trainer={<KanjiTrainer />}
         grammar={<GrammarBeta />}
+        grammarV2={<GrammarV2 />}
       />
       {/* Atribucion requerida por la licencia CC BY-SA 3.0 de KanjiVG,
           de donde vienen los SVG de orden de trazos (/public/svg/kanji).
