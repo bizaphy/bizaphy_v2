@@ -1,0 +1,2022 @@
+{
+  "nivel": "n5",
+  "fuente": "https://jlptsensei.com/jlpt-n5-grammar-list/",
+  "estructuras": [
+    {
+      "id": "n5-chaikenai",
+      "nivel": "n5",
+      "patron": "ちゃいけない・じゃいけない",
+      "romaji": "cha ikenai / ja ikenai",
+      "significado": "No se debe (forma hablada de てはいけない).",
+      "ejemplos": [
+        {
+          "ja": "ここで写真を撮っちゃいけないよ。",
+          "lectura": "ここでしゃしんをとっちゃいけないよ。",
+          "es": "No puedes tomar fotos aquí."
+        },
+        {
+          "ja": "授業中に寝ちゃいけない。",
+          "lectura": "じゅぎょうちゅうにねちゃいけない。",
+          "es": "No se debe dormir durante la clase."
+        },
+        {
+          "ja": "このジュースを飲んじゃいけないの？",
+          "lectura": "このジュースをのんじゃいけないの？",
+          "es": "¿No puedo tomar este jugo?"
+        }
+      ]
+    },
+    {
+      "id": "n5-da-desu",
+      "nivel": "n5",
+      "patron": "だ／です",
+      "romaji": "da / desu",
+      "significado": "Ser, estar (cópula).",
+      "ejemplos": [
+        {
+          "ja": "私は学生です。",
+          "lectura": "わたしはがくせいです。",
+          "es": "Soy estudiante."
+        },
+        {
+          "ja": "今日は日曜日だ。",
+          "lectura": "きょうはにちようびだ。",
+          "es": "Hoy es domingo."
+        },
+        {
+          "ja": "昨日は雨でした。",
+          "lectura": "きのうはあめでした。",
+          "es": "Ayer llovió."
+        }
+      ]
+    },
+    {
+      "id": "n5-dake",
+      "nivel": "n5",
+      "patron": "だけ",
+      "romaji": "dake",
+      "significado": "Solo, solamente.",
+      "ejemplos": [
+        {
+          "ja": "財布に百円だけあります。",
+          "lectura": "さいふにひゃくえんだけあります。",
+          "es": "En la billetera solo tengo cien yenes."
+        },
+        {
+          "ja": "私だけ行きませんでした。",
+          "lectura": "わたしだけいきませんでした。",
+          "es": "Solo yo no fui."
+        },
+        {
+          "ja": "少しだけ待ってください。",
+          "lectura": "すこしだけまってください。",
+          "es": "Espere solo un poco, por favor."
+        }
+      ]
+    },
+    {
+      "id": "n5-darou",
+      "nivel": "n5",
+      "patron": "だろう",
+      "romaji": "darou",
+      "significado": "Probablemente, supongo (forma simple de でしょう).",
+      "ejemplos": [
+        {
+          "ja": "明日は晴れるだろう。",
+          "lectura": "あしたははれるだろう。",
+          "es": "Mañana probablemente hará buen tiempo."
+        },
+        {
+          "ja": "彼はもう家に帰っただろう。",
+          "lectura": "かれはもういえにかえっただろう。",
+          "es": "Seguramente él ya volvió a casa."
+        },
+        {
+          "ja": "この問題は難しいだろう。",
+          "lectura": "このもんだいはむずかしいだろう。",
+          "es": "Este problema debe de ser difícil."
+        }
+      ]
+    },
+    {
+      "id": "n5-de",
+      "nivel": "n5",
+      "patron": "で",
+      "romaji": "de",
+      "significado": "En (lugar de la acción), con, por medio de.",
+      "ejemplos": [
+        {
+          "ja": "図書館で勉強します。",
+          "lectura": "としょかんでべんきょうします。",
+          "es": "Estudio en la biblioteca."
+        },
+        {
+          "ja": "バスで学校へ行きます。",
+          "lectura": "バスでがっこうへいきます。",
+          "es": "Voy a la escuela en autobús."
+        },
+        {
+          "ja": "はしでご飯を食べます。",
+          "lectura": "はしでごはんをたべます。",
+          "es": "Como arroz con palillos."
+        }
+      ]
+    },
+    {
+      "id": "n5-demo",
+      "nivel": "n5",
+      "patron": "でも",
+      "romaji": "demo",
+      "significado": "Pero, sin embargo (al inicio de la oración).",
+      "ejemplos": [
+        {
+          "ja": "日本語は難しいです。でも、面白いです。",
+          "lectura": "にほんごはむずかしいです。でも、おもしろいです。",
+          "es": "El japonés es difícil. Pero es interesante."
+        },
+        {
+          "ja": "薬を飲みました。でも、まだ頭が痛いです。",
+          "lectura": "くすりをのみました。でも、まだあたまがいたいです。",
+          "es": "Tomé la medicina. Pero todavía me duele la cabeza."
+        },
+        {
+          "ja": "雨が降っています。でも、出かけます。",
+          "lectura": "あめがふっています。でも、でかけます。",
+          "es": "Está lloviendo. Pero voy a salir."
+        }
+      ]
+    },
+    {
+      "id": "n5-deshou",
+      "nivel": "n5",
+      "patron": "でしょう",
+      "romaji": "deshou",
+      "significado": "Probablemente; ¿verdad? (para confirmar).",
+      "ejemplos": [
+        {
+          "ja": "明日は雨が降るでしょう。",
+          "lectura": "あしたはあめがふるでしょう。",
+          "es": "Mañana probablemente lloverá."
+        },
+        {
+          "ja": "あの人は先生でしょう。",
+          "lectura": "あのひとはせんせいでしょう。",
+          "es": "Esa persona debe de ser profesor."
+        },
+        {
+          "ja": "このケーキ、おいしいでしょう？",
+          "lectura": "このケーキ、おいしいでしょう？",
+          "es": "Este pastel está rico, ¿verdad?"
+        }
+      ]
+    },
+    {
+      "id": "n5-donna",
+      "nivel": "n5",
+      "patron": "どんな",
+      "romaji": "donna",
+      "significado": "Qué tipo de, cómo es.",
+      "ejemplos": [
+        {
+          "ja": "どんな音楽が好きですか。",
+          "lectura": "どんなおんがくがすきですか。",
+          "es": "¿Qué tipo de música te gusta?"
+        },
+        {
+          "ja": "田中さんはどんな人ですか。",
+          "lectura": "たなかさんはどんなひとですか。",
+          "es": "¿Cómo es el señor Tanaka?"
+        },
+        {
+          "ja": "どんな映画を見ましたか。",
+          "lectura": "どんなえいがをみましたか。",
+          "es": "¿Qué tipo de película viste?"
+        }
+      ]
+    },
+    {
+      "id": "n5-doushite",
+      "nivel": "n5",
+      "patron": "どうして",
+      "romaji": "doushite",
+      "significado": "Por qué.",
+      "ejemplos": [
+        {
+          "ja": "どうして昨日来なかったんですか。",
+          "lectura": "どうしてきのうこなかったんですか。",
+          "es": "¿Por qué no viniste ayer?"
+        },
+        {
+          "ja": "どうして日本語を勉強していますか。",
+          "lectura": "どうしてにほんごをべんきょうしていますか。",
+          "es": "¿Por qué estudias japonés?"
+        },
+        {
+          "ja": "どうして泣いているの？",
+          "lectura": "どうしてないているの？",
+          "es": "¿Por qué estás llorando?"
+        }
+      ]
+    },
+    {
+      "id": "n5-douyatte",
+      "nivel": "n5",
+      "patron": "どうやって",
+      "romaji": "douyatte",
+      "significado": "Cómo, de qué manera.",
+      "ejemplos": [
+        {
+          "ja": "駅までどうやって行きますか。",
+          "lectura": "えきまでどうやっていきますか。",
+          "es": "¿Cómo se llega a la estación?"
+        },
+        {
+          "ja": "この漢字はどうやって読みますか。",
+          "lectura": "このかんじはどうやってよみますか。",
+          "es": "¿Cómo se lee este kanji?"
+        },
+        {
+          "ja": "どうやってこのケーキを作りましたか。",
+          "lectura": "どうやってこのケーキをつくりましたか。",
+          "es": "¿Cómo hiciste este pastel?"
+        }
+      ]
+    },
+    {
+      "id": "n5-ga",
+      "nivel": "n5",
+      "patron": "が",
+      "romaji": "ga",
+      "significado": "Partícula de sujeto; pero.",
+      "ejemplos": [
+        {
+          "ja": "猫が好きです。",
+          "lectura": "ねこがすきです。",
+          "es": "Me gustan los gatos."
+        },
+        {
+          "ja": "誰が来ましたか。",
+          "lectura": "だれがきましたか。",
+          "es": "¿Quién vino?"
+        },
+        {
+          "ja": "高いですが、買います。",
+          "lectura": "たかいですが、かいます。",
+          "es": "Es caro, pero lo compro."
+        }
+      ]
+    },
+    {
+      "id": "n5-ga-arimasu",
+      "nivel": "n5",
+      "patron": "があります",
+      "romaji": "ga arimasu",
+      "significado": "Hay, existe (cosas, objetos inanimados).",
+      "ejemplos": [
+        {
+          "ja": "机の上に本があります。",
+          "lectura": "つくえのうえにほんがあります。",
+          "es": "Hay un libro sobre el escritorio."
+        },
+        {
+          "ja": "駅の近くに銀行があります。",
+          "lectura": "えきのちかくにぎんこうがあります。",
+          "es": "Hay un banco cerca de la estación."
+        },
+        {
+          "ja": "明日、テストがあります。",
+          "lectura": "あした、テストがあります。",
+          "es": "Mañana tengo un examen."
+        }
+      ]
+    },
+    {
+      "id": "n5-ga-hoshii",
+      "nivel": "n5",
+      "patron": "がほしい",
+      "romaji": "ga hoshii",
+      "significado": "Querer (algo).",
+      "ejemplos": [
+        {
+          "ja": "新しいパソコンがほしいです。",
+          "lectura": "あたらしいパソコンがほしいです。",
+          "es": "Quiero una computadora nueva."
+        },
+        {
+          "ja": "誕生日に何がほしいですか。",
+          "lectura": "たんじょうびになにがほしいですか。",
+          "es": "¿Qué quieres para tu cumpleaños?"
+        },
+        {
+          "ja": "もっと時間がほしい。",
+          "lectura": "もっとじかんがほしい。",
+          "es": "Quisiera tener más tiempo."
+        }
+      ]
+    },
+    {
+      "id": "n5-ga-imasu",
+      "nivel": "n5",
+      "patron": "がいます",
+      "romaji": "ga imasu",
+      "significado": "Hay, está (personas y animales).",
+      "ejemplos": [
+        {
+          "ja": "公園に子どもがいます。",
+          "lectura": "こうえんにこどもがいます。",
+          "es": "Hay niños en el parque."
+        },
+        {
+          "ja": "私には兄が二人います。",
+          "lectura": "わたしにはあにがふたりいます。",
+          "es": "Tengo dos hermanos mayores."
+        },
+        {
+          "ja": "あそこに猫がいますよ。",
+          "lectura": "あそこにねこがいますよ。",
+          "es": "Mira, allá hay un gato."
+        }
+      ]
+    },
+    {
+      "id": "n5-hou-ga-ii",
+      "nivel": "n5",
+      "patron": "ほうがいい",
+      "romaji": "hou ga ii",
+      "significado": "Es mejor que, deberías.",
+      "ejemplos": [
+        {
+          "ja": "早く寝たほうがいいですよ。",
+          "lectura": "はやくねたほうがいいですよ。",
+          "es": "Es mejor que te acuestes temprano."
+        },
+        {
+          "ja": "薬を飲んだほうがいいです。",
+          "lectura": "くすりをのんだほうがいいです。",
+          "es": "Deberías tomar la medicina."
+        },
+        {
+          "ja": "夜は一人で出かけないほうがいい。",
+          "lectura": "よるはひとりででかけないほうがいい。",
+          "es": "Es mejor no salir solo de noche."
+        }
+      ]
+    },
+    {
+      "id": "n5-i-adjetivos",
+      "nivel": "n5",
+      "patron": "い形容詞",
+      "romaji": "i-keiyoushi",
+      "significado": "Adjetivos い.",
+      "ejemplos": [
+        {
+          "ja": "この部屋は広いです。",
+          "lectura": "このへやはひろいです。",
+          "es": "Esta habitación es amplia."
+        },
+        {
+          "ja": "昨日は寒かったです。",
+          "lectura": "きのうはさむかったです。",
+          "es": "Ayer hizo frío."
+        },
+        {
+          "ja": "この本はあまり面白くないです。",
+          "lectura": "このほんはあまりおもしろくないです。",
+          "es": "Este libro no es muy interesante."
+        }
+      ]
+    },
+    {
+      "id": "n5-ichiban",
+      "nivel": "n5",
+      "patron": "一番",
+      "romaji": "ichiban",
+      "significado": "El más, el mejor.",
+      "ejemplos": [
+        {
+          "ja": "家族の中で父が一番背が高いです。",
+          "lectura": "かぞくのなかでちちがいちばんせがたかいです。",
+          "es": "En mi familia, mi papá es el más alto."
+        },
+        {
+          "ja": "一番好きな食べ物は何ですか。",
+          "lectura": "いちばんすきなたべものはなんですか。",
+          "es": "¿Cuál es tu comida favorita?"
+        },
+        {
+          "ja": "富士山は日本で一番高い山です。",
+          "lectura": "ふじさんはにほんでいちばんたかいやまです。",
+          "es": "El monte Fuji es la montaña más alta de Japón."
+        }
+      ]
+    },
+    {
+      "id": "n5-issho-ni",
+      "nivel": "n5",
+      "patron": "一緒に",
+      "romaji": "issho ni",
+      "significado": "Juntos.",
+      "ejemplos": [
+        {
+          "ja": "一緒に昼ご飯を食べませんか。",
+          "lectura": "いっしょにひるごはんをたべませんか。",
+          "es": "¿Almorzamos juntos?"
+        },
+        {
+          "ja": "友だちと一緒に映画を見ました。",
+          "lectura": "ともだちといっしょにえいがをみました。",
+          "es": "Vi una película con un amigo."
+        },
+        {
+          "ja": "家族と一緒に住んでいます。",
+          "lectura": "かぞくといっしょにすんでいます。",
+          "es": "Vivo con mi familia."
+        }
+      ]
+    },
+    {
+      "id": "n5-itsumo",
+      "nivel": "n5",
+      "patron": "いつも",
+      "romaji": "itsumo",
+      "significado": "Siempre, habitualmente.",
+      "ejemplos": [
+        {
+          "ja": "私はいつも七時に起きます。",
+          "lectura": "わたしはいつもしちじにおきます。",
+          "es": "Siempre me levanto a las siete."
+        },
+        {
+          "ja": "彼はいつも元気です。",
+          "lectura": "かれはいつもげんきです。",
+          "es": "Él siempre está animado."
+        },
+        {
+          "ja": "朝ご飯はいつもパンです。",
+          "lectura": "あさごはんはいつもパンです。",
+          "es": "Siempre desayuno pan."
+        }
+      ]
+    },
+    {
+      "id": "n5-janai",
+      "nivel": "n5",
+      "patron": "じゃない・ではない",
+      "romaji": "janai / dewa nai",
+      "significado": "No ser, no estar (negativo de だ).",
+      "ejemplos": [
+        {
+          "ja": "私は先生じゃないです。",
+          "lectura": "わたしはせんせいじゃないです。",
+          "es": "No soy profesor."
+        },
+        {
+          "ja": "この部屋は静かではありません。",
+          "lectura": "このへやはしずかではありません。",
+          "es": "Esta habitación no es tranquila."
+        },
+        {
+          "ja": "それは私の傘じゃない。",
+          "lectura": "それはわたしのかさじゃない。",
+          "es": "Ese no es mi paraguas."
+        }
+      ]
+    },
+    {
+      "id": "n5-ka",
+      "nivel": "n5",
+      "patron": "か",
+      "romaji": "ka",
+      "significado": "Partícula de pregunta.",
+      "ejemplos": [
+        {
+          "ja": "これは何ですか。",
+          "lectura": "これはなんですか。",
+          "es": "¿Qué es esto?"
+        },
+        {
+          "ja": "日本人ですか。",
+          "lectura": "にほんじんですか。",
+          "es": "¿Eres japonés?"
+        },
+        {
+          "ja": "明日、学校へ行きますか。",
+          "lectura": "あした、がっこうへいきますか。",
+          "es": "¿Vas a la escuela mañana?"
+        }
+      ]
+    },
+    {
+      "id": "n5-ka-ka",
+      "nivel": "n5",
+      "patron": "か～か",
+      "romaji": "ka ~ ka",
+      "significado": "O (entre opciones).",
+      "ejemplos": [
+        {
+          "ja": "コーヒーか紅茶を飲みます。",
+          "lectura": "コーヒーかこうちゃをのみます。",
+          "es": "Tomo café o té."
+        },
+        {
+          "ja": "土曜日か日曜日に会いましょう。",
+          "lectura": "どようびかにちようびにあいましょう。",
+          "es": "Veámonos el sábado o el domingo."
+        },
+        {
+          "ja": "行くか行かないか、決めてください。",
+          "lectura": "いくかいかないか、きめてください。",
+          "es": "Decide si vas o no."
+        }
+      ]
+    },
+    {
+      "id": "n5-kara",
+      "nivel": "n5",
+      "patron": "から",
+      "romaji": "kara",
+      "significado": "Porque, ya que; desde.",
+      "ejemplos": [
+        {
+          "ja": "時間がないから、タクシーで行きます。",
+          "lectura": "じかんがないから、タクシーでいきます。",
+          "es": "Como no hay tiempo, voy en taxi."
+        },
+        {
+          "ja": "学校は九時から始まります。",
+          "lectura": "がっこうはくじからはじまります。",
+          "es": "La escuela empieza a las nueve."
+        },
+        {
+          "ja": "東京から大阪まで新幹線で行きました。",
+          "lectura": "とうきょうからおおさかまでしんかんせんでいきました。",
+          "es": "Fui de Tokio a Osaka en shinkansen."
+        }
+      ]
+    },
+    {
+      "id": "n5-kata",
+      "nivel": "n5",
+      "patron": "方",
+      "romaji": "kata",
+      "significado": "Forma o manera de hacer algo.",
+      "ejemplos": [
+        {
+          "ja": "この漢字の読み方を教えてください。",
+          "lectura": "このかんじのよみかたをおしえてください。",
+          "es": "Enséñame cómo se lee este kanji."
+        },
+        {
+          "ja": "すしの作り方を知っていますか。",
+          "lectura": "すしのつくりかたをしっていますか。",
+          "es": "¿Sabes cómo se hace el sushi?"
+        },
+        {
+          "ja": "駅への行き方がわかりません。",
+          "lectura": "えきへのいきかたがわかりません。",
+          "es": "No sé cómo llegar a la estación."
+        }
+      ]
+    },
+    {
+      "id": "n5-kedo",
+      "nivel": "n5",
+      "patron": "けど",
+      "romaji": "kedo",
+      "significado": "Pero, aunque (informal).",
+      "ejemplos": [
+        {
+          "ja": "高いけど、このかばんを買います。",
+          "lectura": "たかいけど、このかばんをかいます。",
+          "es": "Es caro, pero voy a comprar este bolso."
+        },
+        {
+          "ja": "行きたいけど、時間がない。",
+          "lectura": "いきたいけど、じかんがない。",
+          "es": "Quiero ir, pero no tengo tiempo."
+        },
+        {
+          "ja": "すみません、ちょっと聞きたいんですけど。",
+          "lectura": "すみません、ちょっとききたいんですけど。",
+          "es": "Disculpe, quería preguntarle algo."
+        }
+      ]
+    },
+    {
+      "id": "n5-keredomo",
+      "nivel": "n5",
+      "patron": "けれども",
+      "romaji": "keredo mo",
+      "significado": "Pero, aunque (más formal que けど).",
+      "ejemplos": [
+        {
+          "ja": "この店は安いけれども、おいしくないです。",
+          "lectura": "このみせはやすいけれども、おいしくないです。",
+          "es": "Este local es barato, pero la comida no es rica."
+        },
+        {
+          "ja": "雨が降っていたけれども、試合はありました。",
+          "lectura": "あめがふっていたけれども、しあいはありました。",
+          "es": "Aunque llovía, hubo partido."
+        },
+        {
+          "ja": "勉強したけれども、テストはできませんでした。",
+          "lectura": "べんきょうしたけれども、テストはできませんでした。",
+          "es": "Estudié, pero me fue mal en el examen."
+        }
+      ]
+    },
+    {
+      "id": "n5-mada",
+      "nivel": "n5",
+      "patron": "まだ",
+      "romaji": "mada",
+      "significado": "Todavía, aún.",
+      "ejemplos": [
+        {
+          "ja": "まだ雨が降っています。",
+          "lectura": "まだあめがふっています。",
+          "es": "Todavía está lloviendo."
+        },
+        {
+          "ja": "弟はまだ十歳です。",
+          "lectura": "おとうとはまだじゅっさいです。",
+          "es": "Mi hermano menor todavía tiene diez años."
+        },
+        {
+          "ja": "「もう食べましたか。」「いいえ、まだです。」",
+          "lectura": "「もうたべましたか。」「いいえ、まだです。」",
+          "es": "—¿Ya comiste? —No, todavía no."
+        }
+      ]
+    },
+    {
+      "id": "n5-mada-teimasen",
+      "nivel": "n5",
+      "patron": "まだ～ていません",
+      "romaji": "mada ~te imasen",
+      "significado": "Todavía no he (hecho algo).",
+      "ejemplos": [
+        {
+          "ja": "まだ宿題をしていません。",
+          "lectura": "まだしゅくだいをしていません。",
+          "es": "Todavía no he hecho la tarea."
+        },
+        {
+          "ja": "父はまだ帰っていません。",
+          "lectura": "ちちはまだかえっていません。",
+          "es": "Mi papá todavía no ha vuelto."
+        },
+        {
+          "ja": "その映画はまだ見ていません。",
+          "lectura": "そのえいがはまだみていません。",
+          "es": "Todavía no he visto esa película."
+        }
+      ]
+    },
+    {
+      "id": "n5-made",
+      "nivel": "n5",
+      "patron": "まで",
+      "romaji": "made",
+      "significado": "Hasta.",
+      "ejemplos": [
+        {
+          "ja": "毎日五時まで働きます。",
+          "lectura": "まいにちごじまではたらきます。",
+          "es": "Trabajo todos los días hasta las cinco."
+        },
+        {
+          "ja": "駅まで歩きましょう。",
+          "lectura": "えきまであるきましょう。",
+          "es": "Caminemos hasta la estación."
+        },
+        {
+          "ja": "月曜日から金曜日まで学校があります。",
+          "lectura": "げつようびからきんようびまでがっこうがあります。",
+          "es": "Tengo clases de lunes a viernes."
+        }
+      ]
+    },
+    {
+      "id": "n5-mae-ni",
+      "nivel": "n5",
+      "patron": "前に",
+      "romaji": "mae ni",
+      "significado": "Antes de; delante de.",
+      "ejemplos": [
+        {
+          "ja": "寝る前に歯をみがきます。",
+          "lectura": "ねるまえにはをみがきます。",
+          "es": "Me lavo los dientes antes de dormir."
+        },
+        {
+          "ja": "食事の前に手を洗ってください。",
+          "lectura": "しょくじのまえにてをあらってください。",
+          "es": "Lávate las manos antes de comer."
+        },
+        {
+          "ja": "駅の前に本屋があります。",
+          "lectura": "えきのまえにほんやがあります。",
+          "es": "Hay una librería frente a la estación."
+        }
+      ]
+    },
+    {
+      "id": "n5-masen-ka",
+      "nivel": "n5",
+      "patron": "ませんか",
+      "romaji": "masen ka",
+      "significado": "¿Por qué no...?, ¿quieres...? (invitación).",
+      "ejemplos": [
+        {
+          "ja": "一緒にお茶を飲みませんか。",
+          "lectura": "いっしょにおちゃをのみませんか。",
+          "es": "¿Tomamos un té juntos?"
+        },
+        {
+          "ja": "週末、映画を見に行きませんか。",
+          "lectura": "しゅうまつ、えいがをみにいきませんか。",
+          "es": "¿Vamos a ver una película el fin de semana?"
+        },
+        {
+          "ja": "少し休みませんか。",
+          "lectura": "すこしやすみませんか。",
+          "es": "¿Descansamos un poco?"
+        }
+      ]
+    },
+    {
+      "id": "n5-mashou",
+      "nivel": "n5",
+      "patron": "ましょう",
+      "romaji": "mashou",
+      "significado": "Hagamos (propuesta).",
+      "ejemplos": [
+        {
+          "ja": "さあ、始めましょう。",
+          "lectura": "さあ、はじめましょう。",
+          "es": "Bueno, empecemos."
+        },
+        {
+          "ja": "駅で会いましょう。",
+          "lectura": "えきであいましょう。",
+          "es": "Veámonos en la estación."
+        },
+        {
+          "ja": "一緒に歌いましょう。",
+          "lectura": "いっしょにうたいましょう。",
+          "es": "Cantemos juntos."
+        }
+      ]
+    },
+    {
+      "id": "n5-mashou-ka",
+      "nivel": "n5",
+      "patron": "ましょうか",
+      "romaji": "mashou ka",
+      "significado": "¿Quiere que...? (ofrecer ayuda); ¿hacemos...?",
+      "ejemplos": [
+        {
+          "ja": "窓を開けましょうか。",
+          "lectura": "まどをあけましょうか。",
+          "es": "¿Abro la ventana?"
+        },
+        {
+          "ja": "荷物を持ちましょうか。",
+          "lectura": "にもつをもちましょうか。",
+          "es": "¿Le llevo el equipaje?"
+        },
+        {
+          "ja": "何時に会いましょうか。",
+          "lectura": "なんじにあいましょうか。",
+          "es": "¿A qué hora nos vemos?"
+        }
+      ]
+    },
+    {
+      "id": "n5-mo",
+      "nivel": "n5",
+      "patron": "も",
+      "romaji": "mo",
+      "significado": "También; ni (con negativo).",
+      "ejemplos": [
+        {
+          "ja": "私も学生です。",
+          "lectura": "わたしもがくせいです。",
+          "es": "Yo también soy estudiante."
+        },
+        {
+          "ja": "肉も魚も好きです。",
+          "lectura": "にくもさかなもすきです。",
+          "es": "Me gustan tanto la carne como el pescado."
+        },
+        {
+          "ja": "昨日は何も食べませんでした。",
+          "lectura": "きのうはなにもたべませんでした。",
+          "es": "Ayer no comí nada."
+        }
+      ]
+    },
+    {
+      "id": "n5-mou",
+      "nivel": "n5",
+      "patron": "もう",
+      "romaji": "mou",
+      "significado": "Ya; ya no; otro más.",
+      "ejemplos": [
+        {
+          "ja": "もう昼ご飯を食べました。",
+          "lectura": "もうひるごはんをたべました。",
+          "es": "Ya almorcé."
+        },
+        {
+          "ja": "もう一度言ってください。",
+          "lectura": "もういちどいってください。",
+          "es": "Dígalo una vez más, por favor."
+        },
+        {
+          "ja": "もうお金がありません。",
+          "lectura": "もうおかねがありません。",
+          "es": "Ya no tengo dinero."
+        }
+      ]
+    },
+    {
+      "id": "n5-na-adjetivos",
+      "nivel": "n5",
+      "patron": "な形容詞",
+      "romaji": "na-keiyoushi",
+      "significado": "Adjetivos な.",
+      "ejemplos": [
+        {
+          "ja": "この町は静かです。",
+          "lectura": "このまちはしずかです。",
+          "es": "Este pueblo es tranquilo."
+        },
+        {
+          "ja": "彼女はきれいな人です。",
+          "lectura": "かのじょはきれいなひとです。",
+          "es": "Ella es una persona bonita."
+        },
+        {
+          "ja": "昨日は暇でした。",
+          "lectura": "きのうはひまでした。",
+          "es": "Ayer estuve libre."
+        }
+      ]
+    },
+    {
+      "id": "n5-naa",
+      "nivel": "n5",
+      "patron": "なあ",
+      "romaji": "naa",
+      "significado": "Partícula final de admiración o deseo.",
+      "ejemplos": [
+        {
+          "ja": "きれいだなあ。",
+          "lectura": "きれいだなあ。",
+          "es": "¡Qué bonito!"
+        },
+        {
+          "ja": "今日は暑いなあ。",
+          "lectura": "きょうはあついなあ。",
+          "es": "¡Qué calor hace hoy!"
+        },
+        {
+          "ja": "日本へ行きたいなあ。",
+          "lectura": "にほんへいきたいなあ。",
+          "es": "¡Cómo me gustaría ir a Japón!"
+        }
+      ]
+    },
+    {
+      "id": "n5-naide",
+      "nivel": "n5",
+      "patron": "ないで",
+      "romaji": "naide",
+      "significado": "Sin hacer (algo).",
+      "ejemplos": [
+        {
+          "ja": "朝ご飯を食べないで学校へ行きました。",
+          "lectura": "あさごはんをたべないでがっこうへいきました。",
+          "es": "Fui a la escuela sin desayunar."
+        },
+        {
+          "ja": "傘を持たないで出かけました。",
+          "lectura": "かさをもたないででかけました。",
+          "es": "Salí sin llevar paraguas."
+        },
+        {
+          "ja": "辞書を使わないで読んでください。",
+          "lectura": "じしょをつかわないでよんでください。",
+          "es": "Léelo sin usar el diccionario."
+        }
+      ]
+    },
+    {
+      "id": "n5-naide-kudasai",
+      "nivel": "n5",
+      "patron": "ないでください",
+      "romaji": "naide kudasai",
+      "significado": "Por favor, no (hagas algo).",
+      "ejemplos": [
+        {
+          "ja": "ここでたばこを吸わないでください。",
+          "lectura": "ここでたばこをすわないでください。",
+          "es": "Por favor, no fume aquí."
+        },
+        {
+          "ja": "心配しないでください。",
+          "lectura": "しんぱいしないでください。",
+          "es": "No se preocupe."
+        },
+        {
+          "ja": "写真を撮らないでください。",
+          "lectura": "しゃしんをとらないでください。",
+          "es": "Por favor, no tome fotos."
+        }
+      ]
+    },
+    {
+      "id": "n5-naito-ikenai",
+      "nivel": "n5",
+      "patron": "ないといけない",
+      "romaji": "naito ikenai",
+      "significado": "Tener que, deber.",
+      "ejemplos": [
+        {
+          "ja": "もう帰らないといけない。",
+          "lectura": "もうかえらないといけない。",
+          "es": "Ya tengo que volver."
+        },
+        {
+          "ja": "明日は早く起きないといけません。",
+          "lectura": "あしたははやくおきないといけません。",
+          "es": "Mañana tengo que levantarme temprano."
+        },
+        {
+          "ja": "薬を飲まないといけない。",
+          "lectura": "くすりをのまないといけない。",
+          "es": "Tengo que tomar la medicina."
+        }
+      ]
+    },
+    {
+      "id": "n5-nakutemo-ii",
+      "nivel": "n5",
+      "patron": "なくてもいい",
+      "romaji": "nakutemo ii",
+      "significado": "No es necesario, no hace falta.",
+      "ejemplos": [
+        {
+          "ja": "明日は来なくてもいいです。",
+          "lectura": "あしたはこなくてもいいです。",
+          "es": "Mañana no tienes que venir."
+        },
+        {
+          "ja": "全部食べなくてもいいですよ。",
+          "lectura": "ぜんぶたべなくてもいいですよ。",
+          "es": "No tienes que comértelo todo."
+        },
+        {
+          "ja": "靴を脱がなくてもいいです。",
+          "lectura": "くつをぬがなくてもいいです。",
+          "es": "No es necesario quitarse los zapatos."
+        }
+      ]
+    },
+    {
+      "id": "n5-nakucha",
+      "nivel": "n5",
+      "patron": "なくちゃ",
+      "romaji": "nakucha",
+      "significado": "Tengo que (forma hablada de なくてはいけない).",
+      "ejemplos": [
+        {
+          "ja": "もう行かなくちゃ。",
+          "lectura": "もういかなくちゃ。",
+          "es": "Ya me tengo que ir."
+        },
+        {
+          "ja": "宿題をしなくちゃ。",
+          "lectura": "しゅくだいをしなくちゃ。",
+          "es": "Tengo que hacer la tarea."
+        },
+        {
+          "ja": "早く寝なくちゃ。",
+          "lectura": "はやくねなくちゃ。",
+          "es": "Tengo que acostarme temprano."
+        }
+      ]
+    },
+    {
+      "id": "n5-nakutewa-ikenai",
+      "nivel": "n5",
+      "patron": "なくてはいけない",
+      "romaji": "nakute wa ikenai",
+      "significado": "Tener que, deber.",
+      "ejemplos": [
+        {
+          "ja": "毎日漢字を勉強しなくてはいけません。",
+          "lectura": "まいにちかんじをべんきょうしなくてはいけません。",
+          "es": "Tengo que estudiar kanji todos los días."
+        },
+        {
+          "ja": "八時に駅に行かなくてはいけない。",
+          "lectura": "はちじにえきにいかなくてはいけない。",
+          "es": "Tengo que ir a la estación a las ocho."
+        },
+        {
+          "ja": "図書館の本を返さなくてはいけません。",
+          "lectura": "としょかんのほんをかえさなくてはいけません。",
+          "es": "Tengo que devolver el libro de la biblioteca."
+        }
+      ]
+    },
+    {
+      "id": "n5-nakutewa-naranai",
+      "nivel": "n5",
+      "patron": "なくてはならない",
+      "romaji": "nakute wa naranai",
+      "significado": "Tener que, deber (más formal, obligación general).",
+      "ejemplos": [
+        {
+          "ja": "明日までにレポートを出さなくてはならない。",
+          "lectura": "あしたまでにレポートをださなくてはならない。",
+          "es": "Tengo que entregar el informe para mañana."
+        },
+        {
+          "ja": "学生は毎日学校に来なくてはなりません。",
+          "lectura": "がくせいはまいにちがっこうにこなくてはなりません。",
+          "es": "Los estudiantes deben venir a la escuela todos los días."
+        },
+        {
+          "ja": "外国へ行くとき、パスポートを持っていかなくてはならない。",
+          "lectura": "がいこくへいくとき、パスポートをもっていかなくてはならない。",
+          "es": "Cuando vas al extranjero, debes llevar el pasaporte."
+        }
+      ]
+    },
+    {
+      "id": "n5-naru",
+      "nivel": "n5",
+      "patron": "なる",
+      "romaji": "naru",
+      "significado": "Llegar a ser, volverse.",
+      "ejemplos": [
+        {
+          "ja": "春になりました。",
+          "lectura": "はるになりました。",
+          "es": "Llegó la primavera."
+        },
+        {
+          "ja": "部屋がきれいになりました。",
+          "lectura": "へやがきれいになりました。",
+          "es": "La habitación quedó limpia."
+        },
+        {
+          "ja": "将来、医者になりたいです。",
+          "lectura": "しょうらい、いしゃになりたいです。",
+          "es": "En el futuro quiero ser médico."
+        }
+      ]
+    },
+    {
+      "id": "n5-ndesu",
+      "nivel": "n5",
+      "patron": "んです",
+      "romaji": "n desu",
+      "significado": "Es que... (explicar o enfatizar).",
+      "ejemplos": [
+        {
+          "ja": "頭が痛いんです。",
+          "lectura": "あたまがいたいんです。",
+          "es": "Es que me duele la cabeza."
+        },
+        {
+          "ja": "どうして遅れたんですか。",
+          "lectura": "どうしておくれたんですか。",
+          "es": "¿Por qué llegaste tarde?"
+        },
+        {
+          "ja": "明日、テストがあるんです。",
+          "lectura": "あした、テストがあるんです。",
+          "es": "Es que mañana tengo un examen."
+        }
+      ]
+    },
+    {
+      "id": "n5-ne",
+      "nivel": "n5",
+      "patron": "ね",
+      "romaji": "ne",
+      "significado": "¿Verdad?, ¿no? (busca acuerdo).",
+      "ejemplos": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "lectura": "きょうはいいてんきですね。",
+          "es": "Hoy hace buen tiempo, ¿verdad?"
+        },
+        {
+          "ja": "このラーメン、おいしいね。",
+          "lectura": "このラーメン、おいしいね。",
+          "es": "Este ramen está rico, ¿no?"
+        },
+        {
+          "ja": "明日も来ますね。",
+          "lectura": "あしたもきますね。",
+          "es": "Mañana también vienes, ¿verdad?"
+        }
+      ]
+    },
+    {
+      "id": "n5-ni",
+      "nivel": "n5",
+      "patron": "に",
+      "romaji": "ni",
+      "significado": "En (tiempo, lugar de existencia), a (destino, persona).",
+      "ejemplos": [
+        {
+          "ja": "毎朝六時に起きます。",
+          "lectura": "まいあさろくじにおきます。",
+          "es": "Me levanto a las seis todas las mañanas."
+        },
+        {
+          "ja": "机の上にペンがあります。",
+          "lectura": "つくえのうえにペンがあります。",
+          "es": "Hay un bolígrafo sobre el escritorio."
+        },
+        {
+          "ja": "友だちに手紙を書きました。",
+          "lectura": "ともだちにてがみをかきました。",
+          "es": "Le escribí una carta a un amigo."
+        }
+      ]
+    },
+    {
+      "id": "n5-ni-iku",
+      "nivel": "n5",
+      "patron": "に行く",
+      "romaji": "ni iku",
+      "significado": "Ir a (hacer algo).",
+      "ejemplos": [
+        {
+          "ja": "デパートへ服を買いに行きます。",
+          "lectura": "デパートへふくをかいにいきます。",
+          "es": "Voy a la tienda por departamentos a comprar ropa."
+        },
+        {
+          "ja": "公園へ写真を撮りに行きました。",
+          "lectura": "こうえんへしゃしんをとりにいきました。",
+          "es": "Fui al parque a tomar fotos."
+        },
+        {
+          "ja": "友だちと昼ご飯を食べに行きます。",
+          "lectura": "ともだちとひるごはんをたべにいきます。",
+          "es": "Voy a almorzar con un amigo."
+        }
+      ]
+    },
+    {
+      "id": "n5-ni-suru",
+      "nivel": "n5",
+      "patron": "にする",
+      "romaji": "ni suru",
+      "significado": "Decidirse por, elegir.",
+      "ejemplos": [
+        {
+          "ja": "私はコーヒーにします。",
+          "lectura": "わたしはコーヒーにします。",
+          "es": "Yo voy a pedir café."
+        },
+        {
+          "ja": "旅行は来月にしましょう。",
+          "lectura": "りょこうはらいげつにしましょう。",
+          "es": "Dejemos el viaje para el próximo mes."
+        },
+        {
+          "ja": "「何にしますか。」「カレーにします。」",
+          "lectura": "「なににしますか。」「カレーにします。」",
+          "es": "—¿Qué vas a pedir? —Voy a pedir curry."
+        }
+      ]
+    },
+    {
+      "id": "n5-ni-e",
+      "nivel": "n5",
+      "patron": "に／へ",
+      "romaji": "ni / e",
+      "significado": "A, hacia (dirección o destino).",
+      "ejemplos": [
+        {
+          "ja": "来年、日本へ行きます。",
+          "lectura": "らいねん、にほんへいきます。",
+          "es": "El próximo año voy a Japón."
+        },
+        {
+          "ja": "毎日学校に行きます。",
+          "lectura": "まいにちがっこうにいきます。",
+          "es": "Voy a la escuela todos los días."
+        },
+        {
+          "ja": "何時に家へ帰りますか。",
+          "lectura": "なんじにいえへかえりますか。",
+          "es": "¿A qué hora vuelves a casa?"
+        }
+      ]
+    },
+    {
+      "id": "n5-no",
+      "nivel": "n5",
+      "patron": "の",
+      "romaji": "no",
+      "significado": "Partícula de posesión o relación; sustituye a un sustantivo.",
+      "ejemplos": [
+        {
+          "ja": "これは私の本です。",
+          "lectura": "これはわたしのほんです。",
+          "es": "Este es mi libro."
+        },
+        {
+          "ja": "日本語の先生は優しいです。",
+          "lectura": "にほんごのせんせいはやさしいです。",
+          "es": "La profesora de japonés es amable."
+        },
+        {
+          "ja": "赤いのがほしいです。",
+          "lectura": "あかいのがほしいです。",
+          "es": "Quiero el rojo."
+        }
+      ]
+    },
+    {
+      "id": "n5-no-desu",
+      "nivel": "n5",
+      "patron": "のです",
+      "romaji": "no desu",
+      "significado": "Es que... (explicar o enfatizar, más formal que んです).",
+      "ejemplos": [
+        {
+          "ja": "熱があるのです。",
+          "lectura": "ねつがあるのです。",
+          "es": "Es que tengo fiebre."
+        },
+        {
+          "ja": "日本の文化が好きなのです。",
+          "lectura": "にほんのぶんかがすきなのです。",
+          "es": "Es que me gusta la cultura japonesa."
+        },
+        {
+          "ja": "どこへ行くのですか。",
+          "lectura": "どこへいくのですか。",
+          "es": "¿Adónde es que vas?"
+        }
+      ]
+    },
+    {
+      "id": "n5-no-ga-heta",
+      "nivel": "n5",
+      "patron": "のが下手",
+      "romaji": "no ga heta",
+      "significado": "Ser malo haciendo algo.",
+      "ejemplos": [
+        {
+          "ja": "私は歌うのが下手です。",
+          "lectura": "わたしはうたうのがへたです。",
+          "es": "Canto mal."
+        },
+        {
+          "ja": "兄は料理を作るのが下手です。",
+          "lectura": "あにはりょうりをつくるのがへたです。",
+          "es": "Mi hermano mayor cocina mal."
+        },
+        {
+          "ja": "絵をかくのが下手なんです。",
+          "lectura": "えをかくのがへたなんです。",
+          "es": "Es que dibujo mal."
+        }
+      ]
+    },
+    {
+      "id": "n5-no-ga-jouzu",
+      "nivel": "n5",
+      "patron": "のが上手",
+      "romaji": "no ga jouzu",
+      "significado": "Ser bueno haciendo algo.",
+      "ejemplos": [
+        {
+          "ja": "姉は泳ぐのが上手です。",
+          "lectura": "あねはおよぐのがじょうずです。",
+          "es": "Mi hermana mayor nada bien."
+        },
+        {
+          "ja": "田中さんはピアノをひくのが上手です。",
+          "lectura": "たなかさんはピアノをひくのがじょうずです。",
+          "es": "El señor Tanaka toca bien el piano."
+        },
+        {
+          "ja": "彼は人の話を聞くのが上手です。",
+          "lectura": "かれはひとのはなしをきくのがじょうずです。",
+          "es": "Él sabe escuchar a la gente."
+        }
+      ]
+    },
+    {
+      "id": "n5-no-ga-suki",
+      "nivel": "n5",
+      "patron": "のが好き",
+      "romaji": "no ga suki",
+      "significado": "Gustar hacer algo.",
+      "ejemplos": [
+        {
+          "ja": "本を読むのが好きです。",
+          "lectura": "ほんをよむのがすきです。",
+          "es": "Me gusta leer libros."
+        },
+        {
+          "ja": "私は朝早く散歩するのが好きです。",
+          "lectura": "わたしはあさはやくさんぽするのがすきです。",
+          "es": "Me gusta pasear temprano en la mañana."
+        },
+        {
+          "ja": "弟はゲームをするのが大好きです。",
+          "lectura": "おとうとはゲームをするのがだいすきです。",
+          "es": "A mi hermano menor le encanta jugar videojuegos."
+        }
+      ]
+    },
+    {
+      "id": "n5-no-naka-de-ichiban",
+      "nivel": "n5",
+      "patron": "の中で～が一番",
+      "romaji": "no naka de ~ ga ichiban",
+      "significado": "De entre (un grupo), el más.",
+      "ejemplos": [
+        {
+          "ja": "果物の中でりんごが一番好きです。",
+          "lectura": "くだもののなかでりんごがいちばんすきです。",
+          "es": "De las frutas, la manzana es la que más me gusta."
+        },
+        {
+          "ja": "クラスの中で山田さんが一番背が高いです。",
+          "lectura": "クラスのなかでやまださんがいちばんせがたかいです。",
+          "es": "En la clase, Yamada es el más alto."
+        },
+        {
+          "ja": "季節の中でいつが一番好きですか。",
+          "lectura": "きせつのなかでいつがいちばんすきですか。",
+          "es": "¿Qué estación del año te gusta más?"
+        }
+      ]
+    },
+    {
+      "id": "n5-node",
+      "nivel": "n5",
+      "patron": "ので",
+      "romaji": "node",
+      "significado": "Porque, ya que (más suave que から).",
+      "ejemplos": [
+        {
+          "ja": "雨が降っているので、出かけません。",
+          "lectura": "あめがふっているので、でかけません。",
+          "es": "Como está lloviendo, no voy a salir."
+        },
+        {
+          "ja": "熱があるので、今日は休みます。",
+          "lectura": "ねつがあるので、きょうはやすみます。",
+          "es": "Como tengo fiebre, hoy me quedo descansando."
+        },
+        {
+          "ja": "静かなので、この図書館が好きです。",
+          "lectura": "しずかなので、このとしょかんがすきです。",
+          "es": "Me gusta esta biblioteca porque es tranquila."
+        }
+      ]
+    },
+    {
+      "id": "n5-o-go",
+      "nivel": "n5",
+      "patron": "お／ご",
+      "romaji": "o / go",
+      "significado": "Prefijo de cortesía.",
+      "ejemplos": [
+        {
+          "ja": "お名前は何ですか。",
+          "lectura": "おなまえはなんですか。",
+          "es": "¿Cuál es su nombre?"
+        },
+        {
+          "ja": "ご家族は何人ですか。",
+          "lectura": "ごかぞくはなんにんですか。",
+          "es": "¿Cuántos son en su familia?"
+        },
+        {
+          "ja": "お茶をどうぞ。",
+          "lectura": "おちゃをどうぞ。",
+          "es": "Sírvase té."
+        }
+      ]
+    },
+    {
+      "id": "n5-wo",
+      "nivel": "n5",
+      "patron": "を",
+      "romaji": "o / wo",
+      "significado": "Partícula de objeto directo; lugar por donde se pasa o se sale.",
+      "ejemplos": [
+        {
+          "ja": "毎朝コーヒーを飲みます。",
+          "lectura": "まいあさコーヒーをのみます。",
+          "es": "Tomo café todas las mañanas."
+        },
+        {
+          "ja": "公園を散歩しました。",
+          "lectura": "こうえんをさんぽしました。",
+          "es": "Paseé por el parque."
+        },
+        {
+          "ja": "次の駅で電車を降ります。",
+          "lectura": "つぎのえきででんしゃをおります。",
+          "es": "Me bajo del tren en la próxima estación."
+        }
+      ]
+    },
+    {
+      "id": "n5-wo-kudasai",
+      "nivel": "n5",
+      "patron": "をください",
+      "romaji": "o kudasai",
+      "significado": "Deme, por favor.",
+      "ejemplos": [
+        {
+          "ja": "りんごを三つください。",
+          "lectura": "りんごをみっつください。",
+          "es": "Deme tres manzanas, por favor."
+        },
+        {
+          "ja": "水をください。",
+          "lectura": "みずをください。",
+          "es": "Agua, por favor."
+        },
+        {
+          "ja": "このシャツをください。",
+          "lectura": "このシャツをください。",
+          "es": "Me llevo esta camisa."
+        }
+      ]
+    },
+    {
+      "id": "n5-shikashi",
+      "nivel": "n5",
+      "patron": "しかし",
+      "romaji": "shikashi",
+      "significado": "Sin embargo, pero (escrito o formal).",
+      "ejemplos": [
+        {
+          "ja": "日本語は難しい。しかし、とても面白い。",
+          "lectura": "にほんごはむずかしい。しかし、とてもおもしろい。",
+          "es": "El japonés es difícil. Sin embargo, es muy interesante."
+        },
+        {
+          "ja": "たくさん練習した。しかし、試合に負けた。",
+          "lectura": "たくさんれんしゅうした。しかし、しあいにまけた。",
+          "es": "Practicamos mucho. Sin embargo, perdimos el partido."
+        },
+        {
+          "ja": "この町は小さい。しかし、店はたくさんある。",
+          "lectura": "このまちはちいさい。しかし、みせはたくさんある。",
+          "es": "Este pueblo es pequeño. Sin embargo, hay muchas tiendas."
+        }
+      ]
+    },
+    {
+      "id": "n5-sorekara",
+      "nivel": "n5",
+      "patron": "それから",
+      "romaji": "sore kara",
+      "significado": "Y después; además; desde entonces.",
+      "ejemplos": [
+        {
+          "ja": "宿題をしました。それから、テレビを見ました。",
+          "lectura": "しゅくだいをしました。それから、テレビをみました。",
+          "es": "Hice la tarea. Después, vi televisión."
+        },
+        {
+          "ja": "卵とパン、それから牛乳を買ってください。",
+          "lectura": "たまごとパン、それからぎゅうにゅうをかってください。",
+          "es": "Compra huevos, pan y además leche."
+        },
+        {
+          "ja": "去年会いました。それから、一度も会っていません。",
+          "lectura": "きょねんあいました。それから、いちどもあっていません。",
+          "es": "Nos vimos el año pasado. Desde entonces no nos hemos vuelto a ver."
+        }
+      ]
+    },
+    {
+      "id": "n5-soshite",
+      "nivel": "n5",
+      "patron": "そして",
+      "romaji": "soshite",
+      "significado": "Y, y además, y luego.",
+      "ejemplos": [
+        {
+          "ja": "部屋は広いです。そして、明るいです。",
+          "lectura": "へやはひろいです。そして、あかるいです。",
+          "es": "La habitación es amplia. Y además es luminosa."
+        },
+        {
+          "ja": "朝起きて、顔を洗います。そして、朝ご飯を食べます。",
+          "lectura": "あさおきて、かおをあらいます。そして、あさごはんをたべます。",
+          "es": "Me levanto y me lavo la cara. Y luego desayuno."
+        },
+        {
+          "ja": "彼は優しくて、そして頭がいい。",
+          "lectura": "かれはやさしくて、そしてあたまがいい。",
+          "es": "Él es amable y, además, inteligente."
+        }
+      ]
+    },
+    {
+      "id": "n5-sugiru",
+      "nivel": "n5",
+      "patron": "すぎる",
+      "romaji": "sugiru",
+      "significado": "Demasiado.",
+      "ejemplos": [
+        {
+          "ja": "昨日、食べすぎました。",
+          "lectura": "きのう、たべすぎました。",
+          "es": "Ayer comí demasiado."
+        },
+        {
+          "ja": "この靴は大きすぎます。",
+          "lectura": "このくつはおおきすぎます。",
+          "es": "Estos zapatos son demasiado grandes."
+        },
+        {
+          "ja": "この問題は簡単すぎる。",
+          "lectura": "このもんだいはかんたんすぎる。",
+          "es": "Este problema es demasiado fácil."
+        }
+      ]
+    },
+    {
+      "id": "n5-ta-koto-ga-aru",
+      "nivel": "n5",
+      "patron": "たことがある",
+      "romaji": "ta koto ga aru",
+      "significado": "Haber hecho algo alguna vez (experiencia).",
+      "ejemplos": [
+        {
+          "ja": "富士山に登ったことがあります。",
+          "lectura": "ふじさんにのぼったことがあります。",
+          "es": "He subido al monte Fuji."
+        },
+        {
+          "ja": "すしを食べたことがありますか。",
+          "lectura": "すしをたべたことがありますか。",
+          "es": "¿Has comido sushi alguna vez?"
+        },
+        {
+          "ja": "一度も飛行機に乗ったことがありません。",
+          "lectura": "いちどもひこうきにのったことがありません。",
+          "es": "Nunca me he subido a un avión."
+        }
+      ]
+    },
+    {
+      "id": "n5-tai",
+      "nivel": "n5",
+      "patron": "たい",
+      "romaji": "tai",
+      "significado": "Querer hacer algo.",
+      "ejemplos": [
+        {
+          "ja": "水が飲みたいです。",
+          "lectura": "みずがのみたいです。",
+          "es": "Quiero tomar agua."
+        },
+        {
+          "ja": "日本で働きたい。",
+          "lectura": "にほんではたらきたい。",
+          "es": "Quiero trabajar en Japón."
+        },
+        {
+          "ja": "今日は何もしたくない。",
+          "lectura": "きょうはなにもしたくない。",
+          "es": "Hoy no quiero hacer nada."
+        }
+      ]
+    },
+    {
+      "id": "n5-tari-tari",
+      "nivel": "n5",
+      "patron": "たり～たり",
+      "romaji": "tari ~ tari",
+      "significado": "Hacer cosas como A y B (lista no exhaustiva).",
+      "ejemplos": [
+        {
+          "ja": "週末は本を読んだり、映画を見たりします。",
+          "lectura": "しゅうまつはほんをよんだり、えいがをみたりします。",
+          "es": "Los fines de semana leo libros, veo películas, etc."
+        },
+        {
+          "ja": "休みの日は掃除をしたり、洗濯をしたりします。",
+          "lectura": "やすみのひはそうじをしたり、せんたくをしたりします。",
+          "es": "En mis días libres limpio, lavo la ropa y cosas así."
+        },
+        {
+          "ja": "子どもたちは公園で走ったり遊んだりしています。",
+          "lectura": "こどもたちはこうえんではしったりあそんだりしています。",
+          "es": "Los niños están corriendo y jugando en el parque."
+        }
+      ]
+    },
+    {
+      "id": "n5-te-aru",
+      "nivel": "n5",
+      "patron": "てある",
+      "romaji": "te aru",
+      "significado": "Estar hecho (resultado de una acción intencional).",
+      "ejemplos": [
+        {
+          "ja": "壁に絵がかけてあります。",
+          "lectura": "かべにえがかけてあります。",
+          "es": "Hay un cuadro colgado en la pared."
+        },
+        {
+          "ja": "窓が開けてあります。",
+          "lectura": "まどがあけてあります。",
+          "es": "La ventana está abierta (alguien la dejó así)."
+        },
+        {
+          "ja": "ノートに名前が書いてあります。",
+          "lectura": "ノートになまえがかいてあります。",
+          "es": "El cuaderno tiene el nombre escrito."
+        }
+      ]
+    },
+    {
+      "id": "n5-te-iru",
+      "nivel": "n5",
+      "patron": "ている",
+      "romaji": "te iru",
+      "significado": "Estar haciendo; estado actual.",
+      "ejemplos": [
+        {
+          "ja": "今、ご飯を食べています。",
+          "lectura": "いま、ごはんをたべています。",
+          "es": "Ahora estoy comiendo."
+        },
+        {
+          "ja": "兄は銀行で働いています。",
+          "lectura": "あにはぎんこうではたらいています。",
+          "es": "Mi hermano mayor trabaja en un banco."
+        },
+        {
+          "ja": "彼女は結婚しています。",
+          "lectura": "かのじょはけっこんしています。",
+          "es": "Ella está casada."
+        }
+      ]
+    },
+    {
+      "id": "n5-te-kara",
+      "nivel": "n5",
+      "patron": "てから",
+      "romaji": "te kara",
+      "significado": "Después de hacer algo.",
+      "ejemplos": [
+        {
+          "ja": "手を洗ってから、ご飯を食べます。",
+          "lectura": "てをあらってから、ごはんをたべます。",
+          "es": "Como después de lavarme las manos."
+        },
+        {
+          "ja": "宿題をしてから、遊びに行きます。",
+          "lectura": "しゅくだいをしてから、あそびにいきます。",
+          "es": "Voy a jugar después de hacer la tarea."
+        },
+        {
+          "ja": "日本に来てから、二年になります。",
+          "lectura": "にほんにきてから、にねんになります。",
+          "es": "Ya van dos años desde que llegué a Japón."
+        }
+      ]
+    },
+    {
+      "id": "n5-te-kudasai",
+      "nivel": "n5",
+      "patron": "てください",
+      "romaji": "te kudasai",
+      "significado": "Por favor, haz (algo).",
+      "ejemplos": [
+        {
+          "ja": "ちょっと待ってください。",
+          "lectura": "ちょっとまってください。",
+          "es": "Espere un momento, por favor."
+        },
+        {
+          "ja": "ここに名前を書いてください。",
+          "lectura": "ここになまえをかいてください。",
+          "es": "Escriba su nombre aquí, por favor."
+        },
+        {
+          "ja": "もう少しゆっくり話してください。",
+          "lectura": "もうすこしゆっくりはなしてください。",
+          "es": "Hable un poco más despacio, por favor."
+        }
+      ]
+    },
+    {
+      "id": "n5-tewa-ikenai",
+      "nivel": "n5",
+      "patron": "てはいけない",
+      "romaji": "te wa ikenai",
+      "significado": "No se debe, está prohibido.",
+      "ejemplos": [
+        {
+          "ja": "ここで泳いではいけません。",
+          "lectura": "ここでおよいではいけません。",
+          "es": "Aquí no se puede nadar."
+        },
+        {
+          "ja": "授業中に電話をしてはいけない。",
+          "lectura": "じゅぎょうちゅうにでんわをしてはいけない。",
+          "es": "No se debe llamar por teléfono durante la clase."
+        },
+        {
+          "ja": "美術館で写真を撮ってはいけません。",
+          "lectura": "びじゅつかんでしゃしんをとってはいけません。",
+          "es": "En el museo no se pueden tomar fotos."
+        }
+      ]
+    },
+    {
+      "id": "n5-temo-ii",
+      "nivel": "n5",
+      "patron": "てもいいです",
+      "romaji": "temo ii desu",
+      "significado": "Se puede, está bien si; ¿puedo...?",
+      "ejemplos": [
+        {
+          "ja": "窓を開けてもいいですか。",
+          "lectura": "まどをあけてもいいですか。",
+          "es": "¿Puedo abrir la ventana?"
+        },
+        {
+          "ja": "このペンを使ってもいいです。",
+          "lectura": "このペンをつかってもいいです。",
+          "es": "Puedes usar este bolígrafo."
+        },
+        {
+          "ja": "もう帰ってもいいですよ。",
+          "lectura": "もうかえってもいいですよ。",
+          "es": "Ya te puedes ir."
+        }
+      ]
+    },
+    {
+      "id": "n5-to",
+      "nivel": "n5",
+      "patron": "と",
+      "romaji": "to",
+      "significado": "Y (lista completa); con; cita.",
+      "ejemplos": [
+        {
+          "ja": "パンと牛乳を買いました。",
+          "lectura": "パンとぎゅうにゅうをかいました。",
+          "es": "Compré pan y leche."
+        },
+        {
+          "ja": "友だちと京都へ行きました。",
+          "lectura": "ともだちときょうとへいきました。",
+          "es": "Fui a Kioto con un amigo."
+        },
+        {
+          "ja": "先生は「明日はテストです」と言いました。",
+          "lectura": "せんせいは「あしたはテストです」といいました。",
+          "es": "El profesor dijo: \"Mañana hay examen\"."
+        }
+      ]
+    },
+    {
+      "id": "n5-toki",
+      "nivel": "n5",
+      "patron": "とき",
+      "romaji": "toki",
+      "significado": "Cuando.",
+      "ejemplos": [
+        {
+          "ja": "子どものとき、よく川で泳ぎました。",
+          "lectura": "こどものとき、よくかわでおよぎました。",
+          "es": "Cuando era niño, nadaba seguido en el río."
+        },
+        {
+          "ja": "暇なとき、何をしますか。",
+          "lectura": "ひまなとき、なにをしますか。",
+          "es": "¿Qué haces cuando tienes tiempo libre?"
+        },
+        {
+          "ja": "寝るとき、電気を消します。",
+          "lectura": "ねるとき、でんきをけします。",
+          "es": "Cuando me acuesto, apago la luz."
+        }
+      ]
+    },
+    {
+      "id": "n5-totemo",
+      "nivel": "n5",
+      "patron": "とても",
+      "romaji": "totemo",
+      "significado": "Muy.",
+      "ejemplos": [
+        {
+          "ja": "この本はとても面白いです。",
+          "lectura": "このほんはとてもおもしろいです。",
+          "es": "Este libro es muy interesante."
+        },
+        {
+          "ja": "今日はとても寒いです。",
+          "lectura": "きょうはとてもさむいです。",
+          "es": "Hoy hace mucho frío."
+        },
+        {
+          "ja": "彼女はとても親切な人です。",
+          "lectura": "かのじょはとてもしんせつなひとです。",
+          "es": "Ella es una persona muy amable."
+        }
+      ]
+    },
+    {
+      "id": "n5-tsumori",
+      "nivel": "n5",
+      "patron": "つもり",
+      "romaji": "tsumori",
+      "significado": "Tener la intención de, pensar hacer.",
+      "ejemplos": [
+        {
+          "ja": "夏休みに国へ帰るつもりです。",
+          "lectura": "なつやすみにくにへかえるつもりです。",
+          "es": "Pienso volver a mi país en las vacaciones de verano."
+        },
+        {
+          "ja": "来年、日本語の試験を受けるつもりです。",
+          "lectura": "らいねん、にほんごのしけんをうけるつもりです。",
+          "es": "El próximo año pienso dar el examen de japonés."
+        },
+        {
+          "ja": "今日はどこへも行かないつもりです。",
+          "lectura": "きょうはどこへもいかないつもりです。",
+          "es": "Hoy no pienso ir a ningún lado."
+        }
+      ]
+    },
+    {
+      "id": "n5-wa",
+      "nivel": "n5",
+      "patron": "は",
+      "romaji": "wa",
+      "significado": "Partícula de tema; contraste.",
+      "ejemplos": [
+        {
+          "ja": "私は田中です。",
+          "lectura": "わたしはたなかです。",
+          "es": "Yo soy Tanaka."
+        },
+        {
+          "ja": "今日は暑いです。",
+          "lectura": "きょうはあついです。",
+          "es": "Hoy hace calor."
+        },
+        {
+          "ja": "肉は好きですが、魚は好きじゃないです。",
+          "lectura": "にくはすきですが、さかなはすきじゃないです。",
+          "es": "La carne me gusta, pero el pescado no."
+        }
+      ]
+    },
+    {
+      "id": "n5-wa-yori",
+      "nivel": "n5",
+      "patron": "は～より…です",
+      "romaji": "wa ~ yori ... desu",
+      "significado": "A es más... que B.",
+      "ejemplos": [
+        {
+          "ja": "東京は大阪より大きいです。",
+          "lectura": "とうきょうはおおさかよりおおきいです。",
+          "es": "Tokio es más grande que Osaka."
+        },
+        {
+          "ja": "今日は昨日より暑いです。",
+          "lectura": "きょうはきのうよりあついです。",
+          "es": "Hoy hace más calor que ayer."
+        },
+        {
+          "ja": "電車はバスより速いです。",
+          "lectura": "でんしゃはバスよりはやいです。",
+          "es": "El tren es más rápido que el autobús."
+        }
+      ]
+    },
+    {
+      "id": "n5-wa-dou-desu-ka",
+      "nivel": "n5",
+      "patron": "はどうですか",
+      "romaji": "wa dou desu ka",
+      "significado": "¿Qué tal...?, ¿cómo está...?",
+      "ejemplos": [
+        {
+          "ja": "明日はどうですか。",
+          "lectura": "あしたはどうですか。",
+          "es": "¿Qué tal mañana?"
+        },
+        {
+          "ja": "日本の生活はどうですか。",
+          "lectura": "にほんのせいかつはどうですか。",
+          "es": "¿Qué tal la vida en Japón?"
+        },
+        {
+          "ja": "コーヒーはどうですか。",
+          "lectura": "コーヒーはどうですか。",
+          "es": "¿Qué tal un café?"
+        }
+      ]
+    },
+    {
+      "id": "n5-ya",
+      "nivel": "n5",
+      "patron": "や",
+      "romaji": "ya",
+      "significado": "Y, entre otros (lista no exhaustiva).",
+      "ejemplos": [
+        {
+          "ja": "かばんの中に本やノートがあります。",
+          "lectura": "かばんのなかにほんやノートがあります。",
+          "es": "En el bolso hay libros, cuadernos y otras cosas."
+        },
+        {
+          "ja": "りんごやバナナを買いました。",
+          "lectura": "りんごやバナナをかいました。",
+          "es": "Compré manzanas, plátanos y otras cosas."
+        },
+        {
+          "ja": "公園に犬や猫がいます。",
+          "lectura": "こうえんにいぬやねこがいます。",
+          "es": "En el parque hay perros, gatos y otros animales."
+        }
+      ]
+    },
+    {
+      "id": "n5-yo",
+      "nivel": "n5",
+      "patron": "よ",
+      "romaji": "yo",
+      "significado": "Partícula final para informar o enfatizar.",
+      "ejemplos": [
+        {
+          "ja": "このケーキ、おいしいですよ。",
+          "lectura": "このケーキ、おいしいですよ。",
+          "es": "Este pastel está rico, te lo aseguro."
+        },
+        {
+          "ja": "電車がもう来ましたよ。",
+          "lectura": "でんしゃがもうきましたよ。",
+          "es": "Oye, el tren ya llegó."
+        },
+        {
+          "ja": "明日は休みだよ。",
+          "lectura": "あしたはやすみだよ。",
+          "es": "Mañana no hay clases, ¿sabías?"
+        }
+      ]
+    },
+    {
+      "id": "n5-yori-hou-ga",
+      "nivel": "n5",
+      "patron": "より～ほうが",
+      "romaji": "yori ~ hou ga",
+      "significado": "B es más... que A.",
+      "ejemplos": [
+        {
+          "ja": "バスより電車のほうが速いです。",
+          "lectura": "バスよりでんしゃのほうがはやいです。",
+          "es": "El tren es más rápido que el autobús."
+        },
+        {
+          "ja": "夏より冬のほうが好きです。",
+          "lectura": "なつよりふゆのほうがすきです。",
+          "es": "Me gusta más el invierno que el verano."
+        },
+        {
+          "ja": "「肉と魚とどちらが好きですか。」「肉より魚のほうが好きです。」",
+          "lectura": "「にくとさかなとどちらがすきですか。」「にくよりさかなのほうがすきです。」",
+          "es": "—¿Qué te gusta más, la carne o el pescado? —Me gusta más el pescado que la carne."
+        }
+      ]
+    }
+  ]
+}
