@@ -21,19 +21,6 @@ type Line = {
 const HEX_CHARS = "0123456789ABCDEF::<>//{}[]&&||!=+-*%$#@";
 
 /**
- * Genera una cadena aleatoria de caracteres hex/código.
- *
- * @param length - Largo de la cadena.
- * @returns Cadena aleatoria.
- */
-function randomText(length: number): string {
-  return Array.from(
-    { length },
-    () => HEX_CHARS[Math.floor(Math.random() * HEX_CHARS.length)],
-  ).join("");
-}
-
-/**
  * Genera una cadena con fragmentos cortos de texto separados por espacios.
  * Crea un aspecto disperso con más espacio negro entre caracteres.
  *
