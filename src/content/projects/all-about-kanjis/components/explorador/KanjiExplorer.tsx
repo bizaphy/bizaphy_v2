@@ -13,8 +13,8 @@ import KanjiMemoryAids from "./KanjiMemoryAids";
 import JlptLevelSelector from "./JlptLevelSelector";
 import KanjiSearchFilters, { type AnioFiltro, type TrazosFiltro } from "./KanjiSearchFilters";
 import KanjiTrap from "./KanjiTrap";
-import { alternarDestacado } from "../db/actions";
-import type { KanjiEnListado } from "../db/queries";
+import { alternarDestacado } from "../../db/actions";
+import type { KanjiEnListado } from "../../db/queries";
 import SeparatorLine from "@/components/ui/SeparatorLine";
 import { toast } from "sonner";
 

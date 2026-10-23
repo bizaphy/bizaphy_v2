@@ -10,7 +10,6 @@
     "lecturaDespues": "た。",
     "lectura": "ひとばんでレポートをかきあげた。",
     "traduccion": "Terminé de escribir el informe en una sola noche.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "上がっ",
@@ -37,7 +36,6 @@
     "lecturaDespues": "、ないてしまった。",
     "lectura": "うれしさのあまり、ないてしまった。",
     "traduccion": "De tanta alegría me puse a llorar.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とおりに",
@@ -67,7 +65,6 @@
     "lecturaDespues": "たかいので、かうのをやめた。",
     "lectura": "ねだんがあまりにもたかいので、かうのをやめた。",
     "traduccion": "El precio era tan alto que desistí de comprarlo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "決して",
@@ -97,7 +94,6 @@
     "lecturaDespues": "た。",
     "lectura": "もんだいについてみんなではなしあった。",
     "traduccion": "Hablamos todos juntos sobre el problema.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "合わ",
@@ -124,7 +120,6 @@
     "lecturaDespues": "。",
     "lectura": "わからなければ、せんせいにきけばいい。",
     "traduccion": "Si no entiendes, basta con preguntarle al profesor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てもいい",
@@ -153,7 +148,6 @@
     "lecturaDespues": "。",
     "lectura": "あんなことをいわなければよかった。",
     "traduccion": "Ojalá no hubiera dicho eso.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たよかった",
@@ -181,7 +175,6 @@
     "lecturaDespues": "、わからなくなる。",
     "lectura": "かんがえればかんがえるほど、わからなくなる。",
     "traduccion": "Cuanto más lo pienso, menos lo entiendo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "より",
@@ -211,7 +204,6 @@
     "lecturaDespues": "。",
     "lectura": "いってくれればてつだったのに。",
     "traduccion": "Si me lo hubieras dicho, te habría ayudado.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ので",
@@ -241,7 +233,6 @@
     "lecturaDespues": "、なにもてつだわない。",
     "lectura": "かれはもんくをいうばかりで、なにもてつだわない。",
     "traduccion": "Él solo se queja y no ayuda en nada.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ながら",
@@ -271,7 +262,6 @@
     "lecturaDespues": "、ちゅうごくごもはなせる。",
     "lectura": "かれはえいごばかりでなく、ちゅうごくごもはなせる。",
     "traduccion": "Él no solo habla inglés, sino también chino.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しかなく",
@@ -300,7 +290,6 @@
     "lecturaDespues": "。",
     "lectura": "わるいことをしたら、あやまるべきだ。",
     "traduccion": "Si hiciste algo malo, deberías pedir disculpas.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "べきではない",
@@ -330,7 +319,6 @@
     "lecturaDespues": "。",
     "lectura": "ひとのわるぐちをいうべきではない。",
     "traduccion": "No se debe hablar mal de los demás.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "べきだ",
@@ -358,7 +346,6 @@
     "lecturaDespues": "おこってないよ。」",
     "lectura": "「おこってるの？」「べつにおこってないよ。」",
     "traduccion": "—¿Estás enojado? —No, no especialmente.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -388,7 +375,6 @@
     "lecturaDespues": "くにへかえった。",
     "lectura": "さんねんぶりにくにへかえった。",
     "traduccion": "Volví a mi país después de tres años.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ずつ",
@@ -416,7 +402,6 @@
     "lecturaDespues": "にこのしごとをおわらせてください。",
     "lectura": "きょうじゅうにこのしごとをおわらせてください。",
     "traduccion": "Termine este trabajo hoy mismo, por favor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ごろ",
@@ -446,7 +431,6 @@
     "lecturaDespues": "たべてください。",
     "lectura": "すきなだけたべてください。",
     "traduccion": "Come todo lo que quieras.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ばかり",
@@ -475,7 +459,6 @@
     "lecturaDespues": "、ダンスもじょうずだ。",
     "lectura": "かれはうただけでなく、ダンスもじょうずだ。",
     "traduccion": "Él no solo canta bien, sino que también baila bien.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "しかなく",
@@ -504,7 +487,6 @@
     "lecturaDespues": "、じかんがなかった。",
     "lectura": "いきたかった。だけど、じかんがなかった。",
     "traduccion": "Quería ir. Pero no tenía tiempo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "だから",
@@ -533,7 +515,6 @@
     "lecturaDespues": "だ。",
     "lectura": "このさくぶんはまちがいだらけだ。",
     "traduccion": "Esta redacción está llena de errores.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "向け",
@@ -563,7 +544,6 @@
     "lecturaDespues": "、かれにはかてない。",
     "lectura": "どんなにがんばっても、かれにはかてない。",
     "traduccion": "Por mucho que me esfuerce, no le puedo ganar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たら",
@@ -593,7 +573,6 @@
     "lecturaDespues": "かれのなまえがおもいだせない。",
     "lectura": "どうしてもかれのなまえがおもいだせない。",
     "traduccion": "Por más que lo intento, no puedo recordar su nombre.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "どうして",
@@ -623,7 +602,6 @@
     "lecturaDespues": "をしていた。",
     "lectura": "かれはねたふりをしていた。",
     "traduccion": "Él se hacía el dormido.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ところ",
@@ -653,7 +631,6 @@
     "lecturaDespues": "きがつくと、もうよるだった。",
     "lectura": "ふときがつくと、もうよるだった。",
     "traduccion": "Cuando me di cuenta, ya era de noche.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -683,7 +660,6 @@
     "lecturaDespues": "だ。",
     "lectura": "ふゆはかぜをひきがちだ。",
     "traduccion": "En invierno uno tiende a resfriarse.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "っぽい",
@@ -713,7 +689,6 @@
     "lecturaDespues": "。",
     "lectura": "かれがうそをついたなんて、しんじがたい。",
     "traduccion": "Me cuesta creer que él haya mentido.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "たて",
@@ -743,7 +718,6 @@
     "lecturaDespues": "なので、はやくねます。",
     "lectura": "きょうはかぜぎみなので、はやくねます。",
     "traduccion": "Hoy me siento un poco resfriado, así que me voy a acostar temprano.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "だらけ",
@@ -773,7 +747,6 @@
     "lecturaDespues": "でます。",
     "lectura": "このバスはじゅうごふんごとにでます。",
     "traduccion": "Este autobús sale cada quince minutos.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ずつ",
@@ -802,7 +775,6 @@
     "lecturaDespues": "つかれた。",
     "lectura": "きょうはしぬほどつかれた。",
     "traduccion": "Hoy estoy muerto de cansancio.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "だけ",
@@ -832,7 +804,6 @@
     "lecturaDespues": "さむくない。",
     "lectura": "ことしのふゆはきょねんほどさむくない。",
     "traduccion": "Este invierno no es tan frío como el del año pasado.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "まで",
@@ -862,7 +833,6 @@
     "lecturaDespues": "たくさんのことをおぼえるのはむりだ。",
     "lectura": "いちどにたくさんのことをおぼえるのはむりだ。",
     "traduccion": "Es imposible aprender muchas cosas de una sola vez.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "一度も",
@@ -891,7 +861,6 @@
     "lecturaDespues": "、へんじがない。",
     "lectura": "いくらよんでも、へんじがない。",
     "traduccion": "Por más que lo llamo, no contesta.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "だら",
@@ -921,7 +890,6 @@
     "lecturaDespues": "だ。",
     "lectura": "ぶっかはあがるいっぽうだ。",
     "traduccion": "Los precios no paran de subir.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "まま",
@@ -951,7 +919,6 @@
     "lecturaDespues": "だれがこんなことをしたんだ。",
     "lectura": "いったいだれがこんなことをしたんだ。",
     "traduccion": "¿Quién diablos hizo esto?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "決して",
@@ -981,7 +948,6 @@
     "lecturaDespues": "？",
     "lectura": "あれ、たなかさんじゃない？",
     "traduccion": "Oye, ¿ese no es Tanaka?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なさい",
@@ -1010,7 +976,6 @@
     "lecturaDespues": "のみませんか。",
     "lectura": "コーヒーかなにかのみませんか。",
     "traduccion": "¿Tomamos un café o algo?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "と何か",
@@ -1037,7 +1002,6 @@
     "lecturaDespues": "のほんがつくえのうえにある。",
     "lectura": "よみかけのほんがつくえのうえにある。",
     "traduccion": "Hay un libro a medio leer sobre el escritorio.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "たて",
@@ -1067,7 +1031,6 @@
     "lecturaDespues": "、さくらがさきます。",
     "lectura": "さんがつからごがつにかけて、さくらがさきます。",
     "traduccion": "Los cerezos florecen entre marzo y mayo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "について",
@@ -1097,7 +1060,6 @@
     "lecturaDespues": "ごはんをたべた。",
     "lectura": "パンのかわりにごはんをたべた。",
     "traduccion": "Comí arroz en lugar de pan.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ついでに",
@@ -1127,7 +1089,6 @@
     "lecturaDespues": "、げんいんがわかった。",
     "lectura": "しらべたけっか、げんいんがわかった。",
     "traduccion": "Como resultado de la investigación, se supo la causa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "うちに",
@@ -1157,7 +1118,6 @@
     "lecturaDespues": "いかなかった。",
     "lectura": "いろいろかんがえたが、けっきょくいかなかった。",
     "traduccion": "Lo pensé mucho, pero al final no fui.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -1187,7 +1147,6 @@
     "lecturaDespues": "わすれません。",
     "lectura": "このことはけっしてわすれません。",
     "traduccion": "Nunca olvidaré esto.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -1217,7 +1176,6 @@
     "lecturaDespues": "。",
     "lectura": "ほしがおおすぎて、かぞえきれない。",
     "traduccion": "Hay tantas estrellas que no se pueden contar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "きれる",
@@ -1245,7 +1203,6 @@
     "lecturaDespues": "です。",
     "lectura": "かれとはきょねんあったきりです。",
     "traduccion": "No lo he visto desde el año pasado.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まま",
@@ -1275,7 +1232,6 @@
     "lecturaDespues": "た。",
     "lectura": "このほんはいちにちでよみきった。",
     "traduccion": "Me leí este libro entero en un día.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "切ら",
@@ -1302,7 +1258,6 @@
     "lecturaDespues": "？",
     "lectura": "あのひとのなまえ、なんだっけ？",
     "traduccion": "¿Cómo se llamaba esa persona?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "かい",
@@ -1332,7 +1287,6 @@
     "lecturaDespues": "。",
     "lectura": "かれはでんしゃにかけこんだ。",
     "traduccion": "Él entró corriendo al tren.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "上げた",
@@ -1362,7 +1316,6 @@
     "lecturaDespues": "にほんごのうりょくしけんにごうかくしたい。",
     "lectura": "ことしこそにほんごのうりょくしけんにごうかくしたい。",
     "traduccion": "Este año sí que quiero aprobar el JLPT.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "さえ",
@@ -1391,7 +1344,6 @@
     "lecturaDespues": "。",
     "lectura": "ろうかをはしらないこと。",
     "traduccion": "No correr por el pasillo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "もの",
@@ -1420,7 +1372,6 @@
     "lecturaDespues": "、よるにあめがふったのだろう。",
     "lectura": "みちがぬれていることから、よるにあめがふったのだろう。",
     "traduccion": "Como la calle está mojada, debe de haber llovido en la noche.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "くせに",
@@ -1450,7 +1401,6 @@
     "lecturaDespues": "。",
     "lectura": "にほんでは、いえにはいるときくつをぬぐことになっている。",
     "traduccion": "En Japón se acostumbra quitarse los zapatos al entrar a una casa.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ことにしている",
@@ -1477,7 +1427,6 @@
     "lecturaDespues": "。でんわでじゅうぶんです。",
     "lectura": "わざわざくることはありません。でんわでじゅうぶんです。",
     "traduccion": "No hace falta que venga; basta con llamar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "べきです",
@@ -1507,7 +1456,6 @@
     "lecturaDespues": "いくが、すこしおくれるかもしれない。",
     "lectura": "いくことはいくが、すこしおくれるかもしれない。",
     "traduccion": "Ir, voy, pero quizás llegue un poco tarde.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ことが",
@@ -1536,7 +1484,6 @@
     "lecturaDespues": "はしなさい。",
     "lectura": "あいさつぐらいはしなさい。",
     "traduccion": "Por lo menos saluda.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ばかり",
@@ -1565,7 +1512,6 @@
     "lecturaDespues": "、おしえてくれない。",
     "lectura": "しっているくせに、おしえてくれない。",
     "traduccion": "Aunque lo sabe, no me lo dice.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ので",
@@ -1595,7 +1541,6 @@
     "lecturaDespues": "ゆめをみているみたいです。",
     "lectura": "まるでゆめをみているみたいです。",
     "traduccion": "Es como si estuviera soñando.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "決して",
@@ -1625,7 +1570,6 @@
     "lecturaDespues": "かれがはんにんだとはおもわなかった。",
     "lectura": "まさかかれがはんにんだとはおもわなかった。",
     "traduccion": "Nunca imaginé que él fuera el culpable.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "さすが",
@@ -1655,7 +1599,6 @@
     "lecturaDespues": "おこらない。",
     "lectura": "ちちはめったにおこらない。",
     "traduccion": "Mi papá casi nunca se enoja.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -1685,7 +1628,6 @@
     "lecturaDespues": "、わるいときもある。",
     "lectura": "じんせいにはいいときもあれば、わるいときもある。",
     "traduccion": "En la vida hay buenos momentos y también malos.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "あったら",
@@ -1715,7 +1657,6 @@
     "lecturaDespues": "、かれはこないかもしれません。",
     "lectura": "もしかしたら、かれはこないかもしれません。",
     "traduccion": "Quizás él no venga.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "決して",
@@ -1745,7 +1686,6 @@
     "lecturaDespues": "、でんわしてね。",
     "lectura": "もしもみちにまよったら、でんわしてね。",
     "traduccion": "Si por casualidad te pierdes, llámame.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たり",
@@ -1775,7 +1715,6 @@
     "lecturaDespues": "のほんです。",
     "lectura": "これはこどもむけのほんです。",
     "traduccion": "Este es un libro para niños.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "っぽい",
@@ -1805,7 +1744,6 @@
     "lecturaDespues": "ではない。",
     "lectura": "このくつはやまのぼりむきではない。",
     "traduccion": "Estos zapatos no son aptos para subir montañas.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "気味",
@@ -1835,7 +1773,6 @@
     "lecturaDespues": "ともだちのようなひとだ。",
     "lectura": "かれはせんせいというより、むしろともだちのようなひとだ。",
     "traduccion": "Más que un profesor, él es más bien como un amigo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -1865,7 +1802,6 @@
     "lecturaDespues": "、うそをついてしまった。",
     "lectura": "わるいとしりながらも、うそをついてしまった。",
     "traduccion": "Aunque sabía que estaba mal, terminé mintiendo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たびに",
@@ -1895,7 +1831,6 @@
     "lecturaDespues": "。",
     "lectura": "すこしたかいけど、かえないことはない。",
     "traduccion": "Es un poco caro, pero no es que no pueda comprarlo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ることはない",
@@ -1922,7 +1857,6 @@
     "lecturaDespues": "、じょうずにならない。",
     "lectura": "れんしゅうしないと、じょうずにならない。",
     "traduccion": "Si no practicas, no vas a mejorar.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ないのに",
@@ -1951,7 +1885,6 @@
     "lecturaDespues": "おもしろかった。",
     "lectura": "このえいがはなかなかおもしろかった。",
     "traduccion": "Esta película fue bastante interesante.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -1981,7 +1914,6 @@
     "lecturaDespues": "だいきらいだ。",
     "lectura": "べんきょうなんてだいきらいだ。",
     "traduccion": "Odio eso de estudiar.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ずつ",
@@ -2010,7 +1942,6 @@
     "lecturaDespues": "た。",
     "lectura": "まちがえたので、さくぶんをかきなおした。",
     "traduccion": "Como me equivoqué, reescribí la redacción.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "直っ",
@@ -2037,7 +1968,6 @@
     "lecturaDespues": "はやくきてください。",
     "lectura": "なるべくはやくきてください。",
     "traduccion": "Ven lo más pronto posible.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -2067,7 +1997,6 @@
     "lecturaDespues": "、たいふうがきたからだ。",
     "lectura": "しあいはちゅうしになった。なぜなら、たいふうがきたからだ。",
     "traduccion": "El partido se canceló porque llegó un tifón.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "だから",
@@ -2096,7 +2025,6 @@
     "lecturaDespues": "。",
     "lectura": "たなかさん、らいげつけっこんするんだって。",
     "traduccion": "Dicen que Tanaka se casa el próximo mes.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なんだって",
@@ -2123,7 +2051,6 @@
     "lecturaDespues": "。",
     "lectura": "でんきがついているから、いえにいるにちがいない。",
     "traduccion": "La luz está encendida, así que debe de estar en casa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "はずがない",
@@ -2153,7 +2080,6 @@
     "lecturaDespues": "、しあいはまけてしまった。",
     "lectura": "よそうにはんして、しあいはまけてしまった。",
     "traduccion": "Contrario a lo previsto, perdimos el partido.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "について",
@@ -2183,7 +2109,6 @@
     "lecturaDespues": "、ははがいちばんだ。",
     "lectura": "りょうりにかけては、ははがいちばんだ。",
     "traduccion": "En cuanto a cocinar, mi mamá es la mejor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "にとっては",
@@ -2213,7 +2138,6 @@
     "lecturaDespues": "レポートをかいた。",
     "lectura": "かんきょうもんだいにかんするレポートをかいた。",
     "traduccion": "Escribí un informe sobre problemas medioambientales.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "に関して",
@@ -2242,7 +2166,6 @@
     "lecturaDespues": "、ぶちょうがあいさつした。",
     "lectura": "しゃちょうにかわって、ぶちょうがあいさつした。",
     "traduccion": "El jefe de sección dio el saludo en lugar del presidente de la empresa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "にとって",
@@ -2272,7 +2195,6 @@
     "lecturaDespues": "、おとうとはせがひくい。",
     "lectura": "あににくらべて、おとうとはせがひくい。",
     "traduccion": "En comparación con el hermano mayor, el menor es bajo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "にとって",
@@ -2302,7 +2224,6 @@
     "lecturaDespues": "なかなかなれない。",
     "lectura": "あたらしいしごとになかなかなれない。",
     "traduccion": "No logro acostumbrarme al nuevo trabajo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "を",
@@ -2332,7 +2253,6 @@
     "lecturaDespues": "もんだいについてはなしあった。",
     "lectura": "げんだいしゃかいにおけるもんだいについてはなしあった。",
     "traduccion": "Conversamos sobre los problemas de la sociedad actual.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "において",
@@ -2361,7 +2281,6 @@
     "lecturaDespues": "、さむくなった。",
     "lectura": "やまをのぼるにしたがって、さむくなった。",
     "traduccion": "A medida que subíamos la montaña, hacía más frío.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "について",
@@ -2391,7 +2310,6 @@
     "lecturaDespues": "、でんわぐらいできるでしょう。",
     "lectura": "いそがしいにしても、でんわぐらいできるでしょう。",
     "traduccion": "Aunque estés ocupado, por lo menos podrías llamar.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "にしては",
@@ -2421,7 +2339,6 @@
     "lecturaDespues": "、きょうはあつい。",
     "lectura": "じゅうがつにしては、きょうはあつい。",
     "traduccion": "Para ser octubre, hoy hace calor.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "にとっては",
@@ -2451,7 +2368,6 @@
     "lecturaDespues": "もやさしい。",
     "lectura": "かれはだれにたいしてもやさしい。",
     "traduccion": "Él es amable con todos.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "について",
@@ -2481,7 +2397,6 @@
     "lecturaDespues": "、かんじはむずかしい。",
     "lectura": "がいこくじんにとって、かんじはむずかしい。",
     "traduccion": "Para los extranjeros, los kanji son difíciles.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "について",
@@ -2511,7 +2426,6 @@
     "lecturaDespues": "しらべています。",
     "lectura": "にほんのぶんかについてしらべています。",
     "traduccion": "Estoy investigando sobre la cultura japonesa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "にとって",
@@ -2541,7 +2455,6 @@
     "lecturaDespues": "、にほんのせいかつがたのしくなった。",
     "lectura": "にほんごがじょうずになるにつれて、にほんのせいかつがたのしくなった。",
     "traduccion": "A medida que mejoraba mi japonés, la vida en Japón se volvía más entretenida.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "について",
@@ -2571,7 +2484,6 @@
     "lecturaDespues": "、このバスがべんりです。",
     "lectura": "えきにいくには、このバスがべんりです。",
     "traduccion": "Para ir a la estación, este autobús es práctico.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とは",
@@ -2598,7 +2510,6 @@
     "lecturaDespues": "、あしたはゆきだそうだ。",
     "lectura": "てんきよほうによると、あしたはゆきだそうだ。",
     "traduccion": "Según el pronóstico, mañana nevará.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "にとって",
@@ -2628,7 +2539,6 @@
     "lecturaDespues": "、ぶんかがちがう。",
     "lectura": "くにによって、ぶんかがちがう。",
     "traduccion": "La cultura varía según el país.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "にとって",
@@ -2658,7 +2568,6 @@
     "lecturaDespues": "。",
     "lectura": "このしょるいはどこにだせばいいのでしょうか。",
     "traduccion": "¿Dónde debería entregar estos documentos?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "のでしょう",
@@ -2686,7 +2595,6 @@
     "lecturaDespues": "はってんした。",
     "lectura": "このまちはえきをちゅうしんにはってんした。",
     "traduccion": "Este pueblo se desarrolló alrededor de la estación.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "に中心を",
@@ -2713,7 +2621,6 @@
     "lecturaDespues": "、しゃいんぜんいんがパーティーにさんかした。",
     "lectura": "しゃちょうをはじめ、しゃいんぜんいんがパーティーにさんかした。",
     "traduccion": "Todos los empleados, empezando por el presidente, participaron en la fiesta.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を込めて",
@@ -2743,7 +2650,6 @@
     "lecturaDespues": "てがみをかいた。",
     "lectura": "こころをこめててがみをかいた。",
     "traduccion": "Escribí la carta con todo mi corazón.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を中心に",
@@ -2773,7 +2679,6 @@
     "lecturaDespues": "、かれとしりあった。",
     "lectura": "ともだちをつうじて、かれとしりあった。",
     "traduccion": "Lo conocí a través de un amigo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を込めて",
@@ -2803,7 +2708,6 @@
     "lecturaDespues": "、しけんにごうかくできた。",
     "lectura": "せんせいのおかげで、しけんにごうかくできた。",
     "traduccion": "Gracias al profesor, pude aprobar el examen.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "せいで",
@@ -2833,7 +2737,6 @@
     "lecturaDespues": "でねてしまった。",
     "lectura": "でんきをつけっぱなしでねてしまった。",
     "traduccion": "Me quedé dormido con la luz encendida.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "かけ",
@@ -2863,7 +2766,6 @@
     "lecturaDespues": "なった。",
     "lectura": "さいきん、わすれっぽくなった。",
     "traduccion": "Últimamente me he vuelto olvidadizo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たてに",
@@ -2893,7 +2795,6 @@
     "lecturaDespues": "かけない。",
     "lectura": "ひらがなさえかけない。",
     "traduccion": "Ni siquiera sé escribir hiragana.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ずつ",
@@ -2923,7 +2824,6 @@
     "lecturaDespues": "あれば、なんでもかえる。",
     "lectura": "おかねさえあれば、なんでもかえる。",
     "traduccion": "Con tal de tener dinero, se puede comprar cualquier cosa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しか",
@@ -2952,7 +2852,6 @@
     "lecturaDespues": "、わすれものにごちゅういください。",
     "lectura": "おかえりのさいに、わすれものにごちゅういください。",
     "traduccion": "Al retirarse, tenga cuidado de no olvidar sus pertenencias.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "最中に",
@@ -2982,7 +2881,6 @@
     "lecturaDespues": "、じしんがあった。",
     "lectura": "しょくじをしているさいちゅうに、じしんがあった。",
     "traduccion": "Justo mientras comíamos hubo un terremoto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "前に",
@@ -3012,7 +2910,6 @@
     "lecturaDespues": "つよくなった。",
     "lectura": "あめはさらにつよくなった。",
     "traduccion": "La lluvia se hizo aún más fuerte.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -3042,7 +2939,6 @@
     "lecturaDespues": "、そろそろかえりましょうか。",
     "lectura": "さて、そろそろかえりましょうか。",
     "traduccion": "Bueno, ¿ya nos vamos?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なぜなら",
@@ -3072,7 +2968,6 @@
     "lecturaDespues": "、ちこくしてしまった。",
     "lectura": "ねぼうしたせいで、ちこくしてしまった。",
     "traduccion": "Por quedarme dormido, llegué tarde.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "おかげで",
@@ -3102,7 +2997,6 @@
     "lecturaDespues": "いちじかんでおわるだろう。",
     "lectura": "このしごとはせいぜいいちじかんでおわるだろう。",
     "traduccion": "Este trabajo se terminará en una hora como mucho.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -3132,7 +3026,6 @@
     "lecturaDespues": "おまちください。",
     "lectura": "しばらくおまちください。",
     "traduccion": "Espere un momento, por favor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -3162,7 +3055,6 @@
     "lecturaDespues": "。",
     "lectura": "でんしゃがとまったので、あるいてかえるしかない。",
     "traduccion": "Como se detuvo el tren, no queda más que volver caminando.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しかある",
@@ -3191,7 +3083,6 @@
     "lecturaDespues": "、でんしゃがとまった。",
     "lectura": "おおゆきがふった。そのために、でんしゃがとまった。",
     "traduccion": "Nevó mucho. Por eso se detuvo el tren.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "それでも",
@@ -3221,7 +3112,6 @@
     "lecturaDespues": "あるきますか。",
     "lectura": "バスでいきますか、それともあるきますか。",
     "traduccion": "¿Vamos en autobús o caminamos?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "それに",
@@ -3250,7 +3140,6 @@
     "lecturaDespues": "。",
     "lectura": "あめはやみそうにない。",
     "traduccion": "No parece que vaya a dejar de llover.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "らしくない",
@@ -3279,7 +3168,6 @@
     "lecturaDespues": "はじまっていた。",
     "lectura": "かいぎはすでにはじまっていた。",
     "traduccion": "La reunión ya había empezado.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -3309,7 +3197,6 @@
     "lecturaDespues": "わたしのおじだ。",
     "lectura": "かれはははのあに、すなわちわたしのおじだ。",
     "traduccion": "Él es el hermano mayor de mi mamá, es decir, mi tío.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なぜなら",
@@ -3339,7 +3226,6 @@
     "lecturaDespues": "かかります。",
     "lectura": "えきまでさんじゅっぷんはかかります。",
     "traduccion": "Hasta la estación se tarda por lo menos treinta minutos.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "を",
@@ -3369,7 +3255,6 @@
     "lecturaDespues": "。",
     "lectura": "こどものころは、よくかわであそんだものだ。",
     "traduccion": "De niño solía jugar seguido en el río.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ことだ",
@@ -3398,7 +3283,6 @@
     "lecturaDespues": "、あめがふってきた。",
     "lectura": "いえをでたとたん、あめがふってきた。",
     "traduccion": "Nada más salir de casa, empezó a llover.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "うちに",
@@ -3428,7 +3312,6 @@
     "lecturaDespues": "、むかしをおもいだす。",
     "lectura": "このうたをきくたびに、むかしをおもいだす。",
     "traduccion": "Cada vez que escucho esta canción, me acuerdo del pasado.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とたん",
@@ -3458,7 +3341,6 @@
     "lecturaDespues": "、にほんごをべんきょうしている。",
     "lectura": "にほんのだいがくにはいるために、にほんごをべんきょうしている。",
     "traduccion": "Estudio japonés para entrar a una universidad japonesa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "せいで",
@@ -3488,7 +3370,6 @@
     "lecturaDespues": "、あなたのいうとおりです。",
     "lectura": "たしかに、あなたのいうとおりです。",
     "traduccion": "Efectivamente, es tal como dice.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -3518,7 +3399,6 @@
     "lecturaDespues": "のパンはおいしい。",
     "lectura": "やきたてのパンはおいしい。",
     "traduccion": "El pan recién horneado es rico.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "かけ",
@@ -3548,7 +3428,6 @@
     "lecturaDespues": "はんたいされても、じぶんのゆめをあきらめない。",
     "lectura": "たとえはんたいされても、じぶんのゆめをあきらめない。",
     "traduccion": "Aunque se opongan, no voy a renunciar a mi sueño.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "決して",
@@ -3578,7 +3457,6 @@
     "lecturaDespues": "、きょうとのぎおんまつりだ。",
     "lectura": "にほんにはゆうめいなまつりがたくさんある。たとえば、きょうとのぎおんまつりだ。",
     "traduccion": "En Japón hay muchos festivales famosos. Por ejemplo, el Gion Matsuri de Kioto.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "なぜなら",
@@ -3608,7 +3486,6 @@
     "lecturaDespues": "、まにあわないよ。",
     "lectura": "いまからいそいだって、まにあわないよ。",
     "traduccion": "Aunque te apures ahora, no vas a llegar a tiempo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "だら",
@@ -3637,7 +3514,6 @@
     "lecturaDespues": "いる。",
     "lectura": "おとうとはまいにちあそんでばかりいる。",
     "traduccion": "Mi hermano menor no hace más que jugar todos los días.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しか",
@@ -3666,7 +3542,6 @@
     "lecturaDespues": "。",
     "lectura": "ほら、そらをみてごらん。",
     "traduccion": "Mira, mira el cielo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ござい",
@@ -3693,7 +3568,6 @@
     "lecturaDespues": "、けんこうのたいせつさがわかった。",
     "lectura": "びょうきになってはじめて、けんこうのたいせつさがわかった。",
     "traduccion": "Recién cuando me enfermé entendí lo importante que es la salud.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ばかり",
@@ -3723,7 +3597,6 @@
     "lecturaDespues": "、はいれません。",
     "lectura": "おかねをはらってからでないと、はいれません。",
     "traduccion": "No se puede entrar sin pagar antes.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "からなら",
@@ -3751,7 +3624,6 @@
     "lecturaDespues": "。",
     "lectura": "くにのかぞくにあいたくてしょうがない。",
     "traduccion": "Me muero de ganas de ver a mi familia en mi país.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ほしい",
@@ -3781,7 +3653,6 @@
     "lecturaDespues": "。",
     "lectura": "はやくびょういんにいったので、かるいけがですんだ。",
     "traduccion": "Como fui al hospital pronto, solo quedó en una herida leve.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "始まった",
@@ -3809,7 +3680,6 @@
     "lecturaDespues": "、メモしておきます。",
     "lectura": "わすれてはいけないから、メモしておきます。",
     "traduccion": "Para no olvidarme, lo voy a anotar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てもいいから",
@@ -3839,7 +3709,6 @@
     "lecturaDespues": "。",
     "lectura": "あしたはしけんだから、あそんでいるばあいじゃない。",
     "traduccion": "Mañana hay examen, no es momento de estar jugando.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ところだ",
@@ -3868,7 +3737,6 @@
     "lecturaDespues": "せつめいしてください。",
     "lectura": "もっとぐたいてきにせつめいしてください。",
     "traduccion": "Explíquelo de forma más concreta, por favor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "的な",
@@ -3896,7 +3764,6 @@
     "lecturaDespues": "。",
     "lectura": "いまさらこうかいしてもはじまらない。",
     "traduccion": "A estas alturas no sirve de nada arrepentirse.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "始めない",
@@ -3923,7 +3790,6 @@
     "lecturaDespues": "。",
     "lectura": "すこしぐらいおくれてもかまいません。",
     "traduccion": "No importa si llega un poco tarde.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "いけません",
@@ -3951,7 +3817,6 @@
     "lecturaDespues": "。",
     "lectura": "おわったことをいってもしょうがない。",
     "traduccion": "No sirve de nada hablar de lo que ya pasó.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ほしい",
@@ -3981,7 +3846,6 @@
     "lecturaDespues": "、ふじさんですね。",
     "lectura": "にほんといえば、ふじさんですね。",
     "traduccion": "Si hablamos de Japón, lo primero que viene a la mente es el monte Fuji.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "と言っても",
@@ -4009,7 +3873,6 @@
     "lecturaDespues": "ですね。",
     "lectura": "あした、はれるといいですね。",
     "traduccion": "Ojalá mañana haga buen tiempo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とよかった",
@@ -4036,7 +3899,6 @@
     "lecturaDespues": "、ちかくのおんせんにいくだけだ。",
     "lectura": "りょこうといっても、ちかくのおんせんにいくだけだ。",
     "traduccion": "Lo llamo viaje, pero solo voy a unas aguas termales cercanas.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "と言えば",
@@ -4066,7 +3928,6 @@
     "lecturaDespues": "。",
     "lectura": "でんきがきえている。だれもいないということだ。",
     "traduccion": "La luz está apagada. O sea que no hay nadie.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "というより",
@@ -4096,7 +3957,6 @@
     "lecturaDespues": "、さくらをみながらたのしむことです。",
     "lectura": "「はなみ」というのは、さくらをみながらたのしむことです。",
     "traduccion": "\"Hanami\" significa disfrutar mirando los cerezos en flor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "と言えば",
@@ -4126,7 +3986,6 @@
     "lecturaDespues": "、あのせのたかいひとですか。",
     "lectura": "「たなかさん」というと、あのせのたかいひとですか。",
     "traduccion": "Cuando dices \"Tanaka\", ¿te refieres a esa persona alta?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "と言われて",
@@ -4155,7 +4014,6 @@
     "lecturaDespues": "、あつい。",
     "lectura": "きょうはあたたかいというより、あつい。",
     "traduccion": "Hoy, más que templado, hace calor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "と言えば",
@@ -4185,7 +4043,6 @@
     "lecturaDespues": "、みちがぬれている。",
     "lectura": "よなかにあめがふったとみえて、みちがぬれている。",
     "traduccion": "Parece que llovió en la noche, porque la calle está mojada.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "といっても",
@@ -4215,7 +4072,6 @@
     "lecturaDespues": "、なににつかいますか。",
     "lectura": "もしひゃくまんえんあるとしたら、なににつかいますか。",
     "traduccion": "Si tuvieras un millón de yenes, ¿en qué lo gastarías?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "といっても",
@@ -4245,7 +4101,6 @@
     "lecturaDespues": "、せいかつがべんりになった。",
     "lectura": "ぎじゅつのはってんとともに、せいかつがべんりになった。",
     "traduccion": "Con el desarrollo de la tecnología, la vida se volvió más cómoda.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "について",
@@ -4275,7 +4130,6 @@
     "lecturaDespues": "、ともだちにあった。",
     "lectura": "がっこうへいくとちゅうで、ともだちにあった。",
     "traduccion": "De camino a la escuela me encontré con un amigo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "最中に",
@@ -4305,7 +4159,6 @@
     "lecturaDespues": "、あしたのかいぎはなんじからですか。",
     "lectura": "ところで、あしたのかいぎはなんじからですか。",
     "traduccion": "Por cierto, ¿a qué hora es la reunión de mañana?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ところが",
@@ -4335,7 +4188,6 @@
     "lecturaDespues": "、とてもむずかしかった。",
     "lectura": "かんたんだとおもった。ところが、とてもむずかしかった。",
     "traduccion": "Pensé que era fácil. Pero resultó muy difícil.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ところで",
@@ -4365,7 +4217,6 @@
     "lecturaDespues": "くみたててください。",
     "lectura": "せつめいしょのとおりにくみたててください。",
     "traduccion": "Ármelo tal como dice el manual.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ついでに",
@@ -4395,7 +4246,6 @@
     "lecturaDespues": "た。",
     "lectura": "かれはさいごまではしりとおした。",
     "traduccion": "Él corrió hasta el final sin detenerse.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "込ん",
@@ -4423,7 +4273,6 @@
     "lecturaDespues": "かいぎにさんかした。",
     "lectura": "かれはつうやくとしてかいぎにさんかした。",
     "traduccion": "Él participó en la reunión como intérprete.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "にとって",
@@ -4453,7 +4302,6 @@
     "lecturaDespues": "かえない。",
     "lectura": "そんなたかいくるまはとてもかえない。",
     "traduccion": "Un auto tan caro no lo podría comprar de ninguna manera.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -4483,7 +4331,6 @@
     "lecturaDespues": "。",
     "lectura": "たかいものがいいものだとはかぎらない。",
     "traduccion": "Lo caro no siempre es bueno.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "に違いない",
@@ -4513,7 +4360,6 @@
     "lecturaDespues": "たべすぎてしまった。",
     "lectura": "おいしかったので、ついたべすぎてしまった。",
     "traduccion": "Estaba tan rico que sin querer comí de más.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -4543,7 +4389,6 @@
     "lecturaDespues": "ゆめがかなった。",
     "lectura": "ついにゆめがかなった。",
     "traduccion": "Por fin se cumplió mi sueño.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "決して",
@@ -4573,7 +4418,6 @@
     "lecturaDespues": "、ゆうびんきょくによった。",
     "lectura": "かいもののついでに、ゆうびんきょくによった。",
     "traduccion": "Aprovechando que fui de compras, pasé por el correo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "おかげで",
@@ -4603,7 +4447,6 @@
     "lecturaDespues": "わたしのいとこです。",
     "lectura": "かれはははのいもうとのむすこ、つまりわたしのいとこです。",
     "traduccion": "Él es el hijo de la hermana de mi mamá, es decir, mi primo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ところが",
@@ -4633,7 +4476,6 @@
     "lecturaDespues": "のに、あいていた。",
     "lectura": "かぎをかけたつもりだったのに、あいていた。",
     "traduccion": "Creía que había cerrado con llave, pero estaba abierto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "はずがなかった",
@@ -4663,7 +4505,6 @@
     "lecturaDespues": "、せつめいしてみてください。",
     "lectura": "せんせいになったつもりで、せつめいしてみてください。",
     "traduccion": "Intente explicarlo como si fuera el profesor.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "せいで",
@@ -4693,7 +4534,6 @@
     "lecturaDespues": "、いろいろなけいけんをしたほうがいい。",
     "lectura": "わかいうちに、いろいろなけいけんをしたほうがいい。",
     "traduccion": "Es mejor tener muchas experiencias mientras uno es joven.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "前に",
@@ -4723,7 +4563,6 @@
     "lecturaDespues": "、へんじをします。",
     "lectura": "かぞくとそうだんしたうえで、へんじをします。",
     "traduccion": "Le responderé después de consultarlo con mi familia.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "とたん",
@@ -4753,7 +4592,6 @@
     "lecturaDespues": "、おいしい。",
     "lectura": "このみせはやすいうえに、おいしい。",
     "traduccion": "Este local, además de barato, es rico.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "くせに",
@@ -4783,7 +4621,6 @@
     "lecturaDespues": "、デザインはとてもいい。",
     "lectura": "ねだんはべつとして、デザインはとてもいい。",
     "traduccion": "Aparte del precio, el diseño es muy bueno.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "について",
@@ -4813,7 +4650,6 @@
     "lecturaDespues": "、フランスごもはなせる。",
     "lectura": "かれはえいごはもちろん、フランスごもはなせる。",
     "traduccion": "Él habla inglés, por supuesto, y también francés.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "別として",
@@ -4843,7 +4679,6 @@
     "lecturaDespues": "ゆうめいだ。",
     "lectura": "このまちはおんせんでゆうめいだ。",
     "traduccion": "Este pueblo es famoso por sus aguas termales.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -4873,7 +4708,6 @@
     "lecturaDespues": "。",
     "lectura": "まどがあいていた。さむいわけだ。",
     "traduccion": "La ventana estaba abierta. Con razón hace frío.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "わけがない",
@@ -4903,7 +4737,6 @@
     "lecturaDespues": "が、あまりたべない。",
     "lectura": "にくがきらいなわけではないが、あまりたべない。",
     "traduccion": "No es que no me guste la carne, pero no como mucha.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "わけだ",
@@ -4933,7 +4766,6 @@
     "lecturaDespues": "。",
     "lectura": "いちにちでにほんごがじょうずになるわけがない。",
     "traduccion": "No hay forma de mejorar en japonés en un solo día.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "わけだ",
@@ -4963,7 +4795,6 @@
     "lecturaDespues": "。",
     "lectura": "これはかりたほんだから、すてるわけにはいかない。",
     "traduccion": "Este es un libro prestado, así que no puedo tirarlo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "わけだ",
@@ -4993,7 +4824,6 @@
     "lecturaDespues": "わかくみえる。",
     "lectura": "かれはとしのわりにわかくみえる。",
     "traduccion": "Él se ve joven para su edad.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "おかげで",
@@ -5023,7 +4853,6 @@
     "lecturaDespues": "じゃないんだ。",
     "lectura": "ごめん、わざとじゃないんだ。",
     "traduccion": "Perdón, no fue a propósito.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "わざわざ",
@@ -5053,7 +4882,6 @@
     "lecturaDespues": "きてくださって、ありがとうございます。",
     "lectura": "わざわざきてくださって、ありがとうございます。",
     "traduccion": "Muchas gracias por tomarse la molestia de venir.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "わざと",
@@ -5083,7 +4911,6 @@
     "lecturaDespues": "けんこうがたいせつだ。",
     "lectura": "なによりもけんこうがたいせつだ。",
     "traduccion": "La salud es más importante que cualquier otra cosa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ほども",
@@ -5112,7 +4939,6 @@
     "lecturaDespues": "。",
     "lectura": "こんなにこわれていたら、なおしようがない。",
     "traduccion": "Si está así de roto, no hay forma de arreglarlo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ようにない",
@@ -5139,7 +4965,6 @@
     "lecturaDespues": "。",
     "lectura": "どこかであったようなきがする。",
     "traduccion": "Tengo la sensación de que nos hemos visto en algún lado.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ように気がする",
@@ -5166,7 +4991,6 @@
     "lecturaDespues": "、あたたかいふくをきた。",
     "lectura": "かぜをひかないように、あたたかいふくをきた。",
     "traduccion": "Me puse ropa abrigada para no resfriarme.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "せいで",
@@ -5196,7 +5020,6 @@
     "lecturaDespues": "みえます。",
     "lectura": "このえはしゃしんのようにみえます。",
     "traduccion": "Este cuadro parece una foto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ような",
@@ -5226,7 +5049,6 @@
     "lecturaDespues": "。",
     "lectura": "かれはじぶんのまちがいをみとめようとしない。",
     "traduccion": "Él se niega a reconocer su error.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ようにしない",
@@ -5253,7 +5075,6 @@
     "lecturaDespues": "が、あかなかった。",
     "lectura": "ドアをあけようとしたが、あかなかった。",
     "traduccion": "Intenté abrir la puerta, pero no se abrió.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ようにした",
@@ -5281,7 +5102,6 @@
     "lecturaDespues": "、がっこうへいった。",
     "lectura": "あさごはんをたべずに、がっこうへいった。",
     "traduccion": "Fui a la escuela sin desayunar.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ずで",
@@ -5308,7 +5128,6 @@
     "lecturaDespues": "。",
     "lectura": "かれのはなしをきいて、わらわずにはいられなかった。",
     "traduccion": "Al escuchar su historia, no pude evitar reírme.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ずにはいけなかった",
@@ -5335,7 +5154,6 @@
     "lecturaDespues": "くばってください。",
     "lectura": "ひとりにふたつずつくばってください。",
     "traduccion": "Reparta dos a cada persona, por favor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しか",
@@ -5364,7 +5182,6 @@
     "lecturaDespues": "、わたしはへやをそうじしました。",
     "lectura": "ははがりょうりをしているあいだ、わたしはへやをそうじしました。",
     "traduccion": "Mientras mi mamá cocinaba, yo limpié la habitación.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "前に",
@@ -5394,7 +5211,6 @@
     "lecturaDespues": "、あめがふったようだ。",
     "lectura": "ねているあいだに、あめがふったようだ。",
     "traduccion": "Parece que llovió mientras dormía.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "前に",
@@ -5424,7 +5240,6 @@
     "lecturaDespues": "テレビをみません。",
     "lectura": "わたしはあまりテレビをみません。",
     "traduccion": "No veo mucha televisión.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "とても",
@@ -5454,7 +5269,6 @@
     "lecturaDespues": "、くすりをのんでください。",
     "lectura": "ごはんをたべたあとで、くすりをのんでください。",
     "traduccion": "Tome la medicina después de comer.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "前に",
@@ -5484,7 +5298,6 @@
     "lecturaDespues": "、かいます。",
     "lectura": "やすければ、かいます。",
     "traduccion": "Si es barato, lo compro.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "いれば",
@@ -5511,7 +5324,6 @@
     "lecturaDespues": "、エレベーターをつかわないでください。",
     "lectura": "かじのばあいは、エレベーターをつかわないでください。",
     "traduccion": "En caso de incendio, no use el ascensor.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ので",
@@ -5541,7 +5353,6 @@
     "lecturaDespues": "たべています。",
     "lectura": "かれはにくばかりたべています。",
     "traduccion": "Él come solo carne.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "しか",
@@ -5570,7 +5381,6 @@
     "lecturaDespues": "、おゆがでます。",
     "lectura": "このボタンをおすだけで、おゆがでます。",
     "traduccion": "Con solo apretar este botón, sale agua caliente.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しか",
@@ -5599,7 +5409,6 @@
     "lecturaDespues": "ました。",
     "lectura": "あかちゃんがなきだしました。",
     "traduccion": "El bebé se puso a llorar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "出て",
@@ -5626,7 +5435,6 @@
     "lecturaDespues": "。",
     "lectura": "おてあらいはにかいでございます。",
     "traduccion": "El baño está en el segundo piso.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "でござります",
@@ -5655,7 +5463,6 @@
     "lecturaDespues": "のみませんか。",
     "lectura": "おちゃでものみませんか。",
     "traduccion": "¿Tomamos un té o algo?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "で",
@@ -5685,7 +5492,6 @@
     "lecturaDespues": "。",
     "lectura": "もうすこしかんがえたほうがいいのではないか。",
     "traduccion": "¿No sería mejor pensarlo un poco más?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "のではあるか",
@@ -5712,7 +5518,6 @@
     "lecturaDespues": "です。",
     "lectura": "りょこうにはパスポートがひつようです。",
     "traduccion": "Para el viaje se necesita el pasaporte.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を必要",
@@ -5740,7 +5545,6 @@
     "lecturaDespues": "。",
     "lectura": "そとでへんなおとがしました。",
     "traduccion": "Afuera se oyó un ruido raro.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "をしました",
@@ -5769,7 +5573,6 @@
     "lecturaDespues": "なので、ふゆがにがてです。",
     "lectura": "わたしはさむがりなので、ふゆがにがてです。",
     "traduccion": "Como soy friolento, no me gusta el invierno.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "がる",
@@ -5798,7 +5601,6 @@
     "lecturaDespues": "。",
     "lectura": "いもうとはいぬをこわがる。",
     "traduccion": "Mi hermana menor les tiene miedo a los perros.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "い",
@@ -5827,7 +5629,6 @@
     "lecturaDespues": "か。",
     "lectura": "なにかごしつもんはございますか。",
     "traduccion": "¿Tiene alguna pregunta?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "いらっしゃいます",
@@ -5857,7 +5658,6 @@
     "lecturaDespues": "ました。",
     "lectura": "きょねんからにほんごをならいはじめました。",
     "traduccion": "Empecé a aprender japonés el año pasado.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "始まり",
@@ -5885,7 +5685,6 @@
     "lecturaDespues": "だ。",
     "lectura": "かれはもういえについたはずだ。",
     "traduccion": "Él ya debería haber llegado a casa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "予定",
@@ -5914,7 +5713,6 @@
     "lecturaDespues": "。",
     "lectura": "かぎをかけたから、ドアがあいているはずがない。",
     "traduccion": "Cerré con llave, así que es imposible que la puerta esté abierta.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "はずだ",
@@ -5944,7 +5742,6 @@
     "lecturaDespues": "。",
     "lectura": "もういちどかくにんするひつようがある。",
     "traduccion": "Hay que confirmarlo una vez más.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "必要だ",
@@ -5971,7 +5768,6 @@
     "lecturaDespues": "。",
     "lectura": "きょうははやくねよう。",
     "traduccion": "Hoy me voy a acostar temprano.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ろう",
@@ -5998,7 +5794,6 @@
     "lecturaDespues": "。",
     "lectura": "せんせいはいま、けんきゅうしつにいらっしゃいます。",
     "traduccion": "El profesor está ahora en su oficina.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "まいります",
@@ -6026,7 +5821,6 @@
     "lecturaDespues": "。",
     "lectura": "わたしがごあんないいたします。",
     "traduccion": "Yo lo acompaño.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なさいます",
@@ -6056,7 +5850,6 @@
     "lecturaDespues": "。",
     "lectura": "ほら、やっぱりあめがふったじゃないか。",
     "traduccion": "¿Ves? Te dije que iba a llover.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でしょうか",
@@ -6084,7 +5877,6 @@
     "lecturaDespues": "、わかりません。",
     "lectura": "このこたえがただしいかどうか、わかりません。",
     "traduccion": "No sé si esta respuesta es correcta o no.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "どうか",
@@ -6113,7 +5905,6 @@
     "lecturaDespues": "。",
     "lectura": "このドレス、わたしににあうかしら。",
     "traduccion": "Me pregunto si este vestido me queda bien.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なさい",
@@ -6142,7 +5933,6 @@
     "lecturaDespues": "？",
     "lectura": "げんきかい？",
     "traduccion": "¿Cómo estás?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "だい",
@@ -6171,7 +5961,6 @@
     "lecturaDespues": "。",
     "lectura": "かれはもうかえったかもしれない。",
     "traduccion": "Quizás él ya se fue.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ましょう",
@@ -6200,7 +5989,6 @@
     "lecturaDespues": "。",
     "lectura": "あした、ゆきがふるかな。",
     "traduccion": "Me pregunto si mañana nevará.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なさい",
@@ -6229,7 +6017,6 @@
     "lecturaDespues": "つくります。",
     "lectura": "ワインはぶどうからつくります。",
     "traduccion": "El vino se hace de uvas.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "に",
@@ -6259,7 +6046,6 @@
     "lecturaDespues": "ごうかくする。",
     "lectura": "かれならきっとごうかくする。",
     "traduccion": "Si es él, sin duda aprobará.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "全然",
@@ -6289,7 +6075,6 @@
     "lecturaDespues": "、よくこのこうえんであそんだ。",
     "lectura": "こどものころ、よくこのこうえんであそんだ。",
     "traduccion": "Cuando era niño, jugaba seguido en este parque.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まで",
@@ -6319,7 +6104,6 @@
     "lecturaDespues": "です。",
     "lectura": "わたしのしゅみはしゃしんをとることです。",
     "traduccion": "Mi pasatiempo es tomar fotos.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "さ",
@@ -6347,7 +6131,6 @@
     "lecturaDespues": "。",
     "lectura": "ちちはときどきりょうりをすることがあります。",
     "traduccion": "Mi papá a veces cocina.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ことがいます",
@@ -6374,7 +6157,6 @@
     "lecturaDespues": "。",
     "lectura": "わたしはかんじをひゃくじかくことができます。",
     "traduccion": "Puedo escribir cien kanji.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "のができます",
@@ -6401,7 +6183,6 @@
     "lecturaDespues": "。",
     "lectura": "かいぎはきんようびにおこなわれることになった。",
     "traduccion": "Quedó decidido que la reunión se hará el viernes.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ことにした",
@@ -6430,7 +6211,6 @@
     "lecturaDespues": "。",
     "lectura": "こんばんはそとでたべることにしよう。",
     "traduccion": "Esta noche comamos afuera.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ことになろう",
@@ -6458,7 +6238,6 @@
     "lecturaDespues": "ください。",
     "lectura": "おとをちいさくしてください。",
     "traduccion": "Baje el volumen, por favor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "いして",
@@ -6487,7 +6266,6 @@
     "lecturaDespues": "たちあがった。",
     "lectura": "かれはきゅうにたちあがった。",
     "traduccion": "Él se levantó de pronto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "全然",
@@ -6517,7 +6295,6 @@
     "lecturaDespues": "レポートをだしてください。",
     "lectura": "きんようびまでにレポートをだしてください。",
     "traduccion": "Entregue el informe a más tardar el viernes.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "まで",
@@ -6545,7 +6322,6 @@
     "lecturaDespues": "ねてしまった。",
     "lectura": "まどをあけたままねてしまった。",
     "traduccion": "Me quedé dormido con la ventana abierta.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ながら",
@@ -6575,7 +6351,6 @@
     "lecturaDespues": "あおのペンでかいてください。",
     "lectura": "くろまたはあおのペンでかいてください。",
     "traduccion": "Escriba con bolígrafo negro o azul.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "それから",
@@ -6605,7 +6380,6 @@
     "lecturaDespues": "。",
     "lectura": "そとはあめみたいだ。",
     "traduccion": "Parece que afuera está lloviendo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "そうだ",
@@ -6634,7 +6408,6 @@
     "lecturaDespues": "ことをいわないで。",
     "lectura": "こどもみたいなことをいわないで。",
     "traduccion": "No digas cosas de niño.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "みたいに",
@@ -6663,7 +6436,6 @@
     "lecturaDespues": "あつい。",
     "lectura": "きょうはなつみたいにあつい。",
     "traduccion": "Hoy hace calor como en verano.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "みたいな",
@@ -6693,7 +6465,6 @@
     "lecturaDespues": "ねました。",
     "lectura": "きのうはじゅうじかんもねました。",
     "traduccion": "Ayer dormí nada menos que diez horas.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しか",
@@ -6722,7 +6493,6 @@
     "lecturaDespues": "。",
     "lectura": "ここでおよぐな。",
     "traduccion": "¡No nades aquí!",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なさい",
@@ -6751,7 +6521,6 @@
     "lecturaDespues": "へいきたいです。",
     "lectura": "きょうとやならなどへいきたいです。",
     "traduccion": "Quiero ir a lugares como Kioto y Nara.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ずつ",
@@ -6780,7 +6549,6 @@
     "lecturaDespues": "べんきょうします。",
     "lectura": "おんがくをききながらべんきょうします。",
     "traduccion": "Estudio mientras escucho música.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てから",
@@ -6810,7 +6578,6 @@
     "lecturaDespues": "こない。",
     "lectura": "バスがなかなかこない。",
     "traduccion": "El autobús no llega nunca.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "やっと",
@@ -6840,7 +6607,6 @@
     "lecturaDespues": "。",
     "lectura": "あしたはろくじにおきなければいけない。",
     "traduccion": "Mañana tengo que levantarme a las seis.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ないければいけない",
@@ -6867,7 +6633,6 @@
     "lecturaDespues": "。",
     "lectura": "やくそくはまもらなければならない。",
     "traduccion": "Las promesas hay que cumplirlas.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "なければなる",
@@ -6894,7 +6659,6 @@
     "lecturaDespues": "、あのみせがいちばんおいしい。",
     "lectura": "すしなら、あのみせがいちばんおいしい。",
     "traduccion": "En cuanto a sushi, ese local es el más rico.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "だら",
@@ -6923,7 +6687,6 @@
     "lecturaDespues": "。",
     "lectura": "つぎのもんだいにこたえなさい。",
     "traduccion": "Responda la siguiente pregunta.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ください",
@@ -6951,7 +6714,6 @@
     "lecturaDespues": "か。",
     "lectura": "しゅうまつはなにをなさいますか。",
     "traduccion": "¿Qué hará usted el fin de semana?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "いたします",
@@ -6981,7 +6743,6 @@
     "lecturaDespues": "きがついたら、なおしてください。",
     "lectura": "まちがいにきがついたら、なおしてください。",
     "traduccion": "Si te das cuenta de un error, corrígelo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -7011,7 +6772,6 @@
     "lecturaDespues": "。",
     "lectura": "かれははたちにみえます。",
     "traduccion": "Él parece tener veinte años.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "が見えます",
@@ -7038,7 +6798,6 @@
     "lecturaDespues": "ください。",
     "lectura": "へやをきれいにしてください。",
     "traduccion": "Deja la habitación limpia, por favor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "くして",
@@ -7068,7 +6827,6 @@
     "lecturaDespues": "。",
     "lectura": "このじはちいさくてよみにくい。",
     "traduccion": "Esta letra es pequeña y difícil de leer.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "やすい",
@@ -7098,7 +6856,6 @@
     "lecturaDespues": "なにがいちばんすきですか。",
     "lectura": "スポーツのなかでなにがいちばんすきですか。",
     "traduccion": "¿Qué deporte te gusta más?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "のほうが",
@@ -7127,7 +6884,6 @@
     "lecturaDespues": "、かれはこなかった。",
     "lectura": "やくそくしたのに、かれはこなかった。",
     "traduccion": "Aunque lo prometió, él no vino.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ので",
@@ -7157,7 +6913,6 @@
     "lecturaDespues": "さんじゅっぷんかかります。",
     "lectura": "えきまでいくのにさんじゅっぷんかかります。",
     "traduccion": "Para llegar a la estación se tarda treinta minutos.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ので",
@@ -7187,7 +6942,6 @@
     "lecturaDespues": "わたしのちちです。",
     "lectura": "このしゃしんをとったのはわたしのちちです。",
     "traduccion": "Quien tomó esta foto es mi papá.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "のを",
@@ -7215,7 +6969,6 @@
     "lecturaDespues": "。",
     "lectura": "どうぞおすわりください。",
     "traduccion": "Siéntese, por favor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "します",
@@ -7244,7 +6997,6 @@
     "lecturaDespues": "。",
     "lectura": "せんせいはもうおかえりになりました。",
     "traduccion": "El profesor ya se fue.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "しました",
@@ -7273,7 +7025,6 @@
     "lecturaDespues": "きます。",
     "lectura": "このバスはじゅっぷんおきにきます。",
     "traduccion": "Este autobús pasa cada diez minutos.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ずつ",
@@ -7302,7 +7053,6 @@
     "lecturaDespues": "ました。",
     "lectura": "このほんはもうよみおわりました。",
     "traduccion": "Ya terminé de leer este libro.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "終わる",
@@ -7329,7 +7079,6 @@
     "lecturaDespues": "。",
     "lectura": "わたしはさしみがたべられます。",
     "traduccion": "Puedo comer sashimi.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "させます",
@@ -7358,7 +7107,6 @@
     "lecturaDespues": "。",
     "lectura": "たなかさんはかいしゃをやめたらしい。",
     "traduccion": "Parece que Tanaka renunció a la empresa.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "らしいだ",
@@ -7387,7 +7135,6 @@
     "lecturaDespues": "にはなれません。",
     "lectura": "なつのあつさにはなれません。",
     "traduccion": "No me acostumbro al calor del verano.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "い",
@@ -7415,7 +7162,6 @@
     "lecturaDespues": "たなかさんからでんわがありました。",
     "lectura": "さっきたなかさんからでんわがありました。",
     "traduccion": "Hace un rato llamó Tanaka.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "あとで",
@@ -7443,7 +7189,6 @@
     "lecturaDespues": "。",
     "lectura": "こどものころ、ははにやさいをたべさせられた。",
     "traduccion": "De niño, mi mamá me obligaba a comer verduras.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "されられた",
@@ -7470,7 +7215,6 @@
     "lecturaDespues": "。",
     "lectura": "はははおとうとにへやをそうじさせた。",
     "traduccion": "Mi mamá hizo que mi hermano menor limpiara la habitación.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "せた",
@@ -7497,7 +7241,6 @@
     "lecturaDespues": "。",
     "lectura": "ちょっとかんがえさせてください。",
     "traduccion": "Déjeme pensarlo un poco.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "させられてください",
@@ -7524,7 +7267,6 @@
     "lecturaDespues": "たなかさんですね。",
     "lectura": "まんてん？さすがたなかさんですね。",
     "traduccion": "¿Nota perfecta? Como era de esperar de Tanaka.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まさか",
@@ -7554,7 +7296,6 @@
     "lecturaDespues": "、きょうはいえにいよう。",
     "lectura": "あめもふっているし、きょうはいえにいよう。",
     "traduccion": "Además está lloviendo, así que hoy me quedo en casa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "のに",
@@ -7584,7 +7325,6 @@
     "lecturaDespues": "いそがなくてもいいよ。",
     "lectura": "そんなにいそがなくてもいいよ。",
     "traduccion": "No tienes que apurarte tanto.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "そんな",
@@ -7612,7 +7352,6 @@
     "lecturaDespues": "、あきらめなかった。",
     "lectura": "なんどもしっぱいした。それでも、あきらめなかった。",
     "traduccion": "Fracasé muchas veces. Aun así, no me rendí.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "だから",
@@ -7641,7 +7380,6 @@
     "lecturaDespues": "、えきからちかい。",
     "lectura": "このへやはひろい。それに、えきからちかい。",
     "traduccion": "Esta habitación es amplia. Además, está cerca de la estación.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でも",
@@ -7671,7 +7409,6 @@
     "lecturaDespues": "です。",
     "lectura": "てんきよほうによると、あしたはあめだそうです。",
     "traduccion": "Según el pronóstico, mañana va a llover.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "よう",
@@ -7701,7 +7438,6 @@
     "lecturaDespues": "です。",
     "lectura": "いまにもあめがふりそうです。",
     "traduccion": "Parece que va a llover en cualquier momento.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "らしい",
@@ -7731,7 +7467,6 @@
     "lecturaDespues": "りんごをかった。",
     "lectura": "おいしそうなりんごをかった。",
     "traduccion": "Compré unas manzanas que se veían ricas.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "そうに",
@@ -7758,7 +7493,6 @@
     "lecturaDespues": "なのに、もうこわれた。",
     "lectura": "このパソコンはせんしゅうかったばかりなのに、もうこわれた。",
     "traduccion": "Compré esta computadora apenas la semana pasada y ya se echó a perder.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ところ",
@@ -7788,7 +7522,6 @@
     "lecturaDespues": "です。",
     "lectura": "かいぎはいまおわったところです。",
     "traduccion": "La reunión acaba de terminar.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "まま",
@@ -7818,7 +7551,6 @@
     "lecturaDespues": "ました。",
     "lectura": "わたしはドアをあけました。ドアがあきました。",
     "traduccion": "Abrí la puerta. La puerta se abrió.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "開け",
@@ -7845,7 +7577,6 @@
     "lecturaDespues": "。",
     "lectura": "おとうとはそとであそびたがっています。",
     "traduccion": "Mi hermano menor quiere jugar afuera.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "たいです",
@@ -7873,7 +7604,6 @@
     "lecturaDespues": "、でんわしてください。",
     "lectura": "えきについたら、でんわしてください。",
     "traduccion": "Cuando llegues a la estación, llámame.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たり",
@@ -7903,7 +7633,6 @@
     "lecturaDespues": "？",
     "lectura": "つかれているなら、すこしやすんだらどう？",
     "traduccion": "Si estás cansado, ¿por qué no descansas un poco?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でどう",
@@ -7930,7 +7659,6 @@
     "lecturaDespues": "。",
     "lectura": "このゴミはどこにすてたらいいですか。",
     "traduccion": "¿Dónde debería tirar esta basura?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てはいいですか",
@@ -7955,7 +7683,6 @@
     "despues": "電車が止まった。",
     "lectura": "じしんででんしゃがとまった。",
     "traduccion": "El tren se detuvo por el terremoto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -7985,7 +7712,6 @@
     "lecturaDespues": "よ。",
     "lectura": "おもそうだね。もってあげるよ。",
     "traduccion": "Se ve pesado. Te lo llevo.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "であげる",
@@ -8012,7 +7738,6 @@
     "lecturaDespues": "。",
     "lectura": "もっとゆっくりはなしてほしい。",
     "traduccion": "Quiero que hables más despacio.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てほしくて",
@@ -8040,7 +7765,6 @@
     "lecturaDespues": "でしょう。",
     "lectura": "これからさむくなっていくでしょう。",
     "traduccion": "De ahora en adelante irá haciendo más frío.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "てある",
@@ -8070,7 +7794,6 @@
     "lecturaDespues": "。",
     "lectura": "でんわがなったとき、シャワーをあびていました。",
     "traduccion": "Cuando sonó el teléfono, me estaba duchando.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ています",
@@ -8100,7 +7823,6 @@
     "lecturaDespues": "。",
     "lectura": "もういちどせつめいしていただけませんか。",
     "traduccion": "¿Podría explicarlo una vez más?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ていたしませんか",
@@ -8127,7 +7849,6 @@
     "lecturaDespues": "。",
     "lectura": "ともだちがえきまでおくってくれました。",
     "traduccion": "Mi amigo me llevó hasta la estación.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でくれました",
@@ -8154,7 +7875,6 @@
     "lecturaDespues": "。",
     "lectura": "だんだんあたたかくなってきた。",
     "traduccion": "Poco a poco ha ido haciendo más calor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てあった",
@@ -8184,7 +7904,6 @@
     "lecturaDespues": "。",
     "lectura": "いちど、なっとうをたべてみたい。",
     "traduccion": "Quiero probar el natto alguna vez.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てみるたい",
@@ -8211,7 +7930,6 @@
     "lecturaDespues": "。",
     "lectura": "せんせいにさくぶんをなおしてもらいました。",
     "traduccion": "El profesor me corrigió la redacción.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てくれました",
@@ -8239,7 +7957,6 @@
     "lecturaDespues": "ください。",
     "lectura": "かいぎのまえにしりょうをよんでおいてください。",
     "traduccion": "Lean los documentos antes de la reunión.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "であって",
@@ -8266,7 +7983,6 @@
     "lecturaDespues": "。",
     "lectura": "でんしゃにかさをわすれてしまいました。",
     "traduccion": "Se me olvidó el paraguas en el tren.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てありました",
@@ -8294,7 +8010,6 @@
     "lecturaDespues": "。",
     "lectura": "おくれてすみません。",
     "traduccion": "Perdón por llegar tarde.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "たすみません",
@@ -8321,7 +8036,6 @@
     "lecturaDespues": "。",
     "lectura": "おとうとにおもちゃをかってやった。",
     "traduccion": "Le compré un juguete a mi hermano menor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でやった",
@@ -8348,7 +8062,6 @@
     "lecturaDespues": "。",
     "lectura": "はやくいえをでてよかった。",
     "traduccion": "Qué bueno que salí temprano de casa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たよかった",
@@ -8376,7 +8089,6 @@
     "lecturaDespues": "です。",
     "lectura": "いま、ごはんをつくっているところです。",
     "traduccion": "Justo ahora estoy preparando la comida.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てあるところ",
@@ -8405,7 +8117,6 @@
     "lecturaDespues": "、ふとらない。",
     "lectura": "いくらたべても、ふとらない。",
     "traduccion": "Por mucho que coma, no engordo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たら",
@@ -8435,7 +8146,6 @@
     "lecturaDespues": "、ドアがあきます。",
     "lectura": "このボタンをおすと、ドアがあきます。",
     "traduccion": "Si aprietas este botón, se abre la puerta.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たら",
@@ -8465,7 +8175,6 @@
     "lecturaDespues": "でしょう。",
     "lectura": "ことしのなつはいままででいちばんあついといってもいいでしょう。",
     "traduccion": "Se podría decir que este verano es el más caluroso hasta ahora.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "と言ってもいけない",
@@ -8492,7 +8201,6 @@
     "lecturaDespues": "ひとからでんわがありました。",
     "lectura": "たなかというひとからでんわがありました。",
     "traduccion": "Llamó una persona llamada Tanaka.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "とする",
@@ -8519,7 +8227,6 @@
     "lecturaDespues": "がたいせつです。",
     "lectura": "まいにちつづけるということがたいせつです。",
     "traduccion": "Lo importante es seguir haciéndolo todos los días.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ということを",
@@ -8546,7 +8253,6 @@
     "lecturaDespues": "。",
     "lectura": "このてらはせんねんまえにたてられたといわれている。",
     "traduccion": "Se dice que este templo fue construido hace mil años.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "と言っている",
@@ -8574,7 +8280,6 @@
     "lecturaDespues": "。",
     "lectura": "かのじょはびょうきだときいた。",
     "traduccion": "Oí que ella está enferma.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を聞いた",
@@ -8601,7 +8306,6 @@
     "lecturaDespues": "。",
     "lectura": "このえいがはおもしろいとおもう。",
     "traduccion": "Creo que esta película es interesante.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を思う",
@@ -8628,7 +8332,6 @@
     "lecturaDespues": "いきます。",
     "lectura": "やすみのひはえいがとかかいものとかにいきます。",
     "traduccion": "En mis días libres voy al cine, de compras y cosas así.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とかを",
@@ -8655,7 +8358,6 @@
     "lecturaDespues": "です。",
     "lectura": "これからでかけるところです。",
     "traduccion": "Estoy a punto de salir.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "まま",
@@ -8685,7 +8387,6 @@
     "lecturaDespues": "いる。",
     "lectura": "あめがいっしゅうかんふりつづけている。",
     "traduccion": "Lleva una semana lloviendo sin parar.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "続けって",
@@ -8712,7 +8413,6 @@
     "lecturaDespues": "。",
     "lectura": "たなかさん、あしたこられないって。",
     "traduccion": "Tanaka dice que mañana no puede venir.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -8742,7 +8442,6 @@
     "lecturaDespues": "。",
     "lectura": "でんしゃであしをふまれた。",
     "traduccion": "En el tren me pisaron el pie.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "られた",
@@ -8769,7 +8468,6 @@
     "lecturaDespues": "、さかなはたべません。",
     "lectura": "にくはたべますが、さかなはたべません。",
     "traduccion": "La carne sí la como, pero el pescado no.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "から",
@@ -8799,7 +8497,6 @@
     "lecturaDespues": "。",
     "lectura": "せんせいのせつめいはわかりやすい。",
     "traduccion": "La explicación del profesor es fácil de entender.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "やすく",
@@ -8828,7 +8525,6 @@
     "lecturaDespues": "バスがきた。",
     "lectura": "いちじかんまって、やっとバスがきた。",
     "traduccion": "Esperé una hora y por fin llegó el autobús.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なかなか",
@@ -8858,7 +8554,6 @@
     "lecturaDespues": "かんたんでした。",
     "lectura": "おもったよりかんたんでした。",
     "traduccion": "Fue más fácil de lo que pensaba.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ほど",
@@ -8888,7 +8583,6 @@
     "lecturaDespues": "だ。",
     "lectura": "かいぎはさんじにおわるよていだ。",
     "traduccion": "La reunión está programada para terminar a las tres.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "つもり",
@@ -8917,7 +8611,6 @@
     "lecturaDespues": "ね。",
     "lectura": "このみせはやすみのようですね。",
     "traduccion": "Parece que esta tienda está cerrada hoy.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "みたいです",
@@ -8947,7 +8640,6 @@
     "lecturaDespues": "はなしですね。",
     "lectura": "ゆめのようなはなしですね。",
     "traduccion": "Parece un sueño.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ように",
@@ -8976,7 +8668,6 @@
     "lecturaDespues": "。",
     "lectura": "にほんごがはなせるようになりました。",
     "traduccion": "Ya puedo hablar japonés.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ことになりました",
@@ -9004,7 +8695,6 @@
     "lecturaDespues": "。",
     "lectura": "まいにちやさいをたべるようにしています。",
     "traduccion": "Procuro comer verduras todos los días.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "そうにしています",
@@ -9031,7 +8721,6 @@
     "lecturaDespues": "。",
     "lectura": "しゅうまつはいえでゆっくりしようとおもいます。",
     "traduccion": "Pienso quedarme tranquilo en casa el fin de semana.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ようにと思います",
@@ -9058,7 +8747,6 @@
     "lecturaDespues": "みたいです。",
     "lectura": "そのえいが、ぜひみたいです。",
     "traduccion": "Tengo muchas ganas de ver esa película.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "全然",
@@ -9088,7 +8776,6 @@
     "lecturaDespues": "およげません。",
     "lectura": "わたしはぜんぜんおよげません。",
     "traduccion": "No sé nadar para nada.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ぜひ",
@@ -9118,7 +8805,6 @@
     "lecturaDespues": "しつもんです。",
     "lectura": "せんせいにはききづらいしつもんです。",
     "traduccion": "Es una pregunta difícil de hacerle al profesor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "づらく",
@@ -9147,7 +8833,6 @@
     "lecturaDespues": "。",
     "lectura": "じゅぎょうちゅうにねちゃいけない。",
     "traduccion": "No se debe dormir durante la clase.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "じゃいけない",
@@ -9176,7 +8861,6 @@
     "lecturaDespues": "。",
     "lectura": "きのうはあめでした。",
     "traduccion": "Ayer llovió.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "です",
@@ -9204,7 +8888,6 @@
     "lecturaDespues": "まってください。",
     "lectura": "すこしだけまってください。",
     "traduccion": "Espere solo un poco, por favor.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "しか",
@@ -9233,7 +8916,6 @@
     "lecturaDespues": "。",
     "lectura": "あしたははれるだろう。",
     "traduccion": "Mañana probablemente hará buen tiempo.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でした",
@@ -9261,7 +8943,6 @@
     "lecturaDespues": "ごはんをたべます。",
     "lectura": "はしでごはんをたべます。",
     "traduccion": "Como arroz con palillos.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "を",
@@ -9291,7 +8972,6 @@
     "lecturaDespues": "、まだあたまがいたいです。",
     "lectura": "くすりをのみました。でも、まだあたまがいたいです。",
     "traduccion": "Tomé la medicina. Pero todavía me duele la cabeza.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "だから",
@@ -9320,7 +9000,6 @@
     "lecturaDespues": "？",
     "lectura": "このケーキ、おいしいでしょう？",
     "traduccion": "Este pastel está rico, ¿verdad?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "でした",
@@ -9349,7 +9028,6 @@
     "lecturaDespues": "おんがくがすきですか。",
     "lectura": "どんなおんがくがすきですか。",
     "traduccion": "¿Qué tipo de música te gusta?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "どう",
@@ -9377,7 +9055,6 @@
     "lecturaDespues": "ないているの？",
     "lectura": "どうしてないているの？",
     "traduccion": "¿Por qué estás llorando?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "どんな",
@@ -9406,7 +9083,6 @@
     "lecturaDespues": "よみますか。",
     "lectura": "このかんじはどうやってよみますか。",
     "traduccion": "¿Cómo se lee este kanji?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "どんな",
@@ -9434,7 +9110,6 @@
     "lecturaDespues": "すきです。",
     "lectura": "ねこがすきです。",
     "traduccion": "Me gustan los gatos.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を",
@@ -9464,7 +9139,6 @@
     "lecturaDespues": "。",
     "lectura": "つくえのうえにほんがあります。",
     "traduccion": "Hay un libro sobre el escritorio.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "がいます",
@@ -9492,7 +9166,6 @@
     "lecturaDespues": "です。",
     "lectura": "あたらしいパソコンがほしいです。",
     "traduccion": "Quiero una computadora nueva.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "がしたい",
@@ -9519,7 +9192,6 @@
     "lecturaDespues": "よ。",
     "lectura": "あそこにねこがいますよ。",
     "traduccion": "Mira, allá hay un gato.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "があります",
@@ -9547,7 +9219,6 @@
     "lecturaDespues": "ですよ。",
     "lectura": "はやくねたほうがいいですよ。",
     "traduccion": "Es mejor que te acuestes temprano.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てもいい",
@@ -9577,7 +9248,6 @@
     "lecturaDespues": "です。",
     "lectura": "きのうはさむかったです。",
     "traduccion": "Ayer hizo frío.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "いでした",
@@ -9604,7 +9274,6 @@
     "lecturaDespues": "せがたかいです。",
     "lectura": "かぞくのなかでちちがいちばんせがたかいです。",
     "traduccion": "En mi familia, mi papá es el más alto.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "あまり",
@@ -9632,7 +9301,6 @@
     "lecturaDespues": "すんでいます。",
     "lectura": "かぞくといっしょにすんでいます。",
     "traduccion": "Vivo con mi familia.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "一人で",
@@ -9661,7 +9329,6 @@
     "lecturaDespues": "しちじにおきます。",
     "lectura": "わたしはいつもしちじにおきます。",
     "traduccion": "Siempre me levanto a las siete.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "とても",
@@ -9690,7 +9357,6 @@
     "lecturaDespues": "。",
     "lectura": "それはわたしのかさじゃない。",
     "traduccion": "Ese no es mi paraguas.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "くない",
@@ -9718,7 +9384,6 @@
     "lecturaDespues": "。",
     "lectura": "これはなんですか。",
     "traduccion": "¿Qué es esto?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "よ",
@@ -9748,7 +9413,6 @@
     "lecturaDespues": "こうちゃをのみます。",
     "lectura": "コーヒーかこうちゃをのみます。",
     "traduccion": "Tomo café o té.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "も",
@@ -9778,7 +9442,6 @@
     "lecturaDespues": "はじまります。",
     "lectura": "がっこうはくじからはじまります。",
     "traduccion": "La escuela empieza a las nueve.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まで",
@@ -9808,7 +9471,6 @@
     "lecturaDespues": "がわかりません。",
     "lectura": "えきへのいきかたがわかりません。",
     "traduccion": "No sé cómo llegar a la estación.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たい",
@@ -9837,7 +9499,6 @@
     "lecturaDespues": "、じかんがない。",
     "lectura": "いきたいけど、じかんがない。",
     "traduccion": "Quiero ir, pero no tengo tiempo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "から",
@@ -9866,7 +9527,6 @@
     "lecturaDespues": "、しあいはありました。",
     "lectura": "あめがふっていたけれども、しあいはありました。",
     "traduccion": "Aunque llovía, hubo partido.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "から",
@@ -9896,7 +9556,6 @@
     "lecturaDespues": "です。」",
     "lectura": "「もうたべましたか。」「いいえ、まだです。」",
     "traduccion": "—¿Ya comiste? —No, todavía no.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "もう",
@@ -9926,7 +9585,6 @@
     "lecturaDespues": "。",
     "lectura": "ちちはまだかえっていません。",
     "traduccion": "Mi papá todavía no ha vuelto.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てください",
@@ -9956,7 +9614,6 @@
     "lecturaDespues": "がっこうがあります。",
     "lectura": "げつようびからきんようびまでがっこうがあります。",
     "traduccion": "Tengo clases de lunes a viernes.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "から",
@@ -9986,7 +9643,6 @@
     "lecturaDespues": "はをみがきます。",
     "lectura": "ねるまえにはをみがきます。",
     "traduccion": "Me lavo los dientes antes de dormir.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "後で",
@@ -10014,7 +9670,6 @@
     "lecturaDespues": "。",
     "lectura": "いっしょにおちゃをのみませんか。",
     "traduccion": "¿Tomamos un té juntos?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "ないですか",
@@ -10042,7 +9697,6 @@
     "lecturaDespues": "。",
     "lectura": "えきであいましょう。",
     "traduccion": "Veámonos en la estación.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ろう",
@@ -10071,7 +9725,6 @@
     "lecturaDespues": "。",
     "lectura": "にもつをもちましょうか。",
     "traduccion": "¿Le llevo el equipaje?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "てあげます",
@@ -10098,7 +9751,6 @@
     "lecturaDespues": "がくせいです。",
     "lectura": "わたしもがくせいです。",
     "traduccion": "Yo también soy estudiante.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を",
@@ -10128,7 +9780,6 @@
     "lecturaDespues": "いちどいってください。",
     "lectura": "もういちどいってください。",
     "traduccion": "Dígalo una vez más, por favor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まだ",
@@ -10158,7 +9809,6 @@
     "lecturaDespues": "ひとです。",
     "lectura": "かのじょはきれいなひとです。",
     "traduccion": "Ella es una persona bonita.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "の",
@@ -10185,7 +9835,6 @@
     "lecturaDespues": "。",
     "lectura": "きょうはあついなあ。",
     "traduccion": "¡Qué calor hace hoy!",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "だなあ",
@@ -10213,7 +9862,6 @@
     "lecturaDespues": "でかけました。",
     "lectura": "かさをもたないででかけました。",
     "traduccion": "Salí sin llevar paraguas.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ないと",
@@ -10242,7 +9890,6 @@
     "lecturaDespues": "。",
     "lectura": "しんぱいしないでください。",
     "traduccion": "No se preocupe.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なくてください",
@@ -10269,7 +9916,6 @@
     "lecturaDespues": "。",
     "lectura": "くすりをのまないといけない。",
     "traduccion": "Tengo que tomar la medicina.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ないでいけない",
@@ -10296,7 +9942,6 @@
     "lecturaDespues": "ですよ。",
     "lectura": "ぜんぶたべなくてもいいですよ。",
     "traduccion": "No tienes que comértelo todo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ないてもいい",
@@ -10323,7 +9968,6 @@
     "lecturaDespues": "。",
     "lectura": "はやくねなくちゃ。",
     "traduccion": "Tengo que acostarme temprano.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ないちゃ",
@@ -10350,7 +9994,6 @@
     "lecturaDespues": "。",
     "lectura": "としょかんのほんをかえさなくてはいけません。",
     "traduccion": "Tengo que devolver el libro de la biblioteca.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "なくてもいけません",
@@ -10377,7 +10020,6 @@
     "lecturaDespues": "。",
     "lectura": "がくせいはまいにちがっこうにこなくてはなりません。",
     "traduccion": "Los estudiantes deben venir a la escuela todos los días.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "なくてもなりません",
@@ -10404,7 +10046,6 @@
     "lecturaDespues": "。",
     "lectura": "へやがきれいになりました。",
     "traduccion": "La habitación quedó limpia.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "くなりました",
@@ -10432,7 +10073,6 @@
     "lecturaDespues": "。",
     "lectura": "あたまがいたいんです。",
     "traduccion": "Es que me duele la cabeza.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "なんです",
@@ -10459,7 +10099,6 @@
     "lecturaDespues": "。",
     "lectura": "きょうはいいてんきですね。",
     "traduccion": "Hoy hace buen tiempo, ¿verdad?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を",
@@ -10489,7 +10128,6 @@
     "lecturaDespues": "おきます。",
     "lectura": "まいあさろくじにおきます。",
     "traduccion": "Me levanto a las seis todas las mañanas.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "で",
@@ -10519,7 +10157,6 @@
     "lecturaDespues": "。",
     "lectura": "デパートへふくをかいにいきます。",
     "traduccion": "Voy a la tienda por departamentos a comprar ropa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "て行きます",
@@ -10546,7 +10183,6 @@
     "lecturaDespues": "。",
     "lectura": "わたしはコーヒーにします。",
     "traduccion": "Yo voy a pedir café.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "をします",
@@ -10574,7 +10210,6 @@
     "lecturaDespues": "かえりますか。",
     "lectura": "なんじにいえへかえりますか。",
     "traduccion": "¿A qué hora vuelves a casa?",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "を",
@@ -10604,7 +10239,6 @@
     "lecturaDespues": "ほんです。",
     "lectura": "これはわたしのほんです。",
     "traduccion": "Este es mi libro.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "な",
@@ -10633,7 +10267,6 @@
     "lecturaDespues": "。",
     "lectura": "にほんのぶんかがすきなのです。",
     "traduccion": "Es que me gusta la cultura japonesa.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "のです",
@@ -10660,7 +10293,6 @@
     "lecturaDespues": "です。",
     "lectura": "わたしはうたうのがへたです。",
     "traduccion": "Canto mal.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "が下手",
@@ -10687,7 +10319,6 @@
     "lecturaDespues": "です。",
     "lectura": "あねはおよぐのがじょうずです。",
     "traduccion": "Mi hermana mayor nada bien.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "が上手",
@@ -10714,7 +10345,6 @@
     "lecturaDespues": "です。",
     "lectura": "ほんをよむのがすきです。",
     "traduccion": "Me gusta leer libros.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "が好き",
@@ -10741,7 +10371,6 @@
     "lecturaDespues": "りんごがいちばんすきです。",
     "lectura": "くだもののなかでりんごがいちばんすきです。",
     "traduccion": "De las frutas, la manzana es la que más me gusta.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "のほうが",
@@ -10770,7 +10399,6 @@
     "lecturaDespues": "、このとしょかんがすきです。",
     "lectura": "しずかなので、このとしょかんがすきです。",
     "traduccion": "Me gusta esta biblioteca porque es tranquila.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "ので",
@@ -10797,7 +10425,6 @@
     "lecturaDespues": "かぞくはなんにんですか。",
     "lectura": "ごかぞくはなんにんですか。",
     "traduccion": "¿Cuántos son en su familia?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "お",
@@ -10826,7 +10453,6 @@
     "lecturaDespues": "おります。",
     "lectura": "つぎのえきででんしゃをおります。",
     "traduccion": "Me bajo del tren en la próxima estación.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "に",
@@ -10855,7 +10481,6 @@
     "lecturaDespues": "みっつください。",
     "lectura": "りんごをみっつください。",
     "traduccion": "Deme tres manzanas, por favor.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "が",
@@ -10885,7 +10510,6 @@
     "lecturaDespues": "、みせはたくさんある。",
     "lectura": "このまちはちいさい。しかし、みせはたくさんある。",
     "traduccion": "Este pueblo es pequeño. Sin embargo, hay muchas tiendas.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "だから",
@@ -10914,7 +10538,6 @@
     "lecturaDespues": "、テレビをみました。",
     "lectura": "しゅくだいをしました。それから、テレビをみました。",
     "traduccion": "Hice la tarea. Después, vi televisión.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "どうして",
@@ -10944,7 +10567,6 @@
     "lecturaDespues": "、あかるいです。",
     "lectura": "へやはひろいです。そして、あかるいです。",
     "traduccion": "La habitación es amplia. Y además es luminosa.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "でも",
@@ -10974,7 +10596,6 @@
     "lecturaDespues": "ます。",
     "lectura": "このくつはおおきすぎます。",
     "traduccion": "Estos zapatos son demasiado grandes.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "くすぎ",
@@ -11002,7 +10623,6 @@
     "lecturaDespues": "。",
     "lectura": "いちどもひこうきにのったことがありません。",
     "traduccion": "Nunca me he subido a un avión.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "てことがありません",
@@ -11029,7 +10649,6 @@
     "lecturaDespues": "。",
     "lectura": "きょうはなにもしたくない。",
     "traduccion": "Hoy no quiero hacer nada.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たい",
@@ -11056,7 +10675,6 @@
     "lecturaDespues": "しています。",
     "lectura": "こどもたちはこうえんではしったりあそんだりしています。",
     "traduccion": "Los niños están corriendo y jugando en el parque.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たり",
@@ -11084,7 +10702,6 @@
     "lecturaDespues": "。",
     "lectura": "まどがあけてあります。",
     "traduccion": "La ventana está abierta (alguien la dejó así).",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ています",
@@ -11114,7 +10731,6 @@
     "lecturaDespues": "。",
     "lectura": "かのじょはけっこんしています。",
     "traduccion": "Ella está casada.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "てあります",
@@ -11143,7 +10759,6 @@
     "lecturaDespues": "、にねんになります。",
     "lectura": "にほんにきてから、にねんになります。",
     "traduccion": "Ya van dos años desde que llegué a Japón.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たから",
@@ -11171,7 +10786,6 @@
     "lecturaDespues": "。",
     "lectura": "ここになまえをかいてください。",
     "traduccion": "Escriba su nombre aquí, por favor.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "たください",
@@ -11199,7 +10813,6 @@
     "lecturaDespues": "。",
     "lectura": "じゅぎょうちゅうにでんわをしてはいけない。",
     "traduccion": "No se debe llamar por teléfono durante la clase.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "ではいけない",
@@ -11226,7 +10839,6 @@
     "lecturaDespues": "ですか。",
     "lectura": "まどをあけてもいいですか。",
     "traduccion": "¿Puedo abrir la ventana?",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "てはいい",
@@ -11253,7 +10865,6 @@
     "lecturaDespues": "きょうとへいきました。",
     "lectura": "ともだちときょうとへいきました。",
     "traduccion": "Fui a Kioto con un amigo.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -11283,7 +10894,6 @@
     "lecturaDespues": "、なにをしますか。",
     "lectura": "ひまなとき、なにをしますか。",
     "traduccion": "¿Qué haces cuando tienes tiempo libre?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "まえに",
@@ -11313,7 +10923,6 @@
     "lecturaDespues": "さむいです。",
     "lectura": "きょうはとてもさむいです。",
     "traduccion": "Hoy hace mucho frío.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "あまり",
@@ -11342,7 +10951,6 @@
     "lecturaDespues": "です。",
     "lectura": "きょうはどこへもいかないつもりです。",
     "traduccion": "Hoy no pienso ir a ningún lado.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "たい",
@@ -11371,7 +10979,6 @@
     "lecturaDespues": "たなかです。",
     "lectura": "わたしはたなかです。",
     "traduccion": "Yo soy Tanaka.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "を",
@@ -11401,7 +11008,6 @@
     "lecturaDespues": "おおきいです。",
     "lectura": "とうきょうはおおさかよりおおきいです。",
     "traduccion": "Tokio es más grande que Osaka.",
-    "ejemplo": 0,
     "opciones": [
       {
         "texto": "から",
@@ -11430,7 +11036,6 @@
     "lecturaDespues": "ですか。",
     "lectura": "にほんのせいかつはどうですか。",
     "traduccion": "¿Qué tal la vida en Japón?",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "どんな",
@@ -11460,7 +11065,6 @@
     "lecturaDespues": "ねこがいます。",
     "lectura": "こうえんにいぬやねこがいます。",
     "traduccion": "En el parque hay perros, gatos y otros animales.",
-    "ejemplo": 2,
     "opciones": [
       {
         "texto": "も",
@@ -11490,7 +11094,6 @@
     "lecturaDespues": "。",
     "lectura": "でんしゃがもうきましたよ。",
     "traduccion": "Oye, el tren ya llegó.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "を",
@@ -11520,7 +11123,6 @@
     "lecturaDespues": "すきです。",
     "lectura": "なつよりふゆのほうがすきです。",
     "traduccion": "Me gusta más el invierno que el verano.",
-    "ejemplo": 1,
     "opciones": [
       {
         "texto": "より",

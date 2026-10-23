@@ -2,7 +2,7 @@
 
 import { memo, useState } from "react";
 import ImageLightbox from "./ImageLightbox";
-import type { KanjiEnListado } from "../db/queries";
+import type { KanjiEnListado } from "../../db/queries";
 
 type Props = {
   caracter: string;

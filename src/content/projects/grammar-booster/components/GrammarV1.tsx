@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Interruptor from "./Interruptor";
+import Interruptor from "@/components/ui/Interruptor";
 import { FiltroNivel, TarjetaEstructura, TarjetaTexto } from "./GramaticaUI";
 import {
   FILTROS,
@@ -33,8 +33,6 @@ type Ejercicio = {
   lecturaDespues?: string;
   lectura: string;
   traduccion: string;
-  // Ejemplo de la estructura del que salio la oracion.
-  ejemplo?: number;
   // Explicacion propia de la respuesta correcta (ejercicios hechos a mano).
   nota?: string;
   opciones: Opcion[];
@@ -63,7 +61,7 @@ const armarCola = (ejercicios: Ejercicio[], filtro: Filtro): Pregunta[] =>
     ]),
   }));
 
-export default function GrammarBeta() {
+export default function GrammarV1() {
   const [estructuras, setEstructuras] = useState<Map<
     string,
     Estructura

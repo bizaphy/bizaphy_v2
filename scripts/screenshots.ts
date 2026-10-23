@@ -8,6 +8,7 @@ const PROJECTS = [
   { slug: "apothecary", title: "Apothecary" },
   { slug: "weather-dashboard", title: "Weather Dashboard" },
   { slug: "all-about-kanjis", title: "All About Kanjis" },
+  { slug: "grammar-booster", title: "Grammar Booster" },
   { slug: "hangman", title: "Hangman" },
 ];
 

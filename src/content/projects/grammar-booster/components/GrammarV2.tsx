@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Interruptor from "./Interruptor";
+import Interruptor from "@/components/ui/Interruptor";
 import { FiltroNivel, TarjetaEstructura } from "./GramaticaUI";
 import {
   FILTROS,

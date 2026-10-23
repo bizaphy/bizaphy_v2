@@ -1,5 +1,5 @@
 // Interruptor de config de vista (no filtro). Lo usan KanjiTrainer
-// ("Furigana", "Colores JLPT") y GrammarBeta ("Furigana").
+// ("Furigana", "Colores JLPT") y Grammar Booster ("Furigana").
 export default function Interruptor({
   label,
   activo,

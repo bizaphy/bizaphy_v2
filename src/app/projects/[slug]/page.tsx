@@ -15,6 +15,8 @@ const componentLoaders: Record<
     import("@/content/projects/weather-dashboard/WeatherDashboard"),
   "all-about-kanjis": () =>
     import("@/content/projects/all-about-kanjis/AllAboutKanjis"),
+  "grammar-booster": () =>
+    import("@/content/projects/grammar-booster/GrammarBooster"),
   hangman: () => import("@/content/projects/hangman/Hangman"),
 };
 

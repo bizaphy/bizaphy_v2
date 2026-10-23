@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Interruptor from "./Interruptor";
+import Interruptor from "@/components/ui/Interruptor";
 
 type NivelPalabra = "n5" | "n4" | "n3";
 
@@ -121,7 +121,7 @@ export default function KanjiTrainer() {
   // no al cargar la pagina.
   useEffect(() => {
     let vivo = true;
-    import("../data/vocabulario.json")
+    import("../../data/vocabulario.json")
       .then((m) => {
         if (!vivo) return;
         const v = m.default as Vocabulario;

@@ -1,6 +1,7 @@
 import { meta as apothecaryMeta } from "./apothecary";
 import { meta as weatherDashboardMeta } from "./weather-dashboard";
 import { meta as AllAboutKanjisMeta } from "./all-about-kanjis";
+import { meta as grammarBoosterMeta } from "./grammar-booster";
 import { meta as hangmanMeta } from "./hangman";
 import { meta as pocketQfMeta } from "./pocket-qf";
 
@@ -20,6 +21,7 @@ export const projectsMeta = [
   apothecaryMeta,
   weatherDashboardMeta,
   AllAboutKanjisMeta,
+  grammarBoosterMeta,
   hangmanMeta,
   pocketQfMeta,
 ] as const satisfies readonly ProjectMeta[];

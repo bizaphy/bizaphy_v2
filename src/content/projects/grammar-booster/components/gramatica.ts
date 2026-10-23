@@ -1,4 +1,4 @@
-// Tipos y utilidades compartidas por GrammarBeta y GrammarV2.
+// Tipos y utilidades compartidas por GrammarV1 y GrammarV2.
 
 export type Nivel = "n5" | "n4" | "n3";
 export type Filtro = "todos" | Nivel;

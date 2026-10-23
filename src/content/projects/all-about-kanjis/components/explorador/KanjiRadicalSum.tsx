@@ -1,6 +1,6 @@
 import { memo } from "react";
 import EmptyBlockState from "./EmptyBlockState";
-import type { KanjiEnListado } from "../db/queries";
+import type { KanjiEnListado } from "../../db/queries";
 
 type Props = {
   // Para el estado vacio: el kanji grande y tenue sobre el mensaje.

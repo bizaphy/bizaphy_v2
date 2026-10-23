@@ -2,38 +2,40 @@
 
 import { useState, type ReactNode } from "react";
 
-type Tab = "explorador" | "trainer" | "grammar" | "grammarV2";
+export type Pestana = {
+  id: string;
+  label: string;
+  contenido: ReactNode;
+  // Clases extra para el panel (por ejemplo, su propio layout).
+  className?: string;
+};
 
-const TABS: { id: Tab; label: string }[] = [
-  { id: "explorador", label: "Explorador" },
-  { id: "trainer", label: "KanjiTrainer" },
-  { id: "grammar", label: "Grammar" },
-  { id: "grammarV2", label: "Grammar V2" },
-];
+type Props = {
+  pestanas: Pestana[];
+  ariaLabel: string;
+};
 
-type Props = Record<Tab, ReactNode>;
+// Pestanas de un proyecto. Los paneles quedan montados (ocultos con `hidden`)
+// para no perder el estado al cambiar de pestana. Solo la primera se monta de
+// entrada; las demas, recien la primera vez que se abren: asi sus JSON o
+// datos pesados solo se descargan si alguien las usa.
+export default function Tabs({ pestanas, ariaLabel }: Props) {
+  const [activa, setActiva] = useState(pestanas[0].id);
+  const [montadas, setMontadas] = useState([pestanas[0].id]);
 
-// Pestanas de la pagina. Los paneles quedan montados (ocultos con `hidden`)
-// para no perder el estado al cambiar de pestana. Todos menos el explorador
-// se montan recien la primera vez que se abren: asi sus JSON (vocabulario,
-// ejercicios, ejemplos de gramatica) solo se descargan si alguien los usa.
-export default function KanjiTabs(props: Props) {
-  const [activa, setActiva] = useState<Tab>("explorador");
-  const [montadas, setMontadas] = useState<Tab[]>(["explorador"]);
-
-  const abrir = (tab: Tab) => {
-    setActiva(tab);
-    if (!montadas.includes(tab)) setMontadas([...montadas, tab]);
+  const abrir = (id: string) => {
+    setActiva(id);
+    if (!montadas.includes(id)) setMontadas([...montadas, id]);
   };
 
   return (
     <div className="flex flex-col gap-6">
       <div
         role="tablist"
-        aria-label="Secciones de All About Kanjis"
+        aria-label={ariaLabel}
         className="flex flex-wrap gap-2 border-b border-zinc-800 px-4"
       >
-        {TABS.map((t) => {
+        {pestanas.map((t) => {
           const seleccionada = activa === t.id;
           return (
             <button
@@ -56,16 +58,16 @@ export default function KanjiTabs(props: Props) {
         })}
       </div>
 
-      {TABS.map((t) => (
+      {pestanas.map((t) => (
         <div
           key={t.id}
           role="tabpanel"
           id={`panel-${t.id}`}
           aria-labelledby={`tab-${t.id}`}
           hidden={activa !== t.id}
-          className={t.id === "explorador" ? "flex flex-col gap-6" : undefined}
+          className={t.className}
         >
-          {montadas.includes(t.id) && props[t.id]}
+          {montadas.includes(t.id) && t.contenido}
         </div>
       ))}
     </div>

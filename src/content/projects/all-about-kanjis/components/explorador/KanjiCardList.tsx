@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import KanjiCard from "./KanjiCard";
-import type { KanjiEnListado } from "../db/queries";
+import type { KanjiEnListado } from "../../db/queries";
 
 const PAGE_SIZE = 80;
 
