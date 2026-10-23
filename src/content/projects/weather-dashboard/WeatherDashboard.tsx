@@ -233,16 +233,21 @@ export default function WeatherDashboard() {
   const [extraCities, setExtraCities] = useState<WeatherData[]>([]); //parte como array vacio
   const [addingCity, setAddingCity] = useState<boolean>(false);
 
+  // Cada cambio del input actualiza aqui (no en el efecto) las sugerencias y
+  // el "Buscando...": con menos de 2 letras se limpian, si no, se espera la
+  // busqueda.
+  function changeSearchQuery(value: string) {
+    setSearchQuery(value);
+    const shortQuery = value.trim().length < 2;
+    if (shortQuery) setSuggestions([]);
+    setSearchLoading(!shortQuery);
+  }
+
   // Búsqueda con debounce de 300ms -- efecto cada vez que el user haga input.
   useEffect(() => {
     const trimmed = searchQuery.trim();
-    if (trimmed.length < 2) {
-      setSuggestions([]);
-      setSearchLoading(false);
-      return;
-    }
+    if (trimmed.length < 2) return;
 
-    setSearchLoading(true);
     let cancelled = false;
 
     const timer = setTimeout(() => {
@@ -273,8 +278,7 @@ export default function WeatherDashboard() {
     //
     if (alreadyInBase || alreadyInExtras) {
       //limpiamos barra de busqueda y un return para cancelar todo, evitando repetidas.
-      setSearchQuery("");
-      setSuggestions([]);
+      changeSearchQuery("");
       return;
     }
 
@@ -289,8 +293,7 @@ export default function WeatherDashboard() {
     try {
       const [data] = await fetchCities([cityConfig]);
       setExtraCities((prev) => [...prev, data]);
-      setSearchQuery("");
-      setSuggestions([]);
+      changeSearchQuery("");
     } catch {
       // silent — se puede añadir feedback si se quiere
     } finally {
@@ -401,7 +404,7 @@ export default function WeatherDashboard() {
           <input
             type="text"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => changeSearchQuery(e.target.value)}
             placeholder="Ej: París, Estambul, Osaka..."
             disabled={addingCity}
             className="w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-white placeholder-zinc-500 focus:border-fuchsia-500 focus:outline-none disabled:opacity-50"

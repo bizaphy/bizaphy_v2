@@ -36,7 +36,7 @@ export default async function BlogPage() {
 
       {posts.length === 0 && (
         <p className="mt-12 font-mono text-sm text-zinc-500">
-          // Todavía no hay posts.
+          {"// "}Todavía no hay posts.
         </p>
       )}
 

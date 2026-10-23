@@ -30,7 +30,7 @@ export default function InProgress({
       </div>
 
       <p className="font-mono text-center px-4 max-w-sm text-sm sm:text-base lg:text-lg text-zinc-400">
-        <span className="text-fuchsia-500">// </span>
+        <span className="text-fuchsia-500">{"// "}</span>
         <TextScramble text={message} />
       </p>
     </div>
