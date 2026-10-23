@@ -1,0 +1,210 @@
+{
+  "seide": {
+    "patron": "〜せいで",
+    "forma": "せいで",
+    "nivel": "n3",
+    "significado": "Por culpa de, a causa de. Marca una causa que trae un resultado negativo.",
+    "conexion": [
+      "V (forma simple: diccionario / ない / た) + せいで",
+      "いA + せいで",
+      "なA + な + せいで",
+      "N + の + せいで"
+    ]
+  },
+  "okagede": {
+    "patron": "〜おかげで",
+    "forma": "おかげで",
+    "nivel": "n3",
+    "significado": "Gracias a. Marca una causa que trae un resultado positivo (con ironía puede usarse para algo malo).",
+    "conexion": [
+      "V (forma simple: diccionario / ない / た) + おかげで",
+      "いA + おかげで",
+      "なA + な + おかげで",
+      "N + の + おかげで"
+    ]
+  },
+  "kuseni": {
+    "patron": "〜くせに",
+    "forma": "くせに",
+    "nivel": "n3",
+    "significado": "A pesar de que, siendo que. Reprocha a una persona que actúa en contra de lo que se espera de ella. Tono de crítica o desprecio.",
+    "conexion": [
+      "V (forma simple: diccionario / ない / た) + くせに",
+      "いA + くせに",
+      "なA + な + くせに",
+      "N + の + くせに"
+    ]
+  },
+  "warini": {
+    "patron": "〜わりに",
+    "forma": "わりに",
+    "nivel": "n3",
+    "significado": "Para ser, considerando que. El resultado no corresponde a lo que se esperaría a partir de lo primero.",
+    "conexion": [
+      "V (forma simple: diccionario / ない / た) + わりに",
+      "いA + わりに",
+      "なA + な + わりに",
+      "N + の + わりに"
+    ]
+  },
+  "youninaru": {
+    "patron": "〜ようになる",
+    "forma": "ように",
+    "nivel": "n3",
+    "significado": "Llegar a (poder / hacer). Expresa un cambio gradual de capacidad, hábito o estado.",
+    "conexion": [
+      "V (forma diccionario) + ようになる",
+      "V (forma potencial) + ようになる (cambio de capacidad)",
+      "V (forma ない) → V なくなる (forma más natural para el negativo)"
+    ]
+  },
+  "kotoninaru": {
+    "patron": "〜ことになる",
+    "forma": "ことに",
+    "nivel": "n3",
+    "significado": "Se decidió que, resulta que. Una decisión tomada por otros, por reglas o por las circunstancias, no por el hablante.",
+    "conexion": [
+      "V (forma diccionario / ない) + ことになる",
+      "Suele usarse en pasado: ことになった",
+      "Si decide el propio hablante: ことにする"
+    ]
+  },
+  "tameni": {
+    "patron": "〜ために",
+    "forma": "ために",
+    "nivel": "n3",
+    "significado": "Para (finalidad) o debido a (causa).",
+    "conexion": [
+      "V (forma diccionario) + ために (finalidad)",
+      "V (forma simple: diccionario / ない / た) + ために (causa)",
+      "いA + ために (causa)",
+      "なA + な + ために (causa)",
+      "N + の + ために"
+    ]
+  },
+  "souda-aspecto": {
+    "patron": "〜そうだ (apariencia)",
+    "forma": "そうに",
+    "nivel": "n3",
+    "significado": "Parece que, tiene pinta de. Lo que el hablante deduce a simple vista. Con なる: estar a punto de.",
+    "conexion": [
+      "V (raíz, forma ます sin ます) + そうだ",
+      "いA (sin い) + そうだ",
+      "なA (sin な) + そうだ",
+      "Excepciones: いい → よさそう, ない → なさそう"
+    ]
+  },
+  "uchini": {
+    "patron": "〜うちに",
+    "forma": "うちに",
+    "nivel": "n3",
+    "significado": "Mientras todavía, antes de que. Hacer algo aprovechando un estado antes de que cambie.",
+    "conexion": [
+      "V (forma ない) + うちに (antes de que ocurra algo)",
+      "V (forma diccionario / ている) + うちに (mientras)",
+      "いA + うちに",
+      "なA + な + うちに",
+      "N + の + うちに"
+    ]
+  },
+  "maeni": {
+    "patron": "〜まえに",
+    "forma": "まえに",
+    "nivel": "n3",
+    "significado": "Antes de. Indica simplemente el orden de dos acciones.",
+    "conexion": [
+      "V (forma diccionario) + まえに",
+      "N + の + まえに",
+      "Nunca con forma ない ni た"
+    ]
+  },
+  "aidani": {
+    "patron": "〜あいだに",
+    "forma": "あいだに",
+    "nivel": "n3",
+    "significado": "Durante, mientras. Algo puntual ocurre dentro de un período.",
+    "conexion": [
+      "V (forma diccionario / ている) + あいだに",
+      "いA + あいだに",
+      "なA + な + あいだに",
+      "N + の + あいだに"
+    ]
+  },
+  "madeni": {
+    "patron": "〜までに",
+    "forma": "までに",
+    "nivel": "n3",
+    "significado": "Antes de, a más tardar. Marca una fecha o momento límite.",
+    "conexion": ["V (forma diccionario) + までに", "N + までに"]
+  },
+  "wakeniwaikanai": {
+    "patron": "〜わけにはいかない",
+    "forma": "わけにはいかない",
+    "nivel": "n3",
+    "significado": "No puedo permitirme. No se puede hacer por razones morales, sociales o de responsabilidad.",
+    "conexion": [
+      "V (forma diccionario) + わけにはいかない (no puedo hacerlo)",
+      "V (forma ない) + わけにはいかない (tengo que hacerlo)"
+    ]
+  },
+  "wakedewanai": {
+    "patron": "〜わけではない",
+    "forma": "わけではない",
+    "nivel": "n3",
+    "significado": "No es que, no significa que. Niega de forma parcial una idea o una conclusión.",
+    "conexion": [
+      "V / いA (forma simple) + わけではない",
+      "なA + な + わけではない",
+      "N + の / な + わけではない"
+    ]
+  },
+  "hazuda": {
+    "patron": "〜はずだ",
+    "forma": "はずだ",
+    "nivel": "n3",
+    "significado": "Debería, se supone que. Una expectativa basada en razones lógicas.",
+    "conexion": [
+      "V / いA (forma simple) + はずだ",
+      "なA + な + はずだ",
+      "N + の + はずだ"
+    ]
+  },
+  "shikanai": {
+    "patron": "〜しかない",
+    "forma": "しかない",
+    "nivel": "n3",
+    "significado": "No queda otra que. No hay otra opción.",
+    "conexion": ["V (forma diccionario) + しかない"]
+  },
+  "nitotte": {
+    "patron": "〜にとって",
+    "forma": "にとって",
+    "nivel": "n3",
+    "significado": "Para (desde el punto de vista de). Va con juicios o valoraciones: 大切だ, 難しい, 便利だ.",
+    "conexion": ["N + にとって", "N + にとっては / にとっても"]
+  },
+  "nitsuite": {
+    "patron": "〜について",
+    "forma": "について",
+    "nivel": "n3",
+    "significado": "Sobre, acerca de. Introduce el tema del que se habla, piensa o investiga.",
+    "conexion": ["N + について", "N + についての + N"]
+  },
+  "nitaishite": {
+    "patron": "〜に対して",
+    "forma": "に対して",
+    "nivel": "n3",
+    "significado": "Hacia, contra, con. Marca a quién se dirige una acción o actitud. También sirve para contrastar.",
+    "conexion": [
+      "N + に対して",
+      "V / A (forma simple) + の + に対して (contraste)"
+    ]
+  },
+  "niyotte": {
+    "patron": "〜によって",
+    "forma": "によって",
+    "nivel": "n3",
+    "significado": "Depende de, por medio de, por. Indica variación, medio, causa o el agente de una pasiva.",
+    "conexion": ["N + によって", "N + によって + 違う / 変わる (variación)"]
+  }
+}

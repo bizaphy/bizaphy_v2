@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Interruptor from "./Interruptor";
 
 type NivelPalabra = "n5" | "n4" | "n3";
 
@@ -104,43 +105,6 @@ const chipFiltro = (activo: boolean) =>
       ? "border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-100 shadow-[0_0_10px_rgba(217,70,239,0.6)]"
       : "border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300"
   }`;
-
-// Interruptor de config de vista (no filtro), usado en "Colores JLPT" y
-// "Furigana".
-function Interruptor({
-  label,
-  activo,
-  onToggle,
-}: {
-  label: string;
-  activo: boolean;
-  onToggle: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={activo}
-      onClick={onToggle}
-      className="flex items-center gap-2 font-mono text-xs tracking-widest text-zinc-400 uppercase hover:text-zinc-200"
-    >
-      {label}
-      <span
-        className={`relative h-4 w-7 rounded-full border transition ${
-          activo
-            ? "border-violet-300 bg-violet-500/40"
-            : "border-zinc-600 bg-zinc-800"
-        }`}
-      >
-        <span
-          className={`absolute top-0.5 left-0.5 h-2.5 w-2.5 rounded-full transition ${
-            activo ? "translate-x-3 bg-violet-100" : "bg-zinc-500"
-          }`}
-        />
-      </span>
-    </button>
-  );
-}
 
 export default function KanjiTrainer() {
   const [vocab, setVocab] = useState<Vocabulario | null>(null);

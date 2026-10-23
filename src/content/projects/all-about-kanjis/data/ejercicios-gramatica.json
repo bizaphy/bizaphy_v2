@@ -1,0 +1,532 @@
+[
+  {
+    "id": "n3-001",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "雨",
+        "r": "あめ"
+      },
+      {
+        "t": "が"
+      },
+      {
+        "t": "降",
+        "r": "ふ"
+      },
+      {
+        "t": "った"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、"
+      },
+      {
+        "t": "試合",
+        "r": "しあい"
+      },
+      {
+        "t": "は"
+      },
+      {
+        "t": "中止",
+        "r": "ちゅうし"
+      },
+      {
+        "t": "になった。"
+      }
+    ],
+    "traduccion": "Por culpa de la lluvia, el partido se canceló.",
+    "opciones": ["okagede", "kuseni", "seide", "warini"],
+    "correcta": "seide",
+    "explicaciones": {
+      "seide": "La causa es la lluvia (降った, forma た) y el resultado, que se cancele el partido, es negativo. せいで marca justamente una causa que trae una consecuencia mala.",
+      "okagede": "Se conecta igual (降ったおかげで), pero expresa una causa con resultado positivo. Aquí el resultado es malo, así que no encaja, salvo con ironía.",
+      "kuseni": "Sirve para reprochar a una persona que actúa en contra de lo esperado. La lluvia no es alguien a quien criticar, y no hay ninguna contradicción.",
+      "warini": "Indica que el resultado no es el esperado. Que se cancele un partido porque llovió es lo normal, así que no hay contraste."
+    }
+  },
+  {
+    "id": "n3-002",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "日本",
+        "r": "にほん"
+      },
+      {
+        "t": "に"
+      },
+      {
+        "t": "来",
+        "r": "き"
+      },
+      {
+        "t": "て"
+      },
+      {
+        "t": "一年",
+        "r": "いちねん"
+      },
+      {
+        "t": "たって、やっと"
+      },
+      {
+        "t": "日本語",
+        "r": "にほんご"
+      },
+      {
+        "t": "の"
+      },
+      {
+        "t": "新聞",
+        "r": "しんぶん"
+      },
+      {
+        "t": "が"
+      },
+      {
+        "t": "読",
+        "r": "よ"
+      },
+      {
+        "t": "める"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "なった。"
+      }
+    ],
+    "traduccion": "Después de un año en Japón, por fin puedo leer el periódico en japonés.",
+    "opciones": ["kotoninaru", "youninaru", "souda-aspecto", "tameni"],
+    "correcta": "youninaru",
+    "explicaciones": {
+      "youninaru": "やっと y el año que pasó muestran un cambio gradual: antes no podía leer y ahora sí. ようになる con la forma potencial (読める) expresa justamente ese cambio de capacidad.",
+      "kotoninaru": "ことになる indica una decisión tomada por otros o por las circunstancias. Poder leer no se decide: es una capacidad que se adquiere.",
+      "souda-aspecto": "La そう de apariencia se une a la raíz del verbo (読めそう), no a la forma diccionario, así que 読めるそうになった es incorrecto. Además, 読めるそうだ sería la そうだ de rumor (dicen que puede leer), que no se combina con なる.",
+      "tameni": "読めるためになった no es gramatical. ために marca finalidad o causa, y ためになる es otra expresión que significa ser útil o provechoso."
+    }
+  },
+  {
+    "id": "n3-003",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "雨",
+        "r": "あめ"
+      },
+      {
+        "t": "が"
+      },
+      {
+        "t": "降",
+        "r": "ふ"
+      },
+      {
+        "t": "らない"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、"
+      },
+      {
+        "t": "早",
+        "r": "はや"
+      },
+      {
+        "t": "く"
+      },
+      {
+        "t": "帰",
+        "r": "かえ"
+      },
+      {
+        "t": "りましょう。"
+      }
+    ],
+    "traduccion": "Volvamos pronto, antes de que empiece a llover.",
+    "opciones": ["maeni", "aidani", "madeni", "uchini"],
+    "correcta": "uchini",
+    "explicaciones": {
+      "uchini": "ないうちに significa antes de que pase algo que no queremos. Se une a la forma ない: 降らないうちに significa mientras todavía no llueve.",
+      "maeni": "まえに también significa antes de, pero solo se une a la forma diccionario: 降るまえに. Con la forma ない (降らないまえに) es incorrecto.",
+      "aidani": "あいだに marca un período dentro del cual ocurre algo puntual. No se usa con la forma ない para decir antes de que pase algo: para eso está うちに.",
+      "madeni": "までに marca un momento límite (a más tardar) y se une a la forma diccionario o a un sustantivo. 降らないまでに no es gramatical."
+    }
+  },
+  {
+    "id": "n3-004",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "明日",
+        "r": "あした"
+      },
+      {
+        "t": "は"
+      },
+      {
+        "t": "大事",
+        "r": "だいじ"
+      },
+      {
+        "t": "な"
+      },
+      {
+        "t": "試験",
+        "r": "しけん"
+      },
+      {
+        "t": "があるので、"
+      },
+      {
+        "t": "熱",
+        "r": "ねつ"
+      },
+      {
+        "t": "があっても"
+      },
+      {
+        "t": "休",
+        "r": "やす"
+      },
+      {
+        "t": "む"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "。"
+      }
+    ],
+    "traduccion": "Mañana tengo un examen importante, así que no puedo faltar aunque tenga fiebre.",
+    "opciones": ["wakeniwaikanai", "wakedewanai", "hazuda", "shikanai"],
+    "correcta": "wakeniwaikanai",
+    "explicaciones": {
+      "wakeniwaikanai": "Hay un examen importante, así que el hablante no puede faltar por responsabilidad. わけにはいかない con la forma diccionario (休む) significa justamente no puedo permitirme hacerlo.",
+      "wakedewanai": "わけではない niega parcialmente una idea (no es que...). Decir no es que vaya a faltar no tiene relación lógica con tener un examen importante.",
+      "hazuda": "はずだ es una expectativa lógica (se supone que). Esperar que falte contradice el motivo: un examen importante es una razón para ir.",
+      "shikanai": "しかない significa no queda otra que. Decir no me queda más que faltar contradice que el examen sea importante y el ても de 熱があっても."
+    }
+  },
+  {
+    "id": "n3-005",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "私",
+        "r": "わたし"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、"
+      },
+      {
+        "t": "家族",
+        "r": "かぞく"
+      },
+      {
+        "t": "は"
+      },
+      {
+        "t": "一番",
+        "r": "いちばん"
+      },
+      {
+        "t": "大切",
+        "r": "たいせつ"
+      },
+      {
+        "t": "なものです。"
+      }
+    ],
+    "traduccion": "Para mí, la familia es lo más importante.",
+    "opciones": ["nitsuite", "nitaishite", "nitotte", "niyotte"],
+    "correcta": "nitotte",
+    "explicaciones": {
+      "nitotte": "にとって presenta el punto de vista desde el que se valora algo: para mí. Va con juicios como 大切だ, que aquí aparece en 大切なもの.",
+      "nitsuite": "について introduce el tema del que se habla o piensa (hablar sobre, investigar acerca de). Acerca de mí, la familia es lo más importante no tiene sentido.",
+      "nitaishite": "に対して marca a quién se dirige una acción o actitud (ser amable con, protestar contra). Aquí no hay ninguna acción dirigida hacia mí, solo una valoración.",
+      "niyotte": "によって indica variación (depende de), medio, causa o el agente de una pasiva. Ninguno encaja con una opinión personal."
+    }
+  },
+  {
+    "id": "n3-006",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "隣",
+        "r": "となり"
+      },
+      {
+        "t": "の"
+      },
+      {
+        "t": "部屋",
+        "r": "へや"
+      },
+      {
+        "t": "の"
+      },
+      {
+        "t": "音",
+        "r": "おと"
+      },
+      {
+        "t": "がうるさかった"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、"
+      },
+      {
+        "t": "昨日",
+        "r": "きのう"
+      },
+      {
+        "t": "はよく"
+      },
+      {
+        "t": "眠",
+        "r": "ねむ"
+      },
+      {
+        "t": "れなかった。"
+      }
+    ],
+    "traduccion": "Por culpa del ruido de la habitación de al lado, ayer no pude dormir bien.",
+    "opciones": ["warini", "seide", "okagede", "kuseni"],
+    "correcta": "seide",
+    "explicaciones": {
+      "seide": "La causa es el ruido y el resultado, no poder dormir, es malo. せいで se une directo a la forma simple del adjetivo い: うるさかったせいで.",
+      "warini": "わりに necesita un resultado contrario a lo esperado. Con ruido lo normal es dormir mal. Sí funcionaría con よく眠れた (dormí bien a pesar del ruido).",
+      "okagede": "Se conecta igual (うるさかったおかげで), pero es para resultados buenos. No haber dormido bien es un resultado malo.",
+      "kuseni": "くせに reprocha a una persona. Aquí lo que era ruidoso es el sonido, no alguien a quien criticar."
+    }
+  },
+  {
+    "id": "n3-007",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "練習",
+        "r": "れんしゅう"
+      },
+      {
+        "t": "を"
+      },
+      {
+        "t": "続",
+        "r": "つづ"
+      },
+      {
+        "t": "けて、"
+      },
+      {
+        "t": "少",
+        "r": "すこ"
+      },
+      {
+        "t": "しずつ"
+      },
+      {
+        "t": "漢字",
+        "r": "かんじ"
+      },
+      {
+        "t": "が"
+      },
+      {
+        "t": "書",
+        "r": "か"
+      },
+      {
+        "t": "ける"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "なってきた。"
+      }
+    ],
+    "traduccion": "Al seguir practicando, poco a poco he empezado a poder escribir kanji.",
+    "opciones": ["souda-aspecto", "kotoninaru", "tameni", "youninaru"],
+    "correcta": "youninaru",
+    "explicaciones": {
+      "youninaru": "少しずつ y なってきた muestran un cambio gradual de capacidad. ようになる se une a la forma potencial: 書けるようになる.",
+      "souda-aspecto": "La そう de apariencia va con la raíz: 書けそう. 書けるそう sería la そうだ de rumor (dicen que puede escribir), que no se combina con なる.",
+      "kotoninaru": "ことになる es para decisiones de otros o de las circunstancias. Poder escribir kanji no se decide: se aprende con práctica.",
+      "tameni": "書けるためになってきた no es gramatical. ために marca finalidad o causa, no un cambio de capacidad."
+    }
+  },
+  {
+    "id": "n3-008",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "温",
+        "r": "あたた"
+      },
+      {
+        "t": "かい"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、どうぞ"
+      },
+      {
+        "t": "召",
+        "r": "め"
+      },
+      {
+        "t": "し"
+      },
+      {
+        "t": "上",
+        "r": "あ"
+      },
+      {
+        "t": "がってください。"
+      }
+    ],
+    "traduccion": "Por favor, cómalo mientras todavía está caliente.",
+    "opciones": ["uchini", "maeni", "madeni", "tameni"],
+    "correcta": "uchini",
+    "explicaciones": {
+      "uchini": "うちに con un adjetivo い significa mientras todavía: 温かいうちに, mientras aún está caliente. Es la frase típica para invitar a comer antes de que la comida se enfríe.",
+      "maeni": "まえに solo se une a la forma diccionario de un verbo o a N + の. No va con adjetivos: 温かいまえに es incorrecto.",
+      "madeni": "までに marca un límite y se une a la forma diccionario de un verbo o a un sustantivo. 温かいまでに no es gramatical.",
+      "tameni": "La ために de causa sí se une a adjetivos (温かいために, por estar caliente), pero no admite una petición como ください en la segunda parte. Además, aquí el sentido es mientras lo esté, no porque lo está."
+    }
+  },
+  {
+    "id": "n3-009",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "部長",
+        "r": "ぶちょう"
+      },
+      {
+        "t": "に"
+      },
+      {
+        "t": "直接",
+        "r": "ちょくせつ"
+      },
+      {
+        "t": "頼",
+        "r": "たの"
+      },
+      {
+        "t": "まれた"
+      },
+      {
+        "t": "仕事",
+        "r": "しごと"
+      },
+      {
+        "t": "なので、どんなに"
+      },
+      {
+        "t": "忙",
+        "r": "いそが"
+      },
+      {
+        "t": "しくてもやらない"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "。"
+      }
+    ],
+    "traduccion": "Es un trabajo que me pidió el jefe en persona, así que, por más ocupado que esté, tengo que hacerlo.",
+    "opciones": ["hazuda", "wakedewanai", "wakeniwaikanai", "shikanai"],
+    "correcta": "wakeniwaikanai",
+    "explicaciones": {
+      "wakeniwaikanai": "Con la forma ない, ないわけにはいかない significa no puedo dejar de hacerlo, tengo que hacerlo. Lo pidió el jefe en persona, así que hay una obligación social.",
+      "hazuda": "やらないはずだ diría se supone que no lo hará, lo que contradice la obligación que plantea la primera parte.",
+      "wakedewanai": "やらないわけではない (no es que no lo vaya a hacer) es una negación parcial y suave. No combina con どんなに忙しくても, que pide una conclusión firme.",
+      "shikanai": "しかない se une a la forma diccionario: やるしかない (no queda otra que hacerlo). Con la forma ない (やらないしかない) no es gramatical."
+    }
+  },
+  {
+    "id": "n3-010",
+    "nivel": "n3",
+    "oracion": [
+      {
+        "t": "この"
+      },
+      {
+        "t": "本",
+        "r": "ほん"
+      },
+      {
+        "t": "は"
+      },
+      {
+        "t": "日本語",
+        "r": "にほんご"
+      },
+      {
+        "t": "を"
+      },
+      {
+        "t": "勉強",
+        "r": "べんきょう"
+      },
+      {
+        "t": "している"
+      },
+      {
+        "t": "人",
+        "r": "ひと"
+      },
+      {
+        "hueco": true
+      },
+      {
+        "t": "、とても"
+      },
+      {
+        "t": "役",
+        "r": "やく"
+      },
+      {
+        "t": "に"
+      },
+      {
+        "t": "立",
+        "r": "た"
+      },
+      {
+        "t": "つ。"
+      }
+    ],
+    "traduccion": "Este libro es muy útil para quienes estudian japonés.",
+    "opciones": ["niyotte", "nitotte", "nitaishite", "nitsuite"],
+    "correcta": "nitotte",
+    "explicaciones": {
+      "nitotte": "にとって marca para quién es útil algo. 役に立つ es un juicio típico de にとって: para quien estudia japonés, el libro sirve mucho.",
+      "niyotte": "によって pediría una variación: 人によって役に立つかどうか違う (depende de la persona). Aquí la oración afirma algo general, sin variación.",
+      "nitaishite": "に対して marca a quién se dirige una acción o actitud. Ser útil no es una acción dirigida hacia alguien, es una valoración.",
+      "nitsuite": "について presenta un tema: sería un libro acerca de las personas que estudian japonés. No sirve para decir para quién es útil."
+    }
+  }
+]

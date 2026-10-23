@@ -2,23 +2,25 @@
 
 import { useState, type ReactNode } from "react";
 
-type Tab = "explorador" | "trainer";
+type Tab = "explorador" | "trainer" | "grammar";
 
 const TABS: { id: Tab; label: string }[] = [
   { id: "explorador", label: "Explorador" },
   { id: "trainer", label: "KanjiTrainer" },
+  { id: "grammar", label: "Grammar Beta" },
 ];
 
 type Props = {
   explorador: ReactNode;
   trainer: ReactNode;
+  grammar: ReactNode;
 };
 
 // Pestanas de la pagina. Ambos paneles quedan montados (ocultos con `hidden`)
 // para no perder el kanji elegido ni la palabra actual al cambiar de pestana.
 // El trainer se monta recien la primera vez que se abre: asi el JSON de
 // vocabulario solo se descarga si alguien lo usa.
-export default function KanjiTabs({ explorador, trainer }: Props) {
+export default function KanjiTabs({ explorador, trainer, grammar }: Props) {
   const [activa, setActiva] = useState<Tab>("explorador");
   const [trainerMontado, setTrainerMontado] = useState(false);
 
@@ -73,6 +75,14 @@ export default function KanjiTabs({ explorador, trainer }: Props) {
         hidden={activa !== "trainer"}
       >
         {trainerMontado && trainer}
+      </div>
+      <div
+        role="tabpanel"
+        id="panel-grammar"
+        aria-labelledby="tab-grammar"
+        hidden={activa !== "grammar"}
+      >
+        {grammar}
       </div>
     </div>
   );
