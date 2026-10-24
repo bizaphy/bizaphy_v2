@@ -37,6 +37,7 @@ const TELES = [
   { n: 16, src: "neonna-tele-brazos.svg", titulo: "Tele · manos mas separadas", saltos: true, etiqueta: "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla" },
   { n: 17, src: "neonna-tele-manos.svg", titulo: "Tele · manos mas grandes", saltos: true, etiqueta: "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla" },
   { n: 18, src: "neonna-tele-sombra.svg", titulo: "Tele · con sombreado", saltos: true, etiqueta: "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla" },
+  { n: 19, src: "neonna-tele-ladeada.svg", titulo: "Tele · cabeza ladeada", saltos: true, etiqueta: "Neonna dentro de una tele, con la cabeza ladeada y una mano dandole toques a la pantalla" },
 ];
 
 const MODELOS = [

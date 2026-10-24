@@ -3,7 +3,7 @@ import NeonnaHero from "@/components/neonna/NeonnaHero";
 export default function Hero() {
   return (
     <div className="relative w-full overflow-hidden rounded-xl">
-      {/* Neonna en la tele: v18 en modo oscuro, v9.2 en modo claro */}
+      {/* Neonna en la tele: v19 en modo oscuro, v9.2 en modo claro */}
       <NeonnaHero />
       {/* scanline sutil encima para amarrarla a la estetica */}
       <div

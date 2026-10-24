@@ -1,7 +1,7 @@
 "use client";
 
 //Neonna dentro de la tele para el Hero del home, en ASCII en vivo.
-//Modo oscuro: v18 (toc toc, con los brazos abiertos y las manos grandes, con
+//Modo oscuro: v19 (toc toc, con la cabeza ladeada, los brazos abiertos y
 //sombreado sutil en cara y manos). Modo claro: v9.2 (la v9, le llega el sol: ojos
 //cerrados y boca en V, sobre fondo gris zinc-800). Una sola animacion a la
 //vez: cambia el SVG segun el tema.
@@ -12,10 +12,10 @@ import { leerTema, suscribirse } from "@/components/ui/ThemeToggle";
 
 const VERSIONES = {
   dark: {
-    src: "/images/neonna/neonna-tele-sombra.svg",
+    src: "/images/neonna/neonna-tele-ladeada.svg",
     fondo: "#000",
     etiqueta:
-      "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla",
+      "Neonna dentro de una tele, con la cabeza ladeada y una mano dandole toques a la pantalla",
   },
   light: {
     src: "/images/neonna/neonna-tele-sol.svg",
