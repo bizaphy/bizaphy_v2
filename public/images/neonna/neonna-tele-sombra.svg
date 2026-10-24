@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-label="Neonna dentro de una tele, con una mano apoyada bien abajo y la otra dandole toques a la pantalla">
+  <!--
+    NEONNA — pose "tele" v18: la v17 con sombreado sutil en cara y manos
+    (sombra del flequillo, bordes de la cara, palmas y el contacto de la
+    palma que se apoya en el vidrio)
+    Igual a neonna-tele-arriba-3.svg (v7), pero el iris es de un color plano,
+    sin pupila, con un solo brillo simple (como la v10). La mano
+    derecha senala con el indice y cada ciclo da dos toques ("toc toc") al vidrio.
+    Manos 5% mas chicas que en la v10.
+    Igual a neonna-tele-arriba.svg, pero las pupilas suben mas (12px en vez de 8):
+    el borde del ojo tapa parte del iris. Sin anillos en las manos. El salto de lado a
+    lado lo agrega el ASCII (opcion saltos en src/lib/neonna-ascii.ts).
+    Inclinada hacia el vidrio, vista un poco desde arriba: cabeza grande y
+    ladeada, cuerpo corto abajo, y las manos apoyadas en la pantalla.
+    Misma paleta y piezas que neonna-base.svg, a otra escala.
+    Grupos: #pelo-atras  #cuerpo  #brazo-izq  #brazo-der  #cabeza (#cara
+    #ojo-izq #ojo-der #hud-grupo #flequillo #cejas #auriculares #microfono)
+    #mano-izq  #mano-der
+  -->
+  <defs>
+    <linearGradient id="pelo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="pelo-1"/>
+      <stop offset="0.55" class="pelo-2"/>
+      <stop offset="1" class="pelo-3"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="iris-1"/>
+      <stop offset="0.5" class="iris-2"/>
+      <stop offset="1" class="iris-3"/>
+    </linearGradient>
+    <!-- forma del ojo, en coordenadas de cada ojo: recorta el iris al subirlo -->
+    <clipPath id="ojo-forma"><ellipse rx="15" ry="18"/></clipPath>
+    <!-- sombreado sutil (v18) -->
+    <clipPath id="cara-recorte"><path d="M222 150 C222 232 280 262 320 264 C360 262 418 232 418 150 C418 100 222 100 222 150 Z"/></clipPath>
+    <!-- cara: centro claro, bordes y mandibula apenas mas oscuros -->
+    <radialGradient id="sombra-cara" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0.6" stop-color="#d99bbf" stop-opacity="0"/>
+      <stop offset="1" stop-color="#d99bbf" stop-opacity="0.45"/>
+    </radialGradient>
+    <!-- palmas: luz arriba a la izquierda, sombra hacia el borde de abajo -->
+    <radialGradient id="sombra-mano" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0.5" stop-color="#c98aa8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c98aa8" stop-opacity="0.45"/>
+    </radialGradient>
+    <!-- zona de contacto de la palma con el vidrio: oscura al centro, se funde hacia afuera -->
+    <radialGradient id="sombra-contacto">
+      <stop offset="0" stop-color="#c98aa8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c98aa8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="-400" y="-400" width="1440" height="1080">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* ===== PALETA: igual que neonna-base.svg ===== */
+    .pelo-1 { stop-color: #1e0b36; }
+    .pelo-2 { stop-color: #4c1d95; }
+    .pelo-3 { stop-color: #d946ef; }
+    .iris-1 { stop-color: #4a044e; }
+    .iris-2 { stop-color: #c026d3; }
+    .iris-3 { stop-color: #f0abfc; }
+
+    .f-pelo { fill: url(#pelo); }
+    .f-piel { fill: #ffe4ef; }
+    .f-piel-sombra { fill: #f5c6dc; }
+    .f-rubor { fill: #f472b6; opacity: 0.4; }
+    .f-ropa { fill: #18181b; }
+    .f-ropa-2 { fill: #27272a; }
+    .f-neon { fill: #d946ef; }
+    .f-acento { fill: #67e8f9; }
+    .f-linea { fill: #1e0b36; }
+    .f-blanco { fill: #fff; }
+    .f-iris { fill: url(#iris); }
+    .f-boca { fill: #4a044e; }
+
+    .s-ropa { stroke: #18181b; fill: none; stroke-linecap: round; }
+    .s-neon { stroke: #d946ef; fill: none; stroke-linecap: round; }
+    .s-acento { stroke: #67e8f9; fill: none; stroke-linecap: round; }
+    .s-linea { stroke: #1e0b36; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .s-metal { stroke: #3f3f46; fill: none; stroke-linecap: round; }
+    .s-piel { stroke: #ffe4ef; fill: none; stroke-linecap: round; }
+    .s-piel-borde { stroke: #c98aa8; fill: none; stroke-linecap: round; }
+    .s-brillo { stroke: #f0abfc; fill: none; stroke-linecap: round; opacity: 0.3; }
+    .borde-neon { stroke: #d946ef; }
+    .borde-metal { stroke: #3f3f46; }
+
+    /* ===== ANIMACIONES IDLE ===== */
+    /* la cabeza se ladea y se acerca un poco al vidrio */
+    #cabeza { transform-origin: 320px 230px; animation: cabeza 6s ease-in-out infinite; }
+    @keyframes cabeza {
+      0%,100% { transform: rotate(-5deg) translateY(0); }
+      50% { transform: rotate(-2deg) translateY(3px); }
+    }
+
+    /* las manos empujan el vidrio, una despues de la otra */
+    #mano-izq { transform-origin: 118px 160px; animation: empujar 3s ease-in-out infinite; }
+    /* mano derecha: solo el indice da dos toques suaves al vidrio (toc... toc)
+       de 3.1 a 4.4 s de cada ciclo de 6 s, lejos del parpadeo (0.5 a 0.8 s).
+       Se inclina un poco desde su base hacia la pantalla; la palma y los otros
+       dedos quedan quietos (escalar la mano entera parecia un latido) */
+    .indice { transform-origin: 506px 141px; animation: toque 6s ease-in-out infinite; }
+    @keyframes toque {
+      0%, 52%, 60%, 65%, 73%, 100% { transform: rotate(0deg) scale(1); }
+      56%, 69% { transform: rotate(-7deg) scale(1.06); }
+    }
+    /* al apretar, la yema se pone un poco mas rosada y vuelve al soltar */
+    .yema { opacity: 0; animation: yema 6s ease-in-out infinite; }
+    @keyframes yema {
+      0%, 53%, 60%, 66%, 73%, 100% { opacity: 0; }
+      56%, 69% { opacity: 0.35; }
+    }
+    /* onda en el vidrio: aparece cuando el dedo llega y se expande */
+    .onda { opacity: 0; transform-box: fill-box; transform-origin: center; animation: onda 6s ease-out infinite; }
+    @keyframes onda {
+      0%, 55.9%, 63%, 68.9%, 76%, 100% { opacity: 0; transform: scale(0.6); }
+      56%, 69% { opacity: 0.9; transform: scale(0.8); }
+      62%, 75% { opacity: 0; transform: scale(1.8); }
+    }
+    @keyframes empujar { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+
+    /* parpadeo largo y sincronizado con el ASCII: dura lo mismo que su ciclo
+       (6 s) y cierra entre 0.5 y 0.8 s, antes del primer salto con glitch
+       (1.3 s). Asi siempre cae en fotogramas limpios */
+    .ojo { transform-box: fill-box; transform-origin: center; animation: parpadeo 6s ease-in-out infinite; }
+    @keyframes parpadeo {
+      0%, 6%, 16%, 100% { transform: scaleY(1); }
+      8.5%, 13.5% { transform: scaleY(0.06); }
+    }
+    /* linea de ojo cerrado: aplastado, el ojo deja una raya muy fina que en el
+       ASCII se pierde. Esta aparece solo mientras el ojo esta cerrado */
+    .cerrado { opacity: 0; animation: cerrado 6s steps(1, end) infinite; }
+    @keyframes cerrado { 0%, 100% { opacity: 0; } 8% { opacity: 1; } 14% { opacity: 0; } }
+
+    #hud { transform-box: fill-box; transform-origin: center; animation: girar 6s linear infinite; }
+    @keyframes girar { to { transform: rotate(360deg); } }
+
+    .led { animation: led 2s ease-in-out infinite; }
+    .led2 { animation: led 2s ease-in-out infinite; animation-delay: -1s; }
+    @keyframes led { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+    /* sombra de contacto: se intensifica cuando la mano empuja (mismo ritmo que empujar) */
+    .contacto { animation: contacto 3s ease-in-out infinite; }
+    @keyframes contacto { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <!-- pelo largo que cae hacia adelante (esta inclinada) -->
+  <path id="pelo-atras" class="f-pelo" d="M196 60 C170 -40 470 -40 444 60 L478 280 L162 280 Z"/>
+
+  <!-- cuerpo: corto, visto desde arriba -->
+  <g id="cuerpo">
+    <rect class="f-piel-sombra" x="306" y="236" width="28" height="22"/>
+    <path class="f-ropa" d="M232 256 Q320 238 408 256 L424 280 L216 280 Z"/>
+    <path class="f-ropa-2 borde-neon" stroke-width="1.8" stroke-linejoin="round" d="M286 248 L320 264 L354 248 L357 262 L320 280 L283 262 Z"/>
+  </g>
+
+  <!-- brazos: de los hombros hacia los lados, subiendo al vidrio -->
+  <g id="brazo-izq">
+    <path class="s-metal" stroke-width="37" d="M252 266 Q160 316 95 271"/>
+    <path class="s-ropa" stroke-width="34" d="M252 266 Q160 316 95 271"/>
+    <path class="s-neon" stroke-width="3" filter="url(#glow)" d="M113 267 L90 287"/>
+  </g>
+  <g id="brazo-der">
+    <path class="s-metal" stroke-width="37" d="M388 266 Q478 254 545 204"/>
+    <path class="s-ropa" stroke-width="34" d="M388 266 Q478 254 545 204"/>
+    <path class="s-neon" stroke-width="3" filter="url(#glow)" d="M527 200 L550 220"/>
+    <!-- el "07" va como parche en la manga: en el pecho lo tapan los brazos -->
+    <g transform="translate(474 246) rotate(-22)">
+      <rect x="-14" y="-8" width="28" height="16" rx="2" fill="#09090b" class="s-acento" stroke-width="1.4"/>
+      <text class="f-acento" y="4" font-size="11" font-family="monospace" text-anchor="middle">07</text>
+    </g>
+  </g>
+
+  <g id="cabeza">
+    <g id="cara">
+      <path class="f-piel" d="M222 150 C222 232 280 262 320 264 C360 262 418 232 418 150 C418 100 222 100 222 150 Z"/>
+      <path fill="url(#sombra-cara)" d="M222 150 C222 232 280 262 320 264 C360 262 418 232 418 150 C418 100 222 100 222 150 Z"/>
+      <!-- sombra del flequillo: su misma forma, corrida hacia abajo, solo dentro
+           de la cara (lo de arriba lo tapa el flequillo) -->
+      <path clip-path="url(#cara-recorte)" fill="#e2a9c8" opacity="0.5" transform="translate(0 8)" d="M210 160 C204 70 260 30 320 30 C380 30 436 70 430 160 L418 128 L408 154 L390 112 L376 146 L358 104 L342 142 L320 100 L300 142 L284 104 L266 146 L252 112 L234 154 L222 128 Z"/>
+      <ellipse class="f-rubor" cx="262" cy="220" rx="16" ry="6"/>
+      <ellipse class="f-rubor" cx="378" cy="220" rx="16" ry="6"/>
+      <!-- boca entreabierta: curiosa, mirando hacia afuera -->
+      <ellipse id="boca" class="f-boca" cx="320" cy="238" rx="6" ry="4.5"/>
+    </g>
+
+    <!-- ojos como en las otras Neonnas, con la mirada hacia arriba (hacia la
+         pantalla): iris, pupila y brillos suben dentro del ojo -->
+    <g id="ojo-izq" transform="translate(281 185) scale(1.32)">
+      <g class="ojo">
+        <ellipse class="f-blanco" rx="15" ry="18"/>
+        <g clip-path="url(#ojo-forma)">
+          <g transform="translate(0 -12)">
+            <!-- estilo Soul Eater: iris de un color plano, sin pupila -->
+            <ellipse fill="#c026d3" cy="2" rx="11.875" ry="15.2"/>
+          </g>
+          <!-- un solo brillo simple -->
+          <circle class="f-blanco" cx="-4" cy="-10" r="2.6"/>
+        </g>
+        <path class="s-linea" stroke-width="4" d="M-16 -2 Q-15 -20 0 -20 Q14 -20 16 -6 L21 -11"/>
+      </g>
+      <path class="s-linea cerrado" stroke-width="4" d="M-15 0 Q0 8 15 0"/>
+    </g>
+
+    <!-- ojos como en las otras Neonnas, con la mirada hacia arriba (hacia la
+         pantalla): iris, pupila y brillos suben dentro del ojo -->
+    <g id="ojo-der" transform="translate(359 185) scale(1.32)">
+      <g class="ojo">
+        <ellipse class="f-blanco" rx="15" ry="18"/>
+        <g clip-path="url(#ojo-forma)">
+          <g transform="translate(0 -12)">
+            <!-- estilo Soul Eater: iris de un color plano, sin pupila -->
+            <ellipse fill="#c026d3" cy="2" rx="11.875" ry="15.2"/>
+          </g>
+          <!-- un solo brillo simple -->
+          <circle class="f-blanco" cx="-4" cy="-10" r="2.6"/>
+        </g>
+        <path class="s-linea" stroke-width="4" d="M16 -2 Q15 -20 0 -20 Q-14 -20 -16 -6 L-21 -11"/>
+      </g>
+      <path class="s-linea cerrado" stroke-width="4" d="M-15 0 Q0 8 15 0"/>
+      <g id="hud-grupo" filter="url(#glow)" opacity="0.85">
+        <circle id="hud" class="s-acento" r="23" stroke-width="1.1" stroke-dasharray="10 5 2 5"/>
+        <path class="s-acento" stroke-width="0.8" d="M23 2 L40 2 L46 -6"/>
+      </g>
+    </g>
+
+    <g id="flequillo">
+      <path class="f-pelo" d="M210 160 C204 70 260 30 320 30 C380 30 436 70 430 160 L418 128 L408 154 L390 112 L376 146 L358 104 L342 142 L320 100 L300 142 L284 104 L266 146 L252 112 L234 154 L222 128 Z"/>
+      <path class="f-pelo" d="M222 140 Q206 210 226 266 Q240 230 240 190 Z"/>
+      <path class="f-pelo" d="M418 140 Q434 210 414 266 Q400 230 400 190 Z"/>
+      <path id="mechon" class="s-acento" stroke-width="3" filter="url(#glow)" d="M226 150 Q218 206 228 256"/>
+      <path class="s-brillo" stroke-width="5" d="M262 60 Q320 42 378 60"/>
+    </g>
+
+    <!-- cejas: algo mas gruesas de lo normal y levantadas (mira hacia arriba).
+         Van encima del flequillo para que se vean entre los mechones -->
+    <g id="cejas" class="f-linea" transform="translate(0 -3)">
+      <path d="M258 158 Q280 143 304 150 L303 154.5 Q281 149 259 162 Z"/>
+      <path d="M382 158 Q360 143 336 150 L337 154.5 Q359 149 381 162 Z"/>
+    </g>
+
+    <g id="auriculares">
+      <path class="s-ropa" stroke-width="11" d="M206 156 C196 18 444 18 434 156"/>
+      <path class="s-neon" stroke-width="1.5" opacity="0.8" filter="url(#glow)" d="M214 120 C222 50 418 50 426 120"/>
+      <g id="orejas" stroke-width="2" stroke-linejoin="round">
+        <path class="f-ropa borde-neon" d="M228 62 L234 2 L286 38 Z"/>
+        <path class="f-neon led" opacity="0.7" filter="url(#glow)" d="M239 52 L242 18 L272 38 Z"/>
+        <path class="f-ropa borde-neon" d="M412 62 L406 2 L354 38 Z"/>
+        <path class="f-neon led2" opacity="0.7" filter="url(#glow)" d="M401 52 L398 18 L368 38 Z"/>
+      </g>
+      <rect class="f-ropa borde-metal" stroke-width="2" x="192" y="140" width="32" height="60" rx="16"/>
+      <rect class="f-neon led" filter="url(#glow)" x="202" y="152" width="12" height="36" rx="6"/>
+      <rect class="f-ropa borde-metal" stroke-width="2" x="416" y="140" width="32" height="60" rx="16"/>
+      <rect class="f-neon led2" filter="url(#glow)" x="426" y="152" width="12" height="36" rx="6"/>
+    </g>
+
+    <g id="microfono">
+      <path class="s-metal" stroke-width="3.5" d="M206 198 Q222 244 284 240"/>
+      <circle class="f-acento led2" filter="url(#glow)" cx="288" cy="240" r="4.5"/>
+    </g>
+  </g>
+
+  <!-- manos apoyadas en el vidrio: lo mas cerca de la pantalla -->
+
+  <!-- escalada desde la muneca para que siga unida al brazo (v17: 10% mas grande que la v16) -->
+  <g transform="translate(-35 67) translate(125 190) scale(1.045) translate(-125 -190)">
+    <g id="mano-izq">
+      <!-- borde oscuro debajo: separa los dedos entre si -->
+      <g class="s-piel-borde" stroke-width="16">
+        <path d="M96 146 L84 112"/><path d="M108 140 L102 94"/><path d="M121 138 L121 88"/><path d="M134 141 L140 96"/><path d="M142 172 L162 148"/>
+      </g>
+      <ellipse class="f-piel" cx="118" cy="164" rx="29" ry="31" stroke="#c98aa8" stroke-width="1.5"/>
+    <ellipse fill="url(#sombra-mano)" cx="118" cy="164" rx="29" ry="31"/>
+    <!-- contacto con el vidrio: la parte de la palma que se aprieta, mas oscura -->
+    <ellipse class="contacto" fill="url(#sombra-contacto)" cx="120" cy="170" rx="20" ry="17"/>
+      <g class="s-piel">
+        <path stroke-width="12" d="M96 146 L84 112"/>
+        <path stroke-width="13" d="M108 140 L102 94"/>
+        <path stroke-width="13" d="M121 138 L121 88"/>
+        <path stroke-width="13" d="M134 141 L140 96"/>
+        <path stroke-width="14" d="M142 172 L162 148"/>
+      </g>
+      <!-- contacto con el vidrio en las yemas y donde nacen los dedos -->
+      <g>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="85.2" cy="115.4" rx="6.5" ry="6.5"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="93.8" cy="139.9" rx="7" ry="6"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="102.6" cy="98.6" rx="6.5" ry="6.5"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="106.9" cy="131.7" rx="7" ry="6"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="121" cy="93" rx="6.5" ry="6.5"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="121" cy="129" rx="7" ry="6"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="139.4" cy="100.5" rx="6.5" ry="6.5"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="135.1" cy="132.9" rx="7" ry="6"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="160" cy="150.4" rx="6.5" ry="6.5"/>
+        <ellipse class="contacto" fill="url(#sombra-contacto)" cx="145.6" cy="167.7" rx="7" ry="6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- escalada desde la muneca para que siga unida al brazo (v17: 10% mas grande que la v16) -->
+  <g transform="translate(35 0) translate(515 190) scale(1.045) translate(-515 -190)">
+    <g id="mano-der">
+      <!-- onda en el vidrio donde apoya la punta del indice al tocar -->
+      <circle class="onda s-acento" stroke-width="2" filter="url(#glow)" cx="494" cy="94" r="11"/>
+      <!-- senala con el indice; el resto de los dedos entrecerrados -->
+      <g class="s-piel-borde" stroke-width="16">
+        <path d="M544 146 L551.2 125.6"/><path d="M532 140 L535.6 112.4"/><path d="M519 138 L519 108"/><path d="M498 172 L483 154"/>
+      </g>
+        <g class="indice s-piel-borde" stroke-width="16"><path d="M506 141 L500 96"/></g>
+    <ellipse class="f-piel" cx="522" cy="164" rx="29" ry="31" stroke="#c98aa8" stroke-width="1.5"/>
+    <ellipse fill="url(#sombra-mano)" cx="522" cy="164" rx="29" ry="31"/>
+      <g class="s-piel">
+        <path stroke-width="12" d="M544 146 L551.2 125.6"/>
+        <path stroke-width="13" d="M532 140 L535.6 112.4"/>
+        <path stroke-width="13" d="M519 138 L519 108"/>
+        <path stroke-width="14" d="M498 172 L483 154"/>
+      </g>
+      <!-- solo el indice se mueve al tocar: el resto de la mano queda quieta -->
+      <g class="indice s-piel"><path stroke-width="13" d="M506 141 L500 96"/><circle class="yema" cx="500.5" cy="98" r="5" fill="#f472b6" stroke="none"/></g>
+      <g class="s-piel-borde" stroke-width="1.5">
+        <path d="M553 133.9 Q549.6 130 544.6 130.9"/>
+        <path d="M539.4 122.2 Q534.7 119.1 529.4 121"/>
+        <path d="M524 118 Q519 115.5 514 118"/>
+        <path d="M491.2 155.3 Q485.4 156.9 482.8 162.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

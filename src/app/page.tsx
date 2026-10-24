@@ -21,8 +21,8 @@ export default function Home() {
         <div className="sm:col-span-1 flex">
           <StatsCard className="flex-1" />
         </div>
-        <div className="sm:col-span-2">
-          <APILights />
+        <div className="sm:col-span-2 flex">
+          <APILights className="flex-1" />
         </div>
         <div className="sm:col-span-3">
           <FraseDelDia />

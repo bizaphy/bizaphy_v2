@@ -52,7 +52,7 @@ const statusLabel: Record<Status, string> = {
   down: "caída",
 };
 
-export default function APILights() {
+export default function APILights({ className = "" }: { className?: string }) {
   //la string corresponde a la API (open meteo, wikipedia, etc)
   const [statuses, setStatuses] = useState<Record<string, Status>>(
     Object.fromEntries(APIS.map((api) => [api.name, "loading"])),
@@ -89,7 +89,7 @@ export default function APILights() {
         : "/images/misc/mr-incredible-3.webp";
 
   return (
-    <div className="rounded-xl border border-zinc-700 bg-zinc-900 px-6 py-4 flex items-center gap-5">
+    <div className={`rounded-xl border border-zinc-700 bg-zinc-900 px-6 py-4 flex items-center gap-5 ${className}`}>
       <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full border border-zinc-600">
         <Image
           src={mood}

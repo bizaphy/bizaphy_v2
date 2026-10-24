@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="54 46 260 324" width="260" height="324" role="img" aria-label="Neonna con los brazos cruzados">
+  <!--
+    NEONNA — modelo base, brazos cruzados
+    Igual a neonna-base.svg, pero #brazo-izq y #brazo-der se reemplazan por #brazos-cruzados.
+    Para crear una variante: copia este archivo y cambia los colores del bloque PALETA
+    o reemplaza/oculta grupos por id:
+      #coleta  #pelo-atras  #piernas  #brazo-izq  #cuerpo  #brazo-der
+      #cuello  #cara  #boca  #ojo-izq  #ojo-der  #hud-grupo  #flequillo
+      #mechon  #auriculares  #orejas  #microfono
+  -->
+  <defs>
+    <linearGradient id="pelo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="pelo-1"/>
+      <stop offset="0.55" class="pelo-2"/>
+      <stop offset="1" class="pelo-3"/>
+    </linearGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="iris-1"/>
+      <stop offset="0.5" class="iris-2"/>
+      <stop offset="1" class="iris-3"/>
+    </linearGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="-400" y="-400" width="1200" height="1200">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* ===== PALETA: cada clase es un color. Para recolorear, cambia los hex aqui ===== */
+    .pelo-1 { stop-color: #1e0b36; }
+    .pelo-2 { stop-color: #4c1d95; }
+    .pelo-3 { stop-color: #d946ef; }
+    .iris-1 { stop-color: #4a044e; }
+    .iris-2 { stop-color: #c026d3; }
+    .iris-3 { stop-color: #f0abfc; }
+
+    .f-pelo { fill: url(#pelo); }
+    .f-piel { fill: #ffe4ef; }
+    .f-piel-sombra { fill: #f5c6dc; }
+    .f-rubor { fill: #f472b6; opacity: 0.4; }
+    .f-ropa { fill: #18181b; }
+    .f-ropa-2 { fill: #27272a; }
+    .f-interior { fill: #2e1065; }
+    .f-neon { fill: #d946ef; }
+    .f-acento { fill: #67e8f9; }
+    .f-linea { fill: #1e0b36; }
+    .f-blanco { fill: #fff; }
+    .f-iris { fill: url(#iris); }
+
+    .s-ropa { stroke: #18181b; fill: none; stroke-linecap: round; }
+    .s-neon { stroke: #d946ef; fill: none; stroke-linecap: round; }
+    .s-acento { stroke: #67e8f9; fill: none; stroke-linecap: round; }
+    .s-linea { stroke: #1e0b36; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .s-boca { stroke: #86198f; fill: none; stroke-linecap: round; }
+    .s-metal { stroke: #3f3f46; fill: none; stroke-linecap: round; }
+    .borde-neon { stroke: #d946ef; }
+    .borde-metal { stroke: #3f3f46; }
+    .s-brillo { stroke: #f0abfc; fill: none; stroke-linecap: round; opacity: 0.3; }
+
+    /* ===== ANIMACIONES IDLE ===== */
+    .bob { animation: bob 3s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+
+    #coleta { transform-origin: 136px 120px; animation: coleta 3s ease-in-out infinite; }
+    @keyframes coleta { 0%,100% { transform: rotate(3deg); } 50% { transform: rotate(-5deg); } }
+
+    .ojo { transform-box: fill-box; transform-origin: center; animation: parpadeo 4.2s infinite; }
+    @keyframes parpadeo { 0%,94%,100% { transform: scaleY(1); } 96% { transform: scaleY(0.08); } }
+
+    #hud { transform-box: fill-box; transform-origin: center; animation: girar 6s linear infinite; }
+    @keyframes girar { to { transform: rotate(360deg); } }
+
+    .led { animation: led 2s ease-in-out infinite; }
+    .led2 { animation: led 2s ease-in-out infinite; animation-delay: -1s; }
+    @keyframes led { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <g id="neonna" class="bob">
+    <g id="coleta">
+      <path class="f-pelo" d="M136 112 C84 122 70 200 84 268 C88 290 74 304 64 302 C98 304 116 254 114 212 C112 172 122 142 146 128 Z"/>
+      <path class="s-brillo" stroke-width="2" d="M112 150 C96 190 92 236 96 276"/>
+      <rect class="f-acento" filter="url(#glow)" x="128" y="112" width="14" height="10" rx="3" transform="rotate(-20 135 117)"/>
+    </g>
+
+    <path id="pelo-atras" class="f-pelo" d="M108 170 C100 90 160 62 200 62 C240 62 300 90 292 170 L296 250 Q280 262 262 250 L258 200 L142 200 L138 250 Q120 262 104 250 Z"/>
+
+    <g id="piernas">
+      <rect class="f-ropa-2" x="178" y="330" width="16" height="26"/>
+      <rect class="f-ropa-2" x="206" y="330" width="16" height="26"/>
+      <rect class="f-ropa" x="172" y="350" width="26" height="13" rx="5"/>
+      <rect class="f-ropa" x="202" y="350" width="26" height="13" rx="5"/>
+      <path class="s-neon" stroke-width="2" filter="url(#glow)" d="M174 362 L196 362 M204 362 L226 362"/>
+    </g>
+
+    <g id="cuerpo">
+      <path class="f-ropa" d="M158 252 Q200 242 242 252 L256 330 Q200 342 144 330 Z"/>
+      <path class="s-neon" stroke-width="2" filter="url(#glow)" d="M144 330 Q200 342 256 330"/>
+      <path class="f-interior" d="M186 262 L200 300 L214 262 Z"/>
+      <path class="s-neon" stroke-width="1.6" filter="url(#glow)" d="M200 300 L200 336"/>
+      <path class="f-ropa-2 borde-neon" stroke-width="1.5" stroke-linejoin="round" d="M170 248 L200 262 L230 248 L233 264 L200 280 L167 264 Z"/>
+      <circle class="f-neon led" filter="url(#glow)" cx="228" cy="296" r="2.5"/>
+    </g>
+
+    <g id="brazos-cruzados">
+      <!-- brazo izquierdo (queda debajo) -->
+      <path class="s-metal" stroke-width="20" d="M162 258 Q146 282 170 288 L232 285"/>
+      <path class="s-ropa" stroke-width="17" d="M162 258 Q146 282 170 288 L232 285"/>
+      <!-- brazo derecho (queda encima) -->
+      <path class="s-metal" stroke-width="20" d="M238 258 Q256 294 232 307 L172 309"/>
+      <path class="s-ropa" stroke-width="17" d="M238 258 Q256 294 232 307 L172 309"/>
+      <circle class="f-piel" cx="163" cy="309" r="7.5"/>
+      <path class="s-neon" stroke-width="2.5" filter="url(#glow)" d="M173 301 L173 317"/>
+      <!-- mano izquierda: se toma del brazo derecho -->
+      <circle class="f-piel" cx="240" cy="283" r="7.5"/>
+      <path class="s-neon" stroke-width="2.5" filter="url(#glow)" d="M230 277 L230 293"/>
+    </g>
+
+    <rect id="cuello" class="f-piel-sombra" x="190" y="238" width="20" height="14"/>
+
+    <g id="cara">
+      <path class="f-piel" d="M134 175 C134 230 170 246 200 248 C230 246 266 230 266 175 C266 140 134 140 134 175 Z"/>
+      <ellipse class="f-rubor" cx="158" cy="216" rx="11" ry="5"/>
+      <ellipse class="f-rubor" cx="242" cy="216" rx="11" ry="5"/>
+      <path id="boca" class="s-boca" stroke-width="2" d="M193 224 Q196.5 229 200 225 Q203.5 229 207 224"/>
+    </g>
+
+    <g id="ojo-izq" transform="translate(170 194)">
+      <g class="ojo">
+        <ellipse class="f-blanco" rx="15" ry="18"/>
+        <ellipse class="f-iris" cy="2" rx="12.5" ry="16"/>
+        <ellipse class="f-linea" cy="3" rx="5" ry="7.5"/>
+        <circle class="f-blanco" cx="-4" cy="-5" r="4.2"/>
+        <circle class="f-blanco" cx="5" cy="8" r="2" opacity="0.85"/>
+        <path class="s-linea" stroke-width="4" d="M-16 -2 Q-15 -20 0 -20 Q14 -20 16 -6 L21 -11"/>
+      </g>
+    </g>
+
+    <g id="ojo-der" transform="translate(230 194)">
+      <g class="ojo">
+        <ellipse class="f-blanco" rx="15" ry="18"/>
+        <ellipse class="f-iris" cy="2" rx="12.5" ry="16"/>
+        <ellipse class="f-linea" cy="3" rx="5" ry="7.5"/>
+        <circle class="f-acento" cy="3" r="2"/>
+        <circle class="f-blanco" cx="-4" cy="-5" r="4.2"/>
+        <circle class="f-blanco" cx="5" cy="8" r="2" opacity="0.85"/>
+        <path class="s-linea" stroke-width="4" d="M16 -2 Q15 -20 0 -20 Q-14 -20 -16 -6 L-21 -11"/>
+      </g>
+      <g id="hud-grupo" filter="url(#glow)" opacity="0.85">
+        <circle id="hud" class="s-acento" r="23" stroke-width="1.4" stroke-dasharray="10 5 2 5"/>
+        <path class="s-acento" stroke-width="1" d="M23 2 L40 2 L46 -6"/>
+      </g>
+    </g>
+
+    <g id="flequillo">
+      <path class="f-pelo" d="M112 175 C108 110 150 74 200 72 C252 72 294 110 288 178 L276 150 L268 172 L252 138 L240 165 L226 130 L212 160 L200 128 L186 162 L172 132 L160 166 L148 140 L134 172 L124 152 Z"/>
+      <path class="f-pelo" d="M122 160 Q112 210 128 254 Q138 228 138 196 Z"/>
+      <path class="f-pelo" d="M278 160 Q288 210 272 254 Q262 228 262 196 Z"/>
+      <path id="mechon" class="s-acento" stroke-width="2.5" filter="url(#glow)" d="M126 168 Q120 206 128 244"/>
+      <path class="s-brillo" stroke-width="4" d="M156 98 Q200 82 246 98"/>
+    </g>
+
+    <g id="auriculares">
+      <path class="s-ropa" stroke-width="9" d="M112 176 C108 96 292 96 288 176"/>
+      <path class="s-neon" stroke-width="1.3" opacity="0.8" filter="url(#glow)" d="M118 150 C122 108 278 108 282 150"/>
+      <g id="orejas" stroke-width="1.6" stroke-linejoin="round">
+        <path class="f-ropa borde-neon" d="M128 114 L132 56 L174 88 Z"/>
+        <path class="f-neon led" opacity="0.7" filter="url(#glow)" d="M137 100 L139 72 L160 89 Z"/>
+        <path class="f-ropa borde-neon" d="M272 114 L268 56 L226 88 Z"/>
+        <path class="f-neon led2" opacity="0.7" filter="url(#glow)" d="M263 100 L261 72 L240 89 Z"/>
+      </g>
+      <rect class="f-ropa borde-metal" stroke-width="1.5" x="96" y="160" width="26" height="46" rx="12"/>
+      <rect class="f-neon led" filter="url(#glow)" x="104" y="170" width="10" height="26" rx="5"/>
+      <rect class="f-ropa borde-metal" stroke-width="1.5" x="278" y="160" width="26" height="46" rx="12"/>
+      <rect class="f-neon led2" filter="url(#glow)" x="286" y="170" width="10" height="26" rx="5"/>
+    </g>
+
+    <g id="microfono">
+      <path class="s-metal" stroke-width="3" d="M108 204 Q118 236 162 230"/>
+      <circle class="f-acento led2" filter="url(#glow)" cx="165" cy="230" r="3.5"/>
+    </g>
+  </g>
+</svg>

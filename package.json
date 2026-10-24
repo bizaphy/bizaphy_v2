@@ -9,6 +9,7 @@
     "lint": "eslint",
     "screenshots": "tsx scripts/screenshots.ts",
     "screenshots:prod": "tsx scripts/screenshots.ts  https://bizaphy.dev",
+    "neonna:ascii": "tsx scripts/neonna-ascii.ts",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
@@ -38,6 +39,8 @@
     "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
+    "gifenc": "^1.0.3",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "tsx": "^4.23.13",
     "typescript": "^5"

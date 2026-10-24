@@ -10,11 +10,12 @@ export const CLAVE_TEMA = "tema";
 
 // El script del <head> (ver layout.tsx) aplica el tema guardado antes de
 // pintar; este componente solo lee y cambia el atributo de <html>.
-const leerTema = (): Tema =>
+export const leerTema = (): Tema =>
   document.documentElement.dataset.theme === "light" ? "light" : "dark";
 
 // Se re-renderiza cuando cambia data-theme, venga de donde venga.
-function suscribirse(avisar: () => void) {
+// Exportadas para que otros componentes sigan el tema (ver NeonnaHero).
+export function suscribirse(avisar: () => void) {
   const observador = new MutationObserver(avisar);
   observador.observe(document.documentElement, {
     attributes: true,
