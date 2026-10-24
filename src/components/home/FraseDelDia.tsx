@@ -57,9 +57,10 @@ export default function FraseDelDia() {
               unoptimized
             />
           </div>
-          {/* bocadillo estilo comic/manga (solo si sigue siendo el placeholder). Habla la imagen en primera persona. */}
+          {/* bocadillo estilo comic/manga (solo si sigue siendo el placeholder). Habla la imagen en primera persona.
+              Oculto hasta lg: en pantallas chicas no hay hover y, aunque invisible, ocupaba espacio y generaba scroll horizontal. */}
           {isPlaceholder && (
-            <div className="pointer-events-none absolute left-full top-1/2 z-10 ml-4 w-56 -translate-y-1/2 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+            <div className="pointer-events-none absolute left-full top-1/2 z-10 ml-4 hidden w-56 -translate-y-1/2 opacity-0 transition-opacity duration-200 group-hover:opacity-100 lg:block">
               <div className="relative rounded-3xl border-2 border-fuchsia-500 bg-black px-4 py-3 shadow-[0_0_15px_rgba(217,70,239,0.35)]">
                 <p className="text-center font-mono text-[11px] leading-snug text-fuchsia-200">
                   Solo soy un placeholder

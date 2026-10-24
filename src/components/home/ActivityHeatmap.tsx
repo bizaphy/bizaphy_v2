@@ -95,8 +95,10 @@ export default async function ActivityHeatmap() {
       : "",
   );
 
-  // En pantallas chicas solo caben las ultimas 26 semanas.
-  const ocultaEnMovil = (s: number) => (s < SEMANAS - 26 ? "hidden md:flex" : "flex");
+  // Cuantas semanas caben (cada una ocupa 16px): movil, las ultimas 16; desde
+  // sm, 26; desde lg, el año completo. Con mas, generaba scroll horizontal.
+  const ocultaEnMovil = (s: number) =>
+    s < SEMANAS - 26 ? "hidden lg:flex" : s < SEMANAS - 16 ? "hidden sm:flex" : "flex";
 
   return (
     <div className="flex flex-col gap-4 rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 px-6 py-4">
