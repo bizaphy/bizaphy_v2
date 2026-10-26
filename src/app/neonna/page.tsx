@@ -5,7 +5,7 @@ import NeonnaAsciiTexto from "@/components/neonna/NeonnaAsciiTexto";
 import Neonnameter from "@/components/home/Neonnameter";
 
 //Vitrina de todas las Neonna. Ruta escondida: no esta en la navbar, solo se
-//llega escribiendo /Neonna. Las rutas distinguen mayusculas: /neonna da 404
+//llega escribiendo /neonna (en minusculas: las rutas distinguen mayusculas)
 
 export const metadata: Metadata = {
   title: "Neonna",
@@ -38,6 +38,16 @@ const TELES = [
   { n: 17, src: "neonna-tele-manos.svg", titulo: "Tele · manos mas grandes", saltos: true, etiqueta: "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla" },
   { n: 18, src: "neonna-tele-sombra.svg", titulo: "Tele · con sombreado", saltos: true, etiqueta: "Neonna dentro de una tele, con los brazos abiertos y una mano dandole toques a la pantalla" },
   { n: 19, src: "neonna-tele-ladeada.svg", titulo: "Tele · cabeza ladeada", saltos: true, etiqueta: "Neonna dentro de una tele, con la cabeza ladeada y una mano dandole toques a la pantalla" },
+  //20: la v19 tal cual, con lentes de sol
+  { n: 20, src: "neonna-tele-lentes.svg", titulo: "Tele · cabeza ladeada · lentes de sol", saltos: true, etiqueta: "Neonna dentro de una tele, con lentes de sol, la cabeza ladeada y una mano dandole toques a la pantalla" },
+  //21: la v20 con luz gris que llega desde todos los lados, en ASCII: entra
+  //unas pocas letras desde los bordes y se apaga hacia el centro
+  { n: 21, src: "neonna-tele-lentes.svg", titulo: "Tele · lentes de sol · luz en los bordes", saltos: true, luz: 4, etiqueta: "Neonna dentro de una tele, con lentes de sol y luz gris que llega desde los bordes" },
+  //22: la v21 con la paleta mas blanca (PALETA_BRILLANTE): todo mas luminoso y
+  //los rosas casi blancos. El fondo sigue negro y los lentes conservan sus
+  //colores originales (mascara: el mismo SVG con solo los lentes). Boca en V
+  //invertida, como la v9
+  { n: 22, src: "neonna-tele-lentes-v.svg", titulo: "Tele · lentes de sol · paleta brillante", saltos: true, luz: 4, brillante: true, mascara: "neonna-tele-lentes-mascara.svg", etiqueta: "Neonna dentro de una tele, con lentes de sol, la boca en V invertida, luz gris en los bordes y colores mas claros" },
 ];
 
 const MODELOS = [
@@ -68,7 +78,7 @@ export default function NeonnaPage() {
       <header className="space-y-2">
         <h1 className="text-3xl font-bold">Neonna</h1>
         <p className="font-mono text-sm text-zinc-400">
-          <span className="text-fuchsia-500">~/Neonna</span> $ ls
+          <span className="text-fuchsia-500">~/neonna</span> $ ls
           <span className="cursor-consola text-violet-300">_</span>
         </p>
       </header>
@@ -83,6 +93,9 @@ export default function NeonnaPage() {
               saltos={t.saltos}
               claro={"claro" in t && t.claro}
               fondo={"fondo" in t ? t.fondo : undefined}
+              luz={"luz" in t ? t.luz : undefined}
+              brillante={"brillante" in t && t.brillante}
+              mascaraOriginal={"mascara" in t ? `/images/neonna/${t.mascara}` : undefined}
               etiqueta={t.etiqueta}
               className="w-full overflow-hidden rounded-xl"
             />

@@ -21,7 +21,7 @@ const TECHS: Tech[] = [
 
 //paleta expresada como niveles para dibujar barras estilo ecualizador
 const PALETTE: Swatch[] = [
-  { label: "zinc-950", value: "#09090b", claro: "#f7f7f9", level: 88 }, // fondo / hueso
+  { label: "zinc-950", value: "#09090b", claro: "#eeeef1", level: 88 }, // fondo / hueso
   { label: "fuchsia-500", value: "#d946ef", claro: "#d27fc0", level: 92 }, // fucsia pastel
   { label: "fuchsia-400", value: "#e879f9", claro: "#f3cdea", level: 78 }, // rosa empolvado
   { label: "violet-300", value: "#c4b5fd", claro: "#a394cf", level: 65 }, // lavanda
@@ -181,7 +181,7 @@ export default function AboutThisPage() {
               {[-30, 30].map((deg) => (
                 <span
                   key={deg}
-                  className="absolute top-1/2 left-1/2 h-full w-0.5 -translate-x-1/2 -translate-y-1/2"
+                  className="absolute top-1/2 left-1/2 h-full w-0.5"
                   style={{
                     transform: `translate(-50%,-50%) rotate(${deg}deg)`,
                   }}

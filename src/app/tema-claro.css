@@ -10,7 +10,7 @@
    profundos y los fondos a tonos casi blancos. */
 
 :root[data-theme="light"] {
-  --background: #f7f7f9; /* hueso / zinc ultra claro: nunca blanco puro */
+  --background: #eeeef1; /* hueso / zinc ultra claro: nunca blanco puro */
   --foreground: #18181b; /* carbon */
   color-scheme: light;
 
@@ -29,7 +29,7 @@
   --color-zinc-700: #d6d6de; /* bordes */
   --color-zinc-800: #e7e7ed; /* bordes suaves, botones */
   --color-zinc-900: #ffffff; /* tarjetas */
-  --color-zinc-950: #f7f7f9; /* fondo e inputs */
+  --color-zinc-950: #eeeef1; /* fondo e inputs */
 
   /* fucsia neon -> fucsia pastel luminoso / rosa empolvado */
   --color-fuchsia-50: #5e1f55;

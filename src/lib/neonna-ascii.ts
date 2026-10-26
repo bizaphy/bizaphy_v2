@@ -32,7 +32,39 @@ export const PALETA = [
   "#67e8f9",
   //b: blanco del glitch
   "#ffffff",
+  //c-d: gris de la luz que llega desde los bordes (opcion luz), tenue y fuerte
+  "#52525b",
+  "#a1a1aa",
 ];
+
+//version brillante (v22): cada color a mitad de camino entre PALETA y su tono
+//claro, como si todo tuviera un poco mas de luz. Mismos indices que PALETA
+export const PALETA_BRILLANTE = [
+  //0-9: violeta claro -> rosa palido -> casi blanco
+  "#5c36ae",
+  "#7a54c8",
+  "#9652d2",
+  "#af66c6",
+  "#c964d6",
+  "#da7be8",
+  "#e991f7",
+  "#f1b0fc",
+  "#f6d0fe",
+  "#fefaff",
+  //a: cian, un poco mas claro
+  "#86eefa",
+  //b: blanco del glitch
+  "#ffffff",
+  //c-d: gris de la luz de los bordes, igual que en PALETA
+  "#52525b",
+  "#a1a1aa",
+  //e-n: la rampa 0-9 de PALETA sin aclarar, para lo que conserva su color
+  //original (opcion original de pixelesAAscii: los lentes)
+  ...PALETA.slice(0, 10),
+];
+
+//indice de color de lo que conserva su color original: el 0-9 pasa a e-n
+const ORIGINAL = 14;
 
 //para fondo claro (opcion claro): tinta oscura. Mismos indices que PALETA
 export const PALETA_CLARA = [
@@ -51,6 +83,9 @@ export const PALETA_CLARA = [
   "#0891b2",
   //b: glitch en tinta oscura en vez de blanco
   "#18181b",
+  //c-d: gris de la luz de los bordes
+  "#a1a1aa",
+  "#71717a",
 ];
 
 //de menos a mas "tinta", como el gif: puntos en lo oscuro, letras densas en lo claro
@@ -160,54 +195,49 @@ function glitch(chars: string[], colores: string[], f: number, cols: number, row
   }
 }
 
-//bordes: con que fuerza de cambio de brillo (Sobel, 0 a ~4) una celda pasa a
-//ser contorno
-const UMBRAL_BORDE = 1.1;
-//color de los contornos: violeta oscuro, se lee como linea sobre la piel clara
-const COLOR_BORDE = "3";
-
-//trazo segun la direccion del borde. El gradiente apunta hacia lo claro y el
-//borde corre perpendicular a el
-function trazo(gx: number, gy: number) {
-  const ang = Math.abs(Math.atan2(gy, gx)) * (180 / Math.PI);
-  //gradiente casi horizontal: el borde es vertical
-  if (ang < 22.5 || ang > 157.5) return "|";
-  //gradiente casi vertical: el borde es horizontal
-  if (ang > 67.5 && ang < 112.5) return "-";
-  return gx * gy > 0 ? "/" : "\\";
-}
-
 //px: RGBA de cols x rows (lo que devuelve getImageData o sharp().raw())
-//bordes: dibuja contornos (| - / \) donde el brillo cambia fuerte, como el
-//delineado del gif. Ayuda a leer los rasgos cuando la cara ocupa mucho
 //saltos: la imagen entera salta de lado a lado con glitch (ver SALTOS)
 //claro: para fondo claro. Lo transparente queda vacio (se ve el fondo de la
 //pagina) y la densidad se invierte, como tinta en papel: lo oscuro lleva
 //letras densas y lo claro letras sueltas. Se dibuja con PALETA_CLARA
+//luz: intensidad (0 a 1) de cada celda de la luz gris que llega desde los
+//bordes. Se dibuja solo en lo transparente (detras de Neonna) y no salta con
+//ella: la luz es de la pantalla. Necesita que lo de afuera sea transparente
+//original: celdas (1) que conservan la paleta original aunque se dibuje con
+//PALETA_BRILLANTE (los lentes en la v22). Usan los indices e-n
 export function pixelesAAscii(
   px: ArrayLike<number>,
   frame: number,
   cols = COLS,
   rows = ROWS,
   {
-    bordes = false,
     saltos = false,
     claro = false,
-  }: { bordes?: boolean; saltos?: boolean; claro?: boolean } = {},
+    luz,
+    original,
+  }: {
+    saltos?: boolean;
+    claro?: boolean;
+    luz?: ArrayLike<number>;
+    original?: ArrayLike<number>;
+  } = {},
 ): FotogramaAscii {
   const f = ((frame % CICLO) + CICLO) % CICLO;
   const chars: string[] = [];
   const colores: string[] = [];
+  //con luz: que celdas son fondo (transparentes), para no pintar luz encima de Neonna
+  const fondo: boolean[] = [];
+  if (luz) {
+    for (let n = 0; n < cols * rows; n++) fondo.push(px[n * 4 + 3] < 128);
+  }
 
-  //brillo de cada celda (0 a 1), aparte: los bordes miran a los vecinos
+  //brillo de cada celda (0 a 1)
   const L = new Float32Array(cols * rows);
   for (let n = 0; n < cols * rows; n++) {
     //lo transparente cuenta como negro
     const a = px[n * 4 + 3] / 255;
     L[n] = ((0.299 * px[n * 4] + 0.587 * px[n * 4 + 1] + 0.114 * px[n * 4 + 2]) * a) / 255;
   }
-  const l = (x: number, y: number) =>
-    L[Math.min(rows - 1, Math.max(0, y)) * cols + Math.min(cols - 1, Math.max(0, x))];
 
   for (let y = 0; y < rows; y++) {
     for (let x = 0; x < cols; x++) {
@@ -230,21 +260,6 @@ export function pixelesAAscii(
         continue;
       }
 
-      if (bordes) {
-        //Sobel 3x3
-        const gx =
-          l(x + 1, y - 1) + 2 * l(x + 1, y) + l(x + 1, y + 1) -
-          (l(x - 1, y - 1) + 2 * l(x - 1, y) + l(x - 1, y + 1));
-        const gy =
-          l(x - 1, y + 1) + 2 * l(x, y + 1) + l(x + 1, y + 1) -
-          (l(x - 1, y - 1) + 2 * l(x, y - 1) + l(x + 1, y - 1));
-        if (Math.hypot(gx, gy) > UMBRAL_BORDE) {
-          chars.push(trazo(gx, gy));
-          colores.push(COLOR_BORDE);
-          continue;
-        }
-      }
-
       const nivel = Math.min(
         NIVELES.length - 1,
         Math.floor(((lum - UMBRAL) / (256 - UMBRAL)) * NIVELES.length),
@@ -256,7 +271,10 @@ export function pixelesAAscii(
       chars.push(set[(cambia ? hash(x, y, f + 99) : hash(x, y, 0)) % set.length]);
 
       const cian = g > 140 && b > 140 && r < 0.75 * g;
-      colores.push(cian ? "a" : String(Math.min(9, Math.floor(Math.pow(base, GAMMA_COLOR) * 10))));
+      const tono = Math.min(9, Math.floor(Math.pow(base, GAMMA_COLOR) * 10));
+      colores.push(
+        cian ? "a" : original?.[y * cols + x] ? (ORIGINAL + tono).toString(36) : String(tono),
+      );
     }
   }
 
@@ -266,10 +284,29 @@ export function pixelesAAscii(
       for (let y = 0; y < rows; y++) {
         const fila = chars.slice(y * cols, (y + 1) * cols);
         const filaColor = colores.slice(y * cols, (y + 1) * cols);
+        //lo que es fondo salta junto con el dibujo
+        const filaFondo = fondo.slice(y * cols, (y + 1) * cols);
         for (let x = 0; x < cols; x++) {
           chars[y * cols + x] = fila[x - corrimiento] ?? " ";
           colores[y * cols + x] = filaColor[x - corrimiento] ?? "0";
+          if (luz) fondo[y * cols + x] = filaFondo[x - corrimiento] ?? true;
         }
+      }
+    }
+  }
+
+  //luz de los bordes: letras sueltas (los 3 primeros niveles) en gris, despues
+  //del salto (la luz queda quieta) y antes del glitch (el glitch tambien la corre)
+  if (luz) {
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
+        const n = y * cols + x;
+        const v = luz[n];
+        if (!fondo[n] || v < 0.08) continue;
+        const set = NIVELES[Math.min(2, Math.floor(v * 3))];
+        const cambia = hash(x, y, f + 1) % 100 < 6;
+        chars[n] = set[(cambia ? hash(x, y, f + 99) : hash(x, y, 0)) % set.length];
+        colores[n] = v > 0.6 ? "d" : "c";
       }
     }
   }
@@ -283,8 +320,10 @@ export function pixelesAAscii(
   if (fuerza) {
     const realce = fuerza + 1;
     for (let i = 0; i < colores.length; i++) {
-      const n = colores[i].charCodeAt(0) - 48;
-      if (n >= 0 && n <= 9) colores[i] = String(Math.min(9, n + realce));
+      const n = parseInt(colores[i], 36);
+      if (n <= 9) colores[i] = String(Math.min(9, n + realce));
+      //lo de color original sube dentro de su propia rampa (e-n)
+      else if (n >= ORIGINAL) colores[i] = Math.min(ORIGINAL + 9, n + realce).toString(36);
     }
   }
   return { c: chars.join(""), k: colores.join("") };

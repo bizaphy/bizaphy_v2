@@ -6,15 +6,13 @@ import SystemPanel from "@/components/home/SystemPanel";
 import FraseDelDia from "@/components/home/FraseDelDia";
 import Hero from "@/components/home/Hero";
 import AboutThisPage from "@/components/home/AboutThisPage";
-import TextScramble from "@/components/effects/TextScramble";
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 flex flex-col gap-8">
-      <h1 className="text-3xl font-bold text-center">
-        <TextScramble text="/" className="text-fuchsia-500" />
-        <TextScramble text="bizaphy" />
-      </h1>
+      {/* sin titulo visible: el Hero abre la pagina. El h1 queda para lectores
+          de pantalla y buscadores */}
+      <h1 className="sr-only">bizaphy</h1>
       <Hero />
       <div aria-hidden className="h-6" />
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
