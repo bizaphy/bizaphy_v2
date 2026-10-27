@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-label="Neonna dentro de una tele, con una mano apoyada bien abajo y la otra dandole toques a la pantalla">
   <!--
     NEONNA — pose "tele" v19: la v18 con la cabeza mas ladeada (gesto tierno).
-    El pelo de atras se ladea junto con la cabeza.
+    El pelo de atras se ladea junto con la cabeza. Sombra pequena en la nariz.
     v18: la v17 con sombreado sutil en cara y manos
     (sombra del flequillo, bordes de la cara, palmas y el contacto de la
     palma que se apoya en el vidrio)
@@ -38,6 +38,11 @@
     <radialGradient id="sombra-cara" cx="0.5" cy="0.45" r="0.6">
       <stop offset="0.6" stop-color="#d99bbf" stop-opacity="0"/>
       <stop offset="1" stop-color="#d99bbf" stop-opacity="0.45"/>
+    </radialGradient>
+    <!-- nariz: sombra chiquita que se funde hacia afuera -->
+    <radialGradient id="sombra-nariz">
+      <stop offset="0" stop-color="#d99bbf" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#d99bbf" stop-opacity="0"/>
     </radialGradient>
     <!-- palmas: luz arriba a la izquierda, sombra hacia el borde de abajo -->
     <radialGradient id="sombra-mano" cx="0.4" cy="0.35" r="0.75">
@@ -189,6 +194,9 @@
       <path clip-path="url(#cara-recorte)" fill="#e2a9c8" opacity="0.5" transform="translate(0 8)" d="M210 160 C204 70 260 30 320 30 C380 30 436 70 430 160 L418 128 L408 154 L390 112 L376 146 L358 104 L342 142 L320 100 L300 142 L284 104 L266 146 L252 112 L234 154 L222 128 Z"/>
       <ellipse class="f-rubor" cx="262" cy="220" rx="16" ry="6"/>
       <ellipse class="f-rubor" cx="378" cy="220" rx="16" ry="6"/>
+      <!-- sombra de la nariz: apenas a la derecha del centro, porque la luz
+           llega desde arriba a la izquierda (como en las palmas) -->
+      <ellipse fill="url(#sombra-nariz)" cx="321" cy="216" rx="6" ry="4"/>
       <!-- boca entreabierta: curiosa, mirando hacia afuera -->
       <ellipse id="boca" class="f-boca" cx="320" cy="238" rx="6" ry="4.5"/>
     </g>

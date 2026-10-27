@@ -54,6 +54,18 @@
           "lectura": "こどもがひるねをしているあいだに、かいものにいった。",
           "es": "Fui de compras mientras el niño dormía la siesta.",
           "resaltado": "間に"
+        },
+        {
+          "ja": "待っている間に携帯でゲームをした。",
+          "lectura": "まっているあいだにけいたいでゲームをした。",
+          "es": "Mientras esperaba, jugué un juego en el móvil.",
+          "resaltado": "間に"
+        },
+        {
+          "ja": "週末の間にたくさん漢字を習いました。",
+          "lectura": "しゅうまつのあいだにたくさんかんじをならいました。",
+          "es": "Durante el fin de semana aprendí muchos kanjis.",
+          "resaltado": "の間に"
         }
       ],
       "conexion": ["V (forma diccionario / ている) + 間に", "N + の + 間に"]
@@ -201,6 +213,18 @@
           "ja": "この店は若い人ばかりですね。",
           "lectura": "このみせはわかいひとばかりですね。",
           "es": "En esta tienda solo hay gente joven, ¿no?",
+          "resaltado": "ばかり"
+        },
+        {
+          "ja": "私はゲームばかりしている。",
+          "lectura": "わたしはゲームばかりしている。",
+          "es": "No hago más que jugar videojuegos.",
+          "resaltado": "ばかり"
+        },
+        {
+          "ja": "彼はお金のことばかり考えている。",
+          "lectura": "かれはおかねのことばかりかんがえている。",
+          "es": "Él solo piensa en dinero.",
           "resaltado": "ばかり"
         }
       ],
@@ -1016,6 +1040,18 @@
           "lectura": "ちちはときどきりょうりをすることがあります。",
           "es": "Mi papá a veces cocina.",
           "resaltado": null
+        },
+        {
+          "ja": "時々仕事をやめたいと思うことがある。",
+          "lectura": "ときどきしごとをやめたいとおもうことがある。",
+          "es": "De vez en cuando se me ocurre que quiero renunciar al trabajo.",
+          "resaltado": "ことがある"
+        },
+        {
+          "ja": "時々日本語を勉強することがあります。",
+          "lectura": "ときどきにほんごをべんきょうすることがあります。",
+          "es": "A veces estudio japonés.",
+          "resaltado": "ことがあります"
         }
       ],
       "conexion": [
@@ -1106,6 +1142,18 @@
           "lectura": "こんばんはそとでたべることにしよう。",
           "es": "Esta noche comamos afuera.",
           "resaltado": null
+        },
+        {
+          "ja": "ゲームを作ることにした。",
+          "lectura": "ゲームをつくることにした。",
+          "es": "Decidí hacer un videojuego.",
+          "resaltado": "ことにし"
+        },
+        {
+          "ja": "日本に引っ越しすることにしました。",
+          "lectura": "にほんにひっこしすることにしました。",
+          "es": "Decidí mudarme a Japón.",
+          "resaltado": "ことにし"
         }
       ],
       "conexion": [
@@ -1480,6 +1528,18 @@
           "lectura": "よる、なかなかねむれません。",
           "es": "En la noche me cuesta mucho dormirme.",
           "resaltado": "なかなか"
+        },
+        {
+          "ja": "このビデオはなかなか終わらない。",
+          "lectura": "このビデオはなかなかおわらない。",
+          "es": "Este video cuesta que termine / parece no terminar nunca.",
+          "resaltado": "なかなか"
+        },
+        {
+          "ja": "私の日本語はなかなか上達しない。",
+          "lectura": "わたしのにほんごはなかなかじょうたつしない。",
+          "es": "Mi japonés no avanza fácilmente / cuesta que mejore.",
+          "resaltado": "なかなか"
         }
       ],
       "conexion": ["なかなか + V (negativo / potencial negativo)"]
@@ -1818,6 +1878,18 @@
           "ja": "家を買うのにお金がたくさん必要だ。",
           "lectura": "いえをかうのにおかねがたくさんひつようだ。",
           "es": "Para comprar una casa se necesita mucho dinero.",
+          "resaltado": "のに"
+        },
+        {
+          "ja": "始めるのに遅すぎることはない。",
+          "lectura": "はじめるのにおそすぎることはない。",
+          "es": "Nunca es demasiado tarde para empezar.",
+          "resaltado": "のに"
+        },
+        {
+          "ja": "家に帰るのに3時間かかりました。",
+          "lectura": "いえにかえるのにさんじかんかかりました。",
+          "es": "Me tomó 3 horas regresar a casa.",
           "resaltado": "のに"
         }
       ],
@@ -2335,6 +2407,18 @@
           "lectura": "あのレストランはとてもたかいそうです。",
           "es": "He oído que ese restaurante es muy caro.",
           "resaltado": null
+        },
+        {
+          "ja": "彼女はケーキを作るそうだ。",
+          "lectura": "かのじょはケーキをつくるそうだ。",
+          "es": "Escuché que ella va a hacer un pastel.",
+          "resaltado": "そうだ"
+        },
+        {
+          "ja": "彼女はまだ独身だそうだ。",
+          "lectura": "かのじょはまだどくしんだそうだ。",
+          "es": "Dicen que ella todavía está soltera.",
+          "resaltado": "だそうだ"
         }
       ],
       "conexion": ["V / いA (forma simple) + そうだ", "N / なA + だそうだ"]
@@ -3178,6 +3262,18 @@
           "ja": "明日は休みだという話を聞いた。",
           "lectura": "あしたはやすみだというはなしをきいた。",
           "es": "Escuché que mañana no hay clases.",
+          "resaltado": "という"
+        },
+        {
+          "ja": "「ポッチ」という犬。",
+          "lectura": "「ポッチ」といういぬ。",
+          "es": "Un perro llamado 'Pocchi'.",
+          "resaltado": "という"
+        },
+        {
+          "ja": "明日という日もある。",
+          "lectura": "あしたというひもある。",
+          "es": "Existe un día llamado 'mañana' / Mañana será otro día.",
           "resaltado": "という"
         }
       ],

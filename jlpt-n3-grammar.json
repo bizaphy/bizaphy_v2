@@ -1,0 +1,1618 @@
+[
+  {
+    "id": 1,
+    "structure": "について",
+    "romaji": "ni tsuite",
+    "explanation": "Acerca de / Sobre (indica el tema o asunto sobre el cual se habla, piensa o investiga).",
+    "examples": [
+      {
+        "japanese": "この問題についてどう思いますか。",
+        "spanish": "¿Qué piensas sobre este problema?"
+      },
+      {
+        "japanese": "私は未来について決して心配しない。",
+        "spanish": "Nunca me preocupo por el futuro."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "structure": "ながらも",
+    "romaji": "nagara mo",
+    "explanation": "A pesar de que... / Aún siendo... (expresa una concesión o contraste entre dos características).",
+    "examples": [
+      {
+        "japanese": "狭いながらもこのマンションは大好きだ。",
+        "spanish": "A pesar de ser pequeño, me encanta este apartamento."
+      },
+      {
+        "japanese": "彼の言葉は厳しいながらも温かい。",
+        "spanish": "Sus palabras son estrictas, pero aun así son cálidas."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "structure": "向け",
+    "romaji": "muke",
+    "explanation": "Dirigido a / Pensado para (indica el público o destinatario al que se orienta un objeto o servicio).",
+    "examples": [
+      {
+        "japanese": "このアパートは部屋が多くてファミリー向けだ。",
+        "spanish": "Este apartamento tiene muchas habitaciones y está destinado a familias."
+      },
+      {
+        "japanese": "最近は男性向けの料理教室が人気だ。",
+        "spanish": "Últimamente las clases de cocina dirigidas a hombres son populares."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "structure": "代わりに",
+    "romaji": "kawari ni",
+    "explanation": "En lugar de / A cambio de.",
+    "examples": [
+      {
+        "japanese": "今朝はコーヒーの代わりにお茶を飲んだ。",
+        "spanish": "Esta mañana tomé té en lugar de café."
+      },
+      {
+        "japanese": "今日は仕事へ車で行く代わりに自転車で行った。",
+        "spanish": "Hoy fui al trabajo en bicicleta en lugar de ir en coche."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "structure": "と同時に",
+    "romaji": "to douji ni",
+    "explanation": "Al mismo tiempo que / Simultáneamente.",
+    "examples": [
+      {
+        "japanese": "お風呂に入ると同時に私の電話が鳴りました。",
+        "spanish": "Justo al mismo tiempo que entré al baño, sonó mi teléfono."
+      },
+      {
+        "japanese": "彼は英語の先生をしていると同時に音楽も書いている。",
+        "spanish": "Al mismo tiempo que trabaja como profesor de inglés, compone música."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "structure": "わけではない",
+    "romaji": "wake de wa nai",
+    "explanation": "No es que... / No necesariamente significa que... (matiza una suposición absoluta).",
+    "examples": [
+      {
+        "japanese": "京都はそんなに遠いわけじゃないんです。",
+        "spanish": "No es que Kioto esté tan lejos."
+      },
+      {
+        "japanese": "お金をたくさん持てば幸せになるわけではない。",
+        "spanish": "Tener mucho dinero no necesariamente significa que serás feliz."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "structure": "ようとしない",
+    "romaji": "you to shinai",
+    "explanation": "No intentar... / No mostrar intención ni esfuerzo por hacer algo.",
+    "examples": [
+      {
+        "japanese": "彼は早く寝ようとしない。",
+        "spanish": "Él no intenta irse a dormir temprano."
+      },
+      {
+        "japanese": "彼は自分のことは何も言おうとしない。",
+        "spanish": "Él no intenta contar nada sobre sí mismo."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "structure": "と言っても",
+    "romaji": "to itte mo",
+    "explanation": "Aunque se diga que... / Aun diciendo que... (aclara o limita una afirmación previa).",
+    "examples": [
+      {
+        "japanese": "今週は忙しいと言っても先週ほどじゃない。",
+        "spanish": "Aunque diga que estoy ocupado esta semana, no es tanto como la semana pasada."
+      },
+      {
+        "japanese": "私は料理ができると言っても彼ぐらいです。",
+        "spanish": "Aunque digo que sé cocinar, es solo cosas básicas/a su nivel."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "structure": "ことにする",
+    "romaji": "koto ni suru",
+    "explanation": "Decidir hacer algo (tomar una decisión personal consciente).",
+    "examples": [
+      {
+        "japanese": "ゲームを作ることにした。",
+        "spanish": "Decidí hacer un videojuego."
+      },
+      {
+        "japanese": "日本に引っ越しすることにしました。",
+        "spanish": "Decidí mudarme a Japón."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "structure": "かえって",
+    "romaji": "kaette",
+    "explanation": "Al contrario / Por el contrario (un resultado opuesto a lo esperado o deseado).",
+    "examples": [
+      {
+        "japanese": "それはかえって言わずにおく方が良い。",
+        "spanish": "Al contrario, es mejor no decirlo."
+      },
+      {
+        "japanese": "タクシーに乗ったら電車よりかえって時間がかかった。",
+        "spanish": "Tomar un taxi tomó más tiempo al contrario de ir en tren."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "structure": "というより",
+    "romaji": "to iu yori",
+    "explanation": "Más bien... / Más que [A], es [B].",
+    "examples": [
+      {
+        "japanese": "彼女はかっこいいというより可愛い。",
+        "spanish": "Más que genial, ella es linda."
+      },
+      {
+        "japanese": "私の仕事は仕事というより趣味に近い。",
+        "spanish": "Mi trabajo es más bien cercano a un pasatiempo que a un trabajo."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "structure": "たものだ",
+    "romaji": "ta mono da",
+    "explanation": "Solía... (expresa recuerdos o nostalgia de hábitos pasados).",
+    "examples": [
+      {
+        "japanese": "子どもの頃はよく川で遊んだものだ。",
+        "spanish": "Cuando era niño, solía jugar a menudo en el río."
+      },
+      {
+        "japanese": "日本へ留学したとき寿司をよく食べたものだ。",
+        "spanish": "Cuando estudié en Japón, solía comer mucho sushi."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "structure": "はもちろん",
+    "romaji": "wa mochiron",
+    "explanation": "Por supuesto que... y además... / No solo... sino también...",
+    "examples": [
+      {
+        "japanese": "彼女は勉強はもちろん料理もよくできる。",
+        "spanish": "Ella no solo estudia bien, sino que por supuesto también cocina muy bien."
+      },
+      {
+        "japanese": "チョコレートケーキはもちろんイチゴのケーキも好きです。",
+        "spanish": "Por supuesto me gusta el pastel de chocolate, pero también el de fresa."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "structure": "ついでに",
+    "romaji": "tsuide ni",
+    "explanation": "Aprovechando que... / De paso... (hacer una acción secundaria aprovechando una principal).",
+    "examples": [
+      {
+        "japanese": "買い物のついでに本屋に寄りました。",
+        "spanish": "Aprovechando que fui de compras, pasé por la librería."
+      },
+      {
+        "japanese": "仕事へ行くついでに駅まで送ってあげるよ。",
+        "spanish": "De paso que voy al trabajo, te llevo a la estación."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "structure": "によって / による",
+    "romaji": "ni yotte / ni yoru",
+    "explanation": "Dependiendo de / Según / Por medio de.",
+    "examples": [
+      {
+        "japanese": "それは場合による。",
+        "spanish": "Eso depende de la situación."
+      },
+      {
+        "japanese": "人によって考え方が違う。",
+        "spanish": "La forma de pensar varía según la persona."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "structure": "切る",
+    "romaji": "kiru",
+    "explanation": "Hacer algo por completo / hasta el final / agotar totalmente (sufijo verbal).",
+    "examples": [
+      {
+        "japanese": "どうしてそう言い切れるのですか。",
+        "spanish": "¿Cómo puedes afirmarlo tan rotundamente?"
+      },
+      {
+        "japanese": "お小遣いを使い切ってしまった。",
+        "spanish": "Gasté todo mi dinero de bolsillo por completo."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "structure": "切れない",
+    "romaji": "kirenai",
+    "explanation": "No poder terminar de... / Ser incapaz de agotar algo por ser demasiado.",
+    "examples": [
+      {
+        "japanese": "このお酒が強すぎて飲みきれなかった。",
+        "spanish": "Este alcohol era demasiado fuerte y no pude terminármelo."
+      },
+      {
+        "japanese": "一杯注文しないで、2人で食べきれないから。",
+        "spanish": "No pidas tanto, entre los dos no nos lo vamos a poder terminar."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "structure": "ないことはない",
+    "romaji": "nai koto wa nai",
+    "explanation": "No es imposible que... / No es que no pueda...",
+    "examples": [
+      {
+        "japanese": "走れば間に合わないことはないよ。",
+        "spanish": "Si corres, no es imposible llegar a tiempo."
+      },
+      {
+        "japanese": "車を運転できないことはないんですが、ほとんどしません。",
+        "spanish": "No es que no sepa conducir, pero casi no lo hago."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "structure": "ばよかった",
+    "romaji": "ba yokatta",
+    "explanation": "Debería haber... / Ojalá hubiera... (arrepentimiento por algo no hecho).",
+    "examples": [
+      {
+        "japanese": "もっと勉強すればよかった。",
+        "spanish": "Debería haber estudiado más."
+      },
+      {
+        "japanese": "そうすればよかった。",
+        "spanish": "Debería haber hecho eso."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "structure": "ような気がする",
+    "romaji": "you na ki ga suru",
+    "explanation": "Tengo la sensación de que... / Siento que...",
+    "examples": [
+      {
+        "japanese": "その答えはイエスのような気がした。",
+        "spanish": "Sentí que la respuesta era un sí."
+      },
+      {
+        "japanese": "日本語は勉強すればするほど難しくなるような気がする。",
+        "spanish": "Siento que cuanto más estudio japonés, más difícil se vuelve."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "structure": "いくら〜でも",
+    "romaji": "ikura ~ demo",
+    "explanation": "Por más que... / No importa cuánto...",
+    "examples": [
+      {
+        "japanese": "お金はいくらあっても困りません。",
+        "spanish": "No importa cuánto dinero tengas, nunca es un problema."
+      },
+      {
+        "japanese": "これはいかに安くても買いたくない。",
+        "spanish": "Por más barato que sea esto, no quiero comprarlo."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "structure": "というのは",
+    "romaji": "to iu no wa",
+    "explanation": "Significa... / Se refiere a... (define o aclara un término).",
+    "examples": [
+      {
+        "japanese": "「ハロー」というのは「こんにちは」という意味だ。",
+        "spanish": "'Hello' significa 'Konnichiwa'."
+      },
+      {
+        "japanese": "「デジカメ」というのはデジタルカメラを短くした言い方です。",
+        "spanish": "'Dejikame' es una forma abreviada de decir cámara digital."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "structure": "によると / によれば",
+    "romaji": "ni yoru to / ni yoreba",
+    "explanation": "Según... / De acuerdo con... (indica la fuente de información).",
+    "examples": [
+      {
+        "japanese": "天気予報によると今日は晴れです。",
+        "spanish": "Según el pronóstico del tiempo, hoy estará despejado."
+      },
+      {
+        "japanese": "先生の話によると今年のテストはそんなに難しくないらしい。",
+        "spanish": "Según el profesor, parece que el examen de este año no es tan difícil."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "structure": "ほど",
+    "romaji": "hodo",
+    "explanation": "Cuanto más... más... / Hasta el punto de...",
+    "examples": [
+      {
+        "japanese": "死ぬほどお腹が空いている。",
+        "spanish": "Tengo tanto hambre que me muero."
+      },
+      {
+        "japanese": "駅に近いほど家賃が高い。",
+        "spanish": "Cuanto más cerca de la estación, más caro es el alquiler."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "structure": "まさか",
+    "romaji": "masaka",
+    "explanation": "¡De ninguna manera! / ¡No puede ser que...! (incredulidad).",
+    "examples": [
+      {
+        "japanese": "僕はいまさかそんなことはできないよ。",
+        "spanish": "De ninguna manera puedo hacer algo así."
+      },
+      {
+        "japanese": "まさか鍵をなくしたのではないでしょうね。",
+        "spanish": "¡No me digas que perdiste la llave!"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "structure": "一方",
+    "romaji": "ippou / ippou de",
+    "explanation": "Por un lado... por otro lado... / Sigue en aumento/tendencia sin parar.",
+    "examples": [
+      {
+        "japanese": "日本に来る外国人の数は増える一方だ。",
+        "spanish": "El número de extranjeros que vienen a Japón no hace más que aumentar."
+      },
+      {
+        "japanese": "甘いものが好きな人がいる一方で嫌いな人もいる。",
+        "spanish": "Por un lado hay gente a la que le gustan los dulces, mientras que por otro hay a quienes les desagradan."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "structure": "もしかしたら",
+    "romaji": "moshikashitara",
+    "explanation": "Quizás / Tal vez / A lo mejor.",
+    "examples": [
+      {
+        "japanese": "もしかしたら明日行けないかもしれない。",
+        "spanish": "Tal vez no pueda ir mañana."
+      },
+      {
+        "japanese": "もしかしたら彼は会社をやめたかもしれない。",
+        "spanish": "A lo mejor renunció a la empresa."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "structure": "ばかり",
+    "romaji": "bakari",
+    "explanation": "Solo / Sin parar de hacer nada más que...",
+    "examples": [
+      {
+        "japanese": "私はゲームばかりしている。",
+        "spanish": "No hago más que jugar videojuegos."
+      },
+      {
+        "japanese": "彼はお金のことばかり考えている。",
+        "spanish": "Él solo piensa en dinero."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "structure": "再び",
+    "romaji": "futatabi",
+    "explanation": "Nuevamente / Otra vez.",
+    "examples": [
+      {
+        "japanese": "来年再びここに来たい。",
+        "spanish": "El próximo año quiero volver a venir aquí de nuevo."
+      },
+      {
+        "japanese": "10年後にようやく彼は再び故郷へ帰ってきた。",
+        "spanish": "Tras 10 años, finalmente regresó de nuevo a su tierra natal."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "structure": "ばかりでなく",
+    "romaji": "bakari de naku",
+    "explanation": "No solo... sino también...",
+    "examples": [
+      {
+        "japanese": "このマンションは狭いばかりでなく高いです。",
+        "spanish": "Este apartamento no solo es pequeño, sino también caro."
+      },
+      {
+        "japanese": "彼女は歌ばかりでなくダンスも上手です。",
+        "spanish": "Ella no solo canta bien, sino que también baila muy bien."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "structure": "まるで〜のように",
+    "romaji": "marude ~ no you ni",
+    "explanation": "Tal cual como si fuera...",
+    "examples": [
+      {
+        "japanese": "合格した。まるで夢のようだ。",
+        "spanish": "Aprobé. Es como si fuera un sueño."
+      },
+      {
+        "japanese": "彼の日本語はまるで日本人が話しているように聞こえる。",
+        "spanish": "Su japonés suena tal cual como si hablara un nativo."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "structure": "に当たる",
+    "romaji": "ni ataru / ni atatte",
+    "explanation": "Corresponder/Coincidir con / En el momento de realizar...",
+    "examples": [
+      {
+        "japanese": "今年のクリスマスは日曜日に当たる。",
+        "spanish": "Este año la Navidad cae en domingo."
+      },
+      {
+        "japanese": "マンションを買うに当たって私ども夫婦はいろいろ調査をしました。",
+        "spanish": "Al momento de comprar el apartamento, mi esposa y yo investigamos bastante."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "structure": "にしても / にしては",
+    "romaji": "ni shite mo / ni shite wa",
+    "explanation": "Aun considerando que... / Aun así...",
+    "examples": [
+      {
+        "japanese": "それにしても日本はいい国ですね。",
+        "spanish": "Aun así, Japón es un gran país, ¿verdad?"
+      },
+      {
+        "japanese": "今回の試験は合格したにしても点数はあまり良くないと思う。",
+        "spanish": "Aun si aprobé este examen, creo que la nota no fue muy buena."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "structure": "おかげで",
+    "romaji": "okage de",
+    "explanation": "Gracias a... (para expresar un resultado positivo).",
+    "examples": [
+      {
+        "japanese": "スマホのおかげで日本語を勉強するのが簡単です。",
+        "spanish": "Gracias a los smartphones, estudiar japonés es fácil."
+      },
+      {
+        "japanese": "妻のおかげで私は毎日幸せだ。",
+        "spanish": "Gracias a mi esposa, soy feliz todos los días."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "structure": "そうだ",
+    "romaji": "sou da",
+    "explanation": "Escuché que... / Dicen que... (transmisión / rumor o información escuchada).",
+    "examples": [
+      {
+        "japanese": "彼女はケーキを作るそうだ。",
+        "spanish": "Escuché que ella va a hacer un pastel."
+      },
+      {
+        "japanese": "彼女はまだ独身だそうだ。",
+        "spanish": "Dicen que ella todavía está soltera."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "structure": "という",
+    "romaji": "to iu",
+    "explanation": "Llamado... / Conocido como...",
+    "examples": [
+      {
+        "japanese": "「ポッチ」という犬。",
+        "spanish": "Un perro llamado 'Pocchi'."
+      },
+      {
+        "japanese": "明日という日もある。",
+        "spanish": "Existe un día llamado 'mañana' / Mañana será otro día."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "structure": "そうすると",
+    "romaji": "sou suru to",
+    "explanation": "Al hacer eso... / Y entonces...",
+    "examples": [
+      {
+        "japanese": "ドアを開けた。そうすると見知らぬ人が立っていた。",
+        "spanish": "Abrí la puerta. Y entonces había un desconocido parado allí."
+      },
+      {
+        "japanese": "今日中に勉強しておこう。そうすると明日のテストが楽になる。",
+        "spanish": "Estudiemos hoy. Al hacer eso, el examen de mañana será más fácil."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "structure": "しかない",
+    "romaji": "shika nai",
+    "explanation": "No tener otra opción más que... / Solo queda...",
+    "examples": [
+      {
+        "japanese": "やるしかない。",
+        "spanish": "No queda otra opción que hacerlo."
+      },
+      {
+        "japanese": "パソコンが直せないから新しいものを買うしかなかった。",
+        "spanish": "Como la computadora no se podía reparar, no quedó más remedio que comprar una nueva."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "structure": "からこそ",
+    "romaji": "kara koso",
+    "explanation": "Precisamente porque... / Justamente por esa razón.",
+    "examples": [
+      {
+        "japanese": "早く起きたからこそ私は始発電車に間に合った。",
+        "spanish": "Precisamente porque me levanté temprano, llegué a tiempo al primer tren."
+      },
+      {
+        "japanese": "たくさん勉強したからこそ日本語能力試験は簡単だった。",
+        "spanish": "Justamente porque estudié mucho, el examen fue fácil."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "structure": "から言うと / から言えば",
+    "romaji": "kara iu to / kara ieba",
+    "explanation": "Desde el punto de vista de... / Juzgando por...",
+    "examples": [
+      {
+        "japanese": "能力から言って彼がこの仕事に一番適切だと思います。",
+        "spanish": "Juzgando por su capacidad, creo que él es el más adecuado para este trabajo."
+      },
+      {
+        "japanese": "この作文は日本語能力から言えばまだまだだが内容はいい。",
+        "spanish": "Desde el punto de vista del idioma aún le falta, pero el contenido es bueno."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "structure": "くせに",
+    "romaji": "kuse ni",
+    "explanation": "A pesar de... / Y eso que... (expresa crítica o reproche).",
+    "examples": [
+      {
+        "japanese": "背が高いくせに早く走れない。",
+        "spanish": "A pesar de ser alto, no puede correr rápido."
+      },
+      {
+        "japanese": "元気なくせに病気のふりをしている。",
+        "spanish": "Y eso que está sano, pero se hace el enfermo."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "structure": "ために",
+    "romaji": "tame ni",
+    "explanation": "Para... / Con el propósito de... / Debido a...",
+    "examples": [
+      {
+        "japanese": "犬のためにベッドを作った。",
+        "spanish": "Hice una cama para mi perro."
+      },
+      {
+        "japanese": "日本へ旅行するために貯金しています。",
+        "spanish": "Estoy ahorrando para viajar a Japón."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "structure": "だらけ",
+    "romaji": "darake",
+    "explanation": "Lleno de... / Cubierto completamente de... (de algo desagradable o indeseable).",
+    "examples": [
+      {
+        "japanese": "この部屋はゴミだらけだ。",
+        "spanish": "Esta habitación está llena de basura."
+      },
+      {
+        "japanese": "今、不安だらけです。",
+        "spanish": "Ahora mismo estoy lleno de ansiedad."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "structure": "ことがある",
+    "romaji": "koto ga aru",
+    "explanation": "A veces ocurre que... / De vez en cuando...",
+    "examples": [
+      {
+        "japanese": "時々仕事をやめたいと思うことがある。",
+        "spanish": "De vez en cuando se me ocurre que quiero renunciar al trabajo."
+      },
+      {
+        "japanese": "時々日本語を勉強することがあります。",
+        "spanish": "A veces estudio japonés."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "structure": "上で",
+    "romaji": "ue de",
+    "explanation": "Al momento de... / Para... / Tras haber hecho...",
+    "examples": [
+      {
+        "japanese": "日本語を勉強する上でやる気が必要です。",
+        "spanish": "Para estudiar japonés es necesaria la motivación."
+      },
+      {
+        "japanese": "この薬は説明を読んだ上でご使用ください。",
+        "spanish": "Tome este medicamento después de haber leído las instrucciones."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "structure": "わけだ",
+    "romaji": "wake da",
+    "explanation": "Con razón... / Por eso... / Es lógico que...",
+    "examples": [
+      {
+        "japanese": "彼は日本に10年住んでいるから日本語が上手なわけだ。",
+        "spanish": "Lleva 10 años viviendo en Japón, con razón habla bien japonés."
+      },
+      {
+        "japanese": "このスマホは5年間使った。そりゃ壊れるわけだね。",
+        "spanish": "Usé este teléfono durante 5 años. Por eso es lógico que se haya roto."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "structure": "さえ〜ば",
+    "romaji": "sae ~ ba",
+    "explanation": "Con solo... / Si tan solo...",
+    "examples": [
+      {
+        "japanese": "彼さえいれば幸せです。",
+        "spanish": "Con solo estar él, soy feliz."
+      },
+      {
+        "japanese": "10円さえあれば買えます。",
+        "spanish": "Con solo tener 10 yenes se puede comprar."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "structure": "つまり",
+    "romaji": "tsumari",
+    "explanation": "Es decir... / En otras palabras...",
+    "examples": [
+      {
+        "japanese": "彼女は姉の娘だ。つまり私にとっては姪です。",
+        "spanish": "Ella es la hija de mi hermana. Es decir, para mí es mi sobrina."
+      },
+      {
+        "japanese": "つまりうちの学校の生徒だということ。",
+        "spanish": "En otras palabras, significa que es estudiante de nuestra escuela."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "structure": "ばかりだ",
+    "romaji": "bakari da",
+    "explanation": "No hace más que... / Sigue en proceso continuo de...",
+    "examples": [
+      {
+        "japanese": "物価は上がるばかりだ。",
+        "spanish": "Los precios no hacen más que subir."
+      },
+      {
+        "japanese": "彼は口を動かすばかりで手を動かさない。",
+        "spanish": "Él solo mueve la boca pero no mueve las manos."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "structure": "ということだ",
+    "romaji": "to iu koto da",
+    "explanation": "Se dice que... / Significa que...",
+    "examples": [
+      {
+        "japanese": "天気予報によると明日は雨が降るということだ。",
+        "spanish": "Según el pronóstico, se dice que mañana lloverá."
+      },
+      {
+        "japanese": "もうすぐ彼は離婚するということだ。",
+        "spanish": "Parece que dentro de poco se va a divorciar."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "structure": "に比べて",
+    "romaji": "ni kurabe te",
+    "explanation": "En comparación con...",
+    "examples": [
+      {
+        "japanese": "昨日に比べて今日は暖かい。",
+        "spanish": "En comparación con ayer, hoy está más cálido."
+      },
+      {
+        "japanese": "スマホに比べるとパソコンは便利です。",
+        "spanish": "En comparación con los teléfonos inteligentes, las computadoras son más convenientes."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "structure": "せい",
+    "romaji": "sei / sei ka",
+    "explanation": "Por culpa de... / Tal vez debido a... (para resultados negativos).",
+    "examples": [
+      {
+        "japanese": "頭が痛い。疲れたせいかな。",
+        "spanish": "Me duele la cabeza. Tal vez sea por culpa del cansancio."
+      },
+      {
+        "japanese": "あなたの失敗を私のせいにしないでよ。",
+        "spanish": "¡No me eches la culpa a mí de tu fracaso!"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "structure": "直ちに",
+    "romaji": "tadachi ni",
+    "explanation": "Inmediatamente / De inmediato.",
+    "examples": [
+      {
+        "japanese": "私はこの仕事を直ちにしなくてはならない。",
+        "spanish": "Tengo que hacer este trabajo de inmediato."
+      },
+      {
+        "japanese": "直ちに出発しないと私は約束に遅れるだろう。",
+        "spanish": "Si no salgo de inmediato, llegaré tarde a mi cita."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "structure": "あまり",
+    "romaji": "amari / no amari",
+    "explanation": "De tanto... / A causa de un exceso de...",
+    "examples": [
+      {
+        "japanese": "それのあまりの簡単さに驚いた。",
+        "spanish": "Me sorprendió lo extremadamente fácil que era."
+      },
+      {
+        "japanese": "しばらくは心配のあまり眠れない夜が続きました。",
+        "spanish": "Durante un tiempo, de tanta preocupación se sucedieron noches sin poder dormir."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "structure": "ても構わない",
+    "romaji": "te mo kamawanai",
+    "explanation": "No importa si... / Está bien si...",
+    "examples": [
+      {
+        "japanese": "雨が降っても構わない。",
+        "spanish": "No importa si llueve."
+      },
+      {
+        "japanese": "今帰っても構いませんか。",
+        "spanish": "¿Está bien si me voy a casa ahora?"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "structure": "と同じくらい",
+    "romaji": "to onaji kurai",
+    "explanation": "Casi tan... como... / Tanto como...",
+    "examples": [
+      {
+        "japanese": "去年の夏は今年の夏と同じくらいの暑さだ。",
+        "spanish": "El verano pasado fue casi tan caluroso como el de este año."
+      },
+      {
+        "japanese": "日本語は韓国語と同じくらい難しいと思う。",
+        "spanish": "Creo que el japonés es tan difícil como el coreano."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "structure": "次第",
+    "romaji": "shidai",
+    "explanation": "Tan pronto como... / Apenas...",
+    "examples": [
+      {
+        "japanese": "雨が止み次第出発することにしましょう。",
+        "spanish": "Salgamos tan pronto como pare de llover."
+      },
+      {
+        "japanese": "来週のスケジュールが決まり次第連絡してください。",
+        "spanish": "Por favor avísame apenas se decida el horario de la próxima semana."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "structure": "っぱなし",
+    "romaji": "ppanashi",
+    "explanation": "Dejar algo encendido, abierto o sin atender en cierto estado.",
+    "examples": [
+      {
+        "japanese": "このドアはいつも開けっぱなしだ。",
+        "spanish": "Esta puerta siempre la dejan abierta."
+      },
+      {
+        "japanese": "水を出しっぱなしにしないでください。",
+        "spanish": "Por favor no dejes el agua corriendo."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "structure": "ことだ",
+    "romaji": "koto da",
+    "explanation": "Lo que debes hacer es... / Deberías... (consejo práctico).",
+    "examples": [
+      {
+        "japanese": "無理をしないことだよ。",
+        "spanish": "Lo que debes hacer es no sobreexigirte."
+      },
+      {
+        "japanese": "日本語が上手くなりたかったらたくさん練習することだよ。",
+        "spanish": "Si quieres mejorar tu japonés, lo que debes hacer es practicar mucho."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "structure": "ないうちに",
+    "romaji": "nai uchi ni",
+    "explanation": "Antes de que... / Mientras no...",
+    "examples": [
+      {
+        "japanese": "雨が降らないうちに行きましょう。",
+        "spanish": "Vayamos antes de que empiece a llover."
+      },
+      {
+        "japanese": "学校に行かないうちに宿題をしましょう。",
+        "spanish": "Hagamos la tarea antes de ir a la escuela."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "structure": "ばいい",
+    "romaji": "ba ii",
+    "explanation": "Bastaría con... / Solo tienes que...",
+    "examples": [
+      {
+        "japanese": "どうすればいいの？",
+        "spanish": "¿Qué debería hacer?"
+      },
+      {
+        "japanese": "何と言えばいいかわからない。",
+        "spanish": "No sé qué debería decir."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "structure": "にしては",
+    "romaji": "ni shite wa",
+    "explanation": "Para ser... / Considerando que...",
+    "examples": [
+      {
+        "japanese": "今10月にしてはちょっと寒いですね。",
+        "spanish": "Para ser octubre, hace un poco de frío, ¿verdad?"
+      },
+      {
+        "japanese": "初めてケーキを作ったにしては上手にできましたね。",
+        "spanish": "Para ser la primera vez que haces un pastel, te quedó muy bien."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "structure": "ところが",
+    "romaji": "tokoroga",
+    "explanation": "Sin embargo... / Pero contrariamente a lo esperado...",
+    "examples": [
+      {
+        "japanese": "今日からキャンプに行くところだが雨だ。",
+        "spanish": "Iba a ir de campamento a partir de hoy, sin embargo está lloviendo."
+      },
+      {
+        "japanese": "たくさん買ったため高くなると思った。ところが安かった。",
+        "spanish": "Pensé que saldría caro por comprar tanto. Sin embargo, fue barato."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "structure": "なかなか",
+    "romaji": "nakanaka",
+    "explanation": "Bastante / Muy (en sentido positivo o apreciativo).",
+    "examples": [
+      {
+        "japanese": "なかなか面白そうです。",
+        "spanish": "Se ve bastante interesante."
+      },
+      {
+        "japanese": "彼女はなかなか勉強熱心な子だ。",
+        "spanish": "Ella es una chica bastante estudiosa."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "structure": "て初めて",
+    "romaji": "te hajimete",
+    "explanation": "Solo después de hacer [A] por primera vez me di cuenta/ocurrió [B].",
+    "examples": [
+      {
+        "japanese": "日本に来て初めてうなぎを食べた。",
+        "spanish": "Solo después de venir a Japón probé anguila por primera vez."
+      },
+      {
+        "japanese": "日本語を勉強し始めて勉強の楽しさが分かった。",
+        "spanish": "Fue solo tras empezar a estudiar japonés que entendí lo divertido que es estudiar."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "structure": "をはじめ",
+    "romaji": "wo hajime / wo hajime to suru",
+    "explanation": "Empezando por... / Encabezado por...",
+    "examples": [
+      {
+        "japanese": "日本の春はお花見をはじめたくさんのイベントがある。",
+        "spanish": "La primavera en Japón tiene muchos eventos, empezando por el hanami."
+      },
+      {
+        "japanese": "東京には東京タワーをはじめとする多くの観光地がある。",
+        "spanish": "En Tokio hay muchos lugares turísticos, empezando por la Torre de Tokio."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "structure": "別に〜ない",
+    "romaji": "betsuni ~ nai",
+    "explanation": "No particularmente... / Nada en especial.",
+    "examples": [
+      {
+        "japanese": "それは別に大したことでもない。",
+        "spanish": "No es nada del otro mundo / no es algo tan grave."
+      },
+      {
+        "japanese": "君は別に悪いことをしているわけではない。",
+        "spanish": "No es que estés haciendo nada malo en particular."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "structure": "の間に",
+    "romaji": "no aida ni",
+    "explanation": "Mientras... / En el transcurso de...",
+    "examples": [
+      {
+        "japanese": "待っている間に携帯でゲームをした。",
+        "spanish": "Mientras esperaba, jugué un juego en el móvil."
+      },
+      {
+        "japanese": "週末の間にたくさん漢字を習いました。",
+        "spanish": "Durante el fin de semana aprendí muchos kanjis."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "structure": "こそ",
+    "romaji": "koso",
+    "explanation": "Precisamente... / Especialmente... (énfasis fuerte).",
+    "examples": [
+      {
+        "japanese": "これこそ私が望んだものです。",
+        "spanish": "Esto es precisamente lo que yo deseaba."
+      },
+      {
+        "japanese": "今年こそJLPTに受かりたい。",
+        "spanish": "Este año sí o sí quiero aprobar el JLPT."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "structure": "滅多に〜ない",
+    "romaji": "metta ni ~ nai",
+    "explanation": "Casi nunca... / Raramente...",
+    "examples": [
+      {
+        "japanese": "彼は滅多に日本語を勉強しない。",
+        "spanish": "Él rara vez estudia japonés."
+      },
+      {
+        "japanese": "このあたりでは滅多に雪が降りません。",
+        "spanish": "Por esta zona casi nunca nieva."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "structure": "たびに",
+    "romaji": "tabi ni",
+    "explanation": "Cada vez que...",
+    "examples": [
+      {
+        "japanese": "友人は旅行のたびにお土産を買ってきてくれます。",
+        "spanish": "Mi amigo me trae recuerdos cada vez que viaja."
+      },
+      {
+        "japanese": "買い物のたびに袋をたくさんもらう。",
+        "spanish": "Cada vez que voy de compras me dan muchas bolsas."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "structure": "ほど〜ない",
+    "romaji": "hodo ~ nai",
+    "explanation": "No tan... como...",
+    "examples": [
+      {
+        "japanese": "彼女ほど優しい人はいない。",
+        "spanish": "No hay nadie tan amable como ella."
+      },
+      {
+        "japanese": "英語の文法は日本語ほど難しくない。",
+        "spanish": "La gramática del inglés no es tan difícil como la del japonés."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "structure": "むしろ",
+    "romaji": "mushiro",
+    "explanation": "Más bien... / Preferiblemente...",
+    "examples": [
+      {
+        "japanese": "私はむしろ一人でゲームしたい。",
+        "spanish": "Más bien prefiero jugar videojuegos solo."
+      },
+      {
+        "japanese": "私はむしろ自転車で行きたい。",
+        "spanish": "Más bien prefiero ir en bicicleta."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "structure": "最中に",
+    "romaji": "saichuu ni",
+    "explanation": "Justo en medio de...",
+    "examples": [
+      {
+        "japanese": "映画の最中にテレビが壊れた。",
+        "spanish": "Justo en medio de la película se rompió la televisión."
+      },
+      {
+        "japanese": "会議をしている最中にスマホが鳴った。",
+        "spanish": "Justo en medio de la reunión sonó el teléfono."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "structure": "どうしても",
+    "romaji": "doushitemo",
+    "explanation": "Pase lo que pase... / Por más que lo intente...",
+    "examples": [
+      {
+        "japanese": "どうしても来られないときは連絡してください。",
+        "spanish": "Si de plano no puedes venir pase lo que pase, contáctame."
+      },
+      {
+        "japanese": "どうしても彼女の電話番号が思い出せない。",
+        "spanish": "Por más que lo intente, no puedo recordar su número telefónico."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "structure": "と言えば",
+    "romaji": "to ieba",
+    "explanation": "Hablando de... / Si de... se trata.",
+    "examples": [
+      {
+        "japanese": "日本と言えば電車が素晴らしい。",
+        "spanish": "Hablando de Japón, los trenes son impresionantes."
+      },
+      {
+        "japanese": "本と言えば何冊持っていますか。",
+        "spanish": "Hablando de libros, ¿cuántos tienes?"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "structure": "なぜなら〜からだ",
+    "romaji": "nazenara ~ kara da",
+    "explanation": "Esto se debe a que... / Porque...",
+    "examples": [
+      {
+        "japanese": "なぜなら彼は日本が大好きだからです。",
+        "spanish": "Porque a él le encanta Japón."
+      },
+      {
+        "japanese": "私は猫が好きです。なぜなら猫は一番かわいい動物です。",
+        "spanish": "Me gustan los gatos porque son los animales más tiernos."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "structure": "べき",
+    "romaji": "beki",
+    "explanation": "Debería... / Tiene la obligación moral de...",
+    "examples": [
+      {
+        "japanese": "私たちは引っ越しするべきです。",
+        "spanish": "Deberíamos mudarnos."
+      },
+      {
+        "japanese": "学生はもっと勉強するべきです。",
+        "spanish": "Los estudiantes deberían estudiar más."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "structure": "うちに",
+    "romaji": "uchi ni",
+    "explanation": "Mientras... / Antes de que cambie el estado actual...",
+    "examples": [
+      {
+        "japanese": "明るいうちに帰りましょう。",
+        "spanish": "Volvamos a casa mientras aún esté de día."
+      },
+      {
+        "japanese": "若いうちにたくさん経験するんだよ。",
+        "spanish": "Aprovecha para vivir muchas experiencias mientras seas joven."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "structure": "わけにはいかない",
+    "romaji": "wake ni wa ikanai",
+    "explanation": "No puedo darme el lujo de / No es posible por razones morales o sociales.",
+    "examples": [
+      {
+        "japanese": "明日はテストがあるからゲームをするわけにはいかない。",
+        "spanish": "Mañana tengo un examen, así que no puedo darme el lujo de estar jugando."
+      },
+      {
+        "japanese": "あとで車を運転するので今お酒を飲むわけにはいかない。",
+        "spanish": "Como voy a conducir más tarde, no puedo beber alcohol ahora."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "structure": "どころか",
+    "romaji": "dokoro ka",
+    "explanation": "Lejos de... / Ni hablar de [A], ni siquiera [B].",
+    "examples": [
+      {
+        "japanese": "もっと勉強しないとN2どころかN3も無理だ。",
+        "spanish": "Si no estudias más, lejos de aprobar el N2, ni el N3 podrás pasar."
+      },
+      {
+        "japanese": "それで事態は改善されるどころかかえって混乱してしまった。",
+        "spanish": "Con eso, lejos de mejorar la situación, empeoró el caos."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "structure": "に違いない",
+    "romaji": "ni chigainai",
+    "explanation": "Sin duda... / Seguro que...",
+    "examples": [
+      {
+        "japanese": "彼はまだ寝ているに違いない。",
+        "spanish": "Sin duda él todavía está durmiendo."
+      },
+      {
+        "japanese": "彼女は日本に20年も住んでいたから日本語が上手にはなせるに違いない。",
+        "spanish": "Como vivió 20 años en Japón, seguro que habla bien japonés."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "structure": "できれば / できたら",
+    "romaji": "dekireba / dekitara",
+    "explanation": "Si es posible... / Si pudiera...",
+    "examples": [
+      {
+        "japanese": "君が一緒に来ることができたらいいのに。",
+        "spanish": "Ojalá pudieras venir conmigo si fuera posible."
+      },
+      {
+        "japanese": "協力できたら嬉しいです。",
+        "spanish": "Estaría feliz de colaborar si fuera posible."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "structure": "ところで",
+    "romaji": "tokorode",
+    "explanation": "Por cierto... / Cambiando de tema...",
+    "examples": [
+      {
+        "japanese": "ところで今日は何をしたい？",
+        "spanish": "Por cierto, ¿qué quieres hacer hoy?"
+      },
+      {
+        "japanese": "ところで大阪に行ったことがある？",
+        "spanish": "Por cierto, ¿has estado en Osaka?"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "structure": "ふりをする",
+    "romaji": "furi wo suru",
+    "explanation": "Fingir que... / Hacer como si...",
+    "examples": [
+      {
+        "japanese": "知らないふりをしているけど本当は知っているでしょう。",
+        "spanish": "Finges no saberlo, pero en realidad lo sabes, ¿verdad?"
+      },
+      {
+        "japanese": "彼は宿題をし終わったふりをした。",
+        "spanish": "Él fingió haber terminado la tarea."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "structure": "がたい",
+    "romaji": "gatai",
+    "explanation": "Difícil de... / Casi imposible de...",
+    "examples": [
+      {
+        "japanese": "信じがたいことだがこれは事実だ。",
+        "spanish": "Es algo difícil de creer, pero es un hecho."
+      },
+      {
+        "japanese": "彼女は美人だから近寄りがたい。",
+        "spanish": "Como es muy bella, es difícil acercársele."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "structure": "たとえ〜でも",
+    "romaji": "tatoe ~ demo",
+    "explanation": "Incluso si... / Aun cuando...",
+    "examples": [
+      {
+        "japanese": "たとえ忙しくても来るよ。",
+        "spanish": "Incluso si está ocupado, vendrá."
+      },
+      {
+        "japanese": "たとえ親に反対されても私は留学したい。",
+        "spanish": "Aun si mis padres se oponen, quiero estudiar en el extranjero."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "structure": "ば〜ほど",
+    "romaji": "ba ~ hodo",
+    "explanation": "Cuanto más... más...",
+    "examples": [
+      {
+        "japanese": "考えれば考えるほどわからなくなる。",
+        "spanish": "Cuanto más lo pienso, menos lo entiendo."
+      },
+      {
+        "japanese": "勉強すればするほど日本語が上手になるよ。",
+        "spanish": "Cuanto más estudies, mejor será tu japonés."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "structure": "のに",
+    "romaji": "no ni",
+    "explanation": "Para hacer algo... / Consumir tiempo o recursos en...",
+    "examples": [
+      {
+        "japanese": "始めるのに遅すぎることはない。",
+        "spanish": "Nunca es demasiado tarde para empezar."
+      },
+      {
+        "japanese": "家に帰るのに3時間かかりました。",
+        "spanish": "Me tomó 3 horas regresar a casa."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "structure": "に限る",
+    "romaji": "ni kagiru",
+    "explanation": "Nada supera a... / Lo mejor es...",
+    "examples": [
+      {
+        "japanese": "寒い日は熱いココアに限る。",
+        "spanish": "En días fríos, nada supera a un chocolate caliente."
+      },
+      {
+        "japanese": "風邪の時には寝るに限る。",
+        "spanish": "Cuando se está resfriado, lo mejor es dormir."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "structure": "ことから",
+    "romaji": "koto kara",
+    "explanation": "Debido al hecho de que... / A partir de que...",
+    "examples": [
+      {
+        "japanese": "この村には大学がないことから東京へ来ました。",
+        "spanish": "Debido a que en esta aldea no hay universidad, vine a Tokio."
+      },
+      {
+        "japanese": "顔がそっくりなことから双子であることを知った。",
+        "spanish": "Por el hecho de tener caras idénticas me enteré de que eran gemelos."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "structure": "べきではない",
+    "romaji": "beki de wa nai",
+    "explanation": "No deberías... / No se debe...",
+    "examples": [
+      {
+        "japanese": "そんなことをするべきではない。",
+        "spanish": "No deberías hacer algo así."
+      },
+      {
+        "japanese": "約束を破るべきではない。",
+        "spanish": "No se deben romper las promesas."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "structure": "ことはない",
+    "romaji": "koto wa nai",
+    "explanation": "No hay necesidad de... / No hace falta...",
+    "examples": [
+      {
+        "japanese": "謝ることはないよ。",
+        "spanish": "No hay necesidad de disculparse."
+      },
+      {
+        "japanese": "日本語能力試験は簡単だから心配することはないよ。",
+        "spanish": "El examen es sencillo, no hay necesidad de preocuparse."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "structure": "どんなに〜でも",
+    "romaji": "donnani ~ demo",
+    "explanation": "Por más que... / No importa qué tan...",
+    "examples": [
+      {
+        "japanese": "どんなに頑張ってもできなかった。",
+        "spanish": "Por más que me esforcé, no pude lograrlo."
+      },
+      {
+        "japanese": "どんなに暑くても自転車に乗って仕事に行く。",
+        "spanish": "No importa qué tan caluroso esté, voy al trabajo en bicicleta."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "structure": "決して〜ない",
+    "romaji": "kesshite ~ nai",
+    "explanation": "Jamás... / De ninguna manera...",
+    "examples": [
+      {
+        "japanese": "私の鍵は決して忘れません。",
+        "spanish": "Jamás olvidaré mi llave."
+      },
+      {
+        "japanese": "私は決して夢をあきらめない。",
+        "spanish": "Jamás me rendiré con mi sueño."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "structure": "そのために",
+    "romaji": "sono tame ni",
+    "explanation": "Para tal fin... / Por esa razón...",
+    "examples": [
+      {
+        "japanese": "私はそのための時間が取れない。",
+        "spanish": "No puedo tomarme el tiempo para eso."
+      },
+      {
+        "japanese": "私は留学したいです。そのためには日本語を学ぶ必要があります。",
+        "spanish": "Quiero estudiar en el extranjero. Para tal fin, necesito aprender japonés."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "structure": "で有名",
+    "romaji": "de yuumei",
+    "explanation": "Famoso por...",
+    "examples": [
+      {
+        "japanese": "大阪はたこ焼きで有名です。",
+        "spanish": "Osaka es famosa por el takoyaki."
+      },
+      {
+        "japanese": "京都は古いお寺があることで有名だ。",
+        "spanish": "Kioto es famosa por tener templos antiguos."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "structure": "まったく〜ない",
+    "romaji": "mattaku ~ nai",
+    "explanation": "Para nada... / En absoluto...",
+    "examples": [
+      {
+        "japanese": "あなたは日本語をまったく勉強しない。",
+        "spanish": "Tú no estudias nada de japonés en absoluto."
+      },
+      {
+        "japanese": "まったく漢字が書けない。",
+        "spanish": "No puedo escribir kanji en absoluto."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "structure": "たらいい / といい",
+    "romaji": "tara ii / to ii",
+    "explanation": "Sería bueno que... / Ojalá que...",
+    "examples": [
+      {
+        "japanese": "日本語を勉強したらいい。",
+        "spanish": "Sería bueno que estudies japonés."
+      },
+      {
+        "japanese": "明日晴れるといいね。",
+        "spanish": "Ojalá mañana esté despejado."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "structure": "向き",
+    "romaji": "muki",
+    "explanation": "Adecuado para... / Apto para...",
+    "examples": [
+      {
+        "japanese": "この本は初心者向きである。",
+        "spanish": "Este libro es adecuado para principiantes."
+      },
+      {
+        "japanese": "その映画は子供向きだ。",
+        "spanish": "Esa película es apta para niños."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "structure": "なかなか〜ない",
+    "romaji": "nakanaka ~ nai",
+    "explanation": "Cuesta mucho que... / No es fácil que... (indica lentitud o dificultad).",
+    "examples": [
+      {
+        "japanese": "このビデオはなかなか終わらない。",
+        "spanish": "Este video cuesta que termine / parece no terminar nunca."
+      },
+      {
+        "japanese": "私の日本語はなかなか上達しない。",
+        "spanish": "Mi japonés no avanza fácilmente / cuesta que mejore."
+      }
+    ]
+  }
+]

@@ -54,6 +54,18 @@
           "lectura": "おどろきのあまり、こえがでなかった。",
           "es": "De la sorpresa no me salió la voz.",
           "resaltado": "あまり"
+        },
+        {
+          "ja": "それのあまりの簡単さに驚いた。",
+          "lectura": "それのあまりのかんたんさにおどろいた。",
+          "es": "Me sorprendió lo extremadamente fácil que era.",
+          "resaltado": "あまり"
+        },
+        {
+          "ja": "しばらくは心配のあまり眠れない夜が続きました。",
+          "lectura": "しばらくはしんぱいのあまりねむれないよるがつづきました。",
+          "es": "Durante un tiempo, de tanta preocupación se sucedieron noches sin poder dormir.",
+          "resaltado": "あまり"
         }
       ],
       "conexion": ["N + の + あまり", "V (forma simple) + あまり"]
@@ -138,6 +150,18 @@
           "lectura": "どうすればいいか、わからない。",
           "es": "No sé qué debería hacer.",
           "resaltado": "ばいい"
+        },
+        {
+          "ja": "どうすればいいの？",
+          "lectura": "どうすればいいの？",
+          "es": "¿Qué debería hacer?",
+          "resaltado": "ばいい"
+        },
+        {
+          "ja": "何と言えばいいかわからない。",
+          "lectura": "なんといえばいいかわからない。",
+          "es": "No sé qué debería decir.",
+          "resaltado": "ばいい"
         }
       ],
       "conexion": ["V (forma condicional ば) + いい"]
@@ -165,6 +189,12 @@
           "ja": "あんなことを言わなければよかった。",
           "lectura": "あんなことをいわなければよかった。",
           "es": "Ojalá no hubiera dicho eso.",
+          "resaltado": "ばよかった"
+        },
+        {
+          "ja": "そうすればよかった。",
+          "lectura": "そうすればよかった。",
+          "es": "Debería haber hecho eso.",
           "resaltado": "ばよかった"
         }
       ],
@@ -196,6 +226,24 @@
           "ja": "考えれば考えるほど、わからなくなる。",
           "lectura": "かんがえればかんがえるほど、わからなくなる。",
           "es": "Cuanto más lo pienso, menos lo entiendo.",
+          "resaltado": "ほど"
+        },
+        {
+          "ja": "駅に近いほど家賃が高い。",
+          "lectura": "えきにちかいほどやちんがたかい。",
+          "es": "Cuanto más cerca de la estación, más caro es el alquiler.",
+          "resaltado": "ほど"
+        },
+        {
+          "ja": "考えれば考えるほどわからなくなる。",
+          "lectura": "かんがえればかんがえるほどわからなくなる。",
+          "es": "Cuanto más lo pienso, menos lo entiendo.",
+          "resaltado": "ほど"
+        },
+        {
+          "ja": "勉強すればするほど日本語が上手になるよ。",
+          "lectura": "べんきょうすればするほどにほんごがじょうずになるよ。",
+          "es": "Cuanto más estudies, mejor será tu japonés.",
           "resaltado": "ほど"
         }
       ],
@@ -233,6 +281,22 @@
       "conexion": ["V (forma ば) + 〜のに (lamento por lo que no pasó)"]
     },
     {
+      "id": "n3-bakari-da",
+      "nivel": "n3",
+      "patron": "ばかりだ",
+      "romaji": "bakari da",
+      "significado": "No hacer más que (un cambio que sigue, normalmente a peor).",
+      "ejemplos": [
+        {
+          "ja": "物価は上がるばかりだ。",
+          "lectura": "ぶっかはあがるばかりだ。",
+          "es": "Los precios no hacen más que subir.",
+          "resaltado": "ばかりだ"
+        }
+      ],
+      "conexion": ["V (forma diccionario) + ばかりだ"]
+    },
+    {
       "id": "n3-bakari-de",
       "nivel": "n3",
       "patron": "ばかりで",
@@ -255,6 +319,12 @@
           "ja": "弟は遊んでばかりで、勉強しない。",
           "lectura": "おとうとはあそんでばかりで、べんきょうしない。",
           "es": "Mi hermano menor no hace más que jugar y no estudia.",
+          "resaltado": "ばかりで"
+        },
+        {
+          "ja": "彼は口を動かすばかりで手を動かさない。",
+          "lectura": "かれはくちをうごかすばかりでてをうごかさない。",
+          "es": "Él solo mueve la boca pero no mueve las manos.",
           "resaltado": "ばかりで"
         }
       ],
@@ -284,6 +354,18 @@
           "lectura": "こどもばかりでなく、おとなもこのアニメがすきだ。",
           "es": "No solo a los niños, también a los adultos les gusta este anime.",
           "resaltado": "ばかりでなく"
+        },
+        {
+          "ja": "このマンションは狭いばかりでなく高いです。",
+          "lectura": "このマンションはせまいばかりでなくたかいです。",
+          "es": "Este apartamento no solo es pequeño, sino también caro.",
+          "resaltado": "ばかりでなく"
+        },
+        {
+          "ja": "彼女は歌ばかりでなくダンスも上手です。",
+          "lectura": "かのじょはうたばかりでなくダンスもじょうずです。",
+          "es": "Ella no solo canta bien, sino que también baila muy bien.",
+          "resaltado": "ばかりでなく"
         }
       ],
       "conexion": ["N / V (forma simple) + ばかりでなく 〜も"]
@@ -312,6 +394,18 @@
           "lectura": "わるいことをしたら、あやまるべきだ。",
           "es": "Si hiciste algo malo, deberías pedir disculpas.",
           "resaltado": "べきだ"
+        },
+        {
+          "ja": "私たちは引っ越しするべきです。",
+          "lectura": "わたしたちはひっこしするべきです。",
+          "es": "Deberíamos mudarnos.",
+          "resaltado": "べき"
+        },
+        {
+          "ja": "学生はもっと勉強するべきです。",
+          "lectura": "がくせいはもっとべんきょうするべきです。",
+          "es": "Los estudiantes deberían estudiar más.",
+          "resaltado": "べき"
         }
       ],
       "conexion": ["V (forma diccionario) + べきだ", "する → するべき / すべき"]
@@ -340,6 +434,18 @@
           "lectura": "そんなにむりをするべきではないよ。",
           "es": "No deberías exigirte tanto.",
           "resaltado": "べきではない"
+        },
+        {
+          "ja": "そんなことをするべきではない。",
+          "lectura": "そんなことをするべきではない。",
+          "es": "No deberías hacer algo así.",
+          "resaltado": "べきではない"
+        },
+        {
+          "ja": "約束を破るべきではない。",
+          "lectura": "やくそくをやぶるべきではない。",
+          "es": "No se deben romper las promesas.",
+          "resaltado": "べきではない"
         }
       ],
       "conexion": ["V (forma diccionario) + べきではない"]
@@ -367,6 +473,18 @@
           "ja": "別に急がなくてもいいですよ。",
           "lectura": "べつにいそがなくてもいいですよ。",
           "es": "No hay ninguna necesidad de apurarse.",
+          "resaltado": "別に"
+        },
+        {
+          "ja": "それは別に大したことでもない。",
+          "lectura": "それはべつにたいしたことでもない。",
+          "es": "No es nada del otro mundo / no es algo tan grave.",
+          "resaltado": "別に"
+        },
+        {
+          "ja": "君は別に悪いことをしているわけではない。",
+          "lectura": "きみはべつにわるいことをしているわけではない。",
+          "es": "No es que estés haciendo nada malo en particular.",
           "resaltado": "別に"
         }
       ],
@@ -542,9 +660,68 @@
           "lectura": "かれのへやはゴミだらけです。",
           "es": "Su habitación está llena de basura.",
           "resaltado": "だらけ"
+        },
+        {
+          "ja": "この部屋はゴミだらけだ。",
+          "lectura": "このへやはゴミだらけだ。",
+          "es": "Esta habitación está llena de basura.",
+          "resaltado": "だらけ"
+        },
+        {
+          "ja": "今、不安だらけです。",
+          "lectura": "いま、ふあんだらけです。",
+          "es": "Ahora mismo estoy lleno de ansiedad.",
+          "resaltado": "だらけ"
         }
       ],
       "conexion": ["N + だらけ"]
+    },
+    {
+      "id": "n3-dekireba",
+      "nivel": "n3",
+      "patron": "できれば／できたら",
+      "romaji": "dekireba / dekitara",
+      "significado": "Si es posible, si se pudiera.",
+      "ejemplos": [
+        {
+          "ja": "君が一緒に来ることができたらいいのに。",
+          "lectura": "きみがいっしょにくることができたらいいのに。",
+          "es": "Ojalá pudieras venir conmigo si fuera posible.",
+          "resaltado": "できたら"
+        },
+        {
+          "ja": "協力できたら嬉しいです。",
+          "lectura": "きょうりょくできたらうれしいです。",
+          "es": "Estaría feliz de colaborar si fuera posible.",
+          "resaltado": "できたら"
+        }
+      ],
+      "conexion": [
+        "できれば / できたら + petición o deseo",
+        "V (forma diccionario) + ことができたら"
+      ]
+    },
+    {
+      "id": "n3-dokoroka",
+      "nivel": "n3",
+      "patron": "どころか",
+      "romaji": "dokoro ka",
+      "significado": "Lejos de (ocurre lo contrario o algo más extremo).",
+      "ejemplos": [
+        {
+          "ja": "もっと勉強しないとN2どころかN3も無理だ。",
+          "lectura": "もっとべんきょうしないとN2どころかN3もむりだ。",
+          "es": "Si no estudias más, lejos de aprobar el N2, ni el N3 podrás pasar.",
+          "resaltado": "どころか"
+        },
+        {
+          "ja": "それで事態は改善されるどころかかえって混乱してしまった。",
+          "lectura": "それでじたいはかいぜんされるどころかかえってこんらんしてしまった。",
+          "es": "Con eso, lejos de mejorar la situación, empeoró el caos.",
+          "resaltado": "どころか"
+        }
+      ],
+      "conexion": ["V / いA (forma simple) + どころか", "N / なA + どころか"]
     },
     {
       "id": "n3-donna-ni-temo",
@@ -569,6 +746,18 @@
           "ja": "どんなに高くても、この絵がほしい。",
           "lectura": "どんなにたかくても、このえがほしい。",
           "es": "Por más caro que sea, quiero este cuadro.",
+          "resaltado": "どんなに"
+        },
+        {
+          "ja": "どんなに頑張ってもできなかった。",
+          "lectura": "どんなにがんばってもできなかった。",
+          "es": "Por más que me esforcé, no pude lograrlo.",
+          "resaltado": "どんなに"
+        },
+        {
+          "ja": "どんなに暑くても自転車に乗って仕事に行く。",
+          "lectura": "どんなにあつくてもじてんしゃにのってしごとにいく。",
+          "es": "No importa qué tan caluroso esté, voy al trabajo en bicicleta.",
           "resaltado": "どんなに"
         }
       ],
@@ -601,6 +790,18 @@
           "lectura": "あしたはどうしてもやすめない。",
           "es": "Mañana de ninguna manera puedo faltar.",
           "resaltado": "どうしても"
+        },
+        {
+          "ja": "どうしても来られないときは連絡してください。",
+          "lectura": "どうしてもこられないときはれんらくしてください。",
+          "es": "Si de plano no puedes venir pase lo que pase, contáctame.",
+          "resaltado": "どうしても"
+        },
+        {
+          "ja": "どうしても彼女の電話番号が思い出せない。",
+          "lectura": "どうしてもかのじょのでんわばんごうがおもいだせない。",
+          "es": "Por más que lo intente, no puedo recordar su número telefónico.",
+          "resaltado": "どうしても"
         }
       ],
       "conexion": [
@@ -632,9 +833,43 @@
           "lectura": "おとうとはべんきょうしているふりをして、ゲームをしていた。",
           "es": "Mi hermano menor fingía estudiar, pero estaba jugando videojuegos.",
           "resaltado": null
+        },
+        {
+          "ja": "知らないふりをしているけど本当は知っているでしょう。",
+          "lectura": "しらないふりをしているけどほんとうはしっているでしょう。",
+          "es": "Finges no saberlo, pero en realidad lo sabes, ¿verdad?",
+          "resaltado": "ふりをし"
+        },
+        {
+          "ja": "彼は宿題をし終わったふりをした。",
+          "lectura": "かれはしゅくだいをしおわったふりをした。",
+          "es": "Él fingió haber terminado la tarea.",
+          "resaltado": "ふりをした"
         }
       ],
       "conexion": ["V (forma simple) + ふりをする", "N + の + ふりをする"]
+    },
+    {
+      "id": "n3-futatabi",
+      "nivel": "n3",
+      "patron": "再び",
+      "romaji": "futatabi",
+      "significado": "De nuevo, otra vez (formal).",
+      "ejemplos": [
+        {
+          "ja": "来年再びここに来たい。",
+          "lectura": "らいねんふたたびここにきたい。",
+          "es": "El próximo año quiero volver a venir aquí de nuevo.",
+          "resaltado": "再び"
+        },
+        {
+          "ja": "10年後にようやく彼は再び故郷へ帰ってきた。",
+          "lectura": "じゅうねんごにようやくかれはふたたびこきょうへかえってきた。",
+          "es": "Tras 10 años, finalmente regresó de nuevo a su tierra natal.",
+          "resaltado": "再び"
+        }
+      ],
+      "conexion": ["再び + V"]
     },
     {
       "id": "n3-futo",
@@ -715,6 +950,18 @@
           "ja": "あの日のことは忘れがたい思い出です。",
           "lectura": "あのひのことはわすれがたいおもいでです。",
           "es": "Lo de ese día es un recuerdo difícil de olvidar.",
+          "resaltado": "がたい"
+        },
+        {
+          "ja": "信じがたいことだがこれは事実だ。",
+          "lectura": "しんじがたいことだがこれはじじつだ。",
+          "es": "Es algo difícil de creer, pero es un hecho.",
+          "resaltado": "がたい"
+        },
+        {
+          "ja": "彼女は美人だから近寄りがたい。",
+          "lectura": "かのじょはびじんだからちかよりがたい。",
+          "es": "Como es muy bella, es difícil acercársele.",
           "resaltado": "がたい"
         }
       ],
@@ -800,6 +1047,12 @@
           "lectura": "えきまでじゅっぷんほどかかります。",
           "es": "Se tarda unos diez minutos hasta la estación.",
           "resaltado": "ほど"
+        },
+        {
+          "ja": "死ぬほどお腹が空いている。",
+          "lectura": "しぬほどおなかがすいている。",
+          "es": "Tengo tanta hambre que me muero.",
+          "resaltado": "ほど"
         }
       ],
       "conexion": [
@@ -832,6 +1085,18 @@
           "lectura": "わたしはあにほどせがたかくない。",
           "es": "No soy tan alto como mi hermano mayor.",
           "resaltado": "ない"
+        },
+        {
+          "ja": "彼女ほど優しい人はいない。",
+          "lectura": "かのじょほどやさしいひとはいない。",
+          "es": "No hay nadie tan amable como ella.",
+          "resaltado": "ほど"
+        },
+        {
+          "ja": "英語の文法は日本語ほど難しくない。",
+          "lectura": "えいごのぶんぽうはにほんごほどむずかしくない。",
+          "es": "La gramática del inglés no es tan difícil como la del japonés.",
+          "resaltado": "ほど"
         }
       ],
       "conexion": ["A + は + B + ほど + adjetivo / V en negativo"]
@@ -888,6 +1153,18 @@
           "lectura": "いくらたかくても、ひつようなものはかう。",
           "es": "Por más caro que sea, compro lo que necesito.",
           "resaltado": "いくら"
+        },
+        {
+          "ja": "お金はいくらあっても困りません。",
+          "lectura": "おかねはいくらあってもこまりません。",
+          "es": "No importa cuánto dinero tengas, nunca es un problema.",
+          "resaltado": "いくら"
+        },
+        {
+          "ja": "これはいくら安くても買いたくない。",
+          "lectura": "これはいくらやすくてもかいたくない。",
+          "es": "Por más barato que sea esto, no quiero comprarlo.",
+          "resaltado": "いくら"
         }
       ],
       "conexion": [
@@ -919,9 +1196,31 @@
           "lectura": "しごとがふえるいっぽうで、やすめない。",
           "es": "El trabajo no deja de aumentar y no puedo descansar.",
           "resaltado": null
+        },
+        {
+          "ja": "日本に来る外国人の数は増える一方だ。",
+          "lectura": "にほんにくるがいこくじんのかずはふえるいっぽうだ。",
+          "es": "El número de extranjeros que vienen a Japón no hace más que aumentar.",
+          "resaltado": "一方だ"
         }
       ],
       "conexion": ["V (forma diccionario) + 一方だ"]
+    },
+    {
+      "id": "n3-ippou-de",
+      "nivel": "n3",
+      "patron": "一方で",
+      "romaji": "ippou de",
+      "significado": "Por otro lado, mientras que (contraste).",
+      "ejemplos": [
+        {
+          "ja": "甘いものが好きな人がいる一方で嫌いな人もいる。",
+          "lectura": "あまいものがすきなひとがいるいっぽうできらいなひともいる。",
+          "es": "Por un lado hay gente a la que le gustan los dulces, mientras que por otro hay a quienes les desagradan.",
+          "resaltado": "一方で"
+        }
+      ],
+      "conexion": ["V / A (forma simple) + 一方で", "N + である + 一方で"]
     },
     {
       "id": "n3-ittai",
@@ -1008,6 +1307,28 @@
       "conexion": ["N + か何か"]
     },
     {
+      "id": "n3-kaette",
+      "nivel": "n3",
+      "patron": "かえって",
+      "romaji": "kaette",
+      "significado": "Al contrario, en cambio (resultado opuesto a lo esperado).",
+      "ejemplos": [
+        {
+          "ja": "それはかえって言わずにおく方が良い。",
+          "lectura": "それはかえっていわずにおくほうがよい。",
+          "es": "Al contrario, es mejor no decirlo.",
+          "resaltado": "かえって"
+        },
+        {
+          "ja": "タクシーに乗ったら電車よりかえって時間がかかった。",
+          "lectura": "タクシーにのったらでんしゃよりかえってじかんがかかった。",
+          "es": "Tomar un taxi tomó más tiempo al contrario de ir en tren.",
+          "resaltado": "かえって"
+        }
+      ],
+      "conexion": ["かえって + oración"]
+    },
+    {
       "id": "n3-kakeru",
       "nivel": "n3",
       "patron": "かける",
@@ -1034,6 +1355,53 @@
         }
       ],
       "conexion": ["V (raíz, forma ます sin ます) + かける / かけの + N"]
+    },
+    {
+      "id": "n3-kara-iu-to",
+      "nivel": "n3",
+      "patron": "から言うと／から言えば",
+      "romaji": "kara iu to / kara ieba",
+      "significado": "Desde el punto de vista de, juzgando por.",
+      "ejemplos": [
+        {
+          "ja": "能力から言って彼がこの仕事に一番適切だと思います。",
+          "lectura": "のうりょくからいってかれがこのしごとにいちばんてきせつだとおもいます。",
+          "es": "Juzgando por su capacidad, creo que él es el más adecuado para este trabajo.",
+          "resaltado": "から言って"
+        },
+        {
+          "ja": "この作文は日本語能力から言えばまだまだだが内容はいい。",
+          "lectura": "このさくぶんはにほんごのうりょくからいえばまだまだだがないようはいい。",
+          "es": "Desde el punto de vista del idioma aún le falta, pero el contenido es bueno.",
+          "resaltado": "から言えば"
+        }
+      ],
+      "conexion": ["N + から言うと / から言えば / から言って"]
+    },
+    {
+      "id": "n3-kara-koso",
+      "nivel": "n3",
+      "patron": "からこそ",
+      "romaji": "kara koso",
+      "significado": "Precisamente porque, justamente por.",
+      "ejemplos": [
+        {
+          "ja": "早く起きたからこそ私は始発電車に間に合った。",
+          "lectura": "はやくおきたからこそわたしはしはつでんしゃにまにあった。",
+          "es": "Precisamente porque me levanté temprano, llegué a tiempo al primer tren.",
+          "resaltado": "からこそ"
+        },
+        {
+          "ja": "たくさん勉強したからこそ日本語能力試験は簡単だった。",
+          "lectura": "たくさんべんきょうしたからこそにほんごのうりょくしけんはかんたんだった。",
+          "es": "Justamente porque estudié mucho, el examen fue fácil.",
+          "resaltado": "からこそ"
+        }
+      ],
+      "conexion": [
+        "V / いA (forma simple) + からこそ",
+        "N / なA + だ + からこそ"
+      ]
     },
     {
       "id": "n3-kara-ni-kakete",
@@ -1086,6 +1454,18 @@
           "ja": "パンの代わりにご飯を食べた。",
           "lectura": "パンのかわりにごはんをたべた。",
           "es": "Comí arroz en lugar de pan.",
+          "resaltado": "代わりに"
+        },
+        {
+          "ja": "今朝はコーヒーの代わりにお茶を飲んだ。",
+          "lectura": "けさはコーヒーのかわりにおちゃをのんだ。",
+          "es": "Esta mañana tomé té en lugar de café.",
+          "resaltado": "代わりに"
+        },
+        {
+          "ja": "今日は仕事へ車で行く代わりに自転車で行った。",
+          "lectura": "きょうはしごとへくるまでいくかわりにじてんしゃでいった。",
+          "es": "Hoy fui al trabajo en bicicleta en lugar de ir en coche.",
           "resaltado": "代わりに"
         }
       ],
@@ -1171,6 +1551,18 @@
           "lectura": "かれはけっしてわるいひとではない。",
           "es": "Él no es para nada una mala persona.",
           "resaltado": "決して"
+        },
+        {
+          "ja": "私の鍵は決して忘れません。",
+          "lectura": "わたしのかぎはけっしてわすれません。",
+          "es": "Jamás olvidaré mi llave.",
+          "resaltado": "決して"
+        },
+        {
+          "ja": "私は決して夢をあきらめない。",
+          "lectura": "わたしはけっしてゆめをあきらめない。",
+          "es": "Jamás me rendiré con mi sueño.",
+          "resaltado": "決して"
         }
       ],
       "conexion": ["決して + negativo"]
@@ -1199,6 +1591,18 @@
           "lectura": "かんしゃしてもしきれません。",
           "es": "No sé cómo agradecérselo lo suficiente.",
           "resaltado": null
+        },
+        {
+          "ja": "このお酒が強すぎて飲みきれなかった。",
+          "lectura": "このおさけがつよすぎてのみきれなかった。",
+          "es": "Este alcohol era demasiado fuerte y no pude terminármelo.",
+          "resaltado": "きれなかった"
+        },
+        {
+          "ja": "一杯注文しないで、2人で食べきれないから。",
+          "lectura": "いっぱいちゅうもんしないで、ふたりでたべきれないから。",
+          "es": "No pidas tanto, entre los dos no nos lo vamos a poder terminar.",
+          "resaltado": "きれない"
         }
       ],
       "conexion": ["V (raíz, forma ます sin ます) + きれない"]
@@ -1255,6 +1659,18 @@
           "lectura": "このほんはいちにちでよみきった。",
           "es": "Me leí este libro entero en un día.",
           "resaltado": null
+        },
+        {
+          "ja": "どうしてそう言い切れるのですか。",
+          "lectura": "どうしてそういいきれるのですか。",
+          "es": "¿Cómo puedes afirmarlo tan rotundamente?",
+          "resaltado": "切れる"
+        },
+        {
+          "ja": "お小遣いを使い切ってしまった。",
+          "lectura": "おこづかいをつかいきってしまった。",
+          "es": "Gasté todo mi dinero de bolsillo por completo.",
+          "resaltado": "切って"
         }
       ],
       "conexion": ["V (raíz, forma ます sin ます) + 切る"]
@@ -1342,9 +1758,43 @@
           "lectura": "これこそわたしがさがしていたほんだ。",
           "es": "Este es justamente el libro que buscaba.",
           "resaltado": "こそ"
+        },
+        {
+          "ja": "これこそ私が望んだものです。",
+          "lectura": "これこそわたしがのぞんだものです。",
+          "es": "Esto es precisamente lo que yo deseaba.",
+          "resaltado": "こそ"
+        },
+        {
+          "ja": "今年こそJLPTに受かりたい。",
+          "lectura": "ことしこそJLPTにうかりたい。",
+          "es": "Este año sí o sí quiero aprobar el JLPT.",
+          "resaltado": "こそ"
         }
       ],
       "conexion": ["N + こそ (énfasis)"]
+    },
+    {
+      "id": "n3-koto-da",
+      "nivel": "n3",
+      "patron": "ことだ",
+      "romaji": "koto da",
+      "significado": "Lo mejor es, deberías (consejo).",
+      "ejemplos": [
+        {
+          "ja": "無理をしないことだよ。",
+          "lectura": "むりをしないことだよ。",
+          "es": "Lo que debes hacer es no sobreexigirte.",
+          "resaltado": "ことだ"
+        },
+        {
+          "ja": "日本語が上手くなりたかったらたくさん練習することだよ。",
+          "lectura": "にほんごがうまくなりたかったらたくさんれんしゅうすることだよ。",
+          "es": "Si quieres mejorar tu japonés, lo que debes hacer es practicar mucho.",
+          "resaltado": "ことだ"
+        }
+      ],
+      "conexion": ["V (forma diccionario / ない) + ことだ"]
     },
     {
       "id": "n3-koto-deber",
@@ -1397,6 +1847,18 @@
           "ja": "道がぬれていることから、夜に雨が降ったのだろう。",
           "lectura": "みちがぬれていることから、よるにあめがふったのだろう。",
           "es": "Como la calle está mojada, debe de haber llovido en la noche.",
+          "resaltado": "ことから"
+        },
+        {
+          "ja": "この村には大学がないことから東京へ来ました。",
+          "lectura": "このむらにはだいがくがないことからとうきょうへきました。",
+          "es": "Debido a que en esta aldea no hay universidad, vine a Tokio.",
+          "resaltado": "ことから"
+        },
+        {
+          "ja": "顔がそっくりなことから双子であることを知った。",
+          "lectura": "かおがそっくりなことからふたごであることをしった。",
+          "es": "Por el hecho de tener caras idénticas me enteré de que eran gemelos.",
           "resaltado": "ことから"
         }
       ],
@@ -1457,6 +1919,18 @@
           "lectura": "そんなにいそぐことはない。",
           "es": "No hay por qué apurarse tanto.",
           "resaltado": "ことはない"
+        },
+        {
+          "ja": "謝ることはないよ。",
+          "lectura": "あやまることはないよ。",
+          "es": "No hay necesidad de disculparse.",
+          "resaltado": "ことはない"
+        },
+        {
+          "ja": "日本語能力試験は簡単だから心配することはないよ。",
+          "lectura": "にほんごのうりょくしけんはかんたんだからしんぱいすることはないよ。",
+          "es": "El examen es sencillo, no hay necesidad de preocuparse.",
+          "resaltado": "ことはない"
         }
       ],
       "conexion": ["V (forma diccionario) + ことはない (no hace falta)"]
@@ -1513,6 +1987,18 @@
           "lectura": "あいさつぐらいはしなさい。",
           "es": "Por lo menos saluda.",
           "resaltado": "ぐらい"
+        },
+        {
+          "ja": "去年の夏は今年の夏と同じくらいの暑さだ。",
+          "lectura": "きょねんのなつはことしのなつとおなじくらいのあつさだ。",
+          "es": "El verano pasado fue casi tan caluroso como el de este año.",
+          "resaltado": "くらい"
+        },
+        {
+          "ja": "日本語は韓国語と同じくらい難しいと思う。",
+          "lectura": "にほんごはかんこくごとおなじくらいむずかしいとおもう。",
+          "es": "Creo que el japonés es tan difícil como el coreano.",
+          "resaltado": "くらい"
         }
       ],
       "conexion": [
@@ -1543,6 +2029,18 @@
           "ja": "下手なくせに、いつも歌いたがる。",
           "lectura": "へたなくせに、いつもうたいたがる。",
           "es": "Canta mal y aun así siempre quiere cantar.",
+          "resaltado": "くせに"
+        },
+        {
+          "ja": "背が高いくせに早く走れない。",
+          "lectura": "せがたかいくせにはやくはしれない。",
+          "es": "A pesar de ser alto, no puede correr rápido.",
+          "resaltado": "くせに"
+        },
+        {
+          "ja": "元気なくせに病気のふりをしている。",
+          "lectura": "げんきなくせにびょうきのふりをしている。",
+          "es": "Y eso que está sano, pero se hace el enfermo.",
           "resaltado": "くせに"
         }
       ],
@@ -1576,6 +2074,18 @@
           "lectura": "きょうはまるでなつのようにあつい。",
           "es": "Hoy hace calor como si fuera verano.",
           "resaltado": "まるで"
+        },
+        {
+          "ja": "合格した。まるで夢のようだ。",
+          "lectura": "ごうかくした。まるでゆめのようだ。",
+          "es": "Aprobé. Es como si fuera un sueño.",
+          "resaltado": "まるで"
+        },
+        {
+          "ja": "彼の日本語はまるで日本人が話しているように聞こえる。",
+          "lectura": "かれのにほんごはまるでにほんじんがはなしているようにきこえる。",
+          "es": "Su japonés suena tal cual como si hablara un nativo.",
+          "resaltado": "まるで"
         }
       ],
       "conexion": ["まるで + 〜ようだ / 〜みたいだ"]
@@ -1604,9 +2114,43 @@
           "lectura": "まさかたからくじがあたるなんて。",
           "es": "¡No puedo creer que me haya ganado la lotería!",
           "resaltado": "まさか"
+        },
+        {
+          "ja": "僕はまさかそんなことはできないよ。",
+          "lectura": "ぼくはまさかそんなことはできないよ。",
+          "es": "De ninguna manera puedo hacer algo así.",
+          "resaltado": "まさか"
+        },
+        {
+          "ja": "まさか鍵をなくしたのではないでしょうね。",
+          "lectura": "まさかかぎをなくしたのではないでしょうね。",
+          "es": "¡No me digas que perdiste la llave!",
+          "resaltado": "まさか"
         }
       ],
       "conexion": ["まさか + 〜とは思わなかった / 〜はずがない / 〜なんて"]
+    },
+    {
+      "id": "n3-mattaku-nai",
+      "nivel": "n3",
+      "patron": "まったく～ない",
+      "romaji": "mattaku ~ nai",
+      "significado": "Para nada, en absoluto.",
+      "ejemplos": [
+        {
+          "ja": "あなたは日本語をまったく勉強しない。",
+          "lectura": "あなたはにほんごをまったくべんきょうしない。",
+          "es": "Tú no estudias nada de japonés en absoluto.",
+          "resaltado": "まったく"
+        },
+        {
+          "ja": "まったく漢字が書けない。",
+          "lectura": "まったくかんじがかけない。",
+          "es": "No puedo escribir kanji en absoluto.",
+          "resaltado": "まったく"
+        }
+      ],
+      "conexion": ["まったく + V / A (negativo)"]
     },
     {
       "id": "n3-metta-ni-nai",
@@ -1632,6 +2176,18 @@
           "lectura": "さいきん、えいがかんにはめったにいきません。",
           "es": "Últimamente casi nunca voy al cine.",
           "resaltado": "めったに"
+        },
+        {
+          "ja": "彼は滅多に日本語を勉強しない。",
+          "lectura": "かれはめったににほんごをべんきょうしない。",
+          "es": "Él rara vez estudia japonés.",
+          "resaltado": "滅多に"
+        },
+        {
+          "ja": "このあたりでは滅多に雪が降りません。",
+          "lectura": "このあたりではめったにゆきがふりません。",
+          "es": "Por esta zona casi nunca nieva.",
+          "resaltado": "滅多に"
         }
       ],
       "conexion": ["めったに + V en negativo"]
@@ -1687,6 +2243,18 @@
           "ja": "もしかしたら、私の勘違いかもしれない。",
           "lectura": "もしかしたら、わたしのかんちがいかもしれない。",
           "es": "A lo mejor me equivoqué.",
+          "resaltado": "もしかしたら"
+        },
+        {
+          "ja": "もしかしたら明日行けないかもしれない。",
+          "lectura": "もしかしたらあしたいけないかもしれない。",
+          "es": "Tal vez no pueda ir mañana.",
+          "resaltado": "もしかしたら"
+        },
+        {
+          "ja": "もしかしたら彼は会社をやめたかもしれない。",
+          "lectura": "もしかしたらかれはかいしゃをやめたかもしれない。",
+          "es": "A lo mejor renunció a la empresa.",
           "resaltado": "もしかしたら"
         }
       ],
@@ -1744,6 +2312,18 @@
           "lectura": "しょしんしゃむけのりょうりきょうしつにかよっている。",
           "es": "Voy a un curso de cocina para principiantes.",
           "resaltado": "向け"
+        },
+        {
+          "ja": "このアパートは部屋が多くてファミリー向けだ。",
+          "lectura": "このアパートはへやがおおくてファミリーむけだ。",
+          "es": "Este apartamento tiene muchas habitaciones y está destinado a familias.",
+          "resaltado": "向け"
+        },
+        {
+          "ja": "最近は男性向けの料理教室が人気だ。",
+          "lectura": "さいきんはだんせいむけのりょうりきょうしつがにんきだ。",
+          "es": "Últimamente las clases de cocina dirigidas a hombres son populares.",
+          "resaltado": "向け"
         }
       ],
       "conexion": ["N + 向け（の N / に）"]
@@ -1771,6 +2351,18 @@
           "ja": "この靴は山登り向きではない。",
           "lectura": "このくつはやまのぼりむきではない。",
           "es": "Estos zapatos no son aptos para subir montañas.",
+          "resaltado": "向き"
+        },
+        {
+          "ja": "この本は初心者向きである。",
+          "lectura": "このほんはしょしんしゃむきである。",
+          "es": "Este libro es adecuado para principiantes.",
+          "resaltado": "向き"
+        },
+        {
+          "ja": "その映画は子供向きだ。",
+          "lectura": "そのえいがはこどもむきだ。",
+          "es": "Esa película es apta para niños.",
           "resaltado": "向き"
         }
       ],
@@ -1800,6 +2392,18 @@
           "lectura": "しっぱいしたことは、むしろいいけいけんになった。",
           "es": "Haber fracasado fue, más bien, una buena experiencia.",
           "resaltado": "むしろ"
+        },
+        {
+          "ja": "私はむしろ一人でゲームしたい。",
+          "lectura": "わたしはむしろひとりでゲームしたい。",
+          "es": "Más bien prefiero jugar videojuegos solo.",
+          "resaltado": "むしろ"
+        },
+        {
+          "ja": "私はむしろ自転車で行きたい。",
+          "lectura": "わたしはむしろじてんしゃでいきたい。",
+          "es": "Más bien prefiero ir en bicicleta.",
+          "resaltado": "むしろ"
         }
       ],
       "conexion": ["A というより（も）、むしろ B"]
@@ -1827,6 +2431,18 @@
           "ja": "悪いと知りながらも、うそをついてしまった。",
           "lectura": "わるいとしりながらも、うそをついてしまった。",
           "es": "Aunque sabía que estaba mal, terminé mintiendo.",
+          "resaltado": "ながらも"
+        },
+        {
+          "ja": "狭いながらもこのマンションは大好きだ。",
+          "lectura": "せまいながらもこのマンションはだいすきだ。",
+          "es": "A pesar de ser pequeño, me encanta este apartamento.",
+          "resaltado": "ながらも"
+        },
+        {
+          "ja": "彼の言葉は厳しいながらも温かい。",
+          "lectura": "かれのことばはきびしいながらもあたたかい。",
+          "es": "Sus palabras son estrictas, pero aun así son cálidas.",
           "resaltado": "ながらも"
         }
       ],
@@ -1859,6 +2475,18 @@
           "ja": "納豆は食べられないことはないが、あまり好きではない。",
           "lectura": "なっとうはたべられないことはないが、あまりすきではない。",
           "es": "No es que no pueda comer natto, pero no me gusta mucho.",
+          "resaltado": "ないことはない"
+        },
+        {
+          "ja": "走れば間に合わないことはないよ。",
+          "lectura": "はしればまにあわないことはないよ。",
+          "es": "Si corres, no es imposible llegar a tiempo.",
+          "resaltado": "ないことはない"
+        },
+        {
+          "ja": "車を運転できないことはないんですが、ほとんどしません。",
+          "lectura": "くるまをうんてんできないことはないんですが、ほとんどしません。",
+          "es": "No es que no sepa conducir, pero casi no lo hago.",
           "resaltado": "ないことはない"
         }
       ],
@@ -1915,6 +2543,18 @@
           "ja": "この店の料理はなかなかおいしい。",
           "lectura": "このみせのりょうりはなかなかおいしい。",
           "es": "La comida de este local es bastante rica.",
+          "resaltado": "なかなか"
+        },
+        {
+          "ja": "なかなか面白そうです。",
+          "lectura": "なかなかおもしろそうです。",
+          "es": "Se ve bastante interesante.",
+          "resaltado": "なかなか"
+        },
+        {
+          "ja": "彼女はなかなか勉強熱心な子だ。",
+          "lectura": "かのじょはなかなかべんきょうねっしんなこだ。",
+          "es": "Ella es una chica bastante estudiosa.",
           "resaltado": "なかなか"
         }
       ],
@@ -2028,6 +2668,18 @@
           "lectura": "はやくねたほうがいい。なぜなら、あしたはしけんだからだ。",
           "es": "Es mejor acostarse temprano, porque mañana hay examen.",
           "resaltado": "なぜなら"
+        },
+        {
+          "ja": "なぜなら彼は日本が大好きだからです。",
+          "lectura": "なぜならかれはにほんがだいすきだからです。",
+          "es": "Porque a él le encanta Japón.",
+          "resaltado": "なぜなら"
+        },
+        {
+          "ja": "私は猫が好きです。なぜなら猫は一番かわいい動物だからです。",
+          "lectura": "わたしはねこがすきです。なぜならねこはいちばんかわいいどうぶつだからです。",
+          "es": "Me gustan los gatos porque son los animales más tiernos.",
+          "resaltado": "なぜなら"
         }
       ],
       "conexion": ["Oración。+ なぜなら、+ 〜からだ"]
@@ -2061,6 +2713,28 @@
       "conexion": ["V / いA (forma simple) + んだって", "N / なA + なんだって"]
     },
     {
+      "id": "n3-ni-ataru",
+      "nivel": "n3",
+      "patron": "に当たる／に当たって",
+      "romaji": "ni ataru / ni atatte",
+      "significado": "Equivaler a, caer en; al momento de (に当たって, formal).",
+      "ejemplos": [
+        {
+          "ja": "今年のクリスマスは日曜日に当たる。",
+          "lectura": "ことしのクリスマスはにちようびにあたる。",
+          "es": "Este año la Navidad cae en domingo.",
+          "resaltado": "に当たる"
+        },
+        {
+          "ja": "マンションを買うに当たって私ども夫婦はいろいろ調査をしました。",
+          "lectura": "マンションをかうにあたってわたしどもふうふはいろいろちょうさをしました。",
+          "es": "Al momento de comprar el apartamento, mi esposa y yo investigamos bastante.",
+          "resaltado": "に当たって"
+        }
+      ],
+      "conexion": ["N + に当たる", "V (forma diccionario) / N + に当たって"]
+    },
+    {
       "id": "n3-ni-chigai-nai",
       "nivel": "n3",
       "patron": "に違いない",
@@ -2083,6 +2757,18 @@
           "ja": "あんなに練習したのだから、合格するに違いない。",
           "lectura": "あんなにれんしゅうしたのだから、ごうかくするにちがいない。",
           "es": "Practicó tanto que seguro aprobará.",
+          "resaltado": "に違いない"
+        },
+        {
+          "ja": "彼はまだ寝ているに違いない。",
+          "lectura": "かれはまだねているにちがいない。",
+          "es": "Sin duda él todavía está durmiendo.",
+          "resaltado": "に違いない"
+        },
+        {
+          "ja": "彼女は日本に20年も住んでいたから日本語が上手に話せるに違いない。",
+          "lectura": "かのじょはにほんににじゅうねんもすんでいたからにほんごがじょうずにはなせるにちがいない。",
+          "es": "Como vivió 20 años en Japón, seguro que habla bien japonés.",
           "resaltado": "に違いない"
         }
       ],
@@ -2118,6 +2804,28 @@
         }
       ],
       "conexion": ["N (予想・期待・規則…) + に反して"]
+    },
+    {
+      "id": "n3-ni-kagiru",
+      "nivel": "n3",
+      "patron": "に限る",
+      "romaji": "ni kagiru",
+      "significado": "No hay nada como, lo mejor es.",
+      "ejemplos": [
+        {
+          "ja": "寒い日は熱いココアに限る。",
+          "lectura": "さむいひはあついココアにかぎる。",
+          "es": "En días fríos, nada supera a un chocolate caliente.",
+          "resaltado": "に限る"
+        },
+        {
+          "ja": "風邪の時には寝るに限る。",
+          "lectura": "かぜのときにはねるにかぎる。",
+          "es": "Cuando se está resfriado, lo mejor es dormir.",
+          "resaltado": "に限る"
+        }
+      ],
+      "conexion": ["N / V (forma diccionario) + に限る"]
     },
     {
       "id": "n3-ni-kakete",
@@ -2230,6 +2938,18 @@
           "lectura": "あににくらべて、おとうとはせがひくい。",
           "es": "En comparación con el hermano mayor, el menor es bajo.",
           "resaltado": "に比べて"
+        },
+        {
+          "ja": "昨日に比べて今日は暖かい。",
+          "lectura": "きのうにくらべてきょうはあたたかい。",
+          "es": "En comparación con ayer, hoy está más cálido.",
+          "resaltado": "に比べて"
+        },
+        {
+          "ja": "スマホに比べるとパソコンは便利です。",
+          "lectura": "スマホにくらべるとパソコンはべんりです。",
+          "es": "En comparación con los teléfonos inteligentes, las computadoras son más convenientes.",
+          "resaltado": "に比べると"
         }
       ],
       "conexion": ["N + に比べて / と比べて"]
@@ -2342,6 +3062,18 @@
           "lectura": "いそがしいにしても、でんわぐらいできるでしょう。",
           "es": "Aunque estés ocupado, por lo menos podrías llamar.",
           "resaltado": "にしても"
+        },
+        {
+          "ja": "それにしても日本はいい国ですね。",
+          "lectura": "それにしてもにほんはいいくにですね。",
+          "es": "Aun así, Japón es un gran país, ¿verdad?",
+          "resaltado": "にしても"
+        },
+        {
+          "ja": "今回の試験は合格したにしても点数はあまり良くないと思う。",
+          "lectura": "こんかいのしけんはごうかくしたにしてもてんすうはあまりよくないとおもう。",
+          "es": "Aun si aprobé este examen, creo que la nota no fue muy buena.",
+          "resaltado": "にしても"
         }
       ],
       "conexion": ["V / いA (forma simple) + にしても", "N + にしても"]
@@ -2369,6 +3101,18 @@
           "ja": "十月にしては、今日は暑い。",
           "lectura": "じゅうがつにしては、きょうはあつい。",
           "es": "Para ser octubre, hoy hace calor.",
+          "resaltado": "にしては"
+        },
+        {
+          "ja": "10月にしてはちょっと寒いですね。",
+          "lectura": "じゅうがつにしてはちょっとさむいですね。",
+          "es": "Para ser octubre, hace un poco de frío, ¿verdad?",
+          "resaltado": "にしては"
+        },
+        {
+          "ja": "初めてケーキを作ったにしては上手にできましたね。",
+          "lectura": "はじめてケーキをつくったにしてはじょうずにできましたね。",
+          "es": "Para ser la primera vez que haces un pastel, te quedó muy bien.",
           "resaltado": "にしては"
         }
       ],
@@ -2457,6 +3201,18 @@
           "lectura": "このもんだいについて、どうおもいますか。",
           "es": "¿Qué piensas sobre este problema?",
           "resaltado": "について"
+        },
+        {
+          "ja": "この問題についてどう思いますか。",
+          "lectura": "このもんだいについてどうおもいますか。",
+          "es": "¿Qué piensas sobre este problema?",
+          "resaltado": "について"
+        },
+        {
+          "ja": "私は未来について決して心配しない。",
+          "lectura": "わたしはみらいについてけっしてしんぱいしない。",
+          "es": "Nunca me preocupo por el futuro.",
+          "resaltado": "について"
         }
       ],
       "conexion": ["N + について + V (hablar, pensar, investigar)"]
@@ -2541,6 +3297,18 @@
           "lectura": "せんせいのはなしによると、しけんはらいしゅうあるそうです。",
           "es": "Según el profesor, el examen es la próxima semana.",
           "resaltado": "によると"
+        },
+        {
+          "ja": "天気予報によると今日は晴れです。",
+          "lectura": "てんきよほうによるときょうははれです。",
+          "es": "Según el pronóstico del tiempo, hoy estará despejado.",
+          "resaltado": "によると"
+        },
+        {
+          "ja": "先生の話によると今年のテストはそんなに難しくないらしい。",
+          "lectura": "せんせいのはなしによるとことしのテストはそんなにむずかしくないらしい。",
+          "es": "Según el profesor, parece que el examen de este año no es tan difícil.",
+          "resaltado": "によると"
         }
       ],
       "conexion": ["N + によると / によれば + 〜そうだ / 〜らしい"]
@@ -2569,6 +3337,18 @@
           "lectura": "たいふうによるひがいはおおきかった。",
           "es": "Los daños causados por el tifón fueron grandes.",
           "resaltado": "による"
+        },
+        {
+          "ja": "それは場合による。",
+          "lectura": "それはばあいによる。",
+          "es": "Eso depende de la situación.",
+          "resaltado": "による"
+        },
+        {
+          "ja": "人によって考え方が違う。",
+          "lectura": "ひとによってかんがえかたがちがう。",
+          "es": "La forma de pensar varía según la persona.",
+          "resaltado": "によって"
         }
       ],
       "conexion": [
@@ -2606,6 +3386,94 @@
         "V / いA (forma simple) + のでしょうか",
         "N / なA + なのでしょうか"
       ]
+    },
+    {
+      "id": "n3-shidai",
+      "nivel": "n3",
+      "patron": "次第",
+      "romaji": "shidai",
+      "significado": "En cuanto, tan pronto como.",
+      "ejemplos": [
+        {
+          "ja": "雨が止み次第出発することにしましょう。",
+          "lectura": "あめがやみしだいしゅっぱつすることにしましょう。",
+          "es": "Salgamos tan pronto como pare de llover.",
+          "resaltado": "次第"
+        },
+        {
+          "ja": "来週のスケジュールが決まり次第連絡してください。",
+          "lectura": "らいしゅうのスケジュールがきまりしだいれんらくしてください。",
+          "es": "Por favor avísame apenas se decida el horario de la próxima semana.",
+          "resaltado": "次第"
+        }
+      ],
+      "conexion": ["V (raíz, forma ます sin ます) + 次第", "N + 次第"]
+    },
+    {
+      "id": "n3-sou-suru-to",
+      "nivel": "n3",
+      "patron": "そうすると",
+      "romaji": "sou suru to",
+      "significado": "Al hacer eso, y entonces.",
+      "ejemplos": [
+        {
+          "ja": "ドアを開けた。そうすると見知らぬ人が立っていた。",
+          "lectura": "ドアをあけた。そうするとみしらぬひとがたっていた。",
+          "es": "Abrí la puerta. Y entonces había un desconocido parado allí.",
+          "resaltado": "そうすると"
+        },
+        {
+          "ja": "今日中に勉強しておこう。そうすると明日のテストが楽になる。",
+          "lectura": "きょうじゅうにべんきょうしておこう。そうするとあしたのテストがらくになる。",
+          "es": "Estudiemos hoy. Al hacer eso, el examen de mañana será más fácil.",
+          "resaltado": "そうすると"
+        }
+      ],
+      "conexion": ["Oración。 + そうすると + oración"]
+    },
+    {
+      "id": "n3-tadachi-ni",
+      "nivel": "n3",
+      "patron": "直ちに",
+      "romaji": "tadachi ni",
+      "significado": "De inmediato, inmediatamente (formal).",
+      "ejemplos": [
+        {
+          "ja": "私はこの仕事を直ちにしなくてはならない。",
+          "lectura": "わたしはこのしごとをただちにしなくてはならない。",
+          "es": "Tengo que hacer este trabajo de inmediato.",
+          "resaltado": "直ちに"
+        },
+        {
+          "ja": "直ちに出発しないと私は約束に遅れるだろう。",
+          "lectura": "ただちにしゅっぱつしないとわたしはやくそくにおくれるだろう。",
+          "es": "Si no salgo de inmediato, llegaré tarde a mi cita.",
+          "resaltado": "直ちに"
+        }
+      ],
+      "conexion": ["直ちに + V"]
+    },
+    {
+      "id": "n3-to-douji-ni",
+      "nivel": "n3",
+      "patron": "と同時に",
+      "romaji": "to douji ni",
+      "significado": "Al mismo tiempo que, justo cuando.",
+      "ejemplos": [
+        {
+          "ja": "お風呂に入ると同時に私の電話が鳴りました。",
+          "lectura": "おふろにはいるとどうじにわたしのでんわがなりました。",
+          "es": "Justo al mismo tiempo que entré al baño, sonó mi teléfono.",
+          "resaltado": "と同時に"
+        },
+        {
+          "ja": "彼は英語の先生をしていると同時に音楽も書いている。",
+          "lectura": "かれはえいごのせんせいをしているとどうじにおんがくもかいている。",
+          "es": "Al mismo tiempo que trabaja como profesor de inglés, compone música.",
+          "resaltado": "と同時に"
+        }
+      ],
+      "conexion": ["V (forma diccionario) + と同時に", "N + と同時に"]
     },
     {
       "id": "n3-wo-chuushin-ni",
@@ -2659,6 +3527,18 @@
           "lectura": "すしをはじめ、にほんりょうりはせかいじゅうでにんきがある。",
           "es": "La comida japonesa, empezando por el sushi, es popular en todo el mundo.",
           "resaltado": "をはじめ"
+        },
+        {
+          "ja": "日本の春はお花見をはじめたくさんのイベントがある。",
+          "lectura": "にほんのはるはおはなみをはじめたくさんのイベントがある。",
+          "es": "La primavera en Japón tiene muchos eventos, empezando por el hanami.",
+          "resaltado": "をはじめ"
+        },
+        {
+          "ja": "東京には東京タワーをはじめとする多くの観光地がある。",
+          "lectura": "とうきょうにはとうきょうタワーをはじめとするおおくのかんこうちがある。",
+          "es": "En Tokio hay muchos lugares turísticos, empezando por la Torre de Tokio.",
+          "resaltado": "をはじめとする"
         }
       ],
       "conexion": ["N + をはじめ（として）"]
@@ -2743,6 +3623,18 @@
           "lectura": "てんきがよかったおかげで、たのしいりょこうになった。",
           "es": "Gracias al buen tiempo, el viaje fue entretenido.",
           "resaltado": "おかげで"
+        },
+        {
+          "ja": "スマホのおかげで日本語を勉強するのが簡単です。",
+          "lectura": "スマホのおかげでにほんごをべんきょうするのがかんたんです。",
+          "es": "Gracias a los smartphones, estudiar japonés es fácil.",
+          "resaltado": "おかげで"
+        },
+        {
+          "ja": "妻のおかげで私は毎日幸せだ。",
+          "lectura": "つまのおかげでわたしはまいにちしあわせだ。",
+          "es": "Gracias a mi esposa, soy feliz todos los días.",
+          "resaltado": "おかげで"
         }
       ],
       "conexion": [
@@ -2774,6 +3666,18 @@
           "ja": "今日は一日中立ちっぱなしで、足が痛い。",
           "lectura": "きょうはいちにちじゅうたちっぱなしで、あしがいたい。",
           "es": "Hoy estuve de pie todo el día y me duelen los pies.",
+          "resaltado": "っぱなし"
+        },
+        {
+          "ja": "このドアはいつも開けっぱなしだ。",
+          "lectura": "このドアはいつもあけっぱなしだ。",
+          "es": "Esta puerta siempre la dejan abierta.",
+          "resaltado": "っぱなし"
+        },
+        {
+          "ja": "水を出しっぱなしにしないでください。",
+          "lectura": "みずをだしっぱなしにしないでください。",
+          "es": "Por favor no dejes el agua corriendo.",
           "resaltado": "っぱなし"
         }
       ],
@@ -2859,6 +3763,18 @@
           "lectura": "てんきさえよければ、やまにのぼれる。",
           "es": "Con tal de que haga buen tiempo, podemos subir la montaña.",
           "resaltado": "さえ"
+        },
+        {
+          "ja": "彼さえいれば幸せです。",
+          "lectura": "かれさえいればしあわせです。",
+          "es": "Con solo estar él, soy feliz.",
+          "resaltado": "さえ"
+        },
+        {
+          "ja": "10円さえあれば買えます。",
+          "lectura": "じゅうえんさえあればかえます。",
+          "es": "Con solo tener 10 yenes se puede comprar.",
+          "resaltado": "さえ"
         }
       ],
       "conexion": ["N + さえ + V (forma ば)", "V (raíz) + さえすれば"]
@@ -2914,6 +3830,18 @@
           "ja": "試験の最中に、おなかが痛くなった。",
           "lectura": "しけんのさいちゅうに、おなかがいたくなった。",
           "es": "En pleno examen me empezó a doler el estómago.",
+          "resaltado": "最中に"
+        },
+        {
+          "ja": "映画の最中にテレビが壊れた。",
+          "lectura": "えいがのさいちゅうにテレビがこわれた。",
+          "es": "Justo en medio de la película se rompió la televisión.",
+          "resaltado": "最中に"
+        },
+        {
+          "ja": "会議をしている最中にスマホが鳴った。",
+          "lectura": "かいぎをしているさいちゅうにスマホがなった。",
+          "es": "Justo en medio de la reunión sonó el teléfono.",
           "resaltado": "最中に"
         }
       ],
@@ -3002,6 +3930,18 @@
           "lectura": "となりのへやがうるさいせいで、ねむれない。",
           "es": "No puedo dormir por culpa del ruido de la habitación de al lado.",
           "resaltado": "せいで"
+        },
+        {
+          "ja": "頭が痛い。疲れたせいかな。",
+          "lectura": "あたまがいたい。つかれたせいかな。",
+          "es": "Me duele la cabeza. Tal vez sea por culpa del cansancio.",
+          "resaltado": "せいか"
+        },
+        {
+          "ja": "あなたの失敗を私のせいにしないでよ。",
+          "lectura": "あなたのしっぱいをわたしのせいにしないでよ。",
+          "es": "¡No me eches la culpa a mí de tu fracaso!",
+          "resaltado": "せいに"
         }
       ],
       "conexion": [
@@ -3090,6 +4030,18 @@
           "lectura": "だれもてつだってくれないから、じぶんでするしかない。",
           "es": "Como nadie me ayuda, no me queda más que hacerlo yo mismo.",
           "resaltado": "しかない"
+        },
+        {
+          "ja": "やるしかない。",
+          "lectura": "やるしかない。",
+          "es": "No queda otra opción que hacerlo.",
+          "resaltado": "しかない"
+        },
+        {
+          "ja": "パソコンが直せないから新しいものを買うしかなかった。",
+          "lectura": "パソコンがなおせないからあたらしいものをかうしかなかった。",
+          "es": "Como la computadora no se podía reparar, no quedó más remedio que comprar una nueva.",
+          "resaltado": "しかなかった"
         }
       ],
       "conexion": ["V (forma diccionario) + しかない"]
@@ -3117,6 +4069,18 @@
           "ja": "家を買いたい。そのために、お金をためている。",
           "lectura": "いえをかいたい。そのために、おかねをためている。",
           "es": "Quiero comprar una casa. Para eso estoy ahorrando.",
+          "resaltado": "そのために"
+        },
+        {
+          "ja": "私はそのための時間が取れない。",
+          "lectura": "わたしはそのためのじかんがとれない。",
+          "es": "No puedo tomarme el tiempo para eso.",
+          "resaltado": "そのため"
+        },
+        {
+          "ja": "私は留学したいです。そのためには日本語を学ぶ必要があります。",
+          "lectura": "わたしはりゅうがくしたいです。そのためにはにほんごをまなぶひつようがあります。",
+          "es": "Quiero estudiar en el extranjero. Para tal fin, necesito aprender japonés.",
           "resaltado": "そのために"
         }
       ],
@@ -3286,6 +4250,18 @@
           "lectura": "むかしはこのみちをよくあるいたものだ。",
           "es": "Antes solía caminar mucho por esta calle.",
           "resaltado": "たものだ"
+        },
+        {
+          "ja": "子どもの頃はよく川で遊んだものだ。",
+          "lectura": "こどものころはよくかわであそんだものだ。",
+          "es": "Cuando era niño, solía jugar a menudo en el río.",
+          "resaltado": "ものだ"
+        },
+        {
+          "ja": "日本へ留学したとき寿司をよく食べたものだ。",
+          "lectura": "にほんへりゅうがくしたときすしをよくたべたものだ。",
+          "es": "Cuando estudié en Japón, solía comer mucho sushi.",
+          "resaltado": "たものだ"
         }
       ],
       "conexion": ["V (forma た) + ものだ"]
@@ -3342,6 +4318,18 @@
           "lectura": "かれはあうたびに、せがたかくなっている。",
           "es": "Cada vez que lo veo, está más alto.",
           "resaltado": "たびに"
+        },
+        {
+          "ja": "友人は旅行のたびにお土産を買ってきてくれます。",
+          "lectura": "ゆうじんはりょこうのたびにおみやげをかってきてくれます。",
+          "es": "Mi amigo me trae recuerdos cada vez que viaja.",
+          "resaltado": "たびに"
+        },
+        {
+          "ja": "買い物のたびに袋をたくさんもらう。",
+          "lectura": "かいもののたびにふくろをたくさんもらう。",
+          "es": "Cada vez que voy de compras me dan muchas bolsas.",
+          "resaltado": "たびに"
         }
       ],
       "conexion": ["V (forma diccionario) + たびに", "N + の + たびに"]
@@ -3369,6 +4357,18 @@
           "ja": "大雪のために、電車が遅れた。",
           "lectura": "おおゆきのために、でんしゃがおくれた。",
           "es": "El tren se atrasó debido a la gran nevada.",
+          "resaltado": "ために"
+        },
+        {
+          "ja": "犬のためにベッドを作った。",
+          "lectura": "いぬのためにベッドをつくった。",
+          "es": "Hice una cama para mi perro.",
+          "resaltado": "ために"
+        },
+        {
+          "ja": "日本へ旅行するために貯金しています。",
+          "lectura": "にほんへりょこうするためにちょきんしています。",
+          "es": "Estoy ahorrando para viajar a Japón.",
           "resaltado": "ために"
         }
       ],
@@ -3460,6 +4460,18 @@
           "ja": "たとえ高くても、いいものを買いたい。",
           "lectura": "たとえたかくても、いいものをかいたい。",
           "es": "Aunque sea caro, quiero comprar algo bueno.",
+          "resaltado": "たとえ"
+        },
+        {
+          "ja": "たとえ忙しくても来るよ。",
+          "lectura": "たとえいそがしくてもくるよ。",
+          "es": "Incluso si está ocupado, vendrá.",
+          "resaltado": "たとえ"
+        },
+        {
+          "ja": "たとえ親に反対されても私は留学したい。",
+          "lectura": "たとえおやにはんたいされてもわたしはりゅうがくしたい。",
+          "es": "Aun si mis padres se oponen, quiero estudiar en el extranjero.",
           "resaltado": "たとえ"
         }
       ],
@@ -3605,6 +4617,18 @@
           "lectura": "にほんにきてはじめて、なっとうをたべた。",
           "es": "Recién al venir a Japón comí natto por primera vez.",
           "resaltado": "てはじめて"
+        },
+        {
+          "ja": "日本に来て初めてうなぎを食べた。",
+          "lectura": "にほんにきてはじめてうなぎをたべた。",
+          "es": "Solo después de venir a Japón probé anguila por primera vez.",
+          "resaltado": "て初めて"
+        },
+        {
+          "ja": "日本語を勉強し始めて初めて勉強の楽しさが分かった。",
+          "lectura": "にほんごをべんきょうしはじめてはじめてべんきょうのたのしさがわかった。",
+          "es": "Fue solo tras empezar a estudiar japonés que entendí lo divertido que es estudiar.",
+          "resaltado": "て初めて"
         }
       ],
       "conexion": ["V (forma て) + はじめて"]
@@ -3835,6 +4859,18 @@
           "lectura": "たかくてもかまわないから、いいものがほしい。",
           "es": "No me importa si es caro, quiero algo bueno.",
           "resaltado": "ても構わない"
+        },
+        {
+          "ja": "雨が降っても構わない。",
+          "lectura": "あめがふってもかまわない。",
+          "es": "No importa si llueve.",
+          "resaltado": "ても構わない"
+        },
+        {
+          "ja": "今帰っても構いませんか。",
+          "lectura": "いまかえってもかまいませんか。",
+          "es": "¿Está bien si me voy a casa ahora?",
+          "resaltado": "ても構いません"
         }
       ],
       "conexion": ["V (forma て) + も構わない", "N / なA + でも構わない"]
@@ -3891,6 +4927,18 @@
           "lectura": "たなかさんといえば、さいきんあっていないね。",
           "es": "Hablando de Tanaka, últimamente no lo hemos visto, ¿no?",
           "resaltado": "と言えば"
+        },
+        {
+          "ja": "日本と言えば電車が素晴らしい。",
+          "lectura": "にほんといえばでんしゃがすばらしい。",
+          "es": "Hablando de Japón, los trenes son impresionantes.",
+          "resaltado": "と言えば"
+        },
+        {
+          "ja": "本と言えば何冊持っていますか。",
+          "lectura": "ほんといえばなんさつもっていますか。",
+          "es": "Hablando de libros, ¿cuántos tienes?",
+          "resaltado": "と言えば"
         }
       ],
       "conexion": ["N + と言えば"]
@@ -3918,6 +4966,18 @@
           "ja": "わからないことは先生に聞くといいですよ。",
           "lectura": "わからないことはせんせいにきくといいですよ。",
           "es": "Lo que no entiendas, es bueno que se lo preguntes al profesor.",
+          "resaltado": "といい"
+        },
+        {
+          "ja": "日本語を勉強したらいい。",
+          "lectura": "にほんごをべんきょうしたらいい。",
+          "es": "Sería bueno que estudies japonés.",
+          "resaltado": "たらいい"
+        },
+        {
+          "ja": "明日晴れるといいね。",
+          "lectura": "あしたはれるといいね。",
+          "es": "Ojalá mañana esté despejado.",
           "resaltado": "といい"
         }
       ],
@@ -3947,6 +5007,12 @@
           "lectura": "にほんごがはなせるといっても、あいさつていどです。",
           "es": "Aunque digo que hablo japonés, no paso de los saludos.",
           "resaltado": "といっても"
+        },
+        {
+          "ja": "今週は忙しいと言っても先週ほどじゃない。",
+          "lectura": "こんしゅうはいそがしいといってもせんしゅうほどじゃない。",
+          "es": "Aunque diga que estoy ocupado esta semana, no es tanto como la semana pasada.",
+          "resaltado": "と言っても"
         }
       ],
       "conexion": ["N / oración (forma simple) + といっても"]
@@ -3975,6 +5041,18 @@
           "lectura": "かいぎはらいしゅうにえんきするということです。",
           "es": "Dicen que la reunión se pospone para la próxima semana.",
           "resaltado": null
+        },
+        {
+          "ja": "天気予報によると明日は雨が降るということだ。",
+          "lectura": "てんきよほうによるとあしたはあめがふるということだ。",
+          "es": "Según el pronóstico, se dice que mañana lloverá.",
+          "resaltado": "ということだ"
+        },
+        {
+          "ja": "もうすぐ彼は離婚するということだ。",
+          "lectura": "もうすぐかれはりこんするということだ。",
+          "es": "Parece que dentro de poco se va a divorciar.",
+          "resaltado": "ということだ"
         }
       ],
       "conexion": ["Oración (forma simple) + ということだ"]
@@ -4002,6 +5080,18 @@
           "ja": "明日は来られません。というのは、出張があるからです。",
           "lectura": "あしたはこられません。というのは、しゅっちょうがあるからです。",
           "es": "Mañana no puedo venir. Es que tengo un viaje de trabajo.",
+          "resaltado": "というのは"
+        },
+        {
+          "ja": "「ハロー」というのは「こんにちは」という意味だ。",
+          "lectura": "「ハロー」というのは「こんにちは」といういみだ。",
+          "es": "'Hello' significa 'Konnichiwa'.",
+          "resaltado": "というのは"
+        },
+        {
+          "ja": "「デジカメ」というのはデジタルカメラを短くした言い方です。",
+          "lectura": "「デジカメ」というのはデジタルカメラをみじかくしたいいかたです。",
+          "es": "'Dejikame' es una forma abreviada de decir cámara digital.",
           "resaltado": "というのは"
         }
       ],
@@ -4058,6 +5148,18 @@
           "ja": "この料理は辛いというより、痛い。",
           "lectura": "このりょうりはからいというより、いたい。",
           "es": "Más que picante, este plato duele.",
+          "resaltado": "というより"
+        },
+        {
+          "ja": "彼女はかっこいいというより可愛い。",
+          "lectura": "かのじょはかっこいいというよりかわいい。",
+          "es": "Más que genial, ella es linda.",
+          "resaltado": "というより"
+        },
+        {
+          "ja": "私の仕事は仕事というより趣味に近い。",
+          "lectura": "わたしのしごとはしごとというよりしゅみにちかい。",
+          "es": "Mi trabajo es más bien cercano a un pasatiempo que a un trabajo.",
           "resaltado": "というより"
         }
       ],
@@ -4199,6 +5301,18 @@
           "lectura": "ところで、このまえのはなしはどうなった？",
           "es": "Por cierto, ¿qué pasó con lo que hablamos la otra vez?",
           "resaltado": "ところで"
+        },
+        {
+          "ja": "ところで今日は何をしたい？",
+          "lectura": "ところできょうはなにをしたい？",
+          "es": "Por cierto, ¿qué quieres hacer hoy?",
+          "resaltado": "ところで"
+        },
+        {
+          "ja": "ところで大阪に行ったことがある？",
+          "lectura": "ところでおおさかにいったことがある？",
+          "es": "Por cierto, ¿has estado en Osaka?",
+          "resaltado": "ところで"
         }
       ],
       "conexion": ["ところで、+ nuevo tema"]
@@ -4226,6 +5340,12 @@
           "ja": "急いで駅へ行った。ところが、電車はもう出ていた。",
           "lectura": "いそいでえきへいった。ところが、でんしゃはもうでていた。",
           "es": "Fui corriendo a la estación. Pero el tren ya había salido.",
+          "resaltado": "ところが"
+        },
+        {
+          "ja": "たくさん買ったため高くなると思った。ところが安かった。",
+          "lectura": "たくさんかったためたかくなるとおもった。ところがやすかった。",
+          "es": "Pensé que saldría caro por comprar tanto. Sin embargo, fue barato.",
           "resaltado": "ところが"
         }
       ],
@@ -4457,6 +5577,18 @@
           "lectura": "おおさかへしゅっちょうしたついでに、ともだちにあった。",
           "es": "Aprovechando el viaje de trabajo a Osaka, me junté con un amigo.",
           "resaltado": "ついでに"
+        },
+        {
+          "ja": "買い物のついでに本屋に寄りました。",
+          "lectura": "かいもののついでにほんやによりました。",
+          "es": "Aprovechando que fui de compras, pasé por la librería.",
+          "resaltado": "ついでに"
+        },
+        {
+          "ja": "仕事へ行くついでに駅まで送ってあげるよ。",
+          "lectura": "しごとへいくついでにえきまでおくってあげるよ。",
+          "es": "De paso que voy al trabajo, te llevo a la estación.",
+          "resaltado": "ついでに"
         }
       ],
       "conexion": ["N + の + ついでに", "V (forma diccionario / た) + ついでに"]
@@ -4484,6 +5616,18 @@
           "ja": "明日は来られない、つまり会議には出ないということだ。",
           "lectura": "あしたはこられない、つまりかいぎにはでないということだ。",
           "es": "No puede venir mañana; en resumen, no va a estar en la reunión.",
+          "resaltado": "つまり"
+        },
+        {
+          "ja": "彼女は姉の娘だ。つまり私にとっては姪です。",
+          "lectura": "かのじょはあねのむすめだ。つまりわたしにとってはめいです。",
+          "es": "Ella es la hija de mi hermana. Es decir, para mí es mi sobrina.",
+          "resaltado": "つまり"
+        },
+        {
+          "ja": "つまりうちの学校の生徒だということ。",
+          "lectura": "つまりうちのがっこうのせいとだということ。",
+          "es": "En otras palabras, significa que es estudiante de nuestra escuela.",
           "resaltado": "つまり"
         }
       ],
@@ -4572,6 +5716,30 @@
           "lectura": "あめがふらないうちに、かえりましょう。",
           "es": "Volvamos antes de que llueva.",
           "resaltado": "うちに"
+        },
+        {
+          "ja": "雨が降らないうちに行きましょう。",
+          "lectura": "あめがふらないうちにいきましょう。",
+          "es": "Vayamos antes de que empiece a llover.",
+          "resaltado": "ないうちに"
+        },
+        {
+          "ja": "学校に行かないうちに宿題をしましょう。",
+          "lectura": "がっこうにいかないうちにしゅくだいをしましょう。",
+          "es": "Hagamos la tarea antes de ir a la escuela.",
+          "resaltado": "ないうちに"
+        },
+        {
+          "ja": "明るいうちに帰りましょう。",
+          "lectura": "あかるいうちにかえりましょう。",
+          "es": "Volvamos a casa mientras aún esté de día.",
+          "resaltado": "うちに"
+        },
+        {
+          "ja": "若いうちにたくさん経験するんだよ。",
+          "lectura": "わかいうちにたくさんけいけんするんだよ。",
+          "es": "Aprovecha para vivir muchas experiencias mientras seas joven.",
+          "resaltado": "うちに"
         }
       ],
       "conexion": [
@@ -4605,6 +5773,18 @@
           "ja": "日本で生活する上で、日本語は大切だ。",
           "lectura": "にほんでせいかつするうえで、にほんごはたいせつだ。",
           "es": "Para vivir en Japón, el japonés es importante.",
+          "resaltado": "上で"
+        },
+        {
+          "ja": "日本語を勉強する上でやる気が必要です。",
+          "lectura": "にほんごをべんきょうするうえでやるきがひつようです。",
+          "es": "Para estudiar japonés es necesaria la motivación.",
+          "resaltado": "上で"
+        },
+        {
+          "ja": "この薬は説明を読んだ上でご使用ください。",
+          "lectura": "このくすりはせつめいをよんだうえでごしようください。",
+          "es": "Tome este medicamento después de haber leído las instrucciones.",
           "resaltado": "上で"
         }
       ],
@@ -4694,6 +5874,18 @@
           "lectura": "このアニメはこどもはもちろん、おとなにもにんきがある。",
           "es": "Este anime es popular entre los niños, por supuesto, y también entre los adultos.",
           "resaltado": "はもちろん"
+        },
+        {
+          "ja": "彼女は勉強はもちろん料理もよくできる。",
+          "lectura": "かのじょはべんきょうはもちろんりょうりもよくできる。",
+          "es": "Ella no solo estudia bien, sino que por supuesto también cocina muy bien.",
+          "resaltado": "はもちろん"
+        },
+        {
+          "ja": "チョコレートケーキはもちろんイチゴのケーキも好きです。",
+          "lectura": "チョコレートケーキはもちろんイチゴのケーキもすきです。",
+          "es": "Por supuesto me gusta el pastel de chocolate, pero también el de fresa.",
+          "resaltado": "はもちろん"
         }
       ],
       "conexion": ["N + はもちろん、N + も"]
@@ -4721,6 +5913,18 @@
           "ja": "あの店はラーメンがおいしいことで有名です。",
           "lectura": "あのみせはラーメンがおいしいことでゆうめいです。",
           "es": "Ese local es famoso porque su ramen es muy rico.",
+          "resaltado": "で有名"
+        },
+        {
+          "ja": "大阪はたこ焼きで有名です。",
+          "lectura": "おおさかはたこやきでゆうめいです。",
+          "es": "Osaka es famosa por el takoyaki.",
+          "resaltado": "で有名"
+        },
+        {
+          "ja": "京都は古いお寺があることで有名だ。",
+          "lectura": "きょうとはふるいおてらがあることでゆうめいだ。",
+          "es": "Kioto es famosa por tener templos antiguos.",
           "resaltado": "で有名"
         }
       ],
@@ -4750,6 +5954,18 @@
           "lectura": "まいにちれんしゅうしているから、じょうずになるわけだ。",
           "es": "Como practica todos los días, por eso es que mejora.",
           "resaltado": "わけだ"
+        },
+        {
+          "ja": "彼は日本に10年住んでいるから日本語が上手なわけだ。",
+          "lectura": "かれはにほんにじゅうねんすんでいるからにほんごがじょうずなわけだ。",
+          "es": "Lleva 10 años viviendo en Japón, con razón habla bien japonés.",
+          "resaltado": "わけだ"
+        },
+        {
+          "ja": "このスマホは5年間使った。そりゃ壊れるわけだね。",
+          "lectura": "このスマホはごねんかんつかった。そりゃこわれるわけだね。",
+          "es": "Usé este teléfono durante 5 años. Por eso es lógico que se haya roto.",
+          "resaltado": "わけだ"
         }
       ],
       "conexion": ["V / いA (forma simple) + わけだ", "なA + な + わけだ"]
@@ -4777,6 +5993,18 @@
           "ja": "勉強したくないわけではないが、時間がない。",
           "lectura": "べんきょうしたくないわけではないが、じかんがない。",
           "es": "No es que no quiera estudiar, es que no tengo tiempo.",
+          "resaltado": "わけではない"
+        },
+        {
+          "ja": "京都はそんなに遠いわけじゃないんです。",
+          "lectura": "きょうとはそんなにとおいわけじゃないんです。",
+          "es": "No es que Kioto esté tan lejos.",
+          "resaltado": "わけじゃない"
+        },
+        {
+          "ja": "お金をたくさん持てば幸せになるわけではない。",
+          "lectura": "おかねをたくさんもてばしあわせになるわけではない。",
+          "es": "Tener mucho dinero no necesariamente significa que serás feliz.",
           "resaltado": "わけではない"
         }
       ],
@@ -4839,6 +6067,18 @@
           "ja": "これは借りた本だから、捨てるわけにはいかない。",
           "lectura": "これはかりたほんだから、すてるわけにはいかない。",
           "es": "Este es un libro prestado, así que no puedo tirarlo.",
+          "resaltado": "わけにはいかない"
+        },
+        {
+          "ja": "明日はテストがあるからゲームをするわけにはいかない。",
+          "lectura": "あしたはテストがあるからゲームをするわけにはいかない。",
+          "es": "Mañana tengo un examen, así que no puedo darme el lujo de estar jugando.",
+          "resaltado": "わけにはいかない"
+        },
+        {
+          "ja": "あとで車を運転するので今お酒を飲むわけにはいかない。",
+          "lectura": "あとでくるまをうんてんするのでいまおさけをのむわけにはいかない。",
+          "es": "Como voy a conducir más tarde, no puedo beber alcohol ahora.",
           "resaltado": "わけにはいかない"
         }
       ],
@@ -5015,6 +6255,18 @@
           "lectura": "だれかにみられているようなきがした。",
           "es": "Sentí que alguien me estaba mirando.",
           "resaltado": null
+        },
+        {
+          "ja": "その答えはイエスのような気がした。",
+          "lectura": "そのこたえはイエスのようなきがした。",
+          "es": "Sentí que la respuesta era un sí.",
+          "resaltado": "ような気がし"
+        },
+        {
+          "ja": "日本語は勉強すればするほど難しくなるような気がする。",
+          "lectura": "にほんごはべんきょうすればするほどむずかしくなるようなきがする。",
+          "es": "Siento que cuanto más estudio japonés, más difícil se vuelve.",
+          "resaltado": "ような気がする"
         }
       ],
       "conexion": [
@@ -5105,6 +6357,18 @@
           "lectura": "こどもはやさいをたべようとしない。",
           "es": "El niño no quiere comer verduras.",
           "resaltado": "ようとしない"
+        },
+        {
+          "ja": "彼は早く寝ようとしない。",
+          "lectura": "かれははやくねようとしない。",
+          "es": "Él no intenta irse a dormir temprano.",
+          "resaltado": "ようとしない"
+        },
+        {
+          "ja": "彼は自分のことは何も言おうとしない。",
+          "lectura": "かれはじぶんのことはなにもいおうとしない。",
+          "es": "Él no intenta contar nada sobre sí mismo.",
+          "resaltado": "おうとしない"
         }
       ],
       "conexion": ["V (forma volitiva) + としない"]
