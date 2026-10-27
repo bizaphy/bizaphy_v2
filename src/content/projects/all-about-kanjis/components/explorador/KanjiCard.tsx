@@ -12,7 +12,7 @@ export default function KanjiCard({
   onClick,
 }: Props) {
   const base =
-    "group relative flex aspect-square items-center justify-center rounded-md border font-mono font-light text-[3.5rem] transition-colors duration-150 ease-out select-none hover:z-10";
+    "group relative flex aspect-square items-center justify-center rounded-md border font-mono font-light text-[clamp(1.125rem,7.5cqw,3.5rem)] transition-colors duration-150 ease-out select-none hover:z-10";
   const idle =
     "border-zinc-800 bg-zinc-900/60 text-zinc-100 hover:border-violet-300/60 hover:text-white hover:shadow-[0_0_10px_rgba(196,181,253,0.35)]";
   const selected =
@@ -27,10 +27,12 @@ export default function KanjiCard({
     >
       {caracter}
       {/* Tooltip: preview con el kanji grande + significado.
-          pointer-events-none para no romper el hover del boton. */}
+          pointer-events-none para no romper el hover del boton. Solo desde
+          md: en movil no hay hover y en la ultima columna se sale de la
+          pantalla. */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-full left-1/2 mb-3 flex w-36 -translate-x-1/2 scale-90 flex-col items-center gap-1.5 rounded-lg border border-violet-300/70 bg-zinc-950/95 px-3 py-3 text-center opacity-0 shadow-[0_0_18px_rgba(196,181,253,0.35)] transition-all duration-150 ease-out group-hover:scale-100 group-hover:opacity-100"
+        className="pointer-events-none absolute bottom-full left-1/2 mb-3 hidden w-36 -translate-x-1/2 scale-90 flex-col items-center gap-1.5 rounded-lg border border-violet-300/70 bg-zinc-950/95 px-3 py-3 text-center opacity-0 shadow-[0_0_18px_rgba(196,181,253,0.35)] transition-all duration-150 ease-out group-hover:scale-100 group-hover:opacity-100 md:flex"
       >
         <span className="font-mono text-5xl leading-none text-zinc-100">
           {caracter}

@@ -30,7 +30,7 @@ function KanjiRadicalSum({ caracter, radicales }: Props) {
             derecha (max-w-full evita que se salga; en ese caso las tarjetas
             bajan de fila). Sin caja interna: el marco es el borde del bloque,
             y el contenido queda alineado con la etiqueta. */}
-        <div className="flex h-72 min-w-72 max-w-full flex-wrap content-start items-stretch justify-start gap-3 overflow-hidden lg:h-80 lg:min-w-80">
+        <div className="flex h-72 max-w-full flex-wrap content-start items-stretch justify-start gap-3 overflow-hidden sm:min-w-72 lg:h-80 lg:min-w-80">
           {radicales.length > 0 ? (
             radicales.map(({ radical: r }, i) => (
               // "+" y tarjeta van juntos en un mismo bloque: si no caben en

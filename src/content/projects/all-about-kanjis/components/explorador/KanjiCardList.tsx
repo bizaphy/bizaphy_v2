@@ -42,7 +42,7 @@ export default function KanjiCardList({
     "flex items-center p-1 text-fuchsia-400 transition hover:scale-110 hover:text-fuchsia-200 disabled:cursor-not-allowed disabled:text-zinc-700 disabled:hover:scale-100";
 
   return (
-    <section className="flex flex-col gap-3 p-4">
+    <section className="flex flex-col gap-3 py-4 sm:p-4">
       {/* barra superior: contador + controles de pagina */}
       <div className="flex items-center justify-between font-mono text-xs">
         <span className="text-zinc-400">
@@ -82,11 +82,10 @@ export default function KanjiCardList({
       </div>
 
       {/* grid tipo tabla periodica: 8 columnas fijas.
-          En mobile hay scroll horizontal cuando el min-w no cabe. En desktop
-          se permite overflow visible para que el tooltip del hover pueda
-          salirse de la caja hacia arriba sin ser recortado. */}
-      <div className="overflow-x-auto md:overflow-visible">
-        <div className="grid min-w-105 grid-cols-8 gap-1.5">
+          @container: en movil el kanji de cada card se escala con el ancho
+          de la grilla (cqw) en vez de forzar scroll horizontal. */}
+      <div className="@container">
+        <div className="grid grid-cols-8 gap-1 sm:gap-1.5">
           {visibles.map((k) => (
             <KanjiCard
               key={k.id}

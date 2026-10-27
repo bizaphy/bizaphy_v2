@@ -13,7 +13,7 @@ export default async function AllAboutKanjis() {
   ]);
 
   return (
-    <div className="mx-auto flex max-w-6xl flex-col gap-6 p-4">
+    <div className="mx-auto flex max-w-6xl flex-col gap-6 py-4 sm:p-4">
       <Tabs
         ariaLabel="Secciones de All About Kanjis"
         pestanas={[

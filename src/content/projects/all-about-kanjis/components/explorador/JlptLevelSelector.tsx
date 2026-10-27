@@ -68,7 +68,7 @@ export default function JlptLevelSelector<T extends Level>({
 
       {/* division central: 5 circulos, de N5 a N1. Nunca se parten en dos filas;
           si el bloque completo baja de linea, ml-auto lo alinea a la derecha. */}
-      <div className="ml-auto flex shrink-0 flex-nowrap items-center gap-3">
+      <div className="ml-auto flex shrink-0 flex-nowrap items-center gap-2 sm:gap-3">
         {LEVELS.map((level) => {
           const isDisabled = DISABLED_LEVELS.includes(level);
           const isSelected = selected === level;
@@ -81,7 +81,7 @@ export default function JlptLevelSelector<T extends Level>({
               onClick={() => onSelect(level as T)}
               aria-pressed={isSelected}
               aria-label={`Nivel ${level}${isDisabled ? " (proximamente)" : ""}`}
-              className={`flex h-15 w-15 shrink-0 items-center justify-center rounded-full font-mono text-base font-semibold transition ${
+              className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-mono text-sm font-semibold sm:h-15 sm:w-15 sm:text-base transition ${
                 isDisabled
                   ? "cursor-not-allowed border border-zinc-600 bg-zinc-800 text-zinc-500"
                   : isSelected
