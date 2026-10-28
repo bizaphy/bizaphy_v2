@@ -8,6 +8,7 @@ import Skills from "@/components/about-me/Skills";
 import Hobbies from "@/components/about-me/Hobbies";
 import Setup from "@/components/about-me/Setup";
 import CompendioCard from "@/components/about-me/CompendioCard";
+import SocialLinks from "@/components/about-me/SocialLinks";
 
 const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.          ......... ..   ........... = .=:
 ==++++++++++++++++++++%@@@@@#+=:...:::::@@@@@@- @@@.:::::.        ..           .   ........... =:.==
@@ -100,6 +101,7 @@ export default function AboutPage() {
           <Setup />
         </section>
         <CompendioCard />
+        <SocialLinks />
         <BackToTopDots />
       </div>
     </div>
