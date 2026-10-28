@@ -17,6 +17,24 @@ export type Categoria = {
 
 export const CATEGORIAS: Categoria[] = [
   {
+    id: "desarrollo",
+    titulo: "Desarrollo",
+    apps: [
+      {
+        nombre: "Visual Studio Code",
+        uso: "Editor de código principal. Extensiones, terminal integrada y Git en la misma ventana.",
+        url: "https://code.visualstudio.com/",
+        licencia: "gratis",
+      },
+      {
+        nombre: "Docker Desktop",
+        uso: "Levantar bases de datos y servicios en contenedores sin instalarlos directo en el sistema.",
+        url: "https://www.docker.com/products/docker-desktop/",
+        licencia: "freemium",
+      },
+    ],
+  },
+  {
     id: "diseno",
     titulo: "Diseño & dibujo",
     apps: [
@@ -68,6 +86,24 @@ export const CATEGORIAS: Categoria[] = [
         url: "https://getmusicbee.com/",
         licencia: "gratis",
       },
+      {
+        nombre: "VLC",
+        uso: "Reproductor de video que abre prácticamente cualquier formato sin instalar nada extra.",
+        url: "https://www.videolan.org/vlc/",
+        licencia: "open source",
+      },
+      {
+        nombre: "K-Lite Codec Pack",
+        uso: "Códecs para que Windows y sus reproductores puedan abrir y previsualizar todo tipo de video y audio.",
+        url: "https://codecguide.com/",
+        licencia: "gratis",
+      },
+      {
+        nombre: "GonVisor",
+        uso: "Lector de cómics y manga (CBZ, CBR, carpetas de imágenes) con lectura de derecha a izquierda.",
+        url: "https://www.gonvisor.com/",
+        licencia: "gratis",
+      },
     ],
   },
   {
@@ -107,9 +143,33 @@ export const CATEGORIAS: Categoria[] = [
     ],
   },
   {
+    id: "utilidades",
+    titulo: "Utilidades",
+    apps: [
+      {
+        nombre: "7-Zip",
+        uso: "Comprimir y descomprimir archivos (ZIP, RAR, 7z...) con muy buena tasa de compresión.",
+        url: "https://www.7-zip.org/",
+        licencia: "open source",
+      },
+      {
+        nombre: "OneCommander",
+        uso: "Explorador de archivos con paneles dobles y vista en columnas; reemplazo del explorador de Windows.",
+        url: "https://www.onecommander.com/",
+        licencia: "freemium",
+      },
+    ],
+  },
+  {
     id: "hardware",
     titulo: "Hardware & sistema",
     apps: [
+      {
+        nombre: "HWiNFO64",
+        uso: "Monitorear temperaturas, voltajes, consumo y uso de cada componente en tiempo real.",
+        url: "https://www.hwinfo.com/",
+        licencia: "gratis",
+      },
       {
         nombre: "CPU-Z",
         uso: "Ver los detalles de CPU, placa madre y RAM (modelo, frecuencias, timings).",
