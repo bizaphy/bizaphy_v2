@@ -1,4 +1,4 @@
-import AboutCard, { AboutCardReveal } from "@/components/about-me/AboutCard";
+import AboutSidebar from "@/components/about-me/AboutSidebar";
 import AsciiArt from "@/components/ui/AsciiArt";
 import BackToTopDots from "@/components/ui/BackToTopDots";
 import LanguageLevels from "@/components/about-me/LanguageLevels";
@@ -6,12 +6,8 @@ import Education from "@/components/about-me/Education";
 import Certifications from "@/components/about-me/Certifications";
 import Skills from "@/components/about-me/Skills";
 import Hobbies from "@/components/about-me/Hobbies";
-import SocialLinks from "@/components/about-me/SocialLinks";
 import Setup from "@/components/about-me/Setup";
-
-const N = ({ children }: { children: React.ReactNode }) => (
-  <span className="font-bold text-purple-400 transition group-hover:text-purple-300">{children}</span>
-);
+import CompendioCard from "@/components/about-me/CompendioCard";
 
 const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.          ......... ..   ........... = .=:
 ==++++++++++++++++++++%@@@@@#+=:...:::::@@@@@@- @@@.:::::.        ..           .   ........... =:.==
@@ -72,37 +68,40 @@ const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.       
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-16 flex flex-col gap-8">
-      <AboutCard
-        imageSrc="/images/profile/bizaphy.webp"
-        summary={
-          <>
-            <N>B</N>enjamin <N>I</N>gnacio <N>Z</N>uniga <N>A</N>vila.
-          </>
-        }
-        extra={
-          <>
-            Animal favorito:{" "}
-            <AboutCardReveal>
-              <N>Phy</N>seter Macrocephalus
-            </AboutCardReveal>
-          </>
-        }
-        revealImage={{
-          src: "/cachalote-plano.svg",
-          alt: "Cachalote",
-          href: "https://es.wikipedia.org/wiki/Cachalote",
-        }}
-      />
-      <AsciiArt art={ASCII} />
-      <LanguageLevels />
-      <Education />
-      <Certifications />
-      <Skills />
-      <Hobbies />
-      <Setup />
-      <SocialLinks />
-      <BackToTopDots />
+    <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-16 lg:flex-row lg:items-start">
+      <AboutSidebar />
+
+      {/* scroll-mt: al saltar desde el indice, la seccion no queda pegada al borde */}
+      <div className="flex min-w-0 flex-1 flex-col gap-8 [&>section]:scroll-mt-6">
+        {/* en desktop la columna es mas angosta: se achica la letra para que el arte quepa entero */}
+        <AsciiArt art={ASCII} className="lg:text-[clamp(6px,1vw,12px)]" />
+        {/* grid-cols-1 (minmax(0,1fr)) y no el grid implicito: si no, las tarjetas
+            se estiran a su ancho minimo y generan scroll horizontal en movil */}
+        <div className="grid grid-cols-1 gap-8 xl:grid-cols-2 [&>section]:scroll-mt-6 [&>section>div]:h-full">
+          {/* idiomas y certificaciones lado a lado, estiradas a la misma altura */}
+          <section id="idiomas">
+            <LanguageLevels />
+          </section>
+          <section id="certificaciones">
+            <Certifications />
+          </section>
+          {/* educacion abajo, usando las dos columnas */}
+          <section id="educacion" className="xl:col-span-2">
+            <Education />
+          </section>
+        </div>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="hobbies">
+          <Hobbies />
+        </section>
+        <section id="setup">
+          <Setup />
+        </section>
+        <CompendioCard />
+        <BackToTopDots />
+      </div>
     </div>
   );
 }

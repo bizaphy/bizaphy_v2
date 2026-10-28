@@ -2,8 +2,8 @@ import Image from "next/image";
 import GitHubIcon from "@/components/ui/GitHubIcon";
 
 //URLs de perfiles. Editar aqui cuando confirmes las direcciones reales.
-const GITHUB_URL = "https://github.com/bizaphy";
-const LINKEDIN_URL = "https://www.linkedin.com/in/bizaphy/";
+export const GITHUB_URL = "https://github.com/bizaphy";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/bizaphy/";
 
 //iconos de marca oficiales (paths simplificados del brandbook de cada plataforma)
 const LinkedInIcon = () => (
