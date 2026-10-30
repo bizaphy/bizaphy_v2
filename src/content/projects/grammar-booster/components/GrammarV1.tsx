@@ -23,7 +23,8 @@ type Opcion = {
 
 type Ejercicio = {
   id: string;
-  estructura: string;
+  // Falta cuando la respuesta no esta en el catalogo (adverbios sueltos).
+  estructura?: string;
   nivel: Nivel;
   antes: string;
   hueco: string;
@@ -156,7 +157,9 @@ export default function GrammarV1() {
     opciones[indiceCorrecta],
     ...opciones.filter((o) => !o.correcta),
   ];
-  const estructuraCorrecta = estructuras.get(ejercicio.estructura);
+  const estructuraCorrecta = ejercicio.estructura
+    ? estructuras.get(ejercicio.estructura)
+    : undefined;
 
   return (
     <section className="flex flex-col gap-6 p-4">
@@ -265,10 +268,15 @@ export default function GrammarV1() {
                 conEjemplos={o.correcta}
               />
             ) : (
-              <TarjetaTexto key={o.texto} texto={o.texto} nota={o.nota} />
+              <TarjetaTexto
+                key={o.texto}
+                texto={o.texto}
+                nota={o.nota}
+                correcta={o.correcta}
+              />
             );
           })}
-          {!estructuraCorrecta && (
+          {ejercicio.estructura && !estructuraCorrecta && (
             <p className="font-mono text-xs text-zinc-500">
               No se encontró la estructura {ejercicio.estructura}.
             </p>

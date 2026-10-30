@@ -99,21 +99,35 @@ export function TarjetaEstructura({
   );
 }
 
-// Explicacion de un distractor que no corresponde a ninguna estructura del
-// catalogo (por ejemplo, una conjugacion mal hecha).
+// Explicacion de una opcion que no corresponde a ninguna estructura del
+// catalogo (por ejemplo, una conjugacion mal hecha o un adverbio suelto).
 export function TarjetaTexto({
   texto,
   nota,
+  correcta = false,
 }: {
   texto: string;
   nota?: string;
+  correcta?: boolean;
 }) {
   return (
-    <div className="flex flex-col gap-2 rounded-md border border-zinc-700 bg-zinc-900/60 p-4">
+    <div
+      className={`flex flex-col gap-2 rounded-md border bg-zinc-900/60 p-4 ${
+        correcta ? "border-emerald-400/60" : "border-zinc-700"
+      }`}
+    >
       <div className="flex items-baseline gap-3">
-        <span className="text-xl text-zinc-100">{texto}</span>
-        <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
-          Incorrecta
+        <span
+          className={`text-xl ${correcta ? "text-emerald-300" : "text-zinc-100"}`}
+        >
+          {texto}
+        </span>
+        <span
+          className={`font-mono text-[10px] tracking-widest uppercase ${
+            correcta ? "text-emerald-400" : "text-zinc-500"
+          }`}
+        >
+          {correcta ? "Correcta" : "Incorrecta"}
         </span>
       </div>
       {nota && <p className="text-sm text-zinc-200">{nota}</p>}

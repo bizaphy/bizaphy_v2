@@ -11439,5 +11439,2319 @@
         "nota": "について presenta un tema: sería un libro acerca de las personas que estudian japonés. No sirve para decir para quién es útil."
       }
     ]
+  },
+  {
+    "id": "tomo-n3-01",
+    "estructura": "n3-naru-beku",
+    "nivel": "n3",
+    "antes": "明日のテストのために",
+    "hueco": "できるだけ",
+    "despues": "勉強してきた。",
+    "lecturaAntes": "あしたのテストのために",
+    "lecturaDespues": "べんきょうしてきた。",
+    "lectura": "あしたのテストのためにできるだけべんきょうしてきた。",
+    "traduccion": "Estudié lo más que pude para el examen de mañana.",
+    "nota": "できるだけ significa \"lo más posible\" y va justo antes del verbo (できるだけ勉強する). Equivale a なるべく.",
+    "opciones": [
+      {
+        "texto": "ほど",
+        "estructura": "n3-hodo",
+        "nota": "ほど marca un grado y va después de lo que sirve de medida (死ぬほど勉強した); no puede ir suelto después de ために."
+      },
+      {
+        "texto": "つもり",
+        "estructura": "n5-tsumori",
+        "nota": "つもり va después de un verbo (勉強するつもり) para hablar de intenciones; aquí no hay verbo antes."
+      },
+      {
+        "texto": "うちに",
+        "estructura": "n3-uchi-ni",
+        "nota": "うちに necesita antes un estado o una acción (若いうちに); ために＋うちに no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-02",
+    "nivel": "n3",
+    "antes": "友達と高校の時の話をしていたら、",
+    "hueco": "いつの間にか",
+    "despues": "5時になっていました。",
+    "lecturaAntes": "ともだちとこうこうのときのはなしをしていたら、",
+    "lecturaDespues": "ごじになっていました。",
+    "lectura": "ともだちとこうこうのときのはなしをしていたら、いつのまにかごじになっていました。",
+    "traduccion": "Mientras hablaba con mi amigo de la secundaria, sin darme cuenta ya eran las 5.",
+    "nota": "いつの間にか significa \"sin darse cuenta, antes de notarlo\". Encaja con ていたら: estábamos conversando y, de pronto, ya eran las 5.",
+    "opciones": [
+      {
+        "texto": "そのうちに",
+        "nota": "そのうちに es \"en algún momento, pronto\" y mira al futuro; no sirve para algo que ya pasó sin notarlo."
+      },
+      {
+        "texto": "ついに",
+        "estructura": "n3-tsui-ni",
+        "nota": "ついに es \"por fin\" después de esperar o esforzarse; nadie estaba esperando que dieran las 5."
+      },
+      {
+        "texto": "ようやく",
+        "nota": "ようやく también es \"por fin\" tras una espera o un esfuerzo; aquí el tiempo pasó sin que nadie lo notara."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-03",
+    "estructura": "n3-uchi-ni",
+    "nivel": "n3",
+    "antes": "傘を持っていないから、雨が降らない",
+    "hueco": "うちに",
+    "despues": "帰りましょう。",
+    "lecturaAntes": "かさをもっていないから、あめがふらない",
+    "lecturaDespues": "かえりましょう。",
+    "lectura": "かさをもっていないから、あめがふらないうちにかえりましょう。",
+    "traduccion": "Como no tengo paraguas, volvamos antes de que empiece a llover.",
+    "nota": "ないうちに es \"antes de que (algo) pase\", aprovechando que todavía no pasó: mientras no llueva, hay que volver.",
+    "opciones": [
+      {
+        "texto": "あいだに",
+        "estructura": "n4-aida-ni",
+        "nota": "あいだに marca un período definido en el que ocurre algo; con 降らない suena raro y no transmite la urgencia de aprovechar el momento."
+      },
+      {
+        "texto": "あいだ",
+        "estructura": "n4-aida",
+        "nota": "あいだ indica que algo dura todo el período; volver es una acción puntual."
+      },
+      {
+        "texto": "までに",
+        "estructura": "n4-made-ni",
+        "nota": "までに marca un plazo con un momento concreto (5時までに); 降らないまでに no es gramatical."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-04",
+    "estructura": "n4-te-morau",
+    "nivel": "n3",
+    "antes": "すみません。昨日休んだので、ノートを",
+    "hueco": "貸してもらいたい",
+    "despues": "んですが。／はい、どうぞ。",
+    "lecturaAntes": "すみません。きのうやすんだので、ノートを",
+    "lecturaDespues": "んですが。／はい、どうぞ。",
+    "lectura": "すみません。きのうやすんだので、ノートをかしてもらいたいんですが。／はい、どうぞ。",
+    "traduccion": "Disculpa, como ayer falté, quisiera que me prestaras tus apuntes. / Sí, toma.",
+    "nota": "てもらいたい expresa el deseo de que otra persona haga algo por uno. Quien habla quiere recibir el favor de que le presten los apuntes.",
+    "opciones": [
+      {
+        "texto": "貸してあげたい",
+        "estructura": "n4-te-ageru",
+        "nota": "てあげたい es querer hacerle un favor al otro: sería \"quiero prestarte\", al revés de lo que pide."
+      },
+      {
+        "texto": "貸してくれたい",
+        "estructura": "n4-te-kureru",
+        "nota": "くれる no se combina con たい: くれたい no existe."
+      },
+      {
+        "texto": "貸していただく",
+        "nota": "いただく es la versión humilde, pero en forma diccionario no expresa deseo; haría falta いただきたい."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-05",
+    "nivel": "n3",
+    "antes": "毎日お酒ばかり飲んでいたら、いつ病気になっても",
+    "hueco": "おかしくない",
+    "despues": "よ。",
+    "lecturaAntes": "まいにちおさけばかりのんでいたら、いつびょうきになっても",
+    "lecturaDespues": "よ。",
+    "lectura": "まいにちおさけばかりのんでいたら、いつびょうきになってもおかしくないよ。",
+    "traduccion": "Si bebes alcohol todos los días, no sería raro que te enfermaras en cualquier momento.",
+    "nota": "いつ〜てもおかしくない significa \"no sería raro que pasara en cualquier momento\". Advierte que, con tanto alcohol, enfermarse es muy posible.",
+    "opciones": [
+      {
+        "texto": "おかしい",
+        "nota": "おかしい afirmaría que sería raro enfermarse, lo contrario de la advertencia."
+      },
+      {
+        "texto": "はずがない",
+        "estructura": "n4-hazu-ga-nai",
+        "nota": "はずがない va después de una forma simple (なるはずがない), no después de ても."
+      },
+      {
+        "texto": "わけがない",
+        "estructura": "n3-wake-ga-nai",
+        "nota": "わけがない tampoco se une a ても, y además diría que es imposible enfermarse."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-06",
+    "estructura": "n3-amari-ni-mo",
+    "nivel": "n3",
+    "antes": "彼女とのデートで今人気のお店に行ってみたが、",
+    "hueco": "あまりにも",
+    "despues": "混んでいたため、違う店を探すことにした。",
+    "lecturaAntes": "かのじょとのデートでいまにんきのおみせにいってみたが、",
+    "lecturaDespues": "こんでいたため、ちがうみせをさがすことにした。",
+    "lectura": "かのじょとのデートでいまにんきのおみせにいってみたが、あまりにもこんでいたため、ちがうみせをさがすことにした。",
+    "traduccion": "Fui con mi novia a un local que está de moda, pero como estaba demasiado lleno, decidimos buscar otro.",
+    "nota": "あまりにも enfatiza un grado excesivo que trae una consecuencia: estaba tan lleno que hubo que buscar otro lugar.",
+    "opciones": [
+      {
+        "texto": "どんなに",
+        "estructura": "n3-donna-ni-temo",
+        "nota": "どんなに pide ても al final (どんなに混んでいても); con ため no funciona."
+      },
+      {
+        "texto": "いくら",
+        "estructura": "n3-ikura-temo",
+        "nota": "いくら también pide ても (いくら混んでいても)."
+      },
+      {
+        "texto": "たいして",
+        "nota": "たいして va con negativo (たいして混んでいなかった); con una afirmación no sirve."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-07",
+    "estructura": "n3-ni-kurabete",
+    "nivel": "n3",
+    "antes": "去年",
+    "hueco": "に比べると",
+    "despues": "、今の方が日本語が上手だと思います。",
+    "lecturaAntes": "きょねん",
+    "lecturaDespues": "、いまのほうがにほんごがじょうずだとおもいます。",
+    "lectura": "きょねんにくらべると、いまのほうがにほんごがじょうずだとおもいます。",
+    "traduccion": "Comparado con el año pasado, creo que ahora mi japonés es mejor.",
+    "nota": "に比べると compara dos cosas; 今の方が completa la comparación.",
+    "opciones": [
+      {
+        "texto": "に沿って",
+        "nota": "に沿って es \"siguiendo, de acuerdo con\" (計画に沿って); no compara."
+      },
+      {
+        "texto": "に際して",
+        "estructura": "n3-sai-ni",
+        "nota": "に際して es \"con ocasión de\" algo formal (入学に際して); no sirve para comparar."
+      },
+      {
+        "texto": "にわたって",
+        "nota": "にわたって indica la extensión de un período o un área (3年にわたって); no compara."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-08",
+    "estructura": "n4-toka-toka",
+    "nivel": "n3",
+    "antes": "頭がいい",
+    "hueco": "とか成績優秀だとか",
+    "despues": "は、彼の本当の魅力じゃないよ。",
+    "lecturaAntes": "あたまがいい",
+    "lecturaDespues": "は、かれのほんとうのみりょくじゃないよ。",
+    "lectura": "あたまがいいとかせいせきゆうしゅうだとかは、かれのほんとうのみりょくじゃないよ。",
+    "traduccion": "Cosas como ser inteligente o tener buenas notas no son su verdadero atractivo.",
+    "nota": "とか〜とか enumera ejemplos sin cerrar la lista y admite oraciones completas antes (いい, 優秀だ). Al final puede llevar は como si fuera un sustantivo.",
+    "opciones": [
+      {
+        "texto": "たり成績優秀だたり",
+        "estructura": "n5-tari-tari",
+        "nota": "たり va con la forma た (よかったり、優秀だったり), y no se usa con は de esta manera."
+      },
+      {
+        "texto": "し成績優秀だし",
+        "estructura": "n4-shi",
+        "nota": "し enumera razones, pero no puede llevar は detrás como un sustantivo."
+      },
+      {
+        "texto": "や成績優秀だや",
+        "estructura": "n5-ya",
+        "nota": "や une solo sustantivos (本や雑誌); no puede ir después de いい o だ."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-09",
+    "estructura": "n3-nakanaka",
+    "nivel": "n3",
+    "antes": "この仕事が終わったら海外旅行に行くって家族と約束したんですが、",
+    "hueco": "なかなか",
+    "despues": "行けそうにないです。",
+    "lecturaAntes": "このしごとがおわったらかいがいりょこうにいくってかぞくとやくそくしたんですが、",
+    "lecturaDespues": "いけそうにないです。",
+    "lectura": "このしごとがおわったらかいがいりょこうにいくってかぞくとやくそくしたんですが、なかなかいけそうにないです。",
+    "traduccion": "Le prometí a mi familia que haríamos un viaje al extranjero al terminar este trabajo, pero parece que no va a ser fácil ir.",
+    "nota": "なかなか con negativo indica que algo no se logra con facilidad. Combina con 行けそうにない.",
+    "opciones": [
+      {
+        "texto": "ぜひ",
+        "estructura": "n4-zehi",
+        "nota": "ぜひ expresa deseo o petición (ぜひ行きたい) y no se usa con negativos."
+      },
+      {
+        "texto": "かならず",
+        "nota": "かならず es \"sin falta\" y acompaña afirmaciones; no encaja con 行けそうにない."
+      },
+      {
+        "texto": "きっと",
+        "estructura": "n4-kitto",
+        "nota": "きっと expresa seguridad (きっと行ける); choca con la duda de そうにない."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-10",
+    "estructura": "n4-te-oku",
+    "nivel": "n3",
+    "antes": "ここは今すごく人気のある店だから、",
+    "hueco": "予約しておこう",
+    "despues": "よ。／そうですね。そうしましょう。",
+    "lecturaAntes": "ここはいますごくにんきのあるみせだから、",
+    "lecturaDespues": "よ。／そうですね。そうしましょう。",
+    "lectura": "ここはいますごくにんきのあるみせだから、よやくしておこうよ。／そうですね。そうしましょう。",
+    "traduccion": "Este local está muy de moda, así que reservemos con anticipación. / Sí, hagámoslo.",
+    "nota": "ておく es hacer algo de antemano como preparación; en volitivo (ておこう) invita a hacerlo. La respuesta そうしましょう confirma que fue una propuesta.",
+    "opciones": [
+      {
+        "texto": "予約してしまおう",
+        "estructura": "n4-te-shimau",
+        "nota": "てしまおう es \"terminemos de una vez\"; no expresa preparación previa."
+      },
+      {
+        "texto": "予約してみよう",
+        "estructura": "n4-te-miru",
+        "nota": "てみよう es \"intentemos\"; reservar no es algo que se pruebe a ver qué pasa."
+      },
+      {
+        "texto": "予約しておこうか",
+        "nota": "ておこうか es una pregunta (\"¿reservamos?\") y no combina con よ al final."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-11",
+    "estructura": "n4-souda-rumor",
+    "nivel": "n3",
+    "antes": "日本ではまだタバコが吸える食堂があると聞きましたけれども、韓国では食堂でタバコを吸うのはダメ",
+    "hueco": "だそうです",
+    "despues": "。",
+    "lecturaAntes": "にほんではまだタバコがすえるしょくどうがあるとききましたけれども、かんこくではしょくどうでタバコをすうのはダメ",
+    "lecturaDespues": "。",
+    "lectura": "にほんではまだタバコがすえるしょくどうがあるとききましたけれども、かんこくではしょくどうでタバコをすうのはダメだそうです。",
+    "traduccion": "Escuché que en Japón todavía hay restaurantes donde se puede fumar, pero dicen que en Corea está prohibido fumar en los restaurantes.",
+    "nota": "だそうです transmite información oída de otra fuente. El inicio, と聞きました, ya marca que se habla de cosas escuchadas.",
+    "opciones": [
+      {
+        "texto": "らしいです",
+        "estructura": "n4-rashii",
+        "nota": "らしい va directo al sustantivo o な-adjetivo, sin だ: sería ダメらしいです."
+      },
+      {
+        "texto": "みたいです",
+        "estructura": "n4-mitai-da",
+        "nota": "みたい también va sin だ (ダメみたいです); ダメだみたい es incorrecto."
+      },
+      {
+        "texto": "はずです",
+        "estructura": "n4-hazu-da",
+        "nota": "Con な-adjetivos es ダメなはず; ダメだはず es incorrecto, y además sería una deducción propia, no algo oído."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-12",
+    "estructura": "n4-te-miru",
+    "nivel": "n3",
+    "antes": "私は犬が大好きで、お金に余裕があったら庭がある家で犬を",
+    "hueco": "飼ってみたい",
+    "despues": "です。",
+    "lecturaAntes": "わたしはいぬがだいすきで、おかねによゆうがあったらにわがあるいえでいぬを",
+    "lecturaDespues": "です。",
+    "lectura": "わたしはいぬがだいすきで、おかねによゆうがあったらにわがあるいえでいぬをかってみたいです。",
+    "traduccion": "Me encantan los perros; si tuviera dinero de sobra, me gustaría tener uno en una casa con jardín.",
+    "nota": "てみたい es \"quiero probar a hacer algo\". Con el たら hipotético, expresa un deseo para el futuro.",
+    "opciones": [
+      {
+        "texto": "飼ってみせる",
+        "nota": "てみせる es \"demostrar que se puede\" con determinación; no expresa deseo ni va con です."
+      },
+      {
+        "texto": "飼っておく",
+        "estructura": "n4-te-oku",
+        "nota": "ておく es preparar algo con anticipación; 飼っておくです no es gramatical."
+      },
+      {
+        "texto": "飼ってしまう",
+        "estructura": "n4-te-shimau",
+        "nota": "てしまう indica una acción completa o lamentada; 飼ってしまうです no es gramatical."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-13",
+    "estructura": "n3-toshite",
+    "nivel": "n3",
+    "antes": "田中さんは俳優",
+    "hueco": "として知られている一方で",
+    "despues": "、歌手としても高い評価を受けている。",
+    "lecturaAntes": "たなかさんははいゆう",
+    "lecturaDespues": "、かしゅとしてもたかいひょうかをうけている。",
+    "lectura": "たなかさんははいゆうとしてしられているいっぽうで、かしゅとしてもたかいひょうかをうけている。",
+    "traduccion": "Tanaka es conocido como actor; por otro lado, también tiene muy buena reputación como cantante.",
+    "nota": "として es \"en calidad de\" (como actor), y 一方で presenta otra faceta de la misma persona. El paralelo 歌手としても confirma として.",
+    "opciones": [
+      {
+        "texto": "にとって知られている一方で",
+        "estructura": "n3-ni-totte",
+        "nota": "にとって es \"para (alguien)\" y va con valoraciones; no indica el papel de una persona."
+      },
+      {
+        "texto": "について知られている一方で",
+        "estructura": "n3-ni-tsuite",
+        "nota": "について es \"acerca de\": hablaría de lo que se sabe sobre los actores."
+      },
+      {
+        "texto": "として知られているくせに",
+        "estructura": "n3-kuse-ni",
+        "nota": "として está bien, pero くせに es un reproche; no se critica a nadie por ser buen cantante."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-14",
+    "estructura": "n4-na-prohibicion",
+    "nivel": "n3",
+    "antes": "工事現場に",
+    "hueco": "近づくな",
+    "despues": "とお父さんに言われました。",
+    "lecturaAntes": "こうじげんばに",
+    "lecturaDespues": "とおとうさんにいわれました。",
+    "lectura": "こうじげんばにちかづくなとおとうさんにいわれました。",
+    "traduccion": "Mi papá me dijo que no me acercara a la obra en construcción.",
+    "nota": "Forma diccionario＋な es una prohibición tajante. En una cita con と言われた se usa justamente esta forma corta.",
+    "opciones": [
+      {
+        "texto": "近づけ",
+        "nota": "Es el imperativo afirmativo: le habrían ordenado acercarse, lo contrario de una advertencia."
+      },
+      {
+        "texto": "近づかな",
+        "nota": "No existe: la な de prohibición va con la forma diccionario, no con la negativa."
+      },
+      {
+        "texto": "近づいたな",
+        "nota": "た＋な es una confirmación (\"te acercaste, ¿eh?\"), no una orden."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-15",
+    "estructura": "n4-itashimasu",
+    "nivel": "n3",
+    "antes": "7時に予約した山田です。／山田様、お待ちしておりました。お席にご案内",
+    "hueco": "いたします",
+    "despues": "ので、こちらへどうぞ。",
+    "lecturaAntes": "しちじによやくしたやまだです。／やまださま、おまちしておりました。おせきにごあんない",
+    "lecturaDespues": "ので、こちらへどうぞ。",
+    "lectura": "しちじによやくしたやまだです。／やまださま、おまちしておりました。おせきにごあんないいたしますので、こちらへどうぞ。",
+    "traduccion": "Soy Yamada, reservé para las 7. / Señor Yamada, lo estábamos esperando. Lo acompaño a su mesa; por aquí, por favor.",
+    "nota": "ご＋sustantivo＋いたします es lenguaje humilde: el empleado describe su propia acción (guiar al cliente) rebajándose ante él.",
+    "opciones": [
+      {
+        "texto": "なさいます",
+        "estructura": "n4-nasaru",
+        "nota": "なさる es respetuoso y eleva a quien hace la acción; aquí quien guía es el propio empleado."
+      },
+      {
+        "texto": "になられます",
+        "estructura": "n4-o-ni-naru",
+        "nota": "ご案内になる sería respetuoso (para el cliente), y になられる es un doble honorífico incorrecto."
+      },
+      {
+        "texto": "いただきます",
+        "nota": "ご案内いただく es recibir del otro el favor de guiar; aquí es el empleado quien guía."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-16",
+    "estructura": "n3-you-ni-finalidad",
+    "nivel": "n3",
+    "antes": "娘が今勉強中なので、大声を出さない",
+    "hueco": "ように",
+    "despues": "気をつけます。",
+    "lecturaAntes": "むすめがいまべんきょうちゅうなので、おおごえをださない",
+    "lecturaDespues": "きをつけます。",
+    "lectura": "むすめがいまべんきょうちゅうなので、おおごえをださないようにきをつけます。",
+    "traduccion": "Como mi hija está estudiando, tendré cuidado de no hablar fuerte.",
+    "nota": "ないように＋気をつける expresa el cuidado para que algo no ocurra. Con la forma ない se usa ように, no ために.",
+    "opciones": [
+      {
+        "texto": "ために",
+        "estructura": "n3-tame-ni",
+        "nota": "ために de finalidad pide un verbo voluntario en afirmativo; con la forma ない se usa ように."
+      },
+      {
+        "texto": "かぎり",
+        "nota": "ないかぎり es \"a menos que\"; \"tendré cuidado a menos que no grite\" no tiene sentido."
+      },
+      {
+        "texto": "とおりに",
+        "estructura": "n3-toori-ni",
+        "nota": "とおりに es \"tal como\"; no se une a la forma ない para expresar precaución."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-17",
+    "estructura": "n3-koto-ni-natte-iru",
+    "nivel": "n3",
+    "antes": "この学校では、生徒は授業中、携帯電話を先生に",
+    "hueco": "預けることになっている",
+    "despues": "ので、皆さん協力してくださいね。",
+    "lecturaAntes": "このがっこうでは、せいとはじゅぎょうちゅう、けいたいでんわをせんせいに",
+    "lecturaDespues": "ので、みなさんきょうりょくしてくださいね。",
+    "lectura": "このがっこうでは、せいとはじゅぎょうちゅう、けいたいでんわをせんせいにあずけることになっているので、みなさんきょうりょくしてくださいね。",
+    "traduccion": "En esta escuela, la regla es que los alumnos dejen el celular con el profesor durante la clase, así que les pido a todos que cooperen.",
+    "nota": "ことになっている expresa una regla o norma establecida, como un reglamento escolar.",
+    "opciones": [
+      {
+        "texto": "預けることにしている",
+        "estructura": "n4-koto-ni-suru",
+        "nota": "ことにしている es un hábito que uno decide para sí mismo, no una regla de la escuela."
+      },
+      {
+        "texto": "預けることになった",
+        "estructura": "n4-koto-ni-naru",
+        "nota": "ことになった anuncia una decisión nueva; para una norma vigente se usa ことになっている."
+      },
+      {
+        "texto": "預けることにした",
+        "nota": "ことにした es una decisión personal del hablante, no una regla de la escuela."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-18",
+    "estructura": "n4-tte",
+    "nivel": "n3",
+    "antes": "「富士山」",
+    "hueco": "って",
+    "despues": "名前のレストランを知っていますか。寿司がおいしいそうです。／それならぜひ行ってみたいですね。",
+    "lecturaAntes": "「ふじさん」",
+    "lecturaDespues": "なまえのレストランをしっていますか。すしがおいしいそうです。／それならぜひいってみたいですね。",
+    "lectura": "「ふじさん」ってなまえのレストランをしっていますか。すしがおいしいそうです。／それならぜひいってみたいですね。",
+    "traduccion": "¿Conoces un restaurante llamado \"Fujisan\"? Dicen que el sushi es muy rico. / Entonces me encantaría ir.",
+    "nota": "って es la forma coloquial de という: \"llamado~\".",
+    "opciones": [
+      {
+        "texto": "とか",
+        "estructura": "n4-toka-toka",
+        "nota": "とか da ejemplos sueltos; 「富士山」とか名前 no significa \"llamado\"."
+      },
+      {
+        "texto": "なんの",
+        "nota": "なんの es \"¿de qué?\"; no sirve para dar un nombre."
+      },
+      {
+        "texto": "なんか",
+        "estructura": "n3-nanka-nante",
+        "nota": "なんか resta importancia o da un ejemplo vago; no une el nombre con 名前."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-19",
+    "estructura": "n4-te-kureru",
+    "nivel": "n3",
+    "antes": "社長がアメリカ出張のお土産をみんなに",
+    "hueco": "買ってきてくださった",
+    "despues": "んです。",
+    "lecturaAntes": "しゃちょうがアメリカしゅっちょうのおみやげをみんなに",
+    "lecturaDespues": "んです。",
+    "lectura": "しゃちょうがアメリカしゅっちょうのおみやげをみんなにかってきてくださったんです。",
+    "traduccion": "El presidente nos trajo a todos un recuerdo de su viaje de negocios a Estados Unidos.",
+    "nota": "てくださる es la forma respetuosa de てくれる: un superior (社長) hace algo por nosotros. 社長が marca a quien hace el favor.",
+    "opciones": [
+      {
+        "texto": "買ってきていただいた",
+        "estructura": "n4-te-morau",
+        "nota": "ていただく lleva como sujeto a quien recibe (社長に買ってきていただいた); con 社長が no encaja."
+      },
+      {
+        "texto": "買ってきてくれた",
+        "nota": "てくれる tiene el sentido correcto, pero no es respetuoso; con un presidente se espera くださる."
+      },
+      {
+        "texto": "買ってきてあげた",
+        "estructura": "n4-te-ageru",
+        "nota": "てあげる es hacer un favor hacia otro; no se usa para un favor que recibe el hablante."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-20",
+    "estructura": "n3-towa-kagiranai",
+    "nivel": "n3",
+    "antes": "安いものが",
+    "hueco": "必ずしも",
+    "despues": "質が悪いとは限らないと思うよ。",
+    "lecturaAntes": "やすいものが",
+    "lecturaDespues": "しつがわるいとはかぎらないとおもうよ。",
+    "lectura": "やすいものがかならずしもしつがわるいとはかぎらないとおもうよ。",
+    "traduccion": "Creo que lo barato no necesariamente es de mala calidad.",
+    "nota": "必ずしも〜とは限らない es \"no necesariamente\". 必ずしも anticipa la negación parcial de とは限らない.",
+    "opciones": [
+      {
+        "texto": "決して",
+        "estructura": "n3-kesshite-nai",
+        "nota": "決して niega por completo (決して〜ない); no combina con la negación parcial とは限らない."
+      },
+      {
+        "texto": "まったく",
+        "estructura": "n3-mattaku-nai",
+        "nota": "まったく también niega totalmente y no se combina con とは限らない."
+      },
+      {
+        "texto": "きっと",
+        "estructura": "n4-kitto",
+        "nota": "きっと expresa seguridad; choca con la duda de とは限らない."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-21",
+    "estructura": "n4-to-iu",
+    "nivel": "n3",
+    "antes": "これ、",
+    "hueco": "何という",
+    "despues": "野菜かわからないけど、すごくおいしいね。",
+    "lecturaAntes": "これ、",
+    "lecturaDespues": "やさいかわからないけど、すごくおいしいね。",
+    "lectura": "これ、なんというやさいかわからないけど、すごくおいしいね。",
+    "traduccion": "No sé cómo se llama esta verdura, pero está riquísima.",
+    "nota": "何という＋sustantivo es \"qué (cosa) llamada…\": 何という野菜 = cómo se llama la verdura. か marca la pregunta incrustada.",
+    "opciones": [
+      {
+        "texto": "何というの",
+        "nota": "の no puede ir entre という y el sustantivo: 何というの野菜 es incorrecto."
+      },
+      {
+        "texto": "何といって",
+        "nota": "La forma て no modifica a un sustantivo; 何といって野菜 no es gramatical."
+      },
+      {
+        "texto": "何をいう",
+        "nota": "を marca objeto directo; para citar un nombre se necesita と."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-22",
+    "estructura": "n3-naosu",
+    "nivel": "n3",
+    "antes": "その漢字は間違っているので、もう一度",
+    "hueco": "書き直して",
+    "despues": "ください。",
+    "lecturaAntes": "そのかんじはまちがっているので、もういちど",
+    "lecturaDespues": "ください。",
+    "lectura": "そのかんじはまちがっているので、もういちどかきなおしてください。",
+    "traduccion": "Ese kanji está mal, así que vuelve a escribirlo, por favor.",
+    "nota": "Raíz＋直す es rehacer algo para corregirlo. Antes de ください va la forma て.",
+    "opciones": [
+      {
+        "texto": "書き直す",
+        "nota": "La forma diccionario no puede ir antes de ください; se necesita la forma て."
+      },
+      {
+        "texto": "書き直した",
+        "nota": "La forma た no se une a ください."
+      },
+      {
+        "texto": "書き直せ",
+        "nota": "書き直せ es imperativo: ya es una orden completa y no admite ください."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-23",
+    "estructura": "n4-gozaimasu",
+    "nivel": "n3",
+    "antes": "すみません、エレベーターはどこですか。／あちらのエスカレーターの先に",
+    "hueco": "ございます",
+    "despues": "。",
+    "lecturaAntes": "すみません、エレベーターはどこですか。／あちらのエスカレーターのさきに",
+    "lecturaDespues": "。",
+    "lectura": "すみません、エレベーターはどこですか。／あちらのエスカレーターのさきにございます。",
+    "traduccion": "Disculpe, ¿dónde está el ascensor? / Está más allá de aquella escalera mecánica.",
+    "nota": "ございます es la forma formal de あります. Un empleado que atiende a un cliente la usa para indicar dónde están las cosas.",
+    "opciones": [
+      {
+        "texto": "いらっしゃいます",
+        "estructura": "n4-irassharu",
+        "nota": "いらっしゃる es respetuoso para personas, no para objetos como un ascensor."
+      },
+      {
+        "texto": "おります",
+        "nota": "おる es humilde y se usa para personas (uno mismo); no con objetos."
+      },
+      {
+        "texto": "いたします",
+        "estructura": "n4-itashimasu",
+        "nota": "いたす es la forma humilde de する; no expresa ubicación."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-24",
+    "estructura": "n3-toshite",
+    "nivel": "n3",
+    "antes": "私はコーチ",
+    "hueco": "として",
+    "despues": "このチームをまとめなければならないんだ。",
+    "lecturaAntes": "わたしはコーチ",
+    "lecturaDespues": "このチームをまとめなければならないんだ。",
+    "lectura": "わたしはコーチとしてこのチームをまとめなければならないんだ。",
+    "traduccion": "Como entrenador, tengo que mantener unido a este equipo.",
+    "nota": "として es \"en calidad de, en el papel de\". El hablante actúa desde su rol de entrenador.",
+    "opciones": [
+      {
+        "texto": "にとって",
+        "estructura": "n3-ni-totte",
+        "nota": "にとって es \"para (alguien)\" y va con valoraciones (私にとって大切); no indica un rol."
+      },
+      {
+        "texto": "について",
+        "estructura": "n3-ni-tsuite",
+        "nota": "について es \"acerca de\"; no indica el papel del hablante."
+      },
+      {
+        "texto": "に対して",
+        "estructura": "n3-ni-taishite",
+        "nota": "に対して indica hacia quién se dirige una acción o actitud, no un rol."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-25",
+    "estructura": "n4-rashii",
+    "nivel": "n3",
+    "antes": "あの男の怪しい態度を見ると、彼が犯人",
+    "hueco": "らしい",
+    "despues": "ね。",
+    "lecturaAntes": "あのおとこのあやしいたいどをみると、かれがはんにん",
+    "lecturaDespues": "ね。",
+    "lectura": "あのおとこのあやしいたいどをみると、かれがはんにんらしいね。",
+    "traduccion": "Viendo la actitud sospechosa de ese hombre, parece que él es el culpable.",
+    "nota": "らしい expresa una deducción basada en algo que se ve u oye. Se une directo al sustantivo (犯人らしい).",
+    "opciones": [
+      {
+        "texto": "ようだ",
+        "estructura": "n4-you-da",
+        "nota": "ようだ también deduce, pero con sustantivo necesita の: 犯人のようだ."
+      },
+      {
+        "texto": "そうだ",
+        "estructura": "n4-souda-aspecto",
+        "nota": "La そう de apariencia no se une a sustantivos, y la de rumor necesita だ (犯人だそうだ) y no es una deducción."
+      },
+      {
+        "texto": "はずだ",
+        "estructura": "n4-hazu-da",
+        "nota": "Con sustantivo se dice 犯人のはずだ; sin の es incorrecto."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-26",
+    "nivel": "n3",
+    "antes": "あなたが好きだという気持ちは、この世界の誰に",
+    "hueco": "も負けない",
+    "despues": "からね。",
+    "lecturaAntes": "あなたがすきだというきもちは、このせかいのだれに",
+    "lecturaDespues": "からね。",
+    "lectura": "あなたがすきだというきもちは、このせかいのだれにもまけないからね。",
+    "traduccion": "Lo que siento por ti no pierde ante nadie en este mundo.",
+    "nota": "誰にも＋negativo es \"ante nadie\". 誰にも負けない = no perder contra nadie, ser insuperable.",
+    "opciones": [
+      {
+        "texto": "しか負けない",
+        "nota": "しか limita a algo concreto (彼にしか負けない); con 誰 no se usa."
+      },
+      {
+        "texto": "でも負けない",
+        "nota": "誰にでも va con afirmativos (誰にでもできる); con negativo no se dice así."
+      },
+      {
+        "texto": "ほど負けない",
+        "nota": "ほど necesita una referencia para comparar (あなたほど); 誰にほど no es gramatical."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-27",
+    "estructura": "n4-mama",
+    "nivel": "n3",
+    "antes": "エアコンを",
+    "hueco": "つけたまま",
+    "despues": "にして出かけちゃったから、早く帰らなきゃならないんだ。",
+    "lecturaAntes": "エアコンを",
+    "lecturaDespues": "にしてでかけちゃったから、はやくかえらなきゃならないんだ。",
+    "lectura": "エアコンをつけたままにしてでかけちゃったから、はやくかえらなきゃならないんだ。",
+    "traduccion": "Salí dejando el aire acondicionado encendido, así que tengo que volver rápido.",
+    "nota": "たまま indica que un estado sigue igual. たままにする es \"dejar algo tal cual\": dejé el aire prendido.",
+    "opciones": [
+      {
+        "texto": "つけたきり",
+        "estructura": "n3-kiri",
+        "nota": "たきり es \"desde que… y nada más\" (出かけたきり帰らない); no se combina con にする."
+      },
+      {
+        "texto": "つけたっぱなし",
+        "estructura": "n3-ppanashi",
+        "nota": "っぱなし se une a la raíz del verbo (つけっぱなし), no a la forma た."
+      },
+      {
+        "texto": "つけたあいだ",
+        "estructura": "n4-aida",
+        "nota": "あいだ va con formas que duran (つけているあいだ); つけたあいだにする no es gramatical."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-28",
+    "nivel": "n3",
+    "antes": "色々悩みましたが、私は",
+    "hueco": "やはり",
+    "despues": "この会社で働きたいと思いました。",
+    "lecturaAntes": "いろいろなやみましたが、わたしは",
+    "lecturaDespues": "このかいしゃではたらきたいとおもいました。",
+    "lectura": "いろいろなやみましたが、わたしはやはりこのかいしゃではたらきたいとおもいました。",
+    "traduccion": "Lo pensé mucho, pero al final sentí que de verdad quiero trabajar en esta empresa.",
+    "nota": "やはり (やっぱり) es \"después de todo, al final\": tras dudar, uno vuelve a la idea original.",
+    "opciones": [
+      {
+        "texto": "きっと",
+        "estructura": "n4-kitto",
+        "nota": "きっと expresa seguridad sobre el futuro o sobre otros; no resume una decisión tras dudar."
+      },
+      {
+        "texto": "けっして",
+        "estructura": "n3-kesshite-nai",
+        "nota": "けっして va con negativo (けっして〜ない), y aquí la oración es afirmativa."
+      },
+      {
+        "texto": "かならず",
+        "nota": "かならず es \"sin falta\" para acciones o resultados seguros; no expresa \"al final, tras pensarlo\"."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-29",
+    "estructura": "n4-youni-suru",
+    "nivel": "n3",
+    "antes": "健康のため、毎日7時間は",
+    "hueco": "寝るようにしている",
+    "despues": "よ。",
+    "lecturaAntes": "けんこうのため、まいにちしちじかんは",
+    "lecturaDespues": "よ。",
+    "lectura": "けんこうのため、まいにちしちじかんはねるようにしているよ。",
+    "traduccion": "Por salud, procuro dormir 7 horas todos los días.",
+    "nota": "ようにしている es un esfuerzo constante por mantener un hábito: \"procuro\".",
+    "opciones": [
+      {
+        "texto": "寝るはずだ",
+        "estructura": "n4-hazu-da",
+        "nota": "はずだ es una suposición; uno no supone sus propios hábitos."
+      },
+      {
+        "texto": "寝させている",
+        "estructura": "n4-saseru",
+        "nota": "させる es hacer que otro duerma; aquí se habla de uno mismo."
+      },
+      {
+        "texto": "寝たがっている",
+        "estructura": "n4-tagaru",
+        "nota": "たがる describe deseos de otra persona, no hábitos propios."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-30",
+    "estructura": "n3-nagara-mo",
+    "nivel": "n3",
+    "antes": "彼女は仕事で忙しい",
+    "hueco": "ながらも",
+    "despues": "、毎日子どものお弁当を作っている。",
+    "lecturaAntes": "かのじょはしごとでいそがしい",
+    "lecturaDespues": "、まいにちこどものおべんとうをつくっている。",
+    "lectura": "かのじょはしごとでいそがしいながらも、まいにちこどものおべんとうをつくっている。",
+    "traduccion": "Aunque está ocupada con el trabajo, prepara el almuerzo de sus hijos todos los días.",
+    "nota": "ながらも es concesivo: \"aunque, a pesar de\". Se une directo a い-adjetivos (忙しいながらも).",
+    "opciones": [
+      {
+        "texto": "ので",
+        "estructura": "n5-node",
+        "nota": "ので da una razón; estar ocupada no es el motivo de preparar el almuerzo."
+      },
+      {
+        "texto": "くせに",
+        "estructura": "n3-kuse-ni",
+        "nota": "くせに es un reproche; aquí se elogia el esfuerzo."
+      },
+      {
+        "texto": "つつも",
+        "nota": "つつも se une a la raíz de un verbo (思いつつも); no va con い-adjetivos."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-31",
+    "estructura": "n3-nanka-nante",
+    "nivel": "n3",
+    "antes": "こんなにたくさんの人が来てくれる",
+    "hueco": "なんて",
+    "despues": "思ってもいなかった。",
+    "lecturaAntes": "こんなにたくさんのひとがきてくれる",
+    "lecturaDespues": "おもってもいなかった。",
+    "lectura": "こんなにたくさんのひとがきてくれるなんておもってもいなかった。",
+    "traduccion": "Nunca imaginé que vendría tanta gente.",
+    "nota": "なんて después de una oración expresa sorpresa (\"no creía que…\"). Equivale a などと en lenguaje coloquial.",
+    "opciones": [
+      {
+        "texto": "なんか",
+        "nota": "なんか va con sustantivos para restar importancia (私なんか); no cita una oración con sorpresa."
+      },
+      {
+        "texto": "などを",
+        "nota": "を marcaría un objeto directo; 思う cita con と, no con を."
+      },
+      {
+        "texto": "なさそう",
+        "nota": "なさそう es \"parece que no\"; 来てくれるなさそう no es gramatical."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-32",
+    "estructura": "n4-tadoushi-jidoushi",
+    "nivel": "n3",
+    "antes": "今回の作品は、これまでに発表された彼の小説の中で一番",
+    "hueco": "売れている",
+    "despues": "。",
+    "lecturaAntes": "こんかいのさくひんは、これまでにはっぴょうされたかれのしょうせつのなかでいちばん",
+    "lecturaDespues": "。",
+    "lectura": "こんかいのさくひんは、これまでにはっぴょうされたかれのしょうせつのなかでいちばんうれている。",
+    "traduccion": "Esta obra es la que más se está vendiendo de todas las novelas que él ha publicado.",
+    "nota": "売れる es intransitivo: \"venderse\". Con ている describe el estado actual. El sujeto es la obra, no quien vende.",
+    "opciones": [
+      {
+        "texto": "売らせている",
+        "estructura": "n4-saseru",
+        "nota": "Es causativo (\"hace que alguien venda\"); una obra no obliga a nadie a vender."
+      },
+      {
+        "texto": "売られている",
+        "estructura": "n4-ukemi",
+        "nota": "La pasiva solo dice que está a la venta, no que se venda bien; con 一番 pierde sentido."
+      },
+      {
+        "texto": "売ろうとしている",
+        "estructura": "n3-you-to-suru",
+        "nota": "ようとする es intentar hacer algo; una obra no puede intentar vender."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-33",
+    "estructura": "n3-ni-shitagatte",
+    "nivel": "n3",
+    "antes": "町の人口が増える",
+    "hueco": "に従って",
+    "despues": "、いろいろな店が増えてきました。",
+    "lecturaAntes": "まちのじんこうがふえる",
+    "lecturaDespues": "、いろいろなみせがふえてきました。",
+    "lectura": "まちのじんこうがふえるにしたがって、いろいろなみせがふえてきました。",
+    "traduccion": "A medida que aumentó la población del pueblo, fueron apareciendo más tiendas de todo tipo.",
+    "nota": "に従って indica que, a medida que algo cambia, otra cosa también cambia. Va con verbos de cambio en forma diccionario (増える). につれて funcionaría igual.",
+    "opciones": [
+      {
+        "texto": "によって",
+        "estructura": "n3-ni-yotte",
+        "nota": "によって indica causa o medio, y no se une directo a la forma diccionario (haría falta 増えることによって)."
+      },
+      {
+        "texto": "ついでに",
+        "estructura": "n3-tsuide-ni",
+        "nota": "ついでに es aprovechar una acción para hacer otra; no expresa cambios paralelos."
+      },
+      {
+        "texto": "に対して",
+        "estructura": "n3-ni-taishite",
+        "nota": "に対して marca hacia quién va algo o un contraste; no un cambio progresivo."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-34",
+    "nivel": "n3",
+    "antes": "彼は私のことなんか",
+    "hueco": "ちっとも",
+    "despues": "興味ないから、別れようと思うの。",
+    "lecturaAntes": "かれはわたしのことなんか",
+    "lecturaDespues": "きょうみないから、わかれようとおもうの。",
+    "lectura": "かれはわたしのことなんかちっともきょうみないから、わかれようとおもうの。",
+    "traduccion": "A él no le intereso para nada, así que pienso terminar con él.",
+    "nota": "ちっとも＋negativo es \"para nada, ni un poco\". Es coloquial e intensifica la negación de 興味ない.",
+    "opciones": [
+      {
+        "texto": "ぜひ",
+        "estructura": "n4-zehi",
+        "nota": "ぜひ expresa deseo o petición; no acompaña a un negativo."
+      },
+      {
+        "texto": "すっかり",
+        "nota": "すっかり es \"completamente\" con cambios afirmativos (すっかり忘れた); no niega."
+      },
+      {
+        "texto": "よく",
+        "nota": "よく es \"bien, a menudo\"; con 興味ない no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-35",
+    "estructura": "n3-hodo-nai",
+    "nivel": "n3",
+    "antes": "夕食を食べないというのは、思っていた",
+    "hueco": "ほど",
+    "despues": "大変ではありませんでした。",
+    "lecturaAntes": "ゆうしょくをたべないというのは、おもっていた",
+    "lecturaDespues": "たいへんではありませんでした。",
+    "lectura": "ゆうしょくをたべないというのは、おもっていたほどたいへんではありませんでした。",
+    "traduccion": "No cenar no fue tan difícil como pensaba.",
+    "nota": "ほど〜ない es \"no tan… como\". 思っていたほど〜ない = no tanto como creía.",
+    "opciones": [
+      {
+        "texto": "ばかり",
+        "estructura": "n4-bakari",
+        "nota": "ばかり es \"solo, nada más que\"; no compara grados."
+      },
+      {
+        "texto": "まで",
+        "estructura": "n5-made",
+        "nota": "まで marca un límite; 思っていたまで no expresa comparación."
+      },
+      {
+        "texto": "さえ",
+        "estructura": "n3-sae",
+        "nota": "さえ es \"incluso\"; no compara."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-36",
+    "estructura": "n3-dake-de-naku",
+    "nivel": "n3",
+    "antes": "彼女が成功したのは、才能があった",
+    "hueco": "だけでなく",
+    "despues": "努力もしたからだよ。",
+    "lecturaAntes": "かのじょがせいこうしたのは、さいのうがあった",
+    "lecturaDespues": "どりょくもしたからだよ。",
+    "lectura": "かのじょがせいこうしたのは、さいのうがあっただけでなくどりょくもしたからだよ。",
+    "traduccion": "Ella tuvo éxito no solo porque tenía talento, sino porque también se esforzó.",
+    "nota": "だけでなく〜も es \"no solo A, sino también B\". El も de 努力も completa la estructura.",
+    "opciones": [
+      {
+        "texto": "だけで",
+        "estructura": "n4-dake-de",
+        "nota": "だけで es \"con solo eso basta\"; no suma una segunda causa con も."
+      },
+      {
+        "texto": "かわりに",
+        "estructura": "n3-kawari-ni",
+        "nota": "かわりに es \"en lugar de\" o \"a cambio\"; aquí las dos cosas se suman."
+      },
+      {
+        "texto": "にかかわらず",
+        "nota": "にかかわらず es \"sin importar\"; no suma talento y esfuerzo."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-37",
+    "estructura": "n3-koto-kara",
+    "nivel": "n3",
+    "antes": "この城はドラマで使われた",
+    "hueco": "ことから",
+    "despues": "有名になって、観光客に人気の場所です。",
+    "lecturaAntes": "このしろはドラマでつかわれた",
+    "lecturaDespues": "ゆうめいになって、かんこうきゃくににんきのばしょです。",
+    "lectura": "このしろはドラマでつかわれたことからゆうめいになって、かんこうきゃくににんきのばしょです。",
+    "traduccion": "Este castillo se hizo famoso por haber aparecido en un drama, y es un lugar popular entre los turistas.",
+    "nota": "ことから explica el origen o motivo de algo, como un nombre o una fama: se hizo famoso a partir de que salió en un drama.",
+    "opciones": [
+      {
+        "texto": "くせに",
+        "estructura": "n3-kuse-ni",
+        "nota": "くせに es un reproche; no explica el origen de la fama."
+      },
+      {
+        "texto": "わりに",
+        "estructura": "n3-wari-ni",
+        "nota": "わりに es \"para ser…\"; no explica por qué se hizo famoso."
+      },
+      {
+        "texto": "ところが",
+        "estructura": "n3-tokoro-ga",
+        "nota": "ところが introduce algo inesperado y suele ir al inicio de una oración; no explica una causa."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-38",
+    "nivel": "n3",
+    "antes": "私にできることがありましたら、いつでも",
+    "hueco": "おっしゃってください",
+    "despues": "。",
+    "lecturaAntes": "わたしにできることがありましたら、いつでも",
+    "lecturaDespues": "。",
+    "lectura": "わたしにできることがありましたら、いつでもおっしゃってください。",
+    "traduccion": "Si hay algo que pueda hacer por usted, dígamelo cuando quiera.",
+    "nota": "おっしゃる es la forma respetuosa de 言う. Se usa para la acción del interlocutor, a quien se le pide que hable.",
+    "opciones": [
+      {
+        "texto": "申してください",
+        "nota": "申す es humilde (para la acción propia); no se usa para pedirle al otro que hable."
+      },
+      {
+        "texto": "言わせてください",
+        "estructura": "n4-sasete-kudasai",
+        "nota": "させてください es pedir permiso para hablar uno mismo; aquí se le pide al otro."
+      },
+      {
+        "texto": "おっしゃいてください",
+        "nota": "おっしゃる tiene forma て irregular: おっしゃって, no おっしゃいて."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-39",
+    "estructura": "n4-saseru",
+    "nivel": "n3",
+    "antes": "娘はピアノの才能があるので、ドイツの音楽大学に",
+    "hueco": "留学させよう",
+    "despues": "かと思っています。",
+    "lecturaAntes": "むすめはピアノのさいのうがあるので、ドイツのおんがくだいがくに",
+    "lecturaDespues": "かとおもっています。",
+    "lectura": "むすめはピアノのさいのうがあるので、ドイツのおんがくだいがくにりゅうがくさせようかとおもっています。",
+    "traduccion": "Como mi hija tiene talento para el piano, estoy pensando en mandarla a estudiar a una universidad de música en Alemania.",
+    "nota": "El causativo (させる) indica que el padre hace que la hija estudie fuera, y el volitivo (よう)＋かと思う expresa que lo está considerando.",
+    "opciones": [
+      {
+        "texto": "留学しよう",
+        "estructura": "n4-ikoukei",
+        "nota": "Sin causativo sería el propio hablante quien se va a estudiar, no la hija."
+      },
+      {
+        "texto": "留学させられる",
+        "estructura": "n4-saserareru",
+        "nota": "Es causativo pasivo (\"ser obligado a estudiar fuera\") y no es volitivo."
+      },
+      {
+        "texto": "留学させてもらう",
+        "nota": "させてもらう es pedir permiso para hacer algo uno mismo; no expresa la intención de enviar a la hija."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-40",
+    "nivel": "n3",
+    "antes": "私は今まで東京に",
+    "hueco": "しか",
+    "despues": "住んだことがなく、ニューヨークでの新しい生活に期待している。",
+    "lecturaAntes": "わたしはいままでとうきょうに",
+    "lecturaDespues": "すんだことがなく、ニューヨークでのあたらしいせいかつにきたいしている。",
+    "lectura": "わたしはいままでとうきょうにしかすんだことがなく、ニューヨークでのあたらしいせいかつにきたいしている。",
+    "traduccion": "Hasta ahora solo he vivido en Tokio, así que tengo muchas expectativas de mi nueva vida en Nueva York.",
+    "nota": "しか＋negativo es \"solo, nada más que\". Aquí el negativo es なく (de ことがない).",
+    "opciones": [
+      {
+        "texto": "だけ",
+        "estructura": "n5-dake",
+        "nota": "だけ también es \"solo\", pero va con afirmativos (東京にだけ住んだことがある). Con なく diría otra cosa."
+      },
+      {
+        "texto": "ばかり",
+        "estructura": "n4-bakari",
+        "nota": "ばかり es \"solo, puro\" con afirmativos y matiz de exceso; no va con negativo."
+      },
+      {
+        "texto": "ほど",
+        "estructura": "n3-hodo",
+        "nota": "ほど marca grado o comparación; 東京にほど no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-41",
+    "estructura": "n3-tabi-ni",
+    "nivel": "n3",
+    "antes": "田中さんはうちに",
+    "hueco": "来るたびに",
+    "despues": "お土産を持ってきてくれる。",
+    "lecturaAntes": "たなかさんはうちに",
+    "lecturaDespues": "おみやげをもってきてくれる。",
+    "lectura": "たなかさんはうちにくるたびにおみやげをもってきてくれる。",
+    "traduccion": "Cada vez que Tanaka viene a casa, me trae un regalito.",
+    "nota": "たびに es \"cada vez que\". Se une a la forma diccionario: cada vez que ocurre A, ocurre B.",
+    "opciones": [
+      {
+        "texto": "来たたびに",
+        "nota": "たびに va con la forma diccionario (来るたびに), no con la forma た."
+      },
+      {
+        "texto": "来るうちに",
+        "estructura": "n3-uchi-ni",
+        "nota": "うちに es \"mientras, antes de que cambie\"; no expresa repetición."
+      },
+      {
+        "texto": "来るところに",
+        "estructura": "n4-tokoro",
+        "nota": "来るところ es \"justo cuando está por venir\"; no expresa \"cada vez\"."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-42",
+    "estructura": "n3-ba-hodo",
+    "nivel": "n3",
+    "antes": "相手が強ければ",
+    "hueco": "強いほど",
+    "despues": "勝ちたい気持ちが強くなります。",
+    "lecturaAntes": "あいてがつよければ",
+    "lecturaDespues": "かちたいきもちがつよくなります。",
+    "lectura": "あいてがつよければつよいほどかちたいきもちがつよくなります。",
+    "traduccion": "Cuanto más fuerte es el rival, más fuertes son mis ganas de ganar.",
+    "nota": "ば〜ほど es \"cuanto más A, más B\". Se repite el mismo adjetivo: 強ければ強いほど.",
+    "opciones": [
+      {
+        "texto": "強ければ",
+        "nota": "Repetir 強ければ no forma la estructura; la segunda parte debe ser 強いほど."
+      },
+      {
+        "texto": "強くて",
+        "estructura": "n4-te-de",
+        "nota": "La forma て une o da una causa; 強ければ強くて no es gramatical."
+      },
+      {
+        "texto": "強くても",
+        "estructura": "n4-temo",
+        "nota": "ても es \"aunque\"; 強ければ強くても no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-43",
+    "estructura": "n4-koto",
+    "nivel": "n3",
+    "antes": "新しい仕事を始める前に、まず会社のルールやマナーをしっかり",
+    "hueco": "覚えることが大切だ",
+    "despues": "。",
+    "lecturaAntes": "あたらしいしごとをはじめるまえに、まずかいしゃのルールやマナーをしっかり",
+    "lecturaDespues": "。",
+    "lectura": "あたらしいしごとをはじめるまえに、まずかいしゃのルールやマナーをしっかりおぼえることがたいせつだ。",
+    "traduccion": "Antes de empezar un nuevo trabajo, lo importante es aprender bien las reglas y los modales de la empresa.",
+    "nota": "こと convierte el verbo en sustantivo para que pueda ser el sujeto de 大切だ: \"aprender es importante\".",
+    "opciones": [
+      {
+        "texto": "覚えて大切だ",
+        "nota": "La forma て no puede ser sujeto de 大切だ; falta こと."
+      },
+      {
+        "texto": "覚える大切だ",
+        "nota": "Un verbo no puede ir pegado a 大切だ sin こと (o の)＋が."
+      },
+      {
+        "texto": "覚えれば大切だ",
+        "estructura": "n4-ba",
+        "nota": "ば es condicional (\"si aprendes, es importante\"), lo que no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-44",
+    "estructura": "n4-te-yaru",
+    "nivel": "n3",
+    "antes": "弟が初めての発表会で緊張しているみたいだから、会場まで行って",
+    "hueco": "応援してやろう",
+    "despues": "かと思っている。",
+    "lecturaAntes": "おとうとがはじめてのはっぴょうかいできんちょうしているみたいだから、かいじょうまでいって",
+    "lecturaDespues": "かとおもっている。",
+    "lectura": "おとうとがはじめてのはっぴょうかいできんちょうしているみたいだから、かいじょうまでいっておうえんしてやろうかとおもっている。",
+    "traduccion": "Parece que mi hermano menor está nervioso por su primera presentación, así que estoy pensando en ir a apoyarlo.",
+    "nota": "てやる es hacer algo por alguien de menor rango, como un hermano menor. En volitivo (やろう)＋かと思う expresa una intención.",
+    "opciones": [
+      {
+        "texto": "応援してもらおう",
+        "estructura": "n4-te-morau",
+        "nota": "てもらう es recibir un favor: sería buscar que alguien me apoye a mí."
+      },
+      {
+        "texto": "応援してくれよう",
+        "estructura": "n4-te-kureru",
+        "nota": "くれる no se usa en volitivo con este sentido: くれよう no existe."
+      },
+      {
+        "texto": "応援されよう",
+        "estructura": "n4-ukemi",
+        "nota": "La pasiva (\"ser apoyado\") no encaja: es el hablante quien apoya."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-45",
+    "estructura": "n4-ba",
+    "nivel": "n3",
+    "antes": "あの時先生に相談",
+    "hueco": "していれば",
+    "despues": "、もっと早く解決できたかもしれない。",
+    "lecturaAntes": "あのときせんせいにそうだん",
+    "lecturaDespues": "、もっとはやくかいけつできたかもしれない。",
+    "lectura": "あのときせんせいにそうだんしていれば、もっとはやくかいけつできたかもしれない。",
+    "traduccion": "Si en ese momento le hubiera consultado al profesor, quizá lo habría resuelto antes.",
+    "nota": "ていれば＋できた expresa una condición contraria a lo que pasó (\"si hubiera…\"), con un matiz de arrepentimiento.",
+    "opciones": [
+      {
+        "texto": "しても",
+        "estructura": "n4-temo",
+        "nota": "ても es \"aunque\": \"aunque hubiera consultado, se habría resuelto antes\" es contradictorio."
+      },
+      {
+        "texto": "していて",
+        "nota": "La forma て no es condicional; no expresa \"si hubiera\"."
+      },
+      {
+        "texto": "するので",
+        "estructura": "n5-node",
+        "nota": "ので da una razón; no forma una hipótesis sobre el pasado."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-46",
+    "estructura": "n3-ni-taishite",
+    "nivel": "n3",
+    "antes": "彼の仕事",
+    "hueco": "に対する",
+    "despues": "考え方はとても真面目で、いつも一生懸命やっている。",
+    "lecturaAntes": "かれのしごと",
+    "lecturaDespues": "かんがえかたはとてもまじめで、いつもいっしょうけんめいやっている。",
+    "lectura": "かれのしごとにたいするかんがえかたはとてもまじめで、いつもいっしょうけんめいやっている。",
+    "traduccion": "Su actitud hacia el trabajo es muy seria; siempre se esfuerza al máximo.",
+    "nota": "に対する (la forma de に対して antes de un sustantivo) indica una actitud dirigida hacia algo: el modo de pensar respecto al trabajo.",
+    "opciones": [
+      {
+        "texto": "にとって",
+        "estructura": "n3-ni-totte",
+        "nota": "にとって es \"para (alguien)\" y no modifica directo a un sustantivo; tampoco expresa una actitud hacia algo."
+      },
+      {
+        "texto": "に比べて",
+        "estructura": "n3-ni-kurabete",
+        "nota": "に比べて compara, y no puede ir directo antes de un sustantivo (haría falta に比べた)."
+      },
+      {
+        "texto": "にかけて",
+        "estructura": "n3-ni-kakete",
+        "nota": "にかけて es \"hasta\" en un rango (春から夏にかけて) o \"en cuanto a habilidad\"; no indica actitud."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-47",
+    "estructura": "n3-to-sureba",
+    "nivel": "n3",
+    "antes": "明日は雨になりそう。もし明日雨に",
+    "hueco": "なるとしたら",
+    "despues": "、ピクニックは中止にした方がいいね。",
+    "lecturaAntes": "あしたはあめになりそう。もしあしたあめに",
+    "lecturaDespues": "、ピクニックはちゅうしにしたほうがいいね。",
+    "lectura": "あしたはあめになりそう。もしあしたあめになるとしたら、ピクニックはちゅうしにしたほうがいいね。",
+    "traduccion": "Parece que mañana va a llover. Si de verdad llueve, mejor cancelamos el pícnic.",
+    "nota": "としたら plantea una hipótesis (\"suponiendo que\"). Acompaña bien a もし.",
+    "opciones": [
+      {
+        "texto": "なるのに",
+        "estructura": "n4-noni-aunque",
+        "nota": "のに es \"a pesar de que\"; no plantea una hipótesis."
+      },
+      {
+        "texto": "なるけど",
+        "estructura": "n5-kedo",
+        "nota": "けど contrasta; no forma una condición con もし."
+      },
+      {
+        "texto": "なるので",
+        "estructura": "n5-node",
+        "nota": "ので da una razón segura; choca con もし."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-48",
+    "estructura": "n3-ka-nani-ka",
+    "nivel": "n3",
+    "antes": "喋りすぎて喉が痛いから、温かいお茶",
+    "hueco": "か何か",
+    "despues": "を飲みたい。",
+    "lecturaAntes": "しゃべりすぎてのどがいたいから、あたたかいおちゃ",
+    "lecturaDespues": "をのみたい。",
+    "lectura": "しゃべりすぎてのどがいたいから、あたたかいおちゃかなにかをのみたい。",
+    "traduccion": "Me duele la garganta de tanto hablar, así que quiero tomar un té caliente o algo así.",
+    "nota": "か何か es \"o algo así\": se nombra una opción, pero cualquier cosa parecida sirve.",
+    "opciones": [
+      {
+        "texto": "しか",
+        "nota": "しか necesita negativo; con 飲みたい no funciona."
+      },
+      {
+        "texto": "さえ",
+        "estructura": "n3-sae",
+        "nota": "さえ es \"incluso\"; no ofrece una alternativa aproximada."
+      },
+      {
+        "texto": "ばかり",
+        "estructura": "n4-bakari",
+        "nota": "ばかり es \"solo, nada más que\" con matiz de exceso; no expresa \"algo así\"."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-49",
+    "estructura": "n4-nara",
+    "nivel": "n3",
+    "antes": "田中さんは京都に行ったことがありますか。／京都",
+    "hueco": "なら",
+    "despues": "高校の時に行ったよ。",
+    "lecturaAntes": "たなかさんはきょうとにいったことがありますか。／きょうと",
+    "lecturaDespues": "こうこうのときにいったよ。",
+    "lectura": "たなかさんはきょうとにいったことがありますか。／きょうとならこうこうのときにいったよ。",
+    "traduccion": "¿Has ido a Kioto, Tanaka? / ¿Kioto? Sí, fui cuando estaba en la secundaria.",
+    "nota": "なら retoma lo que acaba de decir el otro: \"si hablamos de Kioto\".",
+    "opciones": [
+      {
+        "texto": "たら",
+        "estructura": "n4-tara",
+        "nota": "たら se une a verbos o adjetivos (行ったら), no directo a un sustantivo; haría falta だったら."
+      },
+      {
+        "texto": "えば",
+        "nota": "えば no es una partícula; la condicional ば se forma con verbos (行けば)."
+      },
+      {
+        "texto": "と",
+        "estructura": "n4-to-condicional",
+        "nota": "La と condicional pide una oración (京都だと); 京都と sería \"con Kioto\"."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-50",
+    "estructura": "n4-o-ni-naru",
+    "nivel": "n3",
+    "antes": "山田さん、社長はいつまで",
+    "hueco": "お休みになります",
+    "despues": "か。／今週までと聞きました。",
+    "lecturaAntes": "やまださん、しゃちょうはいつまで",
+    "lecturaDespues": "か。／こんしゅうまでとききました。",
+    "lectura": "やまださん、しゃちょうはいつまでおやすみになりますか。／こんしゅうまでとききました。",
+    "traduccion": "Yamada, ¿hasta cuándo va a estar de descanso el presidente? / Me dijeron que hasta esta semana.",
+    "nota": "お＋raíz＋になる es lenguaje respetuoso (尊敬語): eleva al presidente, que es quien descansa.",
+    "opciones": [
+      {
+        "texto": "お休みします",
+        "nota": "お＋raíz＋する es humilde; se usa para acciones propias, no para las del presidente."
+      },
+      {
+        "texto": "お休みにさせます",
+        "estructura": "n4-saseru",
+        "nota": "させる es causativo; no forma lenguaje respetuoso."
+      },
+      {
+        "texto": "お休みになられます",
+        "nota": "Mezcla お〜になる con られる: es un doble honorífico, considerado incorrecto."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-51",
+    "estructura": "n3-tochuu-de",
+    "nivel": "n3",
+    "antes": "昨日映画を見ている",
+    "hueco": "途中で",
+    "despues": "、急に電気が消えました。",
+    "lecturaAntes": "きのうえいがをみている",
+    "lecturaDespues": "、きゅうにでんきがきえました。",
+    "lectura": "きのうえいがをみているとちゅうで、きゅうにでんきがきえました。",
+    "traduccion": "Ayer, a mitad de la película, de repente se fue la luz.",
+    "nota": "途中で indica que algo pasó a mitad de una acción, interrumpiéndola.",
+    "opciones": [
+      {
+        "texto": "前に",
+        "estructura": "n5-mae-ni",
+        "nota": "前に va con la forma diccionario (見る前に); 見ている前に es incorrecto."
+      },
+      {
+        "texto": "あとで",
+        "estructura": "n4-ato-de",
+        "nota": "あとで va con la forma た (見たあとで)."
+      },
+      {
+        "texto": "ながら",
+        "estructura": "n4-nagara",
+        "nota": "ながら se une a la raíz (見ながら), no a ている, y necesita el mismo sujeto en las dos acciones."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-52",
+    "estructura": "n3-dakedo",
+    "nivel": "n3",
+    "antes": "最近毎日アルバイトをしていて、お金はたまってきた。",
+    "hueco": "だが",
+    "despues": "、勉強する時間が減ってしまい、成績が下がっている。",
+    "lecturaAntes": "さいきんまいにちアルバイトをしていて、おかねはたまってきた。",
+    "lecturaDespues": "、べんきょうするじかんがへってしまい、せいせきがさがっている。",
+    "lectura": "さいきんまいにちアルバイトをしていて、おかねはたまってきた。だが、べんきょうするじかんがへってしまい、せいせきがさがっている。",
+    "traduccion": "Últimamente trabajo medio tiempo todos los días y he ahorrado dinero. Pero mi tiempo de estudio se redujo y mis notas están bajando.",
+    "nota": "だが es \"pero, sin embargo\" en registro escrito: introduce un contraste. Es la versión formal de だけど.",
+    "opciones": [
+      {
+        "texto": "だから",
+        "nota": "だから da una consecuencia; ahorrar dinero no causa que bajen las notas."
+      },
+      {
+        "texto": "そこで",
+        "nota": "そこで es \"entonces\" para una acción que se toma ante una situación."
+      },
+      {
+        "texto": "それなら",
+        "nota": "それなら es \"en ese caso\" y responde a algo que dijo otra persona."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-53",
+    "estructura": "n3-doushitemo",
+    "nivel": "n3",
+    "antes": "この問題は何度やっても",
+    "hueco": "どうしても",
+    "despues": "答えがわからないから、明日先生に聞いてみようと思う。",
+    "lecturaAntes": "このもんだいはなんどやっても",
+    "lecturaDespues": "こたえがわからないから、あしたせんせいにきいてみようとおもう。",
+    "lectura": "このもんだいはなんどやってもどうしてもこたえがわからないから、あしたせんせいにきいてみようとおもう。",
+    "traduccion": "Por más que intento este problema, no logro entender la respuesta, así que mañana le preguntaré al profesor.",
+    "nota": "どうしても＋negativo es \"por más que se intente, no…\". Combina con 何度やっても.",
+    "opciones": [
+      {
+        "texto": "なんとしても",
+        "nota": "なんとしても es \"cueste lo que cueste\" y va con afirmativos de voluntad (なんとしても勝つ)."
+      },
+      {
+        "texto": "ぜひとも",
+        "nota": "ぜひとも expresa un deseo fuerte; no va con negativos."
+      },
+      {
+        "texto": "必ずしも",
+        "estructura": "n3-towa-kagiranai",
+        "nota": "必ずしも va con とは限らない o わけではない (negación parcial), no con わからない."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-54",
+    "estructura": "n4-you-da",
+    "nivel": "n3",
+    "antes": "雨が",
+    "hueco": "降るようなら",
+    "despues": "、傘を持って行った方がいいよ。",
+    "lecturaAntes": "あめが",
+    "lecturaDespues": "、かさをもっていったほうがいいよ。",
+    "lectura": "あめがふるようなら、かさをもっていったほうがいいよ。",
+    "traduccion": "Si parece que va a llover, mejor lleva paraguas.",
+    "nota": "ようなら es \"si parece que…\": una condición basada en cómo se ve la situación.",
+    "opciones": [
+      {
+        "texto": "降るらしいなら",
+        "estructura": "n4-rashii",
+        "nota": "らしい no se combina con なら."
+      },
+      {
+        "texto": "降るのに",
+        "estructura": "n4-noni-aunque",
+        "nota": "のに es \"aunque\"; no plantea una condición."
+      },
+      {
+        "texto": "降るより",
+        "estructura": "n4-yori",
+        "nota": "より compara; no expresa una condición."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-55",
+    "estructura": "n4-yasui",
+    "nivel": "n3",
+    "antes": "この道は夜になると暗くて車も少ないから、事故が",
+    "hueco": "起きやすい",
+    "despues": "と言われている。",
+    "lecturaAntes": "このみちはよるになるとくらくてくるまもすくないから、じこが",
+    "lecturaDespues": "といわれている。",
+    "lectura": "このみちはよるになるとくらくてくるまもすくないから、じこがおきやすいといわれている。",
+    "traduccion": "Dicen que en esta calle ocurren accidentes con facilidad de noche, porque está oscura y pasan pocos autos.",
+    "nota": "Raíz＋やすい es \"fácil de, propenso a\". Con sucesos indica que ocurren con facilidad.",
+    "opciones": [
+      {
+        "texto": "起きにくい",
+        "estructura": "n4-nikui",
+        "nota": "にくい es \"difícil que pase\", lo contrario de lo que sugiere una calle oscura."
+      },
+      {
+        "texto": "起きがたい",
+        "estructura": "n3-gatai",
+        "nota": "がたい es \"difícil de (aceptar, creer)\" y va con verbos de pensamiento; no con accidentes."
+      },
+      {
+        "texto": "起きたがる",
+        "estructura": "n4-tagaru",
+        "nota": "たがる es el deseo de una persona; un accidente no quiere nada."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-56",
+    "estructura": "n5-soshite",
+    "nivel": "n3",
+    "antes": "高校を卒業してから東京の会社に入って、たくさんの経験をしました。",
+    "hueco": "そして",
+    "despues": "、いい仲間に出会うことができました。",
+    "lecturaAntes": "こうこうをそつぎょうしてからとうきょうのかいしゃにはいって、たくさんのけいけんをしました。",
+    "lecturaDespues": "、いいなかまにであうことができました。",
+    "lectura": "こうこうをそつぎょうしてからとうきょうのかいしゃにはいって、たくさんのけいけんをしました。そして、いいなかまにであうことができました。",
+    "traduccion": "Después de terminar la secundaria entré a una empresa en Tokio y viví muchas experiencias. Y además pude conocer a buenos compañeros.",
+    "nota": "そして une hechos en secuencia o agrega algo más: tuve experiencias y, además, conocí buenos compañeros.",
+    "opciones": [
+      {
+        "texto": "それなのに",
+        "nota": "それなのに expresa un resultado inesperado y molesto; aquí todo es positivo."
+      },
+      {
+        "texto": "ところが",
+        "estructura": "n3-tokoro-ga",
+        "nota": "ところが introduce algo contrario a lo esperado."
+      },
+      {
+        "texto": "それとも",
+        "estructura": "n3-soretomo",
+        "nota": "それとも es \"o\" en preguntas de elección."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-57",
+    "nivel": "n3",
+    "antes": "どうして昨日来なかったんですか。／急に熱が出たんです。",
+    "hueco": "それで",
+    "despues": "、病院に行っていました。",
+    "lecturaAntes": "どうしてきのうこなかったんですか。／きゅうにねつがでたんです。",
+    "lecturaDespues": "、びょういんにいっていました。",
+    "lectura": "どうしてきのうこなかったんですか。／きゅうにねつがでたんです。それで、びょういんにいっていました。",
+    "traduccion": "¿Por qué no viniste ayer? / Me dio fiebre de repente. Por eso estuve en el hospital.",
+    "nota": "それで une una causa con su resultado: \"por eso, así que\". Es muy común al explicar lo que pasó.",
+    "opciones": [
+      {
+        "texto": "それでも",
+        "estructura": "n4-soredemo",
+        "nota": "それでも es \"aun así\"; la fiebre sí explica la visita al hospital."
+      },
+      {
+        "texto": "それとも",
+        "estructura": "n3-soretomo",
+        "nota": "それとも es \"o\" en preguntas de elección."
+      },
+      {
+        "texto": "ところで",
+        "estructura": "n3-tokoro-de",
+        "nota": "ところで cambia de tema."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-58",
+    "estructura": "n3-okage-de",
+    "nivel": "n3",
+    "antes": "友達が引っ越しを手伝ってくれた",
+    "hueco": "おかげで",
+    "despues": "、予定より早く終わらせることができました。",
+    "lecturaAntes": "ともだちがひっこしをてつだってくれた",
+    "lecturaDespues": "、よていよりはやくおわらせることができました。",
+    "lectura": "ともだちがひっこしをてつだってくれたおかげで、よていよりはやくおわらせることができました。",
+    "traduccion": "Gracias a que mis amigos me ayudaron con la mudanza, pude terminar antes de lo previsto.",
+    "nota": "おかげで marca la causa de un resultado bueno: \"gracias a\".",
+    "opciones": [
+      {
+        "texto": "せいで",
+        "estructura": "n3-sei-de",
+        "nota": "せいで marca una causa con resultado negativo; terminar antes es algo bueno."
+      },
+      {
+        "texto": "くせに",
+        "estructura": "n3-kuse-ni",
+        "nota": "くせに es un reproche; aquí se agradece."
+      },
+      {
+        "texto": "わりに",
+        "estructura": "n3-wari-ni",
+        "nota": "わりに es \"para ser…\"; no expresa la causa del resultado."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-59",
+    "estructura": "n4-irassharu",
+    "nivel": "n3",
+    "antes": "山田電気の山田ですが、田中社長は",
+    "hueco": "いらっしゃいます",
+    "despues": "か。",
+    "lecturaAntes": "やまだでんきのやまだですが、たなかしゃちょうは",
+    "lecturaDespues": "か。",
+    "lectura": "やまだでんきのやまだですが、たなかしゃちょうはいらっしゃいますか。",
+    "traduccion": "Habla Yamada, de Yamada Denki. ¿Se encuentra el presidente Tanaka?",
+    "nota": "いらっしゃる es la forma respetuosa de いる. Se usa al preguntar por un superior o por alguien de otra empresa.",
+    "opciones": [
+      {
+        "texto": "参ります",
+        "nota": "参る es la forma humilde de 行く／来る; no se usa para el presidente de otra empresa."
+      },
+      {
+        "texto": "おります",
+        "nota": "おる es humilde (para uno mismo o su propia empresa); no para el presidente de otra empresa."
+      },
+      {
+        "texto": "伺います",
+        "nota": "伺う es la forma humilde de 行く／聞く; describe una acción propia."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-60",
+    "estructura": "n4-youni-suru",
+    "nivel": "n3",
+    "antes": "仕事が忙しくても、できるだけ時間を見つけて体を",
+    "hueco": "動かすようにしている",
+    "despues": "。",
+    "lecturaAntes": "しごとがいそがしくても、できるだけじかんをみつけてからだを",
+    "lecturaDespues": "。",
+    "lectura": "しごとがいそがしくても、できるだけじかんをみつけてからだをうごかすようにしている。",
+    "traduccion": "Aunque esté ocupado con el trabajo, procuro buscar tiempo para moverme lo más que pueda.",
+    "nota": "ようにしている expresa un esfuerzo continuo para mantener un hábito: \"procuro\". Combina con できるだけ.",
+    "opciones": [
+      {
+        "texto": "動かそうとしない",
+        "estructura": "n3-you-to-shinai",
+        "nota": "ようとしない es \"no tener intención de\"; contradice できるだけ."
+      },
+      {
+        "texto": "動かしたがっている",
+        "estructura": "n4-tagaru",
+        "nota": "たがる es para deseos de otras personas, no de uno mismo."
+      },
+      {
+        "texto": "動かしてばかりいる",
+        "estructura": "n3-te-bakari-iru",
+        "nota": "てばかりいる es \"no hacer más que\" con matiz de queja; choca con できるだけ."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-61",
+    "estructura": "n3-ni-tsuite",
+    "nivel": "n3",
+    "antes": "午後の会議で日本の経済問題",
+    "hueco": "について",
+    "despues": "話し合うことになっている。",
+    "lecturaAntes": "ごごのかいぎでにほんのけいざいもんだい",
+    "lecturaDespues": "はなしあうことになっている。",
+    "lectura": "ごごのかいぎでにほんのけいざいもんだいについてはなしあうことになっている。",
+    "traduccion": "Está previsto que en la reunión de la tarde hablemos sobre los problemas económicos de Japón.",
+    "nota": "について marca el tema del que se habla: \"sobre, acerca de\".",
+    "opciones": [
+      {
+        "texto": "にとって",
+        "estructura": "n3-ni-totte",
+        "nota": "にとって es \"para (alguien)\" y va con valoraciones; no marca un tema de conversación."
+      },
+      {
+        "texto": "として",
+        "estructura": "n3-toshite",
+        "nota": "として es \"en calidad de\"; los problemas económicos no son un rol."
+      },
+      {
+        "texto": "によると",
+        "estructura": "n3-ni-yoru-to",
+        "nota": "によると indica la fuente de una información (\"según\")."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-62",
+    "nivel": "n3",
+    "antes": "急な地震なのに、人々は落ち着いていた。",
+    "hueco": "これ",
+    "despues": "を見て私は驚いた。",
+    "lecturaAntes": "きゅうなじしんなのに、ひとびとはおちついていた。",
+    "lecturaDespues": "をみてわたしはおどろいた。",
+    "lectura": "きゅうなじしんなのに、ひとびとはおちついていた。これをみてわたしはおどろいた。",
+    "traduccion": "A pesar del terremoto repentino, la gente estaba tranquila. Al ver esto, me sorprendí.",
+    "nota": "これ puede referirse a lo que se acaba de describir, presentándolo como algo cercano al hablante (それ también se usa así).",
+    "opciones": [
+      {
+        "texto": "あれ",
+        "nota": "あれ se refiere a algo lejano o que ambos ya conocen de antes, no a lo que se acaba de contar."
+      },
+      {
+        "texto": "どれ",
+        "nota": "どれ es interrogativo (\"¿cuál?\"); no sirve en una afirmación."
+      },
+      {
+        "texto": "こんな",
+        "nota": "こんな debe ir antes de un sustantivo (こんなこと); no puede llevar を directamente."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-63",
+    "estructura": "n4-yatto",
+    "nivel": "n3",
+    "antes": "2時間並んで、",
+    "hueco": "ようやく",
+    "despues": "コンサートのチケットを買うことができた。",
+    "lecturaAntes": "にじかんならんで、",
+    "lecturaDespues": "コンサートのチケットをかうことができた。",
+    "lectura": "にじかんならんで、ようやくコンサートのチケットをかうことができた。",
+    "traduccion": "Después de hacer fila dos horas, por fin pude comprar la entrada para el concierto.",
+    "nota": "ようやく es \"por fin\", después de mucho tiempo o esfuerzo. Es un poco más formal que やっと.",
+    "opciones": [
+      {
+        "texto": "いよいよ",
+        "nota": "いよいよ anuncia que por fin llega algo que va a empezar (いよいよ明日だ); no va con algo ya logrado."
+      },
+      {
+        "texto": "まだ",
+        "estructura": "n5-mada",
+        "nota": "まだ es \"todavía\" y no encaja con できた."
+      },
+      {
+        "texto": "せっかく",
+        "nota": "せっかく es \"con lo que costó\" y suele ir con のに o un sustantivo (せっかく並んだのに)."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-64",
+    "nivel": "n3",
+    "antes": "メモを取るようにした",
+    "hueco": "ことで",
+    "despues": "、仕事のミスが確実に減った。",
+    "lecturaAntes": "メモをとるようにした",
+    "lecturaDespues": "、しごとのミスがかくじつにへった。",
+    "lectura": "メモをとるようにしたことで、しごとのミスがかくじつにへった。",
+    "traduccion": "Desde que empecé a tomar notas, mis errores en el trabajo bajaron de verdad.",
+    "nota": "ことで presenta una acción como el medio o la causa que produce un resultado: \"al hacer…\".",
+    "opciones": [
+      {
+        "texto": "ことに",
+        "nota": "ことに expresa emoción (驚いたことに); no indica la causa de un resultado."
+      },
+      {
+        "texto": "のに",
+        "estructura": "n4-noni-aunque",
+        "nota": "のに es \"a pesar de\"; aquí el resultado es justo el esperado."
+      },
+      {
+        "texto": "わりに",
+        "estructura": "n3-wari-ni",
+        "nota": "わりに es \"para ser…\"; no expresa causa."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-65",
+    "estructura": "n4-mo-cantidad",
+    "nivel": "n3",
+    "antes": "彼女と別れてから、もう3年",
+    "hueco": "も",
+    "despues": "たったのに、まだ忘れられない。",
+    "lecturaAntes": "かのじょとわかれてから、もうさんねん",
+    "lecturaDespues": "たったのに、まだわすれられない。",
+    "lectura": "かのじょとわかれてから、もうさんねんもたったのに、まだわすれられない。",
+    "traduccion": "Ya pasaron nada menos que tres años desde que terminé con ella, y todavía no puedo olvidarla.",
+    "nota": "も después de una cantidad la enfatiza como grande: \"nada menos que tres años\".",
+    "opciones": [
+      {
+        "texto": "しか",
+        "estructura": "n3-shika-nai",
+        "nota": "しか necesita negativo (3年しかたっていない)."
+      },
+      {
+        "texto": "だけ",
+        "estructura": "n5-dake",
+        "nota": "だけ minimiza (\"solo tres años\"), lo contrario de もう…のに."
+      },
+      {
+        "texto": "さえ",
+        "estructura": "n3-sae",
+        "nota": "さえ es \"incluso\"; no enfatiza una cantidad de tiempo."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-66",
+    "estructura": "n4-soredemo",
+    "nivel": "n3",
+    "antes": "何回説明してもわからないと言われたが、",
+    "hueco": "それでも",
+    "despues": "諦めずにもう一度ゆっくり説明してみた。",
+    "lecturaAntes": "なんかいせつめいしてもわからないといわれたが、",
+    "lecturaDespues": "あきらめずにもういちどゆっくりせつめいしてみた。",
+    "lectura": "なんかいせつめいしてもわからないといわれたが、それでもあきらめずにもういちどゆっくりせつめいしてみた。",
+    "traduccion": "Me dijo que no entendía por más que se lo explicara, pero aun así no me rendí y se lo expliqué otra vez despacio.",
+    "nota": "それでも es \"aun así, a pesar de eso\".",
+    "opciones": [
+      {
+        "texto": "それなら",
+        "nota": "それなら es \"en ese caso\" y propone algo como respuesta; no expresa insistir pese a la dificultad."
+      },
+      {
+        "texto": "それでは",
+        "nota": "それでは es \"bueno, entonces\" para cerrar o pasar a otra cosa."
+      },
+      {
+        "texto": "それだから",
+        "nota": "それだから es \"por eso\"; el rechazo no es la razón para insistir."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-67",
+    "estructura": "n3-sou-mo-nai",
+    "nivel": "n3",
+    "antes": "電車が遅れているから、約束の時間に",
+    "hueco": "間に合いそうもない",
+    "despues": "。",
+    "lecturaAntes": "でんしゃがおくれているから、やくそくのじかんに",
+    "lecturaDespues": "。",
+    "lectura": "でんしゃがおくれているから、やくそくのじかんにまにあいそうもない。",
+    "traduccion": "Como el tren está atrasado, no creo que llegue a tiempo.",
+    "nota": "Raíz＋そうもない es \"no parece que vaya a…\": una predicción propia basada en la situación (el tren atrasado).",
+    "opciones": [
+      {
+        "texto": "間に合わないそうだ",
+        "estructura": "n4-souda-rumor",
+        "nota": "そうだ después de una forma simple es rumor (\"dicen que no llegaré\"), no una predicción propia."
+      },
+      {
+        "texto": "間に合いそうだ",
+        "estructura": "n4-souda-aspecto",
+        "nota": "Es afirmativo: diría que sí va a llegar, lo contrario de lo esperable con el tren atrasado."
+      },
+      {
+        "texto": "間に合うはずだ",
+        "estructura": "n4-hazu-da",
+        "nota": "はずだ diría que debería llegar, lo contrario de lo que sugiere el atraso."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-68",
+    "estructura": "n3-sei-de",
+    "nivel": "n3",
+    "antes": "最近忙しい",
+    "hueco": "せい",
+    "despues": "で、友達からのメッセージに返信するのをよく忘れてしまう。",
+    "lecturaAntes": "さいきんいそがしい",
+    "lecturaDespues": "で、ともだちからのメッセージにへんしんするのをよくわすれてしまう。",
+    "lectura": "さいきんいそがしいせいで、ともだちからのメッセージにへんしんするのをよくわすれてしまう。",
+    "traduccion": "Por estar tan ocupado últimamente, seguido me olvido de responder los mensajes de mis amigos.",
+    "nota": "せいで marca una causa con resultado negativo: \"por culpa de\". Olvidar contestar es algo malo.",
+    "opciones": [
+      {
+        "texto": "おかげ",
+        "estructura": "n3-okage-de",
+        "nota": "おかげで es para resultados buenos; olvidar responder no lo es."
+      },
+      {
+        "texto": "ため",
+        "estructura": "n3-tame-ni",
+        "nota": "ため ya expresa causa por sí sola; ためで no se usa."
+      },
+      {
+        "texto": "理由",
+        "nota": "理由 es un sustantivo común; 忙しい理由で no expresa \"por culpa de estar ocupado\"."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-69",
+    "estructura": "n4-te-kureru",
+    "nivel": "n3",
+    "antes": "彼はおとといから怒っているが、どうしてなのか聞いても",
+    "hueco": "話してくれない",
+    "despues": "。",
+    "lecturaAntes": "かれはおとといからおこっているが、どうしてなのかきいても",
+    "lecturaDespues": "。",
+    "lectura": "かれはおとといからおこっているが、どうしてなのかきいてもはなしてくれない。",
+    "traduccion": "Él está enojado desde anteayer, pero aunque le pregunto por qué, no me lo cuenta.",
+    "nota": "てくれない es que otra persona no hace algo por uno. Muestra que el hablante quería que se lo contara.",
+    "opciones": [
+      {
+        "texto": "話させない",
+        "estructura": "n4-saseru",
+        "nota": "Es causativo negativo (\"no deja hablar\"); no corresponde."
+      },
+      {
+        "texto": "話されない",
+        "estructura": "n4-ukemi",
+        "nota": "Es pasivo o respetuoso; no expresa que él se niegue a contarlo."
+      },
+      {
+        "texto": "話してあげない",
+        "estructura": "n4-te-ageru",
+        "nota": "てあげない sería que yo no le hago el favor a él; es al revés."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-70",
+    "estructura": "n3-gimi",
+    "nivel": "n3",
+    "antes": "この頃ちょっと太り",
+    "hueco": "気味",
+    "despues": "だから、運動を始めようと思う。",
+    "lecturaAntes": "このごろちょっとふとり",
+    "lecturaDespues": "だから、うんどうをはじめようとおもう。",
+    "lectura": "このごろちょっとふとりぎみだから、うんどうをはじめようとおもう。",
+    "traduccion": "Últimamente estoy un poco pasado de peso, así que pienso empezar a hacer ejercicio.",
+    "nota": "Raíz＋気味 indica una ligera tendencia o sensación de algo, casi siempre negativo: \"un poco, algo\".",
+    "opciones": [
+      {
+        "texto": "っぽい",
+        "estructura": "n3-ppoi",
+        "nota": "っぽい no se une a la raíz 太り; va con sustantivos o adjetivos (子どもっぽい)."
+      },
+      {
+        "texto": "だらけ",
+        "estructura": "n3-darake",
+        "nota": "だらけ es \"lleno de\" con sustantivos (傷だらけ)."
+      },
+      {
+        "texto": "たて",
+        "estructura": "n3-tate",
+        "nota": "たて es \"recién hecho\" (焼きたて); no se aplica a 太る."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-71",
+    "estructura": "n3-nai-koto-wa-nai",
+    "nivel": "n3",
+    "antes": "このアパートはペットを飼うことができますか。／",
+    "hueco": "飼えないことはない",
+    "despues": "と思いますが、大家さんに聞いてみます。",
+    "lecturaAntes": "このアパートはペットをかうことができますか。／",
+    "lecturaDespues": "とおもいますが、おおやさんにきいてみます。",
+    "lectura": "このアパートはペットをかうことができますか。／かえないことはないとおもいますが、おおやさんにきいてみます。",
+    "traduccion": "¿Se pueden tener mascotas en este departamento? / Creo que no es imposible, pero le voy a preguntar al dueño.",
+    "nota": "ないことはない es una doble negación: \"no es que no se pueda\". Da una posibilidad débil, que encaja con が y con ir a preguntar.",
+    "opciones": [
+      {
+        "texto": "飼えないはずはない",
+        "estructura": "n4-hazu-ga-nai",
+        "nota": "はずはない afirma con seguridad que sí se puede; choca con tener que preguntar."
+      },
+      {
+        "texto": "飼えないわけがない",
+        "estructura": "n3-wake-ga-nai",
+        "nota": "わけがない también es muy seguro y no combina con la duda."
+      },
+      {
+        "texto": "飼えないことだ",
+        "estructura": "n3-koto-da",
+        "nota": "ことだ es un consejo (\"lo que debes hacer es…\"); no tiene sentido aquí."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-72",
+    "estructura": "n3-nakanaka",
+    "nivel": "n3",
+    "antes": "娘が初めて作った料理なのに、",
+    "hueco": "なかなか",
+    "despues": "おいしかったよ。",
+    "lecturaAntes": "むすめがはじめてつくったりょうりなのに、",
+    "lecturaDespues": "おいしかったよ。",
+    "lectura": "むすめがはじめてつくったりょうりなのに、なかなかおいしかったよ。",
+    "traduccion": "Aunque era la primera comida que hacía mi hija, estuvo bastante rica.",
+    "nota": "なかなか con afirmativo es \"bastante, mejor de lo esperado\". のに marca que se esperaba menos.",
+    "opciones": [
+      {
+        "texto": "ぜんぜん",
+        "estructura": "n4-zenzen-nai",
+        "nota": "ぜんぜん va normalmente con negativo y no da el matiz de \"mejor de lo esperado\"."
+      },
+      {
+        "texto": "けっして",
+        "estructura": "n3-kesshite-nai",
+        "nota": "けっして siempre pide negativo."
+      },
+      {
+        "texto": "あんまり",
+        "estructura": "n4-amari-nai",
+        "nota": "あんまり va con negativo (あんまりおいしくなかった)."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-73",
+    "estructura": "n3-yorimo",
+    "nivel": "n3",
+    "antes": "山田さんに会ってみると、聞いていた年齢",
+    "hueco": "よりも",
+    "despues": "若く見えてびっくりした。",
+    "lecturaAntes": "やまださんにあってみると、きいていたねんれい",
+    "lecturaDespues": "わかくみえてびっくりした。",
+    "lectura": "やまださんにあってみると、きいていたねんれいよりもわかくみえてびっくりした。",
+    "traduccion": "Cuando conocí a Yamada, me sorprendió que se viera más joven que la edad que me habían dicho.",
+    "nota": "よりも marca el punto de comparación: más joven que la edad que había oído. も lo enfatiza.",
+    "opciones": [
+      {
+        "texto": "ほども",
+        "nota": "ほど compara en negativo (〜ほど若くない); ほども no forma esta comparación."
+      },
+      {
+        "texto": "くらいも",
+        "nota": "くらいも no existe como comparación."
+      },
+      {
+        "texto": "ばかりも",
+        "nota": "ばかり es \"solo\"; ばかりも no compara."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-74",
+    "nivel": "n3",
+    "antes": "先生、日本語の文法についてちょっと",
+    "hueco": "伺いたい",
+    "despues": "んですが。／はい、何ですか。",
+    "lecturaAntes": "せんせい、にほんごのぶんぽうについてちょっと",
+    "lecturaDespues": "んですが。／はい、なんですか。",
+    "lectura": "せんせい、にほんごのぶんぽうについてちょっとうかがいたいんですが。／はい、なんですか。",
+    "traduccion": "Profesor, quisiera preguntarle algo sobre gramática japonesa. / Sí, ¿qué pasa?",
+    "nota": "伺う es la forma humilde de 聞く (preguntar). Se usa para la acción propia frente a un superior.",
+    "opciones": [
+      {
+        "texto": "おっしゃりたい",
+        "nota": "おっしゃる es respetuoso (para el otro); no se usa para la acción propia."
+      },
+      {
+        "texto": "お聞きになりたい",
+        "estructura": "n4-o-ni-naru",
+        "nota": "お〜になる es respetuoso: elevaría al propio hablante."
+      },
+      {
+        "texto": "聞いてあげたい",
+        "estructura": "n4-te-ageru",
+        "nota": "てあげたい es hacerle un favor al profesor; es descortés y no tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-75",
+    "estructura": "n3-wake-ga-nai",
+    "nivel": "n3",
+    "antes": "あの静かな人が大声で怒る",
+    "hueco": "わけがない",
+    "despues": "と思う。誰かを彼と見間違えたんじゃない？",
+    "lecturaAntes": "あのしずかなひとがおおごえでおこる",
+    "lecturaDespues": "とおもう。だれかをかれとみまちがえたんじゃない？",
+    "lectura": "あのしずかなひとがおおごえでおこるわけがないとおもう。だれかをかれとみまちがえたんじゃない？",
+    "traduccion": "No creo que alguien tan tranquilo grite de enojo. ¿No lo habrás confundido con otra persona?",
+    "nota": "わけがない expresa que algo es imposible según el razonamiento del hablante.",
+    "opciones": [
+      {
+        "texto": "にちがいない",
+        "estructura": "n3-ni-chigai-nai",
+        "nota": "Es \"seguro que sí\"; contradice la sugerencia de que se confundió de persona."
+      },
+      {
+        "texto": "ことがない",
+        "estructura": "n5-ta-koto-ga-aru",
+        "nota": "ことがない es \"nunca ha pasado\" y va con la forma た (怒ったことがない)."
+      },
+      {
+        "texto": "わけだ",
+        "estructura": "n3-wake-da",
+        "nota": "わけだ es \"con razón, o sea que\"; confirmaría que se enojó."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-76",
+    "estructura": "n4-dake-de",
+    "nivel": "n3",
+    "antes": "一度",
+    "hueco": "だけでいい",
+    "despues": "から、世界旅行をしてみたいんだ。",
+    "lecturaAntes": "いちど",
+    "lecturaDespues": "から、せかいりょこうをしてみたいんだ。",
+    "lectura": "いちどだけでいいから、せかいりょこうをしてみたいんだ。",
+    "traduccion": "Aunque sea una sola vez, quiero viajar por el mundo.",
+    "nota": "だけでいい es \"con solo… basta\": el deseo es modesto, con una vez es suficiente.",
+    "opciones": [
+      {
+        "texto": "しかいい",
+        "nota": "しか exige negativo; しかいい no es gramatical."
+      },
+      {
+        "texto": "ばかりでいい",
+        "estructura": "n4-bakari",
+        "nota": "ばかり es \"puro, nada más que\" con matiz de exceso; no se usa con cantidades como 一度."
+      },
+      {
+        "texto": "ほどでいい",
+        "estructura": "n3-hodo",
+        "nota": "ほど es un grado aproximado; 一度ほどでいい no es natural."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-77",
+    "estructura": "n3-to-iu-nowa",
+    "nivel": "n3",
+    "antes": "オタク",
+    "hueco": "というのは",
+    "despues": "、自分の好きなことにとても熱中する人のことだ。",
+    "lecturaAntes": "オタク",
+    "lecturaDespues": "、じぶんのすきなことにとてもねっちゅうするひとのことだ。",
+    "lectura": "オタクというのは、じぶんのすきなことにとてもねっちゅうするひとのことだ。",
+    "traduccion": "\"Otaku\" es una persona que se apasiona muchísimo por lo que le gusta.",
+    "nota": "というのは〜のことだ define una palabra: \"X significa, se refiere a\".",
+    "opciones": [
+      {
+        "texto": "といえば",
+        "estructura": "n3-to-ieba",
+        "nota": "といえば saca un tema a partir de otro (\"hablando de otakus…\"); no define."
+      },
+      {
+        "texto": "といったら",
+        "nota": "といったら expresa sorpresa o asocia un tema; no define."
+      },
+      {
+        "texto": "というと",
+        "estructura": "n3-to-iu-to",
+        "nota": "というと es \"si hablamos de\" y asocia ideas; no da una definición."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-78",
+    "estructura": "n4-o-kudasai",
+    "nivel": "n3",
+    "antes": "このシャツ、もう少し大きいのはありますか。／はい、確認しますので、",
+    "hueco": "少々お待ちください",
+    "despues": "。",
+    "lecturaAntes": "このシャツ、もうすこしおおきいのはありますか。／はい、かくにんしますので、",
+    "lecturaDespues": "。",
+    "lectura": "このシャツ、もうすこしおおきいのはありますか。／はい、かくにんしますので、しょうしょうおまちください。",
+    "traduccion": "¿Tiene esta camisa en una talla un poco más grande? / Sí, voy a revisar; espere un momento, por favor.",
+    "nota": "お＋raíz＋ください es la forma respetuosa de てください. 少々お待ちください es la frase fija para pedir que esperen.",
+    "opciones": [
+      {
+        "texto": "少々お待ちになります",
+        "estructura": "n4-o-ni-naru",
+        "nota": "お〜になる describe con respeto lo que hace el otro; no es una petición."
+      },
+      {
+        "texto": "少々待たれますか",
+        "nota": "Es una pregunta en forma respetuosa (\"¿va a esperar?\"); no pide esperar."
+      },
+      {
+        "texto": "少々お待ちしてください",
+        "nota": "お〜する es humilde (para uno mismo) y no se combina con ください."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-79",
+    "estructura": "n4-saserareru",
+    "nivel": "n3",
+    "antes": "クラスの代表になった友達にイベントの準備を",
+    "hueco": "手伝わされて",
+    "despues": "、とても疲れた。",
+    "lecturaAntes": "クラスのだいひょうになったともだちにイベントのじゅんびを",
+    "lecturaDespues": "、とてもつかれた。",
+    "lectura": "クラスのだいひょうになったともだちにイベントのじゅんびをてつだわされて、とてもつかれた。",
+    "traduccion": "Mi amigo, que quedó como representante de la clase, me hizo ayudar con los preparativos del evento, y quedé agotado.",
+    "nota": "El causativo pasivo (手伝わされる) es \"ser obligado a hacer algo\" sin querer. に marca a quien obliga.",
+    "opciones": [
+      {
+        "texto": "手伝われて",
+        "estructura": "n4-ukemi",
+        "nota": "Es pasivo simple (\"ser ayudado\"); diría que el amigo me ayudó a mí."
+      },
+      {
+        "texto": "手伝わせて",
+        "estructura": "n4-saseru",
+        "nota": "Es causativo: yo hice que el amigo ayudara, al revés."
+      },
+      {
+        "texto": "手伝ってもらって",
+        "estructura": "n4-te-morau",
+        "nota": "Sería recibir ayuda del amigo; no explica por qué yo terminé cansado."
+      }
+    ]
+  },
+  {
+    "id": "tomo-n3-80",
+    "estructura": "n3-temo-kamawanai",
+    "nivel": "n3",
+    "antes": "時間がかかっても",
+    "hueco": "構わない",
+    "despues": "ので、もう少し詳しく説明していただけますか。",
+    "lecturaAntes": "じかんがかかっても",
+    "lecturaDespues": "ので、もうすこしくわしくせつめいしていただけますか。",
+    "lectura": "じかんがかかってもかまわないので、もうすこしくわしくせつめいしていただけますか。",
+    "traduccion": "No importa si toma tiempo; ¿podría explicármelo con un poco más de detalle?",
+    "nota": "ても構わない es \"no importa si…, no hay problema en…\". Acepta una condición o da permiso.",
+    "opciones": [
+      {
+        "texto": "しかたがない",
+        "estructura": "n3-temo-shou-ga-nai",
+        "nota": "てもしかたがない es \"no sirve de nada\"; no da permiso."
+      },
+      {
+        "texto": "始まらない",
+        "estructura": "n3-temo-hajimaranai",
+        "nota": "ても始まらない también es \"no sirve de nada\"; contradice la petición."
+      },
+      {
+        "texto": "いけない",
+        "estructura": "n5-tewa-ikenai",
+        "nota": "La prohibición es てはいけない, no てもいけない; además contradice la petición."
+      }
+    ]
   }
 ]
