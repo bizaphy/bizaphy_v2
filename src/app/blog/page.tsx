@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import TextScramble from "@/components/effects/TextScramble";
 import { obtenerPostsPublicados } from "@/db/post-queries";
@@ -13,6 +14,11 @@ function formatearFecha(fecha: Date) {
     .replace(".", "")
     .toUpperCase();
 }
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Entradas del blog de bizaphy.",
+};
 
 export default async function BlogPage() {
   // Solo los publicados, más recientes primero

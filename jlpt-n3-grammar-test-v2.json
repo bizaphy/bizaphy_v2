@@ -1,0 +1,1452 @@
+{
+  "title": "JLPT N3 Grammar Practice Tests - Questions, Options & Guide (Videos #01 to #04)",
+  "total_questions": 80,
+  "source_videos": [
+    "JLPT N3 GRAMMAR TEST with Answers and Guide #01 - Learn Japanese Grammar with TOMO sensei",
+    "JLPT N3 GRAMMAR TEST with Answers and Guide #02 - Learn Japanese Grammar with TOMO sensei",
+    "JLPT N3 GRAMMAR TEST with Answers and Guide #03 - Learn Japanese Grammar with TOMO sensei",
+    "JLPT N3 GRAMMAR TEST with Answers and Guide #04 - Learn Japanese Grammar with TOMO sensei"
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "sentence": "明日のテストのために【　　】勉強してきた。",
+      "answer_option": "できるだけ",
+      "options": [
+        "できるだけ",
+        "ほど",
+        "つもり",
+        "うちに"
+      ],
+      "correct_index": 1,
+      "grammar_point": "できるだけ (dekiru dake)",
+      "explanation": "Se utiliza para hacer algo en la mayor medida posible (tan... como sea posible).",
+      "translation": "Estudié lo más posible para el examen de mañana.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 1
+    },
+    {
+      "question_number": 2,
+      "sentence": "友達と高校の時の話をしていたら、【　　】5時になっていました。",
+      "answer_option": "いつの間にか",
+      "options": [
+        "いつの間にか",
+        "そのうちに",
+        "ついに",
+        "ようやく"
+      ],
+      "correct_index": 1,
+      "grammar_point": "いつの間にか (itsu no ma ni ka)",
+      "explanation": "Expresa que algo sucedió antes de darse cuenta o de forma imperceptible.",
+      "translation": "Mientras hablaba con mi amigo sobre la secundaria, antes de darme cuenta ya eran las 5:00.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 2
+    },
+    {
+      "question_number": 3,
+      "sentence": "傘を持っていないから、雨が降らない【　　】帰りましょう。",
+      "answer_option": "うちに",
+      "options": [
+        "うちに",
+        "あいだに",
+        "あいだ",
+        "までに"
+      ],
+      "correct_index": 1,
+      "grammar_point": "うちに (uchi ni)",
+      "explanation": "Aprovechar cierto estado actual antes de que cambie (mientras / antes de que...).",
+      "translation": "Como no tengo paraguas, volvamos a casa antes de que empiece a llover.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 3
+    },
+    {
+      "question_number": 4,
+      "sentence": "すみません。昨日休んだので、ノートを【　　】んですが。／ はい、どうぞ。",
+      "answer_option": "貸してもらいたい",
+      "options": [
+        "貸してもらいたい",
+        "貸してあげたい",
+        "貸してくれたい",
+        "貸していただく"
+      ],
+      "correct_index": 1,
+      "grammar_point": "てもらいたい (te moraitai)",
+      "explanation": "Expresa la solicitud o deseo de que otra persona haga algo en nuestro beneficio.",
+      "translation": "Disculpa, como ayer falté, me gustaría que me prestaras tus apuntes. / Sí, claro.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 4
+    },
+    {
+      "question_number": 5,
+      "sentence": "毎日お酒ばかり飲んじゃ、いつ病気になっても【　　】よ。",
+      "answer_option": "おかしくない",
+      "options": [
+        "おかしくない",
+        "おかしい",
+        "はずがない",
+        "わけがない"
+      ],
+      "correct_index": 1,
+      "grammar_point": "て形/じゃ + もおかしくない (mo okashikunai)",
+      "explanation": "Señala que no sería raro ni extraño que algo ocurra en cualquier momento.",
+      "translation": "Si bebes alcohol todos los días, no sería nada raro que te enfermes en cualquier momento.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 5
+    },
+    {
+      "question_number": 6,
+      "sentence": "彼女とのデートで今人気のお店に行ってみたが、【　　】混んでいたため、違う店を探すことにした。",
+      "answer_option": "あまりにも",
+      "options": [
+        "あまりにも",
+        "どんなに",
+        "いくら",
+        "たいして"
+      ],
+      "correct_index": 1,
+      "grammar_point": "あまりにも (amari ni mo)",
+      "explanation": "Enfatiza un grado excesivo o extremo de una situación.",
+      "translation": "En la cita con mi novia fuimos a un restaurante popular, pero como estaba excesivamente lleno, buscamos otro.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 6
+    },
+    {
+      "question_number": 7,
+      "sentence": "去年【　　】、今の方（ほう）が日本語が上手だと思います。",
+      "answer_option": "に比べると",
+      "options": [
+        "に比べると",
+        "に沿って",
+        "に際して",
+        "にわたって"
+      ],
+      "correct_index": 1,
+      "grammar_point": "に比べると / に比べて (ni kuraberu to / ni kurabe te)",
+      "explanation": "Estructura usada para comparar un elemento o estado con otro.",
+      "translation": "En comparación con el año pasado, creo que ahora mi japonés es mejor.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 7
+    },
+    {
+      "question_number": 8,
+      "sentence": "頭がいい【　　】成績優秀だ【　　】は、彼の本当の魅力じゃないよ。",
+      "answer_option": "とか...とか",
+      "options": [
+        "とか...とか",
+        "たり...たり",
+        "やら...やら",
+        "だの...だの"
+      ],
+      "correct_index": 1,
+      "grammar_point": "とか...とか (toka ... toka)",
+      "explanation": "Sive para dar varios ejemplos ilustrativos pero no exhaustivos.",
+      "translation": "Cosas como ser inteligente o tener excelentes notas no son su verdadero atractivo.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 8
+    },
+    {
+      "question_number": 9,
+      "sentence": "このをし終わったら海外旅行に行くって家族と約束したんですが、【　　】行けそうにないです。",
+      "answer_option": "なかなか",
+      "options": [
+        "なかなか",
+        "ぜひ",
+        "かならず",
+        "きっと"
+      ],
+      "correct_index": 1,
+      "grammar_point": "なかなか + 否定/不可能 (nakanaka ~ nai)",
+      "explanation": "Indica que algo no es fácil de lograr o difícilmente sucederá.",
+      "translation": "Prometí a mi familia ir de viaje al terminar este trabajo, pero parece que difícilmente podremos ir.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 9
+    },
+    {
+      "question_number": 10,
+      "sentence": "ここは今すごく人気のある店だから、【　　】よ。／ そうですね。そうしましょう。",
+      "answer_option": "予約しておこう",
+      "options": [
+        "予約しておこう",
+        "予約してしまおう",
+        "予約してみよう",
+        "予約しておこうか"
+      ],
+      "correct_index": 1,
+      "grammar_point": "ておく / ておこう (te oku / te okou)",
+      "explanation": "Hacer algo con anticipación como preparación o conveniencia futura.",
+      "translation": "Como es un restaurante muy popular, hagamos una reserva con anticipación. / Sí, hagámoslo.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 10
+    },
+    {
+      "question_number": 11,
+      "sentence": "日本ではまだタバコが吸える食堂があると聞きましたけれども、韓国では食堂でタバコを吸うのはダメ【　　】。",
+      "answer_option": "だそうです",
+      "options": [
+        "だそうです",
+        "らしいです",
+        "みたいです",
+        "はずです"
+      ],
+      "correct_index": 1,
+      "grammar_point": "だそうです (da sou desu) / けれども (keredomo)",
+      "explanation": "Transmite información escuchada de otra fuente (transmisión / rumor).",
+      "translation": "Escuché que en Japón aún se puede fumar en algunos restaurantes, pero me dijeron que en Corea está prohibido.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 11
+    },
+    {
+      "question_number": 12,
+      "sentence": "私は犬が大好きで、お金に余裕があったら庭がある家で犬を【　　】です。",
+      "answer_option": "飼ってみたい",
+      "options": [
+        "飼ってみたい",
+        "飼ってみせる",
+        "飼っておく",
+        "飼ってしまう"
+      ],
+      "correct_index": 1,
+      "grammar_point": "てみたい (te mitai)",
+      "explanation": "Expresa el deseo de intentar experimentar algo por primera vez.",
+      "translation": "Me encantan los perros, y si tuviera dinero, me gustaría intentar criar uno en una casa con jardín.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 12
+    },
+    {
+      "question_number": 13,
+      "sentence": "田中さんは俳優【　　】知られている【　　】、歌手としても高い評価を受けている。",
+      "answer_option": "として / 一方で",
+      "options": [
+        "として / 一方で",
+        "にして / 反面",
+        "にとって / 反対に",
+        "として / 反対に"
+      ],
+      "correct_index": 1,
+      "grammar_point": "として (toshi te) / 一方で (ippou de)",
+      "explanation": "'En calidad de' (として) y contraste simultáneo de dos aspectos ('por otro lado', 一方で).",
+      "translation": "Tanaka-san es conocido como actor, mientras que por otro lado también es valorado como cantante.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 13
+    },
+    {
+      "question_number": 14,
+      "sentence": "工事現場に【　　】とお父さんに言われました。",
+      "answer_option": "近づくな",
+      "options": [
+        "近づくな",
+        "近づかないで",
+        "近づくなよ",
+        "近づいてはいけない"
+      ],
+      "correct_index": 1,
+      "grammar_point": "辞書形 + な (na)",
+      "explanation": "Prohibición imperativa e implacable ('¡no hagas...!').",
+      "translation": "Mi padre me dijo que no me acercara a la zona de obras.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 14
+    },
+    {
+      "question_number": 15,
+      "sentence": "7時に予約した山田です。／ 山田様、お待ちしておりました。お席にご案内【　　】ので、こちらへどうぞ。",
+      "answer_option": "いたします",
+      "options": [
+        "いたします",
+        "なさいます",
+        "になられます",
+        "申し上げます"
+      ],
+      "correct_index": 1,
+      "grammar_point": "ご/お + 動詞 + いたします (itashimasu)",
+      "explanation": "Lenguaje humilde (kenjougo) para ofrecer guiar o realizar una acción hacia el cliente/superior.",
+      "translation": "Soy Yamada, reservé a las 7:00. / Señor Yamada, lo esperábamos. Lo guiaré a su mesa, por aquí por favor.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 15
+    },
+    {
+      "question_number": 16,
+      "sentence": "娘が今勉強中なんで、大声を出さない【　　】気をつけます。",
+      "answer_option": "ように",
+      "options": [
+        "ように",
+        "ために",
+        "かぎり",
+        "とおりに"
+      ],
+      "correct_index": 1,
+      "grammar_point": "ないように (nai you ni)",
+      "explanation": "Propósito de procurar/precaver que NO ocurra cierta situación.",
+      "translation": "Como mi hija está estudiando ahora, me procuro de no hablar en voz alta.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 16
+    },
+    {
+      "question_number": 17,
+      "sentence": "この学校では生徒たちは授業中に携帯電話を先生に【　　】ので、皆さん協力してくださいね。",
+      "answer_option": "預けることになっている",
+      "options": [
+        "預けることになっている",
+        "預けることにしている",
+        "預けることになった",
+        "預けることにした"
+      ],
+      "correct_index": 1,
+      "grammar_point": "ことになっている (koto ni natte iru)",
+      "explanation": "Norma, regla institucional o hábito socialmente establecido.",
+      "translation": "En esta escuela está establecido que los estudiantes entreguen sus teléfonos al profesor durante clases.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 17
+    },
+    {
+      "question_number": 18,
+      "sentence": "富士さん【　　】名前のレストランを知っていますか。寿司が美味しいそうです。／ それなら是非行ってみたいですね。",
+      "answer_option": "って",
+      "options": [
+        "って",
+        "とか",
+        "なんの",
+        "なんか"
+      ],
+      "correct_index": 1,
+      "grammar_point": "って (tte)",
+      "explanation": "Forma informal/conversacional equivalente a という (llamado...).",
+      "translation": "¿Conoces un restaurante llamado Fujisan? Dicen que el sushi es delicioso. / Si es así, me gustaría ir.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 18
+    },
+    {
+      "question_number": 19,
+      "sentence": "社長がアメリカ出張のお土産をみんなに【　　】のです。",
+      "answer_option": "買ってきてくださった",
+      "options": [
+        "買ってきてくださった",
+        "買ってきていただいた",
+        "買ってきてくれた",
+        "買ってきてあげた"
+      ],
+      "correct_index": 1,
+      "grammar_point": "てくださる (te kudasaru)",
+      "explanation": "Expresa gratitud cuando un superior realiza una acción/favor hacia nosotros.",
+      "translation": "El presidente de la empresa nos compró y trajo recuerdos de su viaje a EE. UU.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 19
+    },
+    {
+      "question_number": 20,
+      "sentence": "安いものが【　　】質の悪い【　　】と思うよ。",
+      "answer_option": "必ずしも...とは限らない",
+      "options": [
+        "必ずしも...とは限らない",
+        "けっして...わけではない",
+        "まったく...わけがない",
+        "ぜんぜん...とはいえない"
+      ],
+      "correct_index": 1,
+      "grammar_point": "必ずしも...とは限らない (kanarazushimo ~ to wa kagiranai)",
+      "explanation": "Señala que algo 'no necesariamente siempre es el caso'.",
+      "translation": "Creo que lo barato no necesariamente significa que sea siempre de mala calidad.",
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #01",
+      "video_id": 1,
+      "global_number": 20
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 1,
+      "global_number": 21,
+      "sentence": "これ【何と言いう / 何という】野菜かわからないけどすごく美味しいね。",
+      "options": [
+        "何と言いう",
+        "何という",
+        "何というの",
+        "何というで"
+      ],
+      "answer_option": "何という",
+      "correct_index": 2,
+      "grammar_point": "何という (nan to iu) / か (ka)",
+      "explanation": "La partícula 'か' expresa incertidumbre o duda en la oración subordinada. '何という' se usa para referirse a 'qué clase de / cómo se llama' un objeto o concepto.",
+      "translation": "No sé qué clase de verdura es esta, pero está muy rica."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 2,
+      "global_number": 22,
+      "sentence": "その漢字は間違ってるので、もう一度【書き直し】てください。",
+      "options": [
+        "書き直して",
+        "書き直す",
+        "書き直した",
+        "書き直せ"
+      ],
+      "answer_option": "書き直して",
+      "correct_index": 1,
+      "grammar_point": "〜直す (naosu)",
+      "explanation": "Raíz verbal + 直す significa rehacer o volver a realizar una acción para corregirla o mejorarla.",
+      "translation": "Como ese kanji está mal, por favor vuelve a escribirlo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 3,
+      "global_number": 23,
+      "sentence": "すみません。エレベーターはどこですか。／ あちらのエスカレーターの先に【ございます】。",
+      "options": [
+        "あります",
+        "ございます",
+        "いらっしゃいます",
+        "おります"
+      ],
+      "answer_option": "ございます",
+      "correct_index": 2,
+      "grammar_point": "ございます (gozaimasu)",
+      "explanation": "Forma cortés y formal (teineigo) equivalente a 'あります', usada en atención al cliente o lenguaje formal.",
+      "translation": "Disculpe, ¿dónde está el ascensor? / Está más adelante de aquel ascensor."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 4,
+      "global_number": 24,
+      "sentence": "私はコーチ【として】このチームをまとめなければならないんだ。",
+      "options": [
+        "として",
+        "にとって",
+        "について",
+        "に対して"
+      ],
+      "answer_option": "として",
+      "correct_index": 1,
+      "grammar_point": "として (toshi te)",
+      "explanation": "Significa 'como', 'en calidad de' o 'en la función de'.",
+      "translation": "Como entrenador, debo organizar y dirigir a este equipo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 5,
+      "global_number": 25,
+      "sentence": "あの男の怪しい態度を見ると、彼が犯人【らしい】ね。",
+      "options": [
+        "そうだ",
+        "らしい",
+        "ようだ",
+        "みたいだ"
+      ],
+      "answer_option": "らしい",
+      "correct_index": 2,
+      "grammar_point": "らしい (rashii)",
+      "explanation": "Indica una deducción o sospecha basada en evidencias visibles u oídas por el hablante ('parece que...').",
+      "translation": "Al ver la actitud sospechosa de aquel hombre, parece que él es el culpable."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 6,
+      "global_number": 26,
+      "sentence": "あなたが好きだという気持ちは、この世界の誰に【も負けない】からね。",
+      "options": [
+        "も負けない",
+        "しか負けない",
+        "でも負けない",
+        "ほど負けない"
+      ],
+      "answer_option": "も負けない",
+      "correct_index": 1,
+      "grammar_point": "誰にも負けない (dare ni mo makenai)",
+      "explanation": "Significa 'no perder ante nadie' o 'ser insuperable por nadie'.",
+      "translation": "Mi sentimiento de que me gustas no pierde ante nadie en este mundo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 7,
+      "global_number": 27,
+      "sentence": "エアコンを【つけたまま】にして出かけちゃったから、早く帰らなきゃならないんだ。",
+      "options": [
+        "つけたまま",
+        "つけたきり",
+        "つけたっぱなし",
+        "つけたあいだ"
+      ],
+      "answer_option": "つけたまま",
+      "correct_index": 1,
+      "grammar_point": "〜たまま (ta mama)",
+      "explanation": "Forma ta + まま expresa dejar una situación en un estado continuo sin cambios.",
+      "translation": "Como me fui dejando el aire acondicionado encendido, tengo que volver a casa rápidamente."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 8,
+      "global_number": 28,
+      "sentence": "色々悩みましたが、私は【やはり】この会社で働きたいと思いました。",
+      "options": [
+        "やはり",
+        "きっと",
+        "けっして",
+        "かならず"
+      ],
+      "answer_option": "やはり",
+      "correct_index": 1,
+      "grammar_point": "やはり / やっぱり (yahari)",
+      "explanation": "Expresa 'después de todo', 'como era de esperarse' o 'al final' tras sopesar opciones.",
+      "translation": "Aunque lo pensé mucho, después de todo decidí que quiero trabajar en esta empresa."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 9,
+      "global_number": 29,
+      "sentence": "健康のため、毎日7時間は【寝るようにしている】よ。",
+      "options": [
+        "寝ることにしている",
+        "寝るようにしている",
+        "寝るつもりだ",
+        "寝るはずだ"
+      ],
+      "answer_option": "寝るようにしている",
+      "correct_index": 2,
+      "grammar_point": "〜ようにしている (you ni shite iru)",
+      "explanation": "Forma diccionario + ようにしている indica realizar un esfuerzo habitual o consciente por hacer algo.",
+      "translation": "Por salud, procuro dormir 7 horas todos los días."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 10,
+      "global_number": 30,
+      "sentence": "彼女は仕事で忙しい【ながらも】、毎日子供のお弁当を作っている。",
+      "options": [
+        "ながらも",
+        "ものの",
+        "ものの",
+        "つつも"
+      ],
+      "answer_option": "ながらも",
+      "correct_index": 1,
+      "grammar_point": "ながらも (nagara mo)",
+      "explanation": "Expresa un contraste concesivo ('a pesar de que...', 'aun estando...').",
+      "translation": "A pesar de estar ocupada con el trabajo, ella hace el obento de sus hijos todos los días."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 11,
+      "global_number": 31,
+      "sentence": "こんなにたくさんの人が来てくれる【なんて】思ってもいなかった。",
+      "options": [
+        "なんて",
+        "なんか",
+        "などを",
+        "なさそう"
+      ],
+      "answer_option": "なんて",
+      "correct_index": 1,
+      "grammar_point": "なんて (nante)",
+      "explanation": "Se usa para enfatizar sorpresa o incredulidad respecto a una cantidad o suceso.",
+      "translation": "Jamás pensé que vendría tanta gente."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 12,
+      "global_number": 32,
+      "sentence": "今回の作品は、これまでに発表された彼の小説の中で1番【売れている】。",
+      "options": [
+        "売れている",
+        "売らせている",
+        "売られている",
+        "売ろうとしている"
+      ],
+      "answer_option": "売れている",
+      "correct_index": 1,
+      "grammar_point": "被動形 (pasiva) / 状態 (estado)",
+      "explanation": "La forma pasiva de 発表する es 発表された ('publicadas'). '売れている' indica estado de estar vendiéndose.",
+      "translation": "Esta obra es la que más se está vendiendo entre las novelas publicadas por él hasta ahora."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 13,
+      "global_number": 33,
+      "sentence": "町の人口が増える【に従って】、色々な店が増えてきました。",
+      "options": [
+        "に従って",
+        "につれて",
+        "に伴って",
+        "とともに"
+      ],
+      "answer_option": "に従って",
+      "correct_index": 1,
+      "grammar_point": "に従って (ni shitagatte)",
+      "explanation": "Forma diccionario + に従って indica que a medida que un cambio progresa, otro ocurre en consecuencia.",
+      "translation": "A medida que la población del pueblo aumentó, fueron aumentando varias tiendas."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 14,
+      "global_number": 34,
+      "sentence": "彼は私のことなんか【ちっとも】興味ないから、別れようと思うの。",
+      "options": [
+        "ちっとも",
+        "けっして",
+        "まったく",
+        "あまり"
+      ],
+      "answer_option": "ちっとも",
+      "correct_index": 1,
+      "grammar_point": "ちっとも 〜 ない (chittomo ~ nai)",
+      "explanation": "Acompañado de verbo o adjetivo negativo significa 'para nada', 'ni lo más mínimo'.",
+      "translation": "Él no tiene ni lo más mínimo de interés en mí, así que pienso romper con él."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 15,
+      "global_number": 35,
+      "sentence": "夕食を食べないというのは、思っていた【ほど】大変ではありませんでした。",
+      "options": [
+        "ほど",
+        "くらい",
+        "ように",
+        "ばかり"
+      ],
+      "answer_option": "ほど",
+      "correct_index": 1,
+      "grammar_point": "ほど 〜 ない (hodo ~ nai)",
+      "explanation": "Expresa comparación negativa ('no tan... como...').",
+      "translation": "Eso de no cenar no fue tan difícil como pensaba."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 16,
+      "global_number": 36,
+      "sentence": "彼女が成功したのは、才能があった【だけでなく】努力もしたからだよ。",
+      "options": [
+        "だけでなく",
+        "ばかりでなく",
+        "のみならず",
+        "にかかわらず"
+      ],
+      "answer_option": "だけでなく",
+      "correct_index": 1,
+      "grammar_point": "だけでなく (dake de naku)",
+      "explanation": "Estructura que significa 'no solo [A], sino también [B]'.",
+      "translation": "Ella tuvo éxito no solo porque tenía talento, sino también porque se esforzó."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 17,
+      "global_number": 37,
+      "sentence": "この城はドラマで使われた【ことから】有名になって、観光客に人気の場所です。",
+      "options": [
+        "ことから",
+        "ことから",
+        "おかげで",
+        "ために"
+      ],
+      "answer_option": "ことから",
+      "correct_index": 1,
+      "grammar_point": "ことから (koto kara)",
+      "explanation": "Se utiliza para indicar el origen o motivo por el cual algo llegó a ser conocido o famoso ('debido a que...').",
+      "translation": "Este castillo se hizo famoso debido a que fue usado en un drama, y es un lugar popular entre los turistas."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 18,
+      "global_number": 38,
+      "sentence": "私にできることがありましたら、いつでも【おっしゃってください】。",
+      "options": [
+        "おっしゃってください",
+        "申してください",
+        "言わせてください",
+        "聞かせてください"
+      ],
+      "answer_option": "おっしゃってください",
+      "correct_index": 1,
+      "grammar_point": "おっしゃる (ossharu)",
+      "explanation": "Forma honorífica (sonkeigo) del verbo 言う ('decir'), dirigida respetuosamente al interlocutor.",
+      "translation": "Si hay algo en lo que pueda ayudar, por favor dígamelo en cualquier momento."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 19,
+      "global_number": 39,
+      "sentence": "娘はピアノに才能があるので、ドイツの音楽大学に【留学させよう】かと思っています。",
+      "options": [
+        "留学させよう",
+        "留学しよう",
+        "留学させられる",
+        "留学させてもらう"
+      ],
+      "answer_option": "留学させよう",
+      "correct_index": 1,
+      "grammar_point": "使役形 (causativa) + Volitiva (よう)",
+      "explanation": "Forma causativo-volitiva ('pensando en hacer/enviar a estudiar al extranjero').",
+      "translation": "Como mi hija tiene talento para el piano, estoy pensando en hacerla estudiar en la universidad de música de Alemania."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #02",
+      "video_id": 2,
+      "question_number": 20,
+      "global_number": 40,
+      "sentence": "私は今まで東京に【しか】住んだことがなく、ニューヨークでの新しい生活に期待している。",
+      "options": [
+        "しか",
+        "だけ",
+        "ばかり",
+        "ほど"
+      ],
+      "answer_option": "しか",
+      "correct_index": 1,
+      "grammar_point": "しか 〜 ない (shika ~ nai)",
+      "explanation": "Acompañado de verbo en negativo expresa limitación exclusiva ('solo / nada más que').",
+      "translation": "Hasta ahora solo he vivido en Tokio, así que estoy entusiasmado con mi nueva vida en Nueva York."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 1,
+      "global_number": 41,
+      "sentence": "田中さんはうちに【来るたびに】お土産を持ってきてくれる。",
+      "options": [
+        "来るたびに",
+        "来るごとに",
+        "来るたびに",
+        "来ると"
+      ],
+      "answer_option": "来るたびに",
+      "correct_index": 1,
+      "grammar_point": "たびに (tabi ni)",
+      "explanation": "Significa 'cada vez que' o 'siempre que ocurre [A], sucede [B]'.",
+      "translation": "Tanaka-san me trae un recuerdo cada vez que viene a mi casa."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 2,
+      "global_number": 42,
+      "sentence": "相手が強ければ【強いほど】勝つ気持ちが強くなります。",
+      "options": [
+        "強いほど",
+        "強ければ",
+        "強くて",
+        "強くても"
+      ],
+      "answer_option": "強いほど",
+      "correct_index": 1,
+      "grammar_point": "ば〜ほど (ba ~ hodo)",
+      "explanation": "Estructura condicional + ほど que expresa 'cuanto más [A], más [B]'.",
+      "translation": "Cuanto más fuerte sea el rival, más fuerte es el deseo de ganar."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 3,
+      "global_number": 43,
+      "sentence": "新しい仕事を始める前に、まず会社のルールやマナーをしっかり【覚えることが大切だ】。",
+      "options": [
+        "覚えることが大切だ",
+        "覚えて大切だ",
+        "覚える大切だ",
+        "覚えれば大切だ"
+      ],
+      "answer_option": "覚えることが大切だ",
+      "correct_index": 1,
+      "grammar_point": "こと (koto) / Sustantivación",
+      "explanation": "Sustantiva el verbo para enfatizar que 'memorizar es importante'.",
+      "translation": "Antes de comenzar un nuevo trabajo, lo primero e importante es memorizar bien las reglas y modales de la empresa."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 4,
+      "global_number": 44,
+      "sentence": "弟が初めての発表会で緊張しているみたいだから、会場まで行って【応援してやろう】かと思っている。",
+      "options": [
+        "応援してやろう",
+        "応援してあげよう",
+        "応援してもらおう",
+        "応援してくれよう"
+      ],
+      "answer_option": "応援してやろう",
+      "correct_index": 1,
+      "grammar_point": "〜てやる (te yaru)",
+      "explanation": "Se usa cuando el hablante realiza una acción en beneficio de alguien menor, inferior o de estrecho vínculo familiar (como un hermano menor).",
+      "translation": "Como mi hermano menor parece estar nervioso en su primera presentación, pienso ir al auditorio para apoyarlo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 5,
+      "global_number": 45,
+      "sentence": "あの時先生に相談【していれば】、もっと早く解決できたかもしれない。",
+      "options": [
+        "していれば",
+        "したら",
+        "すると",
+        "しても"
+      ],
+      "answer_option": "していれば",
+      "correct_index": 1,
+      "grammar_point": "〜していれば (ba conditional)",
+      "explanation": "Expresa un lamento o suposición contrafáctica sobre el pasado ('si hubiera hecho...').",
+      "translation": "Si le hubiera consultado al profesor en ese momento, tal vez podría haberlo resuelto más rápido."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 6,
+      "global_number": 46,
+      "sentence": "彼の仕事に対しての考え方はとても真面目で、いつも一生懸命にやっている。",
+      "options": [
+        "に対して",
+        "について",
+        "にとって",
+        "に関して"
+      ],
+      "answer_option": "に対して",
+      "correct_index": 1,
+      "grammar_point": "に対して (ni taishte)",
+      "explanation": "Indica dirección o actitud hacia un tema, objeto o persona ('con respecto a / hacia...').",
+      "translation": "Su forma de pensar con respecto al trabajo es muy seria y siempre da su máximo esfuerzo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 7,
+      "global_number": 47,
+      "sentence": "明日雨になりそう。もし明日雨に【なるとしたら】、ピクニックは中止にした方がいいね。",
+      "options": [
+        "なるとしたら",
+        "なると",
+        "なれば",
+        "なったら"
+      ],
+      "answer_option": "なるとしたら",
+      "correct_index": 1,
+      "grammar_point": "としたら (to shitara)",
+      "explanation": "Significa 'asumiendo que' o 'en el caso hipotético de que...'.",
+      "translation": "Parece que mañana lloverá. Si de verdad llega a llover, sería mejor cancelar el picnic."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 8,
+      "global_number": 48,
+      "sentence": "喋りすぎて喉が痛いから、温かいお茶【か何か】を飲みたい。",
+      "options": [
+        "か何か",
+        "とか",
+        "など",
+        "でも"
+      ],
+      "answer_option": "か何か",
+      "correct_index": 1,
+      "grammar_point": "か何か (ka nanika)",
+      "explanation": "Significa 'algo como...' o 'alguna cosa similar a...'.",
+      "translation": "Me duele la garganta de tanto hablar, así que quiero tomar un té caliente o algo similar."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 9,
+      "global_number": 49,
+      "sentence": "田中さんは京都に行ったことがありますか。／ 京都【なら】高校の時に行ったよ。",
+      "options": [
+        "なら",
+        "たら",
+        "えば",
+        "と"
+      ],
+      "answer_option": "なら",
+      "correct_index": 1,
+      "grammar_point": "なら (nara)",
+      "explanation": "Se usa para retomar el tema o lugar que acaba de mencionar el interlocutor ('si es / respecto a...').",
+      "translation": "¿Tanaka-san ha ido a Kioto? / Si es Kioto, fui cuando estaba en la secundaria."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 10,
+      "global_number": 50,
+      "sentence": "山田さん、社長はいつまで【お休みになりますか】。／ 今週までと聞きました。",
+      "options": [
+        "お休みになりますか",
+        "お休みしますか",
+        "お休みにさせますか",
+        "お休みになられますか"
+      ],
+      "answer_option": "お休みになりますか",
+      "correct_index": 1,
+      "grammar_point": "お〜になる (o ~ ni naru)",
+      "explanation": "Forma de lenguaje respetuoso (sonkeigo) para referirse a la acción de un superior.",
+      "translation": "Yamada-san, ¿hasta cuándo estará de vacaciones el presidente? / Escuché que hasta esta semana."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 11,
+      "global_number": 51,
+      "sentence": "昨日映画を見ている【途中で】急に電気が消えました。",
+      "options": [
+        "途中で",
+        "間に",
+        "うちに",
+        "ときに"
+      ],
+      "answer_option": "途中で",
+      "correct_index": 1,
+      "grammar_point": "途中で (tochuu de)",
+      "explanation": "Indica interrupción o suceso que ocurre justo a mitad del desarrollo de una acción.",
+      "translation": "Ayer, en medio de estar viendo una película, de repente se fue la luz."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 12,
+      "global_number": 52,
+      "sentence": "最近毎日アルバイトをしていてお金は溜まってきた。【だが】勉強する時間が減ってしまい成績が下がっている。",
+      "options": [
+        "だが",
+        "だから",
+        "そこで",
+        "それなら"
+      ],
+      "answer_option": "だが",
+      "correct_index": 1,
+      "grammar_point": "だが (daga)",
+      "explanation": "Conjunción adversativa que significa 'sin embargo / pero'.",
+      "translation": "Últimamente trabajo todos los días a tiempo parcial y he ahorrado dinero. Sin embargo, mi tiempo de estudio disminuyó y mis notas han bajado."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 13,
+      "global_number": 53,
+      "sentence": "この問題は何度やってもじ【どうしても】答えが分からないから、明日先生に聞いてみようと思う。",
+      "options": [
+        "どうしても",
+        "なんとしても",
+        "ぜひとも",
+        "必ずしも"
+      ],
+      "answer_option": "どうしても",
+      "correct_index": 1,
+      "grammar_point": "どうしても (doushitemo)",
+      "explanation": "Adverbio que expresa imposibilidad a pesar de múltiples intentos ('por más que lo intente...').",
+      "translation": "Por más que intento este problema una y otra vez, no logro entender la respuesta, así que mañana le preguntaré al profesor."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 14,
+      "global_number": 54,
+      "sentence": "雨が【降るようなら】傘を持って行った方がいいよ。",
+      "options": [
+        "降るようなら",
+        "降るそうなら",
+        "降るらしいなら",
+        "降るみたいなら"
+      ],
+      "answer_option": "降るようなら",
+      "correct_index": 1,
+      "grammar_point": "〜ようなら (you nara)",
+      "explanation": "Condicional basado en la apariencia o sospecha del contexto ('si parece que va a...').",
+      "translation": "Si parece que va a llover, es mejor que lleves paraguas."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 15,
+      "global_number": 55,
+      "sentence": "この道は夜になると暗くて車も少ないから、事故が【起きやすい】と言われている。",
+      "options": [
+        "起きやすい",
+        "起きがちだ",
+        "起きそうだ",
+        "起きがたい"
+      ],
+      "answer_option": "起きやすい",
+      "correct_index": 1,
+      "grammar_point": "〜やすい (yasui)",
+      "explanation": "Raíz verbal + やすい indica propensión o facilidad de que ocurra una acción.",
+      "translation": "Se dice que esta calle es propensa a accidentes de noche porque es oscura y hay pocos autos."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 16,
+      "global_number": 56,
+      "sentence": "高校卒業してから東京の会社に入ってたくさんの経験をしました。【そして】いい仲間に出会うことができました。",
+      "options": [
+        "そして",
+        "それで",
+        "それから",
+        "それに"
+      ],
+      "answer_option": "そして",
+      "correct_index": 1,
+      "grammar_point": "そして (soshite)",
+      "explanation": "Conjunción para hilar la secuencia de eventos o agregar un logro correlativo.",
+      "translation": "Tras graduarme de la secundaria, entré a una empresa en Tokio y tuve muchas experiencias. Y además pude conocer buenos compañeros."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 17,
+      "global_number": 57,
+      "sentence": "どうして昨日来ませんでしたか。／ 急に熱が出たんです。【それで】病院に行っていました。",
+      "options": [
+        "それで",
+        "だから",
+        "そこで",
+        "それなら"
+      ],
+      "answer_option": "それで",
+      "correct_index": 1,
+      "grammar_point": "それで (sore de)",
+      "explanation": "Conjunción que indica el resultado directo o la razón lógica de una situación dada.",
+      "translation": "¿Por qué no viniste ayer? / De repente me dio fiebre. Por eso fui al hospital."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 18,
+      "global_number": 58,
+      "sentence": "友達が引っ越しを手伝ってくれた【おかげで】、予定より早く終わらせることができました。",
+      "options": [
+        "おかげで",
+        "せいで",
+        "ために",
+        "せいで"
+      ],
+      "answer_option": "おかげで",
+      "correct_index": 1,
+      "grammar_point": "おかげで (okage de)",
+      "explanation": "Indica la causa de un resultado favorable ('gracias a...').",
+      "translation": "Gracias a que mis amigos me ayudaron con la mudanza, pude terminar antes de lo previsto."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 19,
+      "global_number": 59,
+      "sentence": "山田電気の山田ですが、田中社長は【いらっしゃいますか】。",
+      "options": [
+        "いらっしゃいますか",
+        "参りますか",
+        "おられますか",
+        "伺いますか"
+      ],
+      "answer_option": "いらっしゃいますか",
+      "correct_index": 1,
+      "grammar_point": "いらっしゃる (irassharu)",
+      "explanation": "Verbo honorífico (sonkeigo) para preguntar si un superior se encuentra presente.",
+      "translation": "Habla Yamada de Yamada Denki, ¿se encuentra el presidente Tanaka?"
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #03",
+      "video_id": 3,
+      "question_number": 20,
+      "global_number": 60,
+      "sentence": "仕事が忙しくてもできるだけ時間を見つけて体を動かす【ようにしている】。",
+      "options": [
+        "ようにしている",
+        "ことにしている",
+        "ようにする",
+        "ことにする"
+      ],
+      "answer_option": "ようにしている",
+      "correct_index": 1,
+      "grammar_point": "ようにする / ようにしている (you ni suru)",
+      "explanation": "Expresa la determinación y esfuerzo continuo por mantener un hábito.",
+      "translation": "Aunque esté ocupado con el trabajo, procuro buscar tiempo en la medida de lo posible para ejercitarme."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 1,
+      "global_number": 61,
+      "sentence": "午後の会議で日本の経済問題【について】話し合うことになっている。",
+      "options": [
+        "について",
+        "に対して",
+        "にとって",
+        "に関して"
+      ],
+      "answer_option": "について",
+      "correct_index": 1,
+      "grammar_point": "について (ni tsuite)",
+      "explanation": "Expresa el tema sobre el cual se habla o discute ('acerca de / sobre').",
+      "translation": "Está establecido que en la reunión de la tarde discutamos sobre los problemas económicos de Japón."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 2,
+      "global_number": 62,
+      "sentence": "急な地震なのに人々は落ち着いていた。【これ】を見て私は驚いた。",
+      "options": [
+        "これ",
+        "それ",
+        "あれ",
+        "どれ"
+      ],
+      "answer_option": "これ",
+      "correct_index": 1,
+      "grammar_point": "これ (kore) / Demostrativo de contexto",
+      "explanation": "'これ' se refiere al hecho o escena recién descrita en la oración anterior.",
+      "translation": "A pesar del repentino terremoto, la gente estaba calmada. Al ver esto, me sorprendí."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 3,
+      "global_number": 63,
+      "sentence": "2時間並んで【ようやく】コンサートのチケットを買うことができた。",
+      "options": [
+        "ようやく",
+        "やっと",
+        "ついに",
+        "いよいよ"
+      ],
+      "answer_option": "ようやく",
+      "correct_index": 1,
+      "grammar_point": "ようやく (youyaku)",
+      "explanation": "Adverbio que significa 'por fin', 'finalmente' tras mucho tiempo o esfuerzo.",
+      "translation": "Haciendo fila durante 2 horas, por fin pude comprar la entrada para el concierto."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 4,
+      "global_number": 64,
+      "sentence": "メモを取るようにした【ことで】仕事のミスが確実に減った。",
+      "options": [
+        "ことで",
+        "ため",
+        "から",
+        "ので"
+      ],
+      "answer_option": "ことで",
+      "correct_index": 1,
+      "grammar_point": "ことで (koto de)",
+      "explanation": "Indica el motivo o causa sustantivada que genera un resultado determinado.",
+      "translation": "Al haber empezado a tomar notas, los errores en el trabajo disminuyeron notoriamente."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 5,
+      "global_number": 65,
+      "sentence": "彼女と別れてからもう3年【も】経ったのに、まだ忘れられない。",
+      "options": [
+        "も",
+        "しか",
+        "だけ",
+        "ほど"
+      ],
+      "answer_option": "も",
+      "correct_index": 1,
+      "grammar_point": "も (mo - énfasis cuantitativo/temporal)",
+      "explanation": "Enfatiza que la cantidad de tiempo transcurrido es mayor de la esperada ('nada menos que 3 años').",
+      "translation": "A pesar de que ya han pasado 3 años enteros desde que rompí con ella, aún no puedo olvidarla."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 6,
+      "global_number": 66,
+      "sentence": "何回説明しても分からないと言われたが、【それでも】諦めずにもう一度ゆっくり説明してみた。",
+      "options": [
+        "それでも",
+        "それなら",
+        "それでは",
+        "それだから"
+      ],
+      "answer_option": "それでも",
+      "correct_index": 1,
+      "grammar_point": "それでも (sore demo)",
+      "explanation": "Conjunción que significa 'aun así', 'a pesar de ello'.",
+      "translation": "Me dijo que no entendía por más que se lo explicara, pero aun así no me rendí y volví a explicárselo despacio."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 7,
+      "global_number": 67,
+      "sentence": "電車が遅れているから約束時間に【間に合いそうもない】。",
+      "options": [
+        "間に合いそうもない",
+        "間に合わないそうだ",
+        "間に合わないらしい",
+        "間に合わないようだ"
+      ],
+      "answer_option": "間に合いそうもない",
+      "correct_index": 1,
+      "grammar_point": "〜そうもない (sou mo nai)",
+      "explanation": "Raíz verbal + そうもない indica que es casi imposible o improbable que ocurra el verbo.",
+      "translation": "Como el tren está retrasado, parece casi imposible llegar a tiempo a la cita."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 8,
+      "global_number": 68,
+      "sentence": "最近忙しい【せい】で、友達からのメッセージに返信するのをよく忘れてしまう。",
+      "options": [
+        "せい",
+        "おかげ",
+        "ため",
+        "理由"
+      ],
+      "answer_option": "せい",
+      "correct_index": 1,
+      "grammar_point": "せいで (sei de)",
+      "explanation": "Atribuye la causa a una razón negativa ('por culpa de...').",
+      "translation": "Por culpa de estar ocupado últimamente, a menudo me olvido de responder los mensajes de mis amigos."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 9,
+      "global_number": 69,
+      "sentence": "彼はおとといから怒っているが、どうしてなのか聞いても【話してくれない】。",
+      "options": [
+        "話してくれない",
+        "話させない",
+        "話されない",
+        "話してあげない"
+      ],
+      "answer_option": "話してくれない",
+      "correct_index": 1,
+      "grammar_point": "〜てくれない (te kurenai)",
+      "explanation": "Expresa que la otra persona se niega a hacerme el favor de realizar la acción.",
+      "translation": "Él está enojado desde ayer, pero por más que le pregunto por qué, no quiere decírmelo."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 10,
+      "global_number": 70,
+      "sentence": "この頃ちょっと太り【気味】だから、運動を始めようと思う。",
+      "options": [
+        "気味",
+        "がち",
+        "っぽい",
+        "そう"
+      ],
+      "answer_option": "気味",
+      "correct_index": 1,
+      "grammar_point": "〜気味 (gimi)",
+      "explanation": "Sufijo que indica cierta tendencia ligera o sensación de estado ('un poco pasado de peso').",
+      "translation": "Como últimamente me siento un poco subido de peso, pienso empezar a hacer ejercicio."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 11,
+      "global_number": 71,
+      "sentence": "このアパートはペットを買うことができますか。／ 【買えないことはない】と思いますが、大家さんに聞いてみます。",
+      "options": [
+        "買えないことはない",
+        "買えないはずはない",
+        "買えないわけがない",
+        "買えないかもしれない"
+      ],
+      "answer_option": "買えないことはない",
+      "correct_index": 1,
+      "grammar_point": "〜ないことはない (nai koto wa nai)",
+      "explanation": "Expresa una posibilidad matizada o débil ('no es imposible que...').",
+      "translation": "¿Se pueden tener mascotas en este apartamento? / Creo que no es imposible, pero le preguntaré al casero."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 12,
+      "global_number": 72,
+      "sentence": "娘が初めて作った料理なのに【なかなか】美味しかったよ。",
+      "options": [
+        "なかなか",
+        "ぜんぜん",
+        "けっして",
+        "あんまり"
+      ],
+      "answer_option": "なかなか",
+      "correct_index": 1,
+      "grammar_point": "なかなか (nakanaka)",
+      "explanation": "Acompañado de adjetivo afirmativo expresa que algo resultó bastante bueno, superando la expectativa.",
+      "translation": "Para ser la primera comida que prepara mi hija, estuvo bastante buena."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 13,
+      "global_number": 73,
+      "sentence": "山田さんに会ってみると、聞いていた年齢【よりも】若く見えてびっくりした。",
+      "options": [
+        "よりも",
+        "ほども",
+        "くらいも",
+        "ばかりも"
+      ],
+      "answer_option": "よりも",
+      "correct_index": 1,
+      "grammar_point": "よりも (yori mo)",
+      "explanation": "Partícula comparativa que enfatiza la diferencia respecto a un parámetro ('más joven que...').",
+      "translation": "Al conocer a Yamada-san, me sorprendió que se viera más joven de la edad que me habían dicho."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 14,
+      "global_number": 74,
+      "sentence": "先生、日本語の文法についてちょっと【伺いたい】んですが。／ はい、何ですか。",
+      "options": [
+        "伺いたい",
+        "お聞きしたい",
+        "尋ねたい",
+        "質問したい"
+      ],
+      "answer_option": "伺いたい",
+      "correct_index": 1,
+      "grammar_point": "伺う (ukagau)",
+      "explanation": "Verbo humilde (kenjougo) de 聞く / 尋ねる para realizar una consulta de forma muy respetuosa.",
+      "translation": "Profesor, me gustaría preguntarle un momento sobre gramática japonesa. / Sí, ¿de qué se trata?"
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 15,
+      "global_number": 75,
+      "sentence": "あの静かな人が大声で怒る【わけがない】と思う。誰かを彼と見間違えたんじゃない？",
+      "options": [
+        "わけがない",
+        "はずがない",
+        "ことがない",
+        "にちがいない"
+      ],
+      "answer_option": "わけがない",
+      "correct_index": 1,
+      "grammar_point": "わけがない (wake ga nai)",
+      "explanation": "Expresa convicción de que una situación es completamente imposible ('es imposible que...').",
+      "translation": "Creo que es imposible que esa persona tan tranquila se enoje a gritos. ¿No habrás confundido a alguien más con él?"
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 16,
+      "global_number": 76,
+      "sentence": "1度【だけでいい】から世界旅行をしてみたいんだ。",
+      "options": [
+        "だけでいい",
+        "しかいい",
+        "ばかりでいい",
+        "ほどでいい"
+      ],
+      "answer_option": "だけでいい",
+      "correct_index": 1,
+      "grammar_point": "〜だけでいい (dake de ii)",
+      "explanation": "Expresa que basta con solo esa condición modesta ('con solo una vez basta').",
+      "translation": "Me gustaría intentar viajar por el mundo aunque fuera solo una vez."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 17,
+      "global_number": 77,
+      "sentence": "オタク【というのは】自分の好きなことにとても熱中する人のことだ。",
+      "options": [
+        "というのは",
+        "といえば",
+        "といったら",
+        "というと"
+      ],
+      "answer_option": "というのは",
+      "correct_index": 1,
+      "grammar_point": "というのは (to iu no wa)",
+      "explanation": "Se utiliza para definir el significado de un término o concepto.",
+      "translation": "'Otaku' se refiere a una persona que se apasiona enormemente por lo que le gusta."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 18,
+      "global_number": 78,
+      "sentence": "このシャツ、もう少し大きいの(は)ありますか。／ はい、確認しますので【少々お待ちください】。",
+      "options": [
+        "少々お待ちください",
+        "ちょっと待ってください",
+        "少々待たれますか",
+        "少々お待ちなさってください"
+      ],
+      "answer_option": "少々お待ちください",
+      "correct_index": 1,
+      "grammar_point": "お〜ください (o ~ kudasai)",
+      "explanation": "Fórmula honorífica formal para solicitar respetuosamente a alguien que espere.",
+      "translation": "¿Tiene esta camisa en una talla un poco más grande? / Sí, lo verificaré, así que espere un momento por favor."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 19,
+      "global_number": 79,
+      "sentence": "クラスの代表になった友達にイベントの準備を【手伝わされた】で、とても疲れた。",
+      "options": [
+        "手伝わされた",
+        "手伝わせられた",
+        "手伝わされた",
+        "手伝ってもらった"
+      ],
+      "answer_option": "手伝わされた",
+      "correct_index": 1,
+      "grammar_point": "使役被動形 (causativa-pasiva: tetsudawasareta)",
+      "explanation": "Expresa haber sido obligado involuntariamente a realizar una tarea.",
+      "translation": "Fui puesto a ayudar con los preparativos del evento por un amigo que se convirtió en el representante de la clase, así que terminó muy cansado."
+    },
+    {
+      "video": "JLPT N3 GRAMMAR TEST with Answers and Guide #04",
+      "video_id": 4,
+      "question_number": 20,
+      "global_number": 80,
+      "sentence": "時間がかかっても【構わない】ので、もう少し詳しく説明していただけますか。",
+      "options": [
+        "構わない",
+        "かまわない",
+        "いい",
+        "だいじょうぶ"
+      ],
+      "answer_option": "構わない",
+      "correct_index": 1,
+      "grammar_point": "〜ても構わない (te mo kamawanai)",
+      "explanation": "Expresa que no importa o no causa inconveniente ('no importa si toma tiempo...').",
+      "translation": "No importa si toma tiempo, ¿podría explicármelo con un poco más de detalle?"
+    }
+  ]
+}

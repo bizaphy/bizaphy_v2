@@ -1,4 +1,5 @@
 import "server-only";
+import { cache } from "react";
 import { and, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { post } from "./post-schema";
@@ -19,15 +20,17 @@ export async function obtenerPostsPublicados() {
     .orderBy(desc(post.publicadoEn));
 }
 
-// Un post por slug (null si no existe o es borrador)
-export async function obtenerPostPublicado(slug: string) {
+// Un post por slug (null si no existe o es borrador).
+// cache(): generateMetadata y la pagina la llaman en la misma peticion y
+// asi la consulta a la base se hace una sola vez
+export const obtenerPostPublicado = cache(async (slug: string) => {
   const [fila] = await db
     .select()
     .from(post)
     .where(and(eq(post.slug, slug), eq(post.publicado, true)))
     .limit(1);
   return fila ?? null;
-}
+});
 
 // ── ADMIN: incluyen borradores. Usar solo en páginas con requireAdminPage() ──
 

@@ -1,8 +1,36 @@
+import type { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
 import { obtenerPostPublicado } from "@/db/post-queries";
 
 // En Next 15+ params es una Promise
 type Props = { params: Promise<{ slug: string }> };
+
+// Titulo y resumen del post para la pestaña y para OpenGraph.
+// obtenerPostPublicado esta envuelta en cache(): la consulta se hace una sola vez
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params;
+  const post = await obtenerPostPublicado(slug);
+  if (!post) return { title: "Post no encontrado" };
+
+  //un openGraph propio reemplaza entero al del layout: se traen del padre
+  //la imagen, el nombre del sitio y el idioma para no perderlos
+  const og = (await parent).openGraph;
+
+  return {
+    title: post.titulo,
+    description: post.resumen ?? undefined,
+    openGraph: {
+      images: og?.images,
+      siteName: og?.siteName,
+      locale: og?.locale,
+      type: "article",
+      publishedTime: post.publicadoEn?.toISOString(),
+    },
+  };
+}
 
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;

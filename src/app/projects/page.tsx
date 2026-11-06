@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import BannerInfo from "./_components/BannerInfo";
 import ProjectList from "./_components/ProjectList";
 import TextScramble from "@/components/effects/TextScramble";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Proyectos de bizaphy hechos con Next.js.",
+};
 
 export default function ProjectsPage() {
   return (

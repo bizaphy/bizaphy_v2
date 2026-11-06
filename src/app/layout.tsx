@@ -13,9 +13,25 @@ const oxanium = Oxanium({
   variable: "--font-oxanium",
 });
 
+const descripcion =
+  "Laboratorio personal de bizaphy: proyectos, blog y herramientas para estudiar japonés.";
+
 export const metadata: Metadata = {
+  //base para que las urls relativas (como la imagen OG) salgan absolutas
+  metadataBase: new URL("https://bizaphy.dev"),
   title: "bizaphy lab",
-  description: "Usando next!",
+  description: descripcion,
+  //la imagen la pone sola app/opengraph-image.tsx. Sin title ni description
+  //aca: Next copia los de cada pagina a og:title / twitter:title, asi una
+  //pagina con su propio title lo muestra tambien al compartirla
+  openGraph: {
+    type: "website",
+    siteName: "bizaphy lab",
+    locale: "es_CL",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 export default function RootLayout({
   children,

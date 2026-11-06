@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import AboutSidebar from "@/components/about-me/AboutSidebar";
 import AsciiArt from "@/components/ui/AsciiArt";
 import BackToTopDots from "@/components/ui/BackToTopDots";
@@ -66,6 +67,11 @@ const ASCII = `==++++++++++++++++++++++++++++=::::::::::::::::    .:::::.       
 **-                                                           .. :=-. =+++++++++++               ==#
 :                                                                  .==+=- -=: :=++               ==%
 ..:==================---------------------------:::::.....          - ====+====                 .=+%`;
+
+export const metadata: Metadata = {
+  title: "About me",
+  description: "Quién es bizaphy: estudios, certificaciones, idiomas, skills y setup.",
+};
 
 export default function AboutPage() {
   return (

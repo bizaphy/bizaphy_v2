@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import type { ComponentType } from "react";
 import Image from "next/image";
 import { redirect } from "next/navigation";
@@ -23,6 +24,15 @@ const componentLoaders: Record<
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
+
+// Titulo y descripcion del proyecto para la pestaña y para OpenGraph
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const { slug } = await props.params;
+  const entry = projectsMeta.find((p) => p.slug === slug);
+  if (!entry) return { title: "Proyecto no encontrado" };
+
+  return { title: entry.title, description: entry.description };
+}
 
 export default async function ProjectSlugPage(props: PageProps) {
   const { slug } = await props.params;
