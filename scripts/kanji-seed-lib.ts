@@ -32,7 +32,7 @@ export type ColumnasKanji = Omit<
 >;
 
 // Palabras y nombres van anidados en su kanji: sin id ni kanjiId.
-type SinIds<T> = Omit<T, "id" | "kanjiId">;
+type SinIds<Fila> = Omit<Fila, "id" | "kanjiId">;
 
 export type SeedKanji = ColumnasKanji & {
   palabras: SinIds<typeof schema.palabrasFamosas.$inferSelect>[];
@@ -72,8 +72,8 @@ export function conectar() {
 
 export type Db = ReturnType<typeof conectar>["db"];
 
-export function esNivel(v: string): v is Nivel {
-  return (NIVELES as readonly string[]).includes(v);
+export function esNivel(valor: string): valor is Nivel {
+  return (NIVELES as readonly string[]).includes(valor);
 }
 
 export function rutaJson(nivel: Nivel) {

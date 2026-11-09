@@ -102,7 +102,7 @@ export default function KanjiTrainer() {
   const [filtro, setFiltro] = useState<Filtro>("todos");
   const [filtroKanjis, setFiltroKanjis] = useState<FiltroKanjis>("todas");
   const [cola, setCola] = useState<Palabra[]>([]);
-  const [pos, setPos] = useState(0);
+  const [indiceActual, setIndiceActual] = useState(0);
   const [vista, setVista] = useState<Vista>(OCULTO);
   const [colores, setColores] = useState(false);
   const [furigana, setFurigana] = useState(false);
@@ -145,7 +145,7 @@ export default function KanjiTrainer() {
     setFiltro(nuevoFiltro);
     setFiltroKanjis(nuevoFiltroKanjis);
     setCola(barajar(filtrar(vocab, nuevoFiltro, nuevoFiltroKanjis)));
-    setPos(0);
+    setIndiceActual(0);
     setVista(OCULTO);
   };
 
@@ -158,12 +158,12 @@ export default function KanjiTrainer() {
   };
 
   const siguiente = () => {
-    if (pos + 1 < cola.length) {
-      setPos(pos + 1);
+    if (indiceActual + 1 < cola.length) {
+      setIndiceActual(indiceActual + 1);
     } else {
       // Cola agotada: se vuelve a barajar y arranca otra vuelta.
       setCola(barajar(cola));
-      setPos(0);
+      setIndiceActual(0);
     }
     setVista(OCULTO);
   };
@@ -176,7 +176,7 @@ export default function KanjiTrainer() {
     );
   }
 
-  const actual = cola[pos];
+  const actual = cola[indiceActual];
   if (!vocab || !conteos || !conteosKanjis) {
     return (
       <p className="animate-pulse p-4 font-mono text-sm tracking-widest text-fuchsia-300 uppercase">
@@ -274,7 +274,7 @@ export default function KanjiTrainer() {
               {actual.nivel}
             </span>
             <span className="absolute top-3 right-3 font-mono text-[10px] tracking-widest text-zinc-500">
-              {pos + 1} / {cola.length}
+              {indiceActual + 1} / {cola.length}
             </span>
 
             <span

@@ -18,7 +18,7 @@ import {
 async function exportar() {
   // ── CASOS DEFENSIVOS: validar niveles antes de abrir la conexion ──
   const args = process.argv.slice(2); // [0] es node, [1] el script; lo demas son los niveles
-  const invalidos = args.filter((a) => !esNivel(a));
+  const invalidos = args.filter((arg) => !esNivel(arg));
   if (invalidos.length > 0) {
     throw new Error(`Niveles inválidos: ${invalidos.join(", ")}`); // ej: "n6" o "N5" (mayuscula)
   }
@@ -30,17 +30,17 @@ async function exportar() {
     //    `with` funciona gracias a las relations del schema (Drizzle arma los JOIN).
     //    Se traen todos los niveles y se filtra despues: son ~650 kanjis, es barato.
     const kanjis = await db.query.kanji.findMany({
-      orderBy: (k, { asc }) => [asc(k.numeroTrazos), asc(k.caracter)], // mismo orden que la UI
+      orderBy: (tablaKanji, { asc }) => [asc(tablaKanji.numeroTrazos), asc(tablaKanji.caracter)], // mismo orden que la UI
       with: {
-        palabras: { orderBy: (p, { asc }) => [asc(p.id)] }, // orden de insercion
-        nombres: { orderBy: (p, { asc }) => [asc(p.nombre)] }, // mismo orden que el carrusel
+        palabras: { orderBy: (tablaPalabras, { asc }) => [asc(tablaPalabras.id)] }, // orden de insercion
+        nombres: { orderBy: (tablaNombres, { asc }) => [asc(tablaNombres.nombre)] }, // mismo orden que el carrusel
         kanjiTrapsDesde: {
           columns: {}, // de kanji_trap no interesa ninguna columna (solo son ids)...
           with: { destino: { columns: { caracter: true } } }, // ...sino el caracter del otro kanji
         },
         kanjiRadicales: {
           columns: {},
-          orderBy: (kr, { asc }) => [asc(kr.orden)], // el orden es parte del dato
+          orderBy: (tablaKanjiRadical, { asc }) => [asc(tablaKanjiRadical.orden)], // el orden es parte del dato
           with: { radical: { columns: { caracter: true } } },
         },
       },
@@ -49,49 +49,49 @@ async function exportar() {
     // 2. Convertir cada fila de la BDD al formato del JSON (SeedKanji),
     //    agrupando por nivel: Map<"n5", [kanjis de n5]>
     const porNivel = new Map<Nivel, SeedKanji[]>();
-    for (const k of kanjis) {
-      if (args.length > 0 && !args.includes(k.nivel)) continue; // sin args = todos los niveles
+    for (const kanji of kanjis) {
+      if (args.length > 0 && !args.includes(kanji.nivel)) continue; // sin args = todos los niveles
 
       // Campos uno por uno (sin ...spread) para dejar fuera id y
       // url_orden_trazos: el id cambia entre BDDs y la url quedo obsoleta.
       // SeedKanji se deriva del schema: si agregas una columna a la tabla
       // kanji, TypeScript marca error en este objeto hasta que la asignes.
       const item: SeedKanji = {
-        caracter: k.caracter,
-        nivel: k.nivel,
-        significado: k.significado,
-        onyomi: k.onyomi,
-        kunyomi: k.kunyomi,
-        numeroTrazos: k.numeroTrazos,
-        anioEscolarJapon: k.anioEscolarJapon,
+        caracter: kanji.caracter,
+        nivel: kanji.nivel,
+        significado: kanji.significado,
+        onyomi: kanji.onyomi,
+        kunyomi: kanji.kunyomi,
+        numeroTrazos: kanji.numeroTrazos,
+        anioEscolarJapon: kanji.anioEscolarJapon,
         // [{ radical: { caracter: "⺅" } }, ...] -> ["⺅", ...], sin sort: respeta `orden`
-        radicales: k.kanjiRadicales.map((kr) => kr.radical.caracter),
-        fraseMnemotecnica: k.fraseMnemotecnica,
-        urlImagenMnemotecnica: k.urlImagenMnemotecnica,
-        oracionEjemplo: k.oracionEjemplo,
-        traduccionOracion: k.traduccionOracion,
-        destacado: k.destacado,
+        radicales: kanji.kanjiRadicales.map((relacion) => relacion.radical.caracter),
+        fraseMnemotecnica: kanji.fraseMnemotecnica,
+        urlImagenMnemotecnica: kanji.urlImagenMnemotecnica,
+        oracionEjemplo: kanji.oracionEjemplo,
+        traduccionOracion: kanji.traduccionOracion,
+        destacado: kanji.destacado,
         // map + destructuring: se queda solo con esos campos (descarta id y kanjiId)
-        palabras: k.palabras.map(({ palabra, furigana, traduccion }) => ({
+        palabras: kanji.palabras.map(({ palabra, furigana, traduccion }) => ({
           palabra,
           furigana,
           traduccion,
         })),
-        nombres: k.nombres.map(({ nombre, furigana, descripcion, tipo }) => ({
+        nombres: kanji.nombres.map(({ nombre, furigana, descripcion, tipo }) => ({
           nombre,
           furigana,
           descripcion,
           tipo,
         })),
         // [{ destino: { caracter: "具" } }, ...] -> ["具", ...]
-        relacionadosCon: k.kanjiTrapsDesde
-          .map((t) => t.destino.caracter)
+        relacionadosCon: kanji.kanjiTrapsDesde
+          .map((trap) => trap.destino.caracter)
           .sort(), // orden fijo: si la BDD no cambio, el JSON sale identico
       };
 
-      const lista = porNivel.get(k.nivel) ?? []; // primera vez que aparece el nivel -> lista vacia
+      const lista = porNivel.get(kanji.nivel) ?? []; // primera vez que aparece el nivel -> lista vacia
       lista.push(item);
-      porNivel.set(k.nivel, lista);
+      porNivel.set(kanji.nivel, lista);
     }
 
     // 3. Escribir un archivo por nivel

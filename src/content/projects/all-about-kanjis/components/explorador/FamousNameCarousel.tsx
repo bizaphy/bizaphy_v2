@@ -19,12 +19,12 @@ async function fetchWikipedia(
 ): Promise<ImagenInfo> {
   const encoded = encodeURIComponent(title.replace(/ /g, "_"));
   const fallbackUrl = `https://ja.wikipedia.org/wiki/${encoded}`;
-  const res = await fetch(
+  const respuesta = await fetch(
     `https://ja.wikipedia.org/api/rest_v1/page/summary/${encoded}`,
     { signal },
   );
-  if (!res.ok) return { url: fallbackUrl, fuente: "Wikipedia" };
-  const data = await res.json();
+  if (!respuesta.ok) return { url: fallbackUrl, fuente: "Wikipedia" };
+  const data = await respuesta.json();
   return {
     // en desambiguaciones la imagen puede no corresponder
     image: data.type === "disambiguation" ? undefined : data.thumbnail?.source,
@@ -47,7 +47,7 @@ async function fetchAniList(
   signal: AbortSignal,
 ): Promise<ImagenInfo | null> {
   const esPersonaje = tipo === "personaje";
-  const res = await fetch("https://graphql.anilist.co", {
+  const respuesta = await fetch("https://graphql.anilist.co", {
     method: "POST",
     headers: { "Content-Type": "application/json", Accept: "application/json" },
     body: JSON.stringify({
@@ -58,8 +58,8 @@ async function fetchAniList(
     }),
     signal,
   });
-  if (!res.ok) return null;
-  const { data } = await res.json();
+  if (!respuesta.ok) return null;
+  const { data } = await respuesta.json();
   const item = esPersonaje ? data?.Character : data?.Media;
   const image = esPersonaje ? item?.image?.large : item?.coverImage?.large;
   if (!image) return null;

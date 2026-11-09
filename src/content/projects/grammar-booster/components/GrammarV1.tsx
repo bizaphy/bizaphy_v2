@@ -71,7 +71,7 @@ export default function GrammarV1() {
   const [error, setError] = useState(false);
   const [filtro, setFiltro] = useState<Filtro>("todos");
   const [cola, setCola] = useState<Pregunta[]>([]);
-  const [pos, setPos] = useState(0);
+  const [indiceActual, setIndiceActual] = useState(0);
   // Indices de las opciones ya intentadas: las incorrectas quedan bloqueadas.
   const [intentadas, setIntentadas] = useState<number[]>([]);
   const [furigana, setFurigana] = useState(false);
@@ -120,7 +120,7 @@ export default function GrammarV1() {
     );
   }
 
-  const pregunta = cola[pos];
+  const pregunta = cola[indiceActual];
   if (!pregunta) return null;
   const { ejercicio, opciones } = pregunta;
   const indiceCorrecta = opciones.findIndex((opcion) => opcion.correcta);
@@ -131,7 +131,7 @@ export default function GrammarV1() {
     if (nuevoFiltro === filtro) return;
     setFiltro(nuevoFiltro);
     setCola(armarCola(ejercicios, nuevoFiltro));
-    setPos(0);
+    setIndiceActual(0);
     setIntentadas([]);
   };
 
@@ -141,12 +141,12 @@ export default function GrammarV1() {
   };
 
   const siguiente = () => {
-    if (pos + 1 < cola.length) {
-      setPos(pos + 1);
+    if (indiceActual + 1 < cola.length) {
+      setIndiceActual(indiceActual + 1);
     } else {
       // Cola agotada: se vuelve a barajar y arranca otra vuelta.
       setCola(armarCola(ejercicios, filtro));
-      setPos(0);
+      setIndiceActual(0);
     }
     setIntentadas([]);
   };
@@ -183,7 +183,7 @@ export default function GrammarV1() {
           {ejercicio.nivel}
         </span>
         <span className="absolute top-3 right-3 font-mono text-[10px] tracking-widest text-zinc-500">
-          {pos + 1} / {cola.length}
+          {indiceActual + 1} / {cola.length}
         </span>
 
         <p className="font-mono text-xs tracking-widest text-zinc-500 uppercase">

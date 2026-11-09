@@ -53,18 +53,18 @@ const {
 
 // Nullable en la BDD -> el JSON no puede vaciarlas si la BDD tiene dato.
 // Las notNull no hace falta protegerlas: Postgres ya rechaza el null.
-const COLUMNAS_PROTEGIDAS = columnasDelJson.filter((c) => !c.columna.notNull);
+const COLUMNAS_PROTEGIDAS = columnasDelJson.filter((campo) => !campo.columna.notNull);
 
 // Las que el upsert actualiza cuando el kanji ya existe. Fuera: caracter
 // (es la clave del conflicto) y las que solo se escriben al crear.
 const COLUMNAS_ACTUALIZABLES = columnasDelJson.filter(
-  (c) =>
-    c.nombre !== "caracter" &&
-    !(COLUMNAS_SOLO_AL_CREAR as readonly string[]).includes(c.nombre),
+  (campo) =>
+    campo.nombre !== "caracter" &&
+    !(COLUMNAS_SOLO_AL_CREAR as readonly string[]).includes(campo.nombre),
 );
 
 // En un upsert, "excluded" es la fila que se intento insertar.
-const excluido = (c: Column) => sql.raw(`excluded."${c.name}"`);
+const excluido = (columna: Column) => sql.raw(`excluded."${columna.name}"`);
 
 // ── RADICALES: catalogo, se aplica una vez antes de los niveles ──
 
@@ -83,17 +83,17 @@ function leerRadicales(): SeedRadical[] {
   const errores: string[] = [];
   const vistos = new Set<string>();
 
-  for (const r of dataset) {
-    if ([...r.caracter].length !== 1) {
-      errores.push(`"${r.caracter}" no es un solo caracter`);
+  for (const radicalJson of dataset) {
+    if ([...radicalJson.caracter].length !== 1) {
+      errores.push(`"${radicalJson.caracter}" no es un solo caracter`);
     }
-    if (vistos.has(r.caracter)) errores.push(`${r.caracter} está repetido`);
-    vistos.add(r.caracter);
+    if (vistos.has(radicalJson.caracter)) errores.push(`${radicalJson.caracter} está repetido`);
+    vistos.add(radicalJson.caracter);
 
-    const faltantes = COLUMNAS_RADICAL.filter(({ nombre }) => !(nombre in r));
+    const faltantes = COLUMNAS_RADICAL.filter(({ nombre }) => !(nombre in radicalJson));
     if (faltantes.length > 0) {
       errores.push(
-        `${r.caracter} no tiene: ${faltantes.map((c) => c.nombre).join(", ")}`,
+        `${radicalJson.caracter} no tiene: ${faltantes.map((campo) => campo.nombre).join(", ")}`,
       );
     }
   }
@@ -111,7 +111,7 @@ async function sembrarRadicales(db: Db, dryRun: boolean) {
 
   // Misma proteccion que en kanji: el JSON no puede vaciar un dato de la BDD.
   const enBdd = await db.select().from(radical);
-  const porCaracter = new Map(dataset.map((r) => [r.caracter, r]));
+  const porCaracter = new Map(dataset.map((radicalJson) => [radicalJson.caracter, radicalJson]));
   const perdidas: string[] = [];
   for (const actual of enBdd) {
     const nuevo = porCaracter.get(actual.caracter);
@@ -135,8 +135,8 @@ async function sembrarRadicales(db: Db, dryRun: boolean) {
     );
   }
 
-  const existentes = new Set(enBdd.map((r) => r.caracter));
-  const nuevos = dataset.filter((r) => !existentes.has(r.caracter)).length;
+  const existentes = new Set(enBdd.map((fila) => fila.caracter));
+  const nuevos = dataset.filter((radicalJson) => !existentes.has(radicalJson.caracter)).length;
   console.log(`${dataset.length} radicales (${nuevos} nuevos)`);
 
   if (!dryRun) {
@@ -147,24 +147,24 @@ async function sembrarRadicales(db: Db, dryRun: boolean) {
       .onConflictDoUpdate({
         target: radical.caracter,
         set: Object.fromEntries(
-          COLUMNAS_RADICAL.filter((c) => c.nombre !== "caracter").map((c) => [
-            c.nombre,
-            excluido(c.columna),
+          COLUMNAS_RADICAL.filter((campo) => campo.nombre !== "caracter").map((campo) => [
+            campo.nombre,
+            excluido(campo.columna),
           ]),
         ),
       });
     console.log("✓ radicales aplicados");
   }
 
-  return new Set(dataset.map((r) => r.caracter));
+  return new Set(dataset.map((radicalJson) => radicalJson.caracter));
 }
 
 // Se queda solo con las columnas del kanji: saca palabras, nombres y
 // relacionadosCon, y descarta claves que no sean columnas (ej: un
 // urlOrdenTrazos viejo en el JSON).
-function soloColumnas(k: SeedKanji): ColumnasKanji {
+function soloColumnas(kanjiJson: SeedKanji): ColumnasKanji {
   return Object.fromEntries(
-    columnasDelJson.map(({ nombre }) => [nombre, k[nombre]]),
+    columnasDelJson.map(({ nombre }) => [nombre, kanjiJson[nombre]]),
   ) as ColumnasKanji;
 }
 
@@ -180,34 +180,34 @@ function leerJson(nivel: Nivel): SeedKanji[] {
   const errores: string[] = [];
   const vistos = new Set<string>();
 
-  for (const k of dataset) {
-    if ([...k.caracter].length !== 1) {
-      errores.push(`"${k.caracter}" no es un solo caracter`);
+  for (const kanjiJson of dataset) {
+    if ([...kanjiJson.caracter].length !== 1) {
+      errores.push(`"${kanjiJson.caracter}" no es un solo caracter`);
     }
-    if (k.nivel !== nivel) {
+    if (kanjiJson.nivel !== nivel) {
       errores.push(
-        `${k.caracter} tiene nivel ${k.nivel} dentro de ${nivel}.json`,
+        `${kanjiJson.caracter} tiene nivel ${kanjiJson.nivel} dentro de ${nivel}.json`,
       );
     }
-    if (vistos.has(k.caracter)) errores.push(`${k.caracter} está repetido`);
+    if (vistos.has(kanjiJson.caracter)) errores.push(`${kanjiJson.caracter} está repetido`);
 
     // Columna nueva en el schema que el JSON todavia no tiene: sin este
     // chequeo llegaria como undefined y el upsert pisaria el dato de la BDD.
-    const faltantes = columnasDelJson.filter(({ nombre }) => !(nombre in k));
+    const faltantes = columnasDelJson.filter(({ nombre }) => !(nombre in kanjiJson));
     if (faltantes.length > 0) {
       errores.push(
-        `${k.caracter} no tiene: ${faltantes.map((c) => c.nombre).join(", ")}`,
+        `${kanjiJson.caracter} no tiene: ${faltantes.map((campo) => campo.nombre).join(", ")}`,
       );
     }
-    vistos.add(k.caracter);
+    vistos.add(kanjiJson.caracter);
 
-    const palabras = k.palabras.map((p) => p.palabra);
-    const nombres = k.nombres.map((n) => n.nombre);
+    const palabras = kanjiJson.palabras.map((palabra) => palabra.palabra);
+    const nombres = kanjiJson.nombres.map((famoso) => famoso.nombre);
     if (new Set(palabras).size !== palabras.length) {
-      errores.push(`${k.caracter} tiene palabras repetidas`);
+      errores.push(`${kanjiJson.caracter} tiene palabras repetidas`);
     }
     if (new Set(nombres).size !== nombres.length) {
-      errores.push(`${k.caracter} tiene nombres repetidos`);
+      errores.push(`${kanjiJson.caracter} tiene nombres repetidos`);
     }
   }
 
@@ -222,10 +222,10 @@ function leerJson(nivel: Nivel): SeedKanji[] {
 
 // Compara el JSON con la BDD y devuelve todo lo que el seed borraria.
 async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
-  const caracteres = dataset.map((k) => k.caracter);
+  const caracteres = dataset.map((kanjiJson) => kanjiJson.caracter);
   const enBdd = await db.query.kanji.findMany({
-    where: (k, { eq, or, inArray }) =>
-      or(eq(k.nivel, nivel), inArray(k.caracter, caracteres)),
+    where: (tablaKanji, { eq, or, inArray }) =>
+      or(eq(tablaKanji.nivel, nivel), inArray(tablaKanji.caracter, caracteres)),
     with: {
       palabras: true,
       nombres: true,
@@ -236,7 +236,7 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
     },
   });
 
-  const porCaracter = new Map(dataset.map((k) => [k.caracter, k]));
+  const porCaracter = new Map(dataset.map((kanjiJson) => [kanjiJson.caracter, kanjiJson]));
   const perdidas: string[] = [];
   const avisos: string[] = [];
 
@@ -265,31 +265,31 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
       }
     }
 
-    const palabrasJson = new Set(nuevo.palabras.map((p) => p.palabra));
-    for (const p of actual.palabras) {
-      if (!palabrasJson.has(p.palabra)) {
+    const palabrasJson = new Set(nuevo.palabras.map((palabra) => palabra.palabra));
+    for (const palabraBdd of actual.palabras) {
+      if (!palabrasJson.has(palabraBdd.palabra)) {
         perdidas.push(
-          `${actual.caracter}: se borraría la palabra ${p.palabra}`,
+          `${actual.caracter}: se borraría la palabra ${palabraBdd.palabra}`,
         );
       }
     }
 
-    const nombresJson = new Map(nuevo.nombres.map((n) => [n.nombre, n]));
-    for (const p of actual.nombres) {
-      const enJson = nombresJson.get(p.nombre);
+    const nombresJson = new Map(nuevo.nombres.map((famoso) => [famoso.nombre, famoso]));
+    for (const nombreBdd of actual.nombres) {
+      const enJson = nombresJson.get(nombreBdd.nombre);
       if (!enJson) {
-        perdidas.push(`${actual.caracter}: se borraría el nombre ${p.nombre}`);
-      } else if (p.furigana !== null && enJson.furigana === null) {
+        perdidas.push(`${actual.caracter}: se borraría el nombre ${nombreBdd.nombre}`);
+      } else if (nombreBdd.furigana !== null && enJson.furigana === null) {
         perdidas.push(
-          `${actual.caracter}: se borraría el furigana de ${p.nombre} (${p.furigana})`,
+          `${actual.caracter}: se borraría el furigana de ${nombreBdd.nombre} (${nombreBdd.furigana})`,
         );
       }
     }
 
     const radicalesJson = new Set(nuevo.radicales);
-    for (const { radical: r } of actual.kanjiRadicales) {
-      if (!radicalesJson.has(r.caracter)) {
-        perdidas.push(`${actual.caracter}: se borraría el radical ${r.caracter}`);
+    for (const { radical: radicalBdd } of actual.kanjiRadicales) {
+      if (!radicalesJson.has(radicalBdd.caracter)) {
+        perdidas.push(`${actual.caracter}: se borraría el radical ${radicalBdd.caracter}`);
       }
     }
   }
@@ -297,7 +297,7 @@ async function buscarPerdidas(db: Db, nivel: Nivel, dataset: SeedKanji[]) {
   return {
     perdidas,
     avisos,
-    existentes: new Set(enBdd.map((k) => k.caracter)),
+    existentes: new Set(enBdd.map((fila) => fila.caracter)),
   };
 }
 
@@ -309,22 +309,22 @@ function validarRadicales(
   catalogo: Set<string>,
 ) {
   const errores: string[] = [];
-  for (const k of dataset) {
+  for (const kanjiJson of dataset) {
     // Formato viejo ("⺅、木" o null): mejor avisar que fallar mas adelante
-    if (!Array.isArray(k.radicales)) {
+    if (!Array.isArray(kanjiJson.radicales)) {
       errores.push(
-        `${k.caracter}: radicales tiene que ser una lista, ej: ["⺅", "木"]`,
+        `${kanjiJson.caracter}: radicales tiene que ser una lista, ej: ["⺅", "木"]`,
       );
       continue;
     }
-    const lista = k.radicales;
-    for (const r of lista) {
-      if (!catalogo.has(r)) {
-        errores.push(`${k.caracter}: el radical ${r} no está en radicales.json`);
+    const lista = kanjiJson.radicales;
+    for (const caracterRadical of lista) {
+      if (!catalogo.has(caracterRadical)) {
+        errores.push(`${kanjiJson.caracter}: el radical ${caracterRadical} no está en radicales.json`);
       }
     }
     if (new Set(lista).size !== lista.length) {
-      errores.push(`${k.caracter} tiene radicales repetidos`);
+      errores.push(`${kanjiJson.caracter} tiene radicales repetidos`);
     }
   }
   if (errores.length > 0) {
@@ -349,7 +349,7 @@ async function sembrarNivel(
     dataset,
   );
 
-  avisos.forEach((a) => console.warn(`⚠ ${a}`));
+  avisos.forEach((aviso) => console.warn(`⚠ ${aviso}`));
   if (perdidas.length > 0) {
     throw new Error(
       `Seed de ${nivel} abortado, se perderían datos de la BDD:\n  - ${perdidas.join("\n  - ")}\n` +
@@ -358,11 +358,11 @@ async function sembrarNivel(
     );
   }
 
-  const nuevos = dataset.filter((k) => !existentes.has(k.caracter)).length;
-  const totalPalabras = dataset.reduce((n, k) => n + k.palabras.length, 0);
-  const totalNombres = dataset.reduce((n, k) => n + k.nombres.length, 0);
+  const nuevos = dataset.filter((kanjiJson) => !existentes.has(kanjiJson.caracter)).length;
+  const totalPalabras = dataset.reduce((total, kanjiJson) => total + kanjiJson.palabras.length, 0);
+  const totalNombres = dataset.reduce((total, kanjiJson) => total + kanjiJson.nombres.length, 0);
   const totalRadicales = dataset.reduce(
-    (n, k) => n + k.radicales.length,
+    (total, kanjiJson) => total + kanjiJson.radicales.length,
     0,
   );
   console.log(
@@ -385,54 +385,54 @@ async function sembrarNivel(
         target: kanji.caracter,
         // { nivel: excluded."nivel", significado: excluded."significado", ... }
         set: Object.fromEntries(
-          COLUMNAS_ACTUALIZABLES.map((c) => [c.nombre, excluido(c.columna)]),
+          COLUMNAS_ACTUALIZABLES.map((campo) => [campo.nombre, excluido(campo.columna)]),
         ),
       })
       .returning({ id: kanji.id, caracter: kanji.caracter });
 
-    const ids = new Map(filas.map((f) => [f.caracter, f.id]));
-    const idsNivel = [...ids.values()];
+    const idPorCaracter = new Map(filas.map((fila) => [fila.caracter, fila.id]));
+    const idsNivel = [...idPorCaracter.values()];
 
     // 2. Palabras y nombres: no hay unique natural, asi que se reemplazan.
     //    buscarPerdidas ya garantizo que no se pierde nada.
     await tx
       .delete(palabrasFamosas)
       .where(inArray(palabrasFamosas.kanjiId, idsNivel));
-    const palabras = dataset.flatMap((k) =>
-      k.palabras.map((p) => ({ kanjiId: ids.get(k.caracter)!, ...p })),
+    const palabras = dataset.flatMap((kanjiJson) =>
+      kanjiJson.palabras.map((palabra) => ({ kanjiId: idPorCaracter.get(kanjiJson.caracter)!, ...palabra })),
     );
     if (palabras.length > 0) await tx.insert(palabrasFamosas).values(palabras);
 
     await tx
       .delete(nombresFamosos)
       .where(inArray(nombresFamosos.kanjiId, idsNivel));
-    const nombres = dataset.flatMap((k) =>
-      k.nombres.map((n) => ({ kanjiId: ids.get(k.caracter)!, ...n })),
+    const nombres = dataset.flatMap((kanjiJson) =>
+      kanjiJson.nombres.map((famoso) => ({ kanjiId: idPorCaracter.get(kanjiJson.caracter)!, ...famoso })),
     );
     if (nombres.length > 0) await tx.insert(nombresFamosos).values(nombres);
 
     // 3. Kanji traps en ambas direcciones. PK compuesta + onConflictDoNothing
     //    lo hace idempotente. El destino puede ser de otro nivel.
     const relacionados = [
-      ...new Set(dataset.flatMap((k) => k.relacionadosCon)),
+      ...new Set(dataset.flatMap((kanjiJson) => kanjiJson.relacionadosCon)),
     ];
-    const faltantes = relacionados.filter((c) => !ids.has(c));
+    const faltantes = relacionados.filter((caracter) => !idPorCaracter.has(caracter));
     if (faltantes.length > 0) {
       const otros = await tx
         .select({ id: kanji.id, caracter: kanji.caracter })
         .from(kanji)
         .where(inArray(kanji.caracter, faltantes));
-      otros.forEach((o) => ids.set(o.caracter, o.id));
+      otros.forEach((otro) => idPorCaracter.set(otro.caracter, otro.id));
     }
 
     const pares = new Map<string, { kanjiId: number; kanjiTrapId: number }>();
-    for (const k of dataset) {
-      const origen = ids.get(k.caracter)!;
-      for (const rel of k.relacionadosCon) {
-        const destino = ids.get(rel);
+    for (const kanjiJson of dataset) {
+      const origen = idPorCaracter.get(kanjiJson.caracter)!;
+      for (const caracterRelacionado of kanjiJson.relacionadosCon) {
+        const destino = idPorCaracter.get(caracterRelacionado);
         if (!destino) {
           console.warn(
-            `⚠ ${k.caracter} referencia a ${rel}, que no existe en la BDD`,
+            `⚠ ${kanjiJson.caracter} referencia a ${caracterRelacionado}, que no existe en la BDD`,
           );
           continue;
         }
@@ -459,20 +459,20 @@ async function sembrarNivel(
     await tx
       .delete(kanjiRadical)
       .where(inArray(kanjiRadical.kanjiId, idsNivel));
-    const usados = [...new Set(dataset.flatMap((k) => k.radicales))];
+    const usados = [...new Set(dataset.flatMap((kanjiJson) => kanjiJson.radicales))];
     if (usados.length > 0) {
-      const idsRadical = new Map(
+      const idRadicalPorCaracter = new Map(
         (
           await tx
             .select({ id: radical.id, caracter: radical.caracter })
             .from(radical)
             .where(inArray(radical.caracter, usados))
-        ).map((r) => [r.caracter, r.id]),
+        ).map((fila) => [fila.caracter, fila.id]),
       );
-      const filasRadical = dataset.flatMap((k) =>
-        k.radicales.map((r, orden) => ({
-          kanjiId: ids.get(k.caracter)!,
-          radicalId: idsRadical.get(r)!,
+      const filasRadical = dataset.flatMap((kanjiJson) =>
+        kanjiJson.radicales.map((caracterRadical, orden) => ({
+          kanjiId: idPorCaracter.get(kanjiJson.caracter)!,
+          radicalId: idRadicalPorCaracter.get(caracterRadical)!,
           orden,
         })),
       );
@@ -488,14 +488,14 @@ async function sembrarNivel(
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
-  const niveles = args.filter((a) => a !== "--dry-run");
+  const niveles = args.filter((arg) => arg !== "--dry-run");
 
   if (niveles.length === 0) {
     throw new Error(
       "Indica al menos un nivel, ej: npm run db:seed-kanjis -- n5",
     );
   }
-  const invalidos = niveles.filter((n) => !esNivel(n));
+  const invalidos = niveles.filter((nivel) => !esNivel(nivel));
   if (invalidos.length > 0) {
     throw new Error(`Niveles inválidos: ${invalidos.join(", ")}`);
   }

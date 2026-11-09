@@ -84,7 +84,7 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       // Radicales desde el catalogo (tabla radical), en el orden del JSON
       kanjiRadicales: {
         columns: {},
-        orderBy: (kr, { asc }) => [asc(kr.orden)],
+        orderBy: (tablaKanjiRadical, { asc }) => [asc(tablaKanjiRadical.orden)],
         with: {
           radical: {
             columns: {
