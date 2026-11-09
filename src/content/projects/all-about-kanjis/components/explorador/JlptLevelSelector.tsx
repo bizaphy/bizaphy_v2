@@ -20,41 +20,46 @@ export default function JlptLevelSelector<NivelSeleccionable extends Level>({
 
   return (
     <div className="flex flex-wrap items-stretch gap-4 p-4">
-      {/* division izquierda: cuadrado con el nivel actualmente seleccionado */}
-      <div className="flex w-24 shrink-0 items-center justify-center rounded-md border border-fuchsia-400/60 bg-fuchsia-500/15 font-mono text-3xl font-bold text-fuchsia-100 shadow-[0_0_12px_rgba(217,70,239,0.3)]">
-        {selected}
-      </div>
+      {/* Nivel actual + circulos van juntos: en pantallas estrechas el
+          indicador queda arriba de los circulos, con su mismo ancho, en vez
+          de que los circulos bajen de linea y queden en diagonal. */}
+      <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:gap-4">
+        {/* division izquierda: el nivel actualmente seleccionado */}
+        <div className="flex h-14 shrink-0 items-center justify-center rounded-md border border-fuchsia-400/60 bg-fuchsia-500/15 font-mono text-3xl font-bold text-fuchsia-100 shadow-[0_0_12px_rgba(217,70,239,0.3)] sm:h-auto sm:w-24">
+          {selected}
+        </div>
 
-      {/* linea divisoria sutil entre el nivel actual y los selectores */}
-      <div className="w-px bg-zinc-700/70" aria-hidden />
+        {/* linea divisoria sutil entre el nivel actual y los selectores */}
+        <div className="hidden w-px bg-zinc-700/70 sm:block" aria-hidden />
 
-      {/* division central: 5 circulos, de N5 a N1. Nunca se parten en dos filas;
-          si el bloque completo baja de linea, ml-auto lo alinea a la derecha. */}
-      <div className="ml-auto flex shrink-0 flex-nowrap items-center gap-2 sm:gap-3">
-        {LEVELS.map((level) => {
-          const isDisabled = DISABLED_LEVELS.includes(level);
-          const isSelected = selected === level;
-
-          return (
-            <button
-              key={level}
-              type="button"
-              disabled={isDisabled}
-              onClick={() => onSelect(level as NivelSeleccionable)}
-              aria-pressed={isSelected}
-              aria-label={`Nivel ${level}${isDisabled ? " (proximamente)" : ""}`}
-              className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-mono text-sm font-semibold sm:h-15 sm:w-15 sm:text-base transition ${
-                isDisabled
-                  ? "cursor-not-allowed border border-zinc-600 bg-zinc-800 text-zinc-500"
-                  : isSelected
-                    ? "border-2 border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-200 shadow-[0_0_12px_rgba(217,70,239,0.7)]"
-                    : "border border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300 hover:shadow-[0_0_10px_rgba(196,181,253,0.4)]"
-              }`}
-            >
-              {level}
-            </button>
-          );
-        })}
+        {/* division central: 5 circulos, de N5 a N1. Nunca se parten en dos
+            filas; en pantallas estrechas se reparten a lo ancho del indicador. */}
+        <div className="flex shrink-0 flex-nowrap items-center justify-between gap-2 sm:justify-start sm:gap-3">
+          {LEVELS.map((level) => {
+            const isDisabled = DISABLED_LEVELS.includes(level);
+            const isSelected = selected === level;
+  
+            return (
+              <button
+                key={level}
+                type="button"
+                disabled={isDisabled}
+                onClick={() => onSelect(level as NivelSeleccionable)}
+                aria-pressed={isSelected}
+                aria-label={`Nivel ${level}${isDisabled ? " (proximamente)" : ""}`}
+                className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-mono text-sm font-semibold sm:h-15 sm:w-15 sm:text-base transition ${
+                  isDisabled
+                    ? "cursor-not-allowed border border-zinc-600 bg-zinc-800 text-zinc-500"
+                    : isSelected
+                      ? "border-2 border-fuchsia-400 bg-fuchsia-500/25 text-fuchsia-200 shadow-[0_0_12px_rgba(217,70,239,0.7)]"
+                      : "border border-violet-300/40 bg-zinc-900 text-violet-300 hover:border-violet-300 hover:shadow-[0_0_10px_rgba(196,181,253,0.4)]"
+                }`}
+              >
+                {level}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
       {/* division derecha: informativo del nivel seleccionado */}
