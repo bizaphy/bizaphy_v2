@@ -34,8 +34,8 @@ export default function ImageLightbox({
   useEffect(() => {
     if (!open) return;
 
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+    const onKey = (evento: KeyboardEvent) => {
+      if (evento.key === "Escape") setOpen(false);
     };
     document.addEventListener("keydown", onKey);
 
@@ -106,7 +106,7 @@ export default function ImageLightbox({
               width={0}
               height={0}
               sizes="90vw"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(evento) => evento.stopPropagation()}
               className={`${
                 vectorial
                   ? "size-[min(85vh,90vw)]"

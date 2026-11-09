@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Interruptor from "@/components/ui/Interruptor";
+import { barajar } from "@/lib/barajar";
 
 type NivelPalabra = "n5" | "n4" | "n3";
 
@@ -55,31 +56,20 @@ const OCULTO: Vista = { significado: false, romaji: false, resuelto: false };
 
 // Se cuentan los kanjis escritos en la palabra, no los unicos de `kanjis`:
 // asi 時々 o 日曜日 cuentan como palabras de varios kanjis.
-const contarKanjis = (p: Palabra) =>
-  p.palabra.match(/\p{Script=Han}/gu)?.length ?? 0;
+const contarKanjis = (palabra: Palabra) =>
+  palabra.palabra.match(/\p{Script=Han}/gu)?.length ?? 0;
 
-const cumpleKanjis = (p: Palabra, k: FiltroKanjis) =>
-  k === "todas" || (k === "uno" ? contarKanjis(p) === 1 : contarKanjis(p) > 1);
+const cumpleKanjis = (palabra: Palabra, filtroKanjis: FiltroKanjis) =>
+  filtroKanjis === "todas" || (filtroKanjis === "uno" ? contarKanjis(palabra) === 1 : contarKanjis(palabra) > 1);
 
 // Solo palabras cuyos kanjis son todos de N5-N3: el trainer es para esos.
-const filtrar = (v: Vocabulario, f: Filtro, k: FiltroKanjis) =>
-  v.palabras.filter(
-    (p) =>
-      p.soloKanjisN5aN3 &&
-      (f === "todos" || p.nivel === f) &&
-      cumpleKanjis(p, k),
+const filtrar = (vocabulario: Vocabulario, filtroNivel: Filtro, filtroKanjis: FiltroKanjis) =>
+  vocabulario.palabras.filter(
+    (palabra) =>
+      palabra.soloKanjisN5aN3 &&
+      (filtroNivel === "todos" || palabra.nivel === filtroNivel) &&
+      cumpleKanjis(palabra, filtroKanjis),
   );
-
-// Fisher-Yates sobre una copia: la cola se recorre en orden y no repite
-// palabras hasta agotarla.
-function barajar<T>(xs: T[]): T[] {
-  const out = [...xs];
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
-}
 
 // Color por nivel JLPT del kanji, para el modo "Colores JLPT".
 const COLOR_NIVEL: Record<string, string> = {
@@ -92,7 +82,7 @@ const COLOR_NIVEL: Record<string, string> = {
 
 const LEYENDA_NIVELES = ["n5", "n4", "n3"] as const;
 
-const esKanji = (c: string) => /\p{Script=Han}/u.test(c);
+const esKanji = (caracter: string) => /\p{Script=Han}/u.test(caracter);
 
 const botonBase =
   "rounded-md border px-4 py-2 font-mono text-xs tracking-widest uppercase transition disabled:cursor-not-allowed disabled:opacity-40";
@@ -122,11 +112,11 @@ export default function KanjiTrainer() {
   useEffect(() => {
     let vivo = true;
     import("../../data/vocabulario.json")
-      .then((m) => {
+      .then((modulo) => {
         if (!vivo) return;
-        const v = m.default as Vocabulario;
-        setVocab(v);
-        setCola(barajar(filtrar(v, "todos", "todas")));
+        const vocabulario = modulo.default as Vocabulario;
+        setVocab(vocabulario);
+        setCola(barajar(filtrar(vocabulario, "todos", "todas")));
       })
       .catch(() => vivo && setError(true));
     return () => {
@@ -139,32 +129,32 @@ export default function KanjiTrainer() {
   const conteos = useMemo(() => {
     if (!vocab) return null;
     return Object.fromEntries(
-      FILTROS.map((f) => [f.id, filtrar(vocab, f.id, filtroKanjis).length]),
+      FILTROS.map((opcion) => [opcion.id, filtrar(vocab, opcion.id, filtroKanjis).length]),
     ) as Record<Filtro, number>;
   }, [vocab, filtroKanjis]);
 
   const conteosKanjis = useMemo(() => {
     if (!vocab) return null;
     return Object.fromEntries(
-      FILTROS_KANJIS.map((k) => [k.id, filtrar(vocab, filtro, k.id).length]),
+      FILTROS_KANJIS.map((opcion) => [opcion.id, filtrar(vocab, filtro, opcion.id).length]),
     ) as Record<FiltroKanjis, number>;
   }, [vocab, filtro]);
 
-  const aplicarFiltros = (f: Filtro, k: FiltroKanjis) => {
+  const aplicarFiltros = (nuevoFiltro: Filtro, nuevoFiltroKanjis: FiltroKanjis) => {
     if (!vocab) return;
-    setFiltro(f);
-    setFiltroKanjis(k);
-    setCola(barajar(filtrar(vocab, f, k)));
+    setFiltro(nuevoFiltro);
+    setFiltroKanjis(nuevoFiltroKanjis);
+    setCola(barajar(filtrar(vocab, nuevoFiltro, nuevoFiltroKanjis)));
     setPos(0);
     setVista(OCULTO);
   };
 
-  const cambiarFiltro = (f: Filtro) => {
-    if (f !== filtro) aplicarFiltros(f, filtroKanjis);
+  const cambiarFiltro = (nuevoFiltro: Filtro) => {
+    if (nuevoFiltro !== filtro) aplicarFiltros(nuevoFiltro, filtroKanjis);
   };
 
-  const cambiarFiltroKanjis = (k: FiltroKanjis) => {
-    if (k !== filtroKanjis) aplicarFiltros(filtro, k);
+  const cambiarFiltroKanjis = (nuevoFiltroKanjis: FiltroKanjis) => {
+    if (nuevoFiltroKanjis !== filtroKanjis) aplicarFiltros(filtro, nuevoFiltroKanjis);
   };
 
   const siguiente = () => {
@@ -197,8 +187,8 @@ export default function KanjiTrainer() {
 
   // Con el modo activo, cada kanji toma el color de su nivel; los kana y
   // los kanjis sin nivel conocido quedan en el color normal.
-  const colorKanji = (c: string) =>
-    colores ? (COLOR_NIVEL[vocab.kanjis[c]?.nivel ?? ""] ?? "") : "";
+  const colorKanji = (caracter: string) =>
+    colores ? (COLOR_NIVEL[vocab.kanjis[caracter]?.nivel ?? ""] ?? "") : "";
 
   const verSignificado = vista.significado || vista.resuelto;
   const verRomaji = vista.romaji || vista.resuelto;
@@ -213,16 +203,16 @@ export default function KanjiTrainer() {
             <span className="w-16 font-mono text-xs tracking-widest text-zinc-500 uppercase">
               Nivel
             </span>
-            {FILTROS.map((f) => (
+            {FILTROS.map((opcion) => (
               <button
-                key={f.id}
+                key={opcion.id}
                 type="button"
-                aria-pressed={filtro === f.id}
-                onClick={() => cambiarFiltro(f.id)}
-                className={chipFiltro(filtro === f.id)}
+                aria-pressed={filtro === opcion.id}
+                onClick={() => cambiarFiltro(opcion.id)}
+                className={chipFiltro(filtro === opcion.id)}
               >
-                {f.label}
-                <span className="ml-1.5 text-zinc-500">{conteos[f.id]}</span>
+                {opcion.label}
+                <span className="ml-1.5 text-zinc-500">{conteos[opcion.id]}</span>
               </button>
             ))}
           </div>
@@ -232,17 +222,17 @@ export default function KanjiTrainer() {
             <span className="w-16 font-mono text-xs tracking-widest text-zinc-500 uppercase">
               Kanjis
             </span>
-            {FILTROS_KANJIS.map((k) => (
+            {FILTROS_KANJIS.map((opcion) => (
               <button
-                key={k.id}
+                key={opcion.id}
                 type="button"
-                aria-pressed={filtroKanjis === k.id}
-                onClick={() => cambiarFiltroKanjis(k.id)}
-                className={chipFiltro(filtroKanjis === k.id)}
+                aria-pressed={filtroKanjis === opcion.id}
+                onClick={() => cambiarFiltroKanjis(opcion.id)}
+                className={chipFiltro(filtroKanjis === opcion.id)}
               >
-                {k.label}
+                {opcion.label}
                 <span className="ml-1.5 text-zinc-500">
-                  {conteosKanjis[k.id]}
+                  {conteosKanjis[opcion.id]}
                 </span>
               </button>
             ))}
@@ -256,18 +246,18 @@ export default function KanjiTrainer() {
           <Interruptor
             label="Furigana"
             activo={furigana}
-            onToggle={() => setFurigana((f) => !f)}
+            onToggle={() => setFurigana((activo) => !activo)}
           />
           <Interruptor
             label="Colores JLPT"
             activo={colores}
-            onToggle={() => setColores((c) => !c)}
+            onToggle={() => setColores((activo) => !activo)}
           />
           {colores && (
             <span className="flex gap-3 font-mono text-xs uppercase">
-              {LEYENDA_NIVELES.map((n) => (
-                <span key={n} className={COLOR_NIVEL[n]}>
-                  ● {n}
+              {LEYENDA_NIVELES.map((nivel) => (
+                <span key={nivel} className={COLOR_NIVEL[nivel]}>
+                  ● {nivel}
                 </span>
               ))}
             </span>
@@ -293,9 +283,9 @@ export default function KanjiTrainer() {
               {actual.furigana}
             </span>
             <span className="font-mono text-5xl font-light text-zinc-50 drop-shadow-[0_0_10px_rgba(217,70,239,0.5)] sm:text-7xl">
-              {Array.from(actual.palabra).map((c, i) => (
-                <span key={i} className={esKanji(c) ? colorKanji(c) : ""}>
-                  {c}
+              {Array.from(actual.palabra).map((caracter, indice) => (
+                <span key={indice} className={esKanji(caracter) ? colorKanji(caracter) : ""}>
+                  {caracter}
                 </span>
               ))}
             </span>
@@ -321,7 +311,7 @@ export default function KanjiTrainer() {
               aria-pressed={vista.significado}
               disabled={vista.resuelto}
               onClick={() =>
-                setVista((v) => ({ ...v, significado: !v.significado }))
+                setVista((previa) => ({ ...previa, significado: !previa.significado }))
               }
               className={vista.significado ? botonActivo : botonSecundario}
             >
@@ -331,7 +321,7 @@ export default function KanjiTrainer() {
               type="button"
               aria-pressed={vista.romaji}
               disabled={vista.resuelto}
-              onClick={() => setVista((v) => ({ ...v, romaji: !v.romaji }))}
+              onClick={() => setVista((previa) => ({ ...previa, romaji: !previa.romaji }))}
               className={vista.romaji ? botonActivo : botonSecundario}
             >
               Romaji
@@ -356,22 +346,22 @@ export default function KanjiTrainer() {
           {/* Kanjis que forman la palabra: solo al resolver */}
           {vista.resuelto && (
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
-              {actual.kanjis.map((k) => {
-                const info = vocab.kanjis[k.caracter];
+              {actual.kanjis.map((kanji) => {
+                const info = vocab.kanjis[kanji.caracter];
                 const significado = info?.significado ?? info?.significadoEn;
                 return (
                   <div
-                    key={k.caracter}
+                    key={kanji.caracter}
                     className="flex items-center gap-4 rounded-md border border-zinc-700 bg-zinc-900/60 p-3"
                   >
                     <span
-                      className={`font-mono text-5xl font-light ${colorKanji(k.caracter) || "text-zinc-100"}`}
+                      className={`font-mono text-5xl font-light ${colorKanji(kanji.caracter) || "text-zinc-100"}`}
                     >
-                      {k.caracter}
+                      {kanji.caracter}
                     </span>
                     <div className="flex min-w-0 flex-col gap-1">
                       <span className="w-fit rounded border border-violet-300/40 px-1.5 py-0.5 font-mono text-[10px] tracking-widest text-violet-300 uppercase">
-                        {k.nivel ?? "sin JLPT"}
+                        {kanji.nivel ?? "sin JLPT"}
                       </span>
                       <span className="text-sm text-zinc-200">
                         {significado ?? "—"}
@@ -381,7 +371,7 @@ export default function KanjiTrainer() {
                           </span>
                         )}
                       </span>
-                      {!k.enSitio && (
+                      {!kanji.enSitio && (
                         <span className="font-mono text-[10px] text-zinc-500">
                           aún no está en el explorador
                         </span>

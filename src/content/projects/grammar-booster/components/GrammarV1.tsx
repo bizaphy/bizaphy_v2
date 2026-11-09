@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Interruptor from "@/components/ui/Interruptor";
+import { barajar } from "@/lib/barajar";
 import { FiltroNivel, TarjetaEstructura, TarjetaTexto } from "./GramaticaUI";
 import {
   FILTROS,
-  barajar,
   botonBase,
   cargarEstructuras,
   estiloOpcion,
@@ -48,7 +48,7 @@ type Pregunta = {
 
 const armarCola = (ejercicios: Ejercicio[], filtro: Filtro): Pregunta[] =>
   barajar(
-    ejercicios.filter((e) => filtro === "todos" || e.nivel === filtro),
+    ejercicios.filter((ejercicio) => filtro === "todos" || ejercicio.nivel === filtro),
   ).map((ejercicio) => ({
     ejercicio,
     opciones: barajar([
@@ -58,7 +58,7 @@ const armarCola = (ejercicios: Ejercicio[], filtro: Filtro): Pregunta[] =>
         nota: ejercicio.nota,
         correcta: true,
       },
-      ...ejercicio.opciones.map((o) => ({ ...o, correcta: false })),
+      ...ejercicio.opciones.map((opcion) => ({ ...opcion, correcta: false })),
     ]),
   }));
 
@@ -82,12 +82,12 @@ export default function GrammarV1() {
       cargarEstructuras(),
       import("../data/ejercicios-gramatica.json"),
     ])
-      .then(([est, m]) => {
+      .then(([mapaEstructuras, modulo]) => {
         if (!vivo) return;
-        const ej = m.default as unknown as Ejercicio[];
-        setEstructuras(est);
-        setEjercicios(ej);
-        setCola(armarCola(ej, "todos"));
+        const listaEjercicios = modulo.default as unknown as Ejercicio[];
+        setEstructuras(mapaEstructuras);
+        setEjercicios(listaEjercicios);
+        setCola(armarCola(listaEjercicios, "todos"));
       })
       .catch(() => vivo && setError(true));
     return () => {
@@ -98,9 +98,9 @@ export default function GrammarV1() {
   const conteos = useMemo(() => {
     if (!ejercicios) return null;
     return Object.fromEntries(
-      FILTROS.map((f) => [
-        f.id,
-        ejercicios.filter((e) => f.id === "todos" || e.nivel === f.id).length,
+      FILTROS.map((opcion) => [
+        opcion.id,
+        ejercicios.filter((ejercicio) => opcion.id === "todos" || ejercicio.nivel === opcion.id).length,
       ]),
     ) as Record<Filtro, number>;
   }, [ejercicios]);
@@ -123,21 +123,21 @@ export default function GrammarV1() {
   const pregunta = cola[pos];
   if (!pregunta) return null;
   const { ejercicio, opciones } = pregunta;
-  const indiceCorrecta = opciones.findIndex((o) => o.correcta);
+  const indiceCorrecta = opciones.findIndex((opcion) => opcion.correcta);
   const resuelto = intentadas.includes(indiceCorrecta);
   const tieneCorte = ejercicio.lecturaAntes !== undefined;
 
-  const cambiarFiltro = (f: Filtro) => {
-    if (f === filtro) return;
-    setFiltro(f);
-    setCola(armarCola(ejercicios, f));
+  const cambiarFiltro = (nuevoFiltro: Filtro) => {
+    if (nuevoFiltro === filtro) return;
+    setFiltro(nuevoFiltro);
+    setCola(armarCola(ejercicios, nuevoFiltro));
     setPos(0);
     setIntentadas([]);
   };
 
-  const elegir = (i: number) => {
-    if (resuelto || intentadas.includes(i)) return;
-    setIntentadas([...intentadas, i]);
+  const elegir = (indice: number) => {
+    if (resuelto || intentadas.includes(indice)) return;
+    setIntentadas([...intentadas, indice]);
   };
 
   const siguiente = () => {
@@ -155,7 +155,7 @@ export default function GrammarV1() {
   // aparecieron.
   const ordenExplicacion = [
     opciones[indiceCorrecta],
-    ...opciones.filter((o) => !o.correcta),
+    ...opciones.filter((opcion) => !opcion.correcta),
   ];
   const estructuraCorrecta = ejercicio.estructura
     ? estructuras.get(ejercicio.estructura)
@@ -173,7 +173,7 @@ export default function GrammarV1() {
           <Interruptor
             label="Furigana"
             activo={furigana}
-            onToggle={() => setFurigana((f) => !f)}
+            onToggle={() => setFurigana((activo) => !activo)}
           />
         </div>
       </div>
@@ -225,23 +225,23 @@ export default function GrammarV1() {
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {opciones.map((o, i) => {
+        {opciones.map((opcion, indice) => {
           const estado =
-            resuelto && o.correcta
+            resuelto && opcion.correcta
               ? "correcta"
-              : intentadas.includes(i)
+              : intentadas.includes(indice)
                 ? "fallada"
                 : "normal";
           return (
             <button
-              key={o.texto}
+              key={opcion.texto}
               type="button"
-              disabled={resuelto || intentadas.includes(i)}
-              onClick={() => elegir(i)}
+              disabled={resuelto || intentadas.includes(indice)}
+              onClick={() => elegir(indice)}
               className={`flex items-center gap-3 rounded-md border px-4 py-3 text-left text-lg transition disabled:cursor-default ${estiloOpcion(estado)}`}
             >
-              <span className="font-mono text-xs text-zinc-500">{i + 1}</span>
-              {o.texto}
+              <span className="font-mono text-xs text-zinc-500">{indice + 1}</span>
+              {opcion.texto}
             </button>
           );
         })}
@@ -255,24 +255,24 @@ export default function GrammarV1() {
 
       {resuelto && (
         <div className="flex flex-col gap-3">
-          {ordenExplicacion.map((o) => {
-            const est = o.estructura
-              ? estructuras.get(o.estructura)
+          {ordenExplicacion.map((opcion) => {
+            const estructuraOpcion = opcion.estructura
+              ? estructuras.get(opcion.estructura)
               : undefined;
-            return est ? (
+            return estructuraOpcion ? (
               <TarjetaEstructura
-                key={o.texto}
-                estructura={est}
-                correcta={o.correcta}
-                nota={o.nota}
-                conEjemplos={o.correcta}
+                key={opcion.texto}
+                estructura={estructuraOpcion}
+                correcta={opcion.correcta}
+                nota={opcion.nota}
+                conEjemplos={opcion.correcta}
               />
             ) : (
               <TarjetaTexto
-                key={o.texto}
-                texto={o.texto}
-                nota={o.nota}
-                correcta={o.correcta}
+                key={opcion.texto}
+                texto={opcion.texto}
+                nota={opcion.nota}
+                correcta={opcion.correcta}
               />
             );
           })}

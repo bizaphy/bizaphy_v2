@@ -13,13 +13,13 @@ import { kanji, nivelJlpt } from "./schema";
  */
 export async function obtenerKanjiPorCaracter(caracter: string) {
   return db.query.kanji.findFirst({
-    where: (k, { eq }) => eq(k.caracter, caracter),
+    where: (tablaKanji, { eq }) => eq(tablaKanji.caracter, caracter),
     with: {
       palabras: {
-        orderBy: (p, { asc }) => [asc(p.palabra)],
+        orderBy: (tablaPalabras, { asc }) => [asc(tablaPalabras.palabra)],
       },
       nombres: {
-        orderBy: (p, { asc }) => [asc(p.nombre)],
+        orderBy: (tablaNombres, { asc }) => [asc(tablaNombres.nombre)],
       },
       kanjiTrapsDesde: {
         with: {
@@ -62,16 +62,16 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
       traduccionOracion: true,
       destacado: true,
     },
-    where: (k, { eq }) => eq(k.nivel, nivel),
-    orderBy: (k, { asc }) => [asc(k.numeroTrazos), asc(k.caracter)],
+    where: (tablaKanji, { eq }) => eq(tablaKanji.nivel, nivel),
+    orderBy: (tablaKanji, { asc }) => [asc(tablaKanji.numeroTrazos), asc(tablaKanji.caracter)],
     with: {
       palabras: {
         columns: { palabra: true, furigana: true, traduccion: true },
-        orderBy: (p, { asc }) => [asc(p.palabra)],
+        orderBy: (tablaPalabras, { asc }) => [asc(tablaPalabras.palabra)],
       },
       nombres: {
         columns: { nombre: true, furigana: true, descripcion: true, tipo: true },
-        orderBy: (p, { asc }) => [asc(p.nombre)],
+        orderBy: (tablaNombres, { asc }) => [asc(tablaNombres.nombre)],
       },
       kanjiTrapsDesde: {
         columns: {},
@@ -112,5 +112,5 @@ export type KanjiEnListado = Awaited<
 export async function listarNivelesDisponibles(): Promise<Nivel[]> {
   const rows = await db.selectDistinct({ nivel: kanji.nivel }).from(kanji);
 
-  return rows.map((r) => r.nivel);
+  return rows.map((fila) => fila.nivel);
 }

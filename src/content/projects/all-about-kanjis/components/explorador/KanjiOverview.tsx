@@ -110,12 +110,12 @@ function Lecturas({
       </div>
       {lecturas ? (
         <div className="flex flex-wrap gap-2">
-          {lecturas.split("、").map((l, i) => (
+          {lecturas.split("、").map((lectura, indice) => (
             <span
-              key={`${i}-${l}`}
+              key={`${indice}-${lectura}`}
               className={`rounded-md border px-2.5 py-0.5 whitespace-nowrap font-mono text-xl lg:text-2xl ${pastilla}`}
             >
-              <Lectura texto={l} />
+              <Lectura texto={lectura} />
             </span>
           ))}
         </div>
@@ -130,10 +130,10 @@ function Lecturas({
 // es okurigana (た.べる). Ambos van tenues para que se lea primero la raiz.
 function Lectura({ texto }: { texto: string }) {
   const [raiz, okurigana] = texto.split(".");
-  const tenue = (t: string) =>
-    t.split(/(-)/).map((parte, i) =>
+  const tenue = (fragmento: string) =>
+    fragmento.split(/(-)/).map((parte, indice) =>
       parte === "-" ? (
-        <span key={i} className="text-zinc-500">
+        <span key={indice} className="text-zinc-500">
           -
         </span>
       ) : (

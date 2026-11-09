@@ -34,11 +34,11 @@ async function fetchWikipedia(
 }
 
 // AniList (GraphQL, sin clave): acepta titulos nativos en japones
-const QUERY_SERIE = `query ($s: String, $t: MediaType) {
-  Media(search: $s, type: $t) { siteUrl coverImage { large } }
+const QUERY_SERIE = `query ($busqueda: String, $tipo: MediaType) {
+  Media(search: $busqueda, type: $tipo) { siteUrl coverImage { large } }
 }`;
-const QUERY_PERSONAJE = `query ($s: String) {
-  Character(search: $s) { siteUrl image { large } }
+const QUERY_PERSONAJE = `query ($busqueda: String) {
+  Character(search: $busqueda) { siteUrl image { large } }
 }`;
 
 async function fetchAniList(
@@ -53,8 +53,8 @@ async function fetchAniList(
     body: JSON.stringify({
       query: esPersonaje ? QUERY_PERSONAJE : QUERY_SERIE,
       variables: esPersonaje
-        ? { s: nombre }
-        : { s: nombre, t: tipo === "anime" ? "ANIME" : "MANGA" },
+        ? { busqueda: nombre }
+        : { busqueda: nombre, tipo: tipo === "anime" ? "ANIME" : "MANGA" },
     }),
     signal,
   });
@@ -109,7 +109,7 @@ export default function FamousNameCarousel({ nombres = [] }: Props) {
   const entrada = nombres[indice];
   const conFlechas = total > 1;
 
-  const mover = (paso: number) => setIndice((i) => (i + paso + total) % total);
+  const mover = (paso: number) => setIndice((actual) => (actual + paso + total) % total);
 
   // Cache por nombre para no repetir el fetch al volver con las flechas
   const [imagenes, setImagenes] = useState<Record<string, ImagenInfo>>({});
@@ -120,12 +120,12 @@ export default function FamousNameCarousel({ nombres = [] }: Props) {
     if (!nombre || nombre in imagenes) return;
     const controller = new AbortController();
     fetchImagen(nombre, tipo, controller.signal)
-      .then((info) => setImagenes((m) => ({ ...m, [nombre]: info })))
+      .then((info) => setImagenes((previas) => ({ ...previas, [nombre]: info })))
       .catch((err) => {
         if (err instanceof DOMException && err.name === "AbortError") return;
         // error de red: se marca sin imagen para no quedar en "…"
-        setImagenes((m) => ({
-          ...m,
+        setImagenes((previas) => ({
+          ...previas,
           [nombre]: {
             url: `https://ja.wikipedia.org/wiki/${encodeURIComponent(nombre)}`,
             fuente: "Wikipedia",

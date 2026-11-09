@@ -32,14 +32,14 @@ function KanjiRadicalSum({ caracter, radicales }: Props) {
             y el contenido queda alineado con la etiqueta. */}
         <div className="flex h-72 max-w-full flex-wrap content-start items-stretch justify-start gap-3 overflow-hidden sm:min-w-72 lg:h-80 lg:min-w-80">
           {radicales.length > 0 ? (
-            radicales.map(({ radical: r }, i) => (
+            radicales.map(({ radical }, indice) => (
               // "+" y tarjeta van juntos en un mismo bloque: si no caben en
               // una fila, el salto de linea nunca deja un "+" colgando al
               // final; la fila siguiente empieza con "+ radical".
-              <div key={r.caracter} className="flex items-stretch gap-3">
+              <div key={radical.caracter} className="flex items-stretch gap-3">
                 {/* "+" entre radicales: se lee como una suma (⺅ + 木 = 休).
                     self-center para que quede a media altura de la tarjeta. */}
-                {i > 0 && (
+                {indice > 0 && (
                   <span
                     aria-hidden="true"
                     className="self-center font-mono text-xl text-zinc-500"
@@ -55,14 +55,14 @@ function KanjiRadicalSum({ caracter, radicales }: Props) {
                     furigana. */}
                 <div className="flex w-28 flex-col items-center gap-1 rounded border border-zinc-700 bg-zinc-950 px-2 py-3">
                   <span className="font-mono text-3xl text-zinc-200 lg:text-4xl">
-                    {r.caracter}
+                    {radical.caracter}
                   </span>
                   <span className="text-center text-xs leading-tight text-zinc-400">
-                    {r.significado ?? "—"}
+                    {radical.significado ?? "—"}
                   </span>
                   <span className="flex flex-col items-center text-center font-mono text-[11px] leading-tight text-zinc-500">
-                    {r.furigana && <span>{r.furigana}</span>}
-                    <span>{r.numeroTrazos} trazos</span>
+                    {radical.furigana && <span>{radical.furigana}</span>}
+                    <span>{radical.numeroTrazos} trazos</span>
                   </span>
                 </div>
               </div>

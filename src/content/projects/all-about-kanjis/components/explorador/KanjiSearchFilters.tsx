@@ -14,11 +14,11 @@ type Props = {
   value: string;
   onChange: (value: string) => void;
   soloDestacados: boolean;
-  onSoloDestacadosChange: (v: boolean) => void;
+  onSoloDestacadosChange: (soloDestacados: boolean) => void;
   anio: AnioFiltro;
-  onAnioChange: (v: AnioFiltro) => void;
+  onAnioChange: (anio: AnioFiltro) => void;
   trazos: TrazosFiltro;
-  onTrazosChange: (v: TrazosFiltro) => void;
+  onTrazosChange: (trazos: TrazosFiltro) => void;
 };
 
 const selectBase =
@@ -65,7 +65,7 @@ export default function KanjiSearchFilters({
             <input
               type="search"
               value={value}
-              onChange={(e) => onChange(e.target.value)}
+              onChange={(evento) => onChange(evento.target.value)}
               aria-label="Buscar por significado"
               className="w-full bg-transparent py-2 pr-3 font-mono text-sm text-zinc-200 focus:outline-none"
             />
@@ -116,7 +116,7 @@ export default function KanjiSearchFilters({
             Año:
             <select
               value={anio}
-              onChange={(e) => onAnioChange(e.target.value as AnioFiltro)}
+              onChange={(evento) => onAnioChange(evento.target.value as AnioFiltro)}
               className={selectBase}
             >
               <option value="todos">Todos</option>
@@ -134,7 +134,7 @@ export default function KanjiSearchFilters({
             Trazos:
             <select
               value={trazos}
-              onChange={(e) => onTrazosChange(e.target.value as TrazosFiltro)}
+              onChange={(evento) => onTrazosChange(evento.target.value as TrazosFiltro)}
               className={selectBase}
             >
               <option value="todos">Todos</option>

@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Interruptor from "@/components/ui/Interruptor";
+import { barajar } from "@/lib/barajar";
 import { FiltroNivel, TarjetaEstructura } from "./GramaticaUI";
 import {
   FILTROS,
-  barajar,
   botonBase,
   cargarEstructuras,
   estiloOpcion,
@@ -22,8 +22,8 @@ type Pregunta = {
 
 // Para comparar significados se ignoran mayusculas, tildes, signos y lo que
 // va entre parentesis.
-const normalizar = (s: string) =>
-  s
+const normalizar = (texto: string) =>
+  texto
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -33,34 +33,46 @@ const normalizar = (s: string) =>
     .trim();
 
 // Las ideas de un significado: "Por fin, finalmente." → ["por fin", "finalmente"].
-const ideas = (s: string) =>
-  normalizar(s)
+const ideas = (significado: string) =>
+  normalizar(significado)
     .split(/[,;:.]/)
-    .map((p) => p.trim())
-    .filter((p) => p.length >= 4);
+    .map((idea) => idea.trim())
+    .filter((idea) => idea.length >= 4);
 
 // Dos significados chocan si uno contiene alguna idea del otro ("Por fin,
 // finalmente" / "Al final, finalmente") o si empiezan igual ("parece que" /
 // "parecer"). Asi no aparecen dos opciones que el alumno podria considerar
 // correctas a la vez.
-function chocan(a: string, b: string) {
-  const [ia, ib, na, nb] = [ideas(a), ideas(b), normalizar(a), normalizar(b)];
-  if (ia.some((p) => nb.includes(p)) || ib.some((p) => na.includes(p))) {
+function chocan(significadoA: string, significadoB: string) {
+  const [ideasA, ideasB, normalizadoA, normalizadoB] = [
+    ideas(significadoA),
+    ideas(significadoB),
+    normalizar(significadoA),
+    normalizar(significadoB),
+  ];
+  if (
+    ideasA.some((idea) => normalizadoB.includes(idea)) ||
+    ideasB.some((idea) => normalizadoA.includes(idea))
+  ) {
     return true;
   }
-  const [ka, kb] = [ia[0] ?? "", ib[0] ?? ""];
-  return ka.length >= 5 && kb.length >= 5 && ka.slice(0, 5) === kb.slice(0, 5);
+  const [inicioA, inicioB] = [ideasA[0] ?? "", ideasB[0] ?? ""];
+  return (
+    inicioA.length >= 5 &&
+    inicioB.length >= 5 &&
+    inicioA.slice(0, 5) === inicioB.slice(0, 5)
+  );
 }
 
 function elegirDistractores(correcta: Estructura, todas: Estructura[]) {
   const elegidas: Estructura[] = [];
-  for (const e of barajar(todas)) {
+  for (const candidata of barajar(todas)) {
     if (elegidas.length === 3) break;
-    if (e.id === correcta.id || e.nivel !== correcta.nivel) continue;
-    if (e.significado === correcta.significado) continue;
-    const significados = [correcta, ...elegidas].map((x) => x.significado);
-    if (significados.some((s) => chocan(s, e.significado))) continue;
-    elegidas.push(e);
+    if (candidata.id === correcta.id || candidata.nivel !== correcta.nivel) continue;
+    if (candidata.significado === correcta.significado) continue;
+    const significados = [correcta, ...elegidas].map((elegida) => elegida.significado);
+    if (significados.some((significado) => chocan(significado, candidata.significado))) continue;
+    elegidas.push(candidata);
   }
   return elegidas;
 }
@@ -71,26 +83,26 @@ function armarCola(todas: Estructura[], filtro: Filtro): Pregunta[] {
       ? estructura.ejemplos.map((_, ejemplo) => ({ estructura, ejemplo }))
       : [],
   );
-  return barajar(pool).map((p) => ({
-    ...p,
+  return barajar(pool).map((entrada) => ({
+    ...entrada,
     opciones: barajar([
-      p.estructura,
-      ...elegirDistractores(p.estructura, todas),
+      entrada.estructura,
+      ...elegirDistractores(entrada.estructura, todas),
     ]),
   }));
 }
 
 // La oracion con la estructura en rosa, cuando se sabe donde esta.
 function Oracion({ ja, resaltado }: { ja: string; resaltado: string | null }) {
-  const i = resaltado ? ja.indexOf(resaltado) : -1;
-  if (!resaltado || i < 0) return <>{ja}</>;
+  const posicion = resaltado ? ja.indexOf(resaltado) : -1;
+  if (!resaltado || posicion < 0) return <>{ja}</>;
   return (
     <>
-      {ja.slice(0, i)}
+      {ja.slice(0, posicion)}
       <span className="text-pink-400 underline decoration-pink-400/60 underline-offset-8">
         {resaltado}
       </span>
-      {ja.slice(i + resaltado.length)}
+      {ja.slice(posicion + resaltado.length)}
     </>
   );
 }
@@ -122,11 +134,11 @@ export default function GrammarV2() {
   const conteos = useMemo(() => {
     if (!estructuras) return null;
     return Object.fromEntries(
-      FILTROS.map((f) => [
-        f.id,
+      FILTROS.map((opcion) => [
+        opcion.id,
         estructuras
-          .filter((e) => f.id === "todos" || e.nivel === f.id)
-          .reduce((n, e) => n + e.ejemplos.length, 0),
+          .filter((estructura) => opcion.id === "todos" || estructura.nivel === opcion.id)
+          .reduce((total, estructura) => total + estructura.ejemplos.length, 0),
       ]),
     ) as Record<Filtro, number>;
   }, [estructuras]);
@@ -150,20 +162,20 @@ export default function GrammarV2() {
   if (!pregunta) return null;
   const { estructura, opciones } = pregunta;
   const ejemplo = estructura.ejemplos[pregunta.ejemplo];
-  const indiceCorrecta = opciones.findIndex((o) => o.id === estructura.id);
+  const indiceCorrecta = opciones.findIndex((opcion) => opcion.id === estructura.id);
   const resuelto = intentadas.includes(indiceCorrecta);
 
-  const cambiarFiltro = (f: Filtro) => {
-    if (f === filtro) return;
-    setFiltro(f);
-    setCola(armarCola(estructuras, f));
+  const cambiarFiltro = (nuevoFiltro: Filtro) => {
+    if (nuevoFiltro === filtro) return;
+    setFiltro(nuevoFiltro);
+    setCola(armarCola(estructuras, nuevoFiltro));
     setPos(0);
     setIntentadas([]);
   };
 
-  const elegir = (i: number) => {
-    if (resuelto || intentadas.includes(i)) return;
-    setIntentadas([...intentadas, i]);
+  const elegir = (indice: number) => {
+    if (resuelto || intentadas.includes(indice)) return;
+    setIntentadas([...intentadas, indice]);
   };
 
   const siguiente = () => {
@@ -188,7 +200,7 @@ export default function GrammarV2() {
           <Interruptor
             label="Furigana"
             activo={furigana}
-            onToggle={() => setFurigana((f) => !f)}
+            onToggle={() => setFurigana((activo) => !activo)}
           />
         </div>
       </div>
@@ -230,29 +242,29 @@ export default function GrammarV2() {
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {opciones.map((o, i) => {
+        {opciones.map((opcion, indice) => {
           const estado =
-            resuelto && i === indiceCorrecta
+            resuelto && indice === indiceCorrecta
               ? "correcta"
-              : intentadas.includes(i)
+              : intentadas.includes(indice)
                 ? "fallada"
                 : "normal";
           return (
             <button
-              key={o.id}
+              key={opcion.id}
               type="button"
-              disabled={resuelto || intentadas.includes(i)}
-              onClick={() => elegir(i)}
+              disabled={resuelto || intentadas.includes(indice)}
+              onClick={() => elegir(indice)}
               className={`flex items-start gap-3 rounded-md border px-4 py-3 text-left text-sm transition disabled:cursor-default ${estiloOpcion(estado)}`}
             >
-              <span className="font-mono text-xs text-zinc-500">{i + 1}</span>
+              <span className="font-mono text-xs text-zinc-500">{indice + 1}</span>
               <span>
-                {o.significado}
+                {opcion.significado}
                 {/* Al resolver se ve a que estructura pertenece cada
                     significado. */}
                 {resuelto && (
                   <span className="mt-1 block font-mono text-xs text-zinc-500 no-underline">
-                    {o.patron}
+                    {opcion.patron}
                   </span>
                 )}
               </span>

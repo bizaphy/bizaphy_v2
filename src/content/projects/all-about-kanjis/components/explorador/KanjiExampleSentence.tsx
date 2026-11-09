@@ -13,12 +13,12 @@ type Segmento = { texto: string; lectura?: string };
 function parsearFurigana(oracion: string): Segmento[] {
   const segmentos: Segmento[] = [];
   let ultimo = 0;
-  for (const m of oracion.matchAll(/\[([^|\]]+)\|([^\]]+)\]/g)) {
-    if (m.index > ultimo) {
-      segmentos.push({ texto: oracion.slice(ultimo, m.index) });
+  for (const coincidencia of oracion.matchAll(/\[([^|\]]+)\|([^\]]+)\]/g)) {
+    if (coincidencia.index > ultimo) {
+      segmentos.push({ texto: oracion.slice(ultimo, coincidencia.index) });
     }
-    segmentos.push({ texto: m[1], lectura: m[2] });
-    ultimo = m.index + m[0].length;
+    segmentos.push({ texto: coincidencia[1], lectura: coincidencia[2] });
+    ultimo = coincidencia.index + coincidencia[0].length;
   }
   if (ultimo < oracion.length) segmentos.push({ texto: oracion.slice(ultimo) });
   return segmentos;
@@ -28,9 +28,9 @@ function parsearFurigana(oracion: string): Segmento[] {
 // vez de recorrer caracter por caracter: el resto del texto queda en un
 // solo nodo.
 function resaltar(texto: string, caracter: string) {
-  return texto.split(caracter).map((parte, i) => (
-    <Fragment key={i}>
-      {i > 0 && <span className="text-fuchsia-300">{caracter}</span>}
+  return texto.split(caracter).map((parte, indice) => (
+    <Fragment key={indice}>
+      {indice > 0 && <span className="text-fuchsia-300">{caracter}</span>}
       {parte}
     </Fragment>
   ));
@@ -56,17 +56,17 @@ export default function KanjiExampleSentence({
             {/* leading amplio: el <rt> ocupa espacio sobre la linea y sin
                 esto se pisa con la linea de arriba si la oracion hace wrap. */}
             <p className="font-mono text-2xl leading-[2.2] text-zinc-200 lg:text-3xl">
-              {parsearFurigana(oracion).map((s, i) => {
-                if (!s.lectura) {
+              {parsearFurigana(oracion).map((segmento, indice) => {
+                if (!segmento.lectura) {
                   return (
-                    <Fragment key={i}>{resaltar(s.texto, caracter)}</Fragment>
+                    <Fragment key={indice}>{resaltar(segmento.texto, caracter)}</Fragment>
                   );
                 }
                 // La furigana tambien se resalta si su palabra contiene el kanji
-                const contieneKanji = s.texto.includes(caracter);
+                const contieneKanji = segmento.texto.includes(caracter);
                 return (
-                  <ruby key={i}>
-                    {resaltar(s.texto, caracter)}
+                  <ruby key={indice}>
+                    {resaltar(segmento.texto, caracter)}
                     <rt
                       className={`text-xs ${
                         contieneKanji
@@ -74,7 +74,7 @@ export default function KanjiExampleSentence({
                           : "text-violet-300/80"
                       }`}
                     >
-                      {s.lectura}
+                      {segmento.lectura}
                     </rt>
                   </ruby>
                 );

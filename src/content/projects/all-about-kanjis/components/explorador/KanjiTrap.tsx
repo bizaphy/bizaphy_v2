@@ -23,8 +23,8 @@ export default function KanjiTrap({ caracter, kanjiTraps }: Props) {
 
   useEffect(() => {
     if (!zoom) return;
-    const cerrarConEscape = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setZoom(null);
+    const cerrarConEscape = (evento: KeyboardEvent) => {
+      if (evento.key === "Escape") setZoom(null);
     };
     window.addEventListener("keydown", cerrarConEscape);
     return () => window.removeEventListener("keydown", cerrarConEscape);
@@ -59,9 +59,9 @@ export default function KanjiTrap({ caracter, kanjiTraps }: Props) {
         <div className="p-3">
           {/* Tablero estilo tic tac toe: solo lineas interiores (#), sin marco. */}
           <div className="grid grid-cols-3">
-            {Array.from({ length: CELDAS }, (_, i) => {
-              const trap = traps[i];
-              const bordes = `${i % 3 !== 2 ? "border-r-2" : ""} ${i < 6 ? "border-b-2" : ""}`;
+            {Array.from({ length: CELDAS }, (_, celda) => {
+              const trap = traps[celda];
+              const bordes = `${celda % 3 !== 2 ? "border-r-2" : ""} ${celda < 6 ? "border-b-2" : ""}`;
 
               return trap ? (
                 <button
@@ -82,7 +82,7 @@ export default function KanjiTrap({ caracter, kanjiTraps }: Props) {
                 </button>
               ) : (
                 <div
-                  key={`vacia-${i}`}
+                  key={`vacia-${celda}`}
                   aria-hidden
                   className={`aspect-square border-zinc-700 ${bordes}`}
                 />

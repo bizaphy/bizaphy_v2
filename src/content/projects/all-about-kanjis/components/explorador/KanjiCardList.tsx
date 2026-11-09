@@ -62,7 +62,7 @@ export default function KanjiCardList({
             aria-label="Pagina anterior"
             className={FLECHA}
           >
-            <Chevron d="M15 18l-6-6 6-6" />
+            <Chevron trazado="M15 18l-6-6 6-6" />
           </button>
           <span className="tabular-nums text-zinc-400">
             <span className="text-violet-200">{page + 1}</span>
@@ -76,7 +76,7 @@ export default function KanjiCardList({
             aria-label="Pagina siguiente"
             className={FLECHA}
           >
-            <Chevron d="M9 18l6-6-6-6" />
+            <Chevron trazado="M9 18l6-6-6-6" />
           </button>
         </div>
       </div>
@@ -86,13 +86,13 @@ export default function KanjiCardList({
           de la grilla (cqw) en vez de forzar scroll horizontal. */}
       <div className="@container">
         <div className="grid grid-cols-8 gap-1 sm:gap-1.5">
-          {visibles.map((k) => (
+          {visibles.map((kanji) => (
             <KanjiCard
-              key={k.id}
-              caracter={k.caracter}
-              significado={k.significado}
-              isSelected={k.id === selectedId}
-              onClick={() => onSelect(k)}
+              key={kanji.id}
+              caracter={kanji.caracter}
+              significado={kanji.significado}
+              isSelected={kanji.id === selectedId}
+              onClick={() => onSelect(kanji)}
             />
           ))}
         </div>
@@ -101,7 +101,7 @@ export default function KanjiCardList({
   );
 }
 
-function Chevron({ d }: { d: string }) {
+function Chevron({ trazado }: { trazado: string }) {
   return (
     <svg
       aria-hidden="true"
@@ -114,7 +114,7 @@ function Chevron({ d }: { d: string }) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <path d={d} />
+      <path d={trazado} />
     </svg>
   );
 }

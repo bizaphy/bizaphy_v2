@@ -16,7 +16,7 @@ export default function KanjiFamousUsage({ nombres, palabras }: Props) {
     <>
       {/* key: resetea el indice del carrusel al cambiar de kanji */}
       <FamousNameCarousel
-        key={nombres?.map((n) => n.nombre).join("|")}
+        key={nombres?.map((famoso) => famoso.nombre).join("|")}
         nombres={nombres}
       />
 
@@ -28,17 +28,17 @@ export default function KanjiFamousUsage({ nombres, palabras }: Props) {
         </div>
         <div className="flex flex-col divide-y divide-zinc-800">
           {palabras && palabras.length > 0 ? (
-            palabras.map((w) => (
-              <div key={w.palabra} className="flex flex-col gap-1 px-3 py-3">
+            palabras.map((palabra) => (
+              <div key={palabra.palabra} className="flex flex-col gap-1 px-3 py-3">
                 <span className="font-mono text-lg leading-none text-zinc-100 lg:text-xl">
-                  {w.palabra}
+                  {palabra.palabra}
                 </span>
                 <span className="font-mono text-xs text-violet-300/80">
-                  {w.furigana}
+                  {palabra.furigana}
                 </span>
                 <span className="text-xs text-zinc-400">
                   <span className="mr-1 text-violet-500/70">›</span>
-                  {w.traduccion}
+                  {palabra.traduccion}
                 </span>
               </div>
             ))

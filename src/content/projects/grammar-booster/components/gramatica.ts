@@ -37,19 +37,9 @@ export async function cargarEstructuras(): Promise<Map<string, Estructura>> {
     import("../data/ejemplos-gramatica/n3.json"),
   ]);
   const todas = archivos.flatMap(
-    (m) => (m.default as unknown as { estructuras: Estructura[] }).estructuras,
+    (modulo) => (modulo.default as unknown as { estructuras: Estructura[] }).estructuras,
   );
-  return new Map(todas.map((e) => [e.id, e]));
-}
-
-// Fisher-Yates sobre una copia.
-export function barajar<T>(xs: T[]): T[] {
-  const out = [...xs];
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [out[i], out[j]] = [out[j], out[i]];
-  }
-  return out;
+  return new Map(todas.map((estructura) => [estructura.id, estructura]));
 }
 
 export const botonBase =

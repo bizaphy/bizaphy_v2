@@ -1,59 +1,21 @@
 "use client";
 
-const LEVELS = ["N5", "N4", "N3", "N2", "N1"] as const;
-type Level = (typeof LEVELS)[number];
+import {
+  DISABLED_LEVELS,
+  LEVEL_INFO,
+  LEVELS,
+  type Level,
+} from "../../data/niveles-jlpt-info";
 
-// N2 y N1 todavia no tienen contenido cargado en la BDD, se muestran deshabilitados.
-const DISABLED_LEVELS: readonly Level[] = ["N2", "N1"];
-
-type LevelInfo = {
-  kanjisAcumulados: string;
-  cobertura: string;
-  capacidad: string;
+type Props<NivelSeleccionable extends Level = Level> = {
+  selected: NivelSeleccionable;
+  onSelect: (level: NivelSeleccionable) => void;
 };
 
-const LEVEL_INFO: Record<Level, LevelInfo> = {
-  N5: {
-    kanjisAcumulados: "~100",
-    cobertura: "~35% – 45%",
-    capacidad:
-      "Solo reconocerás caracteres sueltos (números, días, direcciones). El texto será incomprensible.",
-  },
-  N4: {
-    kanjisAcumulados: "~300",
-    cobertura: "~70% – 75%",
-    capacidad:
-      "Distingues palabras comunes de verbos y adjetivos, pero no logras seguir el hilo de las noticias.",
-  },
-  N3: {
-    kanjisAcumulados: "~650",
-    cobertura: "~85%",
-    capacidad:
-      "Puedes entender titulares sencillos y noticias muy locales o adaptadas (como NHK Easy News).",
-  },
-  N2: {
-    kanjisAcumulados: "~1.000",
-    cobertura: "~93% – 95%",
-    capacidad:
-      "Umbral funcional. Puedes navegar y leer artículos de opinión o noticias generales apoyándote en un diccionario.",
-  },
-  N1: {
-    kanjisAcumulados: "~2.000+",
-    cobertura: "~99%",
-    capacidad:
-      "Alfabetización completa. Cubre prácticamente la lista oficial de uso diario (Jōyō Kanji). Lees la prensa con fluidez.",
-  },
-};
-
-type Props<T extends Level = Level> = {
-  selected: T;
-  onSelect: (level: T) => void;
-};
-
-export default function JlptLevelSelector<T extends Level>({
+export default function JlptLevelSelector<NivelSeleccionable extends Level>({
   selected,
   onSelect,
-}: Props<T>) {
+}: Props<NivelSeleccionable>) {
   const info = LEVEL_INFO[selected];
 
   return (
@@ -78,7 +40,7 @@ export default function JlptLevelSelector<T extends Level>({
               key={level}
               type="button"
               disabled={isDisabled}
-              onClick={() => onSelect(level as T)}
+              onClick={() => onSelect(level as NivelSeleccionable)}
               aria-pressed={isSelected}
               aria-label={`Nivel ${level}${isDisabled ? " (proximamente)" : ""}`}
               className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full font-mono text-sm font-semibold sm:h-15 sm:w-15 sm:text-base transition ${

@@ -8,23 +8,23 @@ export function FiltroNivel({
 }: {
   activo: Filtro;
   conteos: Record<Filtro, number>;
-  onCambiar: (f: Filtro) => void;
+  onCambiar: (filtro: Filtro) => void;
 }) {
   return (
     <div className="flex flex-wrap items-center gap-3">
       <span className="w-16 font-mono text-xs tracking-widest text-zinc-500 uppercase">
         Nivel
       </span>
-      {FILTROS.map((f) => (
+      {FILTROS.map((opcion) => (
         <button
-          key={f.id}
+          key={opcion.id}
           type="button"
-          aria-pressed={activo === f.id}
-          onClick={() => onCambiar(f.id)}
-          className={chipFiltro(activo === f.id)}
+          aria-pressed={activo === opcion.id}
+          onClick={() => onCambiar(opcion.id)}
+          className={chipFiltro(activo === opcion.id)}
         >
-          {f.label}
-          <span className="ml-1.5 text-zinc-500">{conteos[f.id]}</span>
+          {opcion.label}
+          <span className="ml-1.5 text-zinc-500">{conteos[opcion.id]}</span>
         </button>
       ))}
     </div>
@@ -74,8 +74,8 @@ export function TarjetaEstructura({
           Estructura base
         </span>
         <ul className="flex flex-col gap-0.5 font-mono text-xs text-violet-200">
-          {estructura.conexion.map((c) => (
-            <li key={c}>{c}</li>
+          {estructura.conexion.map((regla) => (
+            <li key={regla}>{regla}</li>
           ))}
         </ul>
       </div>
@@ -84,13 +84,13 @@ export function TarjetaEstructura({
           <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
             Ejemplos
           </span>
-          {estructura.ejemplos.map((ej) => (
-            <div key={ej.ja} className="flex flex-col">
+          {estructura.ejemplos.map((ejemplo) => (
+            <div key={ejemplo.ja} className="flex flex-col">
               <span className="font-mono text-xs text-fuchsia-300/80">
-                {ej.lectura}
+                {ejemplo.lectura}
               </span>
-              <span className="text-base text-zinc-100">{ej.ja}</span>
-              <span className="text-sm text-zinc-400">{ej.es}</span>
+              <span className="text-base text-zinc-100">{ejemplo.ja}</span>
+              <span className="text-sm text-zinc-400">{ejemplo.es}</span>
             </div>
           ))}
         </div>

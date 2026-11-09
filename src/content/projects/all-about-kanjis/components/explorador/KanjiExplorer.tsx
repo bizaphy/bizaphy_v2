@@ -41,38 +41,38 @@ export default function KanjiExplorer({ kanjisPorNivel }: Props) {
   const kanjis = useMemo(() => {
     const base = kanjisPorNivel[nivel];
     if (Object.keys(destacadoOverrides).length === 0) return base;
-    return base.map((k) =>
-      k.id in destacadoOverrides
-        ? { ...k, destacado: destacadoOverrides[k.id] }
-        : k,
+    return base.map((kanji) =>
+      kanji.id in destacadoOverrides
+        ? { ...kanji, destacado: destacadoOverrides[kanji.id] }
+        : kanji,
     );
   }, [kanjisPorNivel, nivel, destacadoOverrides]);
 
   // Filtrado combinado: significado + destacados + anio escolar + rango de trazos.
   // Se recorre una sola vez la lista aplicando todas las condiciones activas.
   const kanjisFiltrados = useMemo(() => {
-    const q = busqueda.trim().toLowerCase();
+    const textoBuscado = busqueda.trim().toLowerCase();
 
-    return kanjis.filter((k) => {
-      if (q && !(k.significado ?? "").toLowerCase().includes(q)) return false;
+    return kanjis.filter((kanji) => {
+      if (textoBuscado && !(kanji.significado ?? "").toLowerCase().includes(textoBuscado)) return false;
 
-      if (soloDestacados && !k.destacado) return false;
+      if (soloDestacados && !kanji.destacado) return false;
 
       if (anio !== "todos") {
         if (anio === "sin-dato") {
-          if (k.anioEscolarJapon !== null) return false;
-        } else if (k.anioEscolarJapon !== Number(anio)) {
+          if (kanji.anioEscolarJapon !== null) return false;
+        } else if (kanji.anioEscolarJapon !== Number(anio)) {
           return false;
         }
       }
 
       if (trazos !== "todos") {
-        const t = k.numeroTrazos;
+        const { numeroTrazos } = kanji;
         const enRango =
-          (trazos === "1-5" && t >= 1 && t <= 5) ||
-          (trazos === "6-10" && t >= 6 && t <= 10) ||
-          (trazos === "11-15" && t >= 11 && t <= 15) ||
-          (trazos === "16+" && t >= 16);
+          (trazos === "1-5" && numeroTrazos >= 1 && numeroTrazos <= 5) ||
+          (trazos === "6-10" && numeroTrazos >= 6 && numeroTrazos <= 10) ||
+          (trazos === "11-15" && numeroTrazos >= 11 && numeroTrazos <= 15) ||
+          (trazos === "16+" && numeroTrazos >= 16);
         if (!enRango) return false;
       }
 
@@ -102,7 +102,7 @@ export default function KanjiExplorer({ kanjisPorNivel }: Props) {
   };
 
   const seleccionado = useMemo(
-    () => kanjis.find((k) => k.id === seleccionadoId) ?? null,
+    () => kanjis.find((kanji) => kanji.id === seleccionadoId) ?? null,
     [kanjis, seleccionadoId],
   );
 
@@ -144,7 +144,7 @@ export default function KanjiExplorer({ kanjisPorNivel }: Props) {
         key={`${nivel}|${busqueda}|${soloDestacados}|${anio}|${trazos}`}
         kanjis={kanjisFiltrados}
         selectedId={seleccionadoId}
-        onSelect={(k) => seleccionar(k.id)}
+        onSelect={(kanji) => seleccionar(kanji.id)}
       />
       <SeparatorLine className="my-4" />
       {seleccionado && (
@@ -186,9 +186,9 @@ export default function KanjiExplorer({ kanjisPorNivel }: Props) {
             />
             <KanjiTrap
               caracter={seleccionado.caracter}
-              kanjiTraps={seleccionado.kanjiTrapsDesde.map((t) => ({
-                caracter: t.destino.caracter,
-                significado: t.destino.significado,
+              kanjiTraps={seleccionado.kanjiTrapsDesde.map((trap) => ({
+                caracter: trap.destino.caracter,
+                significado: trap.destino.significado,
               }))}
             />
           </section>
