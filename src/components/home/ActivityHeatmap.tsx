@@ -101,7 +101,8 @@ export default async function ActivityHeatmap() {
     s < SEMANAS - 26 ? "hidden lg:flex" : s < SEMANAS - 16 ? "hidden sm:flex" : "flex";
 
   return (
-    <div className="flex flex-col gap-4 rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 px-6 py-4">
+    //claro:bg-zinc-900 = blanco (tema-claro.css remapea zinc-900 a #fff; bg-white no sirve, pasa a carbon)
+    <div className="flex flex-col gap-4 rounded-xl border border-fuchsia-500/50 bg-zinc-950/60 claro:bg-zinc-900 px-6 py-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h2 className="text-xs font-semibold tracking-wider text-zinc-500 uppercase">
           Actividad

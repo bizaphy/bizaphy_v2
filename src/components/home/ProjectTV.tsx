@@ -33,7 +33,7 @@ export default function ProjectTV() {
   };
 
   return (
-    <div className="flex h-full flex-col rounded-xl border border-zinc-700 bg-zinc-900 p-3">
+    <div className="flex h-full flex-col rounded-xl border border-zinc-500 bg-zinc-900 p-3">
       <div className="flex flex-1 gap-3">
         {/* ---------- pantalla ---------- */}
         <div className="relative flex-1 overflow-hidden rounded-[1.25rem] border-4 border-zinc-950 bg-black shadow-[inset_0_0_20px_rgba(0,0,0,0.9)]">
