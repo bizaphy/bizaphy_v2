@@ -69,7 +69,7 @@ export default function AboutThisPage() {
       {/* cuerpo del stereo con las 3 secciones */}
       <div className="grid grid-cols-1 gap-3 p-4 sm:grid-cols-[1fr_1.4fr_0.9fr]">
         {/* ---------- STACK: canales con LEDs verdes ---------- */}
-        <section className="rounded border border-zinc-800 bg-zinc-950 p-3">
+        <section className="rounded bg-zinc-950 p-3">
           <div className="mb-3 flex items-baseline justify-between">
             <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-zinc-500">
               stack
@@ -97,7 +97,7 @@ export default function AboutThisPage() {
         </section>
 
         {/* ---------- PALETA: barras tipo ecualizador ---------- */}
-        <section className="flex flex-col rounded border border-zinc-800 bg-zinc-950 p-3">
+        <section className="flex flex-col rounded bg-zinc-950 p-3">
           <div className="mb-3 flex items-baseline justify-between">
             <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-zinc-500">
               palette · eq
@@ -159,7 +159,7 @@ export default function AboutThisPage() {
         </section>
 
         {/* ---------- TIPOGRAFIA: dial estilo perilla ---------- */}
-        <section className="flex flex-col rounded border border-zinc-800 bg-zinc-950 p-3">
+        <section className="flex flex-col rounded bg-zinc-950 p-3">
           <div className="mb-3 flex items-baseline justify-between">
             <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-zinc-500">
               font

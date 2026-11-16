@@ -49,7 +49,7 @@ export default function SystemPanel() {
   const delay = (i: number) => ({ animationDelay: `${(i + 1) * PASO_MS}ms` });
 
   return (
-    <div className="relative flex h-full flex-col overflow-hidden rounded-xl border border-zinc-700 bg-black px-5 py-4 font-mono text-xs text-zinc-300">
+    <div className="relative flex h-full flex-col overflow-hidden rounded-xl bg-black px-5 py-4 font-mono text-xs text-zinc-300">
       {/* encabezado tipo Award BIOS */}
       <div className="flex items-start justify-between gap-4">
         <div className="flex flex-col">
