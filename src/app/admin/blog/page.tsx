@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { requireAdminPage } from "@/lib/auth-guards";
-import { obtenerTodosLosPosts } from "@/db/post-queries";
+import { requireAdminPage } from "@/server/auth/guards";
+import { obtenerTodosLosPosts } from "@/server/services/posts";
 
 // ─── Estilos compartidos ───
 const estiloBotonChico =

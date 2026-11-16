@@ -138,7 +138,7 @@ Revisa el host impreso antes de quitar `--dry-run`.
 El formato del JSON (`SeedKanji`) y las columnas que usa el seed se
 derivan del schema, así que no hay listas de columnas que mantener a mano.
 
-1. Agrégala en `src/content/projects/all-about-kanjis/db/schema.ts` y
+1. Agrégala en `src/server/db/schema/kanji.ts` y
    corre `npm run db:push`.
 2. Corre `npx tsc --noEmit`. TypeScript marca error en
    `scripts/export-kanjis.ts` (el objeto `item`): asigna la columna ahí.

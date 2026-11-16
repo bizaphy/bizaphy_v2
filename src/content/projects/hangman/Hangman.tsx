@@ -201,7 +201,7 @@ export default function Hangman() {
         >
           <div className="flex h-48 w-48 items-center justify-center overflow-hidden rounded-lg border border-zinc-700 transition group-hover:border-fuchsia-500 group-hover:shadow-[0_0_15px_rgba(217,70,239,0.4)]">
             {wikiInfo?.image ? (
-              /* eslint-disable-next-line @next/next/no-img-element */
+              /* biome-ignore lint/performance/noImgElement: imagen externa de Wikipedia, dominio dinámico */
               <img
                 src={wikiInfo.image}
                 alt={entry.label}

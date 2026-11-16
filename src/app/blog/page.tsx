@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TextScramble from "@/components/effects/TextScramble";
-import { obtenerPostsPublicados } from "@/db/post-queries";
+import { obtenerPostsPublicados } from "@/server/services/posts";
 
 // "2026-09-30" → "30 SEP 2026"
 function formatearFecha(fecha: Date) {

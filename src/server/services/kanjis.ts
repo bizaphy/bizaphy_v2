@@ -1,6 +1,8 @@
-// src/content/projects/all-about-kanjis/db/queries.ts
-import { db } from "@/db";
-import { kanji, nivelJlpt } from "./schema";
+// Lecturas y escrituras de All About Kanjis
+import "server-only";
+import { eq } from "drizzle-orm";
+import { db } from "@/server/db";
+import { kanji, nivelJlpt } from "@/server/db/schema";
 
 // ── DETALLE ────────────────────────────────────────────────────────
 
@@ -113,4 +115,28 @@ export async function listarNivelesDisponibles(): Promise<Nivel[]> {
   const rows = await db.selectDistinct({ nivel: kanji.nivel }).from(kanji);
 
   return rows.map((fila) => fila.nivel);
+}
+
+// ── ESCRITURAS ─────────────────────────────────────────────────────
+
+/**
+ * Invierte el flag "destacado" del kanji y devuelve el nuevo valor.
+ * Lee el valor actual y escribe su negación.
+ */
+export async function invertirDestacado(id: number) {
+  const fila = await db
+    .select({ destacado: kanji.destacado })
+    .from(kanji)
+    .where(eq(kanji.id, id))
+    .limit(1);
+
+  if (fila.length === 0) {
+    throw new Error(`Kanji con id ${id} no encontrado`);
+  }
+
+  const nuevoValor = !fila[0].destacado;
+
+  await db.update(kanji).set({ destacado: nuevoValor }).where(eq(kanji.id, id));
+
+  return nuevoValor;
 }

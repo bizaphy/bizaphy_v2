@@ -1,6 +1,6 @@
 import type { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
-import { obtenerPostPublicado } from "@/db/post-queries";
+import { obtenerPostPublicado } from "@/server/services/posts";
 
 // En Next 15+ params es una Promise
 type Props = { params: Promise<{ slug: string }> };

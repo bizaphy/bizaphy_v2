@@ -6,7 +6,7 @@ import path from "path";
 import { Pool } from "@neondatabase/serverless";
 import { getTableColumns } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/neon-serverless";
-import * as schema from "../src/content/projects/all-about-kanjis/db/schema";
+import * as schema from "../src/server/db/schema/kanji";
 
 export { schema };
 

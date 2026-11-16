@@ -1,4 +1,4 @@
-import { requireAdminPage } from "@/lib/auth-guards";
+import { requireAdminPage } from "@/server/auth/guards";
 import Link from "next/link";
 
 // ─── Estilos compartidos ───
