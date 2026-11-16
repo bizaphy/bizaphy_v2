@@ -46,3 +46,6 @@ next-env.d.ts
 
 # referencias locales (listas de consulta, no se suben)
 scripts/referencias/
+
+# material de apoyo local (diagramas, notas)
+/extras/
