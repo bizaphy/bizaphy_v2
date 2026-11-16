@@ -14,7 +14,7 @@ import JlptLevelSelector from "./JlptLevelSelector";
 import KanjiSearchFilters, { type AnioFiltro, type TrazosFiltro } from "./KanjiSearchFilters";
 import KanjiTrap from "./KanjiTrap";
 import { alternarDestacado } from "@/server/actions/kanjis";
-import type { KanjiEnListado } from "@/server/services/kanjis";
+import type { KanjiEnListado } from "@/shared/types/kanji";
 import SeparatorLine from "@/components/ui/SeparatorLine";
 import { toast } from "sonner";
 

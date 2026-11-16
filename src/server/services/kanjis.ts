@@ -2,7 +2,8 @@
 import "server-only";
 import { eq } from "drizzle-orm";
 import { db } from "@/server/db";
-import { kanji, nivelJlpt } from "@/server/db/schema";
+import { kanji } from "@/server/db/schema";
+import type { KanjiEnListado, NivelJlpt } from "@/shared/types/kanji";
 
 // ── DETALLE ────────────────────────────────────────────────────────
 
@@ -39,7 +40,7 @@ export type KanjiDetalle = NonNullable<
 // ── LISTADOS ───────────────────────────────────────────────────────
 //solo se necesita ver los kanjis, no mayor informacion.
 
-type Nivel = (typeof nivelJlpt.enumValues)[number];
+type Nivel = NivelJlpt;
 
 /**
  * Lista todos los kanjis de un nivel, ordenados por número de trazos
@@ -47,7 +48,9 @@ type Nivel = (typeof nivelJlpt.enumValues)[number];
  * renderizar el listado y el panel de detalle sin volver a consultar,
  * incluyendo palabras famosas, nombres famosos, kanji traps y radicales.
  */
-export async function listarKanjisPorNivel(nivel: Nivel) {
+export async function listarKanjisPorNivel(
+  nivel: Nivel,
+): Promise<KanjiEnListado[]> {
   return db.query.kanji.findMany({
     columns: {
       id: true,
@@ -102,9 +105,8 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
   });
 }
 
-export type KanjiEnListado = Awaited<
-  ReturnType<typeof listarKanjisPorNivel>
->[number];
+// El tipo KanjiEnListado vive en shared/types/kanji.ts: lo usan los
+// componentes cliente y no deben importar nada de src/server.
 
 /**
  * Devuelve los niveles JLPT que tienen al menos un kanji cargado.

@@ -2,9 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import type { tipoNombre } from "@/server/db/schema/kanji";
-
-type TipoNombre = (typeof tipoNombre.enumValues)[number];
+import type { TipoNombre } from "@/shared/types/kanji";
 
 type ImagenInfo = {
   image?: string;

@@ -2,7 +2,7 @@
 
 import { memo, useState } from "react";
 import ImageLightbox from "./ImageLightbox";
-import type { KanjiEnListado } from "@/server/services/kanjis";
+import type { KanjiEnListado } from "@/shared/types/kanji";
 
 type Props = {
   caracter: string;

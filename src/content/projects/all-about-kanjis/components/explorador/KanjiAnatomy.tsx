@@ -1,7 +1,7 @@
 import { memo } from "react";
 import KanjiStrokeOrder from "./KanjiStrokeOrder";
 import KanjiRadicalSum from "./KanjiRadicalSum";
-import type { KanjiEnListado } from "@/server/services/kanjis";
+import type { KanjiEnListado } from "@/shared/types/kanji";
 
 type Props = {
   caracter: string;

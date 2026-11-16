@@ -9,9 +9,13 @@ import {
   primaryKey,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
+// Ruta relativa (no "@/"): drizzle-kit y los scripts de seed cargan este
+// archivo fuera de Next y no siempre resuelven el alias.
+import { NIVELES_JLPT, TIPOS_NOMBRE } from "../../../shared/types/kanji";
 
 // ── NIVEL JLPT: enum a nivel de base de datos, evita strings sueltos ──
-export const nivelJlpt = pgEnum("nivel_jlpt", ["n5", "n4", "n3", "n2", "n1"]);
+// Los valores viven en shared/types/kanji.ts para que el cliente los use sin importar src/server.
+export const nivelJlpt = pgEnum("nivel_jlpt", NIVELES_JLPT);
 
 // ── KANJI: tabla principal, un kanji por fila ──
 export const kanji = pgTable("kanji", {
@@ -46,20 +50,8 @@ export const palabrasFamosas = pgTable("palabras_famosas", {
 });
 
 // ── TIPO DE NOMBRE: que es cada nombre famoso ──
-// Define de donde se trae la imagen (anime/manga/personaje -> AniList,
-// el resto -> Wikipedia) y evita buscar una persona como si fuera serie.
-export const tipoNombre = pgEnum("tipo_nombre", [
-  "persona", // persona real: actor, escritor, figura historica
-  "personaje", // ficticio: Yamcha, Sugishita Ukyo
-  "anime",
-  "manga",
-  "pelicula",
-  "dorama",
-  "libro", // novela, antologia, cuentos
-  "juego",
-  "otro", // periodico, tienda, lugar, concepto, etc.
-  "musica", // canciones y obras musicales (al final: Postgres agrega valores de enum al final)
-]);
+// Los valores (y por qué existe cada uno) están en shared/types/kanji.ts.
+export const tipoNombre = pgEnum("tipo_nombre", TIPOS_NOMBRE);
 
 // ── NOMBRES FAMOSOS: uno a muchos con kanji ──
 // Nombres propios que contienen el kanji: personas, series, peliculas,

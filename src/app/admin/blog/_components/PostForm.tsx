@@ -1,7 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
-import type { EstadoFormPost } from "@/types/post";
+import type { EstadoFormPost } from "@/shared/types/post";
 
 // ─── Props ───
 // accion: crearPost o editarPost (ya con el id)

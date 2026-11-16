@@ -1,5 +1,5 @@
 // Tipos compartidos entre servidor y cliente: PostForm (client) los importa,
-// por eso viven fuera de src/server.
+// por eso viven en src/shared y no en src/server.
 
 // Estado que devuelven crearPost/editarPost a useActionState
 export type EstadoFormPost = {

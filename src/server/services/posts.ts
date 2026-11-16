@@ -3,7 +3,7 @@ import { cache } from "react";
 import { and, desc, eq, ne } from "drizzle-orm";
 import { db } from "@/server/db";
 import { post } from "@/server/db/schema";
-import type { ValoresFormPost } from "@/types/post";
+import type { ValoresFormPost } from "@/shared/types/post";
 
 // ── LECTURAS PÚBLICAS: solo posts publicados ──
 

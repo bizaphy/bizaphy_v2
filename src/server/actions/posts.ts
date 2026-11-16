@@ -12,7 +12,7 @@ import {
   slugEnUso,
   validarFormularioPost,
 } from "@/server/services/posts";
-import type { EstadoFormPost } from "@/types/post";
+import type { EstadoFormPost } from "@/shared/types/post";
 
 // ─── Crear post ───
 export async function crearPost(
