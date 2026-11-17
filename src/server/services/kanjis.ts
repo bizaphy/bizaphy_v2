@@ -1,6 +1,9 @@
-// src/content/projects/all-about-kanjis/db/queries.ts
-import { db } from "@/db";
-import { kanji, nivelJlpt } from "./schema";
+// Lecturas y escrituras de All About Kanjis
+import "server-only";
+import { eq } from "drizzle-orm";
+import { db } from "@/server/db";
+import { kanji } from "@/server/db/schema";
+import type { KanjiEnListado, NivelJlpt } from "@/shared/types/kanji";
 
 // ── DETALLE ────────────────────────────────────────────────────────
 
@@ -37,7 +40,7 @@ export type KanjiDetalle = NonNullable<
 // ── LISTADOS ───────────────────────────────────────────────────────
 //solo se necesita ver los kanjis, no mayor informacion.
 
-type Nivel = (typeof nivelJlpt.enumValues)[number];
+type Nivel = NivelJlpt;
 
 /**
  * Lista todos los kanjis de un nivel, ordenados por número de trazos
@@ -45,7 +48,9 @@ type Nivel = (typeof nivelJlpt.enumValues)[number];
  * renderizar el listado y el panel de detalle sin volver a consultar,
  * incluyendo palabras famosas, nombres famosos, kanji traps y radicales.
  */
-export async function listarKanjisPorNivel(nivel: Nivel) {
+export async function listarKanjisPorNivel(
+  nivel: Nivel,
+): Promise<KanjiEnListado[]> {
   return db.query.kanji.findMany({
     columns: {
       id: true,
@@ -100,9 +105,8 @@ export async function listarKanjisPorNivel(nivel: Nivel) {
   });
 }
 
-export type KanjiEnListado = Awaited<
-  ReturnType<typeof listarKanjisPorNivel>
->[number];
+// El tipo KanjiEnListado vive en shared/types/kanji.ts: lo usan los
+// componentes cliente y no deben importar nada de src/server.
 
 /**
  * Devuelve los niveles JLPT que tienen al menos un kanji cargado.
@@ -113,4 +117,28 @@ export async function listarNivelesDisponibles(): Promise<Nivel[]> {
   const rows = await db.selectDistinct({ nivel: kanji.nivel }).from(kanji);
 
   return rows.map((fila) => fila.nivel);
+}
+
+// ── ESCRITURAS ─────────────────────────────────────────────────────
+
+/**
+ * Invierte el flag "destacado" del kanji y devuelve el nuevo valor.
+ * Lee el valor actual y escribe su negación.
+ */
+export async function invertirDestacado(id: number) {
+  const fila = await db
+    .select({ destacado: kanji.destacado })
+    .from(kanji)
+    .where(eq(kanji.id, id))
+    .limit(1);
+
+  if (fila.length === 0) {
+    throw new Error(`Kanji con id ${id} no encontrado`);
+  }
+
+  const nuevoValor = !fila[0].destacado;
+
+  await db.update(kanji).set({ destacado: nuevoValor }).where(eq(kanji.id, id));
+
+  return nuevoValor;
 }

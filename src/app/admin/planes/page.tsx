@@ -1,7 +1,6 @@
-import { requireAdminPage } from "@/lib/auth-guards";
-import { estadoPlan } from "@/db/plan-schema";
-import { obtenerPlanes } from "@/db/plan-queries";
-import { crearPlan, cambiarEstadoPlan, eliminarPlan } from "@/db/plan-actions";
+import { requireAdminPage } from "@/server/auth/guards";
+import { ESTADOS_PLAN, obtenerPlanes } from "@/server/services/planes";
+import { crearPlan, cambiarEstadoPlan, eliminarPlan } from "@/server/actions/planes";
 
 const etiquetas = {
   idea: "💡 Ideas",
@@ -58,7 +57,7 @@ export default async function PlanesPage() {
 
       {/* Una sección por estado, en el orden del enum */}
       <div className="grid gap-6 md:grid-cols-4">
-        {estadoPlan.enumValues.map((estado) => (
+        {ESTADOS_PLAN.map((estado) => (
           <section
             key={estado}
             className="space-y-3 rounded-xl border border-zinc-800 bg-zinc-900 p-4"
@@ -78,7 +77,7 @@ export default async function PlanesPage() {
                     )}
 
                     <div className="flex flex-wrap gap-2 pt-1">
-                      {estadoPlan.enumValues
+                      {ESTADOS_PLAN
                         .filter((otro) => otro !== estado)
                         .map((otro) => (
                           <form

@@ -1,5 +1,5 @@
-import { requireAdminPage } from "@/lib/auth-guards";
-import { crearPost } from "@/db/post-actions";
+import { requireAdminPage } from "@/server/auth/guards";
+import { crearPost } from "@/server/actions/posts";
 import PostForm from "../_components/PostForm";
 
 export default async function NuevoPostPage() {

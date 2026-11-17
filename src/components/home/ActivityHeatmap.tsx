@@ -1,17 +1,14 @@
 // Mapa de actividad estilo GitHub: commits por dia del ultimo ano, sacados
-// de la API de GitHub. Reemplaza al changelog escrito a mano.
+// de la API de GitHub (src/server/services/github.ts). Reemplaza al
+// changelog escrito a mano.
 
-const REPO = "bizaphy/bizaphy_v2";
+import { obtenerCommits } from "@/server/services/github";
+
 const SEMANAS = 52;
 // Las fechas de GitHub vienen en UTC; se agrupan por dia en hora de Chile
 // para que un commit de las 22:00 no caiga en el dia siguiente.
 const ZONA = "America/Santiago";
 const DIA_MS = 24 * 60 * 60 * 1000;
-
-type Commit = {
-  html_url: string;
-  commit: { message: string; author: { date: string } };
-};
 
 // "YYYY-MM-DD" del instante dado, en hora de Chile (en-CA da ese formato).
 const claveDia = (fecha: Date) =>
@@ -22,30 +19,6 @@ const claveDia = (fecha: Date) =>
 const desdeClave = (clave: string) => new Date(`${clave}T00:00:00Z`);
 const sumarDias = (fecha: Date, n: number) =>
   new Date(fecha.getTime() + n * DIA_MS);
-
-async function getCommits(desde: string): Promise<Commit[] | null> {
-  const headers: HeadersInit = { Accept: "application/vnd.github+json" };
-  // Opcional: con token sube el limite de la API y sirve si el repo es privado.
-  if (process.env.GITHUB_TOKEN) {
-    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  }
-
-  const commits: Commit[] = [];
-  // Maximo 100 por pagina; el tope de 10 paginas es solo un seguro.
-  for (let pagina = 1; pagina <= 10; pagina++) {
-    // `desde` es una fecha sin hora, asi la URL (y su cache) es la misma
-    // durante todo el dia.
-    const res = await fetch(
-      `https://api.github.com/repos/${REPO}/commits?since=${desde}T00:00:00Z&per_page=100&page=${pagina}`,
-      { headers, next: { revalidate: 3600 } },
-    );
-    if (!res.ok) return pagina === 1 ? null : commits;
-    const lote = (await res.json()) as Commit[];
-    commits.push(...lote);
-    if (lote.length < 100) break;
-  }
-  return commits;
-}
 
 // Intensidad del fucsia segun cantidad de commits del dia.
 const colorCelda = (n: number) => {
@@ -66,7 +39,7 @@ export default async function ActivityHeatmap() {
   const inicio = sumarDias(hoy, -diaSemanaHoy - (SEMANAS - 1) * 7);
   const inicioClave = inicio.toISOString().slice(0, 10);
 
-  const commits = await getCommits(inicioClave);
+  const commits = await obtenerCommits(inicioClave);
 
   const porDia = new Map<string, number>();
   for (const c of commits ?? []) {

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import { requireAdminPage } from "@/lib/auth-guards";
-import { obtenerPostPorId } from "@/db/post-queries";
-import { editarPost } from "@/db/post-actions";
+import { requireAdminPage } from "@/server/auth/guards";
+import { obtenerPostPorId } from "@/server/services/posts";
+import { editarPost } from "@/server/actions/posts";
 import PostForm from "../../_components/PostForm";
 
 export default async function EditarPostPage({

@@ -1,0 +1,53 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"files": {
+		"includes": ["**", "!public"]
+	},
+	"overrides": [
+		{
+			"includes": ["src/app/**", "src/components/**", "src/content/**"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": ["@/server/db", "@/server/db/**"],
+										"message": "La interfaz no toca la base: usa un service de @/server/services o un tipo de @/shared."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"includes": ["src/shared/**", "src/lib/**", "!src/lib/auth-client.ts"],
+			"linter": {
+				"rules": {
+					"style": {
+						"noRestrictedImports": {
+							"level": "error",
+							"options": {
+								"patterns": [
+									{
+										"group": ["@/server", "@/server/**"],
+										"message": "shared/ y lib/ corren en los dos lados: no pueden depender de src/server."
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

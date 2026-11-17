@@ -3,7 +3,7 @@
 import "server-only";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
-import { auth } from "@/lib/auth";
+import { auth } from "@/server/auth";
 
 // Devuelve la sesión actual o null.
 // lee la cookie de sesión de la petición y la valida contra la tabla: session

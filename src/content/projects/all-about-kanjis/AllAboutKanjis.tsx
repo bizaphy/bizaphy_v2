@@ -1,6 +1,6 @@
 import KanjiExplorer from "./components/explorador/KanjiExplorer";
 import KanjiTrainer from "./components/trainer/KanjiTrainer";
-import { listarKanjisPorNivel } from "./db/queries";
+import { listarKanjisPorNivel } from "@/server/services/kanjis";
 import Tabs from "@/components/ui/Tabs";
 import Info, { infoLinkClass } from "@/components/ui/Info";
 import BackToTopDots from "@/components/ui/BackToTopDots";
