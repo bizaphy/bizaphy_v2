@@ -27,6 +27,12 @@ export default async function AdminPage() {
           <span className="font-semibold">Blog</span>
           <span className="text-sm text-zinc-400">Crear y editar posts</span>
         </Link>
+        <Link href="/admin/reading" className={estiloTarjeta}>
+          <span className="font-semibold">Reading</span>
+          <span className="text-sm text-zinc-400">
+            Formatear, traducir y exportar textos
+          </span>
+        </Link>
       </nav>
     </main>
   );

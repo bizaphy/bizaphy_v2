@@ -1,28 +1,11 @@
 import { Fragment } from "react";
+import { parsearFurigana } from "@/lib/furigana";
 
 type Props = {
   caracter: string;
   oracion: string | null;
   traduccion: string | null;
 };
-
-type Segmento = { texto: string; lectura?: string };
-
-// "[一|いち]から[十|じゅう]" -> [{ texto: "一", lectura: "いち" },
-// { texto: "から" }, { texto: "十", lectura: "じゅう" }]
-function parsearFurigana(oracion: string): Segmento[] {
-  const segmentos: Segmento[] = [];
-  let ultimo = 0;
-  for (const coincidencia of oracion.matchAll(/\[([^|\]]+)\|([^\]]+)\]/g)) {
-    if (coincidencia.index > ultimo) {
-      segmentos.push({ texto: oracion.slice(ultimo, coincidencia.index) });
-    }
-    segmentos.push({ texto: coincidencia[1], lectura: coincidencia[2] });
-    ultimo = coincidencia.index + coincidencia[0].length;
-  }
-  if (ultimo < oracion.length) segmentos.push({ texto: oracion.slice(ultimo) });
-  return segmentos;
-}
 
 // Pinta cada aparicion del kanji dentro de un texto. split + intercalar en
 // vez de recorrer caracter por caracter: el resto del texto queda en un
