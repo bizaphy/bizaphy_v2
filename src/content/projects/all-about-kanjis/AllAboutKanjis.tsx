@@ -1,5 +1,6 @@
 import KanjiExplorer from "./components/explorador/KanjiExplorer";
 import KanjiTrainer from "./components/trainer/KanjiTrainer";
+import VerbTrainer from "./components/verbos/VerbTrainer";
 import { listarKanjisPorNivel } from "@/server/services/kanjis";
 import Tabs from "@/components/ui/Tabs";
 import Info, { infoLinkClass } from "@/components/ui/Info";
@@ -29,6 +30,11 @@ export default async function AllAboutKanjis() {
             id: "trainer",
             label: "KanjiTrainer",
             contenido: <KanjiTrainer />,
+          },
+          {
+            id: "verbos",
+            label: "VerbTrainer",
+            contenido: <VerbTrainer />,
           },
         ]}
       />

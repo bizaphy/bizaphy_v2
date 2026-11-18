@@ -65,7 +65,7 @@ export default function AccountButton() {
         aria-haspopup={conectado ? "menu" : undefined}
         aria-expanded={conectado ? abierto : undefined}
         title={conectado ? session.user.name : "Iniciar sesión"}
-        className="relative flex items-center text-fuchsia-300 transition hover:text-fuchsia-100 hover:drop-shadow-[0_0_6px_rgba(217,70,239,0.75)]"
+        className="relative flex cursor-pointer items-center text-fuchsia-300 transition aria-disabled:cursor-wait hover:text-fuchsia-100 hover:drop-shadow-[0_0_6px_rgba(217,70,239,0.75)]"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export default function AccountButton() {
             type="button"
             role="menuitem"
             onClick={cerrarSesion}
-            className="block w-full rounded-b-md px-4 py-2.5 text-left text-red-300 transition hover:bg-red-500/10 hover:text-red-200"
+            className="block w-full cursor-pointer rounded-b-md px-4 py-2.5 text-left text-red-300 transition hover:bg-red-500/10 hover:text-red-200"
           >
             Cerrar sesión
           </button>

@@ -66,12 +66,18 @@ export default function ThemeToggle() {
       aria-label="Modo claro"
       title={claro ? "Pasar a modo oscuro" : "Pasar a modo claro"}
       onClick={alternar}
-      className="group flex items-center gap-1.5"
+      className="group flex cursor-pointer items-center gap-1.5"
     >
-      {/* Luna / sol: muestran el modo al que se pasa con el clic */}
+      {/* Luna / sol: muestran el modo al que se pasa con el clic.
+          Sol en zinc fuerte, luna en negro fuerte. Colores en hex y no
+          como zinc-*: tema-claro.css redefine la paleta zinc. */}
       <span
         aria-hidden="true"
-        className="text-xs text-zinc-500 transition group-hover:text-fuchsia-400"
+        className={`text-xs transition ${
+          claro
+            ? "text-[#09090b] group-hover:text-fuchsia-500"
+            : "text-[#d4d4d8] group-hover:text-fuchsia-400"
+        }`}
       >
         {/* ︎ fuerza la version de texto: sin el, algunos sistemas
             dibujan el sol como emoji a color */}

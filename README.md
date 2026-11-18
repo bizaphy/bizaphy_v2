@@ -30,7 +30,7 @@ Portafolio personal hecho con Next.js (App Router). Reúne un **home** con panel
 |---|---|---|
 | `apothecary` | Boticaria CL | Información de plantas y fitofármacos. |
 | `weather-dashboard` | Clima mundial | Reloj mundial en tiempo real con algunas ciudades del mundo. |
-| `all-about-kanjis` | All About Kanjis | Explorador y trainer de kanjis del JLPT (usa la base de datos). |
+| `all-about-kanjis` | All About Kanjis | Explorador de kanjis del JLPT (usa la base de datos), KanjiTrainer de vocabulario y VerbTrainer con tests de verbos N5-N3. |
 | `grammar-booster` | Grammar Booster | Ejercicios de gramática japonesa del JLPT N5 al N3. |
 | `hangman` | Hangman (Capitales) | Adivina la capital del país antes de que el ahorcado se complete. |
 | `pocket-qf` | Pocket QF | Proyecto **externo**: su tarjeta abre el repositorio en GitHub. |
