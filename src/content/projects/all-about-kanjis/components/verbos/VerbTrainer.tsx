@@ -10,6 +10,7 @@ import {
 } from "react";
 import Interruptor from "@/components/ui/Interruptor";
 import { barajar } from "@/lib/barajar";
+import UnirColumnas, { type VarianteUnir } from "./UnirColumnas";
 
 type NivelVerbo = "n5" | "n4" | "n3";
 
@@ -64,7 +65,7 @@ function normalizarRomaji(texto: string): string {
     .replace(/m(?=[bp])/g, "n");
 }
 
-const esCorrecta = (verbo: Verbo, respuesta: string) =>
+const esCorrecta = (verbo: Pick<Verbo, "romaji">, respuesta: string) =>
   normalizarRomaji(respuesta) !== "" &&
   normalizarRomaji(respuesta) === normalizarRomaji(verbo.romaji);
 
@@ -100,12 +101,20 @@ function significadoCorrecto(verbo: Verbo, respuesta: string): boolean {
     );
 }
 
-type TipoTest = "romaji" | "full";
+type TipoTest = "romaji" | "full" | VarianteUnir;
 
 const TIPOS: { id: TipoTest; label: string }[] = [
   { id: "romaji", label: "Romaji" },
   { id: "full", label: "Full test (romaji + significado)" },
+  { id: "sig-kanji", label: "Unir significado → kanji" },
+  { id: "kanji-sig", label: "Unir kanji → significado" },
 ];
+
+const esTipoUnir = (tipo: TipoTest): tipo is VarianteUnir =>
+  tipo === "sig-kanji" || tipo === "kanji-sig";
+
+// Con mas de 20 pares las columnas y las lineas no caben en pantalla
+const MAXIMO_UNIR = 20;
 
 // ─── Estilos compartidos (mismos que KanjiTrainer) ───
 const botonBase =
@@ -160,6 +169,8 @@ export default function VerbTrainer() {
   const [cantidad, setCantidad] = useState(MINIMO);
   const [tipo, setTipo] = useState<TipoTest>("romaji");
   const [mezclarErrores, setMezclarErrores] = useState(true);
+  // Aviso cuando la cantidad se bajo sola a 20 por el modo unir
+  const [avisoMaximo, setAvisoMaximo] = useState(false);
   const [seleccion, setSeleccion] = useState<Verbo[]>([]);
 
   // Repaso
@@ -173,6 +184,9 @@ export default function VerbTrainer() {
   // Significados marcados como correctos a mano tras corregir
   const [aceptados, setAceptados] = useState<string[]>([]);
   const [corregido, setCorregido] = useState(false);
+  // Modo unir: orden de la columna derecha y uniones izquierda -> derecha
+  const [derecha, setDerecha] = useState<Verbo[]>([]);
+  const [uniones, setUniones] = useState<Record<string, string>>({});
   const inputs = useRef<(HTMLInputElement | null)[]>([]);
 
   // Mis errores: verbo -> veces que se fallo. Vive en localStorage para
@@ -244,7 +258,28 @@ export default function VerbTrainer() {
   ).length;
 
   const disponibles = niveles.reduce((total, nivel) => total + conteos[nivel], 0);
-  const cantidadValida = Math.min(Math.max(cantidad, MINIMO), disponibles);
+  const esUnir = esTipoUnir(tipo);
+  const cantidadValida = Math.min(
+    Math.max(cantidad, MINIMO),
+    disponibles,
+    esUnir ? MAXIMO_UNIR : Number.POSITIVE_INFINITY,
+  );
+
+  // En modo unir, una cantidad sobre 20 se baja a 20 y se avisa
+  const cambiarCantidad = (nueva: number, tipoActual: TipoTest = tipo) => {
+    if (esTipoUnir(tipoActual) && nueva > MAXIMO_UNIR) {
+      setCantidad(MAXIMO_UNIR);
+      setAvisoMaximo(true);
+    } else {
+      setCantidad(nueva);
+      setAvisoMaximo(false);
+    }
+  };
+
+  const cambiarTipo = (nuevo: TipoTest) => {
+    setTipo(nuevo);
+    cambiarCantidad(cantidad, nuevo);
+  };
 
   const alternarNivel = (nivel: NivelVerbo) =>
     setNiveles((actuales) =>
@@ -278,7 +313,11 @@ export default function VerbTrainer() {
 
   const empezarTest = (lista: Verbo[]) => {
     // Otro orden que el del repaso, para no responder de memoria por posicion.
-    setSeleccion(barajar(lista));
+    // En modo unir se corta a 20 (por ejemplo, al entrenar Mis errores).
+    const enTest = esUnir ? lista.slice(0, MAXIMO_UNIR) : lista;
+    setSeleccion(barajar(enTest));
+    setDerecha(barajar(enTest));
+    setUniones({});
     setRespuestas({});
     setSignificados({});
     setAceptados([]);
@@ -302,13 +341,36 @@ export default function VerbTrainer() {
   const significadoOk = (verbo: Verbo) =>
     aceptados.includes(verbo.verbo) ||
     significadoCorrecto(verbo, significados[verbo.verbo] ?? "");
+  const unionOk = (verbo: Verbo) => uniones[verbo.verbo] === verbo.verbo;
   const filaOk = (verbo: Verbo) =>
-    romajiOk(verbo) && (!esFull || significadoOk(verbo));
+    romajiOk(verbo) &&
+    (!esFull || significadoOk(verbo)) &&
+    (!esUnir || unionOk(verbo));
+
+  // Una derecha solo puede estar unida a una izquierda
+  const unir = (deIzquierda: string, deDerecha: string) =>
+    setUniones((actuales) => {
+      const nuevas: Record<string, string> = {};
+      for (const [clave, valor] of Object.entries(actuales)) {
+        if (valor !== deDerecha) nuevas[clave] = valor;
+      }
+      nuevas[deIzquierda] = deDerecha;
+      return nuevas;
+    });
+
+  const desunir = (deIzquierda: string) =>
+    setUniones((actuales) => {
+      const { [deIzquierda]: _quitada, ...resto } = actuales;
+      return resto;
+    });
 
   const aciertos = seleccion.filter(filaOk).length;
   const aciertosRomaji = seleccion.filter(romajiOk).length;
   const aciertosSignificado = seleccion.filter(significadoOk).length;
+  const aciertosUnion = seleccion.filter(unionOk).length;
   const fallados = seleccion.filter((verbo) => !filaOk(verbo));
+  const nombreTipo =
+    TIPOS.find((opcion) => opcion.id === tipo)?.label ?? "Test";
   const porcentaje = (valor: number) =>
     Math.round((valor / seleccion.length) * 100);
 
@@ -431,7 +493,7 @@ export default function VerbTrainer() {
               min={MINIMO}
               max={disponibles}
               value={cantidad}
-              onChange={(e) => setCantidad(Number(e.target.value))}
+              onChange={(e) => cambiarCantidad(Number(e.target.value))}
               className="w-24 rounded-md border border-zinc-700 bg-zinc-800 px-3 py-1.5 font-mono text-sm text-zinc-100 outline-none focus:border-fuchsia-500"
             />
             {ATAJOS_CANTIDAD.map((atajo) => (
@@ -439,7 +501,7 @@ export default function VerbTrainer() {
                 key={atajo}
                 type="button"
                 disabled={atajo > disponibles}
-                onClick={() => setCantidad(atajo)}
+                onClick={() => cambiarCantidad(atajo)}
                 className={chipFiltro(cantidad === atajo)}
               >
                 {atajo}
@@ -448,7 +510,7 @@ export default function VerbTrainer() {
             <button
               type="button"
               disabled={disponibles === 0}
-              onClick={() => setCantidad(disponibles)}
+              onClick={() => cambiarCantidad(disponibles)}
               className={chipFiltro(cantidad === disponibles && disponibles > 0)}
             >
               Todos ({disponibles})
@@ -464,7 +526,7 @@ export default function VerbTrainer() {
                 key={opcion.id}
                 type="button"
                 aria-pressed={tipo === opcion.id}
-                onClick={() => setTipo(opcion.id)}
+                onClick={() => cambiarTipo(opcion.id)}
                 className={chipFiltro(tipo === opcion.id)}
               >
                 {opcion.label}
@@ -488,6 +550,13 @@ export default function VerbTrainer() {
                 : `hasta ${Math.min(erroresEnNiveles, Math.ceil(cantidadValida * CUOTA_ERRORES))} de ${erroresEnNiveles} saldrán en el test`}
             </span>
           </div>
+
+          {esUnir && avisoMaximo && (
+            <p className="font-mono text-xs text-fuchsia-300">
+              El modo unir permite un máximo de {MAXIMO_UNIR} verbos: la
+              cantidad se ajustó a {MAXIMO_UNIR}.
+            </p>
+          )}
 
           {cantidad < MINIMO && (
             <p className="font-mono text-xs text-fuchsia-300">
@@ -600,7 +669,7 @@ export default function VerbTrainer() {
           <div className="flex flex-col gap-1">
             <span className="font-mono text-xs tracking-widest text-fuchsia-300 uppercase">
               Entrenamiento previo · {seleccion.length} verbos ·{" "}
-              {esFull ? "full test" : "test de romaji"}
+              {nombreTipo}
             </span>
             <span className="text-sm text-zinc-400">
               Memoriza el romaji de cada verbo. Con el modo memoria, haz clic
@@ -693,7 +762,7 @@ export default function VerbTrainer() {
     <section className="flex flex-col gap-5 p-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <span className="font-mono text-xs tracking-widest text-fuchsia-300 uppercase">
-          {esFull ? "Full test" : "Test"} · {seleccion.length} verbos
+          {nombreTipo} · {seleccion.length} verbos
         </span>
         {corregido && (
           <span className="flex flex-wrap gap-2 font-mono text-sm">
@@ -705,6 +774,11 @@ export default function VerbTrainer() {
                 romaji {aciertosRomaji} · significado {aciertosSignificado}
               </span>
             )}
+            {esUnir && (
+              <span className="rounded-md border border-zinc-700 px-3 py-1 text-zinc-400">
+                uniones {aciertosUnion} · romaji {aciertosRomaji}
+              </span>
+            )}
           </span>
         )}
         {corregido && fallados.length > 0 && (
@@ -714,92 +788,117 @@ export default function VerbTrainer() {
         )}
       </div>
 
-      <ol className="flex flex-col gap-2">
-        {seleccion.map((verbo, indice) => {
-          const okRomaji = romajiOk(verbo);
-          const okSignificado = significadoOk(verbo);
-          const borde = !corregido
-            ? "border-zinc-700"
-            : filaOk(verbo)
-              ? "border-emerald-400/60"
-              : "border-rose-400/60";
-          // Indices para pasar de campo con Enter
-          const indiceRomaji = esFull ? indice * 2 : indice;
-          return (
-            <li key={verbo.verbo} className={`${filaGrid} ${borde}`}>
-              <CeldaVerbo verbo={verbo} kana={false} />
-              <div className="flex flex-col gap-1">
-                <input
-                  ref={(elemento) => {
-                    inputs.current[indiceRomaji] = elemento;
-                  }}
-                  value={respuestas[verbo.verbo] ?? ""}
-                  disabled={corregido}
-                  onChange={(e) =>
-                    setRespuestas({ ...respuestas, [verbo.verbo]: e.target.value })
-                  }
-                  onKeyDown={(e) => alPresionar(e, indiceRomaji)}
-                  placeholder="romaji…"
-                  autoCapitalize="off"
-                  autoComplete="off"
-                  spellCheck={false}
-                  aria-label={`Romaji de ${verbo.verbo}`}
-                  className={`${estiloCampoTest(okRomaji)} font-mono text-lg`}
-                />
-                {corregido && !okRomaji && (
-                  <span className="font-mono text-sm text-emerald-300">
-                    {verbo.romaji}{" "}
-                    <span className="text-xs text-zinc-500">({verbo.kana})</span>
-                  </span>
-                )}
-              </div>
-              {esFull ? (
+      {esUnir ? (
+        <>
+          <p className="text-sm text-zinc-400">
+            Haz clic en un elemento de una columna y después en su pareja de la
+            otra para unirlos. Clic en algo ya unido deshace la unión. Escribe
+            también el romaji de cada kanji.
+          </p>
+          <UnirColumnas
+            variante={tipo}
+            izquierda={seleccion}
+            derecha={derecha}
+            uniones={uniones}
+            onUnir={unir}
+            onDesunir={desunir}
+            respuestas={respuestas}
+            onRespuesta={(verbo, texto) =>
+              setRespuestas({ ...respuestas, [verbo]: texto })
+            }
+            romajiOk={(verbo) => esCorrecta(verbo, respuestas[verbo.verbo] ?? "")}
+            corregido={corregido}
+            onCorregir={corregir}
+          />
+        </>
+      ) : (
+        <ol className="flex flex-col gap-2">
+          {seleccion.map((verbo, indice) => {
+            const okRomaji = romajiOk(verbo);
+            const okSignificado = significadoOk(verbo);
+            const borde = !corregido
+              ? "border-zinc-700"
+              : filaOk(verbo)
+                ? "border-emerald-400/60"
+                : "border-rose-400/60";
+            // Indices para pasar de campo con Enter
+            const indiceRomaji = esFull ? indice * 2 : indice;
+            return (
+              <li key={verbo.verbo} className={`${filaGrid} ${borde}`}>
+                <CeldaVerbo verbo={verbo} kana={false} />
                 <div className="flex flex-col gap-1">
                   <input
                     ref={(elemento) => {
-                      inputs.current[indiceRomaji + 1] = elemento;
+                      inputs.current[indiceRomaji] = elemento;
                     }}
-                    value={significados[verbo.verbo] ?? ""}
+                    value={respuestas[verbo.verbo] ?? ""}
                     disabled={corregido}
                     onChange={(e) =>
-                      setSignificados({
-                        ...significados,
-                        [verbo.verbo]: e.target.value,
-                      })
+                      setRespuestas({ ...respuestas, [verbo.verbo]: e.target.value })
                     }
-                    onKeyDown={(e) => alPresionar(e, indiceRomaji + 1)}
-                    placeholder="significado…"
+                    onKeyDown={(e) => alPresionar(e, indiceRomaji)}
+                    placeholder="romaji…"
+                    autoCapitalize="off"
                     autoComplete="off"
-                    aria-label={`Significado de ${verbo.verbo}`}
-                    className={`${estiloCampoTest(okSignificado)} text-sm`}
+                    spellCheck={false}
+                    aria-label={`Romaji de ${verbo.verbo}`}
+                    className={`${estiloCampoTest(okRomaji)} font-mono text-lg`}
                   />
-                  {corregido && !okSignificado && (
-                    <span className="flex flex-wrap items-center gap-2 text-sm text-emerald-300">
-                      {verbo.significado}
-                      {/* El significado es libre: si tu respuesta era valida
-                          pero no calzo con el texto, la das por buena. */}
-                      {(significados[verbo.verbo] ?? "").trim() && (
-                        <button
-                          type="button"
-                          onClick={() => darPorBuena(verbo)}
-                          className="rounded border border-zinc-600 px-1.5 py-0.5 font-mono text-[10px] tracking-widest text-zinc-400 uppercase hover:border-emerald-400 hover:text-emerald-300"
-                        >
-                          Dar por buena
-                        </button>
-                      )}
+                  {corregido && !okRomaji && (
+                    <span className="font-mono text-sm text-emerald-300">
+                      {verbo.romaji}{" "}
+                      <span className="text-xs text-zinc-500">({verbo.kana})</span>
                     </span>
                   )}
                 </div>
-              ) : (
-                <span className="text-sm text-zinc-300">
-                  <span className="mr-1 text-violet-500/70">›</span>
-                  {verbo.significado}
-                </span>
-              )}
-            </li>
-          );
-        })}
-      </ol>
+                {esFull ? (
+                  <div className="flex flex-col gap-1">
+                    <input
+                      ref={(elemento) => {
+                        inputs.current[indiceRomaji + 1] = elemento;
+                      }}
+                      value={significados[verbo.verbo] ?? ""}
+                      disabled={corregido}
+                      onChange={(e) =>
+                        setSignificados({
+                          ...significados,
+                          [verbo.verbo]: e.target.value,
+                        })
+                      }
+                      onKeyDown={(e) => alPresionar(e, indiceRomaji + 1)}
+                      placeholder="significado…"
+                      autoComplete="off"
+                      aria-label={`Significado de ${verbo.verbo}`}
+                      className={`${estiloCampoTest(okSignificado)} text-sm`}
+                    />
+                    {corregido && !okSignificado && (
+                      <span className="flex flex-wrap items-center gap-2 text-sm text-emerald-300">
+                        {verbo.significado}
+                        {/* El significado es libre: si tu respuesta era valida
+                            pero no calzo con el texto, la das por buena. */}
+                        {(significados[verbo.verbo] ?? "").trim() && (
+                          <button
+                            type="button"
+                            onClick={() => darPorBuena(verbo)}
+                            className="rounded border border-zinc-600 px-1.5 py-0.5 font-mono text-[10px] tracking-widest text-zinc-400 uppercase hover:border-emerald-400 hover:text-emerald-300"
+                          >
+                            Dar por buena
+                          </button>
+                        )}
+                      </span>
+                    )}
+                  </div>
+                ) : (
+                  <span className="text-sm text-zinc-300">
+                    <span className="mr-1 text-violet-500/70">›</span>
+                    {verbo.significado}
+                  </span>
+                )}
+              </li>
+            );
+          })}
+        </ol>
+      )}
 
       <div className="flex flex-wrap justify-end gap-3">
         {!corregido ? (
