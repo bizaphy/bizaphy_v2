@@ -3,12 +3,17 @@
 import { type ChangeEvent, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Interruptor from "@/components/ui/Interruptor";
+import { quitarFurigana } from "@/lib/furigana";
+import TextoJapones from "../../_compartido/TextoJapones";
 import {
-  furiganaEntreParentesis,
-  parsearFurigana,
-  quitarFurigana,
-} from "@/lib/furigana";
-import type { FilaReading, Reading } from "@/shared/types/reading";
+  armarExportacion,
+  armarFilas,
+  cortarEnPuntos,
+  estiloBotonChico,
+  estiloBotonPrincipal,
+  estiloCampo,
+  separarComodines,
+} from "../../_compartido/frases";
 import { ALMACEN, type TextoAlmacen } from "../_data/almacen";
 
 // ─── Plantilla del editor de reading ───
@@ -27,113 +32,6 @@ const PASOS: { id: Paso; label: string }[] = [
 ];
 
 const CLAVE_BORRADOR = "reading-borrador";
-
-// ─── Estilos compartidos ───
-const estiloCampo =
-  "rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-base text-zinc-100 outline-none transition focus:border-fuchsia-500";
-const estiloBotonChico =
-  "rounded-md border border-zinc-700 bg-zinc-800 px-2.5 py-1 text-xs text-zinc-300 transition hover:border-fuchsia-500 hover:text-white";
-const estiloBotonPrincipal =
-  "rounded-md bg-fuchsia-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-fuchsia-500";
-
-// Cada linea no vacia del texto es una fila. La traduccion se busca por el
-// texto de la linea (no por indice): asi, si vuelves al paso 1 y agregas o
-// cortas filas, las traducciones de las demas no se desordenan.
-function armarFilas(
-  texto: string,
-  traducciones: Record<string, string>,
-): FilaReading[] {
-  return texto
-    .split("\n")
-    .map((linea) => linea.trim())
-    .filter(Boolean)
-    .map((ja) => ({ ja, es: traducciones[ja] ?? "" }));
-}
-
-// Salto de linea despues de 。！？. No corta dentro de una cita
-// (「行く？」と聞いた queda junta), si ya hay salto o al final del texto.
-function cortarEnPuntos(texto: string): string {
-  return texto.replace(/([。！？!?])(?![」』）)\n]|$)/g, "$1\n");
-}
-
-// "会議, 効果的、途切れ" -> ["会議", "効果的", "途切れ"]. Acepta la coma
-// normal y las japonesas (、，) para no tener que cambiar de teclado.
-function separarComodines(texto: string): string[] {
-  return texto
-    .split(/[,、，]/)
-    .map((palabra) => palabra.trim())
-    .filter(Boolean);
-}
-
-function armarExportacion(
-  reading: Reading,
-  opciones: { instrucciones: boolean; lectura: boolean },
-): string {
-  const lineas: string[] = [];
-
-  if (opciones.instrucciones) {
-    lineas.push(
-      "Revisa mi traducción de este texto japonés al español.",
-      "Para cada fila, dime si la traducción es correcta. Si no lo es, explica el error",
-      "(vocabulario, gramática, matiz u orden) y propone una versión corregida.",
-      "Al final, evalúa la traducción completa como texto continuo.",
-      "",
-    );
-  }
-
-  lineas.push(`# ${reading.titulo || "Sin título"}`);
-  if (reading.fuente) lineas.push(`Fuente: ${reading.fuente}`);
-  if (reading.comodines.length > 0) {
-    lineas.push(`Comodín (palabras que no sé): ${reading.comodines.join("、")}`);
-  }
-  lineas.push("");
-
-  reading.filas.forEach((fila, indice) => {
-    lineas.push(`## Fila ${indice + 1}`);
-    lineas.push(`JA: ${quitarFurigana(fila.ja)}`);
-    if (opciones.lectura && fila.ja !== quitarFurigana(fila.ja)) {
-      lineas.push(`Lectura: ${furiganaEntreParentesis(fila.ja)}`);
-    }
-    lineas.push(`ES: ${fila.es.trim() || "(sin traducir)"}`, "");
-  });
-
-  lineas.push(
-    "## Texto completo (original)",
-    reading.filas.map((fila) => quitarFurigana(fila.ja)).join("\n"),
-    "",
-    "## Texto completo (mi traducción)",
-    reading.filas.map((fila) => fila.es.trim() || "(sin traducir)").join("\n"),
-  );
-
-  return lineas.join("\n");
-}
-
-// ─── Fila en japones con furigana opcional ───
-// leading amplio: el <rt> ocupa espacio sobre la linea (igual que en
-// KanjiExampleSentence). Sin furigana el <rt> se oculta pero el alto de
-// linea se mantiene, asi la vista no salta al usar el interruptor.
-function TextoJapones({ ja, furigana }: { ja: string; furigana: boolean }) {
-  return (
-    <p className="font-mono text-[26px] leading-[2.2] text-zinc-100 lg:text-[31px]">
-      {parsearFurigana(ja).map((segmento, indice) =>
-        segmento.lectura ? (
-          // biome-ignore lint/suspicious/noArrayIndexKey: los segmentos no tienen id propio
-          <ruby key={indice}>
-            {segmento.texto}
-            <rt
-              className={`text-base text-violet-300/80 ${furigana ? "" : "invisible"}`}
-            >
-              {segmento.lectura}
-            </rt>
-          </ruby>
-        ) : (
-          // biome-ignore lint/suspicious/noArrayIndexKey: los segmentos no tienen id propio
-          <span key={indice}>{segmento.texto}</span>
-        ),
-      )}
-    </p>
-  );
-}
 
 export default function ReadingEditor() {
   const [paso, setPaso] = useState<Paso>("almacen");
