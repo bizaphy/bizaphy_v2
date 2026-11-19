@@ -39,6 +39,12 @@ export default async function AdminPage() {
             Letras con video, tiempos y traducción
           </span>
         </Link>
+        <Link href="/admin/reading-vocab" className={estiloTarjeta}>
+          <span className="font-semibold">Reading-vocab test</span>
+          <span className="text-sm text-zinc-400">
+            Repasar las palabras comodín con su frase
+          </span>
+        </Link>
       </nav>
     </main>
   );

@@ -21,8 +21,6 @@ export type Cancion = {
   real: Record<string, string>;
   // Un elemento por fila, en el mismo orden que las filas
   tiempos: TiempoFila[];
-  // Palabras que no conocia, tal cual las escribo ("会議, 効果的")
-  comodin: string;
   // Nombre del ultimo archivo de video usado (solo como recordatorio: el
   // video en si no se guarda)
   video: string;

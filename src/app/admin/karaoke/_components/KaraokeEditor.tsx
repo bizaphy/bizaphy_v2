@@ -11,6 +11,11 @@ import { toast } from "sonner";
 import Interruptor from "@/components/ui/Interruptor";
 import { quitarFurigana } from "@/lib/furigana";
 import type { Cancion } from "@/shared/types/karaoke";
+import {
+  ComodinesDelTexto,
+  ComodinesFila,
+} from "../../_compartido/ComodinesUI";
+import { useComodines } from "../../_compartido/comodines";
 import TextoJapones from "../../_compartido/TextoJapones";
 import {
   armarExportacion,
@@ -19,7 +24,6 @@ import {
   estiloBotonChico,
   estiloBotonPrincipal,
   estiloCampo,
-  separarComodines,
 } from "../../_compartido/frases";
 import {
   filaActiva,
@@ -69,7 +73,6 @@ function cancionNueva(): Cancion {
     traducciones: {},
     real: {},
     tiempos: [],
-    comodin: "",
     video: "",
   };
 }
@@ -93,6 +96,8 @@ function descargarArchivo(contenido: string, nombre: string, tipo: string) {
 }
 
 export default function KaraokeEditor() {
+  // Va primero: al cargar migra el comodin viejo de cada cancion
+  const { comodines, agregar, quitar } = useComodines();
   const [paso, setPaso] = useState<Paso>("canciones");
   const [canciones, setCanciones] = useState<Cancion[]>([]);
   const [idActual, setIdActual] = useState("");
@@ -204,10 +209,23 @@ export default function KaraokeEditor() {
   );
   const activa = filaActiva(tiempos, ahora);
   const traducidas = filas.filter((fila) => fila.es.trim()).length;
-  const comodines = separarComodines(actual.comodin);
+  // Comodines de esta cancion: los que se anotaron en alguna de sus frases
+  const frasesDeLaCancion = new Set(filas.map((fila) => fila.ja));
+  const comodinesDelTexto = comodines.filter((c) =>
+    frasesDeLaCancion.has(c.frase),
+  );
+  const delaFila = (ja: string) =>
+    comodinesDelTexto
+      .filter((c) => c.frase === ja)
+      .map((c) => c.palabra);
   const hayReal = filas.some((fila) => actual.real[fila.ja]);
   const exportacion = armarExportacion(
-    { titulo: actual.titulo, fuente: actual.fuente, comodines, filas },
+    {
+      titulo: actual.titulo,
+      fuente: actual.fuente,
+      comodines: comodinesDelTexto.map((c) => c.palabra),
+      filas,
+    },
     {
       instrucciones: conInstrucciones,
       lectura: conLectura,
@@ -433,6 +451,7 @@ export default function KaraokeEditor() {
           furigana={furigana}
           className="text-[3.6cqw] text-white"
           claseFurigana="text-[0.45em]"
+          resaltar={delaFila(filaEnVideo.ja)}
         />
         {paso === "karaoke" && verMia && filaEnVideo.es.trim() && (
           <p className="text-[2cqw] text-zinc-100">{filaEnVideo.es}</p>
@@ -567,6 +586,10 @@ export default function KaraokeEditor() {
               const conTiempo = cancion.tiempos.filter(
                 (t) => t.t !== null,
               ).length;
+              const frasesC = new Set(filasC.map((fila) => fila.ja));
+              const comodinesC = comodines.filter((c) =>
+                frasesC.has(c.frase),
+              ).length;
               const abierta = cancion.id === idActual;
               return (
                 <div
@@ -596,8 +619,7 @@ export default function KaraokeEditor() {
                     </span>
                     <span className="font-mono text-xs text-violet-300">
                       {conTiempo}/{filasC.length} con tiempo
-                      {separarComodines(cancion.comodin).length > 0 &&
-                        ` · ${separarComodines(cancion.comodin).length} en el comodín`}
+                      {comodinesC > 0 && ` · ${comodinesC} en el comodín`}
                     </span>
                     {abierta && (
                       <span className="font-mono text-[10px] tracking-widest text-fuchsia-300 uppercase">
@@ -700,33 +722,8 @@ export default function KaraokeEditor() {
       {/* ─── Paso 3: frase por frase ─── */}
       {paso === "frases" && (
         <section className="flex flex-col gap-4">
-          {/* Comodin: palabras que no se, separadas por comas */}
-          <div className="flex flex-col gap-3 rounded-lg border border-violet-500/40 bg-zinc-900/60 p-4">
-            <label className="flex flex-col gap-1.5">
-              <span className="font-mono text-xs tracking-widest text-violet-300 uppercase">
-                Comodín
-              </span>
-              <input
-                className={estiloCampo}
-                value={actual.comodin}
-                onChange={(e) => actualizar(() => ({ comodin: e.target.value }))}
-                placeholder="Palabras que no sabes, separadas por comas: 会議, 効果的…"
-              />
-            </label>
-            {comodines.length > 0 && (
-              <ul className="flex flex-wrap gap-2">
-                {comodines.map((palabra, indice) => (
-                  <li
-                    // biome-ignore lint/suspicious/noArrayIndexKey: la misma palabra puede repetirse
-                    key={indice}
-                    className="rounded-md border border-violet-500/40 bg-violet-500/10 px-2.5 py-1 font-mono text-base text-violet-100"
-                  >
-                    {palabra}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+          {/* Comodin: palabras que te costaron, cada una con su frase */}
+          <ComodinesDelTexto comodines={comodinesDelTexto} />
 
           <div className="flex flex-wrap items-center justify-end gap-3">
             <button
@@ -783,13 +780,33 @@ export default function KaraokeEditor() {
                   )}
                 </div>
                 <div className="flex flex-1 flex-col gap-2">
-                  <TextoJapones ja={fila.ja} furigana={furigana} />
+                  <TextoJapones
+                    ja={fila.ja}
+                    furigana={furigana}
+                    resaltar={delaFila(fila.ja)}
+                  />
                   <textarea
                     className={`${estiloCampo} text-sm`}
                     rows={2}
                     value={fila.es}
                     onChange={(e) => traducir(fila.ja, e.target.value)}
                     placeholder="Lo que significa esta frase…"
+                  />
+                  <ComodinesFila
+                    frase={fila.ja}
+                    comodines={comodinesDelTexto.filter(
+                      (c) => c.frase === fila.ja,
+                    )}
+                    onAgregar={(palabra, significado) =>
+                      agregar({
+                        palabra,
+                        significado,
+                        frase: fila.ja,
+                        origen: "karaoke",
+                        titulo: actual.titulo.trim() || "Sin título",
+                      })
+                    }
+                    onQuitar={quitar}
                   />
                 </div>
               </li>
@@ -830,9 +847,9 @@ export default function KaraokeEditor() {
             />
           </div>
 
-          {comodines.length > 0 && (
+          {comodinesDelTexto.length > 0 && (
             <p className="font-mono text-sm text-violet-300">
-              Comodín: {comodines.join("、")}
+              Comodín: {comodinesDelTexto.map((c) => c.palabra).join("、")}
             </p>
           )}
 
@@ -867,6 +884,7 @@ export default function KaraokeEditor() {
                       furigana={furigana}
                       className="text-xl"
                       claseFurigana="text-[0.55em]"
+                      resaltar={delaFila(fila.ja)}
                     />
                     {verMia && fila.es.trim() && (
                       <span className="text-sm">{fila.es}</span>
@@ -1010,7 +1028,11 @@ export default function KaraokeEditor() {
                       {String(indice + 1).padStart(2, "0")}
                     </span>
                     <div className="flex flex-1 flex-col gap-3">
-                      <TextoJapones ja={fila.ja} furigana={furigana} />
+                      <TextoJapones
+                        ja={fila.ja}
+                        furigana={furigana}
+                        resaltar={delaFila(fila.ja)}
+                      />
                       <div className="grid gap-3 md:grid-cols-2">
                         <div className="flex flex-col gap-1 rounded-md border border-zinc-700 p-3">
                           <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
