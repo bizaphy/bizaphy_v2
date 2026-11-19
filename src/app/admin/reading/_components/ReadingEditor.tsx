@@ -212,6 +212,23 @@ export default function ReadingEditor() {
   const traducir = (ja: string, es: string) =>
     setTraducciones((anteriores) => ({ ...anteriores, [ja]: es }));
 
+  // Borra solo las traducciones de las filas del texto abierto: las de los
+  // otros textos del almacen y el comodin se mantienen.
+  const resetearTraducciones = () => {
+    if (
+      !confirm(
+        `¿Borrar las ${traducidas} traducciones escritas de este texto? No se puede deshacer.`,
+      )
+    ) {
+      return;
+    }
+    setTraducciones((anteriores) => {
+      const nuevas = { ...anteriores };
+      for (const fila of filas) delete nuevas[fila.ja];
+      return nuevas;
+    });
+  };
+
   const copiar = async () => {
     try {
       await navigator.clipboard.writeText(exportacion);
@@ -449,12 +466,22 @@ export default function ReadingEditor() {
             )}
           </div>
 
-          <div className="self-end rounded-md border border-dashed border-zinc-700 px-3 py-2">
-            <Interruptor
-              label="Furigana"
-              activo={furigana}
-              onToggle={() => setFurigana((activo) => !activo)}
-            />
+          <div className="flex flex-wrap items-center justify-end gap-3">
+            <button
+              type="button"
+              disabled={traducidas === 0}
+              onClick={resetearTraducciones}
+              className={`${estiloBotonChico} cursor-pointer hover:border-red-500 disabled:cursor-not-allowed disabled:opacity-40`}
+            >
+              Reset traducciones
+            </button>
+            <div className="rounded-md border border-dashed border-zinc-700 px-3 py-2">
+              <Interruptor
+                label="Furigana"
+                activo={furigana}
+                onToggle={() => setFurigana((activo) => !activo)}
+              />
+            </div>
           </div>
 
           {filas.length === 0 && (
