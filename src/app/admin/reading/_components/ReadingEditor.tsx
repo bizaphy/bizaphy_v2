@@ -3,12 +3,21 @@
 import { type ChangeEvent, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Interruptor from "@/components/ui/Interruptor";
+import { quitarFurigana } from "@/lib/furigana";
 import {
-  furiganaEntreParentesis,
-  parsearFurigana,
-  quitarFurigana,
-} from "@/lib/furigana";
-import type { FilaReading, Reading } from "@/shared/types/reading";
+  ComodinesDelTexto,
+  ComodinesFila,
+} from "../../_compartido/ComodinesUI";
+import { useComodines } from "../../_compartido/comodines";
+import TextoJapones from "../../_compartido/TextoJapones";
+import {
+  armarExportacion,
+  armarFilas,
+  cortarEnPuntos,
+  estiloBotonChico,
+  estiloBotonPrincipal,
+  estiloCampo,
+} from "../../_compartido/frases";
 import { ALMACEN, type TextoAlmacen } from "../_data/almacen";
 
 // ─── Plantilla del editor de reading ───
@@ -28,114 +37,9 @@ const PASOS: { id: Paso; label: string }[] = [
 
 const CLAVE_BORRADOR = "reading-borrador";
 
-// ─── Estilos compartidos ───
-const estiloCampo =
-  "rounded-md border border-zinc-700 bg-zinc-800 px-3 py-2 text-base text-zinc-100 outline-none transition focus:border-fuchsia-500";
-const estiloBotonChico =
-  "rounded-md border border-zinc-700 bg-zinc-800 px-2.5 py-1 text-xs text-zinc-300 transition hover:border-fuchsia-500 hover:text-white";
-const estiloBotonPrincipal =
-  "rounded-md bg-fuchsia-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-fuchsia-500";
-
-// Cada linea no vacia del texto es una fila. La traduccion se busca por el
-// texto de la linea (no por indice): asi, si vuelves al paso 1 y agregas o
-// cortas filas, las traducciones de las demas no se desordenan.
-function armarFilas(
-  texto: string,
-  traducciones: Record<string, string>,
-): FilaReading[] {
-  return texto
-    .split("\n")
-    .map((linea) => linea.trim())
-    .filter(Boolean)
-    .map((ja) => ({ ja, es: traducciones[ja] ?? "" }));
-}
-
-// Salto de linea despues de 。！？. No corta dentro de una cita
-// (「行く？」と聞いた queda junta), si ya hay salto o al final del texto.
-function cortarEnPuntos(texto: string): string {
-  return texto.replace(/([。！？!?])(?![」』）)\n]|$)/g, "$1\n");
-}
-
-// "会議, 効果的、途切れ" -> ["会議", "効果的", "途切れ"]. Acepta la coma
-// normal y las japonesas (、，) para no tener que cambiar de teclado.
-function separarComodines(texto: string): string[] {
-  return texto
-    .split(/[,、，]/)
-    .map((palabra) => palabra.trim())
-    .filter(Boolean);
-}
-
-function armarExportacion(
-  reading: Reading,
-  opciones: { instrucciones: boolean; lectura: boolean },
-): string {
-  const lineas: string[] = [];
-
-  if (opciones.instrucciones) {
-    lineas.push(
-      "Revisa mi traducción de este texto japonés al español.",
-      "Para cada fila, dime si la traducción es correcta. Si no lo es, explica el error",
-      "(vocabulario, gramática, matiz u orden) y propone una versión corregida.",
-      "Al final, evalúa la traducción completa como texto continuo.",
-      "",
-    );
-  }
-
-  lineas.push(`# ${reading.titulo || "Sin título"}`);
-  if (reading.fuente) lineas.push(`Fuente: ${reading.fuente}`);
-  if (reading.comodines.length > 0) {
-    lineas.push(`Comodín (palabras que no sé): ${reading.comodines.join("、")}`);
-  }
-  lineas.push("");
-
-  reading.filas.forEach((fila, indice) => {
-    lineas.push(`## Fila ${indice + 1}`);
-    lineas.push(`JA: ${quitarFurigana(fila.ja)}`);
-    if (opciones.lectura && fila.ja !== quitarFurigana(fila.ja)) {
-      lineas.push(`Lectura: ${furiganaEntreParentesis(fila.ja)}`);
-    }
-    lineas.push(`ES: ${fila.es.trim() || "(sin traducir)"}`, "");
-  });
-
-  lineas.push(
-    "## Texto completo (original)",
-    reading.filas.map((fila) => quitarFurigana(fila.ja)).join("\n"),
-    "",
-    "## Texto completo (mi traducción)",
-    reading.filas.map((fila) => fila.es.trim() || "(sin traducir)").join("\n"),
-  );
-
-  return lineas.join("\n");
-}
-
-// ─── Fila en japones con furigana opcional ───
-// leading amplio: el <rt> ocupa espacio sobre la linea (igual que en
-// KanjiExampleSentence). Sin furigana el <rt> se oculta pero el alto de
-// linea se mantiene, asi la vista no salta al usar el interruptor.
-function TextoJapones({ ja, furigana }: { ja: string; furigana: boolean }) {
-  return (
-    <p className="font-mono text-[26px] leading-[2.2] text-zinc-100 lg:text-[31px]">
-      {parsearFurigana(ja).map((segmento, indice) =>
-        segmento.lectura ? (
-          // biome-ignore lint/suspicious/noArrayIndexKey: los segmentos no tienen id propio
-          <ruby key={indice}>
-            {segmento.texto}
-            <rt
-              className={`text-base text-violet-300/80 ${furigana ? "" : "invisible"}`}
-            >
-              {segmento.lectura}
-            </rt>
-          </ruby>
-        ) : (
-          // biome-ignore lint/suspicious/noArrayIndexKey: los segmentos no tienen id propio
-          <span key={indice}>{segmento.texto}</span>
-        ),
-      )}
-    </p>
-  );
-}
-
 export default function ReadingEditor() {
+  // Va primero: al cargar migra el comodin viejo que estaba en el borrador
+  const { comodines, agregar, quitar } = useComodines();
   const [paso, setPaso] = useState<Paso>("almacen");
   const [titulo, setTitulo] = useState("");
   const [fuente, setFuente] = useState("");
@@ -143,9 +47,6 @@ export default function ReadingEditor() {
   const [traducciones, setTraducciones] = useState<Record<string, string>>(
     {},
   );
-  // Comodin de cada texto, guardado por titulo: el texto tal cual lo
-  // escribes ("会議, 効果的"). Se separa en palabras recien al mostrarlo.
-  const [comodines, setComodines] = useState<Record<string, string>>({});
   const [furigana, setFurigana] = useState(true);
   const [conInstrucciones, setConInstrucciones] = useState(true);
   const [conLectura, setConLectura] = useState(false);
@@ -163,7 +64,6 @@ export default function ReadingEditor() {
         setFuente(borrador.fuente ?? "");
         setTexto(borrador.texto ?? "");
         setTraducciones(borrador.traducciones ?? {});
-        setComodines(borrador.comodines ?? {});
       }
     } catch {}
     setCargado(true);
@@ -174,15 +74,20 @@ export default function ReadingEditor() {
     try {
       localStorage.setItem(
         CLAVE_BORRADOR,
-        JSON.stringify({ titulo, fuente, texto, traducciones, comodines }),
+        JSON.stringify({ titulo, fuente, texto, traducciones }),
       );
     } catch {}
-  }, [cargado, titulo, fuente, texto, traducciones, comodines]);
+  }, [cargado, titulo, fuente, texto, traducciones]);
 
   const filas = armarFilas(texto, traducciones);
   const traducidas = filas.filter((fila) => fila.es.trim()).length;
-  const claveComodin = titulo.trim() || "sin título";
-  const comodinActual = comodines[claveComodin] ?? "";
+  // Comodines de este texto: los que se anotaron en alguna de sus filas
+  const frasesDelTexto = new Set(filas.map((fila) => fila.ja));
+  const comodinesDelTexto = comodines.filter((c) =>
+    frasesDelTexto.has(c.frase),
+  );
+  const delaFila = (ja: string) =>
+    comodinesDelTexto.filter((c) => c.frase === ja);
 
   // Traduccion real: solo existe para textos del almacen. Se arma un mapa
   // fila -> traduccion (no por indice), asi sigue cuadrando aunque en el
@@ -197,7 +102,7 @@ export default function ReadingEditor() {
     });
   }
   const exportacion = armarExportacion(
-    { titulo, fuente, comodines: separarComodines(comodinActual), filas },
+    { titulo, fuente, comodines: comodinesDelTexto.map((c) => c.palabra), filas },
     { instrucciones: conInstrucciones, lectura: conLectura },
   );
 
@@ -254,7 +159,6 @@ export default function ReadingEditor() {
     setFuente("");
     setTexto("");
     setTraducciones({});
-    setComodines({});
     setPaso("texto");
   };
 
@@ -330,8 +234,9 @@ export default function ReadingEditor() {
           {ALMACEN.map((item) => {
             const filasItem = armarFilas(item.texto, traducciones);
             const hechas = filasItem.filter((fila) => fila.es.trim()).length;
-            const totalComodines = separarComodines(
-              comodines[item.titulo] ?? "",
+            const frasesItem = new Set(filasItem.map((fila) => fila.ja));
+            const totalComodines = comodines.filter((c) =>
+              frasesItem.has(c.frase),
             ).length;
             const abierto = item.texto === texto;
             return (
@@ -433,38 +338,8 @@ export default function ReadingEditor() {
       {/* ─── Paso 2: fila por fila ─── */}
       {paso === "filas" && (
         <section className="flex flex-col gap-4">
-          {/* Comodin: palabras que no se, separadas por comas */}
-          <div className="flex flex-col gap-3 rounded-lg border border-violet-500/40 bg-zinc-900/60 p-4">
-            <label className="flex flex-col gap-1.5">
-              <span className="font-mono text-xs tracking-widest text-violet-300 uppercase">
-                Comodín
-              </span>
-              <input
-                className={estiloCampo}
-                value={comodinActual}
-                onChange={(e) =>
-                  setComodines((anteriores) => ({
-                    ...anteriores,
-                    [claveComodin]: e.target.value,
-                  }))
-                }
-                placeholder="Palabras que no sabes, separadas por comas: 会議, 効果的…"
-              />
-            </label>
-            {separarComodines(comodinActual).length > 0 && (
-              <ul className="flex flex-wrap gap-2">
-                {separarComodines(comodinActual).map((palabra, indice) => (
-                  <li
-                    // biome-ignore lint/suspicious/noArrayIndexKey: la misma palabra puede repetirse
-                    key={indice}
-                    className="rounded-md border border-violet-500/40 bg-violet-500/10 px-2.5 py-1 font-mono text-base text-violet-100"
-                  >
-                    {palabra}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+          {/* Comodin: palabras que te costaron, cada una con su frase */}
+          <ComodinesDelTexto comodines={comodinesDelTexto} />
 
           <div className="flex flex-wrap items-center justify-end gap-3">
             <button
@@ -503,13 +378,31 @@ export default function ReadingEditor() {
                   {String(indice + 1).padStart(2, "0")}
                 </span>
                 <div className="flex flex-1 flex-col gap-2">
-                  <TextoJapones ja={fila.ja} furigana={furigana} />
+                  <TextoJapones
+                    ja={fila.ja}
+                    furigana={furigana}
+                    resaltar={delaFila(fila.ja).map((c) => c.palabra)}
+                  />
                   <textarea
                     className={`${estiloCampo} text-sm`}
                     rows={2}
                     value={fila.es}
                     onChange={(e) => traducir(fila.ja, e.target.value)}
                     placeholder="Lo que significa esta fila…"
+                  />
+                  <ComodinesFila
+                    frase={fila.ja}
+                    comodines={delaFila(fila.ja)}
+                    onAgregar={(palabra, significado) =>
+                      agregar({
+                        palabra,
+                        significado,
+                        frase: fila.ja,
+                        origen: "reading",
+                        titulo: titulo.trim() || "Sin título",
+                      })
+                    }
+                    onQuitar={quitar}
                   />
                 </div>
               </li>
@@ -597,7 +490,11 @@ export default function ReadingEditor() {
                       {String(indice + 1).padStart(2, "0")}
                     </span>
                     <div className="flex flex-1 flex-col gap-3">
-                      <TextoJapones ja={fila.ja} furigana={furigana} />
+                      <TextoJapones
+                        ja={fila.ja}
+                        furigana={furigana}
+                        resaltar={delaFila(fila.ja).map((c) => c.palabra)}
+                      />
                       <div className="grid gap-3 md:grid-cols-2">
                         <div className="flex flex-col gap-1 rounded-md border border-zinc-700 p-3">
                           <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
