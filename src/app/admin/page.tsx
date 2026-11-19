@@ -33,6 +33,12 @@ export default async function AdminPage() {
             Formatear, traducir y exportar textos
           </span>
         </Link>
+        <Link href="/admin/karaoke" className={estiloTarjeta}>
+          <span className="font-semibold">Karaoke</span>
+          <span className="text-sm text-zinc-400">
+            Letras con video, tiempos y traducción
+          </span>
+        </Link>
       </nav>
     </main>
   );
