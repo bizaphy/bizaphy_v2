@@ -1,14 +1,26 @@
 "use client";
 
-import { type ChangeEvent, useEffect, useState } from "react";
+import { type ChangeEvent, useMemo, useState } from "react";
 import { toast } from "sonner";
 import Interruptor from "@/components/ui/Interruptor";
 import { quitarFurigana } from "@/lib/furigana";
+import {
+  guardarBorradorReading,
+  guardarTraduccionesReading,
+} from "@/server/actions/reading";
+import type { Comodin } from "@/shared/types/comodin";
+import type { BorradorReading } from "@/shared/types/reading";
+import {
+  IndicadorGuardado,
+  peorEstado,
+  useAutoguardado,
+} from "../../_compartido/autoguardado";
 import {
   ComodinesDelTexto,
   ComodinesFila,
 } from "../../_compartido/ComodinesUI";
 import { useComodines } from "../../_compartido/comodines";
+import { useSubidaDelNavegador } from "../../_compartido/subidaDelNavegador";
 import TextoJapones from "../../_compartido/TextoJapones";
 import {
   armarExportacion,
@@ -20,10 +32,9 @@ import {
 } from "../../_compartido/frases";
 import { ALMACEN, type TextoAlmacen } from "../_data/almacen";
 
-// ─── Plantilla del editor de reading ───
-// Todavia sin base de datos: el borrador vive en localStorage del navegador.
-// Cuando la plantilla convenza, `Reading` pasa a una tabla y esto a una
-// server action (mismo camino que el blog).
+// ─── Editor de reading ───
+// El texto abierto, las traducciones y los comodines viven en la base: la
+// pagina los lee en el servidor y el editor los autoguarda al cambiar.
 
 type Paso = "almacen" | "texto" | "filas" | "exportar" | "real";
 
@@ -35,49 +46,60 @@ const PASOS: { id: Paso; label: string }[] = [
   { id: "real", label: "4 · Traducción real" },
 ];
 
-const CLAVE_BORRADOR = "reading-borrador";
-
-export default function ReadingEditor() {
-  // Va primero: al cargar migra el comodin viejo que estaba en el borrador
-  const { comodines, agregar, quitar } = useComodines();
+export default function ReadingEditor({
+  borradorInicial,
+  traduccionesIniciales,
+  comodinesIniciales,
+}: {
+  borradorInicial: BorradorReading;
+  traduccionesIniciales: Record<string, string>;
+  comodinesIniciales: Comodin[];
+}) {
+  useSubidaDelNavegador();
+  const {
+    comodines,
+    agregar,
+    quitar,
+    estado: estadoComodines,
+  } = useComodines(comodinesIniciales);
   const [paso, setPaso] = useState<Paso>("almacen");
-  const [titulo, setTitulo] = useState("");
-  const [fuente, setFuente] = useState("");
-  const [texto, setTexto] = useState("");
-  const [traducciones, setTraducciones] = useState<Record<string, string>>(
-    {},
-  );
+  const [titulo, setTitulo] = useState(borradorInicial.titulo);
+  const [fuente, setFuente] = useState(borradorInicial.fuente);
+  const [texto, setTexto] = useState(borradorInicial.texto);
+  const [traducciones, setTraducciones] = useState(traduccionesIniciales);
   const [furigana, setFurigana] = useState(true);
   const [conInstrucciones, setConInstrucciones] = useState(true);
   const [conLectura, setConLectura] = useState(false);
-  const [cargado, setCargado] = useState(false);
 
-  // Borrador: se lee al montar (no en el render, para no romper la
-  // hidratacion) y se guarda en cada cambio. localStorage puede fallar
-  // (modo privado, cuota llena): en ese caso solo se pierde el borrador.
-  useEffect(() => {
-    try {
-      const guardado = localStorage.getItem(CLAVE_BORRADOR);
-      if (guardado) {
-        const borrador = JSON.parse(guardado);
-        setTitulo(borrador.titulo ?? "");
-        setFuente(borrador.fuente ?? "");
-        setTexto(borrador.texto ?? "");
-        setTraducciones(borrador.traducciones ?? {});
-      }
-    } catch {}
-    setCargado(true);
-  }, []);
-
-  useEffect(() => {
-    if (!cargado) return;
-    try {
-      localStorage.setItem(
-        CLAVE_BORRADOR,
-        JSON.stringify({ titulo, fuente, texto, traducciones }),
-      );
-    } catch {}
-  }, [cargado, titulo, fuente, texto, traducciones]);
+  // Autoguardado: el texto abierto va como una sola entrada ("unico") y
+  // las traducciones por linea. Una traduccion vacia cuenta como borrada.
+  const borradorActual = useMemo(
+    () => ({ unico: { titulo, fuente, texto } }),
+    [titulo, fuente, texto],
+  );
+  const [borradorGuardado] = useState(() => ({ unico: borradorInicial }));
+  const traduccionesActuales = useMemo(
+    () =>
+      Object.fromEntries(
+        Object.entries(traducciones).filter(([, es]) => es.trim() !== ""),
+      ),
+    [traducciones],
+  );
+  const estadoBorrador = useAutoguardado(
+    borradorActual,
+    borradorGuardado,
+    guardarBorradorReading,
+  );
+  const estadoTraducciones = useAutoguardado(
+    traduccionesActuales,
+    traduccionesIniciales,
+    guardarTraduccionesReading,
+  );
+  const estado = peorEstado(
+    estadoBorrador,
+    estadoTraducciones,
+    estadoComodines,
+  );
 
   const filas = armarFilas(texto, traducciones);
   const traducidas = filas.filter((fila) => fila.es.trim()).length;
@@ -223,8 +245,9 @@ export default function ReadingEditor() {
             {p.label}
           </button>
         ))}
-        <span className="ml-auto font-mono text-xs text-zinc-500">
+        <span className="ml-auto flex flex-col items-end gap-0.5 font-mono text-xs text-zinc-500">
           {traducidas}/{filas.length} filas traducidas
+          <IndicadorGuardado estado={estado} />
         </span>
       </div>
 

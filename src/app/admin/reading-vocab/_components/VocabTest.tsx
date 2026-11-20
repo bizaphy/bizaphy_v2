@@ -4,7 +4,9 @@ import { type ChangeEvent, useEffect, useState } from "react";
 import { toast } from "sonner";
 import { barajar } from "@/lib/barajar";
 import type { Comodin, OrigenComodin } from "@/shared/types/comodin";
+import { IndicadorGuardado } from "../../_compartido/autoguardado";
 import { mismoComodin, useComodines } from "../../_compartido/comodines";
+import { useSubidaDelNavegador } from "../../_compartido/subidaDelNavegador";
 import {
   estiloBotonChico,
   estiloBotonPrincipal,
@@ -44,8 +46,14 @@ function Origen({ comodin }: { comodin: Comodin }) {
   );
 }
 
-export default function VocabTest() {
-  const { comodines, setComodines, quitar, editar } = useComodines();
+export default function VocabTest({
+  comodinesIniciales,
+}: {
+  comodinesIniciales: Comodin[];
+}) {
+  useSubidaDelNavegador();
+  const { comodines, setComodines, quitar, editar, estado } =
+    useComodines(comodinesIniciales);
   const [vista, setVista] = useState<Vista>("test");
 
   // Configuracion del test
@@ -133,9 +141,25 @@ export default function VocabTest() {
       const nuevos = validos.filter(
         (c) => !comodines.some((otro) => mismoComodin(otro, c)),
       );
+      // Se completan los campos que falten: la base rechaza un comodin a
+      // medias y eso trabaria el autoguardado
       setComodines((anteriores) => [
         ...anteriores,
-        ...nuevos.map((c) => ({ ...c, id: crypto.randomUUID() })),
+        ...nuevos.map(
+          (c): Comodin => ({
+            id: crypto.randomUUID(),
+            palabra: c.palabra,
+            lectura: typeof c.lectura === "string" ? c.lectura : "",
+            significado:
+              typeof c.significado === "string" ? c.significado : "",
+            frase: c.frase,
+            origen: c.origen === "karaoke" ? "karaoke" : "reading",
+            titulo: typeof c.titulo === "string" ? c.titulo : "",
+            creado: new Date(c.creado ?? Date.now()).toISOString(),
+            aciertos: Number.isInteger(c.aciertos) ? c.aciertos : 0,
+            fallos: Number.isInteger(c.fallos) ? c.fallos : 0,
+          }),
+        ),
       ]);
       toast.success(
         `${nuevos.length} comodines importados${
@@ -198,8 +222,9 @@ export default function VocabTest() {
             {v.label}
           </button>
         ))}
-        <span className="ml-auto font-mono text-xs text-zinc-500">
+        <span className="ml-auto flex flex-col items-end gap-0.5 font-mono text-xs text-zinc-500">
           {comodines.length} comodines
+          <IndicadorGuardado estado={estado} />
         </span>
       </div>
 

@@ -2,7 +2,9 @@
 // donde aparecio para no perder el contexto. La anotan reading y karaoke,
 // y la repasa el reading-vocab test.
 
-export type OrigenComodin = "reading" | "karaoke";
+// Valores del enum de la base (src/server/db/schema/reading.ts)
+export const ORIGENES_COMODIN = ["reading", "karaoke"] as const;
+export type OrigenComodin = (typeof ORIGENES_COMODIN)[number];
 
 export type Comodin = {
   id: string;
