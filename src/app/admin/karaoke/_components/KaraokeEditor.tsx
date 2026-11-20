@@ -4,18 +4,30 @@ import {
   type ChangeEvent,
   useCallback,
   useEffect,
+  useMemo,
   useRef,
   useState,
 } from "react";
 import { toast } from "sonner";
 import Interruptor from "@/components/ui/Interruptor";
 import { quitarFurigana } from "@/lib/furigana";
+import { guardarCanciones } from "@/server/actions/reading";
+import type { Comodin } from "@/shared/types/comodin";
 import type { Cancion } from "@/shared/types/karaoke";
+import {
+  IndicadorGuardado,
+  peorEstado,
+  useAutoguardado,
+} from "../../_compartido/autoguardado";
 import {
   ComodinesDelTexto,
   ComodinesFila,
 } from "../../_compartido/ComodinesUI";
 import { useComodines } from "../../_compartido/comodines";
+import {
+  CLAVE_CANCION_ABIERTA,
+  useSubidaDelNavegador,
+} from "../../_compartido/subidaDelNavegador";
 import TextoJapones from "../../_compartido/TextoJapones";
 import {
   armarExportacion,
@@ -37,7 +49,7 @@ import Reproductor from "./Reproductor";
 // ─── Karaoke: reading con video ───
 // Mismo flujo que reading (letra -> filas -> traducir -> exportar ->
 // comparar), mas un video local y el tiempo de salida de cada fila.
-// Sin base de datos todavia: las canciones viven en localStorage. El video
+// Las canciones y los comodines viven en la base y se autoguardan. El video
 // no se guarda: es una URL temporal del archivo que eliges en el PC.
 
 type Paso =
@@ -61,8 +73,6 @@ const PASOS: { id: Paso; label: string }[] = [
 
 // Pasos donde se ve el video
 const CON_VIDEO: Paso[] = ["tiempos", "frases", "karaoke"];
-
-const CLAVE_CANCIONES = "karaoke-canciones";
 
 function cancionNueva(): Cancion {
   return {
@@ -95,13 +105,26 @@ function descargarArchivo(contenido: string, nombre: string, tipo: string) {
   URL.revokeObjectURL(url);
 }
 
-export default function KaraokeEditor() {
-  // Va primero: al cargar migra el comodin viejo de cada cancion
-  const { comodines, agregar, quitar } = useComodines();
+export default function KaraokeEditor({
+  cancionesIniciales,
+  comodinesIniciales,
+}: {
+  cancionesIniciales: Cancion[];
+  comodinesIniciales: Comodin[];
+}) {
+  useSubidaDelNavegador();
+  const {
+    comodines,
+    agregar,
+    quitar,
+    estado: estadoComodines,
+  } = useComodines(comodinesIniciales);
   const [paso, setPaso] = useState<Paso>("canciones");
-  const [canciones, setCanciones] = useState<Cancion[]>([]);
-  const [idActual, setIdActual] = useState("");
-  const [cargado, setCargado] = useState(false);
+  // Siempre hay una cancion abierta: si no hay ninguna, una en blanco
+  const [canciones, setCanciones] = useState<Cancion[]>(() =>
+    cancionesIniciales.length > 0 ? cancionesIniciales : [cancionNueva()],
+  );
+  const [idActual, setIdActual] = useState(canciones[0].id);
 
   // Video temporal: URL del archivo elegido, solo mientras la pagina este
   // abierta. `ahora` va en decimas para no re-renderizar en cada frame.
@@ -119,35 +142,45 @@ export default function KaraokeEditor() {
   const [textoReal, setTextoReal] = useState("");
   const listaKaraokeRef = useRef<HTMLOListElement>(null);
 
-  // Canciones: se leen al montar (no en el render, para no romper la
-  // hidratacion) y se guardan en cada cambio. Siempre hay una abierta.
+  // Autoguardado de las canciones, por id. Una cancion en blanco (sin
+  // titulo, fuente ni letra) no se guarda: la recien creada entra a la base
+  // cuando escribes algo, y si dejas una en blanco se borra de la base.
+  const cancionesActuales = useMemo(
+    () =>
+      Object.fromEntries(
+        canciones
+          .filter((c) => c.titulo || c.fuente || c.texto)
+          .map((c) => [c.id, c]),
+      ),
+    [canciones],
+  );
+  const [cancionesGuardadas] = useState(() =>
+    Object.fromEntries(cancionesIniciales.map((c) => [c.id, c])),
+  );
+  const estadoCanciones = useAutoguardado(
+    cancionesActuales,
+    cancionesGuardadas,
+    guardarCanciones,
+  );
+  const estado = peorEstado(estadoCanciones, estadoComodines);
+
+  // La cancion abierta se recuerda en este navegador (es solo una
+  // preferencia de vista, no hace falta en la base). Se lee solo al montar.
+  // biome-ignore lint/correctness/useExhaustiveDependencies: solo al montar
   useEffect(() => {
-    let guardadas: Cancion[] = [];
-    let abierta = "";
     try {
-      const guardado = localStorage.getItem(CLAVE_CANCIONES);
-      if (guardado) {
-        const datos = JSON.parse(guardado);
-        guardadas = datos.canciones ?? [];
-        abierta = datos.idActual ?? "";
+      const abierta = localStorage.getItem(CLAVE_CANCION_ABIERTA);
+      if (abierta && canciones.some((c) => c.id === abierta)) {
+        setIdActual(abierta);
       }
     } catch {}
-    if (guardadas.length === 0) guardadas = [cancionNueva()];
-    if (!guardadas.some((c) => c.id === abierta)) abierta = guardadas[0].id;
-    setCanciones(guardadas);
-    setIdActual(abierta);
-    setCargado(true);
   }, []);
 
   useEffect(() => {
-    if (!cargado) return;
     try {
-      localStorage.setItem(
-        CLAVE_CANCIONES,
-        JSON.stringify({ canciones, idActual }),
-      );
+      localStorage.setItem(CLAVE_CANCION_ABIERTA, idActual);
     } catch {}
-  }, [cargado, canciones, idActual]);
+  }, [idActual]);
 
   // La URL temporal se libera al cambiar de video o salir de la pagina.
   // Va en un ref y no en el cleanup de un efecto con [urlVideo]: en modo
@@ -538,6 +571,8 @@ export default function KaraokeEditor() {
         <span className="ml-auto font-mono text-xs text-zinc-500">
           {traducidas}/{filas.length} traducidas ·{" "}
           {tiempos.filter((t) => t !== null).length}/{filas.length} con tiempo
+          <br />
+          <IndicadorGuardado estado={estado} />
         </span>
       </div>
 

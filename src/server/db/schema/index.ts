@@ -6,3 +6,4 @@ export * from "./kanji";
 export * from "./auth";
 export * from "./plan";
 export * from "./post";
+export * from "./reading";

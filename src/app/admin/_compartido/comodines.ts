@@ -1,16 +1,15 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
-import { lecturaDe, quitarFurigana } from "@/lib/furigana";
+import { useCallback, useMemo, useState } from "react";
+import { lecturaDe } from "@/lib/furigana";
+import { guardarComodines } from "@/server/actions/reading";
 import type { Comodin, OrigenComodin } from "@/shared/types/comodin";
-import { ALMACEN } from "../reading/_data/almacen";
-import { armarFilas, separarComodines } from "./frases";
+import { useAutoguardado } from "./autoguardado";
 
 // ─── Almacen de palabras comodin ───
 // Uno solo para reading y karaoke, asi el reading-vocab test las repasa
-// todas juntas. Vive en localStorage hasta que exista la tabla.
-
-const CLAVE = "reading-vocab";
+// todas juntas. Vive en la tabla `comodin`: la pagina lo lee en el servidor
+// y lo pasa como `iniciales`; cada cambio se autoguarda.
 
 export type NuevoComodin = {
   palabra: string;
@@ -40,97 +39,15 @@ export function mismoComodin(a: Comodin, b: Comodin): boolean {
   return a.palabra === b.palabra && a.frase === b.frase;
 }
 
-// Antes el comodin era una lista escrita a mano ("会議, 効果的") por texto.
-// Cada palabra vieja se pasa al almacen con la primera frase del texto que
-// la contiene, y la lista vieja se borra para no migrarla dos veces.
-function migrarViejos(): Comodin[] {
-  const migrados: Comodin[] = [];
-  const pasar = (
-    lista: string,
-    texto: string,
-    origen: OrigenComodin,
-    titulo: string,
-  ) => {
-    const frases = armarFilas(texto, {}).map((fila) => fila.ja);
-    for (const palabra of separarComodines(lista)) {
-      const frase =
-        frases.find((ja) => quitarFurigana(ja).includes(palabra)) ?? "";
-      migrados.push(crearComodin({ palabra, significado: "", frase, origen, titulo }));
-    }
-  };
-
-  try {
-    const reading = JSON.parse(localStorage.getItem("reading-borrador") ?? "null");
-    if (reading?.comodines) {
-      for (const [titulo, lista] of Object.entries<string>(reading.comodines)) {
-        const texto =
-          ALMACEN.find((item) => item.titulo === titulo)?.texto ??
-          (reading.titulo === titulo ? reading.texto : "");
-        pasar(lista, texto ?? "", "reading", titulo);
-      }
-      delete reading.comodines;
-      localStorage.setItem("reading-borrador", JSON.stringify(reading));
-    }
-  } catch {}
-
-  try {
-    const karaoke = JSON.parse(localStorage.getItem("karaoke-canciones") ?? "null");
-    if (karaoke?.canciones?.some((c: { comodin?: string }) => c.comodin)) {
-      for (const cancion of karaoke.canciones) {
-        if (cancion.comodin) {
-          pasar(cancion.comodin, cancion.texto ?? "", "karaoke", cancion.titulo ?? "");
-        }
-        delete cancion.comodin;
-      }
-      localStorage.setItem("karaoke-canciones", JSON.stringify(karaoke));
-    }
-  } catch {}
-
-  return migrados;
+function porId(lista: Comodin[]): Record<string, Comodin> {
+  return Object.fromEntries(lista.map((c) => [c.id, c]));
 }
 
-export function useComodines() {
-  const [comodines, setComodines] = useState<Comodin[]>([]);
-  const [cargado, setCargado] = useState(false);
-
-  // Se lee al montar (no en el render, para no romper la hidratacion).
-  // Si otra pestaña cambia el almacen (por ejemplo el test abierto al lado
-  // del reading), se recarga solo.
-  useEffect(() => {
-    const leer = () => {
-      try {
-        return JSON.parse(localStorage.getItem(CLAVE) ?? "[]") as Comodin[];
-      } catch {
-        return [];
-      }
-    };
-    // Lo migrado se guarda de inmediato: en modo estricto este efecto corre dos
-    // veces y la segunda ya no encuentra las listas viejas.
-    const guardados = leer();
-    const migrados = migrarViejos().filter(
-      (nuevo) => !guardados.some((c) => mismoComodin(c, nuevo)),
-    );
-    if (migrados.length > 0) {
-      try {
-        localStorage.setItem(CLAVE, JSON.stringify([...guardados, ...migrados]));
-      } catch {}
-    }
-    setComodines([...guardados, ...migrados]);
-    setCargado(true);
-
-    const alCambiarAfuera = (evento: StorageEvent) => {
-      if (evento.key === CLAVE) setComodines(leer());
-    };
-    window.addEventListener("storage", alCambiarAfuera);
-    return () => window.removeEventListener("storage", alCambiarAfuera);
-  }, []);
-
-  useEffect(() => {
-    if (!cargado) return;
-    try {
-      localStorage.setItem(CLAVE, JSON.stringify(comodines));
-    } catch {}
-  }, [cargado, comodines]);
+export function useComodines(iniciales: Comodin[]) {
+  const [comodines, setComodines] = useState(iniciales);
+  const [inicialesPorId] = useState(() => porId(iniciales));
+  const actuales = useMemo(() => porId(comodines), [comodines]);
+  const estado = useAutoguardado(actuales, inicialesPorId, guardarComodines);
 
   // Devuelve false si ese comodin ya estaba
   const agregar = useCallback(
@@ -157,5 +74,5 @@ export function useComodines() {
     [],
   );
 
-  return { comodines, setComodines, agregar, quitar, editar };
+  return { comodines, setComodines, agregar, quitar, editar, estado };
 }

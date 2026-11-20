@@ -1,8 +1,11 @@
 import { requireAdminPage } from "@/server/auth/guards";
+import { obtenerComodines } from "@/server/services/comodines";
 import VocabTest from "./_components/VocabTest";
 
 export default async function AdminReadingVocabPage() {
   await requireAdminPage();
+
+  const comodines = await obtenerComodines();
 
   return (
     <main className="mx-auto w-full max-w-4xl space-y-6 px-4 py-10">
@@ -13,7 +16,7 @@ export default async function AdminReadingVocabPage() {
           cada una dentro de la frase donde te costó.
         </p>
       </div>
-      <VocabTest />
+      <VocabTest comodinesIniciales={comodines} />
     </main>
   );
 }

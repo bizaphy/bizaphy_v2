@@ -1,8 +1,15 @@
 import { requireAdminPage } from "@/server/auth/guards";
+import { obtenerComodines } from "@/server/services/comodines";
+import { obtenerCanciones } from "@/server/services/karaoke";
 import KaraokeEditor from "./_components/KaraokeEditor";
 
 export default async function AdminKaraokePage() {
   await requireAdminPage();
+
+  const [canciones, comodines] = await Promise.all([
+    obtenerCanciones(),
+    obtenerComodines(),
+  ]);
 
   return (
     <main className="mx-auto w-full max-w-4xl space-y-6 px-4 py-10">
@@ -13,7 +20,10 @@ export default async function AdminKaraokePage() {
           cuándo sale cada frase y tradúcela mientras suena.
         </p>
       </div>
-      <KaraokeEditor />
+      <KaraokeEditor
+        cancionesIniciales={canciones}
+        comodinesIniciales={comodines}
+      />
     </main>
   );
 }
