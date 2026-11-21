@@ -31,6 +31,7 @@ import {
   estiloCampo,
 } from "../../_compartido/frases";
 import { ALMACEN, type TextoAlmacen } from "../_data/almacen";
+import { type Palabra, vocabularioDe } from "../_data/vocabulario";
 
 // ─── Editor de reading ───
 // El texto abierto, las traducciones y los comodines viven en la base: la
@@ -117,10 +118,15 @@ export default function ReadingEditor({
   const delAlmacen =
     ALMACEN.find((item) => item.titulo === titulo) ??
     ALMACEN.find((item) => item.texto === texto);
+  // El vocabulario desglosado se cuadra por fila igual que la traduccion.
   const traduccionReal: Record<string, string> = {};
+  const vocabularioReal: Record<string, Palabra[]> = {};
   if (delAlmacen) {
+    const vocabulario = vocabularioDe(delAlmacen.titulo);
     armarFilas(delAlmacen.texto, {}).forEach((fila, indice) => {
       traduccionReal[fila.ja] = delAlmacen.traduccion[indice];
+      const palabras = vocabulario?.[indice];
+      if (palabras?.length) vocabularioReal[fila.ja] = palabras;
     });
   }
   const exportacion = armarExportacion(
@@ -538,6 +544,26 @@ export default function ReadingEditor({
                           </p>
                         </div>
                       </div>
+                      {vocabularioReal[fila.ja] && (
+                        <div className="flex flex-col gap-2 rounded-md border border-zinc-700 p-3">
+                          <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
+                            Vocabulario desglosado
+                          </span>
+                          <ul className="grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+                            {vocabularioReal[fila.ja].map((p) => (
+                              <li key={p.palabra} className="text-sm">
+                                <span className="text-zinc-100">{p.palabra}</span>
+                                {furigana && p.lectura && (
+                                  <span className="ml-1.5 text-xs text-zinc-500">
+                                    {p.lectura}
+                                  </span>
+                                )}
+                                <span className="text-zinc-400"> — {p.significado}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </div>
                   </li>
                 ))}
