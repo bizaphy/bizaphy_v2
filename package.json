@@ -13,11 +13,13 @@
     "screenshots:prod": "tsx scripts/screenshots.ts  https://bizaphy.dev",
     "neonna:ascii": "tsx scripts/neonna-ascii.ts",
     "db:push": "drizzle-kit push",
+    "db:push:prod": "drizzle-kit push --config=drizzle.prod.config.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "db:seed-kanjis": "tsx scripts/seed-kanjis.ts",
-    "db:export-kanjis": "tsx scripts/export-kanjis.ts"
+    "db:export-kanjis": "tsx scripts/export-kanjis.ts",
+    "db:copiar-reading-a-prod": "tsx scripts/copiar-reading-a-prod.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
