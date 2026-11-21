@@ -48,9 +48,9 @@ export default function AboutThisPage() {
   const knobRotation = useOxanium ? 30 : -30;
 
   return (
-    <div className="relative overflow-hidden rounded-lg border border-zinc-700 bg-zinc-900">
+    <div className="relative overflow-hidden rounded-lg border border-zinc-700 bg-black">
       {/* placa superior tipo panel de amplificador */}
-      <div className="flex items-center justify-between border-b border-zinc-700 bg-zinc-900 px-4 py-2">
+      <div className="flex items-center justify-between border-b border-zinc-700 bg-black px-4 py-2">
         <div className="flex items-center gap-3">
           <Screw />
           <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
@@ -238,7 +238,7 @@ export default function AboutThisPage() {
       </div>
 
       {/* pie con tornillos + "modelo" */}
-      <div className="flex items-center justify-between border-t border-zinc-700 bg-zinc-900 px-4 py-1.5">
+      <div className="flex items-center justify-between border-t border-zinc-700 bg-black px-4 py-1.5">
         <Screw />
         <span className="font-mono text-[8px] uppercase tracking-[0.4em] text-zinc-700">
           neon · drizzle · next 16

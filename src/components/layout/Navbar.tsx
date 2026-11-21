@@ -3,37 +3,37 @@ import AccountButton from "../ui/AccountButton";
 import ThemeToggle from "../ui/ThemeToggle";
 
 export default function Navbar() {
-  return (
-    <nav className="neon-nav flex flex-wrap items-center gap-y-3 border-b border-fuchsia-500 px-6 py-4">
-      <Link
-        href="/"
-        className="neon-link flex items-center gap-2 font-bold tracking-widest"
-      >
-        <span className="neon-led inline-block h-2 w-2 rounded-full bg-fuchsia-500" />
-        bizaphy
-      </Link>
-      <div className="ml-auto flex items-center gap-3 sm:gap-5">
-        <Link href="/about-me" className="neon-link">
-          <span className="text-fuchsia-500">&gt;</span>
-          About me
-        </Link>
+	return (
+		<nav className="neon-nav flex flex-wrap items-center gap-y-3 border-b border-fuchsia-500 px-6 py-4">
+			<Link
+				href="/"
+				className="neon-link flex items-center gap-2 font-bold tracking-widest"
+			>
+				<span className="neon-led inline-block h-2 w-2 rounded-full bg-fuchsia-500" />
+				bizaphy
+			</Link>
+			<div className="ml-auto flex items-center gap-3 sm:gap-5">
+				<Link href="/about-me" className="neon-link">
+					<span className="text-fuchsia-500">&gt;</span>
+					@bout me
+				</Link>
 
-        <Link href="/blog" className="neon-link">
-          <span className="text-fuchsia-500">&gt;</span>
-          Blog
-        </Link>
+				<Link href="/blog" className="neon-link">
+					<span className="text-fuchsia-500">&gt;</span>
+					blog
+				</Link>
 
-        <Link href="/projects" className="neon-link">
-          <span className="text-fuchsia-500">&gt;</span>
-          Projects
-        </Link>
+				<Link href="/projects" className="neon-link">
+					<span className="text-fuchsia-500">&gt;</span>
+					projects
+				</Link>
 
-        {/* Modo oscuro neon / modo claro pastel */}
-        <ThemeToggle />
+				{/* Modo oscuro neon / modo claro pastel */}
+				<ThemeToggle />
 
-        {/* Cuenta al estilo buddy icon de MSN. Lleva a la futura pagina de auth. */}
-        <AccountButton />
-      </div>
-    </nav>
-  );
+				{/* Cuenta al estilo buddy icon de MSN. Lleva a la futura pagina de auth. */}
+				<AccountButton />
+			</div>
+		</nav>
+	);
 }

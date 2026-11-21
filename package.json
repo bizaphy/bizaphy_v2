@@ -19,7 +19,8 @@
     "db:studio": "drizzle-kit studio",
     "db:seed-kanjis": "tsx scripts/seed-kanjis.ts",
     "db:export-kanjis": "tsx scripts/export-kanjis.ts",
-    "db:copiar-reading-a-prod": "tsx scripts/copiar-reading-a-prod.ts"
+    "db:copiar-reading-a-prod": "tsx scripts/copiar-reading-a-prod.ts",
+    "compendio:iconos": "tsx scripts/descargar-iconos-compendio.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

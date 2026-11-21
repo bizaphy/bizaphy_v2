@@ -38,7 +38,7 @@ export default function FraseDelDia() {
   const isPlaceholder = frase.imagen === PLACEHOLDER_IMAGE;
 
   return (
-    <div className="rounded-xl border border-zinc-700 bg-zinc-900 flex">
+    <div className="rounded-xl border border-zinc-700 bg-black flex">
       <div className="flex items-center justify-center px-3 border-r border-zinc-700">
         <span className="font-mono text-xs tracking-widest text-zinc-500 [writing-mode:vertical-rl] rotate-180">
           FRASE DEL DIA

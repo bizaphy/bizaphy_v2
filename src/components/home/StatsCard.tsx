@@ -19,7 +19,7 @@ export default function StatsCard({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/projects"
-      className={`group flex flex-col rounded-xl border border-fuchsia-500/60 bg-zinc-900 px-6 py-4 transition duration-300 hover:border-fuchsia-400 hover:shadow-[0_0_20px_rgba(217,70,239,0.35)] ${className}`}
+      className={`group flex flex-col rounded-xl border border-fuchsia-500/60 bg-black px-6 py-4 transition duration-300 hover:border-fuchsia-400 hover:shadow-[0_0_20px_rgba(217,70,239,0.35)] ${className}`}
     >
       <div className="flex items-center justify-between gap-4">
         <span className="text-sm text-zinc-400 transition group-hover:text-fuchsia-300 group-hover:drop-shadow-[0_0_6px_rgba(217,70,239,0.6)]">

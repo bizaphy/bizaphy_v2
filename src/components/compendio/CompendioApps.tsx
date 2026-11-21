@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { CATEGORIAS, TOTAL_APPS, type Licencia } from "./apps";
+import { ICONOS } from "./iconos";
 
 //colores del badge segun licencia (todos dentro de la paleta fucsia/violeta/zinc)
 const LICENCIA_CLASES: Record<Licencia, string> = {
@@ -85,12 +87,24 @@ export default function CompendioApps() {
                     className="group flex h-full flex-col gap-3 rounded-xl border border-violet-300/20 bg-zinc-950/60 p-5 transition duration-300 hover:-translate-y-0.5 hover:border-violet-300 hover:shadow-[0_0_24px_rgba(196,181,253,0.3)]"
                   >
                     <div className="flex items-start gap-3">
-                      {/* Monograma con la inicial en vez de logos de marca */}
+                      {/* Logo de la app (descargado con npm run compendio:iconos);
+                          si no hay, la inicial */}
                       <span
                         aria-hidden
-                        className="flex size-10 shrink-0 items-center justify-center rounded-lg border border-fuchsia-500/40 bg-zinc-900 font-mono text-lg font-bold text-fuchsia-300 transition group-hover:border-fuchsia-400 group-hover:drop-shadow-[0_0_8px_rgba(217,70,239,0.5)]"
+                        className="relative flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-fuchsia-500/40 bg-zinc-900 font-mono text-lg font-bold text-fuchsia-300 transition group-hover:border-fuchsia-400 group-hover:drop-shadow-[0_0_8px_rgba(217,70,239,0.5)]"
                       >
-                        {app.nombre[0]}
+                        {ICONOS[app.nombre] ? (
+                          <Image
+                            src={ICONOS[app.nombre]}
+                            alt=""
+                            width={28}
+                            height={28}
+                            className="size-7 object-contain"
+                            unoptimized
+                          />
+                        ) : (
+                          app.nombre[0]
+                        )}
                       </span>
                       <div className="flex min-w-0 flex-col gap-1">
                         <h3 className="font-bold tracking-wide text-white transition group-hover:text-violet-200">
