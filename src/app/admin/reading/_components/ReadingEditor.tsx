@@ -207,371 +207,384 @@ export default function ReadingEditor({
   };
 
   return (
-    <div className="flex flex-col gap-6">
-      {/* Datos del reading */}
-      <div className="grid gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5 sm:grid-cols-2">
-        <label className="flex flex-col gap-1.5 text-sm text-zinc-300">
-          Título
-          <input
-            className={estiloCampo}
-            value={titulo}
-            onChange={(e) => setTitulo(e.target.value)}
-            maxLength={160}
-          />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-zinc-300">
-          Fuente (URL o referencia)
-          <input
-            className={estiloCampo}
-            value={fuente}
-            onChange={(e) => setFuente(e.target.value)}
-          />
-        </label>
-      </div>
-
-      {/* Pasos */}
-      <div
-        role="tablist"
+    <div className="flex flex-col gap-6 lg:flex-row lg:items-start">
+      {/* Pasos: barra lateral flotante (arriba en pantallas chicas). Queda
+          fija al hacer scroll para saltar entre pasos sin volver arriba. */}
+      <nav
         aria-label="Pasos del reading"
-        className="flex flex-wrap items-center gap-2 border-b border-zinc-800"
+        className="sticky top-0 z-30 -mx-4 border-b border-zinc-800 bg-zinc-950/90 px-4 backdrop-blur lg:top-6 lg:mx-0 lg:w-56 lg:shrink-0 lg:rounded-xl lg:border lg:p-3"
       >
-        {PASOS.map((p) => (
-          <button
-            key={p.id}
-            type="button"
-            role="tab"
-            aria-selected={paso === p.id}
-            onClick={() => setPaso(p.id)}
-            className={`-mb-px border-b-2 px-4 py-2 font-mono text-sm tracking-widest uppercase transition ${
-              paso === p.id
-                ? "border-fuchsia-400 text-fuchsia-200"
-                : "border-transparent text-zinc-500 hover:text-violet-300"
-            }`}
-          >
-            {p.label}
-          </button>
-        ))}
-        <span className="ml-auto flex flex-col items-end gap-0.5 font-mono text-xs text-zinc-500">
+        <div
+          role="tablist"
+          className="flex gap-1 overflow-x-auto lg:flex-col lg:overflow-visible"
+        >
+          {PASOS.map((p) => (
+            <button
+              key={p.id}
+              type="button"
+              role="tab"
+              aria-selected={paso === p.id}
+              onClick={() => setPaso(p.id)}
+              className={`shrink-0 border-b-2 px-3 py-2 text-left font-mono text-sm tracking-widest whitespace-nowrap uppercase transition lg:rounded-md lg:border-b-0 lg:border-l-2 ${
+                paso === p.id
+                  ? "border-fuchsia-400 text-fuchsia-200 lg:bg-fuchsia-500/10"
+                  : "border-transparent text-zinc-500 hover:text-violet-300"
+              }`}
+            >
+              {p.label}
+            </button>
+          ))}
+        </div>
+        <span className="mt-3 hidden flex-col gap-0.5 border-t border-zinc-800 pt-3 font-mono text-xs text-zinc-500 lg:flex">
           {traducidas}/{filas.length} filas traducidas
           <IndicadorGuardado estado={estado} />
         </span>
-      </div>
+      </nav>
 
-      {/* ─── Almacen: textos guardados ─── */}
-      {paso === "almacen" && (
-        <section className="grid gap-3 sm:grid-cols-2">
-          {ALMACEN.map((item) => {
-            const filasItem = armarFilas(item.texto, traducciones);
-            const hechas = filasItem.filter((fila) => fila.es.trim()).length;
-            const frasesItem = new Set(filasItem.map((fila) => fila.ja));
-            const totalComodines = comodines.filter((c) =>
-              frasesItem.has(c.frase),
-            ).length;
-            const abierto = item.texto === texto;
-            return (
-              <button
-                key={item.titulo}
-                type="button"
-                onClick={() => abrirDelAlmacen(item)}
-                className={`flex flex-col gap-2 rounded-xl border bg-zinc-900 p-4 text-left transition hover:border-fuchsia-500 ${
-                  abierto ? "border-fuchsia-500/60" : "border-zinc-800"
-                }`}
-              >
-                <span className="flex items-center justify-between gap-2">
-                  <span className="font-semibold text-zinc-100">
-                    {item.titulo}
-                  </span>
-                  <span
-                    className={`font-mono text-xs ${
-                      hechas === filasItem.length
-                        ? "text-violet-300"
-                        : "text-zinc-500"
-                    }`}
-                  >
-                    {hechas}/{filasItem.length}
-                  </span>
-                </span>
-                <span className="line-clamp-2 font-mono text-sm text-zinc-400">
-                  {quitarFurigana(filasItem[0]?.ja ?? "")}
-                </span>
-                {totalComodines > 0 && (
-                  <span className="font-mono text-xs text-violet-300">
-                    {totalComodines} en el comodín
-                  </span>
-                )}
-                {abierto && (
-                  <span className="font-mono text-[10px] tracking-widest text-fuchsia-300 uppercase">
-                    abierto en el editor
-                  </span>
-                )}
-              </button>
-            );
-          })}
-        </section>
-      )}
+      <div className="flex min-w-0 flex-1 flex-col gap-6">
+        {/* Progreso y guardado (en pantallas grandes van en la barra) */}
+        <span className="flex items-center justify-between font-mono text-xs text-zinc-500 lg:hidden">
+          {traducidas}/{filas.length} filas traducidas
+          <IndicadorGuardado estado={estado} />
+        </span>
 
-      {/* ─── Paso 1: texto crudo ─── */}
-      {paso === "texto" && (
-        <section className="flex flex-col gap-4">
-          <div className="flex flex-wrap items-center gap-2">
-            <label className={`${estiloBotonChico} cursor-pointer`}>
-              Subir .txt / .md
-              <input
-                type="file"
-                accept=".txt,.md,text/plain"
-                onChange={subirArchivo}
-                className="hidden"
-              />
-            </label>
-            <button
-              type="button"
-              className={estiloBotonChico}
-              onClick={() => setTexto(cortarEnPuntos(texto))}
-            >
-              Cortar en 。！？
-            </button>
-            <button
-              type="button"
-              className={`${estiloBotonChico} ml-auto hover:border-red-500`}
-              onClick={descartar}
-            >
-              Descartar borrador
-            </button>
-          </div>
-
-          <p className="text-sm text-zinc-400">
-            Cada línea es una fila. Furigana:{" "}
-            <code className="text-violet-300">[漢字|かんじ]</code>. Las líneas
-            vacías se ignoran.
-          </p>
-
-          <textarea
-            className={`${estiloCampo} font-mono leading-relaxed`}
-            rows={18}
-            value={texto}
-            onChange={(e) => setTexto(e.target.value)}
-            placeholder="Pega o sube el texto en japonés…"
-          />
-
-          <button
-            type="button"
-            className={`${estiloBotonPrincipal} self-end`}
-            onClick={() => setPaso("filas")}
-            disabled={filas.length === 0}
-          >
-            Ir a las filas →
-          </button>
-        </section>
-      )}
-
-      {/* ─── Paso 2: fila por fila ─── */}
-      {paso === "filas" && (
-        <section className="flex flex-col gap-4">
-          {/* Comodin: palabras que te costaron, cada una con su frase */}
-          <ComodinesDelTexto comodines={comodinesDelTexto} />
-
-          <div className="flex flex-wrap items-center justify-end gap-3">
-            <button
-              type="button"
-              disabled={traducidas === 0}
-              onClick={resetearTraducciones}
-              className={`${estiloBotonChico} cursor-pointer hover:border-red-500 disabled:cursor-not-allowed disabled:opacity-40`}
-            >
-              Reset traducciones
-            </button>
-            <div className="rounded-md border border-dashed border-zinc-700 px-3 py-2">
-              <Interruptor
-                label="Furigana"
-                activo={furigana}
-                onToggle={() => setFurigana((activo) => !activo)}
-              />
-            </div>
-          </div>
-
-          {filas.length === 0 && (
-            <p className="py-6 text-center text-sm text-zinc-400">
-              No hay filas. Escribe o sube un texto en el paso 1.
-            </p>
-          )}
-
-          <ol className="flex flex-col gap-3">
-            {filas.map((fila, indice) => (
-              <li
-                // biome-ignore lint/suspicious/noArrayIndexKey: dos filas pueden tener el mismo texto
-                key={indice}
-                className={`flex gap-3 rounded-lg border bg-zinc-900/60 p-4 ${
-                  fila.es.trim() ? "border-zinc-700" : "border-fuchsia-500/40"
-                }`}
-              >
-                <span className="pt-3 font-mono text-xs text-zinc-500">
-                  {String(indice + 1).padStart(2, "0")}
-                </span>
-                <div className="flex flex-1 flex-col gap-2">
-                  <TextoJapones
-                    ja={fila.ja}
-                    furigana={furigana}
-                    resaltar={delaFila(fila.ja).map((c) => c.palabra)}
-                  />
-                  <textarea
-                    className={`${estiloCampo} text-sm`}
-                    rows={2}
-                    value={fila.es}
-                    onChange={(e) => traducir(fila.ja, e.target.value)}
-                    placeholder="Lo que significa esta fila…"
-                  />
-                  <ComodinesFila
-                    frase={fila.ja}
-                    comodines={delaFila(fila.ja)}
-                    onAgregar={(palabra, significado) =>
-                      agregar({
-                        palabra,
-                        significado,
-                        frase: fila.ja,
-                        origen: "reading",
-                        titulo: titulo.trim() || "Sin título",
-                      })
-                    }
-                    onQuitar={quitar}
-                  />
-                </div>
-              </li>
-            ))}
-          </ol>
-
-          {filas.length > 0 && (
-            <button
-              type="button"
-              className={`${estiloBotonPrincipal} self-end`}
-              onClick={() => setPaso("exportar")}
-            >
-              Exportar →
-            </button>
-          )}
-        </section>
-      )}
-
-      {/* ─── Paso 3: exportar ─── */}
-      {paso === "exportar" && (
-        <section className="flex flex-col gap-4">
-          <div className="flex flex-wrap items-center gap-4 rounded-md border border-dashed border-zinc-700 px-3 py-2">
-            <Interruptor
-              label="Instrucciones IA"
-              activo={conInstrucciones}
-              onToggle={() => setConInstrucciones((activo) => !activo)}
+        {/* Datos del reading */}
+        <div className="grid gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5 sm:grid-cols-2">
+          <label className="flex flex-col gap-1.5 text-sm text-zinc-300">
+            Título
+            <input
+              className={estiloCampo}
+              value={titulo}
+              onChange={(e) => setTitulo(e.target.value)}
+              maxLength={160}
             />
-            <Interruptor
-              label="Lectura"
-              activo={conLectura}
-              onToggle={() => setConLectura((activo) => !activo)}
+          </label>
+          <label className="flex flex-col gap-1.5 text-sm text-zinc-300">
+            Fuente (URL o referencia)
+            <input
+              className={estiloCampo}
+              value={fuente}
+              onChange={(e) => setFuente(e.target.value)}
             />
-            <div className="ml-auto flex gap-2">
-              <button type="button" className={estiloBotonChico} onClick={copiar}>
-                Copiar
-              </button>
+          </label>
+        </div>
+
+        {/* ─── Almacen: textos guardados ─── */}
+        {paso === "almacen" && (
+          <section className="grid gap-3 sm:grid-cols-2">
+            {ALMACEN.map((item) => {
+              const filasItem = armarFilas(item.texto, traducciones);
+              const hechas = filasItem.filter((fila) => fila.es.trim()).length;
+              const frasesItem = new Set(filasItem.map((fila) => fila.ja));
+              const totalComodines = comodines.filter((c) =>
+                frasesItem.has(c.frase),
+              ).length;
+              const abierto = item.texto === texto;
+              return (
+                <button
+                  key={item.titulo}
+                  type="button"
+                  onClick={() => abrirDelAlmacen(item)}
+                  className={`flex flex-col gap-2 rounded-xl border bg-zinc-900 p-4 text-left transition hover:border-fuchsia-500 ${
+                    abierto ? "border-fuchsia-500/60" : "border-zinc-800"
+                  }`}
+                >
+                  <span className="flex items-center justify-between gap-2">
+                    <span className="font-semibold text-zinc-100">
+                      {item.titulo}
+                    </span>
+                    <span
+                      className={`font-mono text-xs ${
+                        hechas === filasItem.length
+                          ? "text-violet-300"
+                          : "text-zinc-500"
+                      }`}
+                    >
+                      {hechas}/{filasItem.length}
+                    </span>
+                  </span>
+                  <span className="line-clamp-2 font-mono text-sm text-zinc-400">
+                    {quitarFurigana(filasItem[0]?.ja ?? "")}
+                  </span>
+                  {totalComodines > 0 && (
+                    <span className="font-mono text-xs text-violet-300">
+                      {totalComodines} en el comodín
+                    </span>
+                  )}
+                  {abierto && (
+                    <span className="font-mono text-[10px] tracking-widest text-fuchsia-300 uppercase">
+                      abierto en el editor
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </section>
+        )}
+
+        {/* ─── Paso 1: texto crudo ─── */}
+        {paso === "texto" && (
+          <section className="flex flex-col gap-4">
+            <div className="flex flex-wrap items-center gap-2">
+              <label className={`${estiloBotonChico} cursor-pointer`}>
+                Subir .txt / .md
+                <input
+                  type="file"
+                  accept=".txt,.md,text/plain"
+                  onChange={subirArchivo}
+                  className="hidden"
+                />
+              </label>
               <button
                 type="button"
                 className={estiloBotonChico}
-                onClick={descargar}
+                onClick={() => setTexto(cortarEnPuntos(texto))}
               >
-                Descargar .txt
+                Cortar en 。！？
+              </button>
+              <button
+                type="button"
+                className={`${estiloBotonChico} ml-auto hover:border-red-500`}
+                onClick={descartar}
+              >
+                Descartar borrador
               </button>
             </div>
-          </div>
 
-          {traducidas < filas.length && (
-            <p className="text-sm text-fuchsia-300">
-              Faltan {filas.length - traducidas} filas por traducir: saldrán
-              como &quot;(sin traducir)&quot;.
+            <p className="text-sm text-zinc-400">
+              Cada línea es una fila. Furigana:{" "}
+              <code className="text-violet-300">[漢字|かんじ]</code>. Las líneas
+              vacías se ignoran.
             </p>
-          )}
 
-          <pre className="max-h-[70vh] overflow-auto rounded-xl border border-zinc-800 bg-zinc-950 p-5 font-mono text-sm leading-relaxed whitespace-pre-wrap text-zinc-300">
-            {exportacion}
-          </pre>
-        </section>
-      )}
+            <textarea
+              className={`${estiloCampo} font-mono leading-relaxed`}
+              rows={18}
+              value={texto}
+              onChange={(e) => setTexto(e.target.value)}
+              placeholder="Pega o sube el texto en japonés…"
+            />
 
-      {/* ─── Paso 4: traduccion real, al lado de la tuya ─── */}
-      {paso === "real" && (
-        <section className="flex flex-col gap-4">
-          {!delAlmacen ? (
-            <p className="py-6 text-center text-sm text-zinc-400">
-              La traducción real solo existe para los textos del Almacén.
-            </p>
-          ) : (
-            <>
-              <div className="self-end rounded-md border border-dashed border-zinc-700 px-3 py-2">
+            <button
+              type="button"
+              className={`${estiloBotonPrincipal} self-end`}
+              onClick={() => setPaso("filas")}
+              disabled={filas.length === 0}
+            >
+              Ir a las filas →
+            </button>
+          </section>
+        )}
+
+        {/* ─── Paso 2: fila por fila ─── */}
+        {paso === "filas" && (
+          <section className="flex flex-col gap-4">
+            {/* Comodin: palabras que te costaron, cada una con su frase */}
+            <ComodinesDelTexto comodines={comodinesDelTexto} />
+
+            <div className="flex flex-wrap items-center justify-end gap-3">
+              <button
+                type="button"
+                disabled={traducidas === 0}
+                onClick={resetearTraducciones}
+                className={`${estiloBotonChico} cursor-pointer hover:border-red-500 disabled:cursor-not-allowed disabled:opacity-40`}
+              >
+                Reset traducciones
+              </button>
+              <div className="rounded-md border border-dashed border-zinc-700 px-3 py-2">
                 <Interruptor
                   label="Furigana"
                   activo={furigana}
                   onToggle={() => setFurigana((activo) => !activo)}
                 />
               </div>
+            </div>
 
-              <ol className="flex flex-col gap-3">
-                {filas.map((fila, indice) => (
-                  <li
-                    // biome-ignore lint/suspicious/noArrayIndexKey: dos filas pueden tener el mismo texto
-                    key={indice}
-                    className="flex gap-3 rounded-lg border border-zinc-700 bg-zinc-900/60 p-4"
-                  >
-                    <span className="pt-3 font-mono text-xs text-zinc-500">
-                      {String(indice + 1).padStart(2, "0")}
-                    </span>
-                    <div className="flex flex-1 flex-col gap-3">
-                      <TextoJapones
-                        ja={fila.ja}
-                        furigana={furigana}
-                        resaltar={delaFila(fila.ja).map((c) => c.palabra)}
-                      />
-                      <div className="grid gap-3 md:grid-cols-2">
-                        <div className="flex flex-col gap-1 rounded-md border border-zinc-700 p-3">
-                          <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
-                            Tu traducción
-                          </span>
-                          <p
-                            className={`text-sm ${fila.es.trim() ? "text-zinc-200" : "text-zinc-600 italic"}`}
-                          >
-                            {fila.es.trim() || "(sin traducir)"}
-                          </p>
+            {filas.length === 0 && (
+              <p className="py-6 text-center text-sm text-zinc-400">
+                No hay filas. Escribe o sube un texto en el paso 1.
+              </p>
+            )}
+
+            <ol className="flex flex-col gap-3">
+              {filas.map((fila, indice) => (
+                <li
+                  // biome-ignore lint/suspicious/noArrayIndexKey: dos filas pueden tener el mismo texto
+                  key={indice}
+                  className={`flex gap-3 rounded-lg border bg-zinc-900/60 p-4 ${
+                    fila.es.trim() ? "border-zinc-700" : "border-fuchsia-500/40"
+                  }`}
+                >
+                  <span className="pt-3 font-mono text-xs text-zinc-500">
+                    {String(indice + 1).padStart(2, "0")}
+                  </span>
+                  <div className="flex flex-1 flex-col gap-2">
+                    <TextoJapones
+                      ja={fila.ja}
+                      furigana={furigana}
+                      resaltar={delaFila(fila.ja).map((c) => c.palabra)}
+                    />
+                    <textarea
+                      className={`${estiloCampo} text-sm`}
+                      rows={2}
+                      value={fila.es}
+                      onChange={(e) => traducir(fila.ja, e.target.value)}
+                      placeholder="Lo que significa esta fila…"
+                    />
+                    <ComodinesFila
+                      frase={fila.ja}
+                      comodines={delaFila(fila.ja)}
+                      onAgregar={(palabra, significado) =>
+                        agregar({
+                          palabra,
+                          significado,
+                          frase: fila.ja,
+                          origen: "reading",
+                          titulo: titulo.trim() || "Sin título",
+                        })
+                      }
+                      onQuitar={quitar}
+                    />
+                  </div>
+                </li>
+              ))}
+            </ol>
+
+            {filas.length > 0 && (
+              <button
+                type="button"
+                className={`${estiloBotonPrincipal} self-end`}
+                onClick={() => setPaso("exportar")}
+              >
+                Exportar →
+              </button>
+            )}
+          </section>
+        )}
+
+        {/* ─── Paso 3: exportar ─── */}
+        {paso === "exportar" && (
+          <section className="flex flex-col gap-4">
+            <div className="flex flex-wrap items-center gap-4 rounded-md border border-dashed border-zinc-700 px-3 py-2">
+              <Interruptor
+                label="Instrucciones IA"
+                activo={conInstrucciones}
+                onToggle={() => setConInstrucciones((activo) => !activo)}
+              />
+              <Interruptor
+                label="Lectura"
+                activo={conLectura}
+                onToggle={() => setConLectura((activo) => !activo)}
+              />
+              <div className="ml-auto flex gap-2">
+                <button type="button" className={estiloBotonChico} onClick={copiar}>
+                  Copiar
+                </button>
+                <button
+                  type="button"
+                  className={estiloBotonChico}
+                  onClick={descargar}
+                >
+                  Descargar .txt
+                </button>
+              </div>
+            </div>
+
+            {traducidas < filas.length && (
+              <p className="text-sm text-fuchsia-300">
+                Faltan {filas.length - traducidas} filas por traducir: saldrán
+                como &quot;(sin traducir)&quot;.
+              </p>
+            )}
+
+            <pre className="max-h-[70vh] overflow-auto rounded-xl border border-zinc-800 bg-zinc-950 p-5 font-mono text-sm leading-relaxed whitespace-pre-wrap text-zinc-300">
+              {exportacion}
+            </pre>
+          </section>
+        )}
+
+        {/* ─── Paso 4: traduccion real, al lado de la tuya ─── */}
+        {paso === "real" && (
+          <section className="flex flex-col gap-4">
+            {!delAlmacen ? (
+              <p className="py-6 text-center text-sm text-zinc-400">
+                La traducción real solo existe para los textos del Almacén.
+              </p>
+            ) : (
+              <>
+                <div className="self-end rounded-md border border-dashed border-zinc-700 px-3 py-2">
+                  <Interruptor
+                    label="Furigana"
+                    activo={furigana}
+                    onToggle={() => setFurigana((activo) => !activo)}
+                  />
+                </div>
+
+                <ol className="flex flex-col gap-3">
+                  {filas.map((fila, indice) => (
+                    <li
+                      // biome-ignore lint/suspicious/noArrayIndexKey: dos filas pueden tener el mismo texto
+                      key={indice}
+                      className="flex gap-3 rounded-lg border border-zinc-700 bg-zinc-900/60 p-4"
+                    >
+                      <span className="pt-3 font-mono text-xs text-zinc-500">
+                        {String(indice + 1).padStart(2, "0")}
+                      </span>
+                      <div className="flex flex-1 flex-col gap-3">
+                        <TextoJapones
+                          ja={fila.ja}
+                          furigana={furigana}
+                          resaltar={delaFila(fila.ja).map((c) => c.palabra)}
+                        />
+                        <div className="grid gap-3 md:grid-cols-2">
+                          <div className="flex flex-col gap-1 rounded-md border border-zinc-700 p-3">
+                            <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
+                              Tu traducción
+                            </span>
+                            <p
+                              className={`text-sm ${fila.es.trim() ? "text-zinc-200" : "text-zinc-600 italic"}`}
+                            >
+                              {fila.es.trim() || "(sin traducir)"}
+                            </p>
+                          </div>
+                          <div className="flex flex-col gap-1 rounded-md border border-violet-500/40 bg-violet-500/5 p-3">
+                            <span className="font-mono text-[10px] tracking-widest text-violet-300 uppercase">
+                              Traducción real
+                            </span>
+                            <p className="text-sm text-violet-100">
+                              {traduccionReal[fila.ja] ?? "— (fila que no está en el original)"}
+                            </p>
+                          </div>
                         </div>
-                        <div className="flex flex-col gap-1 rounded-md border border-violet-500/40 bg-violet-500/5 p-3">
-                          <span className="font-mono text-[10px] tracking-widest text-violet-300 uppercase">
-                            Traducción real
-                          </span>
-                          <p className="text-sm text-violet-100">
-                            {traduccionReal[fila.ja] ?? "— (fila que no está en el original)"}
-                          </p>
-                        </div>
+                        {vocabularioReal[fila.ja] && (
+                          <div className="flex flex-col gap-2 rounded-md border border-zinc-700 p-3">
+                            <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
+                              Vocabulario desglosado
+                            </span>
+                            <ul className="grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+                              {vocabularioReal[fila.ja].map((p) => (
+                                <li key={p.palabra} className="text-sm">
+                                  <span className="text-zinc-100">{p.palabra}</span>
+                                  {furigana && p.lectura && (
+                                    <span className="ml-1.5 text-xs text-zinc-500">
+                                      {p.lectura}
+                                    </span>
+                                  )}
+                                  <span className="text-zinc-400"> — {p.significado}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                       </div>
-                      {vocabularioReal[fila.ja] && (
-                        <div className="flex flex-col gap-2 rounded-md border border-zinc-700 p-3">
-                          <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase">
-                            Vocabulario desglosado
-                          </span>
-                          <ul className="grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
-                            {vocabularioReal[fila.ja].map((p) => (
-                              <li key={p.palabra} className="text-sm">
-                                <span className="text-zinc-100">{p.palabra}</span>
-                                {furigana && p.lectura && (
-                                  <span className="ml-1.5 text-xs text-zinc-500">
-                                    {p.lectura}
-                                  </span>
-                                )}
-                                <span className="text-zinc-400"> — {p.significado}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </>
-          )}
-        </section>
-      )}
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+          </section>
+        )}
+      </div>
     </div>
   );
 }
